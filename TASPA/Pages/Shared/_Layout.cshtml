@@ -7,17 +7,29 @@
     <title>@ViewData["Title"] - TASPA</title>
 </head>
 <body>
-    <header class="center">
-        <h1>The Awesome Spanish Practice Application (TASPA)</h1>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <div class="main">
+        <div class="headerContainer">
+            <div class="main header right">
+                <div>search</div>
+            </div>
+            <div class="main header left">
+                <span class="menu">asefasefasefa</span>
+            </div>
+        </div>
+        
+        <header class="center">
+            <h1>The Awesome Spanish Practice Application (TASPA)</h1>
+        </header>
+        
+        <div>
+            <main>
+                @RenderBody()
+            </main>
+        </div>
 
-   <footer class="center">
-        <p>TASPA Footer</p>
-    </footer>
+        <footer class="center">
+            <p>TASPA Footer</p>
+        </footer>
+    </div>        
 </body>
 </html>

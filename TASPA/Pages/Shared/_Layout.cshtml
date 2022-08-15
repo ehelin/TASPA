@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="~/css/taspa.css" />
     <title>@ViewData["Title"] - TASPA</title>
 </head>
+<script type="text/javascript">
+    function SetNavMenu(show) {
+        var mnu = document.getElementById("navMenu");
+        var mnuExpd = document.getElementById("navMenuExpanded");
+
+        if (show == 1) {
+            mnu.style.display = 'none';
+            mnuExpd.style.display = 'block';
+        }
+        else if (show === 0) {
+            mnu.style.display = 'block';
+            mnuExpd.style.display = 'none';
+        }
+    }
+</script>
 <body>
     <div class="main">
         <div class="headerContainer">
@@ -13,7 +28,11 @@
                 <div>search</div>
             </div>
             <div class="main header left">
-                <div class="menu"></div>
+                <div class="menu" id="navMenu" onclick="SetNavMenu(1);"></div>
+                <div class="menuExpanded collasped" id="navMenuExpanded">
+                    <a href="" onclick="SetNavMenu(0);">close</a>
+                    <p class="center">nav menu</p>
+                </div> 
             </div>
         </div>
         
@@ -30,6 +49,6 @@
         <footer class="center">
             <p>TASPA Footer</p>
         </footer>
-    </div>   
+    </div>  
 </body>
 </html>

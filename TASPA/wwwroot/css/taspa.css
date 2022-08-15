@@ -2,14 +2,6 @@
     align-content: center;
 }
 
-.menu {
-    height: 25px;
-    width: 25px;
-    background-size: 25px;
-    background-image: url("../images/MenuHamburger.png");
-    background-repeat: no-repeat;
-}
-
 .headerContainer {
     display: block;
     height: 30px;
@@ -28,6 +20,23 @@
     vertical-align: middle;
     height: 50px;
     width: 50px;
+}
+
+.menu {
+    height: 25px;
+    width: 25px;
+    background-size: 25px;
+    background-image: url("../images/MenuHamburger.png");
+    background-repeat: no-repeat;
+}
+
+.menuExpanded {
+    height: 100%;
+    width: 100%;
+}
+
+.collasped {
+    display: none;
 }
 
 .center {

@@ -7,13 +7,20 @@
     <title>@ViewData["Title"] - TASPA</title>
 </head>
 <script type="text/javascript">
+    var skipExecution = false;
     function SetNavMenu(show) {
         var mnu = document.getElementById("navMenu");
         var mnuExpd = document.getElementById("navMenuExpanded");
 
+        if (skipExecution === true) {
+            skipExecution = false;
+            return;
+        }
+
         if (show == 1) {
             mnu.style.display = 'none';
             mnuExpd.style.display = 'block';
+            skipExecution = true;
         }
         else if (show === 0) {
             mnu.style.display = 'block';
@@ -22,10 +29,13 @@
     }
 </script>
 <body>
-    <div class="main">
+    <div class="main" onclick="SetNavMenu(0);">
         <div class="headerContainer">
             <div class="main header right">
-                <div>search</div>
+                <div>
+                <div class="search"></div>
+                <input />
+                </div>
             </div>
             <div class="main header left">
                 <div class="menu" id="navMenu" onclick="SetNavMenu(1);"></div>

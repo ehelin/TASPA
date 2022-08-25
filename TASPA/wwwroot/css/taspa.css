@@ -11,15 +11,16 @@
 .main.header.left {
     float: left;
     width: 10%;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 .main.header.right {
     float: right;
-    vertical-align: middle;
-    height: 50px;
-    width: 50px;
+    vertical-align: top;
+    height: 30px;
+    width: 300px;
+    border: solid black;
 }
 
 .menu {
@@ -28,6 +29,19 @@
     background-size: 25px;
     background-image: url("../images/MenuHamburger.png");
     background-repeat: no-repeat;
+    z-index: 1;
+}
+.search {
+    height: 25px;
+    width: 25px;
+    background-size: 25px;
+    background-image: url("../images/Search.png");
+    background-repeat: no-repeat;
+}
+
+.searchTerm {
+    padding-left: 50px;
+    border: solid black;
 }
 
 .menuExpanded {

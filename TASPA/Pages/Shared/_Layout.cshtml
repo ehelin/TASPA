@@ -27,14 +27,23 @@
             mnuExpd.style.display = 'none';
         }
     }
+    function Search(){
+        var searchTextBox = document.getElementById("searchTerm");
+        var searchTerm = searchTextBox.value;
+        alert("You clicked Search with term '" + searchTerm + "'");
+    }
 </script>
 <body>
     <div class="main" onclick="SetNavMenu(0);">
         <div class="headerContainer">
             <div class="main header right">
-                <div>
-                <div class="search"></div>
-                <input />
+                <div class="searchContainer">
+                    <div class="search right">
+                        <input id="searchTerm" />
+                    </div>
+                    <div class="search left">
+                        <div class="searchBtn" onclick="Search();"></div>
+                    </div>
                 </div>
             </div>
             <div class="main header left">

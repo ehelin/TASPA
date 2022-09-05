@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASPA", "TASPA\TASPA.csproj", "{7E32B1CC-91D8-4A69-93A4-929CB11720E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TASPA", "TASPA\TASPA.csproj", "{7E32B1CC-91D8-4A69-93A4-929CB11720E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387} = {5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{6E871E57-1B3B-4EEE-8819-C04EC498CA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{3EA674CE-2B83-463A-B290-A95EC2A811CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,18 @@ Global
 		{7E32B1CC-91D8-4A69-93A4-929CB11720E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E32B1CC-91D8-4A69-93A4-929CB11720E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E32B1CC-91D8-4A69-93A4-929CB11720E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F960E70-F5AB-49BD-A3DE-5EBF0D0DA387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E871E57-1B3B-4EEE-8819-C04EC498CA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E871E57-1B3B-4EEE-8819-C04EC498CA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E871E57-1B3B-4EEE-8819-C04EC498CA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E871E57-1B3B-4EEE-8819-C04EC498CA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA674CE-2B83-463A-B290-A95EC2A811CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA674CE-2B83-463A-B290-A95EC2A811CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA674CE-2B83-463A-B290-A95EC2A811CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA674CE-2B83-463A-B290-A95EC2A811CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

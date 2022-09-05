@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model IndexModel
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -35,8 +37,20 @@
     function Resize()
     {
         var width = window.innerWidth;
-        var height = window.innerHeight;
-        var test = 1;
+
+        if (width <= 768)
+        {
+            document.getElementById("mobileMenu").classList.remove('collasped');
+            document.getElementById("mobileMenu").classList.add('expanded');
+            document.getElementById("desktopMenu").classList.remove('expanded');
+            document.getElementById("desktopMenu").classList.add('collasped');
+        } 
+        else {
+            document.getElementById("mobileMenu").classList.remove('expanded');
+            document.getElementById("mobileMenu").classList.add('collasped');
+            document.getElementById("desktopMenu").classList.remove('collasped');
+            document.getElementById("desktopMenu").classList.add('expanded');
+        }
     }
 </script>
 <body onresize="Resize()">
@@ -53,13 +67,24 @@
                 </div>
             </div>
             <div class="main header left">
-                <div class="menu" id="navMenu" onclick="SetNavMenu(1);"></div>
-                <div class="menuExpanded collasped" id="navMenuExpanded">
-                    <a href="" onclick="SetNavMenu(0);">close</a>
-                    <br/>
-                    <a href="/Index">Home</a>
-                    <a href="/Verbs">Verbs</a>
-                </div> 
+                <div id="mobileMenu" class="collasped">
+                    <div class="menu" id="navMenu" onclick="SetNavMenu(1);"></div>
+                    <div class="menuExpanded collasped" id="navMenuExpanded">
+                        <a href="" onclick="SetNavMenu(0);">close</a>
+                        <br/>
+                        @foreach(var navigationLink in Model.NavigationLinks)
+                        {
+                            <br />
+                            <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
+                        }
+                    </div> 
+                </div>
+                <div id="desktopMenu" class="expanded">
+                    @foreach (var navigationLink in Model.NavigationLinks)
+                    {
+                        <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
+                    }
+                </div>
             </div>
         </div>
         

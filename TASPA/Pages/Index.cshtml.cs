@@ -1,20 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Shared.Dto;
+using Shared.Interfaces;
 
 namespace TASPA.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private ITaspaService taspaService;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public List<NavigationLink> NavigationLinks;
+
+        public IndexModel(ITaspaService taspaService)
         {
-            _logger = logger;
+            this.taspaService = taspaService;
         }
 
         public void OnGet()
         {
-
+            this.NavigationLinks = this.taspaService.GetNavigationLinks();
         }
     }
 }

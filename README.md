@@ -1,5 +1,5 @@
 # Taspa
-Simply stated, this repository is the my next learning application.  Like <a href="https://github.com/ehelin/TgimbaNetCoreCloudNative">The Globe In My BucketList Application (TGIMBA)</a> before, I create fun projects to learn different technologies.  This effort is to have a tool that better helps me learn Spanish.
+Simply stated, this repository is my next learning application.  Like <a href="https://github.com/ehelin/TgimbaNetCoreCloudNative">The Globe In My BucketList Application (TGIMBA)</a> before, I create fun projects to learn different technologies.  This effort is to have a tool that better helps me learn Spanish.
 <br/>
 ## Related Projects/Items
 

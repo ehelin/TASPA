@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="~/css/taspa.css" />
     <title>@ViewData["Title"] - TASPA</title>
+
+    <!-- Best location for these javascript imports?-->
+    <script src="@Url.Content("~/js/ServerCall.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/ServerCalls.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/Utilities.js")" type="text/javascript"></script>
+
 </head>
 <script type="text/javascript">
     var skipExecution = false;
@@ -79,7 +85,7 @@
                         }
                     </div> 
                 </div>
-                <div id="desktopMenu" class="expanded">
+                <div id="desktopMenu" class="desktopMenu expanded">
                     @foreach (var navigationLink in Model.NavigationLinks)
                     {
                         <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
@@ -88,17 +94,17 @@
             </div>
         </div>
         
-        <header class="center">
+        <header class="title center">
             <h1>The Awesome Spanish Practice Application (TASPA)</h1>
         </header>
         
-        <div>
+        <div class="panelContent">
             <main>
                 @RenderBody()
             </main>
         </div>
 
-        <footer class="center">
+        <footer class="footer center">
             <p>TASPA Footer</p>
         </footer>
     </div>  

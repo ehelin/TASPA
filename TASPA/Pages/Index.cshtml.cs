@@ -1,24 +1,12 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Shared.Dto;
-using Shared.Interfaces;
+﻿using Shared.Interfaces;
+using TASPA.Models;
 
 namespace TASPA.Pages
 {
-    public class IndexModel : PageModel
+    public class IndexModel : BaseModel
     {
-        private ITaspaService taspaService;
+        public IndexModel(ITaspaService taspaService) : base(taspaService) { }
 
-        public List<NavigationLink> NavigationLinks;
-
-        public IndexModel(ITaspaService taspaService)
-        {
-            this.taspaService = taspaService;
-        }
-
-        public void OnGet()
-        {
-            this.NavigationLinks = this.taspaService.GetNavigationLinks();
-        }
+        public void OnGet() {}
     }
 }

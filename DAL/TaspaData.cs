@@ -12,7 +12,7 @@ namespace DAL
             var navigationLinks = new List<NavigationLink>();
 
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Index", LinkText = "Home" });
-            navigationLinks.Add(new NavigationLink() { LinkAction = "/Verbs", LinkText = "Verbs" });
+            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VerbsPanel", LinkText = "Verbs" });
 
             return navigationLinks;
         }

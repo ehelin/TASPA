@@ -4,8 +4,12 @@
 
 .headerContainer {
     display: block;
-    height: 30px;
+    height: 10vh;
     width: 100%;
+}
+
+.title {
+    height: 10vh;
 }
 
 .main.header.left {
@@ -35,8 +39,13 @@
     width: 100%;
 }
 
+.desktopMenu {
+    width: 300px; /* extra length so when displayed, the link list does not wrap*/
+}
+
 .collasped {
     display: none;
+    /*font-size: 0pt*/
 }
 
 .expanded {
@@ -64,10 +73,23 @@
     background-size: 25px;
     background-image: url("../images/Search.png");
     background-repeat: no-repeat;
-    z-index:1000;
+    z-index: 1000;
 }
 
 .center {
     text-align: center;
 }
 
+.footer {
+    height: 10vh;
+}
+
+.panelContent {
+    vertical-align: top;
+    height: 60vh;
+}
+
+.verbPanel {
+    height: 100%;
+    align-content: center;
+}

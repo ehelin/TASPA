@@ -1,5 +1,5 @@
 ﻿@page
-@model IndexModel
+@model VerbsPanelModel
 @{
     ViewData["Title"] = "Verbs";
 }
@@ -10,7 +10,7 @@
         var selectedVerbList = document.getElementById("verbListSelectList");
         var selectedValue = selectedVerbList.value;
         
-        var results = ServerCalls.GetVerbList(selectedValue);
+        ServerCalls.SetVerbList(selectedValue);
     }
 
 </script>
@@ -48,4 +48,8 @@
         <option>Z</option>
     </select>
     <button onclick="SelectVerbList();">Submit</button>
+    <div id="verbSubPanel" class="collasped">
+        @*@await Html.PartialAsync("/Pages/Panels/SubPanels/VerbsSubPanel.cshtml")*@
+    </div>
+
 </div>

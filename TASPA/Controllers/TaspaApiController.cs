@@ -33,5 +33,13 @@ namespace TASPA.Controllers
 
             return Ok(verbList); // 200
         }
+
+        [HttpGet("getNavigationLinks")]
+        public IActionResult GetNavigationLinks()
+        {
+            var navigationLinks = this.taspaService.GetNavigationLinks();
+
+            return Ok(navigationLinks); // 200
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿@model IndexModel
+﻿
 
 <!DOCTYPE html>
 <html>
@@ -15,6 +15,8 @@
 
 </head>
 <script type="text/javascript">
+    //ServerCalls.SetNavigationLinks();
+
     var skipExecution = false;
     function SetNavMenu(show) {
         var mnu = document.getElementById("navMenu");
@@ -78,18 +80,21 @@
                     <div class="menuExpanded collasped" id="navMenuExpanded">
                         <a href="" onclick="SetNavMenu(0);">close</a>
                         <br/>
-                        @foreach(var navigationLink in Model.NavigationLinks)
+                        <div id="mobileNavigationLinks">mobile links</div>
+                        mobile links2
+@*                        @foreach(var navigationLink in Model.NavigationLinks)
                         {
                             <br />
                             <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
-                        }
+                        }*@
                     </div> 
                 </div>
                 <div id="desktopMenu" class="desktopMenu expanded">
-                    @foreach (var navigationLink in Model.NavigationLinks)
+                    <div id="deskNavigationLinks">desktop links</div>
+                 @*   @foreach (var navigationLink in Model.NavigationLinks)
                     {
                         <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
-                    }
+                    }*@
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ namespace TASPA.Pages
 
         public void OnGet()
         {
-            this.NavigationLinks = this.taspaService.GetNavigationLinks();
+            //this.NavigationLinks = this.taspaService.GetNavigationLinks();
         }
     }
 }

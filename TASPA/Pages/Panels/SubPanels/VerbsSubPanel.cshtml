@@ -1,0 +1,21 @@
+﻿@page
+@model VerbsSubPanelModel
+@{
+    ViewData["Title"] = "Verb Flash Card";
+}
+<!-- Move script to separate javascript file -->
+@*<script type="text/javascript">
+    function SelectVerbList()
+    {
+        var selectedVerbList = document.getElementById("verbListSelectList");
+        var selectedValue = selectedVerbList.value;
+        
+        var results = ServerCalls.GetVerbList(selectedValue);
+    }
+
+</script>*@
+<div id="verbSubPanel" class="center">
+    <div id="verbSubPanelContent"></div>
+    <button onclick="">Next</button>
+    <button onclick="">Show</button>
+</div>

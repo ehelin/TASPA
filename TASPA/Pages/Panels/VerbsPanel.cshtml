@@ -3,16 +3,6 @@
 @{
     ViewData["Title"] = "Verbs";
 }
-<!-- Move script to separate javascript file -->
-<script type="text/javascript">
-    function SelectVerbList() {
-        var selectedVerbList = document.getElementById("verbListSelectList");
-        var selectedValue = selectedVerbList.value;
-
-        ServerCalls.SetVerbList(selectedValue);
-    }
-
-</script>
 <div id="verbPanel" class="center">
     <h4 class="center">Verbs</h4>
     <!-- TODO - get selection list from data module -->

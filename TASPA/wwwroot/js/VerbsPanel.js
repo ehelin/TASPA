@@ -1,4 +1,8 @@
-﻿function SelectVerbList() {
+﻿function LoadVerbLists() {
+    ServerCalls.SetVerbLists();
+}
+
+function SelectVerbList() {
     var selectedVerbList = document.getElementById("verbListSelectList");
     var selectedValue = selectedVerbList.value;
 

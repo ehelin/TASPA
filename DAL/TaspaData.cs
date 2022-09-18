@@ -17,6 +17,38 @@ namespace DAL
             return navigationLinks;
         }
 
+        public List<string> GetVerbLists()
+        {
+            var verbLists = new List<string>();
+
+            verbLists.Add("Select list");
+            verbLists.Add("Full");
+            verbLists.Add("A");
+            verbLists.Add("B");
+            verbLists.Add("C");
+            verbLists.Add("D");
+            verbLists.Add("E");
+            verbLists.Add("F");
+            verbLists.Add("G");
+            verbLists.Add("H");
+            verbLists.Add("I");
+            verbLists.Add("J");
+            verbLists.Add("K");
+            verbLists.Add("L");
+            verbLists.Add("M");
+            verbLists.Add("N");
+            verbLists.Add("O");
+            verbLists.Add("P");
+            verbLists.Add("Q");
+            verbLists.Add("R");
+            verbLists.Add("S");
+            verbLists.Add("T");
+            verbLists.Add("U");
+            verbLists.Add("V");
+
+            return verbLists;
+        }
+
         public List<string> GetAVerbList()
         {
             var currentVerbList = new List<string>();

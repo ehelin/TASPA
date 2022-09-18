@@ -17,9 +17,17 @@ namespace TASPA.Controllers
         [HttpGet("getVerbList")]
         public IActionResult GetVerbList([FromQuery] string verbListName)
         {
-            var verList = this.taspaService.GetVerbList(verbListName);
+            var verbList = this.taspaService.GetVerbList(verbListName);
             
-            return Ok(verList); // 200
+            return Ok(verbList); // 200
+        }
+
+        [HttpGet("getVerbLists")]
+        public IActionResult GetVerbLists()
+        {
+            var verbLists = this.taspaService.GetVerbLists();
+
+            return Ok(verbLists); // 200
         }
 
         [HttpGet("getNavigationLinks")]

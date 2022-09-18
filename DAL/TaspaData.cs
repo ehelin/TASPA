@@ -64,7 +64,7 @@ namespace DAL
             var currentVerbList = new List<string>();
 
             currentVerbList.Add("bailar");
-            currentVerbList.Add("ajar");
+            currentVerbList.Add("bajar");
             currentVerbList.Add("beber");
             currentVerbList.Add("borrar");
             currentVerbList.Add("brillar");

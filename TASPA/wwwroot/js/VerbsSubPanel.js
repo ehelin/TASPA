@@ -1,10 +1,14 @@
 ﻿var verbList;
 var verbListIndex;
+var verbJson;
 
 function Initialize() {
     verbList = [];
-    verbListIndex = -1;
-    ClearVerbPanel();
+    verbListIndex = 0;
+
+    var verbSubPanelContent = document.getElementById("verbSubPanel");
+    verbSubPanelContent.classList.remove('collasped');
+    verbSubPanelContent.classList.add('expanded');
 }
 
 function SelectVerbList() {
@@ -14,20 +18,42 @@ function SelectVerbList() {
     ServerCalls.GetVerbList(selectedValue);
 }
 
-function VerbListNext() {
+function LoadNext() {
+    verbListIndex++;
+    var nextVerbName = verbList[verbListIndex];
+    if (nextVerbName === undefined || nextVerbName === null) {
+        var messageContent = document.getElementById("message");
+        messageContent.innerHTML = '';
+        messageContent.append('There are no more verbs in this list');
+    }
+    else {
+        ServerCalls.SetVerbJson(nextVerbName);
+    }
+}
+
+function VerbListNext(verbName, verbJson) {
     ClearVerbPanel();
 
-    verbListIndex++;
+    var verbNameContent = document.getElementById("verbName");
+    verbNameContent.append(verbName);
 
-    var verbSubPanelContent = document.getElementById("verbSubPanelContent");
-    verbSubPanelContent.append(verbList[verbListIndex]);
+    var verbValueContent = document.getElementById("verbValue");
+    verbValueContent.classList.remove('expanded');
+    verbValueContent.classList.add('collasped');
+    verbValueContent.append(verbJson.EnglishMeaning);
 }
 
 function VerbListShow() {
-    alert('you click show - add api call that loads verb json files...and add json verb files');
+    var verbValueContent = document.getElementById("verbValue");
+    verbValueContent.classList.remove('collasped');
+    verbValueContent.classList.add('expanded');
 }
 
 function ClearVerbPanel() {
-    var verbSubPanelContent = document.getElementById("verbSubPanelContent");
-    verbSubPanelContent.innerHTML = '';
+    var verbNameContent = document.getElementById("verbName");
+    var verbValueContent = document.getElementById("verbValue");
+    var messageContent = document.getElementById("message");
+    verbNameContent.innerHTML = '';
+    verbValueContent.innerHTML = '';
+    messageContent.innerHTML = '';
 }

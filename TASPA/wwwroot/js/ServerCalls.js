@@ -9,13 +9,27 @@ ServerCalls.SetVerbList = function (listName) {
                     var jsonParsed = JSON.parse(response);
 
                     Initialize();
+
                     verbList = jsonParsed;
 
-                    var verbSubPanelContent = document.getElementById("verbSubPanel");
-                    verbSubPanelContent.classList.remove('collasped');
-                    verbSubPanelContent.classList.add('expanded');
+                    ServerCalls.SetVerbJson(jsonParsed[0]);
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
 
-                    VerbListNext();
+ServerCalls.SetVerbJson = function (verbName) {
+    try {
+        var path = '/json/spanish/' + verbName + '.json'; 
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
+                    verbJson = jsonParsed;
+
+                    VerbListNext(verbName, verbJson);
                 });
     }
     catch (ex) {

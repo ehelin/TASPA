@@ -1,5 +1,25 @@
 ﻿var ServerCalls = {};
 
+ServerCalls.SetVerbLists = function () {
+    try {
+        var path = '/TaspaApi/getVerbLists';
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
+                    var verbListSelectListControl = document.getElementById("verbListSelectList");
+                    
+                    for (var i = 0; i < jsonParsed.length; i++) {
+                        var currentJson = jsonParsed[i];
+                        verbListSelectListControl.options[verbListSelectListControl.options.length] = new Option(currentJson, currentJson);
+                    }
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
 ServerCalls.SetVerbList = function (listName) {
     try {
         var path = '/TaspaApi/getVerbList?verbListName=' + listName;
@@ -8,12 +28,11 @@ ServerCalls.SetVerbList = function (listName) {
                 function (response) {
                     var jsonParsed = JSON.parse(response);
 
-                    var verbSubPanelContent = document.getElementById("verbSubPanel");
-                    verbSubPanelContent.classList.remove('collasped');
-                    verbSubPanelContent.classList.add('expanded');
+                    Initialize();
 
-                    var verbSubPanelContent = document.getElementById("verbSubPanelContent");
-                    verbSubPanelContent.append(jsonParsed);
+                    verbList = jsonParsed;
+
+                    ServerCalls.SetVerbJson(jsonParsed[0]);
                 });
     }
     catch (ex) {
@@ -21,32 +40,16 @@ ServerCalls.SetVerbList = function (listName) {
     }
 };
 
-ServerCalls.SetNavigationLinks = function () {
+ServerCalls.SetVerbJson = function (verbName) {
     try {
-        var path = '/TaspaApi/getNavigationLinks';
+        var path = '/json/spanish/' + verbName + '.json'; 
         return ServerCall.Get(path)
             .then(
                 function (response) {
                     var jsonParsed = JSON.parse(response);
-                    var mobileNavigationLinksContainer = document.getElementById("navMenuExpanded");
-                    var desktopNavigationLinksContainer = document.getElementById("deskNavigationLinks");
+                    verbJson = jsonParsed;
 
-                    var desktopNavigationLinks = '<br />';
-                    for (var i = 0; i < jsonParsed.length; i++) {
-                        var currentLink = jsonParsed[i];
-                        desktopNavigationLinks += '<a href="' + currentLink.linkAction + '">' + currentLink.linkText + '</a>&nbsp;';
-                    }
-
-                    desktopNavigationLinksContainer.innerHTML = desktopNavigationLinks;
-
-                    var mobileNavigationLinks = '<br />';
-                    mobileNavigationLinks += '<a href="" onclick="SetNavMenu(0);">close</a>';
-                    for (var i = 0; i < jsonParsed.length; i++) {
-                        var currentLink = jsonParsed[i];
-                        mobileNavigationLinks += '<a href="' + currentLink.linkAction + '">' + currentLink.linkText + '</a>';
-                    }
-
-                    mobileNavigationLinksContainer.innerHTML = 'hi mom';
+                    VerbListNext(verbName, verbJson);
                 });
     }
     catch (ex) {

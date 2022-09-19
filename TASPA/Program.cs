@@ -28,4 +28,6 @@ app.MapControllers();
 
 app.MapRazorPages();
 
+app.MapControllers();
+
 app.Run();

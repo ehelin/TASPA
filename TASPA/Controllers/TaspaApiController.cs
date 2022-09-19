@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Shared.Interfaces;
 
 namespace TASPA.Controllers
@@ -19,19 +17,17 @@ namespace TASPA.Controllers
         [HttpGet("getVerbList")]
         public IActionResult GetVerbList([FromQuery] string verbListName)
         {
-            List<string> verbList = null;
-
-            // TODO - make verbListName comparison strings constants
-            if (verbListName == "Full")
-            {
-                verbList = this.taspaService.GetFullVerbList();
-            }
-            else
-            {
-                throw new Exception(string.Format("Unknown verb list name: {0}", verbListName));
-            }
-
+            var verbList = this.taspaService.GetVerbList(verbListName);
+            
             return Ok(verbList); // 200
+        }
+
+        [HttpGet("getVerbLists")]
+        public IActionResult GetVerbLists()
+        {
+            var verbLists = this.taspaService.GetVerbLists();
+
+            return Ok(verbLists); // 200
         }
 
         [HttpGet("getNavigationLinks")]

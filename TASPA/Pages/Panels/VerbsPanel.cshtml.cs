@@ -1,17 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Shared.Interfaces;
+using TASPA.Models;
 
 namespace TASPA.Pages
 {
-    public class VerbsPanelModel : PageModel
+    public class VerbsPanelModel : BaseModel
     {
-        public VerbsPanelModel()
-        {
+        public VerbsPanelModel(ITaspaService taspaService) : base(taspaService) { }
 
-        }
-
-        public void OnGet()
-        {
-
-        }
+        public void OnGet() {}
     }
 }

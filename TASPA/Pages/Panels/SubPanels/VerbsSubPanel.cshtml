@@ -1,21 +1,12 @@
-﻿@page
-@model VerbsSubPanelModel
-@{
-    ViewData["Title"] = "Verb Flash Card";
-}
-<!-- Move script to separate javascript file -->
-@*<script type="text/javascript">
-    function SelectVerbList()
-    {
-        var selectedVerbList = document.getElementById("verbListSelectList");
-        var selectedValue = selectedVerbList.value;
-        
-        var results = ServerCalls.GetVerbList(selectedValue);
-    }
-
-</script>*@
-<div id="verbSubPanel" class="center">
-    <div id="verbSubPanelContent"></div>
-    <button onclick="">Next</button>
-    <button onclick="">Show</button>
+﻿<div id="verbSubPanel" class="center">
+    <div id="cbLanguageContainer" name="cbLanguageContainer">
+        <input type="checkbox" id="cbLanguage" name="cbLanguage" checked="checked">Spanish (on)/English (off)</input>
+    </div>
+    <div id="verbName"></div>
+    <div id="verbValue" class="collasped"></div>
+    <button onclick="LoadNext();">Next</button>
+    <button onclick="VerbListShow();">Show</button>
+    <br />
+    <br />
+    <div id="message"></div>
 </div>

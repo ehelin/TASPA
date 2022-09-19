@@ -1,4 +1,4 @@
-﻿
+﻿@model TASPA.Models.BaseModel
 
 <!DOCTYPE html>
 <html>
@@ -9,59 +9,17 @@
     <title>@ViewData["Title"] - TASPA</title>
 
     <!-- Best location for these javascript imports?-->
+    <script src="@Url.Content("~/js/_Layout.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/js/ServerCall.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/js/ServerCalls.js")" type="text/javascript"></script>
     <script src="@Url.Content("~/js/Utilities.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/_Layout.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/Utilities.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/VerbsSubPanel.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/VerbsPanel.js")" type="text/javascript"></script>
 
 </head>
-<script type="text/javascript">
-    //ServerCalls.SetNavigationLinks();
-
-    var skipExecution = false;
-    function SetNavMenu(show) {
-        var mnu = document.getElementById("navMenu");
-        var mnuExpd = document.getElementById("navMenuExpanded");
-
-        if (skipExecution === true) {
-            skipExecution = false;
-            return;
-        }
-
-        if (show == 1) {
-            mnu.style.display = 'none';
-            mnuExpd.style.display = 'block';
-            skipExecution = true;
-        }
-        else if (show === 0) {
-            mnu.style.display = 'block';
-            mnuExpd.style.display = 'none';
-        }
-    }
-    function Search(){
-        var searchTextBox = document.getElementById("searchTerm");
-        var searchTerm = searchTextBox.value;
-        alert("You clicked Search with term '" + searchTerm + "'");
-    }
-    function Resize()
-    {
-        var width = window.innerWidth;
-
-        if (width <= 768)
-        {
-            document.getElementById("mobileMenu").classList.remove('collasped');
-            document.getElementById("mobileMenu").classList.add('expanded');
-            document.getElementById("desktopMenu").classList.remove('expanded');
-            document.getElementById("desktopMenu").classList.add('collasped');
-        } 
-        else {
-            document.getElementById("mobileMenu").classList.remove('expanded');
-            document.getElementById("mobileMenu").classList.add('collasped');
-            document.getElementById("desktopMenu").classList.remove('collasped');
-            document.getElementById("desktopMenu").classList.add('expanded');
-        }
-    }
-</script>
-<body onresize="Resize()">
+<body onresize="Resize()" onload="Resize();">
     <div class="main" onclick="SetNavMenu(0);">
         <div class="headerContainer">
             <div class="main header right">
@@ -80,30 +38,27 @@
                     <div class="menuExpanded collasped" id="navMenuExpanded">
                         <a href="" onclick="SetNavMenu(0);">close</a>
                         <br/>
-                        <div id="mobileNavigationLinks">mobile links</div>
-                        mobile links2
-@*                        @foreach(var navigationLink in Model.NavigationLinks)
+                        @foreach(var navigationLink in Model.NavigationLinks)
                         {
                             <br />
                             <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
-                        }*@
+                        }
                     </div> 
                 </div>
                 <div id="desktopMenu" class="desktopMenu expanded">
-                    <div id="deskNavigationLinks">desktop links</div>
-                 @*   @foreach (var navigationLink in Model.NavigationLinks)
+                    @foreach (var navigationLink in Model.NavigationLinks)
                     {
                         <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
-                    }*@
+                    }
                 </div>
             </div>
         </div>
         
-        <header class="title center">
+        <header class="center">
             <h1>The Awesome Spanish Practice Application (TASPA)</h1>
         </header>
         
-        <div class="panelContent">
+        <div class="content">
             <main>
                 @RenderBody()
             </main>

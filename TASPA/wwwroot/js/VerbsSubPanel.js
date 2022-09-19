@@ -31,16 +31,34 @@ function LoadNext() {
     }
 }
 
+function LanguageToDisplayIsSpanish() {
+    var cbLanguage = document.getElementById("cbLanguage");
+    if (cbLanguage !== undefined && cbLanguage !== null && cbLanguage.checked === true) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
 function VerbListNext(verbName, verbJson) {
     ClearVerbPanel();
 
     var verbNameContent = document.getElementById("verbName");
-    verbNameContent.append(verbName);
-
     var verbValueContent = document.getElementById("verbValue");
+
     verbValueContent.classList.remove('expanded');
     verbValueContent.classList.add('collasped');
-    verbValueContent.append(verbJson.EnglishMeaning);
+
+    var displaySpanish = LanguageToDisplayIsSpanish();
+    if (displaySpanish === true) {
+        verbNameContent.append(verbName);
+        verbValueContent.append(verbJson.EnglishMeaning);
+    }
+    else {
+        verbNameContent.append(verbJson.EnglishMeaning);
+        verbValueContent.append(verbName);
+    }
 }
 
 function VerbListShow() {

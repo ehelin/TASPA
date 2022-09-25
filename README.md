@@ -15,6 +15,9 @@ Blog Post(s):
 			<li>
 				<a href="https://erichelin.wordpress.com/2022/09/05/taspa-part-2-menus-and-functionality-shell/">TASPA – Part 2 – Menu’s and Functionality Shell</a>
 			</li>
+			<li>
+				<a href="https://erichelin.wordpress.com/2022/09/25/taspa-part-3-first-feature-verb-flash-cards-2/">TASPA – Part 3 – First Feature – Verb Flash Cards</a>
+			</li>
 		</ul>
 	</li>
 </ul>

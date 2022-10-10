@@ -2,7 +2,7 @@
 Simply stated, this repository is my next learning application.  Like <a href="https://github.com/ehelin/TgimbaNetCoreCloudNative">The Globe In My BucketList Application (TGIMBA)</a> before, I create fun projects to learn different technologies.  This effort is to have a tool that better helps me learn Spanish.
 <br/>
 <br/>
-Currently hosted at <a href="http://mostwiseone-002-site1.itempurl.com"?\>http://mostwiseone-002-site1.itempurl.com</a>
+Currently hosted at <a href="http://mostwiseone-002-site1.itempurl.com">http://mostwiseone-002-site1.itempurl.com</a>
 <br/>
 ## Related Projects/Items
 

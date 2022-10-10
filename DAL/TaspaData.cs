@@ -33,7 +33,7 @@ namespace DAL
             verbLists.Add("H");
             verbLists.Add("I");
             verbLists.Add("J");
-            verbLists.Add("K");
+            //verbLists.Add("K");
             verbLists.Add("L");
             verbLists.Add("M");
             verbLists.Add("N");

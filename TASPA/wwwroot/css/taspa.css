@@ -76,6 +76,11 @@
     z-index: 1000;
 }
 
+.content {
+    /* uncomment to keep footer at botton (ish)*/
+    /*height:50vh;*/
+}
+
 .center {
     text-align: center;
 }

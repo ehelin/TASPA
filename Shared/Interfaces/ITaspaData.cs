@@ -6,6 +6,8 @@ namespace Shared.Interfaces
     public interface ITaspaData
     {
         public List<NavigationLink> GetNavigationLinks();
+
+        public List<string> GetVerbLists();
         public List<string> GetAVerbList();
         public List<string> GetBVerbList();
         public List<string> GetCVerbList();

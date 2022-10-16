@@ -3,52 +3,15 @@
 @{
     ViewData["Title"] = "Verbs";
 }
-<!-- Move script to separate javascript file -->
 <script type="text/javascript">
-    function SelectVerbList() {
-        var selectedVerbList = document.getElementById("verbListSelectList");
-        var selectedValue = selectedVerbList.value;
-
-        ServerCalls.SetVerbList(selectedValue);
-    }
-
+    LoadVerbLists();
 </script>
-<div id="verbPanel" class="center">
+<div id="verbPanel" class="center" onload="LoadVerbLists();">
     <h4 class="center">Verbs</h4>
-    <!-- TODO - get selection list from data module -->
-    <select id="verbListSelectList" class="center">
-        <option>Select list</option>
-        <option>Full</option>
-        <option>A</option>
-        <option>B</option>
-        <option>C</option>
-        <option>D</option>
-        <option>E</option>
-        <option>F</option>
-        <option>G</option>
-        <option>H</option>
-        <option>I</option>
-        <option>J</option>
-        @*<option>K</option>*@
-        <option>L</option>
-        <option>M</option>
-        <option>N</option>
-        <option>O</option>
-        <option>P</option>
-        <option>Q</option>
-        <option>R</option>
-        <option>S</option>
-        <option>T</option>
-        <option>U</option>
-        <option>V</option>
-        <option>W</option>
-        <option>X</option>
-        <option>Y</option>
-        <option>Z</option>
-    </select>
+    <select id="verbListSelectList" class="center"></select>
     <button onclick="SelectVerbList();">Submit</button>
     <div id="verbSubPanel" class="collasped">
-        @*@await Html.PartialAsync("/Pages/Panels/SubPanels/VerbsSubPanel.cshtml")*@
+        @await Html.PartialAsync("/Pages/Panels/SubPanels/VerbsSubPanel.cshtml")
     </div>
 
 </div>

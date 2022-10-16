@@ -28,6 +28,7 @@ namespace DAL
             currentVerbList.Add("acercar");
             currentVerbList.Add("aconsejar");
             currentVerbList.Add("acordar");
+            currentVerbList.Add("acostar");
             currentVerbList.Add("acudir");
             currentVerbList.Add("adelgazar");
             currentVerbList.Add("adivinar");
@@ -35,10 +36,17 @@ namespace DAL
             currentVerbList.Add("adoptar");
             currentVerbList.Add("afeitar");
             currentVerbList.Add("agradar");
+            currentVerbList.Add("agarra");
+            currentVerbList.Add("aguantar");
+            currentVerbList.Add("ahogar");
             currentVerbList.Add("alcanzar");
+            currentVerbList.Add("alejar");
             currentVerbList.Add("alegrar");
+            currentVerbList.Add("aletear");
             currentVerbList.Add("almorzar");
             currentVerbList.Add("alquilar");
+            currentVerbList.Add("amanecer");
+            currentVerbList.Add("amenazar");
             currentVerbList.Add("amar");
             currentVerbList.Add("andar");
             currentVerbList.Add("anotar");
@@ -47,14 +55,20 @@ namespace DAL
             currentVerbList.Add("aprender");
             currentVerbList.Add("apretar");
             currentVerbList.Add("aprobar");
+            currentVerbList.Add("apapachar");
+            currentVerbList.Add("apelar");
             currentVerbList.Add("arreglar");
+            currentVerbList.Add("arrancar");
+            currentVerbList.Add("arrepentir");
             currentVerbList.Add("arruinar");
             currentVerbList.Add("asistir");
             currentVerbList.Add("aspirar");
             currentVerbList.Add("atender");
             currentVerbList.Add("aterrizar");
+            currentVerbList.Add("atracar");
             currentVerbList.Add("averiguar");
             currentVerbList.Add("ayudar");
+            currentVerbList.Add("azotar");
 
             return currentVerbList;
         }
@@ -67,6 +81,7 @@ namespace DAL
             currentVerbList.Add("ajar");
             currentVerbList.Add("beber");
             currentVerbList.Add("borrar");
+            currentVerbList.Add("botar");
             currentVerbList.Add("brillar");
             currentVerbList.Add("buscar");
 
@@ -82,8 +97,10 @@ namespace DAL
             currentVerbList.Add("cambiar");
             currentVerbList.Add("caminar");
             currentVerbList.Add("cantar");
+            currentVerbList.Add("cansar");
             currentVerbList.Add("casar");
             currentVerbList.Add("causar");
+            currentVerbList.Add("cavar");
             currentVerbList.Add("cazar");
             currentVerbList.Add("cenar");
             currentVerbList.Add("cerrar");
@@ -93,11 +110,13 @@ namespace DAL
             currentVerbList.Add("cocinar");
             currentVerbList.Add("coger");
             currentVerbList.Add("colocar");
+            currentVerbList.Add("colgar");
             currentVerbList.Add("comenzar");
             currentVerbList.Add("comer");
             currentVerbList.Add("comprar");
             currentVerbList.Add("comprender");
             currentVerbList.Add("conducir");
+            currentVerbList.Add("confiar");
             currentVerbList.Add("conocer");
             currentVerbList.Add("construir");
             currentVerbList.Add("contar");
@@ -107,6 +126,7 @@ namespace DAL
             currentVerbList.Add("correr");
             currentVerbList.Add("cortar");
             currentVerbList.Add("costar");
+            currentVerbList.Add("coser");
             currentVerbList.Add("crear");
             currentVerbList.Add("crecer");
             currentVerbList.Add("creer");
@@ -128,10 +148,14 @@ namespace DAL
             currentVerbList.Add("decir");
             currentVerbList.Add("dedicar");
             currentVerbList.Add("dejar");
+            currentVerbList.Add("demorar");
+            currentVerbList.Add("denunciar");
             currentVerbList.Add("deprimir");
             currentVerbList.Add("derribar");
             currentVerbList.Add("desarrollar");
             currentVerbList.Add("desayunar");
+            currentVerbList.Add("desahogar");
+            currentVerbList.Add("deshogar");
             currentVerbList.Add("descansar");
             currentVerbList.Add("describir");
             currentVerbList.Add("descubrir");
@@ -140,11 +164,13 @@ namespace DAL
             currentVerbList.Add("despedir");
             currentVerbList.Add("despertar");
             currentVerbList.Add("detener");
+            currentVerbList.Add("detentar");
             currentVerbList.Add("dibujar");
             currentVerbList.Add("discutir");
             currentVerbList.Add("disfrutar");
             currentVerbList.Add("dividir");
             currentVerbList.Add("doler");
+            currentVerbList.Add("donar");
             currentVerbList.Add("dormir");
             currentVerbList.Add("dudar");
 
@@ -157,12 +183,17 @@ namespace DAL
 
             currentVerbList.Add("echar");
             currentVerbList.Add("elegir");
+            currentVerbList.Add("enloquecer");
+            currentVerbList.Add("egresar");
             currentVerbList.Add("empezar");
+            currentVerbList.Add("empreder");
             currentVerbList.Add("encantar");
             currentVerbList.Add("encender");
             currentVerbList.Add("encontrar");
             currentVerbList.Add("enfermar");
             currentVerbList.Add("enojar");
+            currentVerbList.Add("engañar");
+            currentVerbList.Add("ensayar");
             currentVerbList.Add("entender");
             currentVerbList.Add("entrar");
             currentVerbList.Add("enviar");
@@ -171,11 +202,15 @@ namespace DAL
             currentVerbList.Add("esconder");
             currentVerbList.Add("escribir");
             currentVerbList.Add("escuchar");
+            currentVerbList.Add("esculcar");
             currentVerbList.Add("esperar");
             currentVerbList.Add("estar");
-            currentVerbList.Add("estropear");
+            currentVerbList.Add("estilar");
+            currentVerbList.Add("estilar");
+            currentVerbList.Add("estrenar");
             currentVerbList.Add("estudiar");
             currentVerbList.Add("exigir");
+            currentVerbList.Add("expedir");
             currentVerbList.Add("explicar");
 
             return currentVerbList;
@@ -185,9 +220,15 @@ namespace DAL
         {
             var currentVerbList = new List<string>();
 
+            currentVerbList.Add("fallecer");
+            currentVerbList.Add("faltar");
+            currentVerbList.Add("fijar");
+            currentVerbList.Add("fingir");
             currentVerbList.Add("firmar");
+            currentVerbList.Add("fracasar");
             currentVerbList.Add("fregar");
             currentVerbList.Add("fumar");
+            currentVerbList.Add("fugar");
 
             return currentVerbList;
         }
@@ -199,7 +240,9 @@ namespace DAL
             currentVerbList.Add("ganar");
             currentVerbList.Add("gastar");
             currentVerbList.Add("generar");
+            currentVerbList.Add("girar");
             currentVerbList.Add("gozar");
+            currentVerbList.Add("granizar");
             currentVerbList.Add("gritar");
             currentVerbList.Add("guardar");
             currentVerbList.Add("gustar");
@@ -246,6 +289,8 @@ namespace DAL
         {
             var currentVerbList = new List<string>();
 
+            currentVerbList.Add("lanzar");
+            currentVerbList.Add("lastimar");
             currentVerbList.Add("lavar");
             currentVerbList.Add("leer");
             currentVerbList.Add("limpiar");
@@ -262,6 +307,7 @@ namespace DAL
         {
             var currentVerbList = new List<string>();
 
+            currentVerbList.Add("maquillar");
             currentVerbList.Add("mandar");
             currentVerbList.Add("marcar");
             currentVerbList.Add("marchar");
@@ -270,6 +316,7 @@ namespace DAL
             currentVerbList.Add("meter");
             currentVerbList.Add("mirar");
             currentVerbList.Add("molestar");
+            currentVerbList.Add("morder");
             currentVerbList.Add("morir");
             currentVerbList.Add("mostrar");
             currentVerbList.Add("mover");
@@ -302,6 +349,7 @@ namespace DAL
             currentVerbList.Add("olvidar");
             currentVerbList.Add("omitir");
             currentVerbList.Add("organizar");
+            currentVerbList.Add("otorgar");
 
             return currentVerbList;
         }
@@ -311,6 +359,8 @@ namespace DAL
             var currentVerbList = new List<string>();
 
             currentVerbList.Add("pagar");
+            currentVerbList.Add("pajeabar");
+            currentVerbList.Add("parlar");
             currentVerbList.Add("parar");
             currentVerbList.Add("parecer");
             currentVerbList.Add("parir");
@@ -321,6 +371,7 @@ namespace DAL
             currentVerbList.Add("pegar");
             currentVerbList.Add("peinar");
             currentVerbList.Add("pensar");
+            currentVerbList.Add("pesar");
             currentVerbList.Add("perder");
             currentVerbList.Add("permitir");
             currentVerbList.Add("pescar");
@@ -332,6 +383,7 @@ namespace DAL
             currentVerbList.Add("preguntar");
             currentVerbList.Add("preparar");
             currentVerbList.Add("prestar");
+            currentVerbList.Add("presumir");
             currentVerbList.Add("pretender");
             currentVerbList.Add("prohibir");
             currentVerbList.Add("prometer");
@@ -348,6 +400,7 @@ namespace DAL
 
             currentVerbList.Add("quedar");
             currentVerbList.Add("querer");
+            currentVerbList.Add("quemar");
             currentVerbList.Add("quitar");
 
             return currentVerbList;
@@ -359,8 +412,10 @@ namespace DAL
 
             currentVerbList.Add("realizar");
             currentVerbList.Add("recibir");
+            currentVerbList.Add("recargar");
             currentVerbList.Add("recoger");
             currentVerbList.Add("reconocer");
+            currentVerbList.Add("reconcilar");
             currentVerbList.Add("recordar");
             currentVerbList.Add("recorrer");
             currentVerbList.Add("regalar");
@@ -372,6 +427,7 @@ namespace DAL
             currentVerbList.Add("repartir");
             currentVerbList.Add("repetir");
             currentVerbList.Add("responder");
+            currentVerbList.Add("resaltar");
             currentVerbList.Add("retrasar");
             currentVerbList.Add("rezar");
             currentVerbList.Add("rodear");
@@ -400,6 +456,8 @@ namespace DAL
             currentVerbList.Add("sufrir");
             currentVerbList.Add("sugerir");
             currentVerbList.Add("sumar");
+            currentVerbList.Add("superar");
+            currentVerbList.Add("susurrar");
 
             return currentVerbList;
         }
@@ -421,6 +479,7 @@ namespace DAL
             currentVerbList.Add("traducir");
             currentVerbList.Add("traer");
             currentVerbList.Add("tratar");
+            currentVerbList.Add("tumbar");
 
             return currentVerbList;
         }
@@ -449,6 +508,15 @@ namespace DAL
             currentVerbList.Add("vivir");
             currentVerbList.Add("volar");
             currentVerbList.Add("volver");
+
+            return currentVerbList;
+        }
+
+        public List<string> GetZVerbList()
+        {
+            var currentVerbList = new List<string>();
+
+            currentVerbList.Add("zarpar");
 
             return currentVerbList;
         }

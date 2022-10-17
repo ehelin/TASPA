@@ -22,7 +22,7 @@ namespace IntegrationTests
         public void VerifyAllVerbsHaveCorrespondingJsonFile()
         {
             // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa\\TASPA\\TASPA\\wwwroot\\json\\spanish\\";
+            var jsonPath = "C:\\EricDocuments\\Taspa\\TASPA\\TASPA\\wwwroot\\json\\spanish\\verbs\\";
 
             var verbs = this.bllService.GetVerbList("Full");
             foreach (var verb in verbs)

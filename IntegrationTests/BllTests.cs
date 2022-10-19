@@ -22,29 +22,20 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllVerbsHaveCorrespondingJsonFile()
         {
-            string verb2 = "";
-            try
-            {
-                // TODO - get path dyanmically
-                var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
 
-                var verbs = this.bllService.GetVerbList("Full");
-                foreach (var verb in verbs)
-                {
-                    var jsonFileName = string.Format("{0}.{1}", verb, "json");
-                    var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+            var verbs = this.bllService.GetVerbList("Full");
+            foreach (var verb in verbs)
+            {           
+                var jsonFileName = string.Format("{0}.{1}", verb, "json");
+                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 
-                    var file = File.ReadAllText(jsonFilePath);
-                    Assert.NotNull(file);
+                var file = File.ReadAllText(jsonFilePath);
+                Assert.NotNull(file);
 
-                    var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
-                    verb2 = verb;
-                    Assert.Equal(verb, jsonFile.Name);
-                }
-            }
-            catch (Exception ex)
-            {
-                var test = 1;
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                Assert.Equal(verb, jsonFile.Name);
             }
         }
     }

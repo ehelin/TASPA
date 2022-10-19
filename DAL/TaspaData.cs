@@ -68,7 +68,7 @@ namespace DAL
             currentVerbList.Add("adoptar");
             currentVerbList.Add("afeitar");
             currentVerbList.Add("agradar");
-            currentVerbList.Add("agarra");
+            currentVerbList.Add("agarrar");
             currentVerbList.Add("aguantar");
             currentVerbList.Add("ahogar");
             currentVerbList.Add("alcanzar");
@@ -187,7 +187,7 @@ namespace DAL
             currentVerbList.Add("desarrollar");
             currentVerbList.Add("desayunar");
             currentVerbList.Add("desahogar");
-            currentVerbList.Add("deshogar");
+            //currentVerbList.Add("deshogar");
             currentVerbList.Add("descansar");
             currentVerbList.Add("describir");
             currentVerbList.Add("descubrir");
@@ -391,7 +391,7 @@ namespace DAL
             var currentVerbList = new List<string>();
 
             currentVerbList.Add("pagar");
-            currentVerbList.Add("pajeabar");
+            //currentVerbList.Add("pajeabar");
             currentVerbList.Add("parlar");
             currentVerbList.Add("parar");
             currentVerbList.Add("parecer");

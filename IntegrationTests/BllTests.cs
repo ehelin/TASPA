@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using BLL;
 using DAL;
@@ -22,11 +23,11 @@ namespace IntegrationTests
         public void VerifyAllVerbsHaveCorrespondingJsonFile()
         {
             // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa\\TASPA\\TASPA\\wwwroot\\json\\spanish\\";
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
 
             var verbs = this.bllService.GetVerbList("Full");
             foreach (var verb in verbs)
-            {
+            {           
                 var jsonFileName = string.Format("{0}.{1}", verb, "json");
                 var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 

@@ -29,5 +29,6 @@ namespace Shared.Interfaces
         public List<string> GetTVerbList();
         public List<string> GetUVerbList();
         public List<string> GetVVerbList();
+        public List<string> GetZVerbList();
     }
 }

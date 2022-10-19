@@ -89,6 +89,7 @@ namespace BLL
             fullVerbList.AddRange(this.taspaDataService.GetTVerbList());
             fullVerbList.AddRange(this.taspaDataService.GetUVerbList());
             fullVerbList.AddRange(this.taspaDataService.GetVVerbList());
+            fullVerbList.AddRange(this.taspaDataService.GetZVerbList());
 
             return fullVerbList;
         }

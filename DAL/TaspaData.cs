@@ -45,6 +45,10 @@ namespace DAL
             verbLists.Add("T");
             verbLists.Add("U");
             verbLists.Add("V");
+            //verbLists.Add("W");
+            //verbLists.Add("X");
+            //verbLists.Add("Y");
+            verbLists.Add("Z");
 
             return verbLists;
         }

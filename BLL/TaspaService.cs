@@ -57,7 +57,7 @@ namespace BLL
             //else if (verbListName == "W") { return this.taspaDataService.GetWVerbList(); }
             //else if (verbListName == "X") { return this.taspaDataService.GetXVerbList(); }
             //else if (verbListName == "Y") { return this.taspaDataService.GetYVerbList(); }
-            //else if (verbListName == "Z") { return this.taspaDataService.GetZVerbList(); }
+            else if (verbListName == "Z") { return this.taspaDataService.GetZVerbList(); }
             else
             {
                 throw new Exception(string.Format("Unknown verb list name: {0}", verbListName));

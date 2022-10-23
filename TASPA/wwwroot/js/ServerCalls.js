@@ -42,7 +42,7 @@ ServerCalls.SetVerbList = function (listName) {
 
 ServerCalls.SetVerbJson = function (verbName) {
     try {
-        var path = '/json/spanish/' + verbName + '.json'; 
+        var path = '/json/spanish/verbs/' + verbName + '.json'; 
         return ServerCall.Get(path)
             .then(
                 function (response) {

@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\json\NewFolder\" />
+    <Folder Include="wwwroot\json\spanish\verbs\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -13,9 +13,60 @@ namespace DAL
 
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Index", LinkText = "Home" });
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VerbsPanel", LinkText = "Verbs" });
+            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/PhrasesPanel", LinkText = "Phrases" });
 
             return navigationLinks;
         }
+
+        #region Phrases
+        
+        public List<string> GetPhraseLists()
+        {
+            var verbLists = new List<string>();
+
+            verbLists.Add("Select list");
+            verbLists.Add("Full");
+            verbLists.Add("A");
+            //verbLists.Add("B");
+            //verbLists.Add("C");
+            //verbLists.Add("D");
+            //verbLists.Add("E");
+            //verbLists.Add("F");
+            //verbLists.Add("G");
+            //verbLists.Add("H");
+            //verbLists.Add("I");
+            //verbLists.Add("J");
+            //verbLists.Add("K");
+            //verbLists.Add("L");
+            //verbLists.Add("M");
+            //verbLists.Add("N");
+            //verbLists.Add("O");
+            //verbLists.Add("P");
+            //verbLists.Add("Q");
+            //verbLists.Add("R");
+            //verbLists.Add("S");
+            //verbLists.Add("T");
+            //verbLists.Add("U");
+            //verbLists.Add("V");
+            //verbLists.Add("W");
+            //verbLists.Add("X");
+            //verbLists.Add("Y");
+            //verbLists.Add("Z");
+
+            return verbLists;
+        }
+        public List<string> GetAPhraseList()
+        {
+            var currentAPhraseList = new List<string>();
+
+            currentAPhraseList.Add("alguein_tiene_prisa");
+            
+            return currentAPhraseList;
+        }
+
+        #endregion
+
+        #region Verbs
 
         public List<string> GetVerbLists()
         {
@@ -52,7 +103,6 @@ namespace DAL
 
             return verbLists;
         }
-
         public List<string> GetAVerbList()
         {
             var currentVerbList = new List<string>();
@@ -108,7 +158,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetBVerbList()
         {
             var currentVerbList = new List<string>();
@@ -123,7 +172,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetCVerbList()
         {
             var currentVerbList = new List<string>();
@@ -173,7 +221,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetDVerbList()
         {
             var currentVerbList = new List<string>();
@@ -212,7 +259,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetEVerbList()
         {
             var currentVerbList = new List<string>();
@@ -251,7 +297,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetFVerbList()
         {
             var currentVerbList = new List<string>();
@@ -268,7 +313,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetGVerbList()
         {
             var currentVerbList = new List<string>();
@@ -285,7 +329,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetHVerbList()
         {
             var currentVerbList = new List<string>();
@@ -298,7 +341,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetIVerbList()
         {
             var currentVerbList = new List<string>();
@@ -310,7 +352,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetJVerbList()
         {
             var currentVerbList = new List<string>();
@@ -320,7 +361,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetLVerbList()
         {
             var currentVerbList = new List<string>();
@@ -338,7 +378,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetMVerbList()
         {
             var currentVerbList = new List<string>();
@@ -360,7 +399,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetNVerbList()
         {
             var currentVerbList = new List<string>();
@@ -371,7 +409,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetOVerbList()
         {
             var currentVerbList = new List<string>();
@@ -389,7 +426,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetPVerbList()
         {
             var currentVerbList = new List<string>();
@@ -429,7 +465,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetQVerbList()
         {
             var currentVerbList = new List<string>();
@@ -441,7 +476,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetRVerbList()
         {
             var currentVerbList = new List<string>();
@@ -472,7 +506,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetSVerbList()
         {
             var currentVerbList = new List<string>();
@@ -497,7 +530,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetTVerbList()
         {
             var currentVerbList = new List<string>();
@@ -519,7 +551,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetUVerbList()
         {
             var currentVerbList = new List<string>();
@@ -530,7 +561,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetVVerbList()
         {
             var currentVerbList = new List<string>();
@@ -547,7 +577,6 @@ namespace DAL
 
             return currentVerbList;
         }
-
         public List<string> GetZVerbList()
         {
             var currentVerbList = new List<string>();
@@ -556,5 +585,7 @@ namespace DAL
 
             return currentVerbList;
         }
+
+        #endregion
     }
 }

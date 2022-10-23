@@ -2,7 +2,7 @@
 var verbListIndex;
 var verbJson;
 
-function Initialize() {
+function InitializeVerbs() {
     verbList = [];
     verbListIndex = 0;
 
@@ -18,7 +18,7 @@ function SelectVerbList() {
     ServerCalls.GetVerbList(selectedValue);
 }
 
-function LoadNext() {
+function LoadNextVerb() {
     verbListIndex++;
     var nextVerbName = verbList[verbListIndex];
     if (nextVerbName === undefined || nextVerbName === null) {

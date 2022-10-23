@@ -1,0 +1,16 @@
+﻿@page
+@model PhrasesPanelModel
+@{
+    ViewData["Title"] = "Phrases";
+}
+<script type="text/javascript">
+    LoadPhraseLists();
+</script>
+<div id="phrasePanel" class="center" onload="LoadPhraseLists();">
+    <h4 class="center">Phrases</h4>
+    <select id="phraseListSelectList" class="center"></select>
+    <button onclick="SelectPhraseList();">Submit</button>
+    <div id="phraseSubPanel" class="collasped">
+        @await Html.PartialAsync("/Pages/Panels/SubPanels/PhrasesSubPanel.cshtml")
+    </div>
+</div>

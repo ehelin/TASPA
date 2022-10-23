@@ -1,5 +1,62 @@
 ﻿var ServerCalls = {};
 
+ServerCalls.SetPhraseLists = function () {
+    try {
+        var path = '/TaspaApi/getPhraseLists';
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
+                    var phraseListSelectListControl = document.getElementById("phraseListSelectList");
+
+                    for (var i = 0; i < jsonParsed.length; i++) {
+                        var currentJson = jsonParsed[i];
+                        phraseListSelectListControl.options[phraseListSelectListControl.options.length] = new Option(currentJson, currentJson);
+                    }
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+ServerCalls.SetPhraseList = function (listName) {
+    try {
+        var path = '/TaspaApi/getPhraseList?phraseListName=' + listName;
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
+
+                    InitializePhrases();
+
+                    phraseList = jsonParsed;
+
+                    ServerCalls.SetPhraseJson(jsonParsed[0]);
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+ServerCalls.SetPhraseJson = function (phraseName) {
+    try {
+        var path = '/json/spanish/phrases/' + phraseName + '.json';
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
+                    phraseJson = jsonParsed;
+
+                    PhraseListNext(phraseName, phraseJson);
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
 ServerCalls.SetVerbLists = function () {
     try {
         var path = '/TaspaApi/getVerbLists';
@@ -28,7 +85,7 @@ ServerCalls.SetVerbList = function (listName) {
                 function (response) {
                     var jsonParsed = JSON.parse(response);
 
-                    Initialize();
+                    InitializeVerbs();
 
                     verbList = jsonParsed;
 

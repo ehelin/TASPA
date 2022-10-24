@@ -1,17 +1,17 @@
 ﻿var ServerCalls = {};
 
-ServerCalls.SetPhraseLists = function () {
+ServerCalls.SetVocabularyLists = function () {
     try {
-        var path = '/TaspaApi/getPhraseLists';
+        var path = '/TaspaApi/getVocabularyLists';
         return ServerCall.Get(path)
             .then(
                 function (response) {
                     var jsonParsed = JSON.parse(response);
-                    var phraseListSelectListControl = document.getElementById("phraseListSelectList");
+                    var vocabularyListSelectListControl = document.getElementById("vocabularyListSelectList");
 
                     for (var i = 0; i < jsonParsed.length; i++) {
                         var currentJson = jsonParsed[i];
-                        phraseListSelectListControl.options[phraseListSelectListControl.options.length] = new Option(currentJson, currentJson);
+                        vocabularyListSelectListControl.options[vocabularyListSelectListControl.options.length] = new Option(currentJson, currentJson);
                     }
                 });
     }
@@ -20,19 +20,19 @@ ServerCalls.SetPhraseLists = function () {
     }
 };
 
-ServerCalls.SetPhraseList = function (listName) {
+ServerCalls.SetVocabularyList = function (listName) {
     try {
-        var path = '/TaspaApi/getPhraseList?phraseListName=' + listName;
+        var path = '/TaspaApi/getVocabularyList?vocabularyListName=' + listName;
         return ServerCall.Get(path)
             .then(
                 function (response) {
                     var jsonParsed = JSON.parse(response);
 
-                    InitializePhrases();
+                    InitializeVocabulary();
 
-                    phraseList = jsonParsed;
+                    vocabularyList = jsonParsed;
 
-                    ServerCalls.SetPhraseJson(jsonParsed[0]);
+                    ServerCalls.SetVocabularyJson(jsonParsed[0]);
                 });
     }
     catch (ex) {
@@ -40,16 +40,16 @@ ServerCalls.SetPhraseList = function (listName) {
     }
 };
 
-ServerCalls.SetPhraseJson = function (phraseName) {
+ServerCalls.SetVocabularyJson = function (vocabularyName) {
     try {
-        var path = '/json/spanish/phrases/' + phraseName + '.json';
+        var path = '/json/spanish/vocabulary/' + vocabularyName + '.json';
         return ServerCall.Get(path)
             .then(
                 function (response) {
                     var jsonParsed = JSON.parse(response);
-                    phraseJson = jsonParsed;
+                    vocabularyJson = jsonParsed;
 
-                    PhraseListNext(phraseName, phraseJson);
+                    VocabularyListNext(vocabularyName, vocabularyJson);
                 });
     }
     catch (ex) {

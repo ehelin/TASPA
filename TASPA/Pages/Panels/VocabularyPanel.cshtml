@@ -1,0 +1,16 @@
+﻿@page
+@model VocabularyPanelModel
+@{
+    ViewData["Title"] = "Vocabulary";
+}
+<script type="text/javascript">
+    LoadVocabularyLists();
+</script>
+<div id="vocabularyPanel" class="center" onload="LoadVocabularyLists();">
+    <h4 class="center">Vocabulary</h4>
+    <select id="vocabularyListSelectList" class="center"></select>
+    <button onclick="SelectVocabularyList();">Submit</button>
+    <div id="vocabularySubPanel" class="collasped">
+        @await Html.PartialAsync("/Pages/Panels/SubPanels/VocabularySubPanel.cshtml")
+    </div>
+</div>

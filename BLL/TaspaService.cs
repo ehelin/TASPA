@@ -22,18 +22,18 @@ namespace BLL
         }
 
 
-        public List<string> GetPhraseLists()
+        public List<string> GetVocabularyLists()
         {
-            var phraseLists = this.taspaDataService.GetPhraseLists();
+            var vocabularyLists = this.taspaDataService.GetVocabularyLists();
 
-            return phraseLists;
+            return vocabularyLists;
         }
 
-        public List<string> GetPhraseList(string phraseListName)
+        public List<string> GetVocabularyList(string phraseListName)
         {
             // TODO - make phraseListName comparison strings constants
             if (phraseListName == "Full") { return GetFullPhraseList(); }
-            else if (phraseListName == "A") { return this.taspaDataService.GetAPhraseList(); }
+            else if (phraseListName == "A") { return this.taspaDataService.GetAVocabularyList(); }
             //else if (phraseListName == "B") { return this.taspaDataService.GetBPhraseList(); }
             //else if (phraseListName == "C") { return this.taspaDataService.GetCPhraseList(); }
             //else if (phraseListName == "D") { return this.taspaDataService.GetDPhraseList(); }
@@ -61,10 +61,9 @@ namespace BLL
             //else if (phraseListName == "Z") { return this.taspaDataService.GetZPhraseList(); }
             else
             {
-                throw new Exception(string.Format("Unknown phrase list name: {0}", phraseListName));
+                throw new Exception(string.Format("Unknown vocabulary list name: {0}", phraseListName));
             }
         }
-
 
         public List<string> GetVerbLists()
         {
@@ -113,7 +112,7 @@ namespace BLL
         {
             var fullVerbList = new List<string>();
 
-            fullVerbList.AddRange(this.taspaDataService.GetAPhraseList());
+            fullVerbList.AddRange(this.taspaDataService.GetAVocabularyList());
             //fullVerbList.AddRange(this.taspaDataService.GetBPhraseList());
             //fullVerbList.AddRange(this.taspaDataService.GetCPhraseList());
             //fullVerbList.AddRange(this.taspaDataService.GetDPhraseList());

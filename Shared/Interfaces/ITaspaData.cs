@@ -7,8 +7,8 @@ namespace Shared.Interfaces
     {
         public List<NavigationLink> GetNavigationLinks();
 
-        public List<string> GetPhraseLists();
-        List<string> GetAPhraseList();
+        public List<string> GetVocabularyLists();
+        List<string> GetAVocabularyList();
 
         public List<string> GetVerbLists();
         public List<string> GetAVerbList();

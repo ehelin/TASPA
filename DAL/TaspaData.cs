@@ -13,14 +13,14 @@ namespace DAL
 
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Index", LinkText = "Home" });
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VerbsPanel", LinkText = "Verbs" });
-            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/PhrasesPanel", LinkText = "Phrases" });
+            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VocabularyPanel", LinkText = "Vocabulary" });
 
             return navigationLinks;
         }
 
-        #region Phrases
-        
-        public List<string> GetPhraseLists()
+        #region Vocabulary Lists
+
+        public List<string> GetVocabularyLists()
         {
             var verbLists = new List<string>();
 
@@ -55,13 +55,13 @@ namespace DAL
 
             return verbLists;
         }
-        public List<string> GetAPhraseList()
+        public List<string> GetAVocabularyList()
         {
-            var currentAPhraseList = new List<string>();
+            var currentAVocabularyList = new List<string>();
 
-            currentAPhraseList.Add("alguein_tiene_prisa");
+            currentAVocabularyList.Add("alguein_tiene_prisa");
             
-            return currentAPhraseList;
+            return currentAVocabularyList;
         }
 
         #endregion

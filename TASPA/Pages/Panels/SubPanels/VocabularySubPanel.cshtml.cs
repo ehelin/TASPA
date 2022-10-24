@@ -2,9 +2,9 @@
 
 namespace TASPA.Pages
 {
-    public class PhrasesSubPanelModel : PageModel
+    public class VocabularySubPanelModel : PageModel
     {
-        public PhrasesSubPanelModel()
+        public VocabularySubPanelModel()
         {
         }
 

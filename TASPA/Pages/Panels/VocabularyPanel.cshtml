@@ -8,6 +8,19 @@
 </script>
 <div id="vocabularyPanel" class="center" onload="LoadVocabularyLists();">
     <h4 class="center">Vocabulary</h4>
+
+    <!-- TODO - use css class before final checkin-->
+    <!-- TODO - align radio button div as centered on page -->
+    <!-- TODO - update select list based on radio button selected -->
+    <!-- TODO - check in final should have phrases and one other at least -->
+    <div class="center">
+        <div style="text-align: left">
+            <input type="radio" name="type" value="Phrases" checked>Phrases<br />
+            <input type="radio" name="type" value="Vocabulary Type 2">Vocabulary Type 2<br />
+            <input type="radio" name="type" value="Vocabulary Type 3">Vocabulary Type 3<br />
+        </div>
+    </div>
+
     <select id="vocabularyListSelectList" class="center"></select>
     <button onclick="SelectVocabularyList();">Submit</button>
     <div id="vocabularySubPanel" class="collasped">

@@ -55,7 +55,7 @@ namespace DAL
 
             return verbLists;
         }
-        public List<string> GetAVocabularyList()
+        public List<string> GetVocabularyList_Phrases()
         {
             var currentAVocabularyList = new List<string>();
 

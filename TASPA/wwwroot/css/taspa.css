@@ -98,3 +98,13 @@
     height: 100%;
     align-content: center;
 }
+
+.vocabularyListSelectionPanelParent {
+    width: 100%;
+}
+
+.vocabularyListSelectionPanel {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}

@@ -1,5 +1,8 @@
 ﻿function LoadVocabularyLists() {
-    ServerCalls.SetVocabularyLists();
+    var vocabularyFolder = 'phrases';
+    var listName = 'Phrases'; // TODO - make dynamic (default)
+    //ServerCalls.SetVocabularyLists();
+    VocabularyPanelSetVocabularyList(vocabularyFolder, listName);
 }
 
 function SelectVocabularyList() {
@@ -7,4 +10,8 @@ function SelectVocabularyList() {
     var selectedValue = selectedVocabularyList.value;
 
     ServerCalls.SetVocabularyList(selectedValue);
+}
+
+function VocabularyPanelSetVocabularyList(vocabularyFolder, listName) {
+    ServerCalls.SetVocabularyList(vocabularyFolder, listName);
 }

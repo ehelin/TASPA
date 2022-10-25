@@ -29,11 +29,11 @@ namespace BLL
             return vocabularyLists;
         }
 
-        public List<string> GetVocabularyList(string phraseListName)
+        public List<string> GetVocabularyList(string listName)
         {
             // TODO - make phraseListName comparison strings constants
-            if (phraseListName == "Full") { return GetFullPhraseList(); }
-            else if (phraseListName == "A") { return this.taspaDataService.GetAVocabularyList(); }
+            if (listName == "Phrases") { return this.taspaDataService.GetVocabularyList_Phrases(); }
+            //else if (phraseListName == "A") { return this.taspaDataService.GetAVocabularyList(); }
             //else if (phraseListName == "B") { return this.taspaDataService.GetBPhraseList(); }
             //else if (phraseListName == "C") { return this.taspaDataService.GetCPhraseList(); }
             //else if (phraseListName == "D") { return this.taspaDataService.GetDPhraseList(); }
@@ -61,7 +61,7 @@ namespace BLL
             //else if (phraseListName == "Z") { return this.taspaDataService.GetZPhraseList(); }
             else
             {
-                throw new Exception(string.Format("Unknown vocabulary list name: {0}", phraseListName));
+                throw new Exception(string.Format("Unknown vocabulary list name: {0}", listName));
             }
         }
 
@@ -112,7 +112,7 @@ namespace BLL
         {
             var fullVerbList = new List<string>();
 
-            fullVerbList.AddRange(this.taspaDataService.GetAVocabularyList());
+            //fullVerbList.AddRange(this.taspaDataService.GetAVocabularyList());
             //fullVerbList.AddRange(this.taspaDataService.GetBPhraseList());
             //fullVerbList.AddRange(this.taspaDataService.GetCPhraseList());
             //fullVerbList.AddRange(this.taspaDataService.GetDPhraseList());

@@ -55,12 +55,28 @@ namespace DAL
 
             return verbLists;
         }
+        public List<string> GetVocabularyList_HouseTerms()
+        {
+            var currentAVocabularyList = new List<string>();
+
+            currentAVocabularyList.Add("el_ático");
+
+            return currentAVocabularyList;
+        }
         public List<string> GetVocabularyList_Phrases()
         {
             var currentAVocabularyList = new List<string>();
 
             currentAVocabularyList.Add("alguein_tiene_prisa");
-            
+
+            return currentAVocabularyList;
+        }
+        public List<string> GetVocabularyList_TheBody()
+        {
+            var currentAVocabularyList = new List<string>();
+
+            currentAVocabularyList.Add("el_brazo");
+
             return currentAVocabularyList;
         }
 

@@ -9,6 +9,8 @@ namespace Shared.Interfaces
 
         public List<string> GetVocabularyLists();
         List<string> GetVocabularyList_Phrases();
+        List<string> GetVocabularyList_HouseTerms();
+        List<string> GetVocabularyList_TheBody();
 
         public List<string> GetVerbLists();
         public List<string> GetAVerbList();

@@ -33,8 +33,8 @@ namespace BLL
         {
             // TODO - make phraseListName comparison strings constants
             if (listName == "Phrases") { return this.taspaDataService.GetVocabularyList_Phrases(); }
-            //else if (phraseListName == "A") { return this.taspaDataService.GetAVocabularyList(); }
-            //else if (phraseListName == "B") { return this.taspaDataService.GetBPhraseList(); }
+            else if (listName == "TheBody") { return this.taspaDataService.GetVocabularyList_TheBody(); }
+            else if (listName == "HouseTerms") { return this.taspaDataService.GetVocabularyList_HouseTerms(); }
             //else if (phraseListName == "C") { return this.taspaDataService.GetCPhraseList(); }
             //else if (phraseListName == "D") { return this.taspaDataService.GetDPhraseList(); }
             //else if (phraseListName == "E") { return this.taspaDataService.GetEPhraseList(); }

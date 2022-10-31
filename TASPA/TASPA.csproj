@@ -17,4 +17,13 @@
     <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\json\spanish\vocabulary\phrases\el_sótano.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4json_4spanish_4vocabulary_4phrases_4la_3lámpara_1json__JsonSchema="lamp" /></VisualStudio></ProjectExtensions>
+
 </Project>

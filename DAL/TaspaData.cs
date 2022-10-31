@@ -65,11 +65,54 @@ namespace DAL
         }
         public List<string> GetVocabularyList_Phrases()
         {
-            var currentAVocabularyList = new List<string>();
+            var list = new List<string>();
 
-            currentAVocabularyList.Add("alguein_tiene_prisa");
+            list.Add("alguein_tiene_prisa");
+            list.Add("el_armario");
+            list.Add("el_baño");
+            list.Add("el_comedor");
+            list.Add("el_cuarto");
+            list.Add("el_dormitorio");
+            list.Add("el_enchufe");
+            list.Add("el_espejo");
+            list.Add("el_estudio");
+            list.Add("el_fregadero");
+            list.Add("el_garage");
+            list.Add("el_grifo");
+            list.Add("el_horno");
+            list.Add("el_lavavajillas");
+            list.Add("el_mostrador");
+            list.Add("el_patio");
+            list.Add("el_ropero");
+            list.Add("el_sofá");
+            list.Add("el_suelo");
+            list.Add("el_sótano");
+            list.Add("el_techo");
+            list.Add("el_tejado");
+            list.Add("el_váter");
+            list.Add("la_aspiradora");
+            list.Add("la_cama");
+            list.Add("la_cocina");
+            list.Add("la_cómoda");
+            list.Add("la_entrada");
+            list.Add("la_escalera");
+            list.Add("la_estancia");
+            list.Add("la_estufa");
+            list.Add("la_lavadora");        
+            list.Add("la_licuadora");
+            list.Add("la_luz");
+            list.Add("la_lámpara");
+            list.Add("la_mesa");
+            list.Add("la_pared");
+            list.Add("la_plancha");
+            list.Add("la_puerta");
+            list.Add("la_sala_de_estar");
+            list.Add("la_secadora");
+            list.Add("la_silla");
+            list.Add("la_tostadora");
+            list.Add("la_ventana");
 
-            return currentAVocabularyList;
+            return list;
         }
         public List<string> GetVocabularyList_TheBody()
         {

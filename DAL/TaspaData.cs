@@ -82,7 +82,9 @@ namespace DAL
             list.Add("el_horno");
             list.Add("el_lavavajillas");
             list.Add("el_mostrador");
+            list.Add("el_muro");
             list.Add("el_patio");
+            list.Add("el_piso");
             list.Add("el_ropero");
             list.Add("el_sofá");
             list.Add("el_suelo");

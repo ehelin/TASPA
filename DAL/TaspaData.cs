@@ -57,17 +57,9 @@ namespace DAL
         }
         public List<string> GetVocabularyList_HouseTerms()
         {
-            var currentAVocabularyList = new List<string>();
-
-            currentAVocabularyList.Add("el_ático");
-
-            return currentAVocabularyList;
-        }
-        public List<string> GetVocabularyList_Phrases()
-        {
             var list = new List<string>();
 
-            list.Add("alguein_tiene_prisa");
+            list.Add("el_ático");
             list.Add("el_armario");
             list.Add("el_baño");
             list.Add("el_comedor");
@@ -113,6 +105,36 @@ namespace DAL
             list.Add("la_silla");
             list.Add("la_tostadora");
             list.Add("la_ventana");
+
+            return list;
+        }
+        public List<string> GetVocabularyList_Phrases()
+        {
+            var list = new List<string>();
+
+            list.Add("alguein_tiene_prisa");
+            list.Add("anthro");
+            list.Add("asuntos_de_seguridad");
+            list.Add("buena_onda");
+            list.Add("cabruyendo");
+            list.Add("cabrón");
+            list.Add("cedo");
+            list.Add("chispa");
+            list.Add("echarle_un_ojo_los_gatos");
+            list.Add("estoy_bien_tal_como_soy");
+            list.Add("fugaz");
+            list.Add("la_hielera");
+            list.Add("mendingo");
+            list.Add("necio");
+            list.Add("no_sea_chochino");
+            list.Add("que_tan_lejos_corriste");
+            list.Add("quiero_pasar_los_años_que_me_quedan_sanos");
+            list.Add("racimo_de_plátanos");
+            list.Add("rapiño");
+            list.Add("talcón");
+            list.Add("te_cuesta_moverte");
+            list.Add("un_par");
+            list.Add("vas_a_poder");
 
             return list;
         }

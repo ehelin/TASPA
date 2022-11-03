@@ -18,16 +18,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\json\spanish\vocabulary\phrases\el_piso.json">
+    <Content Update="wwwroot\json\spanish\vocabulary\houseTerms\el_piso.json">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
-    <Content Update="wwwroot\json\spanish\vocabulary\phrases\el_sótano.json">
+    <Content Update="wwwroot\json\spanish\vocabulary\houseTerms\el_sótano.json">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4json_4spanish_4vocabulary_4phrases_4la_3lámpara_1json__JsonSchema="lamp" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>

@@ -34,16 +34,43 @@ namespace IntegrationTests
             fileWriter.Close();
             fileWriter.Dispose();
         }
-
+        
         [Fact]
         public void VerifyAllPhrasesHaveCorrespondingJsonFile()
         {
+            try
+            {
+                // TODO - get path dyanmically
+                var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\phrases\\";
+
+                var phrases = this.bllService.GetVocabularyList("Phrases");
+                foreach (var phrase in phrases)
+                {
+                    var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                    var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+
+                    var file = File.ReadAllText(jsonFilePath);
+                    Assert.NotNull(file);
+
+                    var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                    Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+                }
+            }
+            catch (Exception ex)
+            {
+                var test = 1;
+            }
+        }
+
+        [Fact]
+        public void VerifyAllHouseTermsHaveCorrespondingJsonFile()
+        {
             // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\phrases\\";
-          
-            var phrases = this.bllService.GetVocabularyList("Phrases");
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\houseTerms\\";
+
+            var phrases = this.bllService.GetVocabularyList("HouseTerms");
             foreach (var phrase in phrases)
-            {           
+            {
                 var jsonFileName = string.Format("{0}.{1}", phrase, "json");
                 var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 
@@ -51,7 +78,7 @@ namespace IntegrationTests
                 Assert.NotNull(file);
 
                 var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
-                Assert.Equal(phrase.Replace("_"," "), jsonFile.Name);
+                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
             }
         }
 

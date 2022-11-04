@@ -28,37 +28,50 @@ namespace IntegrationTests
             foreach (string fle in files)
             {
                 var fi = new FileInfo(fle);
-                fileWriter.WriteLine("list.Add(\"" + fi.Name + "\")");
+                fileWriter.WriteLine("list.Add(\"" + fi.Name + "\");");
             }
             fileWriter.Flush();
             fileWriter.Close();
             fileWriter.Dispose();
         }
+
+        [Fact]
+        public void VerifyAllBodyHaveCorrespondingJsonFile()
+        {
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\theBody\\";
+
+            var phrases = this.bllService.GetVocabularyList("TheBody");
+            foreach (var phrase in phrases)
+            {
+                var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+
+                var file = File.ReadAllText(jsonFilePath);
+                Assert.NotNull(file);
+
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+            }
+        }
         
         [Fact]
         public void VerifyAllPhrasesHaveCorrespondingJsonFile()
         {
-            try
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\phrases\\";
+
+            var phrases = this.bllService.GetVocabularyList("Phrases");
+            foreach (var phrase in phrases)
             {
-                // TODO - get path dyanmically
-                var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\phrases\\";
+                var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 
-                var phrases = this.bllService.GetVocabularyList("Phrases");
-                foreach (var phrase in phrases)
-                {
-                    var jsonFileName = string.Format("{0}.{1}", phrase, "json");
-                    var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+                var file = File.ReadAllText(jsonFilePath);
+                Assert.NotNull(file);
 
-                    var file = File.ReadAllText(jsonFilePath);
-                    Assert.NotNull(file);
-
-                    var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
-                    Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
-                }
-            }
-            catch (Exception ex)
-            {
-                var test = 1;
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
             }
         }
 

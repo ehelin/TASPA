@@ -140,11 +140,43 @@ namespace DAL
         }
         public List<string> GetVocabularyList_TheBody()
         {
-            var currentAVocabularyList = new List<string>();
+            var list = new List<string>();
 
-            currentAVocabularyList.Add("el_brazo");
+            list.Add("el_brazo");
+            list.Add("el_cerebro");
+            list.Add("el_codo");
+            list.Add("el_corazón");
+            list.Add("el_cuello");
+            list.Add("el_dedo");
+            list.Add("el_diente");
+            list.Add("el_estómago");
+            list.Add("el_hombro");
+            list.Add("el_hígado");
+            list.Add("el_intestino");
+            list.Add("el_muslo");
+            list.Add("el_músculo");
+            list.Add("el_ojo");
+            list.Add("el_oído");
+            list.Add("el_pecho");
+            list.Add("el_pelo");
+            list.Add("el_pie");
+            list.Add("el_vientre");
+            list.Add("las_nalgas");
+            list.Add("la_boca");
+            list.Add("la_cabeza");
+            list.Add("la_cadera");
+            list.Add("la_columna_vertebral");
+            list.Add("la_espalda");
+            list.Add("la_garganta");
+            list.Add("la_lengua");
+            list.Add("la_mano");
+            list.Add("la_nariz");
+            list.Add("la_pantorrilla");
+            list.Add("la_piel");
+            list.Add("la_pierna");
+            list.Add("la_rodilla");
 
-            return currentAVocabularyList;
+            return list;
         }
 
         #endregion

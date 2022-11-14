@@ -1,9 +1,7 @@
-using System;
 using System.IO;
 using BLL;
 using DAL;
 using Newtonsoft.Json;
-using System.IO;
 using Shared.Dto;
 using Shared.Interfaces;
 using Xunit;
@@ -18,21 +16,6 @@ namespace IntegrationTests
         {
             ITaspaData dataLayer = new TaspaData();
             this.bllService = new TaspaService(dataLayer);
-        }
-
-        private void OutputJsonDirectoryToFile(string jsonPath)
-        {
-            var files = Directory.GetFiles(jsonPath);
-            using StreamWriter fileWriter = new(jsonPath + "\\JsonDirectoryBllList.txt");
-
-            foreach (string fle in files)
-            {
-                var fi = new FileInfo(fle);
-                fileWriter.WriteLine("list.Add(\"" + fi.Name + "\");");
-            }
-            fileWriter.Flush();
-            fileWriter.Close();
-            fileWriter.Dispose();
         }
 
         [Fact]

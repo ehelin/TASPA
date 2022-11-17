@@ -138,46 +138,46 @@ namespace DAL
 
             return list;
         }
-        public List<string> GetVocabularyList_TheBody()
-        {
-            var list = new List<string>();
+        //public List<string> GetVocabularyList_TheBody()
+        //{
+        //    var list = new List<string>();
 
-            list.Add("el_brazo");
-            list.Add("el_cerebro");
-            list.Add("el_codo");
-            list.Add("el_corazón");
-            list.Add("el_cuello");
-            list.Add("el_dedo");
-            list.Add("el_diente");
-            list.Add("el_estómago");
-            list.Add("el_hombro");
-            list.Add("el_hígado");
-            list.Add("el_intestino");
-            list.Add("el_muslo");
-            list.Add("el_músculo");
-            list.Add("el_ojo");
-            list.Add("el_oído");
-            list.Add("el_pecho");
-            list.Add("el_pelo");
-            list.Add("el_pie");
-            list.Add("el_vientre");
-            list.Add("las_nalgas");
-            list.Add("la_boca");
-            list.Add("la_cabeza");
-            list.Add("la_cadera");
-            list.Add("la_columna_vertebral");
-            list.Add("la_espalda");
-            list.Add("la_garganta");
-            list.Add("la_lengua");
-            list.Add("la_mano");
-            list.Add("la_nariz");
-            list.Add("la_pantorrilla");
-            list.Add("la_piel");
-            list.Add("la_pierna");
-            list.Add("la_rodilla");
+        //    list.Add("el_brazo");
+        //    list.Add("el_cerebro");
+        //    list.Add("el_codo");
+        //    list.Add("el_corazón");
+        //    list.Add("el_cuello");
+        //    list.Add("el_dedo");
+        //    list.Add("el_diente");
+        //    list.Add("el_estómago");
+        //    list.Add("el_hombro");
+        //    list.Add("el_hígado");
+        //    list.Add("el_intestino");
+        //    list.Add("el_muslo");
+        //    list.Add("el_músculo");
+        //    list.Add("el_ojo");
+        //    list.Add("el_oído");
+        //    list.Add("el_pecho");
+        //    list.Add("el_pelo");
+        //    list.Add("el_pie");
+        //    list.Add("el_vientre");
+        //    list.Add("las_nalgas");
+        //    list.Add("la_boca");
+        //    list.Add("la_cabeza");
+        //    list.Add("la_cadera");
+        //    list.Add("la_columna_vertebral");
+        //    list.Add("la_espalda");
+        //    list.Add("la_garganta");
+        //    list.Add("la_lengua");
+        //    list.Add("la_mano");
+        //    list.Add("la_nariz");
+        //    list.Add("la_pantorrilla");
+        //    list.Add("la_piel");
+        //    list.Add("la_pierna");
+        //    list.Add("la_rodilla");
 
-            return list;
-        }
+        //    return list;
+        //}
 
         //================================
 
@@ -500,7 +500,7 @@ namespace DAL
         }
 
         //prepositions
-        public List<string> GetPrepositions()
+        public List<string> GetVocabularyList_GetPrepositions()
         {
             var list = new List<string>();
 
@@ -568,7 +568,7 @@ namespace DAL
         }
 
         //bodyparts
-        public List<string> GetBodyParts()
+        public List<string> GetVocabularyList_GetBodyParts()
         {
             var list = new List<string>();
 
@@ -610,7 +610,8 @@ namespace DAL
             return list;
         }
 
-        public List<string> GetClothing()
+        //clothing
+        public List<string> GetVocabularyList_GetClothing()
         {
             var list = new List<string>();
 
@@ -652,7 +653,8 @@ namespace DAL
             return list;
         }
 
-        public List<string> GetTimeWords()
+        //timewords
+        public List<string> GetVocabularyList_GetTimeWords()
         {
             var list = new List<string>();
 
@@ -706,7 +708,8 @@ namespace DAL
             return list;
         }
 
-        public List<string> GetFamilyMembers()
+        //familymembers
+        public List<string> GetVocabularyList_GetFamilyMembers()
         {
             var list = new List<string>();
 
@@ -750,12 +753,13 @@ namespace DAL
             return list;
         }
 
-        public List<string> GetFruits()
+        //fruits
+        public List<string> GetVocabularyList_GetFruits()
         {
             var list = new List<string>();
 
             list.Add("la_manzana");
-            list.Add("el_damasco,_el_albericoque");
+            list.Add("el_damasco_el_albericoque");
             list.Add("el_aguacate");
             list.Add("el_plátano,_la_banana");
             list.Add("la_mora,_la_zarzamora");
@@ -806,7 +810,8 @@ namespace DAL
             return list;
         }
 
-        public List<string> GetQuestions()
+        //questions
+        public List<string> GetVocabularyList_GetQuestions()
         {
             var list = new List<string>();
 

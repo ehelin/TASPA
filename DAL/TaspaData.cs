@@ -55,59 +55,59 @@ namespace DAL
 
             return verbLists;
         }
-        public List<string> GetVocabularyList_HouseTerms()
-        {
-            var list = new List<string>();
+        //public List<string> GetVocabularyList_HouseTerms()
+        //{
+        //    var list = new List<string>();
 
-            list.Add("el_ático");
-            list.Add("el_armario");
-            list.Add("el_baño");
-            list.Add("el_comedor");
-            list.Add("el_cuarto");
-            list.Add("el_dormitorio");
-            list.Add("el_enchufe");
-            list.Add("el_espejo");
-            list.Add("el_estudio");
-            list.Add("el_fregadero");
-            list.Add("el_garage");
-            list.Add("el_grifo");
-            list.Add("el_horno");
-            list.Add("el_lavavajillas");
-            list.Add("el_mostrador");
-            list.Add("el_muro");
-            list.Add("el_patio");
-            list.Add("el_piso");
-            list.Add("el_ropero");
-            list.Add("el_sofá");
-            list.Add("el_suelo");
-            list.Add("el_sótano");
-            list.Add("el_techo");
-            list.Add("el_tejado");
-            list.Add("el_váter");
-            list.Add("la_aspiradora");
-            list.Add("la_cama");
-            list.Add("la_cocina");
-            list.Add("la_cómoda");
-            list.Add("la_entrada");
-            list.Add("la_escalera");
-            list.Add("la_estancia");
-            list.Add("la_estufa");
-            list.Add("la_lavadora");        
-            list.Add("la_licuadora");
-            list.Add("la_luz");
-            list.Add("la_lámpara");
-            list.Add("la_mesa");
-            list.Add("la_pared");
-            list.Add("la_plancha");
-            list.Add("la_puerta");
-            list.Add("la_sala_de_estar");
-            list.Add("la_secadora");
-            list.Add("la_silla");
-            list.Add("la_tostadora");
-            list.Add("la_ventana");
+        //    list.Add("el_ático");
+        //    list.Add("el_armario");
+        //    list.Add("el_baño");
+        //    list.Add("el_comedor");
+        //    list.Add("el_cuarto");
+        //    list.Add("el_dormitorio");
+        //    list.Add("el_enchufe");
+        //    list.Add("el_espejo");
+        //    list.Add("el_estudio");
+        //    list.Add("el_fregadero");
+        //    list.Add("el_garage");
+        //    list.Add("el_grifo");
+        //    list.Add("el_horno");
+        //    list.Add("el_lavavajillas");
+        //    list.Add("el_mostrador");
+        //    list.Add("el_muro");
+        //    list.Add("el_patio");
+        //    list.Add("el_piso");
+        //    list.Add("el_ropero");
+        //    list.Add("el_sofá");
+        //    list.Add("el_suelo");
+        //    list.Add("el_sótano");
+        //    list.Add("el_techo");
+        //    list.Add("el_tejado");
+        //    list.Add("el_váter");
+        //    list.Add("la_aspiradora");
+        //    list.Add("la_cama");
+        //    list.Add("la_cocina");
+        //    list.Add("la_cómoda");
+        //    list.Add("la_entrada");
+        //    list.Add("la_escalera");
+        //    list.Add("la_estancia");
+        //    list.Add("la_estufa");
+        //    list.Add("la_lavadora");
+        //    list.Add("la_licuadora");
+        //    list.Add("la_luz");
+        //    list.Add("la_lámpara");
+        //    list.Add("la_mesa");
+        //    list.Add("la_pared");
+        //    list.Add("la_plancha");
+        //    list.Add("la_puerta");
+        //    list.Add("la_sala_de_estar");
+        //    list.Add("la_secadora");
+        //    list.Add("la_silla");
+        //    list.Add("la_tostadora");
+        //    list.Add("la_ventana");
 
-            return list;
-        }
+        //    return list;
+        //}
         public List<string> GetVocabularyList_Phrases()
         {
             var list = new List<string>();
@@ -178,6 +178,652 @@ namespace DAL
 
             return list;
         }
+
+        //================================
+
+        //vegetables
+        public List<string> GetVocabularyList_GetVegetables()
+        {
+            var list = new List<string>();
+
+            list.Add("el_espárrago");
+            list.Add("el_aguacate");
+            list.Add("los_tallos_de_bambú");
+            list.Add("el_frijol");
+            list.Add("la_remolacha");
+            list.Add("la_col_china");
+            list.Add("el_brócoli");
+            list.Add("col_de_Bruselas");
+            list.Add("la_col");
+            list.Add("la_zanahoria");
+            list.Add("la_yuca");
+            list.Add("la_coriflor");
+            list.Add("el_apio");
+            list.Add("la_acelga");
+            list.Add("la_achicoria");
+            list.Add("el_garbanzo");
+            list.Add("el_maíz");
+            list.Add("el_pepino");
+            list.Add("la_berenjena");
+            list.Add("la_endivia");
+            list.Add("el_ajo");
+            list.Add("el_jengibre");
+            list.Add("el_pimiento_verde");
+            list.Add("el_tupinambo");
+            list.Add("la_jícama");
+            list.Add("el_puerro");
+            list.Add("la_lenteja");
+            list.Add("el_ruibarbo");
+            list.Add("la_lechuga");
+            list.Add("el_champiñón");
+            list.Add("el_quingombó");
+            list.Add("la_cebolla");
+            list.Add("el_perejil");
+            list.Add("la_chirivía");
+            list.Add("los_guisantes");
+            list.Add("la_patata");
+            list.Add("la_calabaza");
+            list.Add("el_rábano");
+            list.Add("el_pimiento_rojo");
+            list.Add("el_nabo_sueco");
+            list.Add("el_chalote");
+            list.Add("la_semilla_de_soja");
+            list.Add("las_espinacas");
+            list.Add("la_acedera");
+            list.Add("la_cucurbitácea");
+            list.Add("las_habas_verdes");
+            list.Add("la_batata");
+            list.Add("la_tapioca");
+            list.Add("el_tomatillo");
+            list.Add("el_tomate");
+            list.Add("el_nabo");
+            list.Add("la_castaña_de_agua");
+            list.Add("el_berro");
+            list.Add("el_boniato");
+            list.Add("el_calabacín");
+
+            return list;
+        }
+
+        //shops
+        public List<string> GetVocabularyList_GetShops()
+        {
+            var list = new List<string>();
+
+            list.Add("cafe");
+            list.Add("carnicería");
+            list.Add("cervecería");
+            list.Add("confitería");
+            list.Add("dentistería");
+            list.Add("droguería");
+            list.Add("ebanistería");
+            list.Add("ferretería");
+            list.Add("floristería");
+            list.Add("frutería");
+            list.Add("heladería");
+            list.Add("herboristería");
+            list.Add("herrería");
+            list.Add("joyería");
+            list.Add("juguetería");
+            list.Add("lavandería");
+            list.Add("lechería");
+            list.Add("lencería");
+            list.Add("librería");
+            list.Add("mueblería");
+            list.Add("panadería");
+            list.Add("papelería");
+            list.Add("pastelería");
+            list.Add("peluquería");
+            list.Add("pescadería");
+            list.Add("perfumería");
+            list.Add("pizzería");
+            list.Add("sastrería");
+            list.Add("sombrerería");
+            list.Add("tapicería");
+            list.Add("tintotería");
+            list.Add("verdulería");
+            list.Add("zapatería");
+
+            return list;
+        }
+
+        //listfrommeetup
+        public List<string> GetVocabularyList_GetMeetupList()
+        {
+            var list = new List<string>();
+
+            list.Add("el_proximó_viernes");
+            list.Add("el_viernes_pasado");
+            list.Add("murciélago");
+            list.Add("cuanto_tiempo_has_estado_aqui");
+            list.Add("durante_cuanto_tiempo_estuviste_aqui");
+            list.Add("subir");
+            list.Add("escalar");
+            list.Add("cola");
+            list.Add("fila");
+            list.Add("chingo");
+            list.Add("banqueta");
+            list.Add("recursos_de_viviento");
+            list.Add("el_cuarto_mas_viejo");
+            list.Add("banca");
+            list.Add("banco");
+            list.Add("fuck_you,fecales");
+            list.Add("el_culo");
+            list.Add("cariño");
+            list.Add("en_México_en_todas_partes");
+            list.Add("Las_Tijeras");
+            list.Add("La_campana");
+            list.Add("Las_Fuentes");
+            list.Add("Pluma");
+            list.Add("La_cadena");
+            list.Add("La_revista");
+            list.Add("El_puente");
+            list.Add("La_pantalla");
+            list.Add("La_bandera");
+            list.Add("los_bancos");
+            list.Add("la_coasta");
+            list.Add("la_carcel");
+            list.Add("el_calle");
+            list.Add("la_calle_jeros");
+            list.Add("la_carretera");
+            list.Add("el_autopista");
+            list.Add("la_camina");
+            list.Add("el_hogar");
+            list.Add("la_avenida");
+            list.Add("la_esquina");
+            list.Add("las_pistas");
+            list.Add("la_ruta");
+            list.Add("el_dueño");
+            list.Add("birds,desmadre");
+            list.Add("campo");
+            list.Add("disparar");
+            list.Add("nunca_falla");
+            list.Add("esposas_de_policia");
+            list.Add("compartir");
+            list.Add("domitorio");
+            list.Add("habitacion");
+            list.Add("recamara");
+            list.Add("comerse");
+            list.Add("un_placer");
+            list.Add("aunque");
+            list.Add("demasiado");
+            list.Add("cuidate");
+            list.Add("orgullosa");
+            list.Add("vaya");
+            list.Add("supuesto");
+            list.Add("a_veces");
+            list.Add("encojer");
+            list.Add("césped");
+            list.Add("condado");
+            list.Add("palepez");
+            list.Add("amargo");
+            list.Add("tirar");
+            list.Add("empujar");
+            list.Add("tubo");
+            list.Add("prueba");
+            list.Add("aquel");
+            list.Add("aquellos");
+            list.Add("ningun_anyel_arroyo");
+            list.Add("relámpagos");
+            list.Add("ademas");
+            list.Add("quizas");
+            list.Add("perezoso");
+            list.Add("alrededor");
+            list.Add("jamás");
+            list.Add("barco");
+            list.Add("mentis");
+            list.Add("tengo_sueño");
+            list.Add("miseria");
+            list.Add("modismo");
+            list.Add("puerco");
+            list.Add("cerdo");
+            list.Add("culta");
+            list.Add("exito");
+            list.Add("acordarse");
+            list.Add("pues");
+            list.Add("estadounidense");
+            list.Add("equipo");
+            list.Add("esencialmente");
+            list.Add("manteca");
+            list.Add("tema");
+            list.Add("la_cumbre");
+            list.Add("señales");
+            list.Add("flaquillo");
+            list.Add("flaco");
+            list.Add("flaquito");
+            list.Add("flaquillo");
+            list.Add("Flaco");
+            list.Add("Flaquito");
+            list.Add("al_rato");
+            list.Add("estas_esperando");
+            list.Add("mostaza");
+            list.Add("no_he_pudido_regresar");
+            list.Add("el_gobierno");
+            list.Add("gobernando");
+            list.Add("yo_he_estado");
+            list.Add("yo_he_ido");
+            list.Add("voz");
+            list.Add("tengo_una_galleta");
+            list.Add("a_todo_partes");
+            list.Add("paradas_continua");
+            list.Add("dejando_el_cuidad");
+            list.Add("mitad");
+            list.Add("asi_corro");
+            list.Add("chanka");
+            list.Add("contratando");
+            list.Add("nivel");
+            list.Add("compatir");
+            list.Add("como_lo_estoy_haciendo");
+            list.Add("me_voy_a_banar");
+            list.Add("entreviste");
+            list.Add("maestro_suplente");
+            list.Add("estoy_un_soldado_en_el_ejercito");
+            list.Add("nosotros_jugamos_básquetbol");
+            list.Add("güey");
+            list.Add("libre");
+            list.Add("totops");
+            list.Add("lilli_le_gusta_cariño_mucho");
+            list.Add("elote");
+            list.Add("paquete_de_programma");
+            list.Add("voy_a_bañarme");
+
+            return list;
+        }
+
+        //colors
+        public List<string> GetVocabularyList_GetColors()
+        {
+            var list = new List<string>();
+
+            list.Add("rojo");
+            list.Add("rosado");
+            list.Add("marron");
+            list.Add("naranja");
+            list.Add("azul");
+            list.Add("verde");
+            list.Add("amarillo");
+
+            return list;
+        }
+
+        //houseterms
+        public List<string> GetVocabularyList_HouseTerms()
+        {
+            var list = new List<string>();
+
+            list.Add("el_ático");
+            list.Add("el_sótano");
+            list.Add("el_baño");
+            list.Add("el_dormitorio");
+            list.Add("el_ropero");
+            list.Add("el_patio");
+            list.Add("_study,el_estudio");
+            list.Add("el_comedor");
+            list.Add("la_entrada");
+            list.Add("la_estancia");
+            list.Add("el_garage");
+            list.Add("la_cocina");
+            list.Add("la_sala_de_estar");
+            list.Add("el_cuarto");
+            list.Add("el_techo");
+            list.Add("el_armario");
+            list.Add("la_puerta");
+            list.Add("el_enchufe_(de_pared)");
+            list.Add("el_grifo");
+            list.Add("el_suelo_(floor_that_is_walked_on)_or_el_piso_(level_of_a_building)");
+            list.Add("el_mostrador_(de_cocina)");
+            list.Add("la_lámpara");
+            list.Add("la_luz");
+            list.Add("el_espejo");
+            list.Add("el_tejado");
+            list.Add("el_fregadero");
+            list.Add("la_escalera");
+            list.Add("el_váter");
+            list.Add("la_pared_(inside)_or_el_muro_(outside)");
+            list.Add("la_ventana");
+            list.Add("la_cama");
+            list.Add("la_licuadora");
+            list.Add("la_silla");
+            list.Add("la_cómoda");
+            list.Add("el_sofá");
+            list.Add("el_lavavajillas");
+            list.Add("la_secadora");
+            list.Add("la_plancha");
+            list.Add("el_horno");
+            list.Add("la_estufa");
+            list.Add("la_aspiradora");
+            list.Add("la_mesa");
+            list.Add("el_tostador,_la_tostadora");
+            list.Add("la_lavadora_");
+
+            return list;
+        }
+
+        //prepositions
+        public List<string> GetPrepositions()
+        {
+            var list = new List<string>();
+
+            list.Add("a");
+            list.Add("antes_de");
+            list.Add("acerca_a");
+            list.Add("bajo");
+            list.Add("cerca_de");
+            list.Add("con");
+            list.Add("contra");
+            list.Add("de");
+            list.Add("delante_de");
+            list.Add("dentro_de");
+            list.Add("desde");
+            list.Add("después_de");
+            list.Add("detrás_de");
+            list.Add("durante");
+            list.Add("en");
+            list.Add("encima_de");
+            list.Add("enfrente_de");
+            list.Add("entre");
+            list.Add("fuera_de");
+            list.Add("hacia");
+            list.Add("hasta");
+            list.Add("para");
+            list.Add("por");
+            list.Add("según");
+            list.Add("sin");
+            list.Add("sobre");
+            list.Add("tras");
+            list.Add("entonces");
+            list.Add("luego");
+            list.Add("cada");
+            list.Add("orale");
+            list.Add("pues");
+            list.Add("si");
+            list.Add("ya");
+            list.Add("nuestro");
+            list.Add("hecho");
+            list.Add("cualquier");
+            list.Add("nunca");
+            list.Add("mayor");
+            list.Add("acá");
+            list.Add("todavía");
+            list.Add("lejos");
+            list.Add("junto");
+            list.Add("adentro");
+            list.Add("junto");
+            list.Add("flojo");
+            list.Add("rico");
+            list.Add("tan");
+            list.Add("otra_vez");
+            list.Add("exigente");
+            list.Add("enamorado");
+            list.Add("ya_se_armo_(slang)");
+            list.Add("cualquiera");
+            list.Add("pues");
+            list.Add("ya");
+            list.Add("deje");
+            list.Add("juego");
+            list.Add("regalo");
+            list.Add("algo_mas");
+
+            return list;
+        }
+
+        //bodyparts
+        public List<string> GetBodyParts()
+        {
+            var list = new List<string>();
+
+            list.Add("el_brazo");
+            list.Add("la_espalda");
+            list.Add("la_columna_vertebral");
+            list.Add("el_cerebro");
+            list.Add("el_pecho");
+            list.Add("las_nalgas");
+            list.Add("la_pantorrilla");
+            list.Add("el_oído");
+            list.Add("el_codo");
+            list.Add("el_ojo");
+            list.Add("el_dedo");
+            list.Add("el_pie");
+            list.Add("el_pelo");
+            list.Add("la_mano");
+            list.Add("la_cabeza");
+            list.Add("el_corazón");
+            list.Add("la_cadera");
+            list.Add("el_intestino");
+            list.Add("la_rodilla");
+            list.Add("la_pierna");
+            list.Add("el_hígado");
+            list.Add("la_boca");
+            list.Add("el_músculo");
+            list.Add("el_cuello");
+            list.Add("la_nariz");
+            list.Add("el_hombro");
+            list.Add("la_piel");
+            list.Add("el_vientre");
+            list.Add("el_estómago");
+            list.Add("el_muslo");
+            list.Add("la_garganta");
+            list.Add("el_dedo");
+            list.Add("la_lengua");
+            list.Add("el_diente");
+
+            return list;
+        }
+
+        public List<string> GetClothing()
+        {
+            var list = new List<string>();
+
+            list.Add("el_albornoz");
+            list.Add("el_cinturón");
+            list.Add("la_blusa");
+            list.Add("las_botas");
+            list.Add("la_gorra");
+            list.Add("el_abrigo");
+            list.Add("el_vestido");
+            list.Add("los_guantes");
+            list.Add("el_sombrero");
+            list.Add("la_chaqueta");
+            list.Add("los_jeans");
+            list.Add("la_minifalda");
+            list.Add("la_pijama");
+            list.Add("los_pantalones");
+            list.Add("el_bolso");
+            list.Add("el_impermeable");
+            list.Add("la_sandalia");
+            list.Add("la_camisa");
+            list.Add("el_zapato");
+            list.Add("los_pantalones_cortos");
+            list.Add("la_falda");
+            list.Add("la_zapatilla");
+            list.Add("el_calcetín");
+            list.Add("la_media");
+            list.Add("el_traje");
+            list.Add("el_suéter");
+            list.Add("la_sudadera");
+            list.Add("el_traje_de_entrenamiento");
+            list.Add("el_bañador");
+            list.Add("_sneaker,el_zapato_de_tenis");
+            list.Add("la_corbata");
+            list.Add("la_camiseta");
+            list.Add("la_ropa_interior");
+            list.Add("el_reloj");
+
+            return list;
+        }
+
+        public List<string> GetTimeWords()
+        {
+            var list = new List<string>();
+
+            list.Add("lunes");
+            list.Add("martes");
+            list.Add("miercoles");
+            list.Add("jueves");
+            list.Add("viernes");
+            list.Add("sabado");
+            list.Add("domingo");
+            list.Add("enero");
+            list.Add("febrero");
+            list.Add("marcha");
+            list.Add("abril");
+            list.Add("mayo");
+            list.Add("junio");
+            list.Add("julio");
+            list.Add("agosto");
+            list.Add("septiembre");
+            list.Add("octubre");
+            list.Add("noviembre");
+            list.Add("_diciembre");
+            list.Add("por_la_mañana");
+            list.Add("de_la_mañana");
+            list.Add("por_la_tarde");
+            list.Add("de_la_tarde");
+            list.Add("por_la_noche");
+            list.Add("de_la_noche");
+            list.Add("la_mañana");
+            list.Add("temprano");
+            list.Add("mañana_por_la_mañana");
+            list.Add("pasado_mañana");
+            list.Add("ayer");
+            list.Add("anoche");
+            list.Add("la_noche_anterior,_anteanoche");
+            list.Add("vel_lunes_que_viene");
+            list.Add("la_semana_que_viene");
+            list.Add("el_año_que_viene");
+            list.Add("el_lunes_pasado");
+            list.Add("la_semana_pasada");
+            list.Add("el_año_pasado");
+            list.Add("al_medio_día");
+            list.Add("a_la_media_noche");
+            list.Add("alrededor_de");
+            list.Add("de_días");
+            list.Add("_durante_el_día");
+            list.Add("a_tiempo");
+            list.Add("en_punto");
+            list.Add("tarde");
+
+            return list;
+        }
+
+        public List<string> GetFamilyMembers()
+        {
+            var list = new List<string>();
+
+            list.Add("padre");
+            list.Add("madre");
+            list.Add("hermano");
+            list.Add("hermana");
+            list.Add("suegro");
+            list.Add("suegra");
+            list.Add("cuñado");
+            list.Add("cuñada");
+            list.Add("esposo_or_marido");
+            list.Add("esposa_or_mujer");
+            list.Add("abuelo");
+            list.Add("abuela");
+            list.Add("hijo");
+            list.Add("hija");
+            list.Add("nieto");
+            list.Add("nieta");
+            list.Add("tío");
+            list.Add("tía");
+            list.Add("primo");
+            list.Add("prima");
+            list.Add("sobrino");
+            list.Add("sobrina");
+            list.Add("padrastro");
+            list.Add("madrastra");
+            list.Add("hijastro");
+            list.Add("hijastra");
+            list.Add("hermanastro");
+            list.Add("hermanastra");
+            list.Add("compañero");
+            list.Add("compañera");
+            list.Add("padrino");
+            list.Add("madrina");
+            list.Add("ahijado");
+            list.Add("ahijada");
+            list.Add("amigo");
+            list.Add("amiga");
+
+            return list;
+        }
+
+        public List<string> GetFruits()
+        {
+            var list = new List<string>();
+
+            list.Add("la_manzana");
+            list.Add("el_damasco,_el_albericoque");
+            list.Add("el_aguacate");
+            list.Add("el_plátano,_la_banana");
+            list.Add("la_mora,_la_zarzamora");
+            list.Add("el_arándano");
+            list.Add("el_camu_camu");
+            list.Add("el_cantalupo");
+            list.Add("la_chirimoya");
+            list.Add("la_cereza");
+            list.Add("el_coco");
+            list.Add("el_arándano");
+            list.Add("el_dátil");
+            list.Add("el_higo");
+            list.Add("el_melón_galia");
+            list.Add("la_grosella_espinosa");
+            list.Add("la_uva");
+            list.Add("el_pomelo,_la_toronja");
+            list.Add("la_fruta_de_guaraná");
+            list.Add("el_arándano");
+            list.Add("el_kiwi");
+            list.Add("el_kinoto");
+            list.Add("el_limón");
+            list.Add("la_lima");
+            list.Add("la_zarza,_la_frambuesa");
+            list.Add("la_mandarina");
+            list.Add("el_mango");
+            list.Add("el_melón");
+            list.Add("la_mora");
+            list.Add("la_naranjilla,_el_lulo");
+            list.Add("la_nectarina");
+            list.Add("la_naranja");
+            list.Add("la_papaya");
+            list.Add("el_durazno,_el_melocotón");
+            list.Add("la_pera");
+            list.Add("el_caqui");
+            list.Add("la_piña,_el_ananá");
+            list.Add("el_plátano");
+            list.Add("la_platanera");
+            list.Add("la_ciruela");
+            list.Add("la_granada");
+            list.Add("la_tuna,_el_higo_chumbo");
+            list.Add("la_frambuesa");
+            list.Add("la_fresa,_la_frutilla");
+            list.Add("la_mandarina");
+            list.Add("el_tomatillo");
+            list.Add("el_tomate");
+            list.Add("la_sandía");
+
+            return list;
+        }
+
+        public List<string> GetQuestions()
+        {
+            var list = new List<string>();
+
+            list.Add("por_que");
+            list.Add("porque");
+            list.Add("Cual_cuales_or_que");
+            list.Add("cuanto");
+            list.Add("cuando");
+            list.Add("Quien");
+            list.Add("donde");
+            list.Add("Adonde");
+            list.Add("como");
+
+            return list;
+        }
+
+        //================================
 
         #endregion
 

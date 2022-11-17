@@ -26,10 +26,12 @@ namespace BLL
             var finalCodeVocabularyLists = CreateCodeVocabularyLists(rawVocabularyLists);
 
             WriteFinalVocabularyListToFile(outputJsonPath, finalCodeVocabularyLists);
+            var ctr = 1;
             foreach (var vocabularyList in rawVocabularyLists)
             {
-                var jsonPath = string.Format("{0}\\{1}", outputJsonPath, "list1");
+                var jsonPath = string.Format("{0}\\list{1}", outputJsonPath, ctr.ToString());
                 WriteFinalVocabularyListToJsonFiles(jsonPath, vocabularyList);
+                ctr++;
             }
         }
         

@@ -55,59 +55,7 @@ namespace DAL
 
             return verbLists;
         }
-        //public List<string> GetVocabularyList_HouseTerms()
-        //{
-        //    var list = new List<string>();
 
-        //    list.Add("el_ático");
-        //    list.Add("el_armario");
-        //    list.Add("el_baño");
-        //    list.Add("el_comedor");
-        //    list.Add("el_cuarto");
-        //    list.Add("el_dormitorio");
-        //    list.Add("el_enchufe");
-        //    list.Add("el_espejo");
-        //    list.Add("el_estudio");
-        //    list.Add("el_fregadero");
-        //    list.Add("el_garage");
-        //    list.Add("el_grifo");
-        //    list.Add("el_horno");
-        //    list.Add("el_lavavajillas");
-        //    list.Add("el_mostrador");
-        //    list.Add("el_muro");
-        //    list.Add("el_patio");
-        //    list.Add("el_piso");
-        //    list.Add("el_ropero");
-        //    list.Add("el_sofá");
-        //    list.Add("el_suelo");
-        //    list.Add("el_sótano");
-        //    list.Add("el_techo");
-        //    list.Add("el_tejado");
-        //    list.Add("el_váter");
-        //    list.Add("la_aspiradora");
-        //    list.Add("la_cama");
-        //    list.Add("la_cocina");
-        //    list.Add("la_cómoda");
-        //    list.Add("la_entrada");
-        //    list.Add("la_escalera");
-        //    list.Add("la_estancia");
-        //    list.Add("la_estufa");
-        //    list.Add("la_lavadora");
-        //    list.Add("la_licuadora");
-        //    list.Add("la_luz");
-        //    list.Add("la_lámpara");
-        //    list.Add("la_mesa");
-        //    list.Add("la_pared");
-        //    list.Add("la_plancha");
-        //    list.Add("la_puerta");
-        //    list.Add("la_sala_de_estar");
-        //    list.Add("la_secadora");
-        //    list.Add("la_silla");
-        //    list.Add("la_tostadora");
-        //    list.Add("la_ventana");
-
-        //    return list;
-        //}
         public List<string> GetVocabularyList_Phrases()
         {
             var list = new List<string>();
@@ -138,50 +86,97 @@ namespace DAL
 
             return list;
         }
-        //public List<string> GetVocabularyList_TheBody()
-        //{
-        //    var list = new List<string>();
 
-        //    list.Add("el_brazo");
-        //    list.Add("el_cerebro");
-        //    list.Add("el_codo");
-        //    list.Add("el_corazón");
-        //    list.Add("el_cuello");
-        //    list.Add("el_dedo");
-        //    list.Add("el_diente");
-        //    list.Add("el_estómago");
-        //    list.Add("el_hombro");
-        //    list.Add("el_hígado");
-        //    list.Add("el_intestino");
-        //    list.Add("el_muslo");
-        //    list.Add("el_músculo");
-        //    list.Add("el_ojo");
-        //    list.Add("el_oído");
-        //    list.Add("el_pecho");
-        //    list.Add("el_pelo");
-        //    list.Add("el_pie");
-        //    list.Add("el_vientre");
-        //    list.Add("las_nalgas");
-        //    list.Add("la_boca");
-        //    list.Add("la_cabeza");
-        //    list.Add("la_cadera");
-        //    list.Add("la_columna_vertebral");
-        //    list.Add("la_espalda");
-        //    list.Add("la_garganta");
-        //    list.Add("la_lengua");
-        //    list.Add("la_mano");
-        //    list.Add("la_nariz");
-        //    list.Add("la_pantorrilla");
-        //    list.Add("la_piel");
-        //    list.Add("la_pierna");
-        //    list.Add("la_rodilla");
+        public List<string> GetVocabularyList_GetBodyParts()
+        {
+            var list = new List<string>();
 
-        //    return list;
-        //}
+            list.Add("el_brazo");
+            list.Add("la_espalda");
+            list.Add("la_columna_vertebral");
+            list.Add("el_cerebro");
+            list.Add("el_pecho");
+            list.Add("las_nalgas");
+            list.Add("la_pantorrilla");
+            list.Add("el_oído");
+            list.Add("el_codo");
+            list.Add("el_ojo");
+            list.Add("el_dedo");
+            list.Add("el_pie");
+            list.Add("el_pelo");
+            list.Add("la_mano");
+            list.Add("la_cabeza");
+            list.Add("el_corazón");
+            list.Add("la_cadera");
+            list.Add("el_intestino");
+            list.Add("la_rodilla");
+            list.Add("la_pierna");
+            list.Add("el_hígado");
+            list.Add("la_boca");
+            list.Add("el_músculo");
+            list.Add("el_cuello");
+            list.Add("la_nariz");
+            list.Add("el_hombro");
+            list.Add("la_piel");
+            list.Add("el_vientre");
+            list.Add("el_estómago");
+            list.Add("el_muslo");
+            list.Add("la_garganta");
+            list.Add("el_dedo");
+            list.Add("la_lengua");
+            list.Add("el_diente");
 
-        //================================
+            return list;
+        }
 
-        //vegetables
+        public List<string> GetVocabularyList_GetClothing()
+        {
+            var list = new List<string>();
+
+            list.Add("el_albornoz");
+            list.Add("el_cinturón");
+            list.Add("la_blusa");
+            list.Add("las_botas");
+            list.Add("la_gorra");
+            list.Add("el_abrigo");
+            list.Add("el_vestido");
+            list.Add("los_guantes");
+            list.Add("el_sombrero");
+            list.Add("la_chaqueta");
+            list.Add("los_jeans");
+            list.Add("la_minifalda");
+            list.Add("la_pijama");
+            list.Add("los_pantalones");
+            list.Add("el_bolso");
+            list.Add("el_impermeable");
+            list.Add("la_sandalia");
+            list.Add("la_camisa");
+            list.Add("el_zapato");
+            list.Add("los_pantalones_cortos");
+            list.Add("la_falda");
+            list.Add("la_zapatilla");
+            list.Add("el_calcetín");
+            list.Add("la_media");
+            list.Add("el_traje");
+            list.Add("el_suéter");
+            list.Add("la_sudadera");
+            list.Add("el_traje_de_entrenamiento");
+            list.Add("el_bañador");
+            list.Add("el_zapato_de_tenis");
+            list.Add("la_corbata");
+            list.Add("la_camiseta");
+            list.Add("la_ropa_interior");
+            list.Add("el_reloj");
+
+            return list;
+        }
+
+
+
+
+
+
+
         public List<string> GetVocabularyList_GetVegetables()
         {
             var list = new List<string>();
@@ -448,6 +443,7 @@ namespace DAL
 
         //houseterms
         public List<string> GetVocabularyList_HouseTerms()
+
         {
             var list = new List<string>();
 
@@ -565,92 +561,6 @@ namespace DAL
             list.Add("juego");
             list.Add("regalo");
             list.Add("algo_mas");
-
-            return list;
-        }
-
-        //bodyparts
-        public List<string> GetVocabularyList_GetBodyParts()
-        {
-            var list = new List<string>();
-
-            list.Add("el_brazo");
-            list.Add("la_espalda");
-            list.Add("la_columna_vertebral");
-            list.Add("el_cerebro");
-            list.Add("el_pecho");
-            list.Add("las_nalgas");
-            list.Add("la_pantorrilla");
-            list.Add("el_oído");
-            list.Add("el_codo");
-            list.Add("el_ojo");
-            list.Add("el_dedo");
-            list.Add("el_pie");
-            list.Add("el_pelo");
-            list.Add("la_mano");
-            list.Add("la_cabeza");
-            list.Add("el_corazón");
-            list.Add("la_cadera");
-            list.Add("el_intestino");
-            list.Add("la_rodilla");
-            list.Add("la_pierna");
-            list.Add("el_hígado");
-            list.Add("la_boca");
-            list.Add("el_músculo");
-            list.Add("el_cuello");
-            list.Add("la_nariz");
-            list.Add("el_hombro");
-            list.Add("la_piel");
-            list.Add("el_vientre");
-            list.Add("el_estómago");
-            list.Add("el_muslo");
-            list.Add("la_garganta");
-            list.Add("el_dedo");
-            list.Add("la_lengua");
-            list.Add("el_diente");
-
-            return list;
-        }
-
-        //clothing
-        public List<string> GetVocabularyList_GetClothing()
-        {
-            var list = new List<string>();
-
-            list.Add("el_albornoz");
-            list.Add("el_cinturón");
-            list.Add("la_blusa");
-            list.Add("las_botas");
-            list.Add("la_gorra");
-            list.Add("el_abrigo");
-            list.Add("el_vestido");
-            list.Add("los_guantes");
-            list.Add("el_sombrero");
-            list.Add("la_chaqueta");
-            list.Add("los_jeans");
-            list.Add("la_minifalda");
-            list.Add("la_pijama");
-            list.Add("los_pantalones");
-            list.Add("el_bolso");
-            list.Add("el_impermeable");
-            list.Add("la_sandalia");
-            list.Add("la_camisa");
-            list.Add("el_zapato");
-            list.Add("los_pantalones_cortos");
-            list.Add("la_falda");
-            list.Add("la_zapatilla");
-            list.Add("el_calcetín");
-            list.Add("la_media");
-            list.Add("el_traje");
-            list.Add("el_suéter");
-            list.Add("la_sudadera");
-            list.Add("el_traje_de_entrenamiento");
-            list.Add("el_bañador");
-            list.Add("_sneaker,el_zapato_de_tenis");
-            list.Add("la_corbata");
-            list.Add("la_camiseta");
-            list.Add("la_ropa_interior");
-            list.Add("el_reloj");
 
             return list;
         }

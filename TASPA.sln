@@ -20,7 +20,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "Integra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{3436BB35-EDDA-42AD-8A7B-A30E676E9FC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunScript", "Tools\RunScript\RunScript.csproj", "{D25B2937-59A5-49C1-89E6-1EC468E96739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunScript", "Tools\RunScript\RunScript.csproj", "{D25B2937-59A5-49C1-89E6-1EC468E96739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5EAF76C-3D23-463E-99B8-DFBC0DA44C60}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

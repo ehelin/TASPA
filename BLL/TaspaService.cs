@@ -35,30 +35,30 @@ namespace BLL
             if (listName == "Phrases") { return this.taspaDataService.GetVocabularyList_Phrases(); }
             else if (listName == "TheBody") { return this.taspaDataService.GetVocabularyList_GetBodyParts(); }
             else if (listName == "HouseTerms") { return this.taspaDataService.GetVocabularyList_HouseTerms(); }
-            //else if (phraseListName == "C") { return this.taspaDataService.GetCPhraseList(); }
-            //else if (phraseListName == "D") { return this.taspaDataService.GetDPhraseList(); }
-            //else if (phraseListName == "E") { return this.taspaDataService.GetEPhraseList(); }
-            //else if (phraseListName == "F") { return this.taspaDataService.GetFPhraseList(); }
-            //else if (phraseListName == "G") { return this.taspaDataService.GetGPhraseList(); }
-            //else if (phraseListName == "H") { return this.taspaDataService.GetHPhraseList(); }
-            //else if (phraseListName == "I") { return this.taspaDataService.GetIPhraseList(); }
-            //else if (phraseListName == "J") { return this.taspaDataService.GetJPhraseList(); }
-            //else if (phraseListName == "K") { return this.taspaDataService.GetKPhraseList(); }
-            //else if (phraseListName == "L") { return this.taspaDataService.GetLPhraseList(); }
-            //else if (phraseListName == "M") { return this.taspaDataService.GetMPhraseList(); }
-            //else if (phraseListName == "N") { return this.taspaDataService.GetNPhraseList(); }
-            //else if (phraseListName == "O") { return this.taspaDataService.GetOPhraseList(); }
-            //else if (phraseListName == "P") { return this.taspaDataService.GetPPhraseList(); }
-            //else if (phraseListName == "Q") { return this.taspaDataService.GetQPhraseList(); }
-            //else if (phraseListName == "R") { return this.taspaDataService.GetRPhraseList(); }
-            //else if (phraseListName == "S") { return this.taspaDataService.GetSPhraseList(); }
-            //else if (phraseListName == "T") { return this.taspaDataService.GetTPhraseList(); }
-            //else if (phraseListName == "U") { return this.taspaDataService.GetUPhraseList(); }
-            //else if (phraseListName == "V") { return this.taspaDataService.GetVPhraseList(); }
-            //else if (phraseListName == "W") { return this.taspaDataService.GetWPhraseList(); }
-            //else if (phraseListName == "X") { return this.taspaDataService.GetXPhraseList(); }
-            //else if (phraseListName == "Y") { return this.taspaDataService.GetYPhraseList(); }
-            //else if (phraseListName == "Z") { return this.taspaDataService.GetZPhraseList(); }
+            else if (listName == "Clothing") { return this.taspaDataService.GetVocabularyList_GetClothing(); }
+            //else if (listName == "D") { return this.taspaDataService.GetDPhraseList(); }
+            //else if (listName == "E") { return this.taspaDataService.GetEPhraseList(); }
+            //else if (listName == "F") { return this.taspaDataService.GetFPhraseList(); }
+            //else if (listName == "G") { return this.taspaDataService.GetGPhraseList(); }
+            //else if (listName == "H") { return this.taspaDataService.GetHPhraseList(); }
+            //else if (listName == "I") { return this.taspaDataService.GetIPhraseList(); }
+            //else if (listName == "J") { return this.taspaDataService.GetJPhraseList(); }
+            //else if (listName == "K") { return this.taspaDataService.GetKPhraseList(); }
+            //else if (listName == "L") { return this.taspaDataService.GetLPhraseList(); }
+            //else if (listName == "M") { return this.taspaDataService.GetMPhraseList(); }
+            //else if (listName == "N") { return this.taspaDataService.GetNPhraseList(); }
+            //else if (listName == "O") { return this.taspaDataService.GetOPhraseList(); }
+            //else if (listName == "P") { return this.taspaDataService.GetPPhraseList(); }
+            //else if (listName == "Q") { return this.taspaDataService.GetQPhraseList(); }
+            //else if (listName == "R") { return this.taspaDataService.GetRPhraseList(); }
+            //else if (listName == "S") { return this.taspaDataService.GetSPhraseList(); }
+            //else if (listName == "T") { return this.taspaDataService.GetTPhraseList(); }
+            //else if (listName == "U") { return this.taspaDataService.GetUPhraseList(); }
+            //else if (listName == "V") { return this.taspaDataService.GetVPhraseList(); }
+            //else if (listName == "W") { return this.taspaDataService.GetWPhraseList(); }
+            //else if (listName == "X") { return this.taspaDataService.GetXPhraseList(); }
+            //else if (listName == "Y") { return this.taspaDataService.GetYPhraseList(); }
+            //else if (listName == "Z") { return this.taspaDataService.GetZPhraseList(); }
             else
             {
                 throw new Exception(string.Format("Unknown vocabulary list name: {0}", listName));

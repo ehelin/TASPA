@@ -457,7 +457,7 @@ namespace DAL
             list.Add("el_dormitorio");
             list.Add("el_ropero");
             list.Add("el_patio");
-            list.Add("_study,el_estudio");
+            list.Add("el_estudio");
             list.Add("el_comedor");
             list.Add("la_entrada");
             list.Add("la_estancia");
@@ -468,10 +468,10 @@ namespace DAL
             list.Add("el_techo");
             list.Add("el_armario");
             list.Add("la_puerta");
-            list.Add("el_enchufe_(de_pared)");
+            list.Add("el_enchufe");
             list.Add("el_grifo");
-            list.Add("el_suelo_(floor_that_is_walked_on)_or_el_piso_(level_of_a_building)");
-            list.Add("el_mostrador_(de_cocina)");
+            list.Add("el_suelo");
+            list.Add("el_mostrador");
             list.Add("la_lámpara");
             list.Add("la_luz");
             list.Add("el_espejo");
@@ -479,7 +479,9 @@ namespace DAL
             list.Add("el_fregadero");
             list.Add("la_escalera");
             list.Add("el_váter");
-            list.Add("la_pared_(inside)_or_el_muro_(outside)");
+            list.Add("la_pared");
+            list.Add("el_muro");
+            list.Add("el_piso");
             list.Add("la_ventana");
             list.Add("la_cama");
             list.Add("la_licuadora");
@@ -493,8 +495,8 @@ namespace DAL
             list.Add("la_estufa");
             list.Add("la_aspiradora");
             list.Add("la_mesa");
-            list.Add("el_tostador,_la_tostadora");
-            list.Add("la_lavadora_");
+            list.Add("el_tostador");
+            list.Add("la_lavadora");
 
             return list;
         }

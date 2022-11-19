@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using BLL;
 using DAL;
@@ -22,7 +23,7 @@ namespace IntegrationTests
         public void VerifyAllBodyHaveCorrespondingJsonFile()
         {
             // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\theBody\\";
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\bodyparts\\";
 
             var phrases = this.bllService.GetVocabularyList("TheBody");
             foreach (var phrase in phrases)
@@ -33,11 +34,11 @@ namespace IntegrationTests
                 var file = File.ReadAllText(jsonFilePath);
                 Assert.NotNull(file);
 
-                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);  // TODO create non verb object for vocabulary
                 Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
             }
         }
-        
+
         [Fact]
         public void VerifyAllPhrasesHaveCorrespondingJsonFile()
         {
@@ -53,7 +54,7 @@ namespace IntegrationTests
                 var file = File.ReadAllText(jsonFilePath);
                 Assert.NotNull(file);
 
-                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);// TODO create non verb object for vocabulary
                 Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
             }
         }
@@ -61,20 +62,31 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllHouseTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\houseTerms\\";
-
-            var phrases = this.bllService.GetVocabularyList("HouseTerms");
-            foreach (var phrase in phrases)
+            var currentPhrase = "";
+            Verb currentTerm = null;
+            try
             {
-                var jsonFileName = string.Format("{0}.{1}", phrase, "json");
-                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+                // TODO - get path dyanmically
+                var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\houseterms\\";
 
-                var file = File.ReadAllText(jsonFilePath);
-                Assert.NotNull(file);
+                var phrases = this.bllService.GetVocabularyList("HouseTerms");
+                foreach (var phrase in phrases)
+                {
+                    var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                    var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 
-                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
-                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+                    var file = File.ReadAllText(jsonFilePath);
+                    Assert.NotNull(file);
+
+                    var jsonFile = JsonConvert.DeserializeObject<Verb>(file);// TODO create non verb object for vocabulary
+                    currentPhrase = phrase;
+                    currentTerm = jsonFile;
+                    Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+                }
+            }
+            catch (Exception ex)
+            {
+                var tt = 1;
             }
         }
 
@@ -86,7 +98,7 @@ namespace IntegrationTests
 
             var verbs = this.bllService.GetVerbList("Full");
             foreach (var verb in verbs)
-            {           
+            {
                 var jsonFileName = string.Format("{0}.{1}", verb, "json");
                 var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 

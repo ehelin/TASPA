@@ -36,6 +36,12 @@ namespace BLL
             else if (listName == "TheBody") { return this.taspaDataService.GetVocabularyList_GetBodyParts(); }
             else if (listName == "HouseTerms") { return this.taspaDataService.GetVocabularyList_HouseTerms(); }
             else if (listName == "Clothing") { return this.taspaDataService.GetVocabularyList_GetClothing(); }
+            else if (listName == "Colors") { return this.taspaDataService.GetVocabularyList_GetColors(); }
+            else if (listName == "FamilyMembers") { return this.taspaDataService.GetVocabularyList_GetFamilyMembers(); }
+            else if (listName == "Fruits") { return this.taspaDataService.GetVocabularyList_GetFruits(); }
+
+            //
+            
             //else if (listName == "D") { return this.taspaDataService.GetDPhraseList(); }
             //else if (listName == "E") { return this.taspaDataService.GetEPhraseList(); }
             //else if (listName == "F") { return this.taspaDataService.GetFPhraseList(); }

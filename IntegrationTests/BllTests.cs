@@ -104,9 +104,7 @@ namespace IntegrationTests
                 Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
             }
         }
-
-
-        
+                
         [Fact]
         public void VerifyAllClothingTermsHaveCorrespondingJsonFile()
         {
@@ -114,6 +112,67 @@ namespace IntegrationTests
             var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\clothing\\";
 
             var phrases = this.bllService.GetVocabularyList("Clothing");
+            foreach (var phrase in phrases)
+            {
+                var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+
+                var file = File.ReadAllText(jsonFilePath);
+                Assert.NotNull(file);
+
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);// TODO create non verb object for vocabulary
+                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+            }
+        }
+                
+
+        [Fact]
+        public void VerifyAllColorsTermsHaveCorrespondingJsonFile()
+        {
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\colors\\";
+
+            var phrases = this.bllService.GetVocabularyList("Colors");
+            foreach (var phrase in phrases)
+            {
+                var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+
+                var file = File.ReadAllText(jsonFilePath);
+                Assert.NotNull(file);
+
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);// TODO create non verb object for vocabulary
+                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+            }
+        }
+
+        [Fact]
+        public void VerifyAllFamilyMemberTermsHaveCorrespondingJsonFile()
+        {
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\familymembers\\";
+
+            var phrases = this.bllService.GetVocabularyList("FamilyMembers");
+            foreach (var phrase in phrases)
+            {
+                var jsonFileName = string.Format("{0}.{1}", phrase, "json");
+                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+
+                var file = File.ReadAllText(jsonFilePath);
+                Assert.NotNull(file);
+
+                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);// TODO create non verb object for vocabulary
+                Assert.Equal(phrase.Replace("_", " "), jsonFile.Name);
+            }
+        }
+
+        [Fact]
+        public void VerifyAllFruitsTermsHaveCorrespondingJsonFile()
+        {
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\fruits\\";
+
+            var phrases = this.bllService.GetVocabularyList("Fruits");
             foreach (var phrase in phrases)
             {
                 var jsonFileName = string.Format("{0}.{1}", phrase, "json");

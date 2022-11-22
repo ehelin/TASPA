@@ -171,6 +171,121 @@ namespace DAL
             return list;
         }
 
+        public List<string> GetVocabularyList_GetColors()
+        {
+            var list = new List<string>();
+
+            list.Add("rojo");
+            list.Add("rosado");
+            list.Add("marron");
+            list.Add("naranja");
+            list.Add("azul");
+            list.Add("verde");
+            list.Add("amarillo");
+
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetFamilyMembers()
+        {
+            var list = new List<string>();
+
+            list.Add("padre");
+            list.Add("madre");
+            list.Add("hermano");
+            list.Add("hermana");
+            list.Add("suegro");
+            list.Add("suegra");
+            list.Add("cuñado");
+            list.Add("cuñada");
+            list.Add("esposo_or_marido");
+            list.Add("esposa_or_mujer");
+            list.Add("abuelo");
+            list.Add("abuela");
+            list.Add("hijo");
+            list.Add("hija");
+            list.Add("nieto");
+            list.Add("nieta");
+            list.Add("tío");
+            list.Add("tía");
+            list.Add("primo");
+            list.Add("prima");
+            list.Add("sobrino");
+            list.Add("sobrina");
+            list.Add("padrastro");
+            list.Add("madrastra");
+            list.Add("hijastro");
+            list.Add("hijastra");
+            list.Add("hermanastro");
+            list.Add("hermanastra");
+            list.Add("compañero");
+            list.Add("compañera");
+            list.Add("padrino");
+            list.Add("madrina");
+            list.Add("ahijado");
+            list.Add("ahijada");
+            list.Add("amigo");
+            list.Add("amiga");
+
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetFruits()
+        {
+            var list = new List<string>();
+
+            list.Add("la_manzana");
+            list.Add("el_damasco_el_albericoque");
+            list.Add("el_aguacate");
+            list.Add("el_plátano_la_banana");
+            list.Add("la_mora_la_zarzamora");
+            list.Add("el_arándano");
+            list.Add("el_camu_camu");
+            list.Add("el_cantalupo");
+            list.Add("la_chirimoya");
+            list.Add("la_cereza");
+            list.Add("el_coco");
+            list.Add("el_arándano");
+            list.Add("el_dátil");
+            list.Add("el_higo");
+            list.Add("el_melón_galia");
+            list.Add("la_grosella_espinosa");
+            list.Add("la_uva");
+            list.Add("el_pomelo_la_toronja");
+            list.Add("la_fruta_de_guaraná");
+            list.Add("el_arándano");
+            list.Add("el_kiwi");
+            list.Add("el_kinoto");
+            list.Add("el_limón");
+            list.Add("la_lima");
+            list.Add("la_zarza_la_frambuesa");
+            list.Add("la_mandarina");
+            list.Add("el_mango");
+            list.Add("el_melón");
+            list.Add("la_mora");
+            list.Add("la_naranjilla_el_lulo");
+            list.Add("la_nectarina");
+            list.Add("la_naranja");
+            list.Add("la_papaya");
+            list.Add("el_durazno_el_melocotón");
+            list.Add("la_pera");
+            list.Add("el_caqui");
+            list.Add("la_piña_el_ananá");
+            list.Add("el_plátano");
+            list.Add("la_platanera");
+            list.Add("la_ciruela");
+            list.Add("la_granada");
+            list.Add("la_tuna_el_higo_chumbo");
+            list.Add("la_frambuesa");
+            list.Add("la_fresa_la_frutilla");
+            list.Add("la_mandarina");
+            list.Add("el_tomatillo");
+            list.Add("el_tomate");
+            list.Add("la_sandía");
+
+            return list;
+        }
+
 
 
 
@@ -425,22 +540,6 @@ namespace DAL
             return list;
         }
 
-        //colors
-        public List<string> GetVocabularyList_GetColors()
-        {
-            var list = new List<string>();
-
-            list.Add("rojo");
-            list.Add("rosado");
-            list.Add("marron");
-            list.Add("naranja");
-            list.Add("azul");
-            list.Add("verde");
-            list.Add("amarillo");
-
-            return list;
-        }
-
         //houseterms
         public List<string> GetVocabularyList_HouseTerms()
 
@@ -616,108 +715,6 @@ namespace DAL
             list.Add("a_tiempo");
             list.Add("en_punto");
             list.Add("tarde");
-
-            return list;
-        }
-
-        //familymembers
-        public List<string> GetVocabularyList_GetFamilyMembers()
-        {
-            var list = new List<string>();
-
-            list.Add("padre");
-            list.Add("madre");
-            list.Add("hermano");
-            list.Add("hermana");
-            list.Add("suegro");
-            list.Add("suegra");
-            list.Add("cuñado");
-            list.Add("cuñada");
-            list.Add("esposo_or_marido");
-            list.Add("esposa_or_mujer");
-            list.Add("abuelo");
-            list.Add("abuela");
-            list.Add("hijo");
-            list.Add("hija");
-            list.Add("nieto");
-            list.Add("nieta");
-            list.Add("tío");
-            list.Add("tía");
-            list.Add("primo");
-            list.Add("prima");
-            list.Add("sobrino");
-            list.Add("sobrina");
-            list.Add("padrastro");
-            list.Add("madrastra");
-            list.Add("hijastro");
-            list.Add("hijastra");
-            list.Add("hermanastro");
-            list.Add("hermanastra");
-            list.Add("compañero");
-            list.Add("compañera");
-            list.Add("padrino");
-            list.Add("madrina");
-            list.Add("ahijado");
-            list.Add("ahijada");
-            list.Add("amigo");
-            list.Add("amiga");
-
-            return list;
-        }
-
-        //fruits
-        public List<string> GetVocabularyList_GetFruits()
-        {
-            var list = new List<string>();
-
-            list.Add("la_manzana");
-            list.Add("el_damasco_el_albericoque");
-            list.Add("el_aguacate");
-            list.Add("el_plátano,_la_banana");
-            list.Add("la_mora,_la_zarzamora");
-            list.Add("el_arándano");
-            list.Add("el_camu_camu");
-            list.Add("el_cantalupo");
-            list.Add("la_chirimoya");
-            list.Add("la_cereza");
-            list.Add("el_coco");
-            list.Add("el_arándano");
-            list.Add("el_dátil");
-            list.Add("el_higo");
-            list.Add("el_melón_galia");
-            list.Add("la_grosella_espinosa");
-            list.Add("la_uva");
-            list.Add("el_pomelo,_la_toronja");
-            list.Add("la_fruta_de_guaraná");
-            list.Add("el_arándano");
-            list.Add("el_kiwi");
-            list.Add("el_kinoto");
-            list.Add("el_limón");
-            list.Add("la_lima");
-            list.Add("la_zarza,_la_frambuesa");
-            list.Add("la_mandarina");
-            list.Add("el_mango");
-            list.Add("el_melón");
-            list.Add("la_mora");
-            list.Add("la_naranjilla,_el_lulo");
-            list.Add("la_nectarina");
-            list.Add("la_naranja");
-            list.Add("la_papaya");
-            list.Add("el_durazno,_el_melocotón");
-            list.Add("la_pera");
-            list.Add("el_caqui");
-            list.Add("la_piña,_el_ananá");
-            list.Add("el_plátano");
-            list.Add("la_platanera");
-            list.Add("la_ciruela");
-            list.Add("la_granada");
-            list.Add("la_tuna,_el_higo_chumbo");
-            list.Add("la_frambuesa");
-            list.Add("la_fresa,_la_frutilla");
-            list.Add("la_mandarina");
-            list.Add("el_tomatillo");
-            list.Add("el_tomate");
-            list.Add("la_sandía");
 
             return list;
         }

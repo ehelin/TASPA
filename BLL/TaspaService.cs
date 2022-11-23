@@ -39,9 +39,11 @@ namespace BLL
             else if (listName == "Colors") { return this.taspaDataService.GetVocabularyList_GetColors(); }
             else if (listName == "FamilyMembers") { return this.taspaDataService.GetVocabularyList_GetFamilyMembers(); }
             else if (listName == "Fruits") { return this.taspaDataService.GetVocabularyList_GetFruits(); }
-
-            //
-            
+            else if (listName == "MeetupGroupList") { return this.taspaDataService.GetVocabularyList_GetMeetupList(); }
+            else if (listName == "Prepositions") { return this.taspaDataService.GetVocabularyList_GetPrepositions(); }
+            else if (listName == "Questions") { return this.taspaDataService.GetVocabularyList_GetQuestions(); }
+            else if (listName == "Shops") { return this.taspaDataService.GetVocabularyList_GetShops(); }
+                        
             //else if (listName == "D") { return this.taspaDataService.GetDPhraseList(); }
             //else if (listName == "E") { return this.taspaDataService.GetEPhraseList(); }
             //else if (listName == "F") { return this.taspaDataService.GetFPhraseList(); }

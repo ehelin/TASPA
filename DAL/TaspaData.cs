@@ -286,8 +286,269 @@ namespace DAL
             return list;
         }
 
+        public List<string> GetVocabularyList_GetMeetupList()
+        {
+            var list = new List<string>();
 
+            list.Add("el_proximó_viernes");
+            list.Add("el_viernes_pasado");
+            list.Add("murciélago");
+            list.Add("cuanto_tiempo_has_estado_aqui");
+            list.Add("durante_cuanto_tiempo_estuviste_aqui");
+            list.Add("subir");
+            list.Add("escalar");
+            list.Add("cola");
+            list.Add("fila");
+            list.Add("chingo");
+            list.Add("banqueta");
+            list.Add("recursos_de_viviento");
+            list.Add("el_cuarto_mas_viejo");
+            list.Add("banca");
+            list.Add("banco");
+            list.Add("el_culo");
+            list.Add("cariño");
+            list.Add("en_México_en_todas_partes");
+            list.Add("las_tijeras");
+            list.Add("la_campana");
+            list.Add("las_fuentes");
+            list.Add("pluma");
+            list.Add("la_cadena");
+            list.Add("la_revista");
+            list.Add("el_puente");
+            list.Add("la_pantalla");
+            list.Add("la_bandera");
+            list.Add("los_bancos");
+            list.Add("la_coasta");
+            list.Add("la_carcel");
+            list.Add("el_calle");
+            list.Add("la_calle_jeros");
+            list.Add("la_carretera");
+            list.Add("el_autopista");
+            list.Add("la_camina");
+            list.Add("el_hogar");
+            list.Add("la_avenida");
+            list.Add("la_esquina");
+            list.Add("las_pistas");
+            list.Add("la_ruta");
+            list.Add("el_dueño");
+            list.Add("campo");
+            list.Add("disparar");
+            list.Add("nunca_falla");
+            list.Add("esposas_de_policia");
+            list.Add("compartir");
+            list.Add("domitorio");
+            list.Add("habitacion");
+            list.Add("recamara");
+            list.Add("comerse");
+            list.Add("un_placer");
+            list.Add("aunque");
+            list.Add("demasiado");
+            list.Add("cuidate");
+            list.Add("orgullosa");
+            list.Add("vaya");
+            list.Add("supuesto");
+            list.Add("a_veces");
+            list.Add("encojer");
+            list.Add("césped");
+            list.Add("condado");
+            list.Add("palepez");
+            list.Add("amargo");
+            list.Add("tirar");
+            list.Add("empujar");
+            list.Add("tubo");
+            list.Add("prueba");
+            list.Add("aquel");
+            list.Add("aquellos");
+            list.Add("ningun_anyel_arroyo");
+            list.Add("relámpagos");
+            list.Add("ademas");
+            list.Add("quizas");
+            list.Add("perezoso");
+            list.Add("alrededor");
+            list.Add("jamás");
+            list.Add("barco");
+            list.Add("mentis");
+            list.Add("tengo_sueño");
+            list.Add("miseria");
+            list.Add("modismo");
+            list.Add("puerco");
+            list.Add("cerdo");
+            list.Add("culta");
+            list.Add("exito");
+            list.Add("acordarse");
+            list.Add("pues");
+            list.Add("estadounidense");
+            list.Add("equipo");
+            list.Add("esencialmente");
+            list.Add("manteca");
+            list.Add("tema");
+            list.Add("la_cumbre");
+            list.Add("señales");
+            list.Add("flaquillo");
+            list.Add("flaco");
+            list.Add("flaquito");
+            list.Add("flaquillo");
+            list.Add("flaco");
+            list.Add("flaquito");
+            list.Add("al_rato");
+            list.Add("estas_esperando");
+            list.Add("mostaza");
+            list.Add("no_he_pudido_regresar");
+            list.Add("el_gobierno");
+            list.Add("gobernando");
+            list.Add("yo_he_estado");
+            list.Add("yo_he_ido");
+            list.Add("voz");
+            list.Add("tengo_una_galleta");
+            list.Add("a_todo_partes");
+            list.Add("paradas_continua");
+            list.Add("dejando_el_cuidad");
+            list.Add("mitad");
+            list.Add("asi_corro");
+            list.Add("chanka");
+            list.Add("contratando");
+            list.Add("nivel");
+            list.Add("compatir");
+            list.Add("como_lo_estoy_haciendo");
+            list.Add("me_voy_a_banar");
+            list.Add("entreviste");
+            list.Add("maestro_suplente");
+            list.Add("estoy_un_soldado_en_el_ejercito");
+            list.Add("nosotros_jugamos_básquetbol");
+            list.Add("güey");
+            list.Add("libre");
+            list.Add("totops");
+            list.Add("lilli_le_gusta_cariño_mucho");
+            list.Add("elote");
+            list.Add("paquete_de_programma");
+            list.Add("voy_a_bañarme");
 
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetPrepositions()
+        {
+            var list = new List<string>();
+
+            list.Add("a");
+            list.Add("antes_de");
+            list.Add("acerca_a");
+            list.Add("bajo");
+            list.Add("cerca_de");
+            list.Add("contra");
+            list.Add("de");
+            list.Add("delante_de");
+            list.Add("dentro_de");
+            list.Add("desde");
+            list.Add("después_de");
+            list.Add("detrás_de");
+            list.Add("durante");
+            list.Add("en");
+            list.Add("encima_de");
+            list.Add("enfrente_de");
+            list.Add("entre");
+            list.Add("fuera_de");
+            list.Add("hacia");
+            list.Add("hasta");
+            list.Add("para");
+            list.Add("por");
+            list.Add("según");
+            list.Add("sin");
+            list.Add("sobre");
+            list.Add("tras");
+            list.Add("entonces");
+            list.Add("luego");
+            list.Add("cada");
+            list.Add("orale");
+            list.Add("pues");
+            list.Add("si");
+            list.Add("ya");
+            list.Add("nuestro");
+            list.Add("hecho");
+            list.Add("cualquier");
+            list.Add("nunca");
+            list.Add("mayor");
+            list.Add("acá");
+            list.Add("todavía");
+            list.Add("lejos");
+            list.Add("junto");
+            list.Add("adentro");
+            list.Add("junto");
+            list.Add("flojo");
+            list.Add("rico");
+            list.Add("tan");
+            list.Add("otra_vez");
+            list.Add("exigente");
+            list.Add("enamorado");
+            list.Add("ya_se_armo_(slang)");
+            list.Add("cualquiera");
+            list.Add("pues");
+            list.Add("ya");
+            list.Add("deje");
+            list.Add("juego");
+            list.Add("regalo");
+            list.Add("algo_mas");
+
+            return list;
+        }
+        
+        public List<string> GetVocabularyList_GetQuestions()
+        {
+            var list = new List<string>();
+
+            list.Add("por_que");
+            list.Add("porque");
+            list.Add("cual_cuales_or_que");
+            list.Add("cuanto");
+            list.Add("cuando");
+            list.Add("quien");
+            list.Add("donde");
+            list.Add("adonde");
+            list.Add("como");
+
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetShops()
+        {
+            var list = new List<string>();
+
+            list.Add("cafe");
+            list.Add("carnicería");
+            list.Add("cervecería");
+            list.Add("confitería");
+            list.Add("dentistería");
+            list.Add("droguería");
+            list.Add("ebanistería");
+            list.Add("ferretería");
+            list.Add("floristería");
+            list.Add("frutería");
+            list.Add("heladería");
+            list.Add("herboristería");
+            list.Add("herrería");
+            list.Add("joyería");
+            list.Add("juguetería");
+            list.Add("lavandería");
+            list.Add("lechería");
+            list.Add("lencería");
+            list.Add("librería");
+            list.Add("mueblería");
+            list.Add("panadería");
+            list.Add("papelería");
+            list.Add("pastelería");
+            list.Add("peluquería");
+            list.Add("pescadería");
+            list.Add("perfumería");
+            list.Add("pizzería");
+            list.Add("sastrería");
+            list.Add("sombrerería");
+            list.Add("tapicería");
+            list.Add("tintotería");
+            list.Add("verdulería");
+            list.Add("zapatería");
+
+            return list;
+        }
 
 
 
@@ -355,191 +616,6 @@ namespace DAL
             return list;
         }
 
-        //shops
-        public List<string> GetVocabularyList_GetShops()
-        {
-            var list = new List<string>();
-
-            list.Add("cafe");
-            list.Add("carnicería");
-            list.Add("cervecería");
-            list.Add("confitería");
-            list.Add("dentistería");
-            list.Add("droguería");
-            list.Add("ebanistería");
-            list.Add("ferretería");
-            list.Add("floristería");
-            list.Add("frutería");
-            list.Add("heladería");
-            list.Add("herboristería");
-            list.Add("herrería");
-            list.Add("joyería");
-            list.Add("juguetería");
-            list.Add("lavandería");
-            list.Add("lechería");
-            list.Add("lencería");
-            list.Add("librería");
-            list.Add("mueblería");
-            list.Add("panadería");
-            list.Add("papelería");
-            list.Add("pastelería");
-            list.Add("peluquería");
-            list.Add("pescadería");
-            list.Add("perfumería");
-            list.Add("pizzería");
-            list.Add("sastrería");
-            list.Add("sombrerería");
-            list.Add("tapicería");
-            list.Add("tintotería");
-            list.Add("verdulería");
-            list.Add("zapatería");
-
-            return list;
-        }
-
-        //listfrommeetup
-        public List<string> GetVocabularyList_GetMeetupList()
-        {
-            var list = new List<string>();
-
-            list.Add("el_proximó_viernes");
-            list.Add("el_viernes_pasado");
-            list.Add("murciélago");
-            list.Add("cuanto_tiempo_has_estado_aqui");
-            list.Add("durante_cuanto_tiempo_estuviste_aqui");
-            list.Add("subir");
-            list.Add("escalar");
-            list.Add("cola");
-            list.Add("fila");
-            list.Add("chingo");
-            list.Add("banqueta");
-            list.Add("recursos_de_viviento");
-            list.Add("el_cuarto_mas_viejo");
-            list.Add("banca");
-            list.Add("banco");
-            list.Add("fuck_you,fecales");
-            list.Add("el_culo");
-            list.Add("cariño");
-            list.Add("en_México_en_todas_partes");
-            list.Add("Las_Tijeras");
-            list.Add("La_campana");
-            list.Add("Las_Fuentes");
-            list.Add("Pluma");
-            list.Add("La_cadena");
-            list.Add("La_revista");
-            list.Add("El_puente");
-            list.Add("La_pantalla");
-            list.Add("La_bandera");
-            list.Add("los_bancos");
-            list.Add("la_coasta");
-            list.Add("la_carcel");
-            list.Add("el_calle");
-            list.Add("la_calle_jeros");
-            list.Add("la_carretera");
-            list.Add("el_autopista");
-            list.Add("la_camina");
-            list.Add("el_hogar");
-            list.Add("la_avenida");
-            list.Add("la_esquina");
-            list.Add("las_pistas");
-            list.Add("la_ruta");
-            list.Add("el_dueño");
-            list.Add("birds,desmadre");
-            list.Add("campo");
-            list.Add("disparar");
-            list.Add("nunca_falla");
-            list.Add("esposas_de_policia");
-            list.Add("compartir");
-            list.Add("domitorio");
-            list.Add("habitacion");
-            list.Add("recamara");
-            list.Add("comerse");
-            list.Add("un_placer");
-            list.Add("aunque");
-            list.Add("demasiado");
-            list.Add("cuidate");
-            list.Add("orgullosa");
-            list.Add("vaya");
-            list.Add("supuesto");
-            list.Add("a_veces");
-            list.Add("encojer");
-            list.Add("césped");
-            list.Add("condado");
-            list.Add("palepez");
-            list.Add("amargo");
-            list.Add("tirar");
-            list.Add("empujar");
-            list.Add("tubo");
-            list.Add("prueba");
-            list.Add("aquel");
-            list.Add("aquellos");
-            list.Add("ningun_anyel_arroyo");
-            list.Add("relámpagos");
-            list.Add("ademas");
-            list.Add("quizas");
-            list.Add("perezoso");
-            list.Add("alrededor");
-            list.Add("jamás");
-            list.Add("barco");
-            list.Add("mentis");
-            list.Add("tengo_sueño");
-            list.Add("miseria");
-            list.Add("modismo");
-            list.Add("puerco");
-            list.Add("cerdo");
-            list.Add("culta");
-            list.Add("exito");
-            list.Add("acordarse");
-            list.Add("pues");
-            list.Add("estadounidense");
-            list.Add("equipo");
-            list.Add("esencialmente");
-            list.Add("manteca");
-            list.Add("tema");
-            list.Add("la_cumbre");
-            list.Add("señales");
-            list.Add("flaquillo");
-            list.Add("flaco");
-            list.Add("flaquito");
-            list.Add("flaquillo");
-            list.Add("Flaco");
-            list.Add("Flaquito");
-            list.Add("al_rato");
-            list.Add("estas_esperando");
-            list.Add("mostaza");
-            list.Add("no_he_pudido_regresar");
-            list.Add("el_gobierno");
-            list.Add("gobernando");
-            list.Add("yo_he_estado");
-            list.Add("yo_he_ido");
-            list.Add("voz");
-            list.Add("tengo_una_galleta");
-            list.Add("a_todo_partes");
-            list.Add("paradas_continua");
-            list.Add("dejando_el_cuidad");
-            list.Add("mitad");
-            list.Add("asi_corro");
-            list.Add("chanka");
-            list.Add("contratando");
-            list.Add("nivel");
-            list.Add("compatir");
-            list.Add("como_lo_estoy_haciendo");
-            list.Add("me_voy_a_banar");
-            list.Add("entreviste");
-            list.Add("maestro_suplente");
-            list.Add("estoy_un_soldado_en_el_ejercito");
-            list.Add("nosotros_jugamos_básquetbol");
-            list.Add("güey");
-            list.Add("libre");
-            list.Add("totops");
-            list.Add("lilli_le_gusta_cariño_mucho");
-            list.Add("elote");
-            list.Add("paquete_de_programma");
-            list.Add("voy_a_bañarme");
-
-            return list;
-        }
-
         //houseterms
         public List<string> GetVocabularyList_HouseTerms()
 
@@ -592,74 +668,6 @@ namespace DAL
             list.Add("la_mesa");
             list.Add("el_tostador");
             list.Add("la_lavadora");
-
-            return list;
-        }
-
-        //prepositions
-        public List<string> GetVocabularyList_GetPrepositions()
-        {
-            var list = new List<string>();
-
-            list.Add("a");
-            list.Add("antes_de");
-            list.Add("acerca_a");
-            list.Add("bajo");
-            list.Add("cerca_de");
-            list.Add("con");
-            list.Add("contra");
-            list.Add("de");
-            list.Add("delante_de");
-            list.Add("dentro_de");
-            list.Add("desde");
-            list.Add("después_de");
-            list.Add("detrás_de");
-            list.Add("durante");
-            list.Add("en");
-            list.Add("encima_de");
-            list.Add("enfrente_de");
-            list.Add("entre");
-            list.Add("fuera_de");
-            list.Add("hacia");
-            list.Add("hasta");
-            list.Add("para");
-            list.Add("por");
-            list.Add("según");
-            list.Add("sin");
-            list.Add("sobre");
-            list.Add("tras");
-            list.Add("entonces");
-            list.Add("luego");
-            list.Add("cada");
-            list.Add("orale");
-            list.Add("pues");
-            list.Add("si");
-            list.Add("ya");
-            list.Add("nuestro");
-            list.Add("hecho");
-            list.Add("cualquier");
-            list.Add("nunca");
-            list.Add("mayor");
-            list.Add("acá");
-            list.Add("todavía");
-            list.Add("lejos");
-            list.Add("junto");
-            list.Add("adentro");
-            list.Add("junto");
-            list.Add("flojo");
-            list.Add("rico");
-            list.Add("tan");
-            list.Add("otra_vez");
-            list.Add("exigente");
-            list.Add("enamorado");
-            list.Add("ya_se_armo_(slang)");
-            list.Add("cualquiera");
-            list.Add("pues");
-            list.Add("ya");
-            list.Add("deje");
-            list.Add("juego");
-            list.Add("regalo");
-            list.Add("algo_mas");
 
             return list;
         }
@@ -719,23 +727,6 @@ namespace DAL
             return list;
         }
 
-        //questions
-        public List<string> GetVocabularyList_GetQuestions()
-        {
-            var list = new List<string>();
-
-            list.Add("por_que");
-            list.Add("porque");
-            list.Add("Cual_cuales_or_que");
-            list.Add("cuanto");
-            list.Add("cuando");
-            list.Add("Quien");
-            list.Add("donde");
-            list.Add("Adonde");
-            list.Add("como");
-
-            return list;
-        }
 
         //================================
 

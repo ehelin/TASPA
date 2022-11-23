@@ -16,6 +16,10 @@ namespace Shared.Interfaces
         public List<string> GetVocabularyList_GetColors();
         public List<string> GetVocabularyList_GetFamilyMembers();
         public List<string> GetVocabularyList_GetFruits();
+        public List<string> GetVocabularyList_GetMeetupList();
+        public List<string> GetVocabularyList_GetPrepositions();
+        public List<string> GetVocabularyList_GetQuestions();
+        public List<string> GetVocabularyList_GetShops();
 
         public List<string> GetVerbLists();
         public List<string> GetAVerbList();

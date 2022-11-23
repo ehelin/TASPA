@@ -36,6 +36,6 @@
     </Content>
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4json_4spanish_4vocabulary_4listfrommeetup_4la_3campana_1json__JsonSchema="l" /></VisualStudio></ProjectExtensions>
 
 </Project>

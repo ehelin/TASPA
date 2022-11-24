@@ -43,7 +43,9 @@ namespace BLL
             else if (listName == "Prepositions") { return this.taspaDataService.GetVocabularyList_GetPrepositions(); }
             else if (listName == "Questions") { return this.taspaDataService.GetVocabularyList_GetQuestions(); }
             else if (listName == "Shops") { return this.taspaDataService.GetVocabularyList_GetShops(); }
-                        
+            else if (listName == "Time") { return this.taspaDataService.GetVocabularyList_GetTimeWords(); }
+            else if (listName == "Vegetables") { return this.taspaDataService.GetVocabularyList_GetVegetables(); }
+
             //else if (listName == "D") { return this.taspaDataService.GetDPhraseList(); }
             //else if (listName == "E") { return this.taspaDataService.GetEPhraseList(); }
             //else if (listName == "F") { return this.taspaDataService.GetFPhraseList(); }

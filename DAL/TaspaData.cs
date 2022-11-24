@@ -550,9 +550,6 @@ namespace DAL
             return list;
         }
 
-
-
-
         public List<string> GetVocabularyList_GetVegetables()
         {
             var list = new List<string>();
@@ -616,7 +613,6 @@ namespace DAL
             return list;
         }
 
-        //houseterms
         public List<string> GetVocabularyList_HouseTerms()
 
         {
@@ -672,7 +668,6 @@ namespace DAL
             return list;
         }
 
-        //timewords
         public List<string> GetVocabularyList_GetTimeWords()
         {
             var list = new List<string>();
@@ -695,7 +690,7 @@ namespace DAL
             list.Add("septiembre");
             list.Add("octubre");
             list.Add("noviembre");
-            list.Add("_diciembre");
+            list.Add("diciembre");
             list.Add("por_la_mañana");
             list.Add("de_la_mañana");
             list.Add("por_la_tarde");
@@ -708,7 +703,7 @@ namespace DAL
             list.Add("pasado_mañana");
             list.Add("ayer");
             list.Add("anoche");
-            list.Add("la_noche_anterior,_anteanoche");
+            list.Add("la_noche_anterior_anteanoche");
             list.Add("vel_lunes_que_viene");
             list.Add("la_semana_que_viene");
             list.Add("el_año_que_viene");
@@ -719,16 +714,13 @@ namespace DAL
             list.Add("a_la_media_noche");
             list.Add("alrededor_de");
             list.Add("de_días");
-            list.Add("_durante_el_día");
+            list.Add("durante_el_día");
             list.Add("a_tiempo");
             list.Add("en_punto");
             list.Add("tarde");
 
             return list;
         }
-
-
-        //================================
 
         #endregion
 

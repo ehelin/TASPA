@@ -146,8 +146,28 @@ namespace IntegrationTests
             RunComparisons(vocabularyListItems, jsonPath);
         }
 
+        [Fact]
+        public void VerifyAllTimeTermsHaveCorrespondingJsonFile()
+        {
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\timewords\\";
+            var vocabularyListItems = this.bllService.GetVocabularyList("Time");
+
+            RunComparisons(vocabularyListItems, jsonPath);
+        }
+                
+        [Fact]
+        public void VerifyAllVegetableTermsHaveCorrespondingJsonFile()
+        {
+            // TODO - get path dyanmically
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\vegetables\\";
+            var vocabularyListItems = this.bllService.GetVocabularyList("Vegetables");
+
+            RunComparisons(vocabularyListItems, jsonPath);
+        }
+
         private void RunComparisons(List<string> vocabularyListItems, string jsonPath)
-        {            
+        {
             foreach (var vocabularyListItem in vocabularyListItems)
             {
                 var jsonFileName = string.Format("{0}.{1}", vocabularyListItem, "json");

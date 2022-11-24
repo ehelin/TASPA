@@ -20,6 +20,8 @@ namespace Shared.Interfaces
         public List<string> GetVocabularyList_GetPrepositions();
         public List<string> GetVocabularyList_GetQuestions();
         public List<string> GetVocabularyList_GetShops();
+        public List<string> GetVocabularyList_GetTimeWords();
+        public List<string> GetVocabularyList_GetVegetables();
 
         public List<string> GetVerbLists();
         public List<string> GetAVerbList();

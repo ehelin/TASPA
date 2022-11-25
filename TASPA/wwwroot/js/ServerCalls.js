@@ -20,7 +20,7 @@
 //    }
 //};
 
-ServerCalls.SetVocabularyList = function (vocabularyFolder, listName) {
+ServerCalls.SetVocabularyList = function (folder, listName) {
     try {
         var path = '/TaspaApi/getVocabularyList?vocabularyListName=' + listName;
         return ServerCall.Get(path)
@@ -31,8 +31,9 @@ ServerCalls.SetVocabularyList = function (vocabularyFolder, listName) {
                     InitializeVocabulary();
 
                     vocabularyList = jsonParsed;
+                    vocabularyFolder = folder;
 
-                    ServerCalls.SetVocabularyJson(vocabularyFolder, jsonParsed[0]);
+                    ServerCalls.SetVocabularyJson(folder, jsonParsed[0]);
                 });
     }
     catch (ex) {

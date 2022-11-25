@@ -1,6 +1,7 @@
 ﻿var vocabularyList;
 var vocabularyListIndex;
 var vocabularyJson;
+var vocabularyFolder;
 
 function InitializeVocabulary() {
     vocabularyList = [];
@@ -27,7 +28,7 @@ function LoadNextVocabulary() {
         messageContent.append('There are no more vocabulary in this list');
     }
     else {
-        ServerCalls.SetVocabularyJson(nextVocabularyName);
+        ServerCalls.SetVocabularyJson(vocabularyFolder, nextVocabularyName);
     }
 }
 

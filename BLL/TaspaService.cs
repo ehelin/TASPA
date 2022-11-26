@@ -21,6 +21,12 @@ namespace BLL
             return navigationLinks;
         }
 
+        public List<VocabularyRadioButton> GetVocabularyRadioButtons()
+        {
+            var vocabularyRadioButtons = this.taspaDataService.GetVocabularyRadioButtons();
+
+            return vocabularyRadioButtons;
+        }
 
         public List<string> GetVocabularyLists()
         {

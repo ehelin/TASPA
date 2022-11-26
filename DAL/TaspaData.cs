@@ -18,6 +18,27 @@ namespace DAL
             return navigationLinks;
         }
 
+        public List<VocabularyRadioButton> GetVocabularyRadioButtons()
+        {
+            var vocabularyRadioButtons = new List<VocabularyRadioButton>();
+
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Body", Value = "Body", MethodCall = "VocabularyPanelSetVocabularyList('bodyparts', 'TheBody');" });            
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Clothing", Value = "Clothing", MethodCall = "VocabularyPanelSetVocabularyList('clothing', 'Clothing');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Colors", Value = "Colors", MethodCall = "VocabularyPanelSetVocabularyList('colors', 'Colors');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Family Members", Value = "Family Members", MethodCall = "VocabularyPanelSetVocabularyList('familymembers', 'FamilyMembers');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Fruits", Value = "Fruits", MethodCall = "VocabularyPanelSetVocabularyList('fruits', 'Fruits');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "House Terms", Value = "HouseTerms", MethodCall = "VocabularyPanelSetVocabularyList('houseterms', 'HouseTerms');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Meetup Group List", Value = "MeetupGroupList", MethodCall = "VocabularyPanelSetVocabularyList('listfrommeetup', 'MeetupGroupList');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Phrases", Value = "Phrases", MethodCall = "VocabularyPanelSetVocabularyList('phrases', 'Phrases');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Prepositions", Value = "Prepositions", MethodCall = "VocabularyPanelSetVocabularyList('prepositions', 'Prepositions');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Questions", Value = "Questions", MethodCall = "VocabularyPanelSetVocabularyList('questions', 'Questions');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Shops", Value = "Shops", MethodCall = "VocabularyPanelSetVocabularyList('shops', 'Shops');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Vegetables", Value = "Vegetables", MethodCall = "VocabularyPanelSetVocabularyList('vegetables', 'Vegetables');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Time", Value = "Time", MethodCall = "VocabularyPanelSetVocabularyList('timewords', 'Time');" });
+
+            return vocabularyRadioButtons;
+        }
+
         #region Vocabulary Lists
 
         public List<string> GetVocabularyLists()

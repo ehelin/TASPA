@@ -19,6 +19,23 @@ function SelectVocabularyList() {
     ServerCalls.GetVocabularyList(selectedValue);
 }
 
+function VolcabularyPanelResize() {
+    var width = window.innerWidth;
+
+    if (width <= 768) {
+        document.getElementById("vocabularyMobileMenu").classList.remove('collasped');
+        document.getElementById("vocabularyMobileMenu").classList.add('expanded');
+        document.getElementById("vocabularyDesktopMenu").classList.remove('expanded');
+        document.getElementById("vocabularyDesktopMenu").classList.add('collasped');
+    }
+    else {
+        document.getElementById("vocabularyMobileMenu").classList.remove('expanded');
+        document.getElementById("vocabularyMobileMenu").classList.add('collasped');
+        document.getElementById("vocabularyDesktopMenu").classList.remove('collasped');
+        document.getElementById("vocabularyDesktopMenu").classList.add('expanded');
+    }
+}
+
 function LoadNextVocabulary() {
     vocabularyListIndex++;
     var nextVocabularyName = vocabularyList[vocabularyListIndex];

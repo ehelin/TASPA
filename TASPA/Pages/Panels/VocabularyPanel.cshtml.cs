@@ -1,12 +1,17 @@
-﻿using Shared.Interfaces;
+﻿using System.Collections.Generic;
+using Shared.Dto;
+using Shared.Interfaces;
 using TASPA.Models;
 
 namespace TASPA.Pages
 {
     public class VocabularyPanelModel : BaseModel
     {
-        public VocabularyPanelModel(ITaspaService taspaService) : base(taspaService) { }
+        public List<VocabularyRadioButton> VocabularyRadioButtons;
 
-        public void OnGet() {}
+        public VocabularyPanelModel(ITaspaService taspaService) : base(taspaService) 
+        { 
+            this.VocabularyRadioButtons = this.taspaService.GetVocabularyRadioButtons();
+        }
     }
 }

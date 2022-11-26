@@ -6,10 +6,11 @@ namespace Shared.Interfaces
     public interface ITaspaData
     {
         public List<NavigationLink> GetNavigationLinks();
+        public List<VocabularyRadioButton> GetVocabularyRadioButtons();
 
         public List<string> GetVocabularyLists();
-        public List<string> GetVocabularyList_Phrases();
 
+        public List<string> GetVocabularyList_Phrases();
         public List<string> GetVocabularyList_GetBodyParts();
         public List<string> GetVocabularyList_HouseTerms();
         public List<string> GetVocabularyList_GetClothing();

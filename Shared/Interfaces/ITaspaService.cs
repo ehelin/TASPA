@@ -7,6 +7,8 @@ namespace Shared.Interfaces
     {
         public List<NavigationLink> GetNavigationLinks();
 
+        public List<VocabularyRadioButton> GetVocabularyRadioButtons();
+
         public List<string> GetVocabularyLists();
         public List<string> GetVocabularyList(string vocabularyListName);
 

@@ -26,6 +26,7 @@ function Search() {
 function Resize() {
     var width = window.innerWidth;
 
+    // TODO - make 768 a constant
     if (width <= 768) {
         document.getElementById("mobileMenu").classList.remove('collasped');
         document.getElementById("mobileMenu").classList.add('expanded');
@@ -38,4 +39,6 @@ function Resize() {
         document.getElementById("desktopMenu").classList.remove('collasped');
         document.getElementById("desktopMenu").classList.add('expanded');
     }
+
+    VolcabularyPanelResize();
 }

@@ -108,3 +108,17 @@
     width: 50%;
     margin: 0 auto;
 }
+
+.homePagePanelParent {
+    width: 100%;
+}
+
+.homePagePanel {
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.displayPanel {
+    font-size: large;
+}

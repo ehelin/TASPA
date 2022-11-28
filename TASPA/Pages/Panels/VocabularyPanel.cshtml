@@ -13,19 +13,24 @@
     <!-- TODO - check in final should have phrases and one other at least -->
     <div class="vocabularyListSelectionPanelParent">
         <div class="vocabularyListSelectionPanel">
-
             <div id="vocabularyMobileMenu" class="collasped">
                 <table width="100%">
                     <tr>
-                    @for(var ctr=1; ctr<Model.VocabularyRadioButtons.Count; ctr++)
+                    @for(var ctr=0; ctr<Model.VocabularyRadioButtons.Count; ctr++)
                     {                            
                         <td>
-                                <input type="radio" name="type" 
-                                    value="@Model.VocabularyRadioButtons[ctr].Value" 
-                                    onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
+                                @if (ctr == 0) {
+                                    <input type="radio" name="type" checked
+                                        value="@Model.VocabularyRadioButtons[ctr].Value" 
+                                        onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
+                                } else {                                    
+                                    <input type="radio" name="type" 
+                                        value="@Model.VocabularyRadioButtons[ctr].Value" 
+                                        onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
+                                }
                         </td>
                             
-                        @if (ctr % 2 == 0)
+                        @if ((ctr+1) % 2 == 0) // (ctr+1) is because we start at index 0 for the lists, but need to start at 1 form the table to draw correctly
                         {
                             <tr></tr>                                
                         }
@@ -36,15 +41,21 @@
             <div id="vocabularyDesktopMenu" class="expanded">
                 <table width="100%">
                     <tr>
-                        @for (var ctr = 1; ctr < Model.VocabularyRadioButtons.Count; ctr++)
+                        @for (var ctr = 0; ctr < Model.VocabularyRadioButtons.Count; ctr++)
                         {
-                            <td>
-                                <input type="radio" name="type" 
-                                    value="@Model.VocabularyRadioButtons[ctr].Value" 
-                                    onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
+                            <td>                  
+                                @if (ctr == 0) {
+                                    <input type="radio" name="type" checked
+                                        value="@Model.VocabularyRadioButtons[ctr].Value" 
+                                        onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
+                                } else {                                    
+                                    <input type="radio" name="type" 
+                                        value="@Model.VocabularyRadioButtons[ctr].Value" 
+                                        onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
+                                }
                             </td>
 
-                            @if (ctr % 4 == 0)
+                            @if ((ctr + 1) % 4 == 0) // (ctr+1) is because we start at index 0 for the lists, but need to start at 1 form the table to draw correctly
                             {
                                 <tr></tr>
                             }
@@ -52,8 +63,6 @@
                     </tr>
                 </table>
             </div>
-
-
         </div>
     </div>
 

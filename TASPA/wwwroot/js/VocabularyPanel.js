@@ -1,6 +1,6 @@
 ﻿function LoadVocabularyLists() {
-    var vocabularyFolder = 'phrases';
-    var listName = 'Phrases'; // TODO - make dynamic (default)
+    var vocabularyFolder = 'bodyparts';
+    var listName = 'TheBody'; // TODO - make dynamic (default)
     //ServerCalls.SetVocabularyLists();
     VocabularyPanelSetVocabularyList(vocabularyFolder, listName);
 }

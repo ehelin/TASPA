@@ -14,13 +14,13 @@ namespace TASPA.Controllers
             this.taspaService = taspaService;
         }
 
-        [HttpGet("getVocabularyLists")]
-        public IActionResult GetVocabularyLists()
-        {
-            var vocabularyList = this.taspaService.GetVocabularyLists();
+        //[HttpGet("getVocabularyLists")]
+        //public IActionResult GetVocabularyLists()
+        //{
+        //    var vocabularyList = this.taspaService.GetVocabularyLists();
 
-            return Ok(vocabularyList); // 200
-        }
+        //    return Ok(vocabularyList); // 200
+        //}
 
         [HttpGet("getVocabularyList")]
         public IActionResult GetVocabularyList([FromQuery] string vocabularyListName)

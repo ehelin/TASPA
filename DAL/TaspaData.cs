@@ -41,42 +41,6 @@ namespace DAL
 
         #region Vocabulary Lists
 
-        public List<string> GetVocabularyLists()
-        {
-            var verbLists = new List<string>();
-
-            verbLists.Add("Select list");
-            verbLists.Add("Full");
-            verbLists.Add("A");
-            //verbLists.Add("B");
-            //verbLists.Add("C");
-            //verbLists.Add("D");
-            //verbLists.Add("E");
-            //verbLists.Add("F");
-            //verbLists.Add("G");
-            //verbLists.Add("H");
-            //verbLists.Add("I");
-            //verbLists.Add("J");
-            //verbLists.Add("K");
-            //verbLists.Add("L");
-            //verbLists.Add("M");
-            //verbLists.Add("N");
-            //verbLists.Add("O");
-            //verbLists.Add("P");
-            //verbLists.Add("Q");
-            //verbLists.Add("R");
-            //verbLists.Add("S");
-            //verbLists.Add("T");
-            //verbLists.Add("U");
-            //verbLists.Add("V");
-            //verbLists.Add("W");
-            //verbLists.Add("X");
-            //verbLists.Add("Y");
-            //verbLists.Add("Z");
-
-            return verbLists;
-        }
-
         public List<string> GetVocabularyList_Phrases()
         {
             var list = new List<string>();

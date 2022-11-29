@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
+using Shared.Interfaces;
+using BLL;
 
 namespace BLL
 {
     public class Utilities
     {
+        #region Create Vocabulary Lists
+
         public static void CreateVocabularyList(string listStructuredFilePath, string outputJsonPath)
         {
             GetVocabularyListsToBeConvertedToJsonFilesVerbList(listStructuredFilePath, outputJsonPath);
@@ -202,5 +206,17 @@ namespace BLL
             fileWriter.Close();
             fileWriter.Dispose();
         }
+
+        #endregion
+        
+        #region Create Search Spanish English Lists
+
+        public static void CreateSearchLists(ITaspaService businessService)
+        {
+            var listsToForSearchFunctionality = businessService.GetListsToSearch();
+            // TODO - create a search list with both spanish and english (get json file for each list member, get english, create search term and write out list)
+        }
+
+        #endregion
     }
 }

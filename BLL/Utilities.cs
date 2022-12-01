@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Threading.Tasks;
-using Shared.Interfaces;
-using Shared.Dto;
-using BLL;
 using Newtonsoft.Json;
+using Shared.Dto;
+using Shared.Interfaces;
 
 namespace BLL
 {
@@ -221,10 +219,6 @@ namespace BLL
 
             foreach (var spanishTerm in combinedSpanishTermList)
             {
-                if (spanishTerm == "alguein_tiene_prisa")
-                {
-                    var test = 1;
-                }
                 var spanishTermWithSuffix = string.Format("{0}.{1}", spanishTerm, "json");
                 var englishTermJsonPath = new List<string>();
 

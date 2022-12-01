@@ -2,7 +2,7 @@
 {
     public class SearchTerm
     {
-        public string SpanishTerm { get; set; }
+        public string Name { get; set; }
         public string EnglishMeaning { get; set; }
     }
 }

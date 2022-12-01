@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using Shared.Interfaces;
+using Shared.Dto;
 using BLL;
+using Newtonsoft.Json;
 
 namespace BLL
 {
@@ -212,9 +214,64 @@ namespace BLL
         #region Create Search Spanish English Lists
 
         public static void CreateSearchLists(ITaspaService businessService)
+        { 
+            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
+            var spanishEnglishSearchList = new List<Tuple<string, string>>();           
+            var combinedSpanishTermList = businessService.GetListsToSearch();
+
+            foreach (var spanishTerm in combinedSpanishTermList)
+            {
+                if (spanishTerm == "alguein_tiene_prisa")
+                {
+                    var test = 1;
+                }
+                var spanishTermWithSuffix = string.Format("{0}.{1}", spanishTerm, "json");
+                var englishTermJsonPath = new List<string>();
+
+                GetEnglishTerm(spanishTermWithSuffix, jsonPath, englishTermJsonPath);
+                if (englishTermJsonPath == null || englishTermJsonPath.Count != 1 || string.IsNullOrEmpty(englishTermJsonPath[0]))
+                {
+                    throw new Exception("No english term found for " + spanishTerm);
+                }
+                else
+                {
+                    var file = File.ReadAllText(englishTermJsonPath[0]);
+                    var jsonFile = JsonConvert.DeserializeObject<SearchTerm>(file);
+                    spanishEnglishSearchList.Add(new Tuple<string, string>(jsonFile.Name, jsonFile.EnglishMeaning));
+                }
+            }
+
+            if (combinedSpanishTermList.Count != spanishEnglishSearchList.Count)
+            {
+                throw new Exception("Combined spanish list does not match the spanish/english list");
+            }
+
+            // TODO - write out the generated list
+        }
+
+        private static void GetEnglishTerm(string spanishTerm, string jsonPath, List<string> englishTermJsonPath)
         {
-            var listsToForSearchFunctionality = businessService.GetListsToSearch();
-            // TODO - create a search list with both spanish and english (get json file for each list member, get english, create search term and write out list)
+            if (englishTermJsonPath.Count > 0)
+            {
+                return;
+            }
+
+            var files = Directory.GetFiles(jsonPath);
+
+            foreach (var file in files)
+            {
+                if (file.Contains(spanishTerm))
+                {
+                    englishTermJsonPath.Add(file);
+                    return;
+                }
+            }
+
+            var subJsonPaths = Directory.GetDirectories(jsonPath);
+            foreach (var subJsonPath in subJsonPaths)
+            {
+                GetEnglishTerm(spanishTerm, subJsonPath, englishTermJsonPath);
+            }
         }
 
         #endregion

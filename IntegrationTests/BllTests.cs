@@ -44,6 +44,8 @@ namespace IntegrationTests
             var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
             var listToSearch = this.bllService.GetSearchList();
 
+            // TODO - update the test to verify the jsonpath as well
+
             var spanishTerms = listToSearch.Select(x => x.Name).ToList();
             VerifyTerms(spanishTerms, jsonPath);
 

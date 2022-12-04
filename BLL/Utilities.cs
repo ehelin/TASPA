@@ -196,7 +196,7 @@ namespace BLL
 
         public static void CreateSearchLists(ITaspaService businessService, string jsonPath, string outPath, string fileName)
         {
-            var spanishEnglishSearchList = new List<Tuple<string, string>>();
+            var spanishEnglishSearchList = new List<Tuple<string, string, string>>();
             var combinedSpanishTermList = businessService.GetListsToSearch();
 
             foreach (var spanishTerm in combinedSpanishTermList)
@@ -213,7 +213,10 @@ namespace BLL
                 {
                     var file = File.ReadAllText(englishTermJsonPath[0]);
                     var jsonFile = JsonConvert.DeserializeObject<SearchTerm>(file);
-                    spanishEnglishSearchList.Add(new Tuple<string, string>(jsonFile.Name, jsonFile.EnglishMeaning));
+                    var start = englishTermJsonPath[0].IndexOf("wwwroot");
+                    var relativeJsonPath = englishTermJsonPath[0].Substring(start, englishTermJsonPath[0].Length-start);
+                    relativeJsonPath = relativeJsonPath.Replace("\\", "\\\\");                    
+                    spanishEnglishSearchList.Add(new Tuple<string, string, string>(jsonFile.Name, jsonFile.EnglishMeaning, relativeJsonPath));
                 }
             }
 
@@ -239,7 +242,7 @@ namespace BLL
                     fileWriter.WriteLine(line);
                 } 
                 
-                    fileWriter.WriteLine("");
+                fileWriter.WriteLine("");
             } 
             
             fileWriter.Flush();
@@ -247,7 +250,7 @@ namespace BLL
             fileWriter.Dispose();
         }
 
-        private static List<string> FormatSearchListToListForExport(List<Tuple<string, string>> listToExport)
+        private static List<string> FormatSearchListToListForExport(List<Tuple<string, string, string>> listToExport)
         {
             var exportedList = new List<string>();
             
@@ -267,7 +270,7 @@ namespace BLL
 
             foreach (var listItem in listToExport) 
             {
-                exportedList.Add("searchList.Add(new SearchTerm() { Name = \"" + listItem.Item1 + "\", EnglishMeaning = \"" + listItem.Item2 + "\" });");
+                exportedList.Add("searchList.Add(new SearchTerm() { Name = \"" + listItem.Item1 + "\", EnglishMeaning = \"" + listItem.Item2 + "\", JsonPath = \"" + listItem.Item3 + "\" });");
             }
             
             exportedList.Add("");

@@ -28,6 +28,28 @@ namespace BLL
             return vocabularyRadioButtons;
         }
 
+        public List<SearchTerm> GetSearchList()
+        {
+            return this.taspaDataService.GetSearchList();
+        }
+
+        // TODO - evaluate for speed...
+        public List<SearchTerm> Search(string searchTerm)
+        {
+            var listOfTermsToSearch = this.taspaDataService.GetSearchList();
+            var matches = new List<SearchTerm>();
+
+            foreach (var listTermToSearch in listOfTermsToSearch)
+            {
+                if (listTermToSearch.Name.Contains(searchTerm) || listTermToSearch.EnglishMeaning.Contains(searchTerm))
+                {
+                    matches.Add(listTermToSearch);
+                }
+            }
+
+            return matches;
+        }
+
         public List<string> GetListsToSearch()
         {
             var listsToSearch = new List<string>();

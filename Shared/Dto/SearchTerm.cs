@@ -1,8 +1,6 @@
 ﻿namespace Shared.Dto
 {
-    public class SearchTerm
+    public class SearchTerm : Base
     {
-        public string Name { get; set; }
-        public string EnglishMeaning { get; set; }
     }
 }

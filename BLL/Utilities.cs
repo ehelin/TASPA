@@ -11,12 +11,14 @@ namespace BLL
     {
         #region Create Vocabulary Lists
 
-        public static void CreateVocabularyList(string listStructuredFilePath, string outputJsonPath)
+        public static void CreateVocabularyList(string listStructuredFilePath, string outputJsonPath, string fileName)
         {
-            GetVocabularyListsToBeConvertedToJsonFilesVerbList(listStructuredFilePath, outputJsonPath);
+            GetVocabularyListsToBeConvertedToJsonFilesVerbList(listStructuredFilePath, outputJsonPath, fileName);
         }
 
-        private static void GetVocabularyListsToBeConvertedToJsonFilesVerbList(string listStructuredFilePath, string outputJsonPath)
+        private static void GetVocabularyListsToBeConvertedToJsonFilesVerbList(string listStructuredFilePath, 
+            string outputJsonPath, 
+            string fileName)
         {
             string fileContents = null;
 
@@ -29,7 +31,7 @@ namespace BLL
             var rawVocabularyLists = CreateRawVocabularyLists(fileContentsByLines);
             var finalCodeVocabularyLists = CreateCodeVocabularyLists(rawVocabularyLists);
 
-            WriteFinalVocabularyListToFile(outputJsonPath, finalCodeVocabularyLists);
+            WriteFinalVocabularyListToFile(outputJsonPath, fileName, finalCodeVocabularyLists);
             var ctr = 1;
             foreach (var vocabularyList in rawVocabularyLists)
             {
@@ -172,26 +174,7 @@ namespace BLL
 
             return finalCodeVocabularyLists;
         }
-
-        private static void WriteFinalVocabularyListToFile(string jsonPath, List<List<string>> finalVocabularyLists)
-        {
-            using StreamWriter fileWriter = new(jsonPath + "\\JsonDirectoryBllList.txt", false);
-
-            foreach (var finalVocabularyList in finalVocabularyLists) 
-            { 
-                foreach (var line in finalVocabularyList) 
-                {             
-                    fileWriter.WriteLine(line);
-                } 
-                
-                    fileWriter.WriteLine("");
-            } 
-            
-            fileWriter.Flush();
-            fileWriter.Close();
-            fileWriter.Dispose();
-        }
-        
+          
         private static void OutputJsonDirectoryToFile(string jsonPath)
         {
             var files = Directory.GetFiles(jsonPath);
@@ -208,13 +191,12 @@ namespace BLL
         }
 
         #endregion
-        
+
         #region Create Search Spanish English Lists
 
-        public static void CreateSearchLists(ITaspaService businessService)
-        { 
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
-            var spanishEnglishSearchList = new List<Tuple<string, string>>();           
+        public static void CreateSearchLists(ITaspaService businessService, string jsonPath, string outPath, string fileName)
+        {
+            var spanishEnglishSearchList = new List<Tuple<string, string>>();
             var combinedSpanishTermList = businessService.GetListsToSearch();
 
             foreach (var spanishTerm in combinedSpanishTermList)
@@ -240,7 +222,48 @@ namespace BLL
                 throw new Exception("Combined spanish list does not match the spanish/english list");
             }
 
-            // TODO - write out the generated list
+            var listToExport = FormatSearchListToListForExport(spanishEnglishSearchList);
+            var listOfListsToExport = new List<List<string>>() { listToExport };
+
+            WriteFinalVocabularyListToFile(outPath, fileName, listOfListsToExport);
+        }
+        
+        private static void WriteFinalVocabularyListToFile(string jsonPath, string fileName, List<List<string>> finalVocabularyLists)
+        {
+            using StreamWriter fileWriter = new(jsonPath + "\\" + fileName, false);
+
+            foreach (var finalVocabularyList in finalVocabularyLists) 
+            { 
+                foreach (var line in finalVocabularyList) 
+                {             
+                    fileWriter.WriteLine(line);
+                } 
+                
+                    fileWriter.WriteLine("");
+            } 
+            
+            fileWriter.Flush();
+            fileWriter.Close();
+            fileWriter.Dispose();
+        }
+
+        private static List<string> FormatSearchListToListForExport(List<Tuple<string, string>> listToExport)
+        {
+            var exportedList = new List<string>();
+
+            exportedList.Add("public List<SearchTerm> GetSearchList()");
+            exportedList.Add("{");
+            exportedList.Add("var searchList = new List<SearchTerm>();");
+
+            foreach (var listItem in listToExport) 
+            {
+                exportedList.Add("searchList.Add(new SearchTerm() { Name = \"" + listItem.Item1 + "\", EnglishMeaning = \"" + listItem.Item2 + "\" });");
+            }
+
+            exportedList.Add("return searchList;");
+            exportedList.Add("}");
+
+            return exportedList;
         }
 
         private static void GetEnglishTerm(string spanishTerm, string jsonPath, List<string> englishTermJsonPath)

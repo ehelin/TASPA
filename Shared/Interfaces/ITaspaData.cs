@@ -7,6 +7,7 @@ namespace Shared.Interfaces
     {
         public List<NavigationLink> GetNavigationLinks();
         public List<VocabularyRadioButton> GetVocabularyRadioButtons();
+        public List<SearchTerm> GetSearchList();
 
         public List<string> GetVocabularyList_Phrases();
         public List<string> GetVocabularyList_GetBodyParts();

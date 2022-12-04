@@ -10,9 +10,11 @@ using BLL;
 using DAL;
 using Shared.Interfaces;
 
-var outPath = "C:\\EricDocuments\\Spanish\\output";
-var fileName = "searchList.txt";
+// TODO - get paths dyanmically
+var outPath = "C:\\EricDocuments\\Taspa2\\DAL";
 var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
+
+var fileName = "SearchList.cs";
 
 ITaspaData dataService = new TaspaData();
 ITaspaService businessService = new TaspaService(dataService);

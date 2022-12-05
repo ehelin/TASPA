@@ -1,24 +1,24 @@
 ﻿var ServerCalls = {};
 
-//ServerCalls.SetVocabularyLists = function () {
-//    try {
-//        var path = '/TaspaApi/getVocabularyLists';
-//        return ServerCall.Get(path)
-//            .then(
-//                function (response) {
-//                    var jsonParsed = JSON.parse(response);
-//                    var vocabularyListSelectListControl = document.getElementById("vocabularyListSelectList");
+ServerCalls.Search = function (searchTerm) {
+    try {
+        var path = '/TaspaApi/search?searchTerm=' + searchTerm;
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
 
-//                    for (var i = 0; i < jsonParsed.length; i++) {
-//                        var currentJson = jsonParsed[i];
-//                        vocabularyListSelectListControl.options[vocabularyListSelectListControl.options.length] = new Option(currentJson, currentJson);
-//                    }
-//                });
-//    }
-//    catch (ex) {
-//        throw ex;
-//    }
-//};
+                    //TODO - construct search results pane and link to existing call
+                    //InitializeVocabulary();
+                    //vocabularyList = jsonParsed;
+                    //vocabularyFolder = folder;
+                    //ServerCalls.SetVocabularyJson(folder, jsonParsed[0]);
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+}
 
 ServerCalls.SetVocabularyList = function (folder, listName) {
     try {

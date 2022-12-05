@@ -18,11 +18,14 @@ function SetNavMenu(show) {
         mnuExpd.style.display = 'none';
     }
 }
+
 function Search() {
     var searchTextBox = document.getElementById("searchTerm");
     var searchTerm = searchTextBox.value;
-    alert("You clicked Search with term '" + searchTerm + "'");
+    
+    ServerCalls.Search(searchTerm);
 }
+
 function Resize() {
     var width = window.innerWidth;
 

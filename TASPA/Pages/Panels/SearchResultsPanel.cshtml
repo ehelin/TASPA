@@ -1,0 +1,17 @@
+﻿@page
+@model VerbsPanelModel
+@{
+    ViewData["Title"] = "Verbs";
+}
+<script type="text/javascript">
+    LoadVerbLists();
+</script>
+<div id="verbPanel" class="center" onload="LoadVerbLists();">
+    <h4 class="center">Verbs</h4>
+    <select id="verbListSelectList" class="displayPanel"></select>
+    <button onclick="SelectVerbList();" class="displayPanel">Submit</button>
+    <div id="verbSubPanel" class="collasped">
+        @await Html.PartialAsync("/Pages/Panels/SubPanels/VerbsSubPanel.cshtml")
+    </div>
+
+</div>

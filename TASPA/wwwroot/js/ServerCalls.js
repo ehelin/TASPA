@@ -8,6 +8,8 @@ ServerCalls.Search = function (searchTerm) {
                 function (response) {
                     var jsonParsed = JSON.parse(response);
 
+                    InitializeSearch(jsonParsed);
+
                     //TODO - construct search results pane and link to existing call
                     //InitializeVocabulary();
                     //vocabularyList = jsonParsed;

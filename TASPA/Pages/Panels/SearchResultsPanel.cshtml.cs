@@ -1,12 +1,19 @@
-﻿using Shared.Interfaces;
+﻿using System.Collections.Generic;
+using Shared.Interfaces;
 using TASPA.Models;
+using Shared.Dto;
 
 namespace TASPA.Pages
 {
-    public class SearchResultsModel : BaseModel
+    public class SearchResultsPanelModel : BaseModel
     {
-        public SearchResultsModel(ITaspaService taspaService) : base(taspaService) { }
+        public List<SearchTerm> SearchResults;
 
-        public void OnGet() {}
+        public SearchResultsPanelModel(ITaspaService taspaService) : base(taspaService) { }
+
+        public void OnGet(string searchTerm) 
+        {
+            this.SearchResults = this.taspaService.Search(searchTerm);        
+        }
     }
 }

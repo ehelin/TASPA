@@ -22,13 +22,15 @@ namespace TASPA.Controllers
             return Ok(vocabularyList); // 200
         }        
         
-        [HttpGet("search")]
-        public IActionResult Search([FromQuery] string searchTerm)
-        {
-            var searchResults = this.taspaService.Search(searchTerm);
+        //[HttpGet("search")]
+        //public IActionResult Search([FromQuery] string searchTerm)
+        //{
+        //    //var searchResults = this.taspaService.Search(searchTerm);
 
-            return Ok(searchResults); // 200
-        }
+        //    return RedirectToPage("SearchResultsPanel");
+
+        //    //return Ok(searchResults); // 200
+        //}
 
         [HttpGet("getVerbList")]
         public IActionResult GetVerbList([FromQuery] string verbListName)

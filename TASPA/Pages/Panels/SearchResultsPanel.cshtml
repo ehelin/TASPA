@@ -9,31 +9,17 @@
         @foreach (var searchResult in Model.SearchResults)
         {
             <br />
-            var path = searchResult.JsonPath.Replace("\\", "\\\\");
-            var javascriptCall = string.Format("DisplaySelectedSearchResult('{0}', '{1}');", searchResult.Name, path);
-            <a href="" onclick="@javascriptCall">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a>
-            @*  DisplaySelectedSearchResult(selectedSearchTerm, selectedSearchTermPath)
+            var href = "";
             if (searchResult.JsonPath.ToLower().Contains("verb"))
             {
-                var pos = searchResult.JsonPath.IndexOf("verbs\\");
-                var listName = searchResult.JsonPath.Substring(pos + 1, 1);
-                var href = string.Format("ServerCalls.SetVerbList('{0}');", listName);
-                <a href="" onclick="@href">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a>
+                href = string.Format("/Panels/VerbsPanel?selectedSearchTerm={0}", searchResult.Name);
             }
-            else if (searchResult.JsonPath.ToLower().Contains("bodyparts")) { <a href="" onclick="VocabularyPanelSetVocabularyList('bodyparts', 'TheBody');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("clothing")) { <a href="" onclick="VocabularyPanelSetVocabularyList('clothing', 'clothing');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("colors")) { <a href="" onclick="VocabularyPanelSetVocabularyList('colors', 'Colors');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("familymembers")) { <a href="" onclick="VocabularyPanelSetVocabularyList('familymembers', 'FamilyMembers');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("fruits")) { <a href="" onclick="VocabularyPanelSetVocabularyList('fruits', 'Fruits');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("houseterms")) { <a href="" onclick="VocabularyPanelSetVocabularyList('houseterms', 'HouseTerms');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("listfrommeetup")) { <a href="" onclick="VocabularyPanelSetVocabularyList('listfrommeetup', 'MeetupGroupList');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("phrases")) { <a href="" onclick="VocabularyPanelSetVocabularyList('phrases', 'Phrases');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("prepositions")) { <a href="" onclick="VocabularyPanelSetVocabularyList('prepositions', 'Prepositions');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("questions")) { <a href="" onclick="VocabularyPanelSetVocabularyList('questions', 'Questions');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("shops")) { <a href="" onclick="VocabularyPanelSetVocabularyList('shops', 'Shops');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("vegetables")) { <a href="" onclick="VocabularyPanelSetVocabularyList('vegetables', 'Vegetables');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-            else if (searchResult.JsonPath.ToLower().Contains("timewords")) { <a href="" onclick="VocabularyPanelSetVocabularyList('timewords', 'Time');">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a> }
-        *@
+            else
+            {
+                href = string.Format("/Panels/VocabularyPanel?selectedSearchTerm={0}", searchResult.Name);
+            }
+
+            <a href="@href">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a>        
         }
     </div>
 </div>

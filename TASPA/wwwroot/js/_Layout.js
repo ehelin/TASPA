@@ -19,27 +19,6 @@ function SetNavMenu(show) {
     }
 }
 
-function Search() {
-    var searchTextBox = document.getElementById("searchTerm");
-    var searchTerm = searchTextBox.value;
-
-    var host = window.location.origin; 
-    var subUrl = "/Panels/SearchResultsPanel";
-    var query = "?searchTerm=" + searchTerm;
-    var fullUrl = host + subUrl + query;
-    window.location.href = fullUrl;
-}
-
-function DisplaySelectedSearchResult(selectedSearchTerm, selectedSearchTermPath)
-{
-    // TODO - add if based on existing logic and direct to verb or vocabulary page w/appropriate query string
-//    var host = window.location.origin; 
-//    var subUrl = "/Panels/SearchResultsPanel";
-//    var query = "?selectedSearchTerm=" + selectedSearchTerm;
-//    var fullUrl = host + subUrl + query;
-//    window.location.href = fullUrl;
-}
-
 function Resize() {
     var width = window.innerWidth;
 

@@ -60,7 +60,7 @@ ServerCalls.SetVocabularyJson = function (vocabularyFolder, vocabularyName) {
     }
 };
 
-ServerCalls.SetVerbLists = function () {
+ServerCalls.SetVerbLists = function (searchTerm, searchVerbList) {
     try {
         var path = '/TaspaApi/getVerbLists';
         return ServerCall.Get(path)
@@ -73,14 +73,20 @@ ServerCalls.SetVerbLists = function () {
                         var currentJson = jsonParsed[i];
                         verbListSelectListControl.options[verbListSelectListControl.options.length] = new Option(currentJson, currentJson);
                     }
-                });
+
+                    if (searchTerm != null && searchTerm != undefined && searchTerm.length>0)
+                    {
+                        ServerCalls.SetVerbList(searchVerbList, searchTerm);
+                    }
+                });        
     }
     catch (ex) {
         throw ex;
     }
 };
 
-ServerCalls.SetVerbList = function (listName) {
+// NOTE: searchTerm is sometimes null
+ServerCalls.SetVerbList = function (listName, searchTerm) {
     try {
         var path = '/TaspaApi/getVerbList?verbListName=' + listName;
         return ServerCall.Get(path)
@@ -92,7 +98,14 @@ ServerCalls.SetVerbList = function (listName) {
 
                     verbList = jsonParsed;
 
-                    ServerCalls.SetVerbJson(jsonParsed[0]);
+                    if (searchTerm != null && searchTerm != undefined && searchTerm.length>0)
+                    {
+                        ServerCalls.SetVerbJson(searchTerm);
+                    }
+                    else
+                    {
+                        ServerCalls.SetVerbJson(jsonParsed[0]);
+                    }
                 });
     }
     catch (ex) {

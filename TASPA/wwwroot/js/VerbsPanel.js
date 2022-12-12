@@ -1,5 +1,5 @@
-﻿function LoadVerbLists() {
-    ServerCalls.SetVerbLists();
+﻿function LoadVerbLists(searchTerm, searchVerbList) {
+    ServerCalls.SetVerbLists(searchTerm, searchVerbList);
 }
 
 function SelectVerbList() {

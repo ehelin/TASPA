@@ -13,5 +13,13 @@ namespace TASPA.Pages
         { 
             this.VocabularyRadioButtons = this.taspaService.GetVocabularyRadioButtons();
         }
+
+        public void OnGet(string selectedSearchTerm) 
+        {
+            if (!string.IsNullOrEmpty(selectedSearchTerm))// && !string.IsNullOrEmpty(jsonPath))
+            {
+                // TODO - handle search result
+            }      
+        }
     }
 }

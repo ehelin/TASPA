@@ -2,16 +2,16 @@
 @model VerbsPanelModel
 @{
     ViewData["Title"] = "Verbs";
+    //var searchTerm = @Model.SearchTerm;
 }
 <script type="text/javascript">
-    LoadVerbLists();
+    LoadVerbLists('@Model.SearchTerm', '@Model.SearchVerbList');
 </script>
-<div id="verbPanel" class="center" onload="LoadVerbLists();">
+<div id="verbPanel" class="center">
     <h4 class="center">Verbs</h4>
     <select id="verbListSelectList" class="displayPanel"></select>
     <button onclick="SelectVerbList();" class="displayPanel">Submit</button>
     <div id="verbSubPanel" class="collasped">
         @await Html.PartialAsync("/Pages/Panels/SubPanels/VerbsSubPanel.cshtml")
     </div>
-
 </div>

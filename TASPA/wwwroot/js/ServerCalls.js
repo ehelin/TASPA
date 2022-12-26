@@ -22,9 +22,9 @@ ServerCalls.Search = function (searchTerm) {
     }
 }
 
-ServerCalls.SetVocabularyList = function (folder, listName) {
+ServerCalls.SetVocabularyList = function (folder, searchTerm) {
     try {
-        var path = '/TaspaApi/getVocabularyList?vocabularyListName=' + listName;
+        var path = '/TaspaApi/getVocabularyList?vocabularyListName=' + folder;
         return ServerCall.Get(path)
             .then(
                 function (response) {
@@ -35,7 +35,16 @@ ServerCalls.SetVocabularyList = function (folder, listName) {
                     vocabularyList = jsonParsed;
                     vocabularyFolder = folder;
 
-                    ServerCalls.SetVocabularyJson(folder, jsonParsed[0]);
+                    var jsonTerm = jsonParsed[0];
+                    if (searchTerm != null && searchTerm != undefined && searchTerm.length > 0)
+                    {
+                        var textArea = document.createElement('textarea');
+                        textArea.innerHTML = searchTerm;
+                        var decodedSearchTerm = textArea.value;
+                        jsonTerm = decodedSearchTerm.replace(' ', '_');
+                    }
+
+                    ServerCalls.SetVocabularyJson(folder, jsonTerm);
                 });
     }
     catch (ex) {

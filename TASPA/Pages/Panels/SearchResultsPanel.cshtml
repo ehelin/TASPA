@@ -16,7 +16,19 @@
             }
             else
             {
-                href = string.Format("/Panels/VocabularyPanel?selectedSearchTerm={0}", searchResult.Name);
+                var jsonPath = searchResult.JsonPath;
+                var end = jsonPath.LastIndexOf("\\");
+                if (end > 0)
+                {
+                    var vocabularyListName = jsonPath.Substring(0, end);
+                    var start = vocabularyListName.LastIndexOf("\\");
+                    if (start > 0)
+                    {
+                        start += 1;
+                        vocabularyListName = vocabularyListName.Substring(start, vocabularyListName.Length - start);
+                        href = string.Format("/Panels/VocabularyPanel?selectedSearchTerm={0}&vocabularyList={1}", searchResult.Name, vocabularyListName);
+                    }
+                }
             }
 
             <a href="@href">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)</a>        

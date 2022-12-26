@@ -9,17 +9,21 @@ namespace TASPA.Pages
     {
         public List<VocabularyRadioButton> VocabularyRadioButtons;
 
+        public string SearchVocabularyList { get; set; }
+        public string SearchTerm { get; set; }
+
         public VocabularyPanelModel(ITaspaService taspaService) : base(taspaService) 
         { 
             this.VocabularyRadioButtons = this.taspaService.GetVocabularyRadioButtons();
         }
 
-        public void OnGet(string selectedSearchTerm) 
+        public void OnGet(string selectedSearchTerm, string vocabularyList)
         {
-            if (!string.IsNullOrEmpty(selectedSearchTerm))// && !string.IsNullOrEmpty(jsonPath))
+            if(!string.IsNullOrEmpty(selectedSearchTerm))
             {
-                // TODO - handle search result
-            }      
+                this.SearchTerm = selectedSearchTerm;
+                this.SearchVocabularyList = vocabularyList;
+            }
         }
     }
 }

@@ -4,13 +4,14 @@
     ViewData["Title"] = "Vocabulary";
 }
 <script type="text/javascript">
-    LoadVocabularyLists();
+    LoadVocabularyLists('@Model.SearchTerm', '@Model.SearchVocabularyList');
 </script>
 <div id="vocabularyPanel" class="center" onload="LoadVocabularyLists();">
     <h4 class="center">Vocabulary</h4>
 
     <!-- TODO - update select list based on radio button selected -->
     <!-- TODO - check in final should have phrases and one other at least -->
+    <!-- TODO - set checked state on search term when it is known -->
     <div class="vocabularyListSelectionPanelParent">
         <div class="vocabularyListSelectionPanel">
             <div id="vocabularyMobileMenu" class="collasped">
@@ -20,7 +21,7 @@
                     {                            
                         <td>
                                 @if (ctr == 0) {
-                                    <input type="radio" name="type" checked
+                                    <input type="radio" name="type" checked 
                                         value="@Model.VocabularyRadioButtons[ctr].Value" 
                                         onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
                                 } else {                                    
@@ -66,8 +67,6 @@
         </div>
     </div>
 
-    @*<select id="vocabularyListSelectList" class="center"></select>
-    <button onclick="SelectVocabularyList();">Submit</button>*@
     <div id="vocabularySubPanel" class="collasped">
         @await Html.PartialAsync("/Pages/Panels/SubPanels/VocabularySubPanel.cshtml")
     </div>

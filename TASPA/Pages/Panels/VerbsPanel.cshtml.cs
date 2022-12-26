@@ -7,16 +7,14 @@ namespace TASPA.Pages
     {
         public string SearchVerbList { get; set; }
         public string SearchTerm { get; set; }
-        //public string SearchTermJsonPath { get; set; }
 
         public VerbsPanelModel(ITaspaService taspaService) : base(taspaService) { }
 
         public void OnGet(string selectedSearchTerm) 
         {
-            if (!string.IsNullOrEmpty(selectedSearchTerm))// && !string.IsNullOrEmpty(jsonPath))
+            if (!string.IsNullOrEmpty(selectedSearchTerm))
             {
                 this.SearchTerm = selectedSearchTerm;
-                //this.SearchTermJsonPath = jsonPath;
                 this.SearchVerbList = SearchTerm.Substring(0, 1).ToUpper();
             }      
         }

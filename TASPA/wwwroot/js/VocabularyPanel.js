@@ -1,8 +1,17 @@
-﻿function LoadVocabularyLists() {
-    var vocabularyFolder = 'bodyparts';
-    var listName = 'TheBody'; // TODO - make dynamic (default)
-    //ServerCalls.SetVocabularyLists();
-    VocabularyPanelSetVocabularyList(vocabularyFolder, listName);
+﻿function LoadVocabularyLists(searchTerm, searchVocabularyFolder) {
+    var vocabularyFolder = 'bodyparts'; // default
+    //var listName = 'bodyparts';           // default
+
+    if (searchVocabularyFolder != null && searchVocabularyFolder != undefined && searchVocabularyFolder.length > 0)
+    {
+        vocabularyFolder = searchVocabularyFolder;
+    }
+    //if (searchTerm != null && searchTerm != undefined && searchTerm.length > 0)
+    //{
+    //    listName = searchTerm;
+    //}
+
+    VocabularyPanelSetVocabularyList(vocabularyFolder, searchTerm);
 }
 
 function SelectVocabularyList() {
@@ -12,6 +21,6 @@ function SelectVocabularyList() {
     ServerCalls.SetVocabularyList(selectedValue);
 }
 
-function VocabularyPanelSetVocabularyList(vocabularyFolder, listName) {
-    ServerCalls.SetVocabularyList(vocabularyFolder, listName);
+function VocabularyPanelSetVocabularyList(vocabularyFolder, searchTerm) {
+    ServerCalls.SetVocabularyList(vocabularyFolder, searchTerm);
 }

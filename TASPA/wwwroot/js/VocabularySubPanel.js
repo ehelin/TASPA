@@ -22,18 +22,24 @@ function SelectVocabularyList() {
 function VolcabularyPanelResize() {
     var width = window.innerWidth;
 
-    //if (width <= 768) {
-    //    document.getElementById("vocabularyMobileMenu").classList.remove('collasped');
-    //    document.getElementById("vocabularyMobileMenu").classList.add('expanded');
-    //    document.getElementById("vocabularyDesktopMenu").classList.remove('expanded');
-    //    document.getElementById("vocabularyDesktopMenu").classList.add('collasped');
-    //}
-    //else {
-    //    document.getElementById("vocabularyMobileMenu").classList.remove('expanded');
-    //    document.getElementById("vocabularyMobileMenu").classList.add('collasped');
-    //    document.getElementById("vocabularyDesktopMenu").classList.remove('collasped');
-    //    document.getElementById("vocabularyDesktopMenu").classList.add('expanded');
-    //}
+    var vocabularyMobileMenu = document.getElementById("vocabularyMobileMenu");
+    var vocabularyDesktopMenu = document.getElementById("vocabularyDesktopMenu");
+
+    if (vocabularyMobileMenu != null && vocabularyDesktopMenu != null)
+    {
+        if (width <= 768) {
+            vocabularyMobileMenu.classList.remove('collasped');
+            vocabularyMobileMenu.classList.add('expanded');
+            vocabularyDesktopMenu.classList.remove('expanded');
+            vocabularyDesktopMenu.classList.add('collasped');
+        }
+        else {
+            vocabularyMobileMenu.classList.remove('expanded');
+            vocabularyMobileMenu.classList.add('collasped');
+            vocabularyDesktopMenu.classList.remove('collasped');
+            vocabularyDesktopMenu.classList.add('expanded');
+        }
+    }
 }
 
 function LoadNextVocabulary() {
@@ -61,17 +67,6 @@ function LanguageToDisplayIsSpanish() {
 
 function VocabularyListNext(vocabularyName, vocabularyJson) {
     ClearVocabularyPanel();
-    //document.documentElement.setAttribute("xmlns:fb", "http://www.facebook.com/2008/fbml");
-    //document.getElementById("red").checked = true;
-    //document.getElementById("bodyparts").checked = true;
-    //document.getElementById(vocabularyFolder).setAttribute("checked", "checked");
-    //var inputTag = document.getElementById(vocabularyFolder);
-    //if (inputTag != null && inputTag != undefined)
-    //{
-    //    inputTag.checked = true;
-    //    //inputTag.setAttribute('checked', '');
-    //    //inputTag.checked = true;
-    //}
 
     var vocabularyNameContent = document.getElementById("vocabularyName");
     var vocabularyValueContent = document.getElementById("vocabularyValue");

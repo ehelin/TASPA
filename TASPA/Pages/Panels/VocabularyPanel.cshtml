@@ -9,13 +9,12 @@
 <div id="vocabularyPanel" class="center" onload="LoadVocabularyLists();">
     <h4 class="center">Vocabulary</h4>
 
-    <!-- TODO - update select list based on radio button selected -->
-    <!-- TODO - check in final should have phrases and one other at least -->
-    <!-- TODO - set checked state on search term when it is known -->
     <div class="vocabularyListSelectionPanelParent">
         <div class="vocabularyListSelectionPanel">
             <div id="vocabularyMobileMenu" class="collasped">
-                <table width="100%">
+                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", 
+                    new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, true));
+@*                <table width="100%">
                     <tr>
                     @for(var ctr=0; ctr<Model.VocabularyRadioButtons.Count; ctr++)
                     {                            
@@ -49,10 +48,12 @@
                         }
                     }
                     </tr>
-                </table>
+                </table>*@
             </div>
             <div id="vocabularyDesktopMenu" class="expanded">
-                <table width="100%">
+                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", 
+                    new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, false));
+              @*  <table width="100%">
                     <tr>
                         @for (var ctr = 0; ctr < Model.VocabularyRadioButtons.Count; ctr++)
                         {
@@ -92,12 +93,12 @@
                             }
                         }
                     </tr>
-                </table>
+                </table>*@
             </div>
         </div>
     </div>
 
     <div id="vocabularySubPanel" class="collasped">
-        @await Html.PartialAsync("/Pages/Panels/SubPanels/VocabularySubPanel.cshtml")
+        @await Html.PartialAsync("/Pages/Panels/SubPanels/VocabularySubPanel.cshtml"); 
     </div>
 </div>

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
+using Shared.Dto;
 using Shared.Interfaces;
 using TASPA.Models;
-using Shared.Dto;
 
 namespace TASPA.Pages
 {

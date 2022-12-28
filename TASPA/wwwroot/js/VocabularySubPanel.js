@@ -61,6 +61,17 @@ function LanguageToDisplayIsSpanish() {
 
 function VocabularyListNext(vocabularyName, vocabularyJson) {
     ClearVocabularyPanel();
+    //document.documentElement.setAttribute("xmlns:fb", "http://www.facebook.com/2008/fbml");
+    //document.getElementById("red").checked = true;
+    //document.getElementById("bodyparts").checked = true;
+    //document.getElementById(vocabularyFolder).setAttribute("checked", "checked");
+    //var inputTag = document.getElementById(vocabularyFolder);
+    //if (inputTag != null && inputTag != undefined)
+    //{
+    //    inputTag.checked = true;
+    //    //inputTag.setAttribute('checked', '');
+    //    //inputTag.checked = true;
+    //}
 
     var vocabularyNameContent = document.getElementById("vocabularyName");
     var vocabularyValueContent = document.getElementById("vocabularyValue");

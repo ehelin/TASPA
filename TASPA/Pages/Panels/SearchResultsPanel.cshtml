@@ -9,9 +9,7 @@
         @foreach (var searchResult in Model.SearchResults)
         {
             <br />
-            <a href="@Utilities.GetSearchResultsTargetUrl(searchResult)">@string.Format("{0} - {1}", 
-                searchResult.Name, 
-                searchResult.EnglishMeaning)
+            <a href="@Utilities.GetSearchResultsTargetUrl(searchResult)">@string.Format("{0} - {1}", searchResult.Name, searchResult.EnglishMeaning)
             </a>        
         }
     </div>

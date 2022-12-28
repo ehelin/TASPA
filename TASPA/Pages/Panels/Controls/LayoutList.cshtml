@@ -1,0 +1,10 @@
+﻿@model LayoutListModel
+
+@foreach(var navigationLink in Model.NavigationLinks)
+{
+    @if (Model.IsMobile)
+    {
+        <br />
+    }
+    <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
+}

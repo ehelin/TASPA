@@ -39,19 +39,12 @@
                     <div class="menu" id="navMenu" onclick="SetNavMenu(1);"></div>
                     <div class="menuExpanded collasped" id="navMenuExpanded">
                         <a href="" onclick="SetNavMenu(0);">close</a>
-                        <br/>
-                        @foreach(var navigationLink in Model.NavigationLinks)
-                        {
-                            <br />
-                            <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
-                        }
+                        <br />     
+                        @await Html.PartialAsync("/Pages/Panels/Controls/LayoutList.cshtml", new LayoutListModel(Model.NavigationLinks, true))
                     </div> 
                 </div>
                 <div id="desktopMenu" class="desktopMenu expanded">
-                    @foreach (var navigationLink in Model.NavigationLinks)
-                    {
-                        <a href='@string.Format("{0}", navigationLink.LinkAction)'>@navigationLink.LinkText</a>
-                    }
+                    @await Html.PartialAsync("/Pages/Panels/Controls/LayoutList.cshtml", new LayoutListModel(Model.NavigationLinks, false))
                 </div>
             </div>
         </div>

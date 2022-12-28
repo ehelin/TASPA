@@ -16,11 +16,15 @@ namespace IntegrationTests
     public class BllTests
     {
         private readonly ITaspaService bllService;
+        private readonly string parentJsonPath;
 
         public BllTests()
         {
             ITaspaData dataLayer = new TaspaData();
             this.bllService = new TaspaService(dataLayer);
+
+            // TODO - get path dyanmically
+            this.parentJsonPath = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
         }
 
         #region Search 
@@ -40,17 +44,15 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllSearchTermsVerbsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
             var listToSearch = this.bllService.GetSearchList();
 
             // TODO - update the test to verify the jsonpath as well
 
             var spanishTerms = listToSearch.Select(x => x.Name).ToList();
-            VerifyTerms(spanishTerms, jsonPath);
+            VerifyTerms(spanishTerms, this.parentJsonPath);
 
             var englishTerms = listToSearch.Select(x => x.EnglishMeaning).ToList();
-            VerifyTerms(englishTerms, jsonPath);
+            VerifyTerms(englishTerms, this.parentJsonPath);
         }
 
         private void VerifyTerms(List<string> terms, string jsonPath)
@@ -111,8 +113,7 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllVerbsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\verbs\\";
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"verbs\\");
             var verbs = this.bllService.GetVerbList("Full");
 
             RunComparisons(verbs, jsonPath);
@@ -125,9 +126,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllBodyHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\bodyparts\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("TheBody");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath, "vocabulary\\bodyparts\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("bodyparts");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -135,9 +135,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllPhrasesHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\phrases\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Phrases");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\phrases\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("phrases");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -145,9 +144,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllHouseTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\houseterms\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("HouseTerms");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\houseterms\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("houseterms");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -155,9 +153,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllClothingTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\clothing\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Clothing");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\clothing\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("clothing");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -165,9 +162,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllColorsTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\colors\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Colors");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\colors\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("colors");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -175,9 +171,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllFamilyMemberTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\familymembers\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("FamilyMembers");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\familymembers\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("familymembers");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -185,9 +180,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllFruitsTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\fruits\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Fruits");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\fruits\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("fruits");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -195,9 +189,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllTermsFromMeetupGroupHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\listfrommeetup\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("MeetupGroupList");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\listfrommeetup\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("listfrommeetup");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -205,9 +198,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllPrepositionsTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\prepositions\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Prepositions");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\prepositions\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("prepositions");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -215,9 +207,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllQuestionTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\questions\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Questions");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\questions\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("questions");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -225,9 +216,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllShopTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\shops\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Shops");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\shops\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("shops");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -235,9 +225,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllTimeTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\timewords\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Time");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\timewords\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("timewords");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }
@@ -245,9 +234,8 @@ namespace IntegrationTests
         [Fact]
         public void VerifyAllVegetableTermsHaveCorrespondingJsonFile()
         {
-            // TODO - get path dyanmically
-            var jsonPath = "C:\\EricDocuments\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\vegetables\\";
-            var vocabularyListItems = this.bllService.GetVocabularyList("Vegetables");
+            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"vocabulary\\vegetables\\");
+            var vocabularyListItems = this.bllService.GetVocabularyList("vegetables");
 
             RunComparisons(vocabularyListItems, jsonPath);
         }

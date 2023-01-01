@@ -12,15 +12,15 @@
     <div class="vocabularyListSelectionPanelParent">
         <div class="vocabularyListSelectionPanel">
             <div id="vocabularyMobileMenu" class="collasped">
-                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, true));
+                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, true))
             </div>
             <div id="vocabularyDesktopMenu" class="expanded">
-                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, false));
+                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, false))
             </div>
         </div>
     </div>
 
     <div id="vocabularySubPanel" class="collasped">
-        @await Html.PartialAsync("/Pages/Panels/SubPanels/VocabularySubPanel.cshtml"); 
+        @await Html.PartialAsync("/Pages/Panels/SubPanels/VocabularySubPanel.cshtml")
     </div>
 </div>

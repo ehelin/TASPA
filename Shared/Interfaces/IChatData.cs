@@ -2,6 +2,6 @@
 {
 	public interface IChatData
 	{
-		public string GetMessageResponse(string chatMessage);
+		public string GetMessageResponse(string dataPath, string chatMessage);
 	}
 }

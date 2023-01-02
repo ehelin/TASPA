@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Shared.Interfaces;
+using System.IO;
 
 namespace TASPA.Controllers
 {
@@ -9,17 +11,19 @@ namespace TASPA.Controllers
     {
         private readonly ITaspaService taspaService;
         private readonly IChatService chatService;
+		private readonly IWebHostEnvironment environment;
 
-        public TaspaApiController(ITaspaService taspaService, IChatService chatService)
+		public TaspaApiController(ITaspaService taspaService, IChatService chatService, IWebHostEnvironment environment)
         {
             this.taspaService = taspaService;
             this.chatService = chatService;
-        }
+			this.environment = environment;
+		}
 
         [HttpGet("sendChatMessage")]
         public IActionResult SendChatMessage([FromQuery] string chatMessage)
-        {
-            var response = this.chatService.GetMessageResponse(chatMessage);
+		{
+			var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, chatMessage);
 
             return Ok(response); // 200
         }

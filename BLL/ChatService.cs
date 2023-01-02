@@ -14,9 +14,9 @@ namespace BLL
 			this.chatData = chatData;
 		}
 
-		public string GetMessageResponse(string chatMessage)
+		public string GetMessageResponse(string dataPath, string chatMessage)
 		{
-			var response = this.chatData.GetMessageResponse(chatMessage);
+			var response = this.chatData.GetMessageResponse(dataPath, chatMessage);
 
 			return response;
 		}

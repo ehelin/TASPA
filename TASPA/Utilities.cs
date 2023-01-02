@@ -12,8 +12,10 @@ namespace TASPA
         {
             serviceCollection.AddSingleton<ITaspaData, TaspaData>();
             serviceCollection.AddSingleton<ITaspaService, TaspaService>();
+			serviceCollection.AddSingleton<IChatService, ChatService>();
+			serviceCollection.AddSingleton<IChatData, ChatData>();
 
-            return serviceCollection;
+			return serviceCollection;
         }
 
         public static string GetSearchResultsTargetUrl(SearchTerm searchResult)

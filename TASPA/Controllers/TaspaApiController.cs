@@ -7,19 +7,21 @@ namespace TASPA.Controllers
     [Route("[controller]")]
     public class TaspaApiController : ControllerBase
     {
-        private ITaspaService taspaService;
+        private readonly ITaspaService taspaService;
+        private readonly IChatService chatService;
 
-        public TaspaApiController(ITaspaService taspaService)
+        public TaspaApiController(ITaspaService taspaService, IChatService chatService)
         {
             this.taspaService = taspaService;
+            this.chatService = chatService;
         }
 
         [HttpGet("sendChatMessage")]
         public IActionResult SendChatMessage([FromQuery] string chatMessage)
         {
-            var msgSent = string.Format("{0}-{1}", "Message Sent", chatMessage);
+            var response = this.chatService.GetMessageResponse(chatMessage);
 
-            return Ok(msgSent); // 200
+            return Ok(response); // 200
         }
 
         [HttpGet("getVocabularyList")]

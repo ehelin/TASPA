@@ -21,6 +21,9 @@ Blog Post(s):
 			<li>
 				<a href="https://erichelin.wordpress.com/2022/09/25/taspa-part-3-first-feature-verb-flash-cards-2/">TASPA – Part 3 – First Feature – Verb Flash Cards</a>
 			</li>
+			<li>
+				<a href="https://erichelin.wordpress.com/2022/12/31/taspa-part-4-search-implemented-more-verbs-and-a-vocabulary-component/">TASPA - Part 4 - Search Implemented, More Verbs and a Vocabulary Component</a>
+			</li>
 		</ul>
 	</li>
 </ul>

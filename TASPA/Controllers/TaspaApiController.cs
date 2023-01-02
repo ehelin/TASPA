@@ -14,6 +14,15 @@ namespace TASPA.Controllers
             this.taspaService = taspaService;
         }
 
+        [HttpGet("sendChatMessage")]
+        public IActionResult SendChatMessage([FromQuery] string chatMessage)
+        {
+            //var verbList = this.taspaService.GetVerbList(verbListName);
+            var msgSent = string.Format("{0}-{1}", "Message Sent", chatMessage);
+
+            return Ok(msgSent); // 200
+        }
+
         [HttpGet("getVocabularyList")]
         public IActionResult GetVocabularyList([FromQuery] string vocabularyListName)
         {

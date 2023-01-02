@@ -1,0 +1,19 @@
+﻿@page
+@model VocabularyPanelModel
+@{
+    ViewData["Title"] = "Vocabulary";
+}
+<div id="chatPanel" class="center">
+    <h4 class="center">Chat</h4>
+
+    <div id="chatBody">
+        <div id="chatMessageButton">
+            <input type="text" id="chatMessage"/>
+            <button id="sendChatMessage" class="displayPanel" onclick="SendChatMessage();">Send</button>
+        </div>
+        <!-- TODO - why are the css classes not working? -->
+        <div id="chatConversation" style="position: absolute; width: 95%; height: 60%;">
+            <textarea id="chatConversationTextArea" style="width: 80%; height: 55%;"></textarea>
+        </div>
+    </div>
+</div>

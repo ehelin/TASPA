@@ -122,3 +122,18 @@
 .displayPanel {
     font-size: large;
 }
+
+/* TODO - why are the styles not being picked up on chat .cshtml? */
+/*chatdiv {
+    position: absolute;
+    border: solid red;
+    width: 95%;
+    height: 95%;
+}
+
+chattextarea {
+    border: solid blue;
+    width: 95%;
+    height: 95%;
+    border: solid blue;
+}*/

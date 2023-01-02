@@ -9,12 +9,6 @@ ServerCalls.Search = function (searchTerm) {
                     var jsonParsed = JSON.parse(response);
 
                     InitializeSearch(jsonParsed);
-
-                    //TODO - construct search results pane and link to existing call
-                    //InitializeVocabulary();
-                    //vocabularyList = jsonParsed;
-                    //vocabularyFolder = folder;
-                    //ServerCalls.SetVocabularyJson(folder, jsonParsed[0]);
                 });
     }
     catch (ex) {
@@ -88,6 +82,24 @@ ServerCalls.SetVerbLists = function (searchTerm, searchVerbList) {
                         ServerCalls.SetVerbList(searchVerbList, searchTerm);
                     }
                 });        
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+ServerCalls.SendChatMessage = function (chatMessage, chatConversationTextArea) {
+    try {
+        var path = '/TaspaApi/sendChatMessage?chatMessage=' + chatMessage;
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var chatResponse = response;
+                    var chatContents = chatConversationTextArea.value;
+                    chatConversationTextArea.value = chatContents + '\r\n' + chatResponse;
+                    chatConversationTextArea.blur();
+                    chatConversationTextArea.focus(); // this scrolls the textarea
+                });
     }
     catch (ex) {
         throw ex;

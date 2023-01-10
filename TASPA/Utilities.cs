@@ -12,8 +12,7 @@ namespace TASPA
         {
             serviceCollection.AddSingleton<ITaspaData, TaspaData>();
             serviceCollection.AddSingleton<ITaspaService, TaspaService>();
-			serviceCollection.AddSingleton<IChatService, ChatService>();
-			serviceCollection.AddSingleton<IChatData, ChatDataImplementationOne>();
+			serviceCollection.AddSingleton<IChatService, ChatServiceImplementationOne>();
 
 			return serviceCollection;
         }

@@ -11,12 +11,8 @@ namespace BLL
 	public class LanguageService : ILanguageService
 	{
 		private static int lastUsedInded = 0;                   // record last index to help with creating interesting responses
-		//private static List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
 
 		private int MAX_COUNTER = 1000;
-
-		private const string CHATTER = "Chat User";
-		private const string CHATBOT_NAME = "Taspa";
 
 		private readonly List<string> sentencesAlreadyUsed;		//Track created sentences
 
@@ -37,7 +33,7 @@ namespace BLL
 
 			this.sentencesAlreadyUsed = new List<string>();
 
-			this.subjects = new List<string>() { "I", "You", "He", "She", "We", "They", "<add-more>" };
+			this.subjects = new List<string>() { "I", "You", "He", "She", "We", "They" };
 			this.verbs = InitializeVerbs();
 			this.nouns = InitializeNouns();
 		}

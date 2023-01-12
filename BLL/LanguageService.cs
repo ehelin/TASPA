@@ -33,7 +33,7 @@ namespace BLL
 
 			this.sentencesAlreadyUsed = new List<string>();
 
-			this.subjects = new List<string>() { "I", "You", "He", "She", "We", "They" };
+			this.subjects = new List<string>() { "I", "You", "He", "She", "We", "They", "It" };
 			this.verbs = InitializeVerbs();
 			this.nouns = InitializeNouns();
 		}

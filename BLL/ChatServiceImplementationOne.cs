@@ -60,10 +60,7 @@ namespace BLL
 				ctr++;
 			}
 
-			if (string.IsNullOrEmpty(response))
-			{
-				throw new Exception("Cannot have a empty response");
-			}
+			if (string.IsNullOrEmpty(response)) { throw new Exception("Cannot have a empty response"); }
 
 			ChatServiceImplementationOne.alreadyUsedResponses.Add(response);  // remember every phrase so no duplicates this session.
 			lastUsedInded++;
@@ -101,6 +98,8 @@ namespace BLL
 
 		private string GetResponseFromRecordedChatDialog(string[] recordedChatDialog, string dataPath)
 		{
+			var response = "";
+
 			// if only one recorded message, return sent it
 			if (recordedChatDialog.Length == 1 && !ChatDialogExists(recordedChatDialog[0], dataPath)) { return recordedChatDialog[0]; }
 			else
@@ -109,7 +108,6 @@ namespace BLL
 				if (ChatServiceImplementationOne.lastUsedInded == 0 && !ChatDialogExists(recordedChatDialog[1], dataPath)) { return recordedChatDialog[1]; }
 
 				// loop thru previously recorded messages and attempt to generate new response
-				var response = "";
 				var recordedChatDialogCtr = 1;
 				foreach (var chatDialog in recordedChatDialog)
 				{
@@ -136,7 +134,7 @@ namespace BLL
 			}
 
 			// Generate a sentence since we are out of chat service options
-			var response = this.languageService.GenerateSentence();
+			if (string.IsNullOrEmpty(response)) { response = this.languageService.GenerateSentence(); }
 
 			return response;
 		}

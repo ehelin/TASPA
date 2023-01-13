@@ -32,13 +32,13 @@ namespace BLL
 		private readonly List<string> alphabet; 
 		private readonly Random random;
 
-		private readonly ILanguageService languageService;
+		private readonly ISentenceService sentenceService;
 
-		public ChatServiceImplementationOne(ILanguageService languageService)
+		public ChatServiceImplementationOne(ISentenceService sentenceService)
 		{
 			this.alphabet = new List<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 			this.random = new Random();
-			this.languageService = languageService;
+			this.sentenceService = sentenceService;
 		}
 
 		public string GetMessageResponse(string webRoot, string chatMessage)
@@ -134,7 +134,7 @@ namespace BLL
 			}
 
 			// Generate a sentence since we are out of chat service options
-			if (string.IsNullOrEmpty(response)) { response = this.languageService.GenerateSentence(); }
+			if (string.IsNullOrEmpty(response)) { response = this.sentenceService.GenerateSentence(); }
 
 			return response;
 		}

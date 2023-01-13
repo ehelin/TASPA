@@ -1,6 +1,6 @@
 ﻿namespace Shared.Interfaces
 {
-    public interface ILanguageService
+    public interface ISentenceService
 	{
         public string GenerateSentence();
     }

@@ -25,12 +25,12 @@ using BLL;
 using DAL;
 using Shared.Interfaces;
 
-ILanguageService languageService = new LanguageService();
+ISentenceService sentenceService = new SentenceServiceImplementationOne();
 
 var ctr = 1;
 while(ctr < 10000)
 {
-	var sentence = languageService.GenerateSentence();
+	var sentence = sentenceService.GenerateSentence();
 
 	Console.WriteLine(sentence);
 

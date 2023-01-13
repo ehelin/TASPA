@@ -15,11 +15,14 @@ namespace BLL
 	/// Text Manipulations
 	/// 1) Previously recorded dialog w/spaces...straight or reversed depending on loop counter mod calculation
 	/// 2) Using alphabet array, getting a random letter and pulling a previously recorded message that starts with it
+	/// 
+	/// Implementation One.
+	/// 
 	/// </summary>
 	public class ChatServiceImplementationOne : IChatService
 	{
 		private static int lastUsedInded = 0;                   // record last index to help with creating interesting responses
-		//private static List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
+		private static List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
 
 		private int MAX_COUNTER = 1000;
 
@@ -29,10 +32,13 @@ namespace BLL
 		private readonly List<string> alphabet; 
 		private readonly Random random;
 
-		public ChatServiceImplementationOne()
+		private readonly ILanguageService languageService;
+
+		public ChatServiceImplementationOne(ILanguageService languageService)
 		{
 			this.alphabet = new List<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 			this.random = new Random();
+			this.languageService = languageService;
 		}
 
 		public string GetMessageResponse(string webRoot, string chatMessage)
@@ -47,15 +53,19 @@ namespace BLL
 				response = GetResponse(recordedChatDialog, chatMessage, dataPath);
 
 				// Do not re-use anything already used in this session...if new, use this response
-				//if (!ChatServiceImplementationOne.alreadyUsedResponses.Any(x => x == response)) { break; }
+				if (!ChatServiceImplementationOne.alreadyUsedResponses.Any(x => x == response)) { break; }
+				else { response = ""; }
 
 				recordedChatDialog = GetRecordedChatDialog(dataPath);	// re-read in saved dialog for fresh evaluations of generated dialog
 				ctr++;
 			}
 
-			// TODO - some sort of phrase generator? The loop counter with previously recorded messages are not sufficient to guarantee new responses
-			//ChatServiceImplementationOne.alreadyUsedResponses.Add(response);
+			if (string.IsNullOrEmpty(response))
+			{
+				throw new Exception("Cannot have a empty response");
+			}
 
+			ChatServiceImplementationOne.alreadyUsedResponses.Add(response);  // remember every phrase so no duplicates this session.
 			lastUsedInded++;
 
 			response = AddChatterChatBoxNames(chatMessage, response);
@@ -125,7 +135,10 @@ namespace BLL
 				}
 			}
 
-			return "Hmm...not sure how to respond";  // default 'we have no response'
+			// Generate a sentence since we are out of chat service options
+			var response = this.languageService.GenerateSentence();
+
+			return response;
 		}
 
 		#endregion

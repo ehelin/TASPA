@@ -10,15 +10,17 @@ using Shared.Interfaces;
 using Xunit;
 using Xunit.Abstractions;
 using Xunit.Sdk;
+using sharedDto = Shared.Dto;
+using sharedIfc = Shared.Interfaces;
 
 namespace IntegrationTests
 {
-    public class BllTests
-    {
+    public class TaspaServiceTests
+	{
         private readonly ITaspaService bllService;
         private readonly string parentJsonPath;
 
-        public BllTests()
+        public TaspaServiceTests()
         {
             ITaspaData dataLayer = new TaspaData();
             this.bllService = new TaspaService(dataLayer);
@@ -90,7 +92,7 @@ namespace IntegrationTests
                 Assert.NotNull(file);
                     
                 var fileContents = File.ReadAllText(file);
-                var jsonFile = JsonConvert.DeserializeObject<Verb>(fileContents);
+                var jsonFile = JsonConvert.DeserializeObject<sharedDto.Verb>(fileContents);
 
                 if (jsonFile.Name == term || jsonFile.EnglishMeaning == term)
                 {
@@ -250,7 +252,7 @@ namespace IntegrationTests
                 var file = File.ReadAllText(jsonFilePath);
                 Assert.NotNull(file);
 
-                var jsonFile = JsonConvert.DeserializeObject<Verb>(file);
+                var jsonFile = JsonConvert.DeserializeObject<sharedDto.Verb>(file);
                 Assert.Equal(vocabularyListItem.Replace("_", " "), jsonFile.Name);
             }
         }

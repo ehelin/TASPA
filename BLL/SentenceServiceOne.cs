@@ -9,12 +9,12 @@ using Shared.Interfaces;
 namespace BLL
 {
 	/// <summary>
-	/// A rudimentary language generator to be used in conjunction with the Chat Service implementation.
+	/// A rudimentary sentence generator to be used in conjunction with the Chat Service implementation.
 	/// 
 	/// Implementation One.
 	/// 
 	/// </summary>
-	public class SentenceServiceImplementationOne : ISentenceService
+	public class SentenceServiceOne : ISentenceService
 	{
 		private int MAX_COUNTER = 10000;
 
@@ -31,7 +31,7 @@ namespace BLL
 		private readonly Random randomArticle;
 		private readonly Random randomNoun;
 
-		public SentenceServiceImplementationOne()
+		public SentenceServiceOne()
 		{
 			this.randomSubject = new Random();
 			this.randomVerb = new Random();

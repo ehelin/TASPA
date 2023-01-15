@@ -25,10 +25,10 @@ using BLL;
 using DAL;
 using Shared.Interfaces;
 
-ISentenceService sentenceService = new SentenceServiceImplementationOne();
+ISentenceService sentenceService = new SentenceServiceOne();
 
 var ctr = 1;
-while(ctr < 10000)
+while(ctr < 100)
 {
 	var sentence = sentenceService.GenerateSentence();
 

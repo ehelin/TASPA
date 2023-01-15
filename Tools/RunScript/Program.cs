@@ -28,7 +28,7 @@ using Shared.Interfaces;
 ISentenceService sentenceService = new SentenceServiceOne();
 
 var ctr = 1;
-while(ctr < 100)
+while(ctr < 10000)
 {
 	var sentence = sentenceService.GenerateSentence();
 

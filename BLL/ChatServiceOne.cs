@@ -46,7 +46,6 @@ namespace BLL
 			alreadyUsedResponses = new List<string>();
 		}
 
-
 		private readonly Random alphabetRandom;
 		private readonly List<string> alphabet;
 		private readonly ISentenceService sentenceService;
@@ -128,6 +127,7 @@ namespace BLL
 			{
 				ChatServiceOne.chatUserName = chatMessage;
 			}
+			// TODO - add some generated responses w/chat user's name
 
 			//--------------------------------------------------------------------------------------------------------------
 			//  see if we can get a response from previously recorded conversation messages

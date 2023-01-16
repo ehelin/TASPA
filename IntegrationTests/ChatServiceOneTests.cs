@@ -1,3 +1,4 @@
+using System;
 using BLL;
 using Shared.Interfaces;
 using Xunit;
@@ -6,14 +7,10 @@ namespace IntegrationTests
 {
 	public class ChatServiceOneTests
 	{
-        private readonly IChatService chatService;
 		private readonly string webRoot;
 
 		public ChatServiceOneTests()
 		{
-			ISentenceService sentenceService = new SentenceServiceOne();
-			this.chatService = new ChatServiceOne(sentenceService);
-
 			// TODO - obtain dynamically
 			this.webRoot = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot";
         }
@@ -27,7 +24,11 @@ namespace IntegrationTests
 
 			while (ctr < ChatServiceOne.MAX_COUNTER)
 			{
-				var response = this.chatService.GetMessageResponse(this.webRoot, msg);
+				//creating new instance since this is what happens with website
+				ISentenceService sentenceService = new SentenceServiceOne();
+				var chatService = new ChatServiceOne(sentenceService);
+
+				var response = chatService.GetMessageResponse(this.webRoot, msg);
 
 				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
@@ -39,6 +40,41 @@ namespace IntegrationTests
 			}
 
 			Assert.True(chatUserNameRequested);
+		}
+
+		[Fact]
+		public void ChatUserNameIsUsedAfterRequested()
+		{
+			var ctr = 1;
+			var msg = "Hello!";
+			var chatUserName = "FredTheChatUsers";
+			bool chatUserNameRequested = false;
+			bool chatUserNameUsed = false;
+
+			while (ctr < ChatServiceOne.MAX_COUNTER)
+			{
+				//creating new instance since this is what happens with website
+				ISentenceService sentenceService = new SentenceServiceOne();
+				var chatService = new ChatServiceOne(sentenceService, 100);  // set max index for using chat user name
+
+				var response = chatService.GetMessageResponse(this.webRoot, msg);
+
+				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				{
+					chatUserNameRequested = true;
+					msg = string.Format("{0}{1}", chatUserName, DateTime.UtcNow.Ticks.ToString());
+				}
+				else if (response.IndexOf(chatUserName) != -1)
+				{
+					chatUserNameUsed = true;
+					break;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(chatUserNameRequested);
+			Assert.True(chatUserNameUsed);
 		}
 
 		// TODO - test that verifies the chat user's name is used inside some chat responses after it is set.

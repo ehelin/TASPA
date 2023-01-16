@@ -36,6 +36,8 @@ namespace BLL
 		private static readonly List<int> rangeForChatUserNamePrompts;
 		private static string chatUserName;
 		private static int chatUserNamePromptIndex;                        // range (lastUsedIndex) when a chat user name prompt will occur
+		private readonly Random useChatUserNameIndexRandom;
+		private readonly int useChatUserNameIndex;
 
 		static ChatServiceOne()
 		{
@@ -50,10 +52,13 @@ namespace BLL
 		private readonly List<string> alphabet;
 		private readonly ISentenceService sentenceService;
 
-		public ChatServiceOne(ISentenceService sentenceService)
+		public ChatServiceOne(ISentenceService sentenceService, int useChatUserNameMaxIndex = MAX_COUNTER)
 		{
 			this.alphabet = new List<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 			this.alphabetRandom = new Random();
+
+			useChatUserNameIndexRandom = new Random();
+			this.useChatUserNameIndex = useChatUserNameIndexRandom.Next(rangeForChatUserNamePrompts.Count(), useChatUserNameMaxIndex);
 
 			this.sentenceService = sentenceService;
 		}
@@ -119,15 +124,29 @@ namespace BLL
 
 			//---------------------------------------------------------------------------------------------------------------
 			// chat user name request/response types (on an interval, request user name and once set, periodically use it)
+			// at the right index, request chat user name
 			if (ChatServiceOne.lastUsedIndex == ChatServiceOne.chatUserNamePromptIndex && string.IsNullOrEmpty(ChatServiceOne.chatUserName)) 
 			{
 				response = ChatServiceOne.REQUEST_CHAT_USER_MESSAGE;
 			}
-			else if (ChatServiceOne.alreadyUsedResponses.Count() > 0 && ChatServiceOne.alreadyUsedResponses.Last() == ChatServiceOne.REQUEST_CHAT_USER_MESSAGE)
+			// set chat user name if returned after requested
+			else if (string.IsNullOrEmpty(ChatServiceOne.chatUserName) 
+				&& ChatServiceOne.alreadyUsedResponses.Count() > 0 
+					&& ChatServiceOne.alreadyUsedResponses.Last() == ChatServiceOne.REQUEST_CHAT_USER_MESSAGE)
 			{
 				ChatServiceOne.chatUserName = chatMessage;
+				response = "Well hello there!";  // One of only a few hard coded messages
 			}
-			// TODO - add some generated responses w/chat user's name
+			// once chat user name is set, use chat user name in some responses at various intervals
+			else if (!string.IsNullOrEmpty(ChatServiceOne.chatUserName) 
+				&& ChatServiceOne.alreadyUsedResponses.Count() > 0 
+					&& ChatServiceOne.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE
+						&& ChatServiceOne.lastUsedIndex == this.useChatUserNameIndex)
+			{
+				ChatServiceOne.chatUserName = chatMessage;
+				var generatedResponse = this.sentenceService.GenerateSentence();
+				response = string.Format("{0}, {1}{2}", ChatServiceOne.chatUserName, generatedResponse, "?");
+			}
 
 			//--------------------------------------------------------------------------------------------------------------
 			//  see if we can get a response from previously recorded conversation messages

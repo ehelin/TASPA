@@ -5,6 +5,7 @@ using Xunit;
 
 namespace IntegrationTests
 {
+	[CollectionDefinition("ChatServiceOneTests", DisableParallelization = true)]
 	public class ChatServiceOneTests
 	{
 		private readonly string webRoot;
@@ -13,7 +14,7 @@ namespace IntegrationTests
 		{
 			// TODO - obtain dynamically
 			this.webRoot = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot";
-        }
+		}
 
 		[Fact]
 		public void ChatUserNameIsRequested()
@@ -22,11 +23,14 @@ namespace IntegrationTests
 			var msg = "Hello!";
 			bool chatUserNameRequested = false;
 
+			ChatServiceOne.Initialize();
+			System.Threading.Thread.Sleep(1000);
+
 			while (ctr < ChatServiceOne.MAX_COUNTER)
 			{
 				//creating new instance since this is what happens with website
 				ISentenceService sentenceService = new SentenceServiceOne();
-				var chatService = new ChatServiceOne(sentenceService);
+				var chatService = new ChatServiceOne(sentenceService, true);
 
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
 
@@ -46,30 +50,45 @@ namespace IntegrationTests
 		public void ChatUserNameIsUsedAfterRequested()
 		{
 			var ctr = 1;
-			var msg = "Hello!";
-			var chatUserName = "FredTheChatUsers";
+			var responsePrefix = string.Format("{0}: ", ChatServiceOne.CHATBOT_NAME);
+			var msg = "Hello";
+			var chatUserNameUsageCounter = 1;
+			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
+			var expectedGoodResponseCount = 5;
 			bool chatUserNameRequested = false;
 			bool chatUserNameUsed = false;
 
-			while (ctr < ChatServiceOne.MAX_COUNTER)
+			ChatServiceOne.Initialize();
+			System.Threading.Thread.Sleep(1000);
+
+			//while (ctr < ChatServiceOne.MAX_COUNTER)
+			while (ctr < 100)  // Don't get to large with this test's iteration
 			{
 				//creating new instance since this is what happens with website
 				ISentenceService sentenceService = new SentenceServiceOne();
-				var chatService = new ChatServiceOne(sentenceService, 100);  // set max index for using chat user name
+				var chatService = new ChatServiceOne(sentenceService, true);
 
+				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response = responseAsArray[1].Replace(responsePrefix, "");
 
 				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					chatUserNameRequested = true;
-					msg = string.Format("{0}{1}", chatUserName, DateTime.UtcNow.Ticks.ToString());
+					msg = chatUserName;
 				}
-				else if (response.IndexOf(chatUserName) != -1)
+				else if (response.IndexOf(chatUserName) != -1 && chatUserNameUsageCounter < expectedGoodResponseCount)
+				{
+					chatUserNameUsageCounter++;
+				}
+				else if (chatUserNameUsageCounter >= expectedGoodResponseCount && chatUserNameUsageCounter == expectedGoodResponseCount)
 				{
 					chatUserNameUsed = true;
 					break;
 				}
 
+				System.Threading.Thread.Sleep(100);
 				ctr++;
 			}
 
@@ -77,7 +96,47 @@ namespace IntegrationTests
 			Assert.True(chatUserNameUsed);
 		}
 
-		// TODO - test that verifies the chat user's name is used inside some chat responses after it is set.
-		// TODO - test that verifies chat user's name is never requested more than once
+		[Fact]
+		public void ChatUserNameIsNeverRequestedAfterGiven()
+		{
+			var ctr = 1;
+			var responsePrefix = string.Format("{0}: ", ChatServiceOne.CHATBOT_NAME);
+			var msg = "Hello";
+			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
+			bool chatUserNameRequested = false;
+			bool chatUserNeverRequestedAfterSubmission = false;
+
+			ChatServiceOne.Initialize();
+			System.Threading.Thread.Sleep(1000);
+
+			while (ctr < 100)  // Don't get to large with this test's iteration
+			{
+				//creating new instance since this is what happens with website
+				ISentenceService sentenceService = new SentenceServiceOne();
+				var chatService = new ChatServiceOne(sentenceService, true);
+
+				//get answer portion of the response
+				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response = responseAsArray[1].Replace(responsePrefix, "");
+
+				if (!chatUserNameRequested && response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				{
+					chatUserNameRequested = true;
+					msg = chatUserName;
+				}
+				else if (chatUserNameRequested && response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				{
+					chatUserNeverRequestedAfterSubmission = true;
+					break;
+				}
+
+				System.Threading.Thread.Sleep(100);
+				ctr++;
+			}
+
+			Assert.True(chatUserNameRequested);
+			Assert.False(chatUserNeverRequestedAfterSubmission);
+		}
 	}
 }

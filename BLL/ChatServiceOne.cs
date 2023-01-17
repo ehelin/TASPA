@@ -24,26 +24,31 @@ namespace BLL
 	public class ChatServiceOne : IChatService
 	{
 		public const int MAX_COUNTER = 1000;
+		public const int MAX_USER_CHAT_NAME_RANDOM_INDEX = 10;  // reset after each user name response to (lastUsedIndex+1) + MAX_USER_CHAT_NAME_RANDOM_INDEX 
 		public const string REQUEST_CHAT_USER_MESSAGE = "What is your name?";
 		public const string CHATTER = "Chat User";
 		public const string CHATBOT_NAME = "Taspa";
+		public const string TEST_CHATBOT_USER = "FredTheChatUser";
 
 		private static int lastUsedIndex = 0;                   // record last index to help with creating interesting responses
 		private static List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
 
 		// objects used to secure the chat user's name and use it in some generated responses
-		private static readonly Random chatUserNameRandom;
-		private static readonly List<int> rangeForChatUserNamePrompts;
+		private static Random chatUserNameRandom;
+		private static List<int> rangeForChatUserNamePrompts;
 		private static string chatUserName;
 		private static int chatUserNamePromptIndex;                        // range (lastUsedIndex) when a chat user name prompt will occur
-		private readonly Random useChatUserNameIndexRandom;
-		private readonly int useChatUserNameIndex;
+		private static Random useChatUserNameIndexRandom;
+		private static int useChatUserNameIndex;
 
-		static ChatServiceOne()
+		// TODO - call this method from webapp app each time system is deployed
+		public static void Initialize()
 		{
 			rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, };
 			chatUserNameRandom = new Random();
 			chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
+
+			useChatUserNameIndexRandom = new Random();
 
 			alreadyUsedResponses = new List<string>();
 		}
@@ -51,14 +56,14 @@ namespace BLL
 		private readonly Random alphabetRandom;
 		private readonly List<string> alphabet;
 		private readonly ISentenceService sentenceService;
+		private readonly bool isTest;
 
-		public ChatServiceOne(ISentenceService sentenceService, int useChatUserNameMaxIndex = MAX_COUNTER)
+		public ChatServiceOne(ISentenceService sentenceService, bool isTest = false)
 		{
 			this.alphabet = new List<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 			this.alphabetRandom = new Random();
-
-			useChatUserNameIndexRandom = new Random();
-			this.useChatUserNameIndex = useChatUserNameIndexRandom.Next(rangeForChatUserNamePrompts.Count(), useChatUserNameMaxIndex);
+			
+			this.isTest = isTest;
 
 			this.sentenceService = sentenceService;
 		}
@@ -82,7 +87,10 @@ namespace BLL
 				ctr++;
 			}
 
-			if (string.IsNullOrEmpty(response)) { throw new Exception("Cannot have a empty response"); }
+			if (string.IsNullOrEmpty(response)) 
+			{ 
+				throw new Exception("Cannot have a empty response"); 
+			}
 
 			ChatServiceOne.alreadyUsedResponses.Add(response);  // remember every phrase so no duplicates this session.
 			lastUsedIndex++;
@@ -103,7 +111,7 @@ namespace BLL
 			// if previously recorded messages, create a response from them
 			if (recordedChatDialog != null && recordedChatDialog.Length > 0)
 			{
-				response = GetChatServiceResponse(recordedChatDialog, dataPath, chatUserName);
+				response = GetChatServiceResponse(recordedChatDialog, dataPath, chatMessage);
 			}
 			// if no recorded messages, return sent message
 			else
@@ -112,8 +120,14 @@ namespace BLL
 			}
 
 			// only record new messages and responses (used or not used)
-			if (!recordedChatDialog.Any(x => x == chatMessage)) { RecordChatDialog(dataPath, chatMessage); }
-			if (!recordedChatDialog.Any(x => x == response)) { RecordChatDialog(dataPath, response); }
+			if (!this.isTest && chatMessage.IndexOf(TEST_CHATBOT_USER) == -1 && !recordedChatDialog.Any(x => x == chatMessage)) 
+			{ 
+				RecordChatDialog(dataPath, chatMessage); 
+			}
+			if (!this.isTest && response.IndexOf(TEST_CHATBOT_USER) == -1 && !recordedChatDialog.Any(x => x == response)) 
+			{ 
+				RecordChatDialog(dataPath, response); 
+			}
 
 			return response;
 		}
@@ -136,16 +150,23 @@ namespace BLL
 			{
 				ChatServiceOne.chatUserName = chatMessage;
 				response = "Well hello there!";  // One of only a few hard coded messages
+
+				//set usage index (sometime in the next 20 iterations
+				useChatUserNameIndex = useChatUserNameIndexRandom.Next(ChatServiceOne.lastUsedIndex+1, (ChatServiceOne.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
 			// once chat user name is set, use chat user name in some responses at various intervals
 			else if (!string.IsNullOrEmpty(ChatServiceOne.chatUserName) 
 				&& ChatServiceOne.alreadyUsedResponses.Count() > 0 
 					&& ChatServiceOne.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE
-						&& ChatServiceOne.lastUsedIndex == this.useChatUserNameIndex)
+						&& ChatServiceOne.lastUsedIndex == ChatServiceOne.useChatUserNameIndex)
 			{
 				ChatServiceOne.chatUserName = chatMessage;
 				var generatedResponse = this.sentenceService.GenerateSentence();
 				response = string.Format("{0}, {1}{2}", ChatServiceOne.chatUserName, generatedResponse, "?");
+
+				//set usage index (sometime in the next 20 iterations
+				useChatUserNameIndex = useChatUserNameIndexRandom.Next(ChatServiceOne.lastUsedIndex + 1, (ChatServiceOne.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
+				var test = 1;
 			}
 
 			//--------------------------------------------------------------------------------------------------------------
@@ -153,6 +174,9 @@ namespace BLL
 			if (string.IsNullOrEmpty(response))
 			{
 				response = GetResponseFromRecordedChatDialog(recordedChatDialog, dataPath);
+
+				// do not re-use a response
+				if (ChatServiceOne.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
 			}
 
 			//---------------------------------------------------------------------------------------------------------------
@@ -160,6 +184,9 @@ namespace BLL
 			if (string.IsNullOrEmpty(response))
 			{
 				response = this.sentenceService.GenerateSentence();
+
+				// do not re-use a response
+				if (ChatServiceOne.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
 			}
 
 			return response;

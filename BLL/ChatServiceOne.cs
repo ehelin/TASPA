@@ -174,7 +174,6 @@ namespace BLL
 
 				//set usage index (sometime in the next 20 iterations
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
-				var test = 1;
 			}
 
 			//--------------------------------------------------------------------------------------------------------------

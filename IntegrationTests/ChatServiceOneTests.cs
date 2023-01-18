@@ -9,11 +9,15 @@ namespace IntegrationTests
 	public class ChatServiceOneTests
 	{
 		private readonly string webRoot;
+		private readonly IChatService chatService;
 
 		public ChatServiceOneTests()
 		{
 			// TODO - obtain dynamically
 			this.webRoot = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot";
+
+			ISentenceService sentenceService = new SentenceServiceOne();
+			this.chatService = new ChatServiceOne(sentenceService, true);
 		}
 
 		[Fact]
@@ -23,15 +27,8 @@ namespace IntegrationTests
 			var msg = "Hello!";
 			bool chatUserNameRequested = false;
 
-			ChatServiceOne.Initialize();
-			System.Threading.Thread.Sleep(1000);
-
 			while (ctr < ChatServiceOne.MAX_COUNTER)
 			{
-				//creating new instance since this is what happens with website
-				ISentenceService sentenceService = new SentenceServiceOne();
-				var chatService = new ChatServiceOne(sentenceService, true);
-
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
 
 				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
@@ -58,16 +55,9 @@ namespace IntegrationTests
 			bool chatUserNameRequested = false;
 			bool chatUserNameUsed = false;
 
-			ChatServiceOne.Initialize();
-			System.Threading.Thread.Sleep(1000);
-
-			//while (ctr < ChatServiceOne.MAX_COUNTER)
-			while (ctr < 100)  // Don't get to large with this test's iteration
+			while (ctr < ChatServiceOne.MAX_COUNTER)
+			//while (ctr < 100)  // Don't get to large with this test's iteration
 			{
-				//creating new instance since this is what happens with website
-				ISentenceService sentenceService = new SentenceServiceOne();
-				var chatService = new ChatServiceOne(sentenceService, true);
-
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
 				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
@@ -106,15 +96,8 @@ namespace IntegrationTests
 			bool chatUserNameRequested = false;
 			bool chatUserNeverRequestedAfterSubmission = false;
 
-			ChatServiceOne.Initialize();
-			System.Threading.Thread.Sleep(1000);
-
-			while (ctr < 100)  // Don't get to large with this test's iteration
+			while (ctr < ChatServiceOne.MAX_COUNTER)
 			{
-				//creating new instance since this is what happens with website
-				ISentenceService sentenceService = new SentenceServiceOne();
-				var chatService = new ChatServiceOne(sentenceService, true);
-
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
 				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
@@ -131,7 +114,6 @@ namespace IntegrationTests
 					break;
 				}
 
-				System.Threading.Thread.Sleep(100);
 				ctr++;
 			}
 

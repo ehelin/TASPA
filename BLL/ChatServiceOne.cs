@@ -30,28 +30,28 @@ namespace BLL
 		public const string CHATBOT_NAME = "Taspa";
 		public const string TEST_CHATBOT_USER = "FredTheChatUser";
 
-		private static int lastUsedIndex = 0;                   // record last index to help with creating interesting responses
-		private static List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
+		private int lastUsedIndex = 0;                   // record last index to help with creating interesting responses
+		private List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
 
 		// objects used to secure the chat user's name and use it in some generated responses
-		private static Random chatUserNameRandom;
-		private static List<int> rangeForChatUserNamePrompts;
-		private static string chatUserName;
-		private static int chatUserNamePromptIndex;                        // range (lastUsedIndex) when a chat user name prompt will occur
-		private static Random useChatUserNameIndexRandom;
-		private static int useChatUserNameIndex;
+		private Random chatUserNameRandom;
+		private List<int> rangeForChatUserNamePrompts;
+		private string chatUserName;
+		private int chatUserNamePromptIndex;                        // range (lastUsedIndex) when a chat user name prompt will occur
+		private Random useChatUserNameIndexRandom;
+		private int useChatUserNameIndex;
 
-		// TODO - call this method from webapp app each time system is deployed
-		public static void Initialize()
-		{
-			rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, };
-			chatUserNameRandom = new Random();
-			chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
+		//// TODO - call this method from webapp app each time system is deployed
+		//static ChatServiceOne()
+		//{
+		//	rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, };
+		//	chatUserNameRandom = new Random();
+		//	chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
 
-			useChatUserNameIndexRandom = new Random();
+		//	useChatUserNameIndexRandom = new Random();
 
-			alreadyUsedResponses = new List<string>();
-		}
+		//	alreadyUsedResponses = new List<string>();
+		//}
 
 		private readonly Random alphabetRandom;
 		private readonly List<string> alphabet;
@@ -66,6 +66,14 @@ namespace BLL
 			this.isTest = isTest;
 
 			this.sentenceService = sentenceService;
+
+			rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, };
+			chatUserNameRandom = new Random();
+			chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
+
+			useChatUserNameIndexRandom = new Random();
+
+			alreadyUsedResponses = new List<string>();
 		}
 
 		public string GetMessageResponse(string webRoot, string chatMessage)
@@ -80,7 +88,7 @@ namespace BLL
 				response = GetResponse(recordedChatDialog, chatMessage, dataPath);
 
 				// Do not re-use anything already used in this session...if new, use this response
-				if (!ChatServiceOne.alreadyUsedResponses.Any(x => x == response)) { break; }
+				if (!this.alreadyUsedResponses.Any(x => x == response)) { break; }
 				else { response = ""; }
 
 				recordedChatDialog = GetRecordedChatDialog(dataPath);	// re-read in saved dialog for fresh evaluations of generated dialog
@@ -92,7 +100,7 @@ namespace BLL
 				throw new Exception("Cannot have a empty response"); 
 			}
 
-			ChatServiceOne.alreadyUsedResponses.Add(response);  // remember every phrase so no duplicates this session.
+			this.alreadyUsedResponses.Add(response);  // remember every phrase so no duplicates this session.
 			lastUsedIndex++;
 
 			response = AddChatterChatBoxNames(chatMessage, response);
@@ -139,33 +147,33 @@ namespace BLL
 			//---------------------------------------------------------------------------------------------------------------
 			// chat user name request/response types (on an interval, request user name and once set, periodically use it)
 			// at the right index, request chat user name
-			if (ChatServiceOne.lastUsedIndex == ChatServiceOne.chatUserNamePromptIndex && string.IsNullOrEmpty(ChatServiceOne.chatUserName)) 
+			if (this.lastUsedIndex == this.chatUserNamePromptIndex && string.IsNullOrEmpty(this.chatUserName)) 
 			{
 				response = ChatServiceOne.REQUEST_CHAT_USER_MESSAGE;
 			}
 			// set chat user name if returned after requested
-			else if (string.IsNullOrEmpty(ChatServiceOne.chatUserName) 
-				&& ChatServiceOne.alreadyUsedResponses.Count() > 0 
-					&& ChatServiceOne.alreadyUsedResponses.Last() == ChatServiceOne.REQUEST_CHAT_USER_MESSAGE)
+			else if (string.IsNullOrEmpty(this.chatUserName) 
+				&& this.alreadyUsedResponses.Count() > 0 
+					&& this.alreadyUsedResponses.Last() == ChatServiceOne.REQUEST_CHAT_USER_MESSAGE)
 			{
-				ChatServiceOne.chatUserName = chatMessage;
+				this.chatUserName = chatMessage;
 				response = "Well hello there!";  // One of only a few hard coded messages
 
 				//set usage index (sometime in the next 20 iterations
-				useChatUserNameIndex = useChatUserNameIndexRandom.Next(ChatServiceOne.lastUsedIndex+1, (ChatServiceOne.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
+				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex+1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
 			// once chat user name is set, use chat user name in some responses at various intervals
-			else if (!string.IsNullOrEmpty(ChatServiceOne.chatUserName) 
-				&& ChatServiceOne.alreadyUsedResponses.Count() > 0 
-					&& ChatServiceOne.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE
-						&& ChatServiceOne.lastUsedIndex == ChatServiceOne.useChatUserNameIndex)
+			else if (!string.IsNullOrEmpty(this.chatUserName) 
+				&& this.alreadyUsedResponses.Count() > 0 
+					&& this.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE
+						&& this.lastUsedIndex == this.useChatUserNameIndex)
 			{
-				ChatServiceOne.chatUserName = chatMessage;
+				this.chatUserName = chatMessage;
 				var generatedResponse = this.sentenceService.GenerateSentence();
-				response = string.Format("{0}, {1}{2}", ChatServiceOne.chatUserName, generatedResponse, "?");
+				response = string.Format("{0}, {1}{2}", this.chatUserName, generatedResponse, "?");
 
 				//set usage index (sometime in the next 20 iterations
-				useChatUserNameIndex = useChatUserNameIndexRandom.Next(ChatServiceOne.lastUsedIndex + 1, (ChatServiceOne.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
+				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 				var test = 1;
 			}
 
@@ -176,7 +184,7 @@ namespace BLL
 				response = GetResponseFromRecordedChatDialog(recordedChatDialog, dataPath);
 
 				// do not re-use a response
-				if (ChatServiceOne.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
+				if (this.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
 			}
 
 			//---------------------------------------------------------------------------------------------------------------
@@ -186,7 +194,7 @@ namespace BLL
 				response = this.sentenceService.GenerateSentence();
 
 				// do not re-use a response
-				if (ChatServiceOne.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
+				if (this.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
 			}
 
 			return response;
@@ -201,7 +209,7 @@ namespace BLL
 			else
 			{
 				// if first call and multiple messages, return second recorded message
-				if (ChatServiceOne.lastUsedIndex == 0 && !ChatDialogExists(recordedChatDialog[1], dataPath)) { return recordedChatDialog[1]; }
+				if (this.lastUsedIndex == 0 && !ChatDialogExists(recordedChatDialog[1], dataPath)) { return recordedChatDialog[1]; }
 
 				// loop thru previously recorded messages and attempt to generate new response
 				var recordedChatDialogCtr = 1;
@@ -210,7 +218,7 @@ namespace BLL
 					//===============================================================================================
 					// multiple messages, last used exceeds list of responses, return last recorded entry
 					var lastEntry = recordedChatDialog[recordedChatDialog.Length - 1];
-					if (ChatServiceOne.lastUsedIndex > recordedChatDialog.Length && !ChatDialogExists(lastEntry, dataPath) && !string.IsNullOrEmpty(response)) { return lastEntry; }
+					if (this.lastUsedIndex > recordedChatDialog.Length && !ChatDialogExists(lastEntry, dataPath) && !string.IsNullOrEmpty(response)) { return lastEntry; }
 
 					//===============================================================================================
 					//find response if current previously recorded message has spaces (reversing or not based on current loop counter)

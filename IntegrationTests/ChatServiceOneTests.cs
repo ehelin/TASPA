@@ -94,8 +94,6 @@ namespace IntegrationTests
 			var msg = "Hello";
 			var chatUserNameUsageCounter = 1;
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
-			bool chatUserNameRequested = false;
-			bool chatUserNameUsed = false;
 
 			while (ctr < ChatServiceOne.MAX_COUNTER)
 			{
@@ -106,7 +104,6 @@ namespace IntegrationTests
 
 				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
-					chatUserNameRequested = true;
 					msg = chatUserName;
 				}
 				else if (response.IndexOf(chatUserName) != -1)

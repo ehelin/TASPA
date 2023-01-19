@@ -87,6 +87,42 @@ namespace IntegrationTests
 		}
 
 		[Fact]
+		public void ChatUserNameResponsePrintouts()
+		{
+			var ctr = 1;
+			var responsePrefix = string.Format("{0}: ", ChatServiceOne.CHATBOT_NAME);
+			var msg = "Hello";
+			var chatUserNameUsageCounter = 1;
+			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
+			bool chatUserNameRequested = false;
+			bool chatUserNameUsed = false;
+
+			while (ctr < ChatServiceOne.MAX_COUNTER)
+			{
+				//get answer portion of the response
+				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response = responseAsArray[1].Replace(responsePrefix, "");
+
+				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				{
+					chatUserNameRequested = true;
+					msg = chatUserName;
+				}
+				else if (response.IndexOf(chatUserName) != -1)
+				{
+					chatUserNameUsageCounter++;
+				}
+				System.Diagnostics.Debug.WriteLine(response);
+
+				System.Threading.Thread.Sleep(1000);
+				ctr++;
+			}
+
+			Assert.True(chatUserNameUsageCounter > 100);
+		}
+
+		[Fact]
 		public void ChatUserNameIsNeverRequestedAfterGiven()
 		{
 			var ctr = 1;

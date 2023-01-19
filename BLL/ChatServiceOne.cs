@@ -41,21 +41,14 @@ namespace BLL
 		private Random useChatUserNameIndexRandom;
 		private int useChatUserNameIndex;
 
-		//// TODO - call this method from webapp app each time system is deployed
-		//static ChatServiceOne()
-		//{
-		//	rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, };
-		//	chatUserNameRandom = new Random();
-		//	chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
-
-		//	useChatUserNameIndexRandom = new Random();
-
-		//	alreadyUsedResponses = new List<string>();
-		//}
-
 		private readonly Random alphabetRandom;
 		private readonly List<string> alphabet;
+
+		private readonly Random chatUserNameResponsesRandom;
+		private readonly List<string> chatUserNameResponses;
+
 		private readonly ISentenceService sentenceService;
+
 		private readonly bool isTest;
 
 		public ChatServiceOne(ISentenceService sentenceService, bool isTest = false)
@@ -64,6 +57,9 @@ namespace BLL
 			this.alphabetRandom = new Random();
 			
 			this.isTest = isTest;
+
+			chatUserNameResponsesRandom = new Random();
+			this.chatUserNameResponses = InitializeChatNameUserCannedResponses();
 
 			this.sentenceService = sentenceService;
 
@@ -169,8 +165,9 @@ namespace BLL
 						&& this.lastUsedIndex == this.useChatUserNameIndex)
 			{
 				this.chatUserName = chatMessage;
-				var generatedResponse = this.sentenceService.GenerateSentence();
-				response = string.Format("{0}, {1}{2}", this.chatUserName, generatedResponse, "?");
+
+				var responseFromList = this.chatUserNameResponses[this.chatUserNameResponsesRandom.Next(0, this.chatUserNameResponses.Count())];
+				response = string.Format("{0}, {1}?", this.chatUserName, responseFromList.ToLower());
 
 				//set usage index (sometime in the next 20 iterations
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
@@ -319,6 +316,74 @@ namespace BLL
 				chatData.Flush();
 				chatData.Close();
 			}
+		}
+
+		private List<string> InitializeChatNameUserCannedResponses()
+		{
+			var list = new List<string>();
+
+			list.Add("What are you passionate about");
+			list.Add("What city do you live in");
+			list.Add("What is on your reading list");
+			list.Add("Favorite food");
+			list.Add("Favorite color");
+			list.Add("Do you have any day dreams");
+			list.Add("Do you have pet peeves");
+			list.Add("Regrets");
+			list.Add("What classes would be on your to take list if you had time");
+			list.Add("Is there a fictional character you can relate to");
+			list.Add("Favorite city that you have lived in");
+			list.Add("Favorite sport");
+			list.Add("Do you have a dream job");
+			list.Add("What type of restaurant do you like to eat in");
+			list.Add("Coffee or tea");
+			list.Add("Do you like you coffee with milk");
+			list.Add("Do you grind your own coffee beans");
+			list.Add("Favorite music");
+			list.Add("Do you work late");
+			list.Add("Are you a morning or night person");
+			list.Add("Any nicknames");
+			list.Add("Best concert you have been too");
+			list.Add("Favorite group");
+			list.Add("Are you a minimalist");
+			list.Add("Do you like to shop");
+			list.Add("Are you an athlete");
+			list.Add("What do you do for exercise");
+			list.Add("What type of gifts do you give at Christmas");
+			list.Add("What do you do in your off hours");
+			list.Add("Do you vacation a lot");
+			list.Add("Do you have a daily routine");
+			list.Add("Nightly routine");
+			list.Add("Have you worked with great people");
+			list.Add("Are you in technology");
+			list.Add("What do you look for in a great company to work for");
+			list.Add("Do you like chat bots");
+			list.Add("What motivates you");
+			list.Add("Are you rich");
+			list.Add("If you were rich, how would you spend your time");
+			list.Add("Favorite author");
+			list.Add("Do you collect");
+			list.Add("Do you speak a language");
+			list.Add("Do you run");
+			list.Add("Do you bike");
+			list.Add("What is your politics");
+			list.Add("Are you a Democrat");
+			list.Add("Are you a Republican");
+			list.Add("Do you follow politics in other countries");
+			list.Add("Do you fondu?");
+			list.Add("Do you think");
+			list.Add("Do you drive");
+			list.Add("Do you eat");
+			list.Add("Favorite pet");
+			list.Add("Favorite pen");
+			list.Add("Favorite pencil");
+			list.Add("Favorite state");
+			list.Add("Favorite country");
+			list.Add("Favorite ocean");
+			list.Add("Favorite school");
+			list.Add("Did you go to college");
+
+			return list;
 		}
 
 		#endregion

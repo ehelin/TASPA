@@ -168,13 +168,14 @@ namespace BLL
 				this.chatUserName = chatMessage;
 
 				var responseFromList = this.chatUserNameResponses[this.chatUserNameResponsesRandom.Next(0, this.chatUserNameResponses.Count())];
-				response = string.Format("{0}, {1}?", this.chatUserName, responseFromList.ToLower());
+				responseFromList = string.Format("{0}{1}", responseFromList.Substring(0, 1).ToLower(), responseFromList.Substring(1, responseFromList.Length -1)); 
+				response = string.Format("{0}, {1}?", this.chatUserName, responseFromList);
 
 				//set usage index (sometime in the next 20 iterations
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
 			// skip chat user response since (if we got here)
-			else if (this.lastUsedIndex == this.useChatUserNameIndex && !response.StartsWith(this.chatUserName))
+			else if (!string.IsNullOrEmpty(this.chatUserName) && this.lastUsedIndex == this.useChatUserNameIndex && !response.StartsWith(this.chatUserName))
 			{
 				//set usage index (sometime in the next 20 iterations
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
@@ -389,6 +390,60 @@ namespace BLL
 			list.Add("Favorite ocean");
 			list.Add("Favorite school");
 			list.Add("Did you go to college");
+			list.Add("Have you done a cruise");
+			list.Add("Have you gone abroad");
+			list.Add("Have you been to Russia");
+			list.Add("Have you been to France");
+			list.Add("Have you been to Spain");
+			list.Add("Have you been to America");
+			list.Add("Have you been to Britain");
+			list.Add("Have you been to Germany");
+			list.Add("Have you been to Peru");
+			list.Add("Have you been to Chile");
+			list.Add("Have you been to Africa");
+			list.Add("Have you been to Australia");
+			list.Add("Have you been to Tasmania");
+			list.Add("Have you been to Anartica");
+			list.Add("Have you been to Scotland");
+			list.Add("Have you been to Portugal");
+			list.Add("Have you been to Nigeria");
+			list.Add("Do you swim");
+			list.Add("Do you know the backstroke");
+			list.Add("Where were you born");
+			list.Add("Where was your mother born");
+			list.Add("Where was your father born");
+			list.Add("Do you believe in God");
+			list.Add("Are you religous");
+			list.Add("Are you a Christian");
+			list.Add("Can you count in Spanish");
+			list.Add("Can you count in French");
+			list.Add("Can you count in Czech");
+			list.Add("Can you count in Polish");
+			list.Add("Can you count in Russian");
+			list.Add("Can you count in Arabic");
+			list.Add("Can you count in German");
+			list.Add("Do you run");
+			list.Add("Do you jump");
+			list.Add("Do you sky dive");
+			list.Add("Do you fly");
+			list.Add("Do you own a house");
+			list.Add("Do you work on a house");
+			list.Add("Do you have sisters");
+			list.Add("Do you have brothers");
+			list.Add("Do you have cousins");
+			list.Add("Do you have grandparents who are still alive");
+			list.Add("Do you create computer programs");
+			list.Add("Are you on Facebook");
+			list.Add("Do you use Tik Tok");
+			list.Add("Are you on Instagram");
+			list.Add("Will you travel this year");
+			list.Add("Have you heard of the Mayans");
+			list.Add("Have you heard of the Inca");
+			list.Add("Have you been to Cusco, Peru");
+			list.Add("Do you talk with your pets");
+			list.Add("Do you have pets");
+			list.Add("Do you ever say crazy things");
+			list.Add("Have you ever talked with a plant");
 
 			return list;
 		}

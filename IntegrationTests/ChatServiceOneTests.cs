@@ -95,7 +95,7 @@ namespace IntegrationTests
 			var chatUserNameUsageCounter = 1;
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
 
-			while (ctr < ChatServiceOne.MAX_COUNTER)
+			while (ctr < 10000)//ChatServiceOne.MAX_COUNTER)
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
@@ -109,10 +109,9 @@ namespace IntegrationTests
 				else if (response.IndexOf(chatUserName) != -1)
 				{
 					chatUserNameUsageCounter++;
+					//System.Diagnostics.Debug.WriteLine(response + " --- " + ctr.ToString());
 				}
-				System.Diagnostics.Debug.WriteLine(response);
 
-				System.Threading.Thread.Sleep(1000);
 				ctr++;
 			}
 

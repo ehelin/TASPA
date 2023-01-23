@@ -20,6 +20,8 @@ namespace IntegrationTests
 			this.chatService = new ChatServiceOne(sentenceService, true);
 		}
 
+		#region Chat User Name Based Tests
+
 		[Fact]
 		public void ChatUserNameIsRequested()
 		{
@@ -56,7 +58,6 @@ namespace IntegrationTests
 			bool chatUserNameUsed = false;
 
 			while (ctr < ChatServiceOne.MAX_COUNTER)
-			//while (ctr < 100)  // Don't get to large with this test's iteration
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
@@ -95,7 +96,7 @@ namespace IntegrationTests
 			var chatUserNameUsageCounter = 1;
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
 
-			while (ctr < 10000)//ChatServiceOne.MAX_COUNTER)
+			while (ctr < 10000)
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
@@ -152,5 +153,7 @@ namespace IntegrationTests
 			Assert.True(chatUserNameRequested);
 			Assert.False(chatUserNeverRequestedAfterSubmission);
 		}
+
+		#endregion
 	}
 }

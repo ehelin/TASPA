@@ -26,11 +26,13 @@ namespace BLL
 		private readonly List<SentenceVerb> verbs;
 		private readonly List<string> articles;
 		private readonly List<string> nouns;
+		private readonly List<string> pronouns; 
 
 		private readonly Random randomSubject;
 		private readonly Random randomVerb;
 		private readonly Random randomArticle;
 		private readonly Random randomNoun;
+		private readonly Random randomPronoun;
 
 		public SentenceServiceOne()
 		{
@@ -38,12 +40,14 @@ namespace BLL
 			this.randomVerb = new Random();
 			this.randomArticle = new Random();
 			this.randomNoun = new Random();
+			this.randomPronoun = new Random();
 
 			this.sentencesAlreadyUsed = new List<string>();
 
 			this.subjects = new List<string>() { "I", "You", "He", "She", "We", "They", "It" };
 			this.verbs = InitializeVerbs();
 			this.articles = new List<string> { "a", "this", "that", "the" };
+			this.pronouns = new List<string> { "this", "that", "him", "her", "them", "it" }; 
 			this.nouns = InitializeNouns();
 		}
 
@@ -58,18 +62,32 @@ namespace BLL
 			var verb = this.verbs[randomVerb.Next(0, this.verbs.Count())];
 			var article = "";
 			var noun = this.nouns[randomNoun.Next(0, this.nouns.Count())];
+			var pronoun = "";
 
 			//manipulations
 			if (subject == "It" && verb.type == VerbType.Have) { verb.name = verb.name.Replace("have", "has"); } 
 			if (verb.type == VerbType.Have || verb.type == VerbType.Past) { article = this.articles[randomArticle.Next(0, this.articles.Count())]; }
 			if (verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She")) { verb.name = verb.name + "s"; }
 			if (verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She")) { verb.name = verb.name.Replace("have", "has"); }
+
+			//if previous sentences exist and the last one does NOT contain an article, use one if the verb allows it
+			if (sentencesAlreadyUsed != null 
+					&& string.IsNullOrEmpty(sentencesAlreadyUsed.Last()) 
+						&& !this.pronouns.Any(x => x == sentencesAlreadyUsed.Last())
+							&& verb.pronouns)
+			{
+				pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())];
+			}
 ;
 			//create sentence
 			var sentence = "";
 			if (!string.IsNullOrEmpty(article))
 			{
 				sentence = string.Format("{0} {1} {2} {3}", subject, verb.name.ToLower(), article.ToLower(), noun.ToLower());
+			}
+			else if (!string.IsNullOrEmpty(pronoun))
+			{
+				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), pronoun.ToLower());
 			}
 			else
 			{

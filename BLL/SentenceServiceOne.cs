@@ -19,8 +19,6 @@ namespace BLL
 	{
 		private int MAX_COUNTER = 10000;
 
-		private int pronounCounter = 0; 
-
 		private readonly List<string> sentencesAlreadyUsed;		//Track created sentences so no duplicates during one session
 
 		//sentence components
@@ -108,7 +106,6 @@ namespace BLL
 			}
 
 			sentencesAlreadyUsed.Add(sentence);
-			pronounCounter++;
 
 			return sentence;
 		}

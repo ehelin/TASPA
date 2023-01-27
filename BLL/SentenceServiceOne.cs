@@ -19,6 +19,8 @@ namespace BLL
 	{
 		private int MAX_COUNTER = 10000;
 
+		private int pronounCounter = 0; 
+
 		private readonly List<string> sentencesAlreadyUsed;		//Track created sentences so no duplicates during one session
 
 		//sentence components
@@ -51,7 +53,6 @@ namespace BLL
 			this.nouns = InitializeNouns();
 		}
 
-
 		// Ideas
 		// 1) composite subjects
 		// 2) composite verbs
@@ -64,21 +65,16 @@ namespace BLL
 			var noun = this.nouns[randomNoun.Next(0, this.nouns.Count())];
 			var pronoun = "";
 
+			//=====================================================
 			//manipulations
+			// TODO - add a variable to assure only one manipulation is made for each sentence
+			// TODO - add code to randomize the manipulations
+			if (verb.pronouns) { pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())]; }  //random pronouns
 			if (subject == "It" && verb.type == VerbType.Have) { verb.name = verb.name.Replace("have", "has"); } 
 			if (verb.type == VerbType.Have || verb.type == VerbType.Past) { article = this.articles[randomArticle.Next(0, this.articles.Count())]; }
 			if (verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She")) { verb.name = verb.name + "s"; }
 			if (verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She")) { verb.name = verb.name.Replace("have", "has"); }
 
-			//if previous sentences exist and the last one does NOT contain an article, use one if the verb allows it
-			if (sentencesAlreadyUsed != null 
-					&& string.IsNullOrEmpty(sentencesAlreadyUsed.Last()) 
-						&& !this.pronouns.Any(x => x == sentencesAlreadyUsed.Last())
-							&& verb.pronouns)
-			{
-				pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())];
-			}
-;
 			//create sentence
 			var sentence = "";
 			if (!string.IsNullOrEmpty(article))
@@ -112,6 +108,7 @@ namespace BLL
 			}
 
 			sentencesAlreadyUsed.Add(sentence);
+			pronounCounter++;
 
 			return sentence;
 		}
@@ -314,102 +311,102 @@ namespace BLL
 			var list = new List<SentenceVerb>();
 
 			//present
-			list.Add(new SentenceVerb() { name = "have", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "do", type = VerbType.Present });      // this/that/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have", type = VerbType.Present, pronouns = true});	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "do", type = VerbType.Present, pronouns = true });      // this/that/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "say", type = VerbType.Present });// this/that/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "go", type = VerbType.Present });		// there/here/different locations
-			list.Add(new SentenceVerb() { name = "get", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "make", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "get", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "make", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "know", type = VerbType.Present });// this/that about him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "think", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "take", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "see", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "think", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "take", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "see", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "come", type = VerbType.Present });	// nothing
-			list.Add(new SentenceVerb() { name = "want", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "want", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "look", type = VerbType.Present });	// there/here/different locations
-			list.Add(new SentenceVerb() { name = "use", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "find", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "use", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "find", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "give", type = VerbType.Present });    // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "tell", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "tell", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "work", type = VerbType.Present });	// there/here/different places
-			list.Add(new SentenceVerb() { name = "call", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "try", type = VerbType.Present });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "ask", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "need", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "feel", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "become", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "leave", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "put", type = VerbType.Present });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "mean", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "keep", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "let", type = VerbType.Present });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "begin", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "call", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "try", type = VerbType.Present, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "ask", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "need", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "feel", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "become", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "leave", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "put", type = VerbType.Present, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "mean", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "keep", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "let", type = VerbType.Present, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "begin", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "seem", type = VerbType.Present });	// happy/content/sad/mad<adjective>
-			list.Add(new SentenceVerb() { name = "help", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "talk", type = VerbType.Present });    // to him/her/them/it about a/the <noun>
-			list.Add(new SentenceVerb() { name = "turn", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "start", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "show", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "hear", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "play", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "run", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "move", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "like", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "help", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "talk", type = VerbType.Present, pronouns = true });    // to him/her/them/it about a/the <noun>
+			list.Add(new SentenceVerb() { name = "turn", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "start", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "show", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "hear", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "play", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "run", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "move", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "like", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "live", type = VerbType.Present });    // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "believe", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "hold", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "bring", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "believe", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "hold", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "bring", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "happen", type = VerbType.Present });	// here/there/different locations
-			list.Add(new SentenceVerb() { name = "write", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "provide", type = VerbType.Present }); // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "write", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "provide", type = VerbType.Present, pronouns = true }); // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "sit", type = VerbType.Present });		// here/there/different places
 			list.Add(new SentenceVerb() { name = "stand", type = VerbType.Present });	// here/there/different locations
-			list.Add(new SentenceVerb() { name = "lose", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "pay", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "meet", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "include", type = VerbType.Present }); // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "lose", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "pay", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "meet", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "include", type = VerbType.Present, pronouns = true }); // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "continue", type = VerbType.Present });// this/that/there
-			list.Add(new SentenceVerb() { name = "set", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "learn", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "change", type = VerbType.Present });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "lead", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "understand", type = VerbType.Present }); // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "watch", type = VerbType.Present });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "follow", type = VerbType.Present });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "create", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "speak", type = VerbType.Present });   // this/that to him/her/them/it about a/the <noun>
-			list.Add(new SentenceVerb() { name = "read", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "allow", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "add", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "spend", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "grow", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "open", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "walk", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "win", type = VerbType.Present });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "offer", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "remember", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "love", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "consider", type = VerbType.Present });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "set", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "learn", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "change", type = VerbType.Present, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "lead", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "understand", type = VerbType.Present, pronouns = true }); // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "watch", type = VerbType.Present, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "follow", type = VerbType.Present, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "create", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "speak", type = VerbType.Present, pronouns = true });   // this/that to him/her/them/it about a/the <noun>
+			list.Add(new SentenceVerb() { name = "read", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "allow", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "add", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "spend", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "grow", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "open", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "walk", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "win", type = VerbType.Present, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "offer", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "remember", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "love", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "consider", type = VerbType.Present, pronouns = true });// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "appear", type = VerbType.Present });	// nothing
 			list.Add(new SentenceVerb() { name = "buy", type = VerbType.Present });     // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "wait", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "serve", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "send", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "expect", type = VerbType.Present });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "build", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "wait", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "serve", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "send", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "expect", type = VerbType.Present, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "build", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "stay", type = VerbType.Present });	// there/here/different locations
 			list.Add(new SentenceVerb() { name = "fall", type = VerbType.Present });	// there/here/different locations
-			list.Add(new SentenceVerb() { name = "cut", type = VerbType.Present });     // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "reach", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "remain", type = VerbType.Present });	// here/there/different locations
-			list.Add(new SentenceVerb() { name = "suggest", type = VerbType.Present }); // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "raise", type = VerbType.Present });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "pass", type = VerbType.Present });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "cut", type = VerbType.Present, pronouns = true });     // this/that/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "reach", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "remain", type = VerbType.Present, pronouns = true });	// here/there/different locations
+			list.Add(new SentenceVerb() { name = "suggest", type = VerbType.Present, pronouns = true }); // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "raise", type = VerbType.Present, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "pass", type = VerbType.Present, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "sell", type = VerbType.Present });    // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "require", type = VerbType.Present }); // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "report", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "decide", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "pull", type = VerbType.Present });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "require", type = VerbType.Present, pronouns = true }); // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "report", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "decide", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "pull", type = VerbType.Present, pronouns = true });	// this/that/him/her/them/it a/the <noun>
 
 			//past
 			list.Add(new SentenceVerb() { name = "had", type = VerbType.Past });			// a <noun...drink>
@@ -420,92 +417,92 @@ namespace BLL
 			list.Add(new SentenceVerb() { name = "made", type = VerbType.Past });			// that/this
 			list.Add(new SentenceVerb() { name = "knew", type = VerbType.Past });			// that/this
 			list.Add(new SentenceVerb() { name = "thought", type = VerbType.Past });		// that/this
-			list.Add(new SentenceVerb() { name = "saw", type = VerbType.Past });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "saw", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
 			list.Add(new SentenceVerb() { name = "came", type = VerbType.Past });			// down/home/from <noun>
-			list.Add(new SentenceVerb() { name = "wanted", type = VerbType.Past });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "wanted", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
 			list.Add(new SentenceVerb() { name = "looked", type = VerbType.Past });			// down/home/from <noun>
-			list.Add(new SentenceVerb() { name = "used", type = VerbType.Past });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "used", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
 			list.Add(new SentenceVerb() { name = "found", type = VerbType.Past });			// this/that/ the/a <noun>
-			list.Add(new SentenceVerb() { name = "gave", type = VerbType.Past });			// this/that/him/her/them
-			list.Add(new SentenceVerb() { name = "worked", type = VerbType.Past });			// this/that/him/her/them
-			list.Add(new SentenceVerb() { name = "called", type = VerbType.Past });			// this/that/him/her/them
-			list.Add(new SentenceVerb() { name = "tried", type = VerbType.Past });			// this/that a/the <noun>
-			list.Add(new SentenceVerb() { name = "asked", type = VerbType.Past });			// this/that/him/her/them
-			list.Add(new SentenceVerb() { name = "needed", type = VerbType.Past });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "gave", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "worked", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "called", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "tried", type = VerbType.Past, pronouns = true });			// this/that a/the <noun>
+			list.Add(new SentenceVerb() { name = "asked", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "needed", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
 			list.Add(new SentenceVerb() { name = "felt", type = VerbType.Past });			// this/that
 			list.Add(new SentenceVerb() { name = "became", type = VerbType.Past });			// this/that a/the <noun>
-			list.Add(new SentenceVerb() { name = "left", type = VerbType.Past });			// this/that/him/her/them a/the <noun>	
-			list.Add(new SentenceVerb() { name = "put", type = VerbType.Past });			// this/that/him/her/them a/the <noun> away/down/behind
-			list.Add(new SentenceVerb() { name = "meant", type = VerbType.Past });			// this/that/him/her/them a/the <noun>
-			list.Add(new SentenceVerb() { name = "kept", type = VerbType.Past });			// this/that/him/her/them a/the <noun> 
-			list.Add(new SentenceVerb() { name = "let", type = VerbType.Past });			// this/that/him/her/them go/run/walk/fish<appropriate verb>
+			list.Add(new SentenceVerb() { name = "left", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun>	
+			list.Add(new SentenceVerb() { name = "put", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun> away/down/behind
+			list.Add(new SentenceVerb() { name = "meant", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun>
+			list.Add(new SentenceVerb() { name = "kept", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun> 
+			list.Add(new SentenceVerb() { name = "let", type = VerbType.Past, pronouns = true });			// this/that/him/her/them go/run/walk/fish<appropriate verb>
 			list.Add(new SentenceVerb() { name = "began", type = VerbType.Past });			// this/that a/the <noun>	
 			list.Add(new SentenceVerb() { name = "seemed", type = VerbType.Past });			// funny/big/small<adjective>
 			list.Add(new SentenceVerb() { name = "helped", type = VerbType.Past });			// them/it
 			list.Add(new SentenceVerb() { name = "talked", type = VerbType.Past });			// to him/her/them
 			list.Add(new SentenceVerb() { name = "turned", type = VerbType.Past });			// around/back/left/right<adjective>
 			list.Add(new SentenceVerb() { name = "started", type = VerbType.Past });		// this/that a/the <noun>
-			list.Add(new SentenceVerb() { name = "showed", type = VerbType.Past });			// this/that/him/her/them a/the <noun> 
-			list.Add(new SentenceVerb() { name = "heard", type = VerbType.Past });			// this/that/him/her/them
-			list.Add(new SentenceVerb() { name = "played", type = VerbType.Past });			// this/that/him/her/them a/the <noun> 
-			list.Add(new SentenceVerb() { name = "ran", type = VerbType.Past });			// this/that/him/her/them to the <noun> 
-			list.Add(new SentenceVerb() { name = "moved", type = VerbType.Past });			// this/that/him/her/them to the <noun> 
-			list.Add(new SentenceVerb() { name = "liked", type = VerbType.Past });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "showed", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun> 
+			list.Add(new SentenceVerb() { name = "heard", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
+			list.Add(new SentenceVerb() { name = "played", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun> 
+			list.Add(new SentenceVerb() { name = "ran", type = VerbType.Past, pronouns = true });			// this/that/him/her/them to the <noun> 
+			list.Add(new SentenceVerb() { name = "moved", type = VerbType.Past, pronouns = true });			// this/that/him/her/them to the <noun> 
+			list.Add(new SentenceVerb() { name = "liked", type = VerbType.Past, pronouns = true });			// this/that/him/her/them
 			list.Add(new SentenceVerb() { name = "lived", type = VerbType.Past });			// there/here
-			list.Add(new SentenceVerb() { name = "believed", type = VerbType.Past });		// this/that/him/her/them	
-			list.Add(new SentenceVerb() { name = "held", type = VerbType.Past });			// this/that/him/her/them here/there/different places
-			list.Add(new SentenceVerb() { name = "brought", type = VerbType.Past });		// this/that/him/her/them a/the <noun>
+			list.Add(new SentenceVerb() { name = "believed", type = VerbType.Past, pronouns = true });		// this/that/him/her/them	
+			list.Add(new SentenceVerb() { name = "held", type = VerbType.Past, pronouns = true });			// this/that/him/her/them here/there/different places
+			list.Add(new SentenceVerb() { name = "brought", type = VerbType.Past, pronouns = true });		// this/that/him/her/them a/the <noun>
 			list.Add(new SentenceVerb() { name = "happened", type = VerbType.Past });		// to him/her/them
-			list.Add(new SentenceVerb() { name = "wrote", type = VerbType.Past });			// this/that/it
-			list.Add(new SentenceVerb() { name = "provided", type = VerbType.Past });		// this/that/it a <noun>	
+			list.Add(new SentenceVerb() { name = "wrote", type = VerbType.Past, pronouns = true });			// this/that/it
+			list.Add(new SentenceVerb() { name = "provided", type = VerbType.Past, pronouns = true });		// this/that/it a <noun>	
 			list.Add(new SentenceVerb() { name = "sat", type = VerbType.Past });			// down/there/different places
-			list.Add(new SentenceVerb() { name = "lost", type = VerbType.Past });			// this/that/him/her/them a/the <noun>
-			list.Add(new SentenceVerb() { name = "paid", type = VerbType.Past });			// this/that/him/her/them 
+			list.Add(new SentenceVerb() { name = "lost", type = VerbType.Past, pronouns = true });			// this/that/him/her/them a/the <noun>
+			list.Add(new SentenceVerb() { name = "paid", type = VerbType.Past, pronouns = true });			// this/that/him/her/them 
 			list.Add(new SentenceVerb() { name = "met", type = VerbType.Past });			// him/her/them
-			list.Add(new SentenceVerb() { name = "included", type = VerbType.Past });		// this/that/him/her/them a <noun>
+			list.Add(new SentenceVerb() { name = "included", type = VerbType.Past, pronouns = true });		// this/that/him/her/them a <noun>
 			list.Add(new SentenceVerb() { name = "continued", type = VerbType.Past });		// down/there/different places
 			list.Add(new SentenceVerb() { name = "set", type = VerbType.Past });			// a/the <noun>
-			list.Add(new SentenceVerb() { name = "learned", type = VerbType.Past });		// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "changed", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "learned", type = VerbType.Past, pronouns = true });		// this/that/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "changed", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "led", type = VerbType.Past });			// him/her/them a/the <noun>
-			list.Add(new SentenceVerb() { name = "understood", type = VerbType.Past });		// this/that/him/her/them/it
-			list.Add(new SentenceVerb() { name = "watched", type = VerbType.Past });		// this/that/him/her/them/it
-			list.Add(new SentenceVerb() { name = "followed", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "created", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "understood", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it
+			list.Add(new SentenceVerb() { name = "watched", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it
+			list.Add(new SentenceVerb() { name = "followed", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "created", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "spoke", type = VerbType.Past });			// this/that/ to him/her/them/it
-			list.Add(new SentenceVerb() { name = "read", type = VerbType.Past });			// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "allowed", type = VerbType.Past });		// this/that/him/her/them/it
-			list.Add(new SentenceVerb() { name = "added", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "read", type = VerbType.Past, pronouns = true });			// this/that/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "allowed", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it
+			list.Add(new SentenceVerb() { name = "added", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "spent", type = VerbType.Past });			// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "grew", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "grew", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "opened", type = VerbType.Past });			// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "walked", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "won", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "offered", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "remembered", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "loved", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "considered", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "walked", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "won", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "offered", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "remembered", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "loved", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "considered", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "appeared", type = VerbType.Past });		// nothing
 			list.Add(new SentenceVerb() { name = "bought", type = VerbType.Past });			// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "waited", type = VerbType.Past });			// for this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "served", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "waited", type = VerbType.Past, pronouns = true });			// for this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "served", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "died", type = VerbType.Past });			// nothing
-			list.Add(new SentenceVerb() { name = "sent", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "expected", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "built", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "sent", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "expected", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "built", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "stayed", type = VerbType.Past });			// there/here/different places
 			list.Add(new SentenceVerb() { name = "fell", type = VerbType.Past });			// there/here/in different places
 			list.Add(new SentenceVerb() { name = "cut", type = VerbType.Past });			// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "reached", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "reached", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "remained", type = VerbType.Past });		// here/there/in different places
-			list.Add(new SentenceVerb() { name = "suggested", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "raised", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "passed", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "sold", type = VerbType.Past });			// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "required", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "reported", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "decided", type = VerbType.Past });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "pulled", type = VerbType.Past });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "suggested", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "raised", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "passed", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "sold", type = VerbType.Past, pronouns = true });			// this/that/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "required", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "reported", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "decided", type = VerbType.Past, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "pulled", type = VerbType.Past, pronouns = true });			// this/that/him/her/them/it a/the <noun>
 
 			//have x
 			list.Add(new SentenceVerb() { name = "have had", type = VerbType.Have });		// this/that/it a/the <noun>
@@ -524,84 +521,84 @@ namespace BLL
 			list.Add(new SentenceVerb() { name = "have found", type = VerbType.Have });		// this/that/it a/the <noun>	
 			list.Add(new SentenceVerb() { name = "have given", type = VerbType.Have });		// this/that/it a/the <noun>	
 			list.Add(new SentenceVerb() { name = "have worked", type = VerbType.Have });	// there/here/different locations 
-			list.Add(new SentenceVerb() { name = "have called", type = VerbType.Have });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have called", type = VerbType.Have, pronouns = true });	// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have tried", type = VerbType.Have });		// this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have asked", type = VerbType.Have });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have needed", type = VerbType.Have });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have felt", type = VerbType.Have });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have become", type = VerbType.Have });	// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have left", type = VerbType.Have });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have put", type = VerbType.Have });		// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have meant", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have kept", type = VerbType.Have });      // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have let", type = VerbType.Have });       // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have asked", type = VerbType.Have, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have needed", type = VerbType.Have, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have felt", type = VerbType.Have, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have become", type = VerbType.Have, pronouns = true });	// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have left", type = VerbType.Have, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have put", type = VerbType.Have, pronouns = true });		// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have meant", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have kept", type = VerbType.Have, pronouns = true });      // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have let", type = VerbType.Have, pronouns = true });       // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have begun", type = VerbType.Have });     // this/that/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have seemed", type = VerbType.Have });	// sad/happy/content<adjective>
-			list.Add(new SentenceVerb() { name = "have helped", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have helped", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have talked", type = VerbType.Have });    // to this/that/him/her/them/it
 			list.Add(new SentenceVerb() { name = "have turned", type = VerbType.Have });    // to this/that/him/her/them/it
-			list.Add(new SentenceVerb() { name = "have started", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have showed", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have heard", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have started", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have showed", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have heard", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have played", type = VerbType.Have });    // this/that with him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have run", type = VerbType.Have });       // this/that with him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have moved", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have liked", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have moved", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have liked", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have lived", type = VerbType.Have });     // this/that as him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have believed", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have held", type = VerbType.Have });      // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have believed", type = VerbType.Have, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have held", type = VerbType.Have, pronouns = true });      // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have brought", type = VerbType.Have });   // this/that/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have happened", type = VerbType.Have });	// nothing
-			list.Add(new SentenceVerb() { name = "have written", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have provided", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have written", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have provided", type = VerbType.Have, pronouns = true });  // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have sat", type = VerbType.Have });		// there/here/different locations
-			list.Add(new SentenceVerb() { name = "have lost", type = VerbType.Have });      // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have paid", type = VerbType.Have });      // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have lost", type = VerbType.Have, pronouns = true });      // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have paid", type = VerbType.Have, pronouns = true });      // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have met", type = VerbType.Have });       // him/her/them/it
 			list.Add(new SentenceVerb() { name = "have included", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have continued", type = VerbType.Have }); // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have set", type = VerbType.Have });       // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have learned", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have changed", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have led", type = VerbType.Have });       // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have understood", type = VerbType.Have });// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have watched", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have followed", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have created", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have set", type = VerbType.Have, pronouns = true });       // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have learned", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have changed", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have led", type = VerbType.Have, pronouns = true });       // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have understood", type = VerbType.Have, pronouns = true });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have watched", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have followed", type = VerbType.Have, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have created", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have spoken", type = VerbType.Have });    // this/that to him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have read", type = VerbType.Have });      // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have allowed", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have added", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have read", type = VerbType.Have, pronouns = true });      // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have allowed", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have added", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have spent", type = VerbType.Have });     // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have grown", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have opened", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have walked", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have grown", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have opened", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have walked", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have won", type = VerbType.Have });       // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have offered", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have remembered", type = VerbType.Have });// this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have loved", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have considered", type = VerbType.Have });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have offered", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have remembered", type = VerbType.Have, pronouns = true });// this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have loved", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have considered", type = VerbType.Have, pronouns = true });// this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have appeared", type = VerbType.Have });	// nothing
 			list.Add(new SentenceVerb() { name = "have bought", type = VerbType.Have });    // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have brought", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have brought", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have waited", type = VerbType.Have });    // for this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have served", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have sent", type = VerbType.Have });      // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have expected", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have built", type = VerbType.Have });     // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have served", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have sent", type = VerbType.Have, pronouns = true });      // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have expected", type = VerbType.Have, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have built", type = VerbType.Have, pronouns = true });     // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have stayed", type = VerbType.Have });	// there/here/different locations
 			list.Add(new SentenceVerb() { name = "have fallen", type = VerbType.Have });	// down/there/here/different locations
 			list.Add(new SentenceVerb() { name = "have cut", type = VerbType.Have });       // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have reached", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have reached", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have remained", type = VerbType.Have });	//here/there/different locations
-			list.Add(new SentenceVerb() { name = "have suggested", type = VerbType.Have }); // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have raised", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have passed", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have suggested", type = VerbType.Have, pronouns = true }); // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have raised", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have passed", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 			list.Add(new SentenceVerb() { name = "have sold", type = VerbType.Have });      // this/that/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have required", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have reported", type = VerbType.Have });  // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have decided", type = VerbType.Have });   // this/that/him/her/them/it a/the <noun>
-			list.Add(new SentenceVerb() { name = "have pulled", type = VerbType.Have });    // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have required", type = VerbType.Have, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have reported", type = VerbType.Have, pronouns = true });  // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have decided", type = VerbType.Have, pronouns = true });   // this/that/him/her/them/it a/the <noun>
+			list.Add(new SentenceVerb() { name = "have pulled", type = VerbType.Have, pronouns = true });    // this/that/him/her/them/it a/the <noun>
 
 			return list;
 		}

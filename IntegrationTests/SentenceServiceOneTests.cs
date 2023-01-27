@@ -28,7 +28,7 @@ namespace IntegrationTests
 
 				System.Diagnostics.Debug.WriteLine(sentence + " --- " + ctr.ToString());
 
-				//System.Threading.Thread.Sleep(10000);
+				System.Threading.Thread.Sleep(3000);
 
 				ctr++;
 			}

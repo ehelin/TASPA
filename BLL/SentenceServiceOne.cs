@@ -17,7 +17,8 @@ namespace BLL
 	/// </summary>
 	public class SentenceServiceOne : ISentenceService
 	{
-		private int MAX_COUNTER = 10000;
+		public int MAX_COUNTER = 10000;
+		public int PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE = 10;
 
 		private readonly List<string> sentencesAlreadyUsed;		//Track created sentences so no duplicates during one session
 
@@ -26,7 +27,7 @@ namespace BLL
 		private readonly List<SentenceVerb> verbs;
 		private readonly List<string> articles;
 		private readonly List<string> nouns;
-		private readonly List<string> pronouns; 
+		public readonly List<string> pronouns; 
 
 		private readonly Random randomSubject;
 		private readonly Random randomVerb;
@@ -51,6 +52,29 @@ namespace BLL
 			this.nouns = InitializeNouns();
 		}
 
+		public List<string> GetPronouns() { return this.pronouns; }
+		public int GetMaxCounter() { return this.MAX_COUNTER; }
+		public int GetPronounPreviousSentenceCheckBatchSize() { return this.PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE; }
+
+		public string GenerateSentence()
+		{
+			var sentence = "";
+			var ctr = 0;
+
+			while (ctr < MAX_COUNTER)
+			{
+				sentence = CreateSentence();
+
+				if (!sentencesAlreadyUsed.Any(x => x == sentence)) { break; }
+
+				ctr++;
+			}
+
+			sentencesAlreadyUsed.Add(sentence);
+
+			return sentence;
+		}
+
 		// Ideas
 		// 1) composite subjects
 		// 2) composite verbs
@@ -67,12 +91,102 @@ namespace BLL
 			//manipulations
 			// TODO - add a variable to assure only one manipulation is made for each sentence
 			// TODO - add code to randomize the manipulations
-			if (verb.pronouns) { pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())]; }  //random pronouns
-			if (subject == "It" && verb.type == VerbType.Have) { verb.name = verb.name.Replace("have", "has"); } 
-			if (verb.type == VerbType.Have || verb.type == VerbType.Past) { article = this.articles[randomArticle.Next(0, this.articles.Count())]; }
-			if (verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She")) { verb.name = verb.name + "s"; }
-			if (verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She")) { verb.name = verb.name.Replace("have", "has"); }
+			// TODO - move each manipulation to a separate method
+			var manipulationApplied = false;
 
+			//random pronouns (applied only every PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE intervals)
+			ManipulationGetPronoun(verb, out manipulationApplied, out pronoun);
+			//if (verb.pronouns) 
+			//{ 
+			//	if (this.sentencesAlreadyUsed != null && this.sentencesAlreadyUsed.Count() > PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE)
+			//	{
+			//		var pronounUsedInLastFiveSentences = false;
+			//		var lastFiveSentences = this.sentencesAlreadyUsed.TakeLast(PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE);
+			//		foreach(var lastSentence in lastFiveSentences)
+			//		{
+			//			var sentenceAsArray = lastSentence.Split(" ");
+			//			var sentenceLastWord = sentenceAsArray[sentenceAsArray.Length - 1];
+			//			if (this.pronouns.Any(x => x == sentenceLastWord))
+			//			{
+			//				pronounUsedInLastFiveSentences = true;
+			//				break;
+			//			}
+			//		}
+
+			//		if (!pronounUsedInLastFiveSentences)
+			//		{
+			//			pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())];
+			//			manipulationApplied = true;
+			//		}
+			//	}
+			//}  
+			
+			if (!manipulationApplied && subject == "It" && verb.type == VerbType.Have) 
+			{ 
+				verb.name = verb.name.Replace("have", "has");
+				manipulationApplied = true;
+			} 
+			
+			if (!manipulationApplied && verb.type == VerbType.Have || verb.type == VerbType.Past) 
+			{ 
+				article = this.articles[randomArticle.Next(0, this.articles.Count())];
+				manipulationApplied = true;
+			}
+			
+			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She")) 
+			{ 
+				verb.name = verb.name + "s"; 
+			}
+			
+			if (!manipulationApplied && verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She")) 
+			{ 
+				verb.name = verb.name.Replace("have", "has");
+				manipulationApplied = true;
+			}
+
+			var sentence = ConstructSentence(article, pronoun, subject, verb, noun);
+
+			return sentence;
+		}
+
+		#region Manipulations
+
+		//random pronouns (applied only every PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE intervals)
+		private void ManipulationGetPronoun(SentenceVerb verb, out bool manipulationApplied, out string pronoun)
+		{
+			manipulationApplied = false;
+			pronoun = string.Empty;
+
+			if (verb.pronouns)
+			{
+				if (this.sentencesAlreadyUsed != null && this.sentencesAlreadyUsed.Count() > PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE)
+				{
+					var pronounUsedInLastFiveSentences = false;
+					var lastFiveSentences = this.sentencesAlreadyUsed.TakeLast(PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE);
+					foreach (var lastSentence in lastFiveSentences)
+					{
+						var sentenceAsArray = lastSentence.Split(" ");
+						var sentenceLastWord = sentenceAsArray[sentenceAsArray.Length - 1];
+						if (this.pronouns.Any(x => x == sentenceLastWord))
+						{
+							pronounUsedInLastFiveSentences = true;
+							break;
+						}
+					}
+
+					if (!pronounUsedInLastFiveSentences)
+					{
+						pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())];
+						manipulationApplied = true;
+					}
+				}
+			}
+		}
+
+		#endregion
+
+		private string ConstructSentence(string article, string pronoun, string subject, SentenceVerb verb, string noun)
+		{
 			//create sentence
 			var sentence = "";
 			if (!string.IsNullOrEmpty(article))
@@ -87,25 +201,6 @@ namespace BLL
 			{
 				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), noun.ToLower());
 			}
-
-			return sentence;
-		}
-
-		public string GenerateSentence()
-		{
-			var sentence = "";
-			var ctr = 0;
-
-			while(ctr < MAX_COUNTER)
-			{
-				sentence = CreateSentence();
-
-				if (!sentencesAlreadyUsed.Any(x => x == sentence)) { break; }
-
-				ctr++;
-			}
-
-			sentencesAlreadyUsed.Add(sentence);
 
 			return sentence;
 		}

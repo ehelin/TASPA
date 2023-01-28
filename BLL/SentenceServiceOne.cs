@@ -89,37 +89,10 @@ namespace BLL
 
 			//=====================================================
 			//manipulations
-			// TODO - add a variable to assure only one manipulation is made for each sentence
 			// TODO - add code to randomize the manipulations
 			// TODO - move each manipulation to a separate method
 			var manipulationApplied = false;
-
-			//random pronouns (applied only every PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE intervals)
 			ManipulationGetPronoun(verb, out manipulationApplied, out pronoun);
-			//if (verb.pronouns) 
-			//{ 
-			//	if (this.sentencesAlreadyUsed != null && this.sentencesAlreadyUsed.Count() > PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE)
-			//	{
-			//		var pronounUsedInLastFiveSentences = false;
-			//		var lastFiveSentences = this.sentencesAlreadyUsed.TakeLast(PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE);
-			//		foreach(var lastSentence in lastFiveSentences)
-			//		{
-			//			var sentenceAsArray = lastSentence.Split(" ");
-			//			var sentenceLastWord = sentenceAsArray[sentenceAsArray.Length - 1];
-			//			if (this.pronouns.Any(x => x == sentenceLastWord))
-			//			{
-			//				pronounUsedInLastFiveSentences = true;
-			//				break;
-			//			}
-			//		}
-
-			//		if (!pronounUsedInLastFiveSentences)
-			//		{
-			//			pronoun = this.pronouns[randomPronoun.Next(0, this.pronouns.Count())];
-			//			manipulationApplied = true;
-			//		}
-			//	}
-			//}  
 			
 			if (!manipulationApplied && subject == "It" && verb.type == VerbType.Have) 
 			{ 
@@ -149,7 +122,27 @@ namespace BLL
 			return sentence;
 		}
 
-		#region Manipulations
+		private string ConstructSentence(string article, string pronoun, string subject, SentenceVerb verb, string noun)
+		{
+			//create sentence
+			var sentence = "";
+			if (!string.IsNullOrEmpty(article))
+			{
+				sentence = string.Format("{0} {1} {2} {3}", subject, verb.name.ToLower(), article.ToLower(), noun.ToLower());
+			}
+			else if (!string.IsNullOrEmpty(pronoun))
+			{
+				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), pronoun.ToLower());
+			}
+			else
+			{
+				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), noun.ToLower());
+			}
+
+			return sentence;
+		}
+
+		#region Manipulation Methods
 
 		//random pronouns (applied only every PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE intervals)
 		private void ManipulationGetPronoun(SentenceVerb verb, out bool manipulationApplied, out string pronoun)
@@ -185,25 +178,7 @@ namespace BLL
 
 		#endregion
 
-		private string ConstructSentence(string article, string pronoun, string subject, SentenceVerb verb, string noun)
-		{
-			//create sentence
-			var sentence = "";
-			if (!string.IsNullOrEmpty(article))
-			{
-				sentence = string.Format("{0} {1} {2} {3}", subject, verb.name.ToLower(), article.ToLower(), noun.ToLower());
-			}
-			else if (!string.IsNullOrEmpty(pronoun))
-			{
-				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), pronoun.ToLower());
-			}
-			else
-			{
-				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), noun.ToLower());
-			}
-
-			return sentence;
-		}
+		#region Initialization Methods
 
 		private List<string> InitializeNouns()
 		{
@@ -694,5 +669,7 @@ namespace BLL
 
 			return list;
 		}
+
+		#endregion
 	}
 }

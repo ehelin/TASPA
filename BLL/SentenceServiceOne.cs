@@ -90,16 +90,15 @@ namespace BLL
 			//=====================================================
 			//manipulations
 			// TODO - add code to randomize the manipulations
-			// TODO - move each manipulation to a separate method
 			var manipulationApplied = false;
 			ManipulationGetPronoun(verb, out manipulationApplied, out pronoun);
-			
-			if (!manipulationApplied && subject == "It" && verb.type == VerbType.Have) 
-			{ 
+
+			if (!manipulationApplied && verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She"))
+			{
 				verb.name = verb.name.Replace("have", "has");
 				manipulationApplied = true;
-			} 
-			
+			}
+
 			if (!manipulationApplied && verb.type == VerbType.Have || verb.type == VerbType.Past) 
 			{ 
 				article = this.articles[randomArticle.Next(0, this.articles.Count())];
@@ -109,12 +108,6 @@ namespace BLL
 			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She")) 
 			{ 
 				verb.name = verb.name + "s"; 
-			}
-			
-			if (!manipulationApplied && verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She")) 
-			{ 
-				verb.name = verb.name.Replace("have", "has");
-				manipulationApplied = true;
 			}
 
 			var sentence = ConstructSentence(article, pronoun, subject, verb, noun);

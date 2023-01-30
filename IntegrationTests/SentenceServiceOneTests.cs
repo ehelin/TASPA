@@ -25,7 +25,7 @@ namespace IntegrationTests
 		{
 			var ctr = 1;
 			var sentence = "";
-			bool pronounMatchFound = false;
+			bool matchFound = false;
 			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
@@ -35,14 +35,14 @@ namespace IntegrationTests
 				var sentenceLastWord = sentenceAsArray[sentenceAsArray.Length-1];
 				if (this.sentenceService.GetPronouns().Any(x => x == sentenceLastWord))
 				{
-					pronounMatchFound = true;
+					matchFound = true;
 					break;
 				}
 
 				ctr++;
 			}
 
-			Assert.True(pronounMatchFound);
+			Assert.True(matchFound);
 		}
 
 		[Fact]
@@ -99,6 +99,67 @@ namespace IntegrationTests
 
 				Assert.True(difference > pronounPreviousSentenceCheckBatchSize);
 			}
+		}
+
+		#endregion
+
+		#region Specific subject changes verb to has
+
+		[Theory]
+		[InlineData("It")]
+		[InlineData("She")]
+		[InlineData("He")]
+		public void GenerateSentence_SpecificSubjectChangesVerbHaveToHas(string testSubject)
+		{
+			var ctr = 1;
+			var sentence = "";
+			bool matchFound = false;
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+
+				var sentenceAsArray = sentence.Split(" ");
+				var subject = sentenceAsArray[0];
+				var verb = sentenceAsArray[1];
+				if (subject == testSubject && verb == "has")
+				{
+					matchFound = true;
+					break;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(matchFound);
+		}
+
+		[Theory]
+		[InlineData("It")]
+		[InlineData("She")]
+		[InlineData("He")]
+		public void GenerateSentence_SpecificSubjectChangesVerbHaveToHas_IsUsedMoreThanOnce(string testSubject)
+		{
+			var ctr = 1;
+			var sentence = "";
+			var matchFoundCtr = 0;
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+
+				var sentenceAsArray = sentence.Split(" ");
+				var subject = sentenceAsArray[0];
+				var verb = sentenceAsArray[1];
+				if (subject == testSubject && verb == "has")
+				{
+					matchFoundCtr++;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(matchFoundCtr > 1);
 		}
 
 		#endregion

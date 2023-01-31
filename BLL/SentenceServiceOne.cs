@@ -52,6 +52,7 @@ namespace BLL
 			this.nouns = InitializeNouns();
 		}
 
+		public List<SentenceVerb> GetVerbs() { return this.verbs; }
 		public List<string> GetPronouns() { return this.pronouns; }
 		public int GetMaxCounter() { return this.MAX_COUNTER; }
 		public int GetPronounPreviousSentenceCheckBatchSize() { return this.PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE; }
@@ -87,9 +88,7 @@ namespace BLL
 			var noun = this.nouns[randomNoun.Next(0, this.nouns.Count())];
 			var pronoun = "";
 
-			//=====================================================
 			//manipulations
-			// TODO - add code to randomize the manipulations
 			var manipulationApplied = false;
 			ManipulationGetPronoun(verb, out manipulationApplied, out pronoun);
 
@@ -99,15 +98,15 @@ namespace BLL
 				manipulationApplied = true;
 			}
 
+			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She"))
+			{
+				verb.name = verb.name + "s";
+				manipulationApplied = true;
+			}
+
 			if (!manipulationApplied && verb.type == VerbType.Have || verb.type == VerbType.Past) 
 			{ 
 				article = this.articles[randomArticle.Next(0, this.articles.Count())];
-				manipulationApplied = true;
-			}
-			
-			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She")) 
-			{ 
-				verb.name = verb.name + "s"; 
 			}
 
 			var sentence = ConstructSentence(article, pronoun, subject, verb, noun);
@@ -366,7 +365,7 @@ namespace BLL
 			return list;
 		}
 
-		private List<SentenceVerb> InitializeVerbs()
+		public List<SentenceVerb> InitializeVerbs()
 		{
 			var list = new List<SentenceVerb>();
 

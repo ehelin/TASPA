@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using BLL;
 using System.Linq;
+using Shared.Dto.Sentence;
 using Shared.Interfaces;
 using Xunit;
 
@@ -152,6 +153,137 @@ namespace IntegrationTests
 				var subject = sentenceAsArray[0];
 				var verb = sentenceAsArray[1];
 				if (subject == testSubject && verb == "has")
+				{
+					matchFoundCtr++;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(matchFoundCtr > 1);
+		}
+
+		#endregion
+
+		#region Specific subject adds s to present tense verbs
+
+		[Theory]
+		[InlineData("It")]
+		[InlineData("She")]
+		[InlineData("He")]
+		public void GenerateSentence_SpecificSubjectAddsAnSToVerb(string testSubject)
+		{
+			var ctr = 1;
+			var sentence = "";
+			bool matchFound = false;
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			var presentTenseVerbs = this.sentenceService.GetVerbs()
+				.Where(x => x.type == Shared.Dto.Sentence.VerbType.Present)
+				.Select(x => x.name);
+
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+
+				var sentenceAsArray = sentence.Split(" ");
+				var subject = sentenceAsArray[0];
+				var verb = sentenceAsArray[1];
+				if (subject == testSubject && presentTenseVerbs.Contains(verb) && verb.Substring(verb.Length- 1, 1) == "s")
+				{
+					matchFound = true;
+					break;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(matchFound);
+		}
+
+		[Theory]
+		[InlineData("It")]
+		[InlineData("She")]
+		[InlineData("He")]
+		public void GenerateSentence_SpecificSubjectAddsAnSToVerb_IsUsedMoreThanOnce(string testSubject)
+		{
+			var ctr = 1;
+			var sentence = "";
+			var matchFoundCtr = 0;
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			var presentTenseVerbs = this.sentenceService.GetVerbs()
+				.Where(x => x.type == Shared.Dto.Sentence.VerbType.Present)
+				.Select(x => x.name);
+
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+
+				var sentenceAsArray = sentence.Split(" ");
+				var subject = sentenceAsArray[0];
+				var verb = sentenceAsArray[1];
+				if (subject == testSubject && presentTenseVerbs.Contains(verb) && verb.Substring(verb.Length-1, 1) == "s")
+				{
+					matchFoundCtr++;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(matchFoundCtr > 1);
+		}
+
+		#endregion
+
+
+		#region Specific subject adds s to present tense verbs
+
+		[Fact]
+		public void GenerateSentence_HavePastTenseTypeVerbsAddArticle()
+		{
+			var ctr = 1;
+			var sentence = "";
+			bool matchFound = false;
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			var pastTenseHaveVerbs = this.sentenceService.GetVerbs()
+				.Where(x => x.type == VerbType.Have || x.type == VerbType.Past)
+				.Select(x => x.name);
+
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+
+				var sentenceAsArray = sentence.Split(" ");
+				var verb = sentenceAsArray[1];
+				if (pastTenseHaveVerbs.Contains(verb) && sentenceAsArray.Length == 4)
+				{
+					matchFound = true;
+					break;
+				}
+
+				ctr++;
+			}
+
+			Assert.True(matchFound);
+		}
+
+		[Fact]
+		public void GenerateSentence_HavePastTenseTypeVerbsAddArticle_IsUsedMoreThanOnce()
+		{
+			var ctr = 1;
+			var sentence = "";
+			var matchFoundCtr = 0;
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			var pastTenseHaveVerbs = this.sentenceService.GetVerbs()
+				.Where(x => x.type == VerbType.Have || x.type == VerbType.Past)
+				.Select(x => x.name);
+
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+
+				var sentenceAsArray = sentence.Split(" ");
+				var verb = sentenceAsArray[1];
+				if (pastTenseHaveVerbs.Contains(verb) && sentenceAsArray.Length == 4)
 				{
 					matchFoundCtr++;
 				}

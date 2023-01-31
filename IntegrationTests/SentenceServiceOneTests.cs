@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using BLL;
 using System.Linq;
+using BLL;
 using Shared.Dto.Sentence;
 using Shared.Interfaces;
 using Xunit;

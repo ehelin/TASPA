@@ -3,7 +3,7 @@ using Shared.Dto.Sentence;
 
 namespace Shared.Interfaces
 {
-    public interface ISentenceService
+	public interface ISentenceService
 	{
         public string GenerateSentence();
 
@@ -11,6 +11,5 @@ namespace Shared.Interfaces
 		List<SentenceVerb> GetVerbs();
 		int GetMaxCounter();
 		int GetPronounPreviousSentenceCheckBatchSize();
-
 	}
 }

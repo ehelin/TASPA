@@ -19,6 +19,8 @@ namespace IntegrationTests
 			this.sentenceService = new SentenceServiceOne();
 		}
 
+		#region Manipulation Tests
+
 		#region Pronouns
 
 		[Fact]
@@ -234,8 +236,7 @@ namespace IntegrationTests
 
 		#endregion
 
-
-		#region Specific subject adds s to present tense verbs
+		#region Past Tense Type Verbs Add Article
 
 		[Fact]
 		public void GenerateSentence_HavePastTenseTypeVerbsAddArticle()
@@ -296,6 +297,31 @@ namespace IntegrationTests
 
 		#endregion
 
+		#endregion
+
+		#region Fixed Error Conditions
+
+		[Fact]
+		public void NoWordHasMoreThanTwoSS()
+		{
+			var ctr = 1;
+			var sentence = "";
+			var maxCounter = this.sentenceService.GetMaxCounter();
+			while (ctr < maxCounter)
+			{
+				sentence = sentenceService.GenerateSentence();
+				
+				if (sentence.Contains("sss") || sentence.Contains("ssss") || sentence.Contains("ssss"))
+				{
+					Assert.True(false);
+				}
+
+				ctr++;
+			}
+		}
+
+		#endregion
+
 		// NOTE: General test to view generated sentences and not meant to be something that is 'tested'
 		[Fact]
 		public void GenerateSentence()
@@ -309,7 +335,7 @@ namespace IntegrationTests
 
 				System.Diagnostics.Debug.WriteLine(sentence + " --- " + ctr.ToString());
 
-				//System.Threading.Thread.Sleep(1000);
+				System.Threading.Thread.Sleep(1000);
 
 				ctr++;
 			}

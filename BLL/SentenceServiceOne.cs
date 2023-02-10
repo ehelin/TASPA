@@ -17,7 +17,7 @@ namespace BLL
 	/// </summary>
 	public class SentenceServiceOne : ISentenceService
 	{
-		public int MAX_COUNTER = 10000;
+		public int MAX_COUNTER = 100000;
 		public int PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE = 10;
 
 		private readonly List<string> sentencesAlreadyUsed;		//Track created sentences so no duplicates during one session
@@ -76,7 +76,7 @@ namespace BLL
 			return sentence;
 		}
 
-		// Ideas
+		// Future ideas
 		// 1) composite subjects
 		// 2) composite verbs
 		// 3) composite nouns
@@ -84,23 +84,25 @@ namespace BLL
 		{
 			var subject = this.subjects[randomSubject.Next(0, this.subjects.Count())];
 			var verb = this.verbs[randomVerb.Next(0, this.verbs.Count())];
+			var verbToUse = "";
 			var article = "";
 			var noun = this.nouns[randomNoun.Next(0, this.nouns.Count())];
 			var pronoun = "";
 
 			//manipulations
+			verbToUse = verb.name;
 			var manipulationApplied = false;
 			ManipulationGetPronoun(verb, out manipulationApplied, out pronoun);
 
 			if (!manipulationApplied && verb.type == VerbType.Have && (subject == "It" || subject == "He" || subject == "She"))
 			{
-				verb.name = verb.name.Replace("have", "has");
+				verbToUse = verbToUse.Replace("have", "has");
 				manipulationApplied = true;
 			}
 
 			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She"))
 			{
-				verb.name = verb.name + "s";
+				verbToUse = verbToUse + "s";
 				manipulationApplied = true;
 			}
 
@@ -109,26 +111,26 @@ namespace BLL
 				article = this.articles[randomArticle.Next(0, this.articles.Count())];
 			}
 
-			var sentence = ConstructSentence(article, pronoun, subject, verb, noun);
+			var sentence = ConstructSentence(article, pronoun, subject, verbToUse, noun);
 
 			return sentence;
 		}
 
-		private string ConstructSentence(string article, string pronoun, string subject, SentenceVerb verb, string noun)
+		private string ConstructSentence(string article, string pronoun, string subject, string verb, string noun)
 		{
 			//create sentence
 			var sentence = "";
 			if (!string.IsNullOrEmpty(article))
 			{
-				sentence = string.Format("{0} {1} {2} {3}", subject, verb.name.ToLower(), article.ToLower(), noun.ToLower());
+				sentence = string.Format("{0} {1} {2} {3}", subject, verb.ToLower(), article.ToLower(), noun.ToLower());
 			}
 			else if (!string.IsNullOrEmpty(pronoun))
 			{
-				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), pronoun.ToLower());
+				sentence = string.Format("{0} {1} {2}", subject, verb.ToLower(), pronoun.ToLower());
 			}
 			else
 			{
-				sentence = string.Format("{0} {1} {2}", subject, verb.name.ToLower(), noun.ToLower());
+				sentence = string.Format("{0} {1} {2}", subject, verb.ToLower(), noun.ToLower());
 			}
 
 			return sentence;

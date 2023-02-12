@@ -1,17 +1,9 @@
-﻿namespace Shared.Dto.Sentence
+﻿namespace Shared.Dto.Chat
 {
-	public enum VerbType
+	public enum ChatResponseType
 	{
-		Present,
-		Past,
-		Have
-	}
-
-	// Each number is matched to a verb
-	public enum NounType
-	{
-		One,
-		Two, 
-		Three
+		ChatUserName,
+		Recorded,
+		Generated
 	}
 }

@@ -5,8 +5,7 @@ using TASPA;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var services = builder.Services;
-services = Utilities.SetDI(services);
+Utilities.SetDI(builder.Services);
 
 // Add services to the container.
 builder.Services.AddRazorPages();

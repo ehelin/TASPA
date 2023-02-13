@@ -153,12 +153,14 @@ namespace BLL
 			var response = "";
 
 			//--------------------------------------------------------------------------------------------------------------
+			// wait for chat user's name to be obtained and then rely on chat response types to determine response category used
 			if (string.IsNullOrEmpty(this.chatUserName) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.ChatUserName))
 			{
 				response = GetResponseFromChatUserBasedResponses(response, chatMessage);
 			}
 
 			//--------------------------------------------------------------------------------------------------------------
+			// wait for chat user's name to be obtained and then rely on chat response types to determine response category used
 			if ((string.IsNullOrEmpty(response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Recorded))
 			{
 				response = GetResponseFromRecordedChatDialog(recordedChatDialog, dataPath);
@@ -168,6 +170,7 @@ namespace BLL
 			}
 
 			//---------------------------------------------------------------------------------------------------------------
+			// wait for chat user's name to be obtained and then rely on chat response types to determine response category used
 			if ((string.IsNullOrEmpty(response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Generated))
 			{
 				response = this.sentenceService.GenerateSentence();
@@ -176,7 +179,8 @@ namespace BLL
 				if (this.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
 			}
 
-			// NOTE: Special Case...set chat message
+			// NOTE: Special Case...set chat message after detected, but passed this interation of response generation
+			// (i.e. don't prematurely start using response type's)
 			if (response == ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE)
 			{
 				this.chatUserName = chatMessage;

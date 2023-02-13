@@ -178,7 +178,7 @@ namespace IntegrationTests
 				.Where(x => x.type == Shared.Dto.Sentence.VerbType.Present)
 				.Select(x => x.name);
 
-			while (ctr < 1000)
+			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
 

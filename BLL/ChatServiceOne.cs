@@ -24,12 +24,14 @@ namespace BLL
 	/// </summary>
 	public class ChatServiceOne : IChatService
 	{
-		public const int MAX_COUNTER = 1000;
 		public const int MAX_USER_CHAT_NAME_RANDOM_INDEX = 10;  // reset after each user name response to (lastUsedIndex+1) + MAX_USER_CHAT_NAME_RANDOM_INDEX 
 		public const string REQUEST_CHAT_USER_MESSAGE = "What is your name?";
+		public const string CHAT_USER_NAME_IS_SET_MESSAGE = "Well hello there!";
 		public const string CHATTER = "Chat User";
 		public const string CHATBOT_NAME = "Taspa";
 		public const string TEST_CHATBOT_USER = "FredTheChatUser";
+
+		private const int MAX_COUNTER = 1000;
 
 		private int lastUsedIndex = 0;                   // record last index to help with creating interesting responses
 		private List<string> alreadyUsedResponses;       // remember responses to at least for this session, we do not send same response
@@ -151,13 +153,13 @@ namespace BLL
 			var response = "";
 
 			//--------------------------------------------------------------------------------------------------------------
-			if (this.currentResponseType == ChatResponseType.ChatUserName)
+			if (string.IsNullOrEmpty(this.chatUserName) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.ChatUserName))
 			{
 				response = GetResponseFromChatUserBasedResponses(response, chatMessage);
 			}
 
 			//--------------------------------------------------------------------------------------------------------------
-			if (this.currentResponseType == ChatResponseType.Recorded)
+			if ((string.IsNullOrEmpty(response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Recorded))
 			{
 				response = GetResponseFromRecordedChatDialog(recordedChatDialog, dataPath);
 
@@ -166,12 +168,18 @@ namespace BLL
 			}
 
 			//---------------------------------------------------------------------------------------------------------------
-			if (this.currentResponseType == ChatResponseType.Generated)
+			if ((string.IsNullOrEmpty(response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Generated))
 			{
 				response = this.sentenceService.GenerateSentence();
 
 				// do not re-use a response
 				if (this.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
+			}
+
+			// NOTE: Special Case...set chat message
+			if (response == ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE)
+			{
+				this.chatUserName = chatMessage;
 			}
 
 			return response;
@@ -191,18 +199,19 @@ namespace BLL
 				&& this.alreadyUsedResponses.Count() > 0
 					&& this.alreadyUsedResponses.Last() == ChatServiceOne.REQUEST_CHAT_USER_MESSAGE)
 			{
-				this.chatUserName = chatMessage;
-				response = "Well hello there!";  // One of only a few hard coded messages
+				//this.chatUserName = chatMessage;
+				response = ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE;
 
 				//set usage index (sometime in the next 20 iterations
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
 			// once chat user name is set, use chat user name in some responses at various intervals
 			else if (!string.IsNullOrEmpty(this.chatUserName)                                           //user name is set
-				&& this.alreadyUsedResponses.Count() > 0                                                //not the first response
-					&& this.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE     //chat user name request was not the last request
-						&& this.alreadyUsedResponses.Last().IndexOf(this.chatUserName) == -1            //chat user name was not in last request
-							&& this.lastUsedIndex == this.useChatUserNameIndex)                         //current index matches next expected chat user response index
+				//&& this.alreadyUsedResponses.Count() > 0                                                //not the first response
+				//	&& this.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE     //chat user name request was not the last request
+				//		&& this.alreadyUsedResponses.Last().IndexOf(this.chatUserName) == -1            //chat user name was not in last request
+				//			&& this.lastUsedIndex == this.useChatUserNameIndex
+							)                         //current index matches next expected chat user response index
 			{
 				this.chatUserName = chatMessage;
 
@@ -210,15 +219,15 @@ namespace BLL
 				responseFromList = string.Format("{0}{1}", responseFromList.Substring(0, 1).ToLower(), responseFromList.Substring(1, responseFromList.Length - 1));
 				response = string.Format("{0}, {1}?", this.chatUserName, responseFromList);
 
-				//set usage index (sometime in the next 20 iterations
-				this.useChatUserNameIndex = this.useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
+				//set usage index (sometime in the next 20 iterations)
+				//this.useChatUserNameIndex = this.useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
-			// skip chat user response since (if we got here)
-			else if (!string.IsNullOrEmpty(this.chatUserName) && this.lastUsedIndex == this.useChatUserNameIndex && !response.StartsWith(this.chatUserName))
-			{
-				//set usage index (sometime in the next 20 iterations
-				this.useChatUserNameIndex = this.useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
-			}
+			//// skip chat user response since (if we got here)
+			//else if (!string.IsNullOrEmpty(this.chatUserName) && this.lastUsedIndex == this.useChatUserNameIndex) // && !response.StartsWith(this.chatUserName))
+			//{
+			//	//set usage index (sometime in the next 20 iterations
+			//	this.useChatUserNameIndex = this.useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
+			//}
 
 			return response;
 		}

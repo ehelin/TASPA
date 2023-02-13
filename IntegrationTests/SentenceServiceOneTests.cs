@@ -12,6 +12,7 @@ namespace IntegrationTests
 	public class SentenceServiceOneTests
 	{
 		private readonly ISentenceService sentenceService;
+		private int maxCounter = 1000;
 
 		public SentenceServiceOneTests()
 		{
@@ -29,7 +30,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			bool matchFound = false;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
@@ -54,7 +54,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			var pronounMatchFoundCtr = 0;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
@@ -78,7 +77,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			var pronounMatchFoundCtrs = new List<int>();
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
@@ -117,7 +115,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			bool matchFound = false;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
@@ -146,7 +143,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			var matchFoundCtr = 0;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
@@ -178,19 +174,20 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			bool matchFound = false;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			var presentTenseVerbs = this.sentenceService.GetVerbs()
 				.Where(x => x.type == Shared.Dto.Sentence.VerbType.Present)
 				.Select(x => x.name);
 
-			while (ctr < maxCounter)
+			while (ctr < 1000)
 			{
 				sentence = sentenceService.GenerateSentence();
 
 				var sentenceAsArray = sentence.Split(" ");
 				var subject = sentenceAsArray[0];
 				var verb = sentenceAsArray[1];
-				if (subject == testSubject && presentTenseVerbs.Contains(verb) && verb.Substring(verb.Length- 1, 1) == "s")
+
+				var verbToCompare = verb.ToLower().EndsWith("s") ? verb.Substring(0, verb.Length - 1) : verb;
+				if (subject == testSubject && presentTenseVerbs.Contains(verbToCompare) && verb.Substring(verb.Length- 1, 1) == "s")
 				{
 					matchFound = true;
 					break;
@@ -211,7 +208,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			var matchFoundCtr = 0;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			var presentTenseVerbs = this.sentenceService.GetVerbs()
 				.Where(x => x.type == Shared.Dto.Sentence.VerbType.Present)
 				.Select(x => x.name);
@@ -223,7 +219,8 @@ namespace IntegrationTests
 				var sentenceAsArray = sentence.Split(" ");
 				var subject = sentenceAsArray[0];
 				var verb = sentenceAsArray[1];
-				if (subject == testSubject && presentTenseVerbs.Contains(verb) && verb.Substring(verb.Length-1, 1) == "s")
+				var verbToCompare = verb.ToLower().EndsWith("s") ? verb.Substring(0, verb.Length - 1) : verb;
+				if (subject == testSubject && presentTenseVerbs.Contains(verbToCompare) && verb.Substring(verb.Length-1, 1) == "s")
 				{
 					matchFoundCtr++;
 				}
@@ -244,7 +241,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			bool matchFound = false;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			var pastTenseHaveVerbs = this.sentenceService.GetVerbs()
 				.Where(x => x.type == VerbType.Have || x.type == VerbType.Past)
 				.Select(x => x.name);
@@ -273,7 +269,6 @@ namespace IntegrationTests
 			var ctr = 1;
 			var sentence = "";
 			var matchFoundCtr = 0;
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			var pastTenseHaveVerbs = this.sentenceService.GetVerbs()
 				.Where(x => x.type == VerbType.Have || x.type == VerbType.Past)
 				.Select(x => x.name);
@@ -306,14 +301,15 @@ namespace IntegrationTests
 		{
 			var ctr = 1;
 			var sentence = "";
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
 				
 				if (sentence.Contains("sss") || sentence.Contains("ssss") || sentence.Contains("ssss"))
 				{
+					//System.Diagnostics.Debug.WriteLine(sentence + " --- " + ctr.ToString());
 					Assert.True(false);
+					break;
 				}
 
 				ctr++;
@@ -328,14 +324,13 @@ namespace IntegrationTests
 		{
 			var ctr = 1;
 			var sentence = "";
-			var maxCounter = this.sentenceService.GetMaxCounter();
 			while (ctr < maxCounter)
 			{
 				sentence = sentenceService.GenerateSentence();
 
 				System.Diagnostics.Debug.WriteLine(sentence + " --- " + ctr.ToString());
 
-				System.Threading.Thread.Sleep(1000);
+				//System.Threading.Thread.Sleep(1000);
 
 				ctr++;
 			}

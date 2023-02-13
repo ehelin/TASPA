@@ -12,6 +12,7 @@ namespace IntegrationTests
 	{
 		private readonly string webRoot;
 		private readonly IChatService chatService;
+		private int maxCounter = 1000;
 
 		public ChatServiceOneTests()
 		{
@@ -31,7 +32,7 @@ namespace IntegrationTests
 			var msg = "Hello!";
 			bool chatUserNameRequested = false;
 
-			while (ctr < ChatServiceOne.MAX_COUNTER)
+			while (ctr < maxCounter)
 			{
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
 
@@ -59,7 +60,7 @@ namespace IntegrationTests
 			bool chatUserNameRequested = false;
 			bool chatUserNameUsed = false;
 
-			while (ctr < ChatServiceOne.MAX_COUNTER)
+			while (ctr < maxCounter)
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
@@ -98,7 +99,7 @@ namespace IntegrationTests
 			var chatUserNameUsageCounter = 1;
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
 
-			while (ctr < 10000)
+			while (ctr < maxCounter)
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
@@ -131,7 +132,7 @@ namespace IntegrationTests
 			bool chatUserNameRequested = false;
 			bool chatUserNeverRequestedAfterSubmission = false;
 
-			while (ctr < ChatServiceOne.MAX_COUNTER)
+			while (ctr < maxCounter)
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);
@@ -175,7 +176,7 @@ namespace IntegrationTests
 				enumCounts.Add(enumValue, 0);
 			}
 
-			while (ctr < ChatServiceOne.MAX_COUNTER)
+			while (ctr < maxCounter)
 			{           
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg);

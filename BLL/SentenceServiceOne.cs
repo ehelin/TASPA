@@ -20,7 +20,8 @@ namespace BLL
 		public int MAX_COUNTER = 100000;
 		public int PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE = 10;
 
-		private readonly List<string> sentencesAlreadyUsed;		//Track created sentences so no duplicates during one session
+		private readonly List<string> sentencesAlreadyUsed;					 //Track created sentences so no duplicates during one session
+		private readonly List<string> hackVerbListForSSuffixManipulation;	 // hack to avoid ugly 's suffice addition
 
 		//sentence components
 		private readonly List<string> subjects;
@@ -50,6 +51,8 @@ namespace BLL
 			this.articles = new List<string> { "a", "this", "that", "the" };
 			this.pronouns = new List<string> { "this", "that", "him", "her", "them", "it" }; 
 			this.nouns = InitializeNouns();
+
+			this.hackVerbListForSSuffixManipulation = new List<string>() { "pass"};
 		}
 
 		public List<SentenceVerb> GetVerbs() { return this.verbs; }
@@ -100,7 +103,7 @@ namespace BLL
 				manipulationApplied = true;
 			}
 
-			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She"))
+			if (!manipulationApplied && verb.type == VerbType.Present && (subject == "It" || subject == "He" || subject == "She") && !hackVerbListForSSuffixManipulation.Contains(verb.name))
 			{
 				verbToUse = verbToUse + "s";
 				manipulationApplied = true;

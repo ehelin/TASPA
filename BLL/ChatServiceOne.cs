@@ -53,6 +53,8 @@ namespace BLL
 		private readonly ISentenceService sentenceService;
 
 		private readonly bool isTest;
+
+		private bool chatNameIsSet = false;
 	
 		// allowed response types...iterate over to vary responses
 		private ChatResponseType currentResponseType;
@@ -181,9 +183,10 @@ namespace BLL
 
 			// NOTE: Special Case...set chat message after detected, but passed this interation of response generation
 			// (i.e. don't prematurely start using response type's)
-			if (response == ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE)
+			if (response == ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE && !this.chatNameIsSet)
 			{
 				this.chatUserName = chatMessage;
+				this.chatNameIsSet = true;
 			}
 
 			return response;
@@ -217,7 +220,7 @@ namespace BLL
 				//			&& this.lastUsedIndex == this.useChatUserNameIndex
 							)                         //current index matches next expected chat user response index
 			{
-				this.chatUserName = chatMessage;
+				//this.chatUserName = chatMessage;
 
 				var responseFromList = this.chatUserNameResponses[this.chatUserNameResponsesRandom.Next(0, this.chatUserNameResponses.Count())];
 				responseFromList = string.Format("{0}{1}", responseFromList.Substring(0, 1).ToLower(), responseFromList.Substring(1, responseFromList.Length - 1));
@@ -321,7 +324,8 @@ namespace BLL
 		{
 			var sb = new StringBuilder();
 
-			sb.AppendLine(string.Format("{0}: {1}", CHATTER, chatMessage));
+			var chatUser = !string.IsNullOrEmpty(this.chatUserName) ? this.chatUserName : CHATTER;
+			sb.AppendLine(string.Format("{0}: {1}", chatUser, chatMessage));
 			sb.AppendLine(string.Format("{0}: {1}", CHATBOT_NAME, response));
 
 			return sb.ToString();

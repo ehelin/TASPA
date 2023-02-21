@@ -95,6 +95,10 @@ ServerCalls.SendChatMessage = function (chatMessage, chatConversationTextArea) {
             .then(
                 function (response) {
                     var chatResponse = response;
+
+                    var chatTextBox = document.getElementById("chatMessage");
+                    chatTextBox.value = '';
+
                     var chatContents = chatConversationTextArea.value;
                     chatConversationTextArea.value = chatContents + '\r\n' + chatResponse;
                     chatConversationTextArea.blur();

@@ -224,28 +224,12 @@ namespace BLL
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
 			// once chat user name is set, use chat user name in some responses at various intervals
-			else if (!string.IsNullOrEmpty(this.chatUserName)                                           //user name is set
-				//&& this.alreadyUsedResponses.Count() > 0                                                //not the first response
-				//	&& this.alreadyUsedResponses.Last() != ChatServiceOne.REQUEST_CHAT_USER_MESSAGE     //chat user name request was not the last request
-				//		&& this.alreadyUsedResponses.Last().IndexOf(this.chatUserName) == -1            //chat user name was not in last request
-				//			&& this.lastUsedIndex == this.useChatUserNameIndex
-							)                         //current index matches next expected chat user response index
+			else if (!string.IsNullOrEmpty(this.chatUserName))         //user name is set
 			{
-				//this.chatUserName = chatMessage;
-
 				var responseFromList = this.chatUserNameResponses[this.chatUserNameResponsesRandom.Next(0, this.chatUserNameResponses.Count())];
 				responseFromList = string.Format("{0}{1}", responseFromList.Substring(0, 1).ToLower(), responseFromList.Substring(1, responseFromList.Length - 1));
 				response = string.Format("{0}, {1}?", this.chatUserName, responseFromList);
-
-				//set usage index (sometime in the next 20 iterations)
-				//this.useChatUserNameIndex = this.useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
 			}
-			//// skip chat user response since (if we got here)
-			//else if (!string.IsNullOrEmpty(this.chatUserName) && this.lastUsedIndex == this.useChatUserNameIndex) // && !response.StartsWith(this.chatUserName))
-			//{
-			//	//set usage index (sometime in the next 20 iterations
-			//	this.useChatUserNameIndex = this.useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
-			//}
 
 			return response;
 		}

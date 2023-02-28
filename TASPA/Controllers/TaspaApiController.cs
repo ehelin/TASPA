@@ -28,6 +28,14 @@ namespace TASPA.Controllers
             return Ok(response); // 200
         }
 
+        [HttpGet("clearChatSession")]
+        public IActionResult ClearChatSession()
+        {
+            this.chatService.ClearChatSession();
+
+            return Ok(); // 200
+        }
+
         [HttpGet("getVocabularyList")]
         public IActionResult GetVocabularyList([FromQuery] string vocabularyListName)
         {

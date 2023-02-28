@@ -44,15 +44,15 @@ namespace BLL
 		private Random useChatUserNameIndexRandom;
 		private int useChatUserNameIndex;
 
-		private readonly Random alphabetRandom;
-		private readonly List<string> alphabet;
+		private Random alphabetRandom;
+		private List<string> alphabet;
 
-		private readonly Random chatUserNameResponsesRandom;
-		private readonly List<string> chatUserNameResponses;
+		private Random chatUserNameResponsesRandom;
+		private List<string> chatUserNameResponses;
 
-		private readonly ISentenceService sentenceService;
+		private ISentenceService sentenceService;
 
-		private readonly bool isTest;
+		private bool isTest;
 
 		private bool chatNameIsSet = false;
 	
@@ -63,33 +63,44 @@ namespace BLL
 		public ChatResponseType GetCurrentResponseType() { return this.currentResponseType; }
 
 		public ChatServiceOne(ISentenceService sentenceService, bool isTest = false)
+        {
+            this.sentenceService = sentenceService;
+            this.isTest = isTest;
+
+			Initialize();
+        }
+
+		private void Initialize()
+        {
+            this.alphabet = new List<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
+            this.alphabetRandom = new Random();
+
+            chatUserNameResponsesRandom = new Random();
+            this.chatUserNameResponses = InitializeChatNameUserCannedResponses();
+
+            //set the initial response type (once per season) and then iterate through so one type of answer is used at different intervals
+            var currentResponseTypeRandom = new Random();
+            ChatResponseType[] chatResponseTypes = Enum.GetValues<ChatResponseType>();
+            var randomIndex = currentResponseTypeRandom.Next(0, 2);
+            this.currentResponseType = chatResponseTypes[randomIndex];
+            this.currentResponseTypeIndex = randomIndex;
+
+            rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5 };
+            chatUserNameRandom = new Random();
+            chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
+
+            useChatUserNameIndexRandom = new Random();
+
+            alreadyUsedResponses = new List<string>();
+
+			this.chatNameIsSet = false;
+			this.chatUserName = null;
+        }
+
+		public void ClearChatSession()
 		{
-			this.alphabet = new List<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
-			this.alphabetRandom = new Random();
-			
-			this.isTest = isTest;
-
-			chatUserNameResponsesRandom = new Random();
-			this.chatUserNameResponses = InitializeChatNameUserCannedResponses();
-
-			//set the initial response type (once per season) and then iterate through so one type of answer is used at different intervals
-			var currentResponseTypeRandom = new Random();
-			ChatResponseType[] chatResponseTypes = Enum.GetValues<ChatResponseType>();
-			var randomIndex = currentResponseTypeRandom.Next(0, 2);
-			this.currentResponseType = chatResponseTypes[randomIndex];
-			this.currentResponseTypeIndex = randomIndex;
-
-			this.sentenceService = sentenceService;
-
-			//rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, };
-			rangeForChatUserNamePrompts = new List<int>() { 1, 2, 3, 4, 5 };
-			chatUserNameRandom = new Random();
-			chatUserNamePromptIndex = rangeForChatUserNamePrompts[chatUserNameRandom.Next(0, rangeForChatUserNamePrompts.Count())];
-
-			useChatUserNameIndexRandom = new Random();
-
-			alreadyUsedResponses = new List<string>();
-		}
+			Initialize();
+        }
 
 		public string GetMessageResponse(string webRoot, string chatMessage)
 		{
@@ -499,8 +510,8 @@ namespace BLL
 			this.currentResponseType = enumValues[this.currentResponseTypeIndex];
 		}
 
-		#endregion
+        #endregion
 
-		#endregion
-	}
+        #endregion
+    }
 }

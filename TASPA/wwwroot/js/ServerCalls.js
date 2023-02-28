@@ -88,28 +88,6 @@ ServerCalls.SetVerbLists = function (searchTerm, searchVerbList) {
     }
 };
 
-ServerCalls.SendChatMessage = function (chatMessage, chatConversationTextArea) {
-    try {
-        var path = '/TaspaApi/sendChatMessage?chatMessage=' + chatMessage;
-        return ServerCall.Get(path)
-            .then(
-                function (response) {
-                    var chatResponse = response;
-
-                    var chatTextBox = document.getElementById("chatMessage");
-                    chatTextBox.value = '';
-
-                    var chatContents = chatConversationTextArea.value;
-                    chatConversationTextArea.value = chatContents + '\r\n' + chatResponse;
-                    chatConversationTextArea.blur();
-                    chatConversationTextArea.focus(); // this scrolls the textarea
-                });
-    }
-    catch (ex) {
-        throw ex;
-    }
-};
-
 // NOTE: searchTerm is sometimes null
 ServerCalls.SetVerbList = function (listName, searchTerm) {
     try {
@@ -149,6 +127,39 @@ ServerCalls.SetVerbJson = function (verbName) {
 
                     VerbListNext(verbName, verbJson);
                 });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+// Chat
+ServerCalls.SendChatMessage = function (chatMessage, chatConversationTextArea) {
+    try {
+        var path = '/TaspaApi/sendChatMessage?chatMessage=' + chatMessage;
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var chatResponse = response;
+
+                    var chatTextBox = document.getElementById("chatMessage");
+                    chatTextBox.value = '';
+
+                    var chatContents = chatConversationTextArea.value;
+                    chatConversationTextArea.value = chatContents + '\r\n' + chatResponse;
+                    chatConversationTextArea.blur();
+                    chatConversationTextArea.focus(); // this scrolls the textarea
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+ServerCalls.ClearChatSession = function () {
+    try {
+        var path = '/TaspaApi/clearChatSession';
+        return ServerCall.Get(path);
     }
     catch (ex) {
         throw ex;

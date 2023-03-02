@@ -60,7 +60,11 @@ namespace BLL
 		private ChatResponseType currentResponseType;
 		private int currentResponseTypeIndex;
 
-		public ChatResponseType GetCurrentResponseType() { return this.currentResponseType; }
+		// Used to limit the generated response use (sentence generator still needs work)
+        private int generatedIndexCtr = 0;
+        private const int GENERATED_INDEX_INTERVAL = 10;
+
+        public ChatResponseType GetCurrentResponseType() { return this.currentResponseType; }
 
 		public ChatServiceOne(ISentenceService sentenceService, bool isTest = false)
         {
@@ -77,6 +81,9 @@ namespace BLL
 
             chatUserNameResponsesRandom = new Random();
             this.chatUserNameResponses = InitializeChatNameUserCannedResponses();
+
+            this.lastUsedIndex = 0;
+			this.generatedIndexCtr = 0;
 
             //set the initial response type (once per season) and then iterate through so one type of answer is used at different intervals
             var currentResponseTypeRandom = new Random();
@@ -475,11 +482,11 @@ namespace BLL
 			return list;
 		}
 
-		#endregion
+        #endregion
 
-		#region Misc
+        #region Misc
 
-		private void SetChatResponseType()
+        private void SetChatResponseType()
 		{
 			var enumValues = Enum.GetValues<ChatResponseType>();
 			if (this.currentResponseTypeIndex >= enumValues.Count()-1)
@@ -489,10 +496,25 @@ namespace BLL
 			else
 			{
 				this.currentResponseTypeIndex++;
-			}
+				
+				// NOTE: Special case...limiting the generated response type (sentence generator needs work)
+				if (this.currentResponseTypeIndex == (int)ChatResponseType.Generated && generatedIndexCtr < GENERATED_INDEX_INTERVAL)
+                {
+                    this.currentResponseTypeIndex = 0;
+                }
+                if (this.currentResponseTypeIndex == (int)ChatResponseType.Generated && generatedIndexCtr >= GENERATED_INDEX_INTERVAL)
+                {
+                    generatedIndexCtr = 0;
+                }
+                else
+                {
+                    generatedIndexCtr++;
+                }
+            }
 
 			this.currentResponseType = enumValues[this.currentResponseTypeIndex];
-		}
+            Console.WriteLine(string.Format("Response Type is {0}", enumValues[this.currentResponseTypeIndex].ToString()));
+        }
 
         #endregion
 

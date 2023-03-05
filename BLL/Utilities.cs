@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
 using Shared.Dto;
 using Shared.Interfaces;
@@ -305,6 +306,92 @@ namespace BLL
             {
                 GetEnglishTerm(spanishTerm, subJsonPath, englishTermJsonPath);
             }
+        }
+
+        #endregion
+
+
+        #region Add Present Tense Conjugations To Existing Verb Lists
+
+        public static void AddPresentTenseConjucationsToExistingVerbList(string sourceJsonVerbsWithConjugations, string destinationJsonVerbsWithOutConjugations)
+        {
+            AddConjucationToExistingVerbList(sourceJsonVerbsWithConjugations, destinationJsonVerbsWithOutConjugations);
+        }
+
+        private static void AddConjucationToExistingVerbList(string sourceJsonVerbsWithConjugations, string destinationJsonVerbsWithOutConjugations)
+        {
+            var sourceFilePaths = Directory.GetFiles(sourceJsonVerbsWithConjugations);
+            var destinationFilePaths = Directory.GetFiles(destinationJsonVerbsWithOutConjugations);
+
+            var filesUpdatedCtr = 0;
+            var filesNotUpdateCtr = 0;
+            foreach (var destinationFilePath in destinationFilePaths)
+            {
+                string destinationFileContents = GetFileContents(destinationFilePath);
+                string sourceFileContents = GetSourceFileContents(destinationFilePath, sourceFilePaths);
+
+                if (!string.IsNullOrEmpty(sourceFileContents))
+                {
+                    var destinationFile = JsonConvert.DeserializeObject<Verb>(sourceFileContents);
+                    var sourceFile = JsonConvert.DeserializeObject<Verb>(sourceFileContents);
+
+                    destinationFile = Apply(sourceFile, destinationFile);
+                    var destinationFileContentsUpdated = JsonConvert.SerializeObject(destinationFile);
+
+                    File.WriteAllText(destinationFilePath, destinationFileContentsUpdated);
+                    filesUpdatedCtr++;
+                }
+                else
+                {
+                    Console.WriteLine(string.Format("Unable to update {0}", destinationFilePath));
+                    filesNotUpdateCtr++;
+                }
+            }
+
+            Console.WriteLine(string.Format("{0} Files updated", filesUpdatedCtr));
+            Console.WriteLine(string.Format("{0} Files Not updated", filesNotUpdateCtr));
+        }
+
+        private static Verb Apply(Verb legacyVerb, Verb verb)
+        {
+            verb.PresentParticiple = legacyVerb.PresentParticiple;
+            verb.PastParticiple = legacyVerb.PastParticiple;
+            verb.Subjunctive = legacyVerb.Subjunctive;
+            verb.Indicative = verb.Indicative;
+
+            return verb;
+        }
+
+        private static string GetFileContents(string path)
+        {
+            string fileContents = null;
+            using (var reader = File.OpenText(path))
+            {
+                fileContents = reader.ReadToEnd();
+            }
+
+            if (string.IsNullOrEmpty(fileContents))
+            {
+                throw new Exception(string.Format("fileContents is null for path {0}", path));
+            }
+
+            return fileContents;
+        }
+
+        private static string GetSourceFileContents(string destinationFilePath, string[] sourceFilePaths)
+        {
+            string sourceFileContents = null;
+            var destinationFileName = new FileInfo(destinationFilePath)?.Name;
+            if (!string.IsNullOrEmpty(destinationFileName))
+            {
+                string sourceFilePath = sourceFilePaths.Where(x => x.Contains(destinationFileName)).FirstOrDefault();
+                if (!string.IsNullOrEmpty(sourceFilePath))
+                {
+                    sourceFileContents = GetFileContents(sourceFilePath);
+                }
+            }
+
+            return sourceFileContents;
         }
 
         #endregion

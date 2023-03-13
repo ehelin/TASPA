@@ -310,7 +310,6 @@ namespace BLL
 
         #endregion
 
-
         #region Add Present Tense Conjugations To Existing Verb Lists
 
         public static void AddPresentTenseConjucationsToExistingVerbList(string sourceJsonVerbsWithConjugations, string destinationJsonVerbsWithOutConjugations)
@@ -392,6 +391,123 @@ namespace BLL
             }
 
             return sourceFileContents;
+        }
+
+        #endregion
+
+        #region Add New Verbs
+
+        public static void AddNewVerbs(string destinationPath)
+        {
+            var newVerbs = GetNewVerbs();
+            AddNewVerbsToList(newVerbs, destinationPath);
+        }
+
+        private static void AddNewVerbsToList(List<Tuple<string, string>> newVerbs, string destinationPath)
+        {
+            // TODO - implement to add new verbs to file system and verb list inside verb class
+
+            //var sourceFilePaths = Directory.GetFiles(sourceJsonVerbsWithConjugations);
+            //var destinationFilePaths = Directory.GetFiles(destinationJsonVerbsWithOutConjugations);
+
+            //var filesUpdatedCtr = 0;
+            //var filesNotUpdateCtr = 0;
+            //foreach (var destinationFilePath in destinationFilePaths)
+            //{
+            //    string destinationFileContents = GetFileContents(destinationFilePath);
+            //    string sourceFileContents = GetSourceFileContents(destinationFilePath, sourceFilePaths);
+
+            //    if (!string.IsNullOrEmpty(sourceFileContents))
+            //    {
+            //        var destinationFile = JsonConvert.DeserializeObject<Verb>(sourceFileContents);
+            //        var sourceFile = JsonConvert.DeserializeObject<Verb>(sourceFileContents);
+
+            //        destinationFile = Apply(sourceFile, destinationFile);
+            //        var destinationFileContentsUpdated = JsonConvert.SerializeObject(destinationFile);
+
+            //        File.WriteAllText(destinationFilePath, destinationFileContentsUpdated);
+            //        filesUpdatedCtr++;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(string.Format("Unable to update {0}", destinationFilePath));
+            //        filesNotUpdateCtr++;
+            //    }
+            //}
+
+            //Console.WriteLine(string.Format("{0} Files updated", filesUpdatedCtr));
+            //Console.WriteLine(string.Format("{0} Files Not updated", filesNotUpdateCtr));
+        }
+
+        private static List<Tuple<string, string>> GetNewVerbs()
+        {
+            var newVerbs = new List<Tuple<string, string>>();
+
+            newVerbs.Add(new Tuple<string, string>("anular", "to cancel"));
+            newVerbs.Add(new Tuple<string, string>("devorar", "to devour"));
+            newVerbs.Add(new Tuple<string, string>("ladrar", "to bark"));
+            newVerbs.Add(new Tuple<string, string>("aflojar", "to loosen up"));
+            newVerbs.Add(new Tuple<string, string>("soltar", "to release"));
+            newVerbs.Add(new Tuple<string, string>("abortar", "to abort"));
+            newVerbs.Add(new Tuple<string, string>("trepar", "to climb"));
+            newVerbs.Add(new Tuple<string, string>("chingar", "to fuck"));
+            newVerbs.Add(new Tuple<string, string>("asumir", "to assume"));
+            newVerbs.Add(new Tuple<string, string>("trapear", "to mop"));
+            newVerbs.Add(new Tuple<string, string>("follar", "to fuck"));
+            newVerbs.Add(new Tuple<string, string>("follando", "fucking"));
+            newVerbs.Add(new Tuple<string, string>("silbar", "to whistle"));
+            newVerbs.Add(new Tuple<string, string>("coincidir", "to coincide"));
+            newVerbs.Add(new Tuple<string, string>("evitar", "to avoid"));
+            newVerbs.Add(new Tuple<string, string>("reprimir", "to suppress"));
+            newVerbs.Add(new Tuple<string, string>("tragar", "ro swallow"));
+            newVerbs.Add(new Tuple<string, string>("rastrear", "to track"));
+            newVerbs.Add(new Tuple<string, string>("burlar", "to evade"));
+            newVerbs.Add(new Tuple<string, string>("violar", "to rape"));
+            newVerbs.Add(new Tuple<string, string>("castigar", "to punish"));
+            newVerbs.Add(new Tuple<string, string>("brindar", "to toast"));
+            newVerbs.Add(new Tuple<string, string>("apegar", "to attach"));
+            newVerbs.Add(new Tuple<string, string>("desempolvar", "to dust off"));
+            newVerbs.Add(new Tuple<string, string>("impedir", "to prevent"));
+            newVerbs.Add(new Tuple<string, string>("encargar", "to place an order"));
+            newVerbs.Add(new Tuple<string, string>("alimentar", "to food"));
+            newVerbs.Add(new Tuple<string, string>("descargar", "to download"));
+            newVerbs.Add(new Tuple<string, string>("distinguir", "to distinguish"));
+            newVerbs.Add(new Tuple<string, string>("apostar", "to bet"));
+            newVerbs.Add(new Tuple<string, string>("nombrar", "to name"));
+            newVerbs.Add(new Tuple<string, string>("guiar", "to guide"));
+            newVerbs.Add(new Tuple<string, string>("disparar", "to shoot"));
+            newVerbs.Add(new Tuple<string, string>("despachar", "to dispense(as a pharmacist in a store, gas at a gas pump)"));
+            newVerbs.Add(new Tuple<string, string>("malestar", "discomfort"));
+            newVerbs.Add(new Tuple<string, string>("dañar", "to damage"));
+            newVerbs.Add(new Tuple<string, string>("calificar", "to qualify"));
+            newVerbs.Add(new Tuple<string, string>("echar de reversa", "to backup a car"));
+            newVerbs.Add(new Tuple<string, string>("aferrar", "to grasp"));
+            newVerbs.Add(new Tuple<string, string>("mantener", "to hold(keep)"));
+            newVerbs.Add(new Tuple<string, string>("mezclar", "to mix"));
+            newVerbs.Add(new Tuple<string, string>("desvelar", "to reveal"));
+            newVerbs.Add(new Tuple<string, string>("burlar", "to outwit"));
+            newVerbs.Add(new Tuple<string, string>("agregar", "to add"));
+            newVerbs.Add(new Tuple<string, string>("masticar", "to chew on"));
+            newVerbs.Add(new Tuple<string, string>("aniquilar", "to annihilate"));
+            newVerbs.Add(new Tuple<string, string>("baldear", "to wash down"));
+            newVerbs.Add(new Tuple<string, string>("viñedos", "vineyards"));
+            newVerbs.Add(new Tuple<string, string>("escoltar", "to escort"));
+            newVerbs.Add(new Tuple<string, string>("encargar", "to place an order"));
+            newVerbs.Add(new Tuple<string, string>("entregar", "to deliver"));
+            newVerbs.Add(new Tuple<string, string>("estirar", "to stretch"));
+            newVerbs.Add(new Tuple<string, string>("blindar", "to blind"));
+            newVerbs.Add(new Tuple<string, string>("soltar", "to release"));
+            newVerbs.Add(new Tuple<string, string>("vencer", "overcome"));
+            newVerbs.Add(new Tuple<string, string>("acuchillar", "to stab, to slash"));
+            newVerbs.Add(new Tuple<string, string>("envolver(un regalo)", "to wrap(a gift)"));
+            newVerbs.Add(new Tuple<string, string>("gruñir", "to snarl"));
+            newVerbs.Add(new Tuple<string, string>("redactar", "to write"));
+            newVerbs.Add(new Tuple<string, string>("rechazar", "to decline"));
+            newVerbs.Add(new Tuple<string, string>("reprobar", "to fail"));
+            newVerbs.Add(new Tuple<string, string>("fusilar", "to shoot(firing squad)"));
+            newVerbs.Add(new Tuple<string, string>("apresar", "to capture"));
+
+            return newVerbs;
         }
 
         #endregion

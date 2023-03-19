@@ -10,6 +10,8 @@
     <h4 class="center">Vocabulary</h4>
 
     <div class="vocabularyListSelectionPanelParent">
+        <label id="lastVocabularyListUsed"></label>
+        <br />
         <div class="vocabularyListSelectionPanel">
             <div id="vocabularyMobileMenu" class="collasped">
                 @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, true))

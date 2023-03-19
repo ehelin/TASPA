@@ -56,6 +56,8 @@ ServerCalls.SetVocabularyJson = function (vocabularyFolder, vocabularyName) {
                     vocabularyJson = jsonParsed;
 
                     VocabularyListNext(vocabularyName, vocabularyJson);
+
+                    ServerCalls.SetLastVocabularyListUsedDisplay();
                 });
     }
     catch (ex) {
@@ -81,7 +83,37 @@ ServerCalls.SetVerbLists = function (searchTerm, searchVerbList) {
                     {
                         ServerCalls.SetVerbList(searchVerbList, searchTerm);
                     }
+
+                    ServerCalls.SetLastVerbListUsedDisplay();
                 });        
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+ServerCalls.SetLastVerbListUsedDisplay = function (searchTerm, searchVerbList) {
+    try {
+        var path = '/TaspaApi/getLastVerbListUsed';
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    SetLastVerbListUsed(response);
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
+ServerCalls.SetLastVocabularyListUsedDisplay = function (searchTerm, searchVerbList) {
+    try {
+        var path = '/TaspaApi/getLastVocabularyListUsed';
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    SetLastVocabularyListUsed(response);
+                });
     }
     catch (ex) {
         throw ex;
@@ -126,6 +158,8 @@ ServerCalls.SetVerbJson = function (verbName) {
                     verbJson = jsonParsed;
 
                     VerbListNext(verbName, verbJson);
+
+                    ServerCalls.SetLastVerbListUsedDisplay();
                 });
     }
     catch (ex) {

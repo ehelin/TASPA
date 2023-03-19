@@ -24,3 +24,8 @@ function SelectVocabularyList() {
 function VocabularyPanelSetVocabularyList(vocabularyFolder, searchTerm) {
     ServerCalls.SetVocabularyList(vocabularyFolder, searchTerm);
 }
+
+function SetLastVocabularyListUsed(lastVocabularyListUsed) {
+    var lastVerbListUsedLabel = document.getElementById('lastVocabularyListUsed');
+    lastVerbListUsedLabel.innerHTML = lastVocabularyListUsed;
+}

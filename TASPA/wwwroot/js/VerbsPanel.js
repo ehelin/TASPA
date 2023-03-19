@@ -8,3 +8,8 @@ function SelectVerbList() {
 
     ServerCalls.SetVerbList(selectedValue);
 }
+
+function SetLastVerbListUsed(lastVerbListUsed) {
+    var lastVerbListUsedLabel = document.getElementById('lastVerbListUsed');
+    lastVerbListUsedLabel.innerHTML = lastVerbListUsed;
+}

@@ -17,5 +17,11 @@ namespace Shared.Interfaces
 
         public List<string> GetVerbLists();
         public List<string> GetVerbList(string verbListName);
+
+        public string GetLastVerbListUsed(string rootPath);
+        public void SaveLastVerbListUsed(string rootPath, string verbListName);
+
+        public string GetLastVocabularyListUsed(string rootPath);
+        public void SaveLastVocabularyListUsed(string rootPath, string verbListName);
     }
 }

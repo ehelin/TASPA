@@ -9,9 +9,56 @@ namespace BLL
     {
         public ITaspaData taspaDataService;
 
+        private readonly string lastVerbListUsedSubPath;
+        private readonly string lastVocabularyListUsedSubPath;
+        private const string LAST_VERB_LIST_USED_SUB_PATH = "data\\lastverblistused.txt";
+        private const string LAST_VOCABULARY_LIST_USED_SUB_PATH = "data\\lastvocabularylistused.txt";
+
         public TaspaService(ITaspaData taspaDataService)
         {
             this.taspaDataService = taspaDataService;
+        }
+
+        public string GetLastVerbListUsed(string rootPath)
+        {
+            var path = GetLastItemUsedPath(rootPath, LAST_VERB_LIST_USED_SUB_PATH);
+            var lastUsedVerbList = System.IO.File.ReadAllLines(path);
+
+            if (lastUsedVerbList != null && lastUsedVerbList.Length == 1)
+            {
+                return string.Format("Last Verb List Used: {0}", lastUsedVerbList[0]);
+            }
+
+            return null;
+        }
+        public void SaveLastVerbListUsed(string rootPath, string verbListName)
+        {
+            var lastVerbListUsedSubPath = GetLastItemUsedPath(rootPath, LAST_VERB_LIST_USED_SUB_PATH);
+
+            // save verb list for UI reference
+            System.IO.File.WriteAllText(lastVerbListUsedSubPath, String.Empty);
+            System.IO.File.WriteAllText(lastVerbListUsedSubPath, verbListName);
+        }
+
+        public string GetLastVocabularyListUsed(string rootPath)
+        {
+            var lastVocabularyListUsedSubPath = string.Format("{0}\\{1}", rootPath, LAST_VOCABULARY_LIST_USED_SUB_PATH);
+            var lastUsedVocabularyList = System.IO.File.ReadAllLines(lastVocabularyListUsedSubPath);
+
+            if (lastUsedVocabularyList != null && lastUsedVocabularyList.Length == 1)
+            {
+                return string.Format("Last Vocabulary List Used: {0}", lastUsedVocabularyList[0]);
+            }
+
+            return null;
+        }
+        public void SaveLastVocabularyListUsed(string rootPath, string verbListName)
+        {
+            var lastVocabularyListUsedSubPath = GetLastItemUsedPath(rootPath, LAST_VOCABULARY_LIST_USED_SUB_PATH);
+
+            // save verb list for UI reference
+            System.IO.File.WriteAllText(lastVocabularyListUsedSubPath, String.Empty);
+            System.IO.File.WriteAllText(lastVocabularyListUsedSubPath, verbListName);
         }
 
         public List<NavigationLink> GetNavigationLinks()
@@ -173,5 +220,14 @@ namespace BLL
                 throw new Exception(string.Format("Unknown verb list name: {0}", verbListName));
             }
         }
+
+        #region Private Methods
+
+        private string GetLastItemUsedPath(string rootPath, string subPath)
+        {
+            return string.Format("{0}\\{1}", rootPath, subPath);
+        }
+
+        #endregion
     }
 }

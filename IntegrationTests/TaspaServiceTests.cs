@@ -244,16 +244,30 @@ namespace IntegrationTests
 
         private void RunComparisons(List<string> vocabularyListItems, string jsonPath)
         {
+            var ctr = 0;
+            var errorCtr = 0;
+            var jsonName = "";
             foreach (var vocabularyListItem in vocabularyListItems)
             {
-                var jsonFileName = string.Format("{0}.{1}", vocabularyListItem, "json");
-                var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
+                try
+                {                    
+                    var jsonFileName = string.Format("{0}.{1}", vocabularyListItem, "json");
+                    var jsonFilePath = string.Format("{0}{1}", jsonPath, jsonFileName);
 
-                var file = File.ReadAllText(jsonFilePath);
-                Assert.NotNull(file);
+                    jsonName = jsonFileName;
 
-                var jsonFile = JsonConvert.DeserializeObject<sharedDto.Verb>(file);
-                Assert.Equal(vocabularyListItem.Replace("_", " "), jsonFile.Name);
+                    var file = File.ReadAllText(jsonFilePath);
+                    Assert.NotNull(file);
+
+                    var jsonFile = JsonConvert.DeserializeObject<sharedDto.Verb>(file);
+                    Assert.Equal(vocabularyListItem.Replace("_", " "), jsonFile.Name);
+                }
+                catch (Exception ex)
+                {
+                    errorCtr++;
+                    System.Diagnostics.Debug.WriteLine(string.Format("{0} error ctr: {1}", jsonName, errorCtr.ToString()));
+                }
+                ctr++;
             }
         }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using Shared.Dto.Sentence;
 using Shared.Interfaces;
 
-namespace BLL
+namespace BLL.Experiments
 {
 	/// <summary>
 	/// A rudimentary sentence generator to be used in conjunction with the Chat Service implementation.

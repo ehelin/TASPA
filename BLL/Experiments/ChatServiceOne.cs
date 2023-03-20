@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using Shared.Interfaces;
 
-namespace BLL
+namespace BLL.Experiments
 {
 	/// <summary>
 	/// A chat bot implementation that uses previously recorded messages/responses and text manipulation to create responses. It is intended as a rudimentary first step

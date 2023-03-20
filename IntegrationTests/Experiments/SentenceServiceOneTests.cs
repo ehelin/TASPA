@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using BLL.Experiments;
 using BLL;
 using Shared.Dto.Sentence;
 using Shared.Interfaces;
 using Xunit;
 
-namespace IntegrationTests
+namespace IntegrationTests.Experiments
 {
 	[CollectionDefinition("ChatServiceOneTests", DisableParallelization = true)]
 	public class SentenceServiceOneTests

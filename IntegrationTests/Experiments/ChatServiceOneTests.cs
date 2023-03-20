@@ -1,11 +1,12 @@
 using System;
 using BLL;
+using BLL.Experiments;
 using Shared.Interfaces;
 using Xunit;
 using Shared.Dto.Chat;
 using System.Collections.Generic;
 
-namespace IntegrationTests
+namespace IntegrationTests.Experiments
 {
 	[CollectionDefinition("ChatServiceOneTests", DisableParallelization = true)]
 	public class ChatServiceOneTests

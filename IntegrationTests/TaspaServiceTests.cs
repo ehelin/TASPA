@@ -19,17 +19,72 @@ namespace IntegrationTests
 	{
         private readonly ITaspaService bllService;
         private readonly string parentJsonPath;
+        private readonly string rootJsonPath;
 
         public TaspaServiceTests()
         {
             ITaspaData dataLayer = new TaspaData();
             this.bllService = new TaspaService(dataLayer);
 
-            // TODO - get path dyanmically
+            // TODO - get paths dyanmically
             this.parentJsonPath = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
+            this.rootJsonPath = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\";
         }
 
-        #region Search 
+        #region Service
+
+        [Fact]
+        public void SaveGetLastVerbListUsedTest()
+        {
+            var expectedLastUsedVerbList = "lastUsedVerbList";
+            this.bllService.SaveLastVerbListUsed(rootJsonPath, expectedLastUsedVerbList);
+            var actualLastUsedVerb = this.bllService.GetLastVerbListUsed(rootJsonPath);
+
+            Assert.Contains(expectedLastUsedVerbList, actualLastUsedVerb);
+        }
+
+        [Fact]
+        public void SaveGetLastVocabularyListUsedTest()
+        {
+            var expectedLastUsedVocabularyList = "lastUsedVocabularyList";
+            this.bllService.SaveLastVocabularyListUsed(rootJsonPath, expectedLastUsedVocabularyList);
+            var actualLastUsedVocabularyList = this.bllService.GetLastVocabularyListUsed(rootJsonPath);
+
+            Assert.Contains(expectedLastUsedVocabularyList, actualLastUsedVocabularyList);
+        }
+
+        [Fact]
+        public void GetNavigationLinksTest()
+        {
+            var navigationLinks = this.bllService.GetNavigationLinks();
+
+            Assert.NotNull(navigationLinks);
+            Assert.True(navigationLinks.Count() > 0);
+            Assert.True(navigationLinks.Any(x => x.LinkText == "Home"));
+            Assert.True(navigationLinks.Any(x => x.LinkAction == "/Index"));
+        }
+
+        [Fact]
+        public void GetVocabularyRadioButtonsTest()
+        {
+            var vocabularyRadioButtons = this.bllService.GetVocabularyRadioButtons();
+
+            Assert.NotNull(vocabularyRadioButtons);
+            Assert.True(vocabularyRadioButtons.Count() > 0);
+            Assert.True(vocabularyRadioButtons.Any(x => x.LinkText == "Body"));
+            Assert.True(vocabularyRadioButtons.Any(x => x.Value == "bodyparts"));
+        }
+
+        [Fact]
+        public void GetSearchListTest()
+        {
+            var searchList = this.bllService.GetSearchList();
+
+            Assert.NotNull(searchList);
+            Assert.True(searchList.Count() > 0);
+            Assert.True(searchList.Any(x => x.Name == "acostar"));
+            Assert.True(searchList.Any(x => x.EnglishMeaning == "to lay down, go to bed"));
+        }
 
         // NOTE: Sanity test...needs to be expanded
         [Theory]
@@ -37,11 +92,93 @@ namespace IntegrationTests
         [InlineData("to lose weight", true)]            //expected English to be found
         [InlineData("blah", false)]                     //expected Spanish not to be found
         [InlineData("blah2", false)]                    //expected English not to be found
-        public void ExpectedSearchResult(string spanishTerm, bool expectedToBeFound)
+        public void ExpectedSearchResultTest(string spanishTerm, bool expectedToBeFound)
         {
             var matches = this.bllService.Search(spanishTerm);
             Assert.Equal(expectedToBeFound, matches.Count > 0);
         }
+
+        [Theory]
+        [InlineData("Full", "el_brazo")]
+        [InlineData("phrases", "necio")]
+        [InlineData("bodyparts", "el_brazo")]
+        [InlineData("houseterms", "el_armario")]
+        [InlineData("clothing", "el_zapato")]
+        [InlineData("colors", "amarillo")]
+        [InlineData("familymembers", "abuelo")]
+        [InlineData("fruits", "el_cantalupo")]
+        [InlineData("listfrommeetup", "campo")]
+        [InlineData("prepositions", "durante")]
+        [InlineData("questions", "adonde")]
+        [InlineData("shops", "panadería")]
+        [InlineData("timewords", "junio")]
+        [InlineData("vegetables", "el_tomate")]
+        public void GetVocabularyListTest(string vocabularyListName, string aListMember)
+        {
+            var vocabularyList = this.bllService.GetVocabularyList(vocabularyListName);
+
+            Assert.NotNull(vocabularyList);
+            Assert.True(vocabularyList.Count() > 0);
+            Assert.True(vocabularyList.Any(x => x == aListMember));
+        }
+
+        [Fact]
+        public void GetVerbListsTest()
+        {
+            var verbLists = this.bllService.GetVerbLists();
+
+            Assert.NotNull(verbLists);
+            Assert.True(verbLists.Count() > 0);
+            Assert.True(verbLists.Any(x => x == "Full"));
+            Assert.True(verbLists.Any(x => x == "H"));
+        }
+
+        [Theory]
+        [InlineData("Full", "abrazar")]
+        [InlineData("A", "andar")]
+        [InlineData("B", "bailar")]
+        [InlineData("C", "caber")]
+        [InlineData("D", "detener")]
+        [InlineData("E", "echar")]
+        [InlineData("F", "faltar")]
+        [InlineData("G", "gritar")]
+        [InlineData("H", "haber")]
+        [InlineData("I", "iniciar")]
+        [InlineData("J", "jugar")]
+        [InlineData("L", "lanzar")]
+        [InlineData("M", "mandar")]
+        [InlineData("N", "nadar")]
+        [InlineData("O", "oir")]
+        [InlineData("P", "pasar")]
+        [InlineData("Q", "quedar")]
+        [InlineData("R", "recibir")]
+        [InlineData("S", "saber")]
+        [InlineData("T", "tirar")]
+        [InlineData("U", "usar")]
+        [InlineData("V", "ver")]
+        [InlineData("Z", "zarpar")]
+        public void GetVerbListTest(string verbListName, string aListMember)
+        {
+            var verbList = this.bllService.GetVerbList((verbListName));
+
+            Assert.NotNull(verbList);
+            Assert.True(verbList.Count() > 0);
+            Assert.True(verbList.Any(x => x == aListMember));
+        }
+
+        [Fact]
+        public void GetVerbListErrorTest()
+        {
+            var nonExistingVerbList = "nonExistingVerbList";
+            var ex = Assert.Throws<Exception>(() => this.bllService.GetVerbList(nonExistingVerbList));
+
+            Assert.Contains("Unknown verb list name", ex.Message);
+            Assert.Contains(nonExistingVerbList, ex.Message);
+        }
+
+        #endregion
+
+        #region Verifications
 
         [Fact]
         public void VerifyAllSearchTermsVerbsHaveCorrespondingJsonFile()
@@ -57,8 +194,21 @@ namespace IntegrationTests
             VerifyTerms(englishTerms, this.parentJsonPath);
         }
 
+        [Fact]
+        public void VerifyAllVerbsHaveCorrespondingJsonFile()
+        {
+            var jsonPath = string.Format("{0}{1}", this.parentJsonPath, "verbs\\");
+            var verbs = this.bllService.GetVerbList("Full");
+
+            RunComparisons(verbs, jsonPath);
+        }
+
+        #endregion
+
+        #region Private
+
         private void VerifyTerms(List<string> terms, string jsonPath)
-        {            
+        {
             var ctr = 1;
             foreach (var spanishTerm in terms)
             {
@@ -71,10 +221,6 @@ namespace IntegrationTests
                 ctr++;
             }
         }
-
-        #endregion
-
-        #region Shared        
 
         private static void GetTermJasonFile(string term, string jsonPath, List<Base> termJsonMatch)
         {
@@ -112,14 +258,6 @@ namespace IntegrationTests
 
         #region Verbs 
 
-        [Fact]
-        public void VerifyAllVerbsHaveCorrespondingJsonFile()
-        {
-            var jsonPath = string.Format("{0}{1}",this.parentJsonPath,"verbs\\");
-            var verbs = this.bllService.GetVerbList("Full");
-
-            RunComparisons(verbs, jsonPath);
-        }
 
         #endregion
 

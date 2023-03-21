@@ -19,6 +19,8 @@ namespace BLL
             this.taspaDataService = taspaDataService;
         }
 
+        #region Last Used Verb List
+
         public string GetLastVerbListUsed(string rootPath)
         {
             var path = GetLastItemUsedPath(rootPath, LAST_VERB_LIST_USED_SUB_PATH);
@@ -40,6 +42,10 @@ namespace BLL
             System.IO.File.WriteAllText(lastVerbListUsedSubPath, verbListName);
         }
 
+        #endregion
+
+        #region Last Used Vocabulary List
+
         public string GetLastVocabularyListUsed(string rootPath)
         {
             var lastVocabularyListUsedSubPath = string.Format("{0}\\{1}", rootPath, LAST_VOCABULARY_LIST_USED_SUB_PATH);
@@ -52,6 +58,7 @@ namespace BLL
 
             return null;
         }
+
         public void SaveLastVocabularyListUsed(string rootPath, string verbListName)
         {
             var lastVocabularyListUsedSubPath = GetLastItemUsedPath(rootPath, LAST_VOCABULARY_LIST_USED_SUB_PATH);
@@ -60,6 +67,8 @@ namespace BLL
             System.IO.File.WriteAllText(lastVocabularyListUsedSubPath, String.Empty);
             System.IO.File.WriteAllText(lastVocabularyListUsedSubPath, verbListName);
         }
+
+        #endregion
 
         public List<NavigationLink> GetNavigationLinks()
         {

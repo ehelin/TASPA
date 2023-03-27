@@ -3,13 +3,9 @@ using Shared.Dto.Sentence;
 
 namespace Shared.Interfaces
 {
-	public interface ISentenceService
+	public interface ISentimentAnalysis
 	{
-        public string GenerateSentence();
-
-		List<string> GetPronouns();
-		List<SentenceVerb> GetVerbs();
-		int GetMaxCounter();
-		int GetPronounPreviousSentenceCheckBatchSize();
+        public string GetChatRanking(string chatDocument);
+		public string GetChatMessageRanking(string chatMessage);
 	}
 }

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using Shared.Dto.Chat;
 using Shared.Dto.Sentence;
 using Shared.Interfaces;
 
@@ -18,24 +20,46 @@ namespace BLL.Experiments
     /// </summary>
     public class SentimentAnalysis : ISentimentAnalysis
     {
-		public int MAX_COUNTER = 100000;
-		public int PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE = 10;
+        private readonly ISentimentAnalysisData sentimentAnalysisData;
 
-		private readonly List<string> positiveWords;					 
-		private readonly List<string> negativeWords;
-
-		public SentimentAnalysis()
+        public SentimentAnalysis(ISentimentAnalysisData sentimentAnalysisData)
 		{
-		}
+            this.sentimentAnalysisData = sentimentAnalysisData;
+        }
 
-        public string GetChatRanking(string chatDocument)
+        public SentimentResult GetChatRanking(string chatDocument)
         {
             throw new NotImplementedException();
         }
 
-        public string GetChatMessageRanking(string chatMessage)
+        public SentimentResult GetChatMessageRanking(string message)
         {
-            throw new NotImplementedException();
+            var words = message.Split(' ');
+            var score = 0;
+            foreach (var word in words)
+            {
+                if (this.sentimentAnalysisData.NegativeWords.Contains(word))
+                {
+                    score--;
+                }
+                else if (this.sentimentAnalysisData.PositiveWords.Contains(word))
+                {
+                    score++;
+                }
+            }
+
+            if (score > 0)
+            {
+                return SentimentResult.Positive;
+            }
+            else if (score < 0)
+            {
+                return SentimentResult.Negative;
+            }
+            else 
+            {
+                return SentimentResult.Neutral;
+            }
         }
     }
 }

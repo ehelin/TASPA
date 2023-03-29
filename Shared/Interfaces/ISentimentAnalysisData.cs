@@ -5,7 +5,11 @@ namespace Shared.Interfaces
 {
     public interface ISentimentAnalysisData
     {
-        public List<string> GetPositiveWords();
-        public List<string> GetNegativeWords();
+        public List<string> NegativeWords { get; }
+        public List<string> PositiveWords { get; }
+        //List<string> ParentNumber
+        //{
+        //    get;
+        //}
     }
 }

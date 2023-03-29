@@ -6,6 +6,6 @@ namespace Shared.Interfaces
     public interface ISentimentAnalysisData
     {
         public List<string> GetPositiveWords();
-        public List<string> ();
+        public List<string> GetNegativeWords();
     }
 }

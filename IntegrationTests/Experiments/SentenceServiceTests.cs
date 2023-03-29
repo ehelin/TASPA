@@ -10,15 +10,15 @@ using Xunit;
 namespace IntegrationTests.Experiments
 {
 	[CollectionDefinition("ChatServiceOneTests", DisableParallelization = true)]
-	public class SentenceServiceOneTests
+	public class SentenceServiceTests
 	{
 		private readonly ISentenceService sentenceService;
 		private int maxCounter = 1000;
 
-		public SentenceServiceOneTests()
+		public SentenceServiceTests()
 		{
-			ISentenceService sentenceService = new SentenceServiceOne();
-			this.sentenceService = new SentenceServiceOne();
+			ISentenceService sentenceService = new SentenceService();
+			this.sentenceService = new SentenceService();
 		}
 
 		#region Manipulation Tests

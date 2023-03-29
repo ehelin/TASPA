@@ -12,7 +12,7 @@ namespace BLL.Experiments
 	/// Implementation One.
 	/// 
 	/// </summary>
-	public class SentenceServiceOne : ISentenceService
+	public class SentenceService : ISentenceService
 	{
 		public int MAX_COUNTER = 100000;
 		public int PRONOUN_PREVIOUS_SENTENCE_CHECK_BATCH_SIZE = 10;
@@ -33,7 +33,7 @@ namespace BLL.Experiments
 		private readonly Random randomNoun;
 		private readonly Random randomPronoun;
 
-		public SentenceServiceOne()
+		public SentenceService()
 		{
 			this.randomSubject = new Random();
 			this.randomVerb = new Random();

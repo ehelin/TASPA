@@ -20,7 +20,7 @@ namespace IntegrationTests.Experiments
 			// TODO - obtain dynamically
 			this.webRoot = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot";
 
-			ISentenceService sentenceService = new SentenceServiceOne();
+			ISentenceService sentenceService = new SentenceService();
 			this.chatService = new ChatServiceOne(sentenceService, true);
 		}
 

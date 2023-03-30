@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 using Shared.Dto;
+using Shared.Dto.SentimentAnalysis;
 using Shared.Interfaces;
 
 namespace BLL
@@ -508,6 +509,54 @@ namespace BLL
             newVerbs.Add(new Tuple<string, string>("apresar", "to capture"));
 
             return newVerbs;
+        }
+
+        #endregion
+
+        #region Create Negative and Positive word lists (for sentiment analysis)
+
+        public static void CreatePositiveNegativeWordLists(string inputOutputPath)
+        {
+            ReadProcessFile(inputOutputPath, "VeryPositiveWords.csv", "PositiveWordFile.txt");
+            ReadProcessFile(inputOutputPath, "VeryNegativeWords.csv", "NegativeWordFile.txt");
+        }
+
+        private static void ReadProcessFile(string path, string inputFile, string outputFile)
+        {
+            var sr = new StreamReader(string.Format("{0}\\{1}", path, inputFile));
+            var words = new List<SentimentAnalysisWord>();
+
+            string line;
+            string[] row = new string[5];
+            var ctr = 0;
+            while ((line = sr.ReadLine()) != null)
+            {
+                if (ctr == 0) { ctr++; continue; }
+
+                row = line.Split(',');
+                words.Add(new SentimentAnalysisWord() 
+                {
+                    Word = row[0],
+                    Tag= row[1],
+                    Class= row[2],
+                    Weight= row[3]
+                });
+                ctr++;
+            }
+            sr.Close();
+            sr.Dispose();
+            sr = null;
+
+            var sw = new StreamWriter(string.Format("{0}\\{1}", path, outputFile));
+            foreach (var word in words)
+            {
+                line = "words.Add(new SentimentAnalysisWord() { Word = \"" + word.Word + "\", Tag = \"" + word.Tag + "\", Class = \"" + word.Class + "\", Weight = \"" + word.Weight + "\" });";
+                sw.WriteLine(line);
+            }
+            sw.Flush();
+            sw.Close();
+            sw.Dispose();
+            sw = null;
         }
 
         #endregion

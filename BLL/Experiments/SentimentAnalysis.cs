@@ -27,27 +27,83 @@ namespace BLL.Experiments
             this.sentimentAnalysisData = sentimentAnalysisData;
         }
 
-        public SentimentResult GetChatRanking(string chatDocument)
+        public SentimentResult GetChatConversationRanking(string GetChatConversationRanking)
         {
-            throw new NotImplementedException();
-        }
+            var positiveScore = 0;
+            var neutralScore = 0;
+            var negativeScore = 0;
+            var sentences = GetChatConversationRanking.Split('.');
 
-        public SentimentResult GetChatMessageRanking(string message)
-        {
-            var words = message.Split(' ');
-            var score = 0;
-            foreach (var word in words)
+            foreach (var sentence in sentences)
             {
-                if (this.sentimentAnalysisData.NegativeWords.Contains(word))
+                var sentimentResult = GetChatSentenceRanking(sentence);
+
+                if (sentimentResult == SentimentResult.Positive)
                 {
-                    score--;
+                    positiveScore++;
                 }
-                else if (this.sentimentAnalysisData.PositiveWords.Contains(word))
+                else if (sentimentResult == SentimentResult.Neutral)
                 {
-                    score++;
+                    neutralScore++;
+                }
+                else
+                {
+                    negativeScore++;
                 }
             }
 
+            var results = GetAnalysisResult(positiveScore, neutralScore, negativeScore);
+
+            return results;
+        }
+
+        public SentimentResult GetChatSentenceRanking(string sentence)
+        {
+            var words = sentence.Split(' ');
+            var score = 0;
+            foreach (var word in words)
+            {
+                var negativeWords = this.sentimentAnalysisData.NegativeWords.Where(x => x.Word== word).ToList();
+                var positiveWords = this.sentimentAnalysisData.PositiveWords.Where(x => x.Word == word).ToList();
+
+                // negative word only
+                if (negativeWords.Count() > 0 && positiveWords.Count() == 0)
+                {
+                    score--;
+                }
+                // positive word only
+                else if (positiveWords.Count() > 0 && negativeWords.Count() == 0)
+                {
+                    score++;
+                }
+                // both lists contain word...use class to determine which to use 
+                // MN - Mostly Negative
+                // NMP - Not Mostly Positive
+                // MP - Mostly Positive
+                // NMN - Not Mostly Negative
+                else if (positiveWords.Count() > 0 && negativeWords.Count() > 0)
+                {
+                    if ((negativeWords[0].Class == "MN" || negativeWords[0].Class == "NMP")
+                        && (positiveWords[0].Class == "MN" || positiveWords[0].Class == "NMP"))
+                    {
+                        score--;
+                    }
+                    else
+                    {
+                        score++;
+                    }
+                }
+            }
+
+            var results = GetAnalysisResult(score);
+
+            return results;
+        }
+
+        #region Private Methods
+
+        private SentimentResult GetAnalysisResult(int score)
+        {
             if (score > 0)
             {
                 return SentimentResult.Positive;
@@ -56,10 +112,35 @@ namespace BLL.Experiments
             {
                 return SentimentResult.Negative;
             }
-            else 
+            else
             {
                 return SentimentResult.Neutral;
             }
         }
+
+        private SentimentResult GetAnalysisResult(int positiveScore, int neutralScore, int negativeScore)
+        {
+            string highestScoreVariable = new[]
+           {
+                Tuple.Create(positiveScore, "positiveScore"),
+                Tuple.Create(neutralScore, "neutralScore"),
+                Tuple.Create(negativeScore, "negativeScore")
+            }.Max().Item2;
+
+            if (highestScoreVariable == "positiveScore")
+            {
+                return SentimentResult.Positive;
+            }
+            else if (highestScoreVariable == "neutralScore")
+            {
+                return SentimentResult.Neutral;
+            }
+            else
+            {
+                return SentimentResult.Negative;
+            }
+        }
+
+        #endregion
     }
 }

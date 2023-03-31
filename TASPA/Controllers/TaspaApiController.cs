@@ -42,7 +42,10 @@ namespace TASPA.Controllers
         [HttpGet("sendChatMessage")]
         public IActionResult SendChatMessage([FromQuery] string chatMessage)
 		{
-			var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, chatMessage);
+            var includeSentimentAnalysis = true; // Temp until api to client can be updated
+
+            // TODO - create response that can return message and conversation sentiment analysis result
+            var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, chatMessage, includeSentimentAnalysis);
 
             return Ok(response); // 200
         }

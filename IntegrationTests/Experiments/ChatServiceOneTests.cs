@@ -5,6 +5,7 @@ using Shared.Interfaces;
 using Xunit;
 using Shared.Dto.Chat;
 using System.Collections.Generic;
+using DAL;
 
 namespace IntegrationTests.Experiments
 {
@@ -21,7 +22,10 @@ namespace IntegrationTests.Experiments
 			this.webRoot = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot";
 
 			ISentenceService sentenceService = new SentenceService();
-			this.chatService = new ChatServiceOne(sentenceService, true);
+            ISentimentAnalysisData sentimentAnalysisData = new SentimentAnalysisData();
+            ISentimentAnalysis sentimentAnalysis = new SentimentAnalysis(sentimentAnalysisData);
+
+            this.chatService = new ChatServiceOne(sentenceService, sentimentAnalysis, true);
 		}
 
 		#region Chat User Name Based Tests
@@ -32,10 +36,11 @@ namespace IntegrationTests.Experiments
 			var ctr = 1;
 			var msg = "Hello!";
 			bool chatUserNameRequested = false;
+			var includeSentimentAnalysis = false;  // TODO add test for this
 
 			while (ctr < maxCounter)
 			{
-				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
 
 				if (response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
@@ -60,11 +65,12 @@ namespace IntegrationTests.Experiments
 			var expectedGoodResponseCount = 5;
 			bool chatUserNameRequested = false;
 			bool chatUserNameUsed = false;
+            var includeSentimentAnalysis = false;  // TODO add test for this
 
-			while (ctr < maxCounter)
+            while (ctr < maxCounter)
 			{
 				//get answer portion of the response
-				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
 				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
 				response = responseAsArray[1].Replace(responsePrefix, "");
 
@@ -99,11 +105,12 @@ namespace IntegrationTests.Experiments
 			var msg = "Hello";
 			var chatUserNameUsageCounter = 1;
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
+            var includeSentimentAnalysis = false;  // TODO add test for this
 
-			while (ctr < maxCounter)
+            while (ctr < maxCounter)
 			{
 				//get answer portion of the response
-				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
 				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
 				response = responseAsArray[1].Replace(responsePrefix, "");
 
@@ -132,11 +139,12 @@ namespace IntegrationTests.Experiments
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
 			bool chatUserNameRequested = false;
 			bool chatUserNeverRequestedAfterSubmission = false;
+            var includeSentimentAnalysis = false;  // TODO add test for this
 
-			while (ctr < maxCounter)
+            while (ctr < maxCounter)
 			{
 				//get answer portion of the response
-				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
 				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
 				response = responseAsArray[1].Replace(responsePrefix, "");
 
@@ -169,8 +177,9 @@ namespace IntegrationTests.Experiments
 			var responsePrefix = string.Format("{0}: ", ChatServiceOne.CHATBOT_NAME);
 			var msg = "Hello";
 			var chatUserName = ChatServiceOne.TEST_CHATBOT_USER;
+            var includeSentimentAnalysis = false;  // TODO add test for this
 
-			var enumCounts = new Dictionary<ChatResponseType, int>();
+            var enumCounts = new Dictionary<ChatResponseType, int>();
 			var enumValues = Enum.GetValues<ChatResponseType>();
 			foreach(var enumValue in enumValues)
 			{
@@ -180,7 +189,7 @@ namespace IntegrationTests.Experiments
 			while (ctr < maxCounter)
 			{           
 				//get answer portion of the response
-				var response = chatService.GetMessageResponse(this.webRoot, msg);
+				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
 				var responseAsArray = response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
 				response = responseAsArray[1].Replace(responsePrefix, "");
 

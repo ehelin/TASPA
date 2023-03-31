@@ -6,7 +6,7 @@ namespace Shared.Interfaces
 {
 	public interface ISentimentAnalysis
 	{
-        public SentimentResult GetChatConversationRanking(string chatConversation);
+        public SentimentResult GetChatConversationRanking(List<string> sentences);
 
 		public SentimentResult GetChatSentenceRanking(string chatSentence);
 	}

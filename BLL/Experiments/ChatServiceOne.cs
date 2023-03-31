@@ -51,8 +51,9 @@ namespace BLL.Experiments
 		private List<string> chatUserNameResponses;
 
 		private ISentenceService sentenceService;
+        private ISentimentAnalysis sentimentAnalysis;
 
-		private bool isTest;
+        private bool isTest;
 
 		private bool chatNameIsSet = false;
 	
@@ -66,9 +67,12 @@ namespace BLL.Experiments
 
         public ChatResponseType GetCurrentResponseType() { return this.currentResponseType; }
 
-		public ChatServiceOne(ISentenceService sentenceService, bool isTest = false)
+		public ChatServiceOne(ISentenceService sentenceService, 
+			ISentimentAnalysis sentimentAnalysis, 
+			bool isTest = false)
         {
             this.sentenceService = sentenceService;
+			this.sentimentAnalysis = sentimentAnalysis;
             this.isTest = isTest;
 
 			Initialize();
@@ -109,7 +113,7 @@ namespace BLL.Experiments
 			Initialize();
         }
 
-		public string GetMessageResponse(string webRoot, string chatMessage)
+		public string GetMessageResponse(string webRoot, string chatMessage, bool includeSentimentAnalysis)
 		{
 			var response = "";
 			var dataPath = string.Format("{0}\\{1}", webRoot, "chat\\data.txt");
@@ -119,7 +123,7 @@ namespace BLL.Experiments
 			var ctr = 1;
 			while(ctr < MAX_COUNTER)
 			{
-				response = GetResponse(recordedChatDialog, chatMessage, dataPath);
+				response = GetResponse(recordedChatDialog, chatMessage, dataPath, includeSentimentAnalysis);
 
 				// Do not re-use anything already used in this session...if new, use this response
 				if (!string.IsNullOrEmpty(response) && !this.alreadyUsedResponses.Any(x => x == response)) 
@@ -153,11 +157,11 @@ namespace BLL.Experiments
 
 		#region response generation methods
 
-		private string GetResponse(string[] recordedChatDialog, string chatMessage, string dataPath)
+		private string GetResponse(string[] recordedChatDialog, string chatMessage, string dataPath, bool includeSentimentAnalysis)
 		{
 			string response = string.Empty;
 
-			response = GetChatServiceResponse(recordedChatDialog, dataPath, chatMessage);
+			response = GetChatServiceResponse(recordedChatDialog, dataPath, chatMessage, includeSentimentAnalysis);
 
 			// only record new messages from chat user
 			if (!this.isTest && chatMessage.IndexOf(TEST_CHATBOT_USER) == -1 && !recordedChatDialog.Any(x => x == chatMessage)) 
@@ -168,7 +172,7 @@ namespace BLL.Experiments
 			return response;
 		}
 
-		private string GetChatServiceResponse(string[] recordedChatDialog, string dataPath, string chatMessage)
+		private string GetChatServiceResponse(string[] recordedChatDialog, string dataPath, string chatMessage, bool includeSentimentAnalysis)
 		{
 			var response = "";
 
@@ -207,7 +211,14 @@ namespace BLL.Experiments
 				this.chatNameIsSet = true;
 			}
 
-			return response;
+			if (includeSentimentAnalysis)
+			{
+				var msgSentimentResult = this.sentimentAnalysis.GetChatSentenceRanking(chatMessage);
+                var conversationSentimentResult = this.sentimentAnalysis.GetChatConversationRanking(this.alreadyUsedResponses);
+            }
+
+
+            return response;
 		}
 
 		private string GetResponseFromChatUserBasedResponses(string response, string chatMessage)

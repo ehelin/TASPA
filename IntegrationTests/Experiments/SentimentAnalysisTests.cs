@@ -38,9 +38,10 @@ namespace IntegrationTests.Experiments
         [InlineData("This is a nice friendly beautiful positive message. A nice positive thought that is beautiful. Truely, a positive, nice and friendly conversation.", SentimentResult.Positive)]
         [InlineData("This is a message. A message with no adverbs or adjectives. A chat conversation.", SentimentResult.Neutral)]
         [InlineData("This is a horrible ugly mean message. Full of ugly horrible mean vicious things.  A truly bad chat conversation.", SentimentResult.Negative)]
-        public void GetChatConversationRanking(string message, SentimentResult expectedResult)
+        public void GetChatConversationRanking(string conversation, SentimentResult expectedResult)
         {
-            var result = sentimentAnalysis.GetChatConversationRanking(message);
+            var sentences = conversation.Split('.').ToList();
+            var result = sentimentAnalysis.GetChatConversationRanking(sentences);
 
             Assert.Equal(result, expectedResult);
         }

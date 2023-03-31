@@ -27,12 +27,12 @@ namespace BLL.Experiments
             this.sentimentAnalysisData = sentimentAnalysisData;
         }
 
-        public SentimentResult GetChatConversationRanking(string GetChatConversationRanking)
+        public SentimentResult GetChatConversationRanking(List<string> sentences)
         {
             var positiveScore = 0;
             var neutralScore = 0;
             var negativeScore = 0;
-            var sentences = GetChatConversationRanking.Split('.');
+            //var sentences = GetChatConversationRanking.Split('.');
 
             foreach (var sentence in sentences)
             {

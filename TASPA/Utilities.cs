@@ -16,6 +16,7 @@ namespace TASPA
 			serviceCollection.AddSingleton<IChatService, ChatServiceOne>();
 			serviceCollection.AddSingleton<ISentenceService, SentenceService>();
             serviceCollection.AddSingleton<ISentimentAnalysis, SentimentAnalysis>();
+            serviceCollection.AddSingleton<ISentimentAnalysisData, SentimentAnalysisData>();
 
             return serviceCollection;
         }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Shared.Dto;
 using Shared.Interfaces;
 using System;
 using System.IO;
@@ -39,13 +40,10 @@ namespace TASPA.Controllers
         }
 
         // TODO - change to POST
-        [HttpGet("sendChatMessage")]
-        public IActionResult SendChatMessage([FromQuery] string chatMessage)
+        [HttpPost("sendChatMessage")]
+        public IActionResult SendChatMessage([FromBody] ChatRequest request)
 		{
-            var includeSentimentAnalysis = true; // Temp until api to client can be updated
-
-            // TODO - create response that can return message and conversation sentiment analysis result
-            var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, chatMessage, includeSentimentAnalysis);
+            var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, request.Message, request.UseSentimentAnalysis);
 
             return Ok(response); // 200
         }

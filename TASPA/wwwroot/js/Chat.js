@@ -3,7 +3,7 @@
     var chatMessageBox = document.getElementById("chatMessage");
     var chatMessage = chatMessageBox.value;
     
-    ServerCalls.SendChatMessage(chatMessage, chatConversationTextArea);
+    ServerCalls.SendChatMessage(chatMessage, chatConversationTextArea, true);
 }
 
 function ClearChatSession() {

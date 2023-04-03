@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Shared.Interfaces;
+using Shared.Dto;
 
 namespace BLL.Experiments
 {
@@ -113,10 +114,10 @@ namespace BLL.Experiments
 			Initialize();
         }
 
-		public string GetMessageResponse(string webRoot, string chatMessage, bool includeSentimentAnalysis)
+		public ChatResponse GetMessageResponse(string webRoot, string chatMessage, bool includeSentimentAnalysis)
 		{
-			var response = "";
-			var dataPath = string.Format("{0}\\{1}", webRoot, "chat\\data.txt");
+			ChatResponse response = null;
+            var dataPath = string.Format("{0}\\{1}", webRoot, "chat\\data.txt");
 			var recordedChatDialog = GetRecordedChatDialog(dataPath);
 			SetChatResponseType();
 
@@ -126,26 +127,26 @@ namespace BLL.Experiments
 				response = GetResponse(recordedChatDialog, chatMessage, dataPath, includeSentimentAnalysis);
 
 				// Do not re-use anything already used in this session...if new, use this response
-				if (!string.IsNullOrEmpty(response) && !this.alreadyUsedResponses.Any(x => x == response)) 
+				if (!string.IsNullOrEmpty(response.response) && !this.alreadyUsedResponses.Any(x => x == response.response)) 
 				{ 
 					break; 
 				}
 				else
 				{
 					SetChatResponseType(); // No response, change the type.
-					response = ""; 
+					response.response = ""; 
 				}
 
 				recordedChatDialog = GetRecordedChatDialog(dataPath);	// re-read in saved dialog for fresh evaluations of generated dialog
 				ctr++;
 			}
 
-			if (string.IsNullOrEmpty(response)) 
+			if (string.IsNullOrEmpty(response.response)) 
 			{ 
 				throw new Exception("Cannot have a empty response"); 
 			}
 
-			this.alreadyUsedResponses.Add(response);  // remember every phrase so no duplicates this session.
+			this.alreadyUsedResponses.Add(response.response);  // remember every phrase so no duplicates this session.
 			lastUsedIndex++;
 
 			response = AddChatterChatBoxNames(chatMessage, response);
@@ -157,11 +158,9 @@ namespace BLL.Experiments
 
 		#region response generation methods
 
-		private string GetResponse(string[] recordedChatDialog, string chatMessage, string dataPath, bool includeSentimentAnalysis)
+		private ChatResponse GetResponse(string[] recordedChatDialog, string chatMessage, string dataPath, bool includeSentimentAnalysis)
 		{
-			string response = string.Empty;
-
-			response = GetChatServiceResponse(recordedChatDialog, dataPath, chatMessage, includeSentimentAnalysis);
+			var response = GetChatServiceResponse(recordedChatDialog, dataPath, chatMessage, includeSentimentAnalysis);
 
 			// only record new messages from chat user
 			if (!this.isTest && chatMessage.IndexOf(TEST_CHATBOT_USER) == -1 && !recordedChatDialog.Any(x => x == chatMessage)) 
@@ -172,40 +171,40 @@ namespace BLL.Experiments
 			return response;
 		}
 
-		private string GetChatServiceResponse(string[] recordedChatDialog, string dataPath, string chatMessage, bool includeSentimentAnalysis)
+		private ChatResponse GetChatServiceResponse(string[] recordedChatDialog, string dataPath, string chatMessage, bool includeSentimentAnalysis)
 		{
-			var response = "";
+			var response = new ChatResponse();
 
 			//--------------------------------------------------------------------------------------------------------------
 			// wait for chat user's name to be obtained and then rely on chat response types to determine response category used
 			if (string.IsNullOrEmpty(this.chatUserName) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.ChatUserName))
 			{
-				response = GetResponseFromChatUserBasedResponses(response, chatMessage);
+				response.response = GetResponseFromChatUserBasedResponses(chatMessage);
 			}
 
 			//--------------------------------------------------------------------------------------------------------------
 			// wait for chat user's name to be obtained and then rely on chat response types to determine response category used
-			if ((string.IsNullOrEmpty(response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Recorded))
+			if ((string.IsNullOrEmpty(response.response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Recorded))
 			{
-				response = GetResponseFromRecordedChatDialog(recordedChatDialog, dataPath);
+                response.response = GetResponseFromRecordedChatDialog(recordedChatDialog, dataPath);
 
 				// do not re-use a response
-				if (this.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
+				if (this.alreadyUsedResponses.Any(x => x == response.response)) { response.response = ""; }
 			}
 
 			//---------------------------------------------------------------------------------------------------------------
 			// wait for chat user's name to be obtained and then rely on chat response types to determine response category used
-			if ((string.IsNullOrEmpty(response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Generated))
+			if ((string.IsNullOrEmpty(response.response) && string.IsNullOrEmpty(this.chatUserName)) || (!string.IsNullOrEmpty(this.chatUserName) && this.currentResponseType == ChatResponseType.Generated))
 			{
-				response = this.sentenceService.GenerateSentence();
+                response.response = this.sentenceService.GenerateSentence();
 
 				// do not re-use a response
-				if (this.alreadyUsedResponses.Any(x => x == response)) { response = ""; }
+				if (this.alreadyUsedResponses.Any(x => x == response.response)) { response.response = ""; }
 			}
 
 			// NOTE: Special Case...set chat message after detected, but passed this interation of response generation
 			// (i.e. don't prematurely start using response type's)
-			if (response == ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE && !this.chatNameIsSet)
+			if (response.response == ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE && !this.chatNameIsSet)
 			{
 				this.chatUserName = chatMessage;
 				this.chatNameIsSet = true;
@@ -213,43 +212,44 @@ namespace BLL.Experiments
 
 			if (includeSentimentAnalysis)
 			{
-				var msgSentimentResult = this.sentimentAnalysis.GetChatSentenceRanking(chatMessage);
-                var conversationSentimentResult = this.sentimentAnalysis.GetChatConversationRanking(this.alreadyUsedResponses);
+				var sentimentChatResult = this.sentimentAnalysis.GetChatSentenceRanking(chatMessage);
+                var sentimentConversationResult = this.sentimentAnalysis.GetChatConversationRanking(this.alreadyUsedResponses);
+                response.sentimentChatResult = sentimentChatResult.ToString();
+                response.sentimentConversationResult = sentimentConversationResult.ToString();
             }
-
 
             return response;
 		}
 
-		private string GetResponseFromChatUserBasedResponses(string response, string chatMessage)
+		private string GetResponseFromChatUserBasedResponses(string chatMessage)
 		{
 			//---------------------------------------------------------------------------------------------------------------
 			// chat user name request/response types (on an interval, request user name and once set, periodically use it)
 			// at the right index, request chat user name
 			if (this.lastUsedIndex == this.chatUserNamePromptIndex && string.IsNullOrEmpty(this.chatUserName))
 			{
-				response = ChatServiceOne.REQUEST_CHAT_USER_MESSAGE;
+				return ChatServiceOne.REQUEST_CHAT_USER_MESSAGE;
 			}
 			// set chat user name if returned after requested
 			else if (string.IsNullOrEmpty(this.chatUserName)
 				&& this.alreadyUsedResponses.Count() > 0
 					&& this.alreadyUsedResponses.Last() == ChatServiceOne.REQUEST_CHAT_USER_MESSAGE)
 			{
-				//this.chatUserName = chatMessage;
-				response = ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE;
-
 				//set usage index (sometime in the next 20 iterations
 				useChatUserNameIndex = useChatUserNameIndexRandom.Next(this.lastUsedIndex + 1, (this.lastUsedIndex + 1) + MAX_USER_CHAT_NAME_RANDOM_INDEX);
-			}
+
+                return ChatServiceOne.CHAT_USER_NAME_IS_SET_MESSAGE;
+            }
 			// once chat user name is set, use chat user name in some responses at various intervals
 			else if (!string.IsNullOrEmpty(this.chatUserName))         //user name is set
 			{
 				var responseFromList = this.chatUserNameResponses[this.chatUserNameResponsesRandom.Next(0, this.chatUserNameResponses.Count())];
 				responseFromList = string.Format("{0}{1}", responseFromList.Substring(0, 1).ToLower(), responseFromList.Substring(1, responseFromList.Length - 1));
-				response = string.Format("{0}, {1}?", this.chatUserName, responseFromList);
-			}
+				
+				return string.Format("{0}, {1}?", this.chatUserName, responseFromList);
+            }
 
-			return response;
+			return "";
 		}
 
 		private string GetResponseFromRecordedChatDialog(string[] recordedChatDialog, string dataPath)
@@ -333,15 +333,17 @@ namespace BLL.Experiments
 			}
 		}
 
-		private string AddChatterChatBoxNames(string chatMessage, string response)
+		private ChatResponse AddChatterChatBoxNames(string chatMessage, ChatResponse response)
 		{
 			var sb = new StringBuilder();
 
 			var chatUser = !string.IsNullOrEmpty(this.chatUserName) ? this.chatUserName : CHATTER;
 			sb.AppendLine(string.Format("{0}: {1}", chatUser, chatMessage));
-			sb.AppendLine(string.Format("{0}: {1}", CHATBOT_NAME, response));
+			sb.AppendLine(string.Format("{0}: {1}", CHATBOT_NAME, response.response));
 
-			return sb.ToString();
+			response.response = sb.ToString();
+
+			return response;
 		}
 
 		private string GetResponseFromRecordedDialogWithSpaces(string recordedChatDialog, string dataPath)

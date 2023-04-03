@@ -32,7 +32,6 @@ namespace BLL.Experiments
             var positiveScore = 0;
             var neutralScore = 0;
             var negativeScore = 0;
-            //var sentences = GetChatConversationRanking.Split('.');
 
             foreach (var sentence in sentences)
             {
@@ -120,8 +119,13 @@ namespace BLL.Experiments
 
         private SentimentResult GetAnalysisResult(int positiveScore, int neutralScore, int negativeScore)
         {
+            if (positiveScore == 0 && neutralScore == 0 && negativeScore == 0)
+            {
+                return SentimentResult.Neutral;
+            }
+
             string highestScoreVariable = new[]
-           {
+            {
                 Tuple.Create(positiveScore, "positiveScore"),
                 Tuple.Create(neutralScore, "neutralScore"),
                 Tuple.Create(negativeScore, "negativeScore")

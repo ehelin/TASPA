@@ -39,7 +39,6 @@ namespace TASPA.Controllers
             return Ok(response); // 200
         }
 
-        // TODO - change to POST
         [HttpPost("sendChatMessage")]
         public IActionResult SendChatMessage([FromBody] ChatRequest request)
 		{

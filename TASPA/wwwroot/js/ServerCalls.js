@@ -177,42 +177,29 @@ ServerCalls.SendChatMessage = function (chatMessage, chatConversationTextArea, u
         return ServerCall.Post(url, formData)
             .then(
                 function (response) {
-                    // TODO - convert response to boolean
-                    var chatResponse = response;
+                    var chatResponse = JSON.parse(response);
 
-                        var chatTextBox = document.getElementById("chatMessage");
-                        chatTextBox.value = '';
+                    var chatTextBox = document.getElementById("chatMessage");
+                    chatTextBox.value = '';
 
-                        var chatContents = chatConversationTextArea.value;
-                        chatConversationTextArea.value = chatContents + '\r\n' + chatResponse;
-                        chatConversationTextArea.blur();
-                        chatConversationTextArea.focus(); // this scrolls the textarea
+                    var conversationRankingLabel = document.getElementById("conversationRanking");
+                    conversationRankingLabel.innerText = '';
+                    conversationRankingLabel.innerText = chatResponse.sentimentConversationResult;
+
+                    var messageRankingLabel = document.getElementById("messageRanking");
+                    messageRankingLabel.innerText = '';
+                    messageRankingLabel.innerText = chatResponse.sentimentChatResult;
+
+                    var chatContents = chatConversationTextArea.value;
+                    chatConversationTextArea.value = chatContents + '\r\n' + chatResponse.response;
+                    chatConversationTextArea.blur();
+                    chatConversationTextArea.focus(); // this scrolls the textarea
                 });
     }
     catch (ex)
     {
         throw ex;
     }
-    //========================================
-    //try {
-    //    var path = '/TaspaApi/sendChatMessage?chatMessage=' + chatMessage;
-    //    return ServerCall.Get(path)
-    //        .then(
-    //            function (response) {
-    //                var chatResponse = response;
-
-    //                var chatTextBox = document.getElementById("chatMessage");
-    //                chatTextBox.value = '';
-
-    //                var chatContents = chatConversationTextArea.value;
-    //                chatConversationTextArea.value = chatContents + '\r\n' + chatResponse;
-    //                chatConversationTextArea.blur();
-    //                chatConversationTextArea.focus(); // this scrolls the textarea
-    //            });
-    //}
-    //catch (ex) {
-    //    throw ex;
-    //}
 };
 
 ServerCalls.ClearChatSession = function () {

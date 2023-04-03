@@ -4,8 +4,8 @@ namespace Shared.Dto
 {
     public class ChatResponse
     {
-        public string Response { get; set; }
-        public SentimentResult SentimentChatResult { get; set; }
-        public SentimentResult SentimentConversationResult { get; set; }
+        public string response { get; set; }
+        public string sentimentConversationResult { get; set; }
+        public string sentimentChatResult { get; set; }
     }
 }

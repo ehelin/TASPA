@@ -52,6 +52,13 @@
     display: block;
 }
 
+.solidBackground {
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    width: 100px;
+}
+
 /* Search */
 .searchContainer {
     float: right;

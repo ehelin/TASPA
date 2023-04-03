@@ -162,7 +162,6 @@ searchList.Add(new SearchTerm() { Name = "esculcar", EnglishMeaning = "to dig", 
 searchList.Add(new SearchTerm() { Name = "esperar", EnglishMeaning = "to wait, to hope", JsonPath = "wwwroot\\json\\spanish\\verbs\\esperar.json" });
 searchList.Add(new SearchTerm() { Name = "contestar", EnglishMeaning = "to answer", JsonPath = "wwwroot\\json\\spanish\\verbs\\contestar.json" });
 searchList.Add(new SearchTerm() { Name = "estilar", EnglishMeaning = "to style", JsonPath = "wwwroot\\json\\spanish\\verbs\\estilar.json" });
-searchList.Add(new SearchTerm() { Name = "estilar", EnglishMeaning = "to style", JsonPath = "wwwroot\\json\\spanish\\verbs\\estilar.json" });
 searchList.Add(new SearchTerm() { Name = "estrenar", EnglishMeaning = "to use for the first time", JsonPath = "wwwroot\\json\\spanish\\verbs\\estrenar.json" });
 searchList.Add(new SearchTerm() { Name = "estudiar", EnglishMeaning = "to study", JsonPath = "wwwroot\\json\\spanish\\verbs\\estudiar.json" });
 searchList.Add(new SearchTerm() { Name = "exigir", EnglishMeaning = "to demand", JsonPath = "wwwroot\\json\\spanish\\verbs\\exigir.json" });

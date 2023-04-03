@@ -932,6 +932,7 @@ namespace DAL
             currentVerbList.Add("entrar");
             currentVerbList.Add("enviar");
             currentVerbList.Add("equivocar");
+            currentVerbList.Add("estropear");
             currentVerbList.Add("escoger");
             currentVerbList.Add("esconder");
             currentVerbList.Add("escribir");
@@ -939,7 +940,6 @@ namespace DAL
             currentVerbList.Add("esculcar");
             currentVerbList.Add("esperar");
             currentVerbList.Add("estar");
-            currentVerbList.Add("estilar");
             currentVerbList.Add("estilar");
             currentVerbList.Add("estrenar");
             currentVerbList.Add("estudiar");

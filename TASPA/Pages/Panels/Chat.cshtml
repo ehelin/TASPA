@@ -9,16 +9,15 @@
 
     <div id="chatBody">
         <div id="chatMessageButton">
-            <input type="text" id="chatMessage"/>
+            <input type="text" id="chatMessage" class="chatMessageTextBox"/>
+            <br/>
             <button id="sendChatMessage" class="displayPanel" onclick="SendChatMessage();">Send</button>
             <button id="clearUser" class="displayPanel" onclick="ClearChatSession();">Clear User</button>
         </div>
         <br/>
-        <!-- TODO - make conversation and message ranking colors -->
-        <label>Conversation Ranking</label>: <label id="conversationRanking"></label>
-        <br/>
-        <!-- TODO - embedd message ranking next to that chat in the display -->
-        <label>Message Ranking</label>: <label id="messageRanking"></label>
+        <label>Conversation Ranking</label>: <label id="conversationRanking" class="chatAnalysisColorNeutral"></label>
+        <br />
+        <label>Message Ranking</label>: <label id="messageRanking" class="chatAnalysisColorNeutral"></label>
         <br/>
         <div id="chatConversation" style="position: absolute; width: 95%; height: 60%;">
 			<textarea id="chatConversationTextArea" style="width: 80%; height: 55%;" readonly></textarea>

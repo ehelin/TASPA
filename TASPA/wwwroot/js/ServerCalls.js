@@ -182,13 +182,9 @@ ServerCalls.SendChatMessage = function (chatMessage, chatConversationTextArea, u
                     var chatTextBox = document.getElementById("chatMessage");
                     chatTextBox.value = '';
 
-                    var conversationRankingLabel = document.getElementById("conversationRanking");
-                    conversationRankingLabel.innerText = '';
-                    conversationRankingLabel.innerText = chatResponse.sentimentConversationResult;
-
-                    var messageRankingLabel = document.getElementById("messageRanking");
-                    messageRankingLabel.innerText = '';
-                    messageRankingLabel.innerText = chatResponse.sentimentChatResult;
+                    ClearChatAnalsysCssClasses();
+                    SetAnalysisResults("conversationRanking", chatResponse.sentimentConversationResult);
+                    SetAnalysisResults("messageRanking", chatResponse.sentimentChatResult);
 
                     var chatContents = chatConversationTextArea.value;
                     chatConversationTextArea.value = chatContents + '\r\n' + chatResponse.response;

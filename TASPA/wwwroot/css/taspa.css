@@ -144,3 +144,19 @@ chattextarea {
     height: 95%;
     border: solid blue;
 }*/
+
+.chatAnalysisColorPositive {
+    background-color: green;
+    color: white;
+}
+.chatAnalysisColorNegative {
+    background-color: red;
+    color: white;
+}
+.chatAnalysisColorNeutral {
+    background-color: white;
+    color: black;
+}
+.chatMessageTextBox {
+    width: 400px;
+}

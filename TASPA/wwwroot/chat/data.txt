@@ -92,3 +92,4 @@ positive
 a perfect beautiful kind message
 a horrible mean unkind message
 a positive awesome beautiful messages
+a nice message

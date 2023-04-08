@@ -7,6 +7,13 @@
 	<h4 class="center">Chat</h4>
 	<p>This is chat is an experiment that (for the moment) has nothing to do with TASPA.</p>
 
+    <div class="chatOptions">
+        <button type="button" id="btnChatOptions" onclick="ToggleChatOptions()">Hide Options</button>
+        <div class="expanded" id="chatOptions">
+            <label>Sentiment Analysis:</label><input type="checkbox" id="optionSentimentAnalysis" checked onclick="SetDisplay()">
+        </div>
+    </div>
+    <br />
     <div id="chatBody">
         <div id="chatMessageButton">
             <input type="text" id="chatMessage" class="chatMessageTextBox"/>
@@ -15,9 +22,13 @@
             <button id="clearUser" class="displayPanel" onclick="ClearChatSession();">Clear User</button>
         </div>
         <br/>
-        <label>Conversation Ranking</label>: <label id="conversationRanking" class="chatAnalysisColorNeutral"></label>
-        <br />
-        <label>Message Ranking</label>: <label id="messageRanking" class="chatAnalysisColorNeutral"></label>
+        
+        <div id="sentimentAnalsysDisplay" onload="SetDisplay()">
+            <label>Conversation Ranking</label>: <label id="conversationRanking" class="chatAnalysisColorNeutral"></label>
+            <br />
+            <label>Message Ranking</label>: <label id="messageRanking" class="chatAnalysisColorNeutral"></label>
+        </div>
+
         <br/>
         <div id="chatConversation" style="position: absolute; width: 95%; height: 60%;">
 			<textarea id="chatConversationTextArea" style="width: 80%; height: 55%;" readonly></textarea>

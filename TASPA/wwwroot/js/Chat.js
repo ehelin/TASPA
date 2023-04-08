@@ -1,14 +1,50 @@
 ﻿function SendChatMessage() {
-    var chatConversationTextArea = document.getElementById("chatConversationTextArea");
-    var chatMessageBox = document.getElementById("chatMessage");
-    var chatMessage = chatMessageBox.value;
-    
-    ServerCalls.SendChatMessage(chatMessage, chatConversationTextArea, true);
+    let chatConversationTextArea = document.getElementById("chatConversationTextArea");
+    let chatMessageBox = document.getElementById("chatMessage");
+    let optionSentimentAnalysis = document.getElementById("optionSentimentAnalysis");
+    let chatMessage = chatMessageBox.value;
+
+    if (optionSentimentAnalysis.checked) {
+        ServerCalls.SendChatMessage(chatMessage, chatConversationTextArea, true);
+    } else {
+        ServerCalls.SendChatMessage(chatMessage, chatConversationTextArea, false);
+    }    
+}
+
+function SetDisplay() {
+    let optionSentimentAnalysis = document.getElementById("optionSentimentAnalysis");
+    let sentimentAnalsysDisplay = document.getElementById("sentimentAnalsysDisplay");
+
+    if (optionSentimentAnalysis.checked) {
+        sentimentAnalsysDisplay.classList.add('expanded');
+        sentimentAnalsysDisplay.classList.remove('collasped');
+    } else {
+        sentimentAnalsysDisplay.classList.add('collasped');
+        sentimentAnalsysDisplay.classList.remove('expanded');
+    }  
+}
+
+function ToggleChatOptions()
+{
+    let chatOptionsDisplay = document.getElementById("chatOptions");
+    let chatOptionsButton = document.getElementById("btnChatOptions");
+
+    if (chatOptionsDisplay.className === 'collasped') {
+        chatOptionsDisplay.classList.add('expanded');
+        chatOptionsDisplay.classList.remove('collasped');
+
+        chatOptionsButton.innerText = 'Hide Options';
+    } else {
+        chatOptionsDisplay.classList.add('collasped');
+        chatOptionsDisplay.classList.remove('expanded');
+
+        chatOptionsButton.innerText = 'Show Options';
+    }
 }
 
 function ClearChatSession() {
-    var chatConversationTextArea = document.getElementById("chatConversationTextArea");
-    var chatMessageBox = document.getElementById("chatMessage");
+    let chatConversationTextArea = document.getElementById("chatConversationTextArea");
+    let chatMessageBox = document.getElementById("chatMessage");
 
     chatMessageBox.value = '';
     chatConversationTextArea.value = '';
@@ -17,13 +53,13 @@ function ClearChatSession() {
 }
 
 function ClearChatAnalsysCssClasses() {
-    var conversationRankingLabel = document.getElementById("conversationRanking");
+    let conversationRankingLabel = document.getElementById("conversationRanking");
     conversationRankingLabel.innerText = '';
     conversationRankingLabel.classList.remove('chatAnalysisColorPositive');
     conversationRankingLabel.classList.remove('chatAnalysisColorNegative');
     conversationRankingLabel.classList.remove('chatAnalysisColorNeutral');
 
-    var messageRankingLabel = document.getElementById("messageRanking");
+    let messageRankingLabel = document.getElementById("messageRanking");
     messageRankingLabel.innerText = '';
     messageRankingLabel.classList.remove('chatAnalysisColorPositive');
     messageRankingLabel.classList.remove('chatAnalysisColorNegative');
@@ -31,7 +67,7 @@ function ClearChatAnalsysCssClasses() {
 }
 
 function SetAnalysisResults(controlId, result) {
-    var rankingLabel = document.getElementById(controlId);
+    let rankingLabel = document.getElementById(controlId);
     rankingLabel.innerText = result;
 
     if (result === 'Positive') {

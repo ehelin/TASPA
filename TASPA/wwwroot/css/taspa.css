@@ -160,3 +160,7 @@ chattextarea {
 .chatMessageTextBox {
     width: 400px;
 }
+.chatOptions{
+    text-align: center;
+    align-content: center;
+}

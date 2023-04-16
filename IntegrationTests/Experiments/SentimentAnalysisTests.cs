@@ -8,6 +8,7 @@ using Shared.Interfaces;
 using Xunit;
 using Shared.Dto.Chat;
 using DAL;
+using Shared.Dto.SentimentAnalysis;
 
 namespace IntegrationTests.Experiments
 {
@@ -31,7 +32,7 @@ namespace IntegrationTests.Experiments
         {
             var result = sentimentAnalysis.GetChatSentenceRanking(message);
 
-            Assert.Equal(result, expectedResult);
+            Assert.Equal(result.Message, expectedResult);
         }
 
         [Theory]
@@ -40,10 +41,18 @@ namespace IntegrationTests.Experiments
         [InlineData("This is a horrible ugly mean message. Full of ugly horrible mean vicious things.  A truly bad chat conversation.", SentimentResult.Negative)]
         public void GetChatConversationRanking(string conversation, SentimentResult expectedResult)
         {
+            SentimentAnalysisResult result = null;
             var sentences = conversation.Split('.').ToList();
-            var result = sentimentAnalysis.GetChatConversationRanking(sentences);
 
-            Assert.Equal(result, expectedResult);
+            foreach (var sentence in sentences)
+            {
+                if (!string.IsNullOrEmpty(sentence))
+                {
+                    result = sentimentAnalysis.GetChatSentenceRanking(sentence);
+                }
+            }
+
+            Assert.Equal(result.Conversation, expectedResult);
         }
     }
 }

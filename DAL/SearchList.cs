@@ -16,7 +16,7 @@ searchList.Add(new SearchTerm() { Name = "acabar", EnglishMeaning = "to finish",
 searchList.Add(new SearchTerm() { Name = "aceptar", EnglishMeaning = "to accept", JsonPath = "wwwroot\\json\\spanish\\verbs\\aceptar.json" });
 searchList.Add(new SearchTerm() { Name = "acercar", EnglishMeaning = "to bring closer", JsonPath = "wwwroot\\json\\spanish\\verbs\\acercar.json" });
 searchList.Add(new SearchTerm() { Name = "aconsejar", EnglishMeaning = "to advise", JsonPath = "wwwroot\\json\\spanish\\verbs\\aconsejar.json" });
-searchList.Add(new SearchTerm() { Name = "acordar", EnglishMeaning = "to agree, decide", JsonPath = "wwwroot\\json\\spanish\\verbs\\acordar.json" });
+searchList.Add(new SearchTerm() { Name = "acordar", EnglishMeaning = "to agree, to decide", JsonPath = "wwwroot\\json\\spanish\\verbs\\acordar.json" });
 searchList.Add(new SearchTerm() { Name = "acostar", EnglishMeaning = "to lay down, go to bed", JsonPath = "wwwroot\\json\\spanish\\verbs\\acostar.json" });
 searchList.Add(new SearchTerm() { Name = "acudir", EnglishMeaning = "to go to", JsonPath = "wwwroot\\json\\spanish\\verbs\\acudir.json" });
 searchList.Add(new SearchTerm() { Name = "adelgazar", EnglishMeaning = "to lose weight", JsonPath = "wwwroot\\json\\spanish\\verbs\\adelgazar.json" });
@@ -107,7 +107,7 @@ searchList.Add(new SearchTerm() { Name = "cruzar", EnglishMeaning = "to cross", 
 searchList.Add(new SearchTerm() { Name = "cubrir", EnglishMeaning = "to cover", JsonPath = "wwwroot\\json\\spanish\\verbs\\cubrir.json" });
 searchList.Add(new SearchTerm() { Name = "cuidar", EnglishMeaning = "to take care of", JsonPath = "wwwroot\\json\\spanish\\verbs\\cuidar.json" });
 searchList.Add(new SearchTerm() { Name = "cumplir", EnglishMeaning = "to achieve", JsonPath = "wwwroot\\json\\spanish\\verbs\\cumplir.json" });
-searchList.Add(new SearchTerm() { Name = "acordar", EnglishMeaning = "to agree, decide", JsonPath = "wwwroot\\json\\spanish\\verbs\\acordar.json" });
+searchList.Add(new SearchTerm() { Name = "acordar", EnglishMeaning = "to agree, to decide", JsonPath = "wwwroot\\json\\spanish\\verbs\\acordar.json" });
 searchList.Add(new SearchTerm() { Name = "deber", EnglishMeaning = "should, must, to have to; to owe", JsonPath = "wwwroot\\json\\spanish\\verbs\\deber.json" });
 searchList.Add(new SearchTerm() { Name = "decidir", EnglishMeaning = "to decide", JsonPath = "wwwroot\\json\\spanish\\verbs\\decidir.json" });
 searchList.Add(new SearchTerm() { Name = "decir", EnglishMeaning = "to say", JsonPath = "wwwroot\\json\\spanish\\verbs\\decir.json" });

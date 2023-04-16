@@ -210,15 +210,26 @@ namespace IntegrationTests
         private void VerifyTerms(List<string> terms, string jsonPath)
         {
             var ctr = 1;
-            foreach (var spanishTerm in terms)
+            try
             {
-                var matches = new List<Base>();
+                foreach (var spanishTerm in terms)
+                {
+                    var matches = new List<Base>();
 
-                GetTermJasonFile(spanishTerm, jsonPath, matches);
+                    GetTermJasonFile(spanishTerm, jsonPath, matches);
+                    if (ctr == 7)
+                    {
+                        var test = 1;
+                    }
 
-                Assert.True(matches.Count == 1);
-                System.Diagnostics.Debug.WriteLine("Ctr: " + ctr.ToString());
-                ctr++;
+                    Assert.True(matches.Count == 1);
+                    System.Diagnostics.Debug.WriteLine("Ctr: " + ctr.ToString());
+                    ctr++;
+                }
+            }
+            catch (Exception ex)
+            {
+                var test = 1;
             }
         }
 

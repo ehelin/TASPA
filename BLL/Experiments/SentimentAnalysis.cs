@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Shared.Dto.Chat;
 using Shared.Dto.Sentence;
+using Shared.Dto.SentimentAnalysis;
 using Shared.Interfaces;
 
 namespace BLL.Experiments
@@ -21,27 +22,40 @@ namespace BLL.Experiments
     public class SentimentAnalysis : ISentimentAnalysis
     {
         private readonly ISentimentAnalysisData sentimentAnalysisData;
+        private readonly List<string> conversation;
 
         public SentimentAnalysis(ISentimentAnalysisData sentimentAnalysisData)
 		{
             this.sentimentAnalysisData = sentimentAnalysisData;
+            this.conversation = new List<string>();
         }
 
-        public SentimentResult GetChatConversationRanking(List<string> sentences)
+        public SentimentAnalysisResult GetChatSentenceRanking(string sentence)
+        {
+            var result = GetSentenceRanking(sentence);
+            conversation.Add(sentence);
+            result.Conversation = GetChatConversationRanking();
+
+            return result;
+        }
+
+        #region Private Methods
+
+        private SentimentResult GetChatConversationRanking()
         {
             var positiveScore = 0;
             var neutralScore = 0;
             var negativeScore = 0;
 
-            foreach (var sentence in sentences)
+            foreach (var sentence in conversation)
             {
-                var sentimentResult = GetChatSentenceRanking(sentence);
+                var sentimentResult = GetSentenceRanking(sentence);
 
-                if (sentimentResult == SentimentResult.Positive)
+                if (sentimentResult.Message == SentimentResult.Positive)
                 {
                     positiveScore++;
                 }
-                else if (sentimentResult == SentimentResult.Neutral)
+                else if (sentimentResult.Message == SentimentResult.Neutral)
                 {
                     neutralScore++;
                 }
@@ -56,13 +70,14 @@ namespace BLL.Experiments
             return results;
         }
 
-        public SentimentResult GetChatSentenceRanking(string sentence)
+        private SentimentAnalysisResult GetSentenceRanking(string sentence)
         {
+            var result = new SentimentAnalysisResult();
             var words = sentence.Split(' ');
             var score = 0;
             foreach (var word in words)
             {
-                var negativeWords = this.sentimentAnalysisData.NegativeWords.Where(x => x.Word== word).ToList();
+                var negativeWords = this.sentimentAnalysisData.NegativeWords.Where(x => x.Word == word).ToList();
                 var positiveWords = this.sentimentAnalysisData.PositiveWords.Where(x => x.Word == word).ToList();
 
                 // negative word only
@@ -94,12 +109,10 @@ namespace BLL.Experiments
                 }
             }
 
-            var results = GetAnalysisResult(score);
+            result.Message = GetAnalysisResult(score);
 
-            return results;
+            return result;
         }
-
-        #region Private Methods
 
         private SentimentResult GetAnalysisResult(int score)
         {

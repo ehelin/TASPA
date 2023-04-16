@@ -42,7 +42,7 @@ namespace IntegrationTests.Experiments
 			{
 				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
 
-				if (response.Response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				if (response.response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					chatUserNameRequested = true;
 					break;
@@ -71,15 +71,15 @@ namespace IntegrationTests.Experiments
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
-				var responseAsArray = response.Response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
-				response.Response = responseAsArray[1].Replace(responsePrefix, "");
+				var responseAsArray = response.response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response.response = responseAsArray[1].Replace(responsePrefix, "");
 
-				if (response.Response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				if (response.response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					chatUserNameRequested = true;
 					msg = chatUserName;
 				}
-				else if (response.Response.IndexOf(chatUserName) != -1 && chatUserNameUsageCounter < expectedGoodResponseCount)
+				else if (response.response.IndexOf(chatUserName) != -1 && chatUserNameUsageCounter < expectedGoodResponseCount)
 				{
 					chatUserNameUsageCounter++;
 				}
@@ -111,14 +111,14 @@ namespace IntegrationTests.Experiments
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
-				var responseAsArray = response.Response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
-				response.Response = responseAsArray[1].Replace(responsePrefix, "");
+				var responseAsArray = response.response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response.response = responseAsArray[1].Replace(responsePrefix, "");
 
-				if (response.Response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				if (response.response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					msg = chatUserName;
 				}
-				else if (response.Response.IndexOf(chatUserName) != -1)
+				else if (response.response.IndexOf(chatUserName) != -1)
 				{
 					chatUserNameUsageCounter++;
 					//System.Diagnostics.Debug.WriteLine(response + " --- " + ctr.ToString());
@@ -145,15 +145,15 @@ namespace IntegrationTests.Experiments
 			{
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
-				var responseAsArray = response.Response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
-				response.Response = responseAsArray[1].Replace(responsePrefix, "");
+				var responseAsArray = response.response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response.response = responseAsArray[1].Replace(responsePrefix, "");
 
-				if (!chatUserNameRequested && response.Response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				if (!chatUserNameRequested && response.response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					chatUserNameRequested = true;
 					msg = chatUserName;
 				}
-				else if (chatUserNameRequested && response.Response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				else if (chatUserNameRequested && response.response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					chatUserNeverRequestedAfterSubmission = true;
 					break;
@@ -190,10 +190,10 @@ namespace IntegrationTests.Experiments
 			{           
 				//get answer portion of the response
 				var response = chatService.GetMessageResponse(this.webRoot, msg, includeSentimentAnalysis);
-				var responseAsArray = response.Response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
-				response.Response = responseAsArray[1].Replace(responsePrefix, "");
+				var responseAsArray = response.response.Split(new[] { "\r\n" }, StringSplitOptions.None); ;
+				response.response = responseAsArray[1].Replace(responsePrefix, "");
 
-				if (response.Response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
+				if (response.response.IndexOf(ChatServiceOne.REQUEST_CHAT_USER_MESSAGE) != -1)
 				{
 					msg = chatUserName;
 				}

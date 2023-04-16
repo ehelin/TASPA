@@ -213,9 +213,8 @@ namespace BLL.Experiments
 			if (includeSentimentAnalysis)
 			{
 				var sentimentChatResult = this.sentimentAnalysis.GetChatSentenceRanking(chatMessage);
-                var sentimentConversationResult = this.sentimentAnalysis.GetChatConversationRanking(this.alreadyUsedResponses);
-                response.sentimentChatResult = sentimentChatResult.ToString();
-                response.sentimentConversationResult = sentimentConversationResult.ToString();
+				response.sentimentChatResult = sentimentChatResult.Message.ToString();
+                response.sentimentConversationResult = sentimentChatResult.Conversation.ToString();
             }
 
             return response;

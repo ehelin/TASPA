@@ -49,6 +49,8 @@ function ClearChatSession() {
     chatMessageBox.value = '';
     chatConversationTextArea.value = '';
 
+    ClearChatAnalsysCssClasses();
+
     ServerCalls.ClearChatSession();
 }
 

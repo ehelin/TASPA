@@ -107,6 +107,8 @@ namespace BLL.Experiments
 
 			this.chatNameIsSet = false;
 			this.chatUserName = null;
+
+			this.sentimentAnalysis.ClearConversation();
         }
 
 		public void ClearChatSession()

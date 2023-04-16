@@ -30,6 +30,11 @@ namespace BLL.Experiments
             this.conversation = new List<string>();
         }
 
+        public void ClearConversation()
+        {
+            conversation.Clear();
+        }
+
         public SentimentAnalysisResult GetChatSentenceRanking(string sentence)
         {
             var result = GetSentenceRanking(sentence);

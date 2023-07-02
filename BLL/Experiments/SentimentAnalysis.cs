@@ -7,6 +7,10 @@ using Shared.Dto.Chat;
 using Shared.Dto.Sentence;
 using Shared.Dto.SentimentAnalysis;
 using Shared.Interfaces;
+using System;
+using System.Collections.Generic;
+using Microsoft.VisualBasic;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace BLL.Experiments
 {
@@ -85,32 +89,13 @@ namespace BLL.Experiments
                 var negativeWords = this.sentimentAnalysisData.NegativeWords.Where(x => x.Word == word).ToList();
                 var positiveWords = this.sentimentAnalysisData.PositiveWords.Where(x => x.Word == word).ToList();
 
-                // negative word only
-                if (negativeWords.Count() > 0 && positiveWords.Count() == 0)
-                {
-                    score--;
-                }
-                // positive word only
-                else if (positiveWords.Count() > 0 && negativeWords.Count() == 0)
+                if (positiveWords.Any(x => x.Word == word))
                 {
                     score++;
                 }
-                // both lists contain word...use class to determine which to use 
-                // MN - Mostly Negative
-                // NMP - Not Mostly Positive
-                // MP - Mostly Positive
-                // NMN - Not Mostly Negative
-                else if (positiveWords.Count() > 0 && negativeWords.Count() > 0)
+                else if (negativeWords.Any(x => x.Word == word))
                 {
-                    if ((negativeWords[0].Class == "MN" || negativeWords[0].Class == "NMP")
-                        && (positiveWords[0].Class == "MN" || positiveWords[0].Class == "NMP"))
-                    {
-                        score--;
-                    }
-                    else
-                    {
-                        score++;
-                    }
+                    score--;
                 }
             }
 

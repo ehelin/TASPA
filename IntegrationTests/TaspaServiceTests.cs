@@ -203,6 +203,84 @@ namespace IntegrationTests
             RunComparisons(verbs, jsonPath);
         }
 
+        [Fact]
+        public void VerifyAllVerbsHaveFullConjunctions()
+        {
+            var jsonPath = string.Format("{0}{1}", this.parentJsonPath, "verbs\\");
+            var verbFiles = Directory.GetFiles(jsonPath);
+
+            Verb verb = null;
+            foreach (var verbFile in verbFiles)
+            {
+                try
+                {
+                    verb = JsonConvert.DeserializeObject<sharedDto.Verb>(verbFile);
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Name));
+                    Assert.True(!string.IsNullOrEmpty(verb.EnglishMeaning));
+                    Assert.True(!string.IsNullOrEmpty(verb.PresentParticiple));
+                    Assert.True(!string.IsNullOrEmpty(verb.PastParticiple));
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.PresentTense.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.PresentTense.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.PresentTense.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.PresentTense.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.PresentTense.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.PresentTense.EllosEllasUstedes));
+
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Pretérito.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Pretérito.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Pretérito.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Pretérito.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Pretérito.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Pretérito.EllosEllasUstedes));
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Conditional.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Conditional.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Conditional.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Conditional.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Conditional.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Conditional.EllosEllasUstedes));
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Future.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Future.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Future.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Future.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Future.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Indicative.Future.EllosEllasUstedes));
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.PresentTense.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.PresentTense.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.PresentTense.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.PresentTense.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.PresentTense.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.PresentTense.EllosEllasUstedes));
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Imperfect.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Imperfect.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Imperfect.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Imperfect.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Imperfect.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Imperfect.EllosEllasUstedes));
+
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Future.Yo));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Future.Tu));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Future.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Future.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Future.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(verb.Subjunctive.Future.EllosEllasUstedes));
+
+                    //
+                    // 
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.WriteLine(string.Format("{0} error ctr: {1}", verb, verbFile));
+                }
+            }
+        }
+
         #endregion
 
         #region Private

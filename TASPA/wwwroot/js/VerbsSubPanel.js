@@ -59,6 +59,23 @@ function VerbListNext(verbName, verbJson) {
         verbNameContent.append(verbJson.EnglishMeaning);
         verbValueContent.append(verbName);
     }
+
+    SetConjungations(verbJson);
+}
+
+function SetConjungations(verbJson) {
+    var conjunctionLabelContent = document.getElementById("conjunctionLabel")
+    var currentConjungationContent = document.getElementById("currentConjungation")
+
+    if (verbJson != null && verbJson != 'undefined') {
+        conjunctionLabelContent.innerText = 'Present Tense'
+        currentConjungationContent.innerText =verbJson.Indicative.PresentTense.Yo + ', '
+            + verbJson.Indicative.PresentTense.Tu + ', '
+            + verbJson.Indicative.PresentTense.ElEllaUsted + ', '
+            + verbJson.Indicative.PresentTense.Nosotros + ', '
+            + verbJson.Indicative.PresentTense.Vosotros + ', '
+            + verbJson.Indicative.PresentTense.EllosEllasUstedes;
+    }
 }
 
 function VerbListShow() {

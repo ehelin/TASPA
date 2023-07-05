@@ -25,9 +25,9 @@ namespace IntegrationTests.Experiments
         }
 
         [Theory]
-        [InlineData("This is a nice friendly beautiful positive message", SentimentResult.Positive)]
+        [InlineData("This is an abundance achievement of action", SentimentResult.Positive)]
         [InlineData("This is a message", SentimentResult.Neutral)]
-        [InlineData("not bad even never terrible", SentimentResult.Negative)]
+        [InlineData("abandoned abyss of abuse", SentimentResult.Negative)]
         public void GetChatSentenceRanking(string message, SentimentResult expectedResult)
         {
             var result = sentimentAnalysis.GetChatSentenceRanking(message);
@@ -36,7 +36,7 @@ namespace IntegrationTests.Experiments
         }
 
         [Theory]
-        [InlineData("This is a nice friendly beautiful positive message. A nice positive thought that is beautiful. Truely, a positive, nice and friendly conversation.", SentimentResult.Positive)]
+        [InlineData("This is an abundance achievement of action. This is an abundance achievement of action. This is an abundance achievement of action.", SentimentResult.Positive)]
         [InlineData("This is a message. A message with no adverbs or adjectives. A chat conversation.", SentimentResult.Neutral)]
         [InlineData("This is a horrible ugly mean message. Full of ugly horrible mean vicious things.  A truly bad chat conversation.", SentimentResult.Negative)]
         public void GetChatConversationRanking(string conversation, SentimentResult expectedResult)

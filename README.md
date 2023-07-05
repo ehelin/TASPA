@@ -26,6 +26,19 @@ Blog Post(s):
 			</li>
 		</ul>
 	</li>
+	<li>Chat Experiment
+		<ul>
+			<li>
+				<a href="https://erichelin.wordpress.com/2023/03/03/chat-experiment-part-1-chat-w-simple-response-manipulation-2/">Chat Experiment – Part 1 – Chat w/Simple Response Manipulation</a>
+			</li>
+			<li>
+				<a href="https://erichelin.wordpress.com/2023/04/17/chat-experiment-part-2-natural-language-processing-nlp-sentiment-analysis-rules-based-approach/">Chat Experiment – Part 2 – Natural Language Processing (NLP) – Sentiment Analysis Rules Based Approach</a>
+			</li>
+			<li>
+				<a href="https://erichelin.wordpress.com/2023/07/03/chat-experiment-part-3-natural-language-processing-nlp-chatgpts-sentiment-analysis-rules-based-approach-2/">Chat Experiment – Part 3 – Natural Language Processing (NLP) – ChatGPT’s Sentiment Analysis Rules Based Approach</a>
+			</li>
+		</ul>
+	</li>
 </ul>
 
 

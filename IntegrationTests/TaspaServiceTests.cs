@@ -20,6 +20,7 @@ namespace IntegrationTests
         private readonly ITaspaService bllService;
         private readonly string parentJsonPath;
         private readonly string rootJsonPath;
+        private readonly string verbJsonPath;
 
         public TaspaServiceTests()
         {
@@ -29,6 +30,7 @@ namespace IntegrationTests
             // TODO - get paths dyanmically
             this.parentJsonPath = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\";
             this.rootJsonPath = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\";
+            this.verbJsonPath = "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\verbs\\";
         }
 
         #region Service
@@ -288,26 +290,16 @@ namespace IntegrationTests
         private void VerifyTerms(List<string> terms, string jsonPath)
         {
             var ctr = 1;
-            try
-            {
-                foreach (var spanishTerm in terms)
-                {
-                    var matches = new List<Base>();
 
-                    GetTermJasonFile(spanishTerm, jsonPath, matches);
-                    if (ctr == 7)
-                    {
-                        var test = 1;
-                    }
-
-                    Assert.True(matches.Count == 1);
-                    System.Diagnostics.Debug.WriteLine("Ctr: " + ctr.ToString());
-                    ctr++;
-                }
-            }
-            catch (Exception ex)
+            foreach (var spanishTerm in terms)
             {
-                var test = 1;
+                var matches = new List<Base>();
+
+                GetTermJasonFile(spanishTerm, jsonPath, matches);
+
+                Assert.True(matches.Count == 1);
+                System.Diagnostics.Debug.WriteLine("Ctr: " + ctr.ToString());
+                ctr++;
             }
         }
 
@@ -347,6 +339,69 @@ namespace IntegrationTests
 
         #region Verbs 
 
+        [Fact]
+        public void VerifyAllVerbsHaveExpectedConjunctions()
+        {
+            var ctr = 0;
+            var errorCtr = 0;
+            var verbFilePath = "";
+            var verbFiles = Directory.GetFiles(this.verbJsonPath);
+            var verbs = this.bllService.GetVerbList("Full");
+
+            foreach (var verb in verbs)
+            {
+                try
+                {
+                    verbFilePath = verbFiles.Where(x => x.Contains(verb)).FirstOrDefault();
+                    Assert.True(!string.IsNullOrEmpty(verbFilePath));
+
+                    var verbFile = File.ReadAllText(verbFilePath);
+                    Assert.True(!string.IsNullOrEmpty(verbFile));
+
+                    var jsonFile = JsonConvert.DeserializeObject<sharedDto.Verb>(verbFile);
+
+                    //Conditional
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Conditional.Yo));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Conditional.Tu));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Conditional.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Conditional.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Conditional.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Conditional.EllosEllasUstedes));
+
+                    //Future
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Future.Yo));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Future.Tu));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Future.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Future.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Future.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Future.EllosEllasUstedes));
+
+                    //PresentTense
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.PresentTense.Yo));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.PresentTense.Tu));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.PresentTense.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.PresentTense.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.PresentTense.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.PresentTense.EllosEllasUstedes));
+
+                    //Pretérito
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Pretérito.Yo));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Pretérito.Tu));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Pretérito.ElEllaUsted));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Pretérito.Nosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Pretérito.Vosotros));
+                    Assert.True(!string.IsNullOrEmpty(jsonFile.Indicative.Pretérito.EllosEllasUstedes));
+                }
+                catch (Exception ex)
+                {
+                    errorCtr++;
+                    var msg = string.Format("{0} error ctr: {1}", verbFilePath, errorCtr.ToString());
+                    System.Diagnostics.Debug.WriteLine(msg);
+                    throw new Exception(msg);
+                }
+                ctr++;
+            }
+        }
 
         #endregion
 

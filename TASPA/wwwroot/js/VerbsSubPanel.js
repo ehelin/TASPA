@@ -63,12 +63,23 @@ function VerbListNext(verbName, verbJson) {
     SetConjungations(verbJson);
 }
 
+function ShowConjugationPanel(tenseName) {
+    var conjunctionPanel = document.getElementById("conjunctionPanel");
+    var conjunctionPanelTitleContent = document.getElementById("conjunctionPanelTitle")
+
+    conjunctionPanel.style.display = 'block';
+    conjunctionPanelTitleContent.innerText = tenseName;
+}
+
+function HideConjugationPanel() {
+    var conjunctionPanel = document.getElementById("conjunctionPanel");
+    conjunctionPanel.style.display = 'none';
+}
+
 function SetConjungations(verbJson) {
-    var conjunctionLabelContent = document.getElementById("conjunctionLabel")
     var currentConjungationContent = document.getElementById("currentConjungation")
 
     if (verbJson != null && verbJson != 'undefined') {
-        conjunctionLabelContent.innerText = 'Present Tense'
         currentConjungationContent.innerText =verbJson.Indicative.PresentTense.Yo + ', '
             + verbJson.Indicative.PresentTense.Tu + ', '
             + verbJson.Indicative.PresentTense.ElEllaUsted + ', '

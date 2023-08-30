@@ -11,5 +11,14 @@
     <div id="message"></div>
     <br/>
     <br/>
-    <label id="conjunctionLabel"></label><p id="currentConjungation"></p>
+    <label>Conjugation Practice</label>
+    <br />
+    <button onclick="ShowConjugationPanel('Present Tense');" class="displayPanel">Present Tense</button>
+    <div id="conjunctionPanel" class="popup">
+        <div class="popup-content">
+            <span id="closeButton" class="close" onclick="HideConjugationPanel();">&times;</span>
+            <h2 id="conjunctionPanelTitle"></h2>
+            <p id="currentConjungation"></p>
+        </div>
+    </div>
 </div>

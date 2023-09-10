@@ -65,8 +65,6 @@ function VerbListNext(verbName, verbJson) {
         verbNameContent.append(verbJson.EnglishMeaning);
         verbValueContent.append(verbName);
     }
-
-    //SetConjungations(verbJson);
 }
 
 function ShowConjugationPanel(tenseName) {
@@ -80,8 +78,6 @@ function ShowConjugationPanel(tenseName) {
 }
 
 function HideConjugationPanel(event) {
-    event.stopPropagation();
-
     var conjunctionPanel = document.getElementById("conjunctionPanel");
     conjunctionPanel.style.display = 'none';
     clearConjugationList();
@@ -120,7 +116,6 @@ function SetConjungations(verbJson) {
     }
 }
 
-// TODO - add method to prevent showConjugation() from firing when conjungation box is closed
 function showConjugation()
 {
     if (this.currentConjunctionIndex == 0)

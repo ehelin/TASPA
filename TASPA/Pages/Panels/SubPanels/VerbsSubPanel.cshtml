@@ -14,11 +14,19 @@
     <label>Conjugation Practice</label>
     <br />
     <button onclick="ShowConjugationPanel('Present Tense');" class="displayPanel">Present Tense</button>
-    <div id="conjunctionPanel" class="popup">
+    <div id="conjunctionPanel" class="popup" onclick="showConjugation()">
         <div class="popup-content">
             <span id="closeButton" class="close" onclick="HideConjugationPanel();">&times;</span>
             <h2 id="conjunctionPanelTitle"></h2>
-            <p id="currentConjungation"></p>
+
+            <p id="yo"></p>
+            <p id="tu"></p>
+            <p id="elellausted"></p>
+            <p id="nosotros"></p>
+            <p id="vosotros"></p>
+            <p id="ellosellasustedes"></p>
+            <br/>
+            <p id="EndOfList"></p>
         </div>
     </div>
 </div>

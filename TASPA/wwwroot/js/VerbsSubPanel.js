@@ -71,7 +71,7 @@ function ShowConjugationPanel(tenseName) {
     var conjunctionPanel = document.getElementById("conjunctionPanel");
     var conjunctionPanelTitleContent = document.getElementById("conjunctionPanelTitle")
 
-    conjunctionPanel.style.display = 'block';
+    conjunctionPanel.style.display = 'flex';
     conjunctionPanelTitleContent.innerText = tenseName;
 
     SetConjungations(this.verbJson);
@@ -84,12 +84,13 @@ function HideConjugationPanel(event) {
 }
 
 function clearConjugationList() {
-    var yo = document.getElementById("yo").innerText = '';
-    var tu = document.getElementById("tu").innerText = '';
-    var elellausted = document.getElementById("elellausted").innerText = '';
-    var nosotros = document.getElementById("nosotros").innerText = '';
-    var vosotros = document.getElementById("vosotros").innerText = '';
-    var ellosellasustedes = document.getElementById("ellosellasustedes").innerText = '';
+    document.getElementById("conjugationVerb").innerText = '';
+    document.getElementById("yo").innerText = '';
+    document.getElementById("tu").innerText = '';
+    document.getElementById("elellausted").innerText = '';
+    document.getElementById("nosotros").innerText = '';
+    document.getElementById("vosotros").innerText = '';
+    document.getElementById("ellosellasustedes").innerText = '';
     document.getElementById("EndOfList").innerText = '';
 }
 
@@ -111,8 +112,8 @@ function SetConjungations(verbJson) {
             verbJson.Indicative.PresentTense.EllosEllasUstedes
         ];
 
-        var yo = document.getElementById("yo")
-        yo.innerText = 'yo - ?';
+        document.getElementById("conjugationVerb").innerText = verbJson.Name;
+        document.getElementById("yo").innerText = 'yo - ?';
     }
 }
 

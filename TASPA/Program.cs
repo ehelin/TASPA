@@ -10,6 +10,18 @@ Utilities.SetDI(builder.Services);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+// Configure CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAnyOrigin", builder =>
+    {
+        builder
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -17,6 +29,10 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
 }
+
+// In the Configure method
+app.UseCors("AllowAnyOrigin");
+
 app.UseStaticFiles();
 
 app.UseRouting();

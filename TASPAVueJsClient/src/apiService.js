@@ -1,7 +1,10 @@
 import axios from 'axios';
-const apiBaseUrl = 'http://localhost:8055'; // Replace with your API's URL
+
+const apiBaseUrl = 'http://localhost:8055'; 
+
 const apiService = axios.create({
     baseURL: apiBaseUrl,
-    timeout: 5000, // Adjust the timeout as needed
+    timeout: 60000, 
 });
+
 export default apiService;

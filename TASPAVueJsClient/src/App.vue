@@ -10,6 +10,7 @@
         components: {            
             navigationLinks
         },
+
         data() {
             //return {
             //    count: 0//,

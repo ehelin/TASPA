@@ -53,6 +53,8 @@
     <Content Include="src\components\NavigationLinks.vue" />
     <Content Include="src\components\HelloWorld.vue" />
     <Content Include="src\main.js" />
+    <Content Include="src\ServerCall.js" />
+    <Content Include="src\ServerCalls.js" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

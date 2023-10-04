@@ -90,7 +90,15 @@ namespace TASPA.Controllers
         [HttpGet("getNavigationLinks")]
         public IActionResult GetNavigationLinks()
         {
-            var navigationLinks = this.taspaService.GetNavigationLinks();
+            var navigationLinks = this.taspaService.GetNavigationLinks(Shared.Client.VanillaJs);
+
+            return Ok(navigationLinks); // 200
+        }
+
+        [HttpGet("getVueJsNavigationLinks")]
+        public IActionResult GetVueJsNavigationLinks()
+        {
+            var navigationLinks = this.taspaService.GetNavigationLinks(Shared.Client.VanillaJs);
 
             return Ok(navigationLinks); // 200
         }

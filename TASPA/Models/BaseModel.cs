@@ -13,7 +13,7 @@ namespace TASPA.Models
         public BaseModel(ITaspaService taspaService)
         {
             this.taspaService = taspaService;
-            this.NavigationLinks = this.taspaService.GetNavigationLinks();
+            this.NavigationLinks = this.taspaService.GetNavigationLinks(Shared.Client.VanillaJs);
         }
     }
 }

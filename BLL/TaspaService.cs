@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Shared;
 using Shared.Dto;
 using Shared.Interfaces;
 
@@ -70,9 +71,19 @@ namespace BLL
 
         #endregion
 
-        public List<NavigationLink> GetNavigationLinks()
+        // TODO - fix any broken tests
+        public List<NavigationLink> GetNavigationLinks(Client client)
         {
-            var navigationLinks = this.taspaDataService.GetNavigationLinks();
+            List<NavigationLink> navigationLinks = null;
+
+            if (client == Client.VueJs)
+            {
+                navigationLinks = this.taspaDataService.GetVueJsNavigationLinks();
+            }
+            else
+            {
+                navigationLinks = this.taspaDataService.GetNavigationLinks();
+            }
 
             return navigationLinks;
         }

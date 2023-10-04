@@ -6,6 +6,7 @@ namespace Shared.Interfaces
     public interface ITaspaData
     {
         public List<NavigationLink> GetNavigationLinks();
+        public List<NavigationLink> GetVueJsNavigationLinks();
         public List<VocabularyRadioButton> GetVocabularyRadioButtons();
         public List<SearchTerm> GetSearchList();
 

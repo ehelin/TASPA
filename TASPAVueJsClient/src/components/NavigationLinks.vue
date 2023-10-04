@@ -17,7 +17,7 @@
 
         methods: {
             handleLinkClick(event) {
-                alert('Intercept each link and update w/appropriate target for Tapsa Vue.js client');
+                alert('Intercept each link here and update w/appropriate target for Tapsa Vue.js client or update api call two send two different result sets');
                 // Prevent the default behavior of the link (navigating to the href)
                 event.preventDefault();
 
@@ -29,7 +29,7 @@
         },
 
         mounted() {
-            apiService.get('/TaspaApi/getNavigationLinks')
+            apiService.get('/TaspaApi/getVueJsNavigationLinks')
                 .then(response => {
                     this.navigationLinks = response.data; 
                 })

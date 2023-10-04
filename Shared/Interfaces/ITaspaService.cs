@@ -5,7 +5,7 @@ namespace Shared.Interfaces
 {
     public interface ITaspaService
     {
-        public List<NavigationLink> GetNavigationLinks();
+        public List<NavigationLink> GetNavigationLinks(Client client);
 
         public List<VocabularyRadioButton> GetVocabularyRadioButtons();
 

@@ -1,8 +1,11 @@
 <template>
     <label>available links</label>
     <div v-for="(link, index) in navigationLinks" :key="index">
-        <a :href="link.linkAction" @click="handleLinkClick">{{link.linkText}}</a>
+        <!--<a :href="link.linkAction" @click="handleLinkClick">{{link.linkText}}</a>-->
+
+        <router-link :to="link.linkAction">{{link.linkText}}</router-link>
     </div>
+    <router-view></router-view>
 </template>
 
 <script>
@@ -36,7 +39,8 @@
                 .catch(error => {
                     console.error('Error:', error);
                 });
-        }
+        },
+        router,
     }
 </script>
 

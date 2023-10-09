@@ -1,46 +1,73 @@
 <template>
     <label>available links</label>
-    <div v-for="(link, index) in navigationLinks" :key="index">
-        <!--<a :href="link.linkAction" @click="handleLinkClick">{{link.linkText}}</a>-->
-
-        <router-link :to="link.linkAction">{{link.linkText}}</router-link>
-    </div>
-    <router-view></router-view>
+    <p>{{navLinks}}</p>
+    <!--<div v-for="(link, index) in data.navLinks" :key="index">
+        <router-link :to="link.linkAction">{{link.linkText
+        }}</router-link>
+        </div>-->
+        <router-view></router-view>
 </template>
 
 <script>
     import apiService from '../apiService'; // Import the API service
+    import { useRouter } from 'vue-router';
+    import { ref } from 'vue';
+    import HelloWorldVue from './HelloWorld.vue';
 
     export default {
-        data() {
-            return {
-                navigationLinks: [], // Store navigation links
-            }
-        },
+        setup() {
+            var router = useRouter();
+            let navigationLinks = [];
 
-        methods: {
-            handleLinkClick(event) {
-                alert('Intercept each link here and update w/appropriate target for Tapsa Vue.js client or update api call two send two different result sets');
-                // Prevent the default behavior of the link (navigating to the href)
-                event.preventDefault();
-
-                // You can perform custom actions here
-                // For example, you can update a variable or perform a redirection
-                // For demonstration, we'll set a variable to indicate the link was clicked
-                this.linkClicked = true;
-            }
-        },
-
-        mounted() {
             apiService.get('/TaspaApi/getVueJsNavigationLinks')
                 .then(response => {
-                    this.navigationLinks = response.data; 
+                    navigationLinks = response.data;
+
+                    navigationLinks.forEach((item) => {
+                        router.addRoute({
+                            path: item.linkAction,
+                            component: item.linkText, 
+                        });
+                    });
+
+                    // TODO - how do set this as available to use in creating the links in the template section?
+                    return (navigationLinks );
                 })
                 .catch(error => {
                     console.error('Error:', error);
                 });
         },
-        router,
+        //data() {
+        //    return {
+        //        navigationLinks: [], // Store navigation links
+        //    }
+        //},
+
+        methods: {
+            //handleLinkClick(event) {
+            //    alert('Intercept each link here and update w/appropriate target for Tapsa Vue.js client or update api call two send two different result sets');
+            //    // Prevent the default behavior of the link (navigating to the href)
+            //    event.preventDefault();
+
+            //    // You can perform custom actions here
+            //    // For example, you can update a variable or perform a redirection
+            //    // For demonstration, we'll set a variable to indicate the link was clicked
+            //    this.linkClicked = true;
+            //}
+        },
+
+        mounted() {
+            //apiService.get('/TaspaApi/getVueJsNavigationLinks')
+            //    .then(response => {
+            //        this.navigationLinks = response.data; 
+
+            //        const router = useRouter();
+            //        router.push('/about'); // Example: Navigate to the '/about' route
+            //    })
+            //    .catch(error => {
+            //        console.error('Error:', error);
+            //    });
+        },
     }
 </script>
 

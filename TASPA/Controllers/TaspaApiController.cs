@@ -98,7 +98,7 @@ namespace TASPA.Controllers
         [HttpGet("getVueJsNavigationLinks")]
         public IActionResult GetVueJsNavigationLinks()
         {
-            var navigationLinks = this.taspaService.GetNavigationLinks(Shared.Client.VanillaJs);
+            var navigationLinks = this.taspaService.GetNavigationLinks(Shared.Client.VueJs);
 
             return Ok(navigationLinks); // 200
         }

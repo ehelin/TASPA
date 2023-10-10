@@ -1,14 +1,18 @@
 <template>
     <navigationLinks  />
+    <br />
+    <!--<HelloWorldVue />-->
 </template>
 
 <script>
     import navigationLinks from './components/NavigationLinks.vue'
+    import HelloWorldVue from './components/HelloWorld.vue';
 
     export default {
         // Register components here
-        components: {            
-            navigationLinks
+        components: {     
+            navigationLinks,
+            HelloWorldVue
         },
 
         data() {

@@ -1,11 +1,13 @@
 <template>
     <label>available links</label>
-    <p>{{navLinks}}</p>
-    <!--<div v-for="(link, index) in data.navLinks" :key="index">
-        <router-link :to="link.linkAction">{{link.linkText
-        }}</router-link>
-        </div>-->
-        <router-view></router-view>
+    <!--<div v-for="(link, index) in navigationLinks" :key="index">-->
+        <!--<a :href="link.linkAction" @click="handleLinkClick">{{link.linkText}}</a>-->
+
+        <!--<router-link :to="link.linkAction">{{link.linkText}}</router-link>
+    </div>-->
+    
+    <router-link to="/components/HelloWorld">HelloWorldVue2</router-link>
+    <router-view></router-view>
 </template>
 
 <script>
@@ -14,59 +16,34 @@
     import { ref } from 'vue';
     import HelloWorldVue from './HelloWorld.vue';
 
-    export default {
-        setup() {
+    export default {  
+        data() {
+            return {
+                navigationLinks: [], // Store navigation links
+            }
+        },
+        mounted() {
             var router = useRouter();
-            let navigationLinks = [];
+            var test = 1;
 
             apiService.get('/TaspaApi/getVueJsNavigationLinks')
                 .then(response => {
-                    navigationLinks = response.data;
+                    this.navigationLinks = response.data; 
 
-                    navigationLinks.forEach((item) => {
+                    var val1 = this.navigationLinks[0].linkAction;
+                    var val2 = this.navigationLinks[0].linkText;
+
+                    //this.navigationLinks.forEach((item) => {
                         router.addRoute({
-                            path: item.linkAction,
-                            component: item.linkText, 
+                            path: val1,
+                            component: HelloWorldVue,
                         });
-                    });
-
-                    // TODO - how do set this as available to use in creating the links in the template section?
-                    return (navigationLinks );
+                    //});
+                    var test2 = 1;
                 })
                 .catch(error => {
                     console.error('Error:', error);
                 });
-        },
-        //data() {
-        //    return {
-        //        navigationLinks: [], // Store navigation links
-        //    }
-        //},
-
-        methods: {
-            //handleLinkClick(event) {
-            //    alert('Intercept each link here and update w/appropriate target for Tapsa Vue.js client or update api call two send two different result sets');
-            //    // Prevent the default behavior of the link (navigating to the href)
-            //    event.preventDefault();
-
-            //    // You can perform custom actions here
-            //    // For example, you can update a variable or perform a redirection
-            //    // For demonstration, we'll set a variable to indicate the link was clicked
-            //    this.linkClicked = true;
-            //}
-        },
-
-        mounted() {
-            //apiService.get('/TaspaApi/getVueJsNavigationLinks')
-            //    .then(response => {
-            //        this.navigationLinks = response.data; 
-
-            //        const router = useRouter();
-            //        router.push('/about'); // Example: Navigate to the '/about' route
-            //    })
-            //    .catch(error => {
-            //        console.error('Error:', error);
-            //    });
         },
     }
 </script>

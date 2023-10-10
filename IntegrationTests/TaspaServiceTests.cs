@@ -58,7 +58,7 @@ namespace IntegrationTests
         [Fact]
         public void GetNavigationLinksTest()
         {
-            var navigationLinks = this.bllService.GetNavigationLinks();
+            var navigationLinks = this.bllService.GetNavigationLinks(Shared.Client.VanillaJs);
 
             Assert.NotNull(navigationLinks);
             Assert.True(navigationLinks.Count() > 0);

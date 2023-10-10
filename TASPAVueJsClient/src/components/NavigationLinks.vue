@@ -33,13 +33,40 @@
                     var val1 = this.navigationLinks[0].linkAction;
                     var val2 = this.navigationLinks[0].linkText;
 
-                    //this.navigationLinks.forEach((item) => {
+                    // TODO - using a string (not variable) is the only way (apparently) to set the component...figure out how to
+                    //        dynamically do this.
+                    if (val2 === 'HelloWorld') {
                         router.addRoute({
                             path: val1,
-                            component: HelloWorldVue,
+                            //component: () => import(val2),
+                            component: () => import('./HelloWorld.vue')
                         });
+                    }
+
+                    //// TODO - ChatGPT example...works as long as the dynamicComponentName is a constant
+                    //const dynamicComponentName = 'MyDynamicComponent'; // Replace with the actual component name as a string
+                    //const dynamicRoute = {
+                    //    path: '/dynamic-route',
+                    //    name: 'DynamicRoute',
+                    //    component: () => import(`./components/${dynamicComponentName}.vue`),
+                    //};
+                    //router.addRoute(dynamicRoute);
+
+                    // should work
+                    //const val3 = './HelloWorld.vue';
+                    //router.addRoute({
+                    //    path: val1,
+                    //    //component: () => import(val2),
+                    //    //component: () => import('./HelloWorld.vue')
+                    //    component: () => import(val3)
                     //});
-                    var test2 = 1;
+
+                    //works, but is hard coded
+                    //router.addRoute({
+                    //    path: '/components/HelloWorld',
+                    //    component: () => import('./HelloWorld.vue')
+                    //});
+
                 })
                 .catch(error => {
                     console.error('Error:', error);

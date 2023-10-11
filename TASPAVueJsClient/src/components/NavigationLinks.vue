@@ -7,10 +7,8 @@
 </template>
 
 <script>
-    import apiService from '../apiService'; // Import the API service
+    import apiService from '../apiService'; 
     import { useRouter } from 'vue-router';
-    import { ref } from 'vue';
-    import HelloWorldVue from './HelloWorld.vue';
 
     export default {  
         data() {
@@ -19,6 +17,7 @@
             }
         },
         methods: {
+            // the 'component' part has to be a constant string (no dynamic variables allowed (apparently))...list and server half to be in sync
             getComponent(component) {
                 if (component === 'HelloWorld')
                 {
@@ -29,22 +28,24 @@
         },
         mounted() {
             var router = useRouter();
-            var test = 1;
 
             apiService.get('/TaspaApi/getVueJsNavigationLinks')
                 .then(response => {
                     this.navigationLinks = response.data; 
 
-                    var val1 = this.navigationLinks[0].linkAction;
-                    var val2 = this.navigationLinks[0].linkText;
+                    // add route for each link
+                    this.navigationLinks.forEach((item) => {
+                        // the 'component' part has to be a constant string (no dynamic variables allowed (apparently))...list and server half to be in sync
+                        const dynamicComponentName = this.getComponent(item.linkText); 
 
-                    const dynamicComponentName = this.getComponent(val2); // Replace with the actual component name as a string
-                    const dynamicRoute = {
-                        path: val1,
-                        name: val2,
-                        component: () => import(`./${dynamicComponentName}.vue`),
-                    };
-                    router.addRoute(dynamicRoute);
+                        //add route
+                        const dynamicRoute = {
+                            path: item.linkAction,
+                            name: item.linkText,
+                            component: () => import(`./${dynamicComponentName}.vue`),
+                        };
+                        router.addRoute(dynamicRoute);
+                    });
 
                 })
                 .catch(error => {

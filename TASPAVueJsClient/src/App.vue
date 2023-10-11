@@ -29,18 +29,8 @@
         },
 
         // Lifecycle hooks are called at different stages
-        // of a component's lifecycle.
-        // This function will be called when the component is mounted.
         mounted() {
-            //console.log(`Lifecycle hooks are called at different stages - Mounted() has been called`)
-
-            //apiService.get('/TaspaApi/getNavigationLinks')
-            //    .then(response => {
-            //        this.apiData = response.data; 
-            //    })
-            //    .catch(error => {
-            //        console.error('Error:', error);
-            //    });
+            console.log(`Lifecycle hooks are called at different stages - Mounted() has been called`)
         }
     }
 </script>

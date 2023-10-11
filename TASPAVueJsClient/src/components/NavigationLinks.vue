@@ -1,12 +1,8 @@
 <template>
     <label>available links</label>
-    <!--<div v-for="(link, index) in navigationLinks" :key="index">-->
-        <!--<a :href="link.linkAction" @click="handleLinkClick">{{link.linkText}}</a>-->
-
-        <!--<router-link :to="link.linkAction">{{link.linkText}}</router-link>
-    </div>-->
-    
-    <router-link to="/components/HelloWorld">HelloWorldVue2</router-link>
+    <div v-for="(link, index) in navigationLinks" :key="index">
+        <router-link :to="link.linkAction">{{link.linkText}}</router-link>
+    </div>
     <router-view></router-view>
 </template>
 
@@ -22,6 +18,15 @@
                 navigationLinks: [], // Store navigation links
             }
         },
+        methods: {
+            getComponent(component) {
+                if (component === 'HelloWorld')
+                {
+                    const component = 'HelloWorld';
+                    return component;
+                }
+            }
+        },
         mounted() {
             var router = useRouter();
             var test = 1;
@@ -33,39 +38,13 @@
                     var val1 = this.navigationLinks[0].linkAction;
                     var val2 = this.navigationLinks[0].linkText;
 
-                    // TODO - using a string (not variable) is the only way (apparently) to set the component...figure out how to
-                    //        dynamically do this.
-                    if (val2 === 'HelloWorld') {
-                        router.addRoute({
-                            path: val1,
-                            //component: () => import(val2),
-                            component: () => import('./HelloWorld.vue')
-                        });
-                    }
-
-                    //// TODO - ChatGPT example...works as long as the dynamicComponentName is a constant
-                    //const dynamicComponentName = 'MyDynamicComponent'; // Replace with the actual component name as a string
-                    //const dynamicRoute = {
-                    //    path: '/dynamic-route',
-                    //    name: 'DynamicRoute',
-                    //    component: () => import(`./components/${dynamicComponentName}.vue`),
-                    //};
-                    //router.addRoute(dynamicRoute);
-
-                    // should work
-                    //const val3 = './HelloWorld.vue';
-                    //router.addRoute({
-                    //    path: val1,
-                    //    //component: () => import(val2),
-                    //    //component: () => import('./HelloWorld.vue')
-                    //    component: () => import(val3)
-                    //});
-
-                    //works, but is hard coded
-                    //router.addRoute({
-                    //    path: '/components/HelloWorld',
-                    //    component: () => import('./HelloWorld.vue')
-                    //});
+                    const dynamicComponentName = this.getComponent(val2); // Replace with the actual component name as a string
+                    const dynamicRoute = {
+                        path: val1,
+                        name: val2,
+                        component: () => import(`./${dynamicComponentName}.vue`),
+                    };
+                    router.addRoute(dynamicRoute);
 
                 })
                 .catch(error => {

@@ -1,1 +1,49 @@
-{"PresentParticiple":"reconciliando?lang=es&translation=reconciling","PastParticiple":"reconciliado?lang=es&translation=reconciled","Indicative":{"PresentTense":{"Yo":"reconcilio","Tu":"reconcilias","ElEllaUsted":"reconcilia","Nosotros":"reconciliamos","Vosotros":"reconciliáis","EllosEllasUstedes":"reconcilian"},"Pretérito":{"Yo":"reconcilié","Tu":"reconciliaste","ElEllaUsted":"reconcilió","Nosotros":"reconciliamos","Vosotros":"reconciliasteis","EllosEllasUstedes":"reconciliaron"},"Imperfect":{"Yo":"reconciliaba","Tu":"reconciliabas","ElEllaUsted":"reconciliaba","Nosotros":"reconciliábamos","Vosotros":"reconciliabais","EllosEllasUstedes":"reconciliaban"},"Conditional":{"Yo":"reconciliaría","Tu":"reconciliarías","ElEllaUsted":"reconciliaría","Nosotros":"reconciliaríamos","Vosotros":"reconciliaríais","EllosEllasUstedes":"reconciliarían"},"Future":{"Yo":"reconciliaré","Tu":"reconciliarás","ElEllaUsted":"reconciliará","Nosotros":"reconciliaremos","Vosotros":"reconciliaréis","EllosEllasUstedes":"reconciliarán"}},"Subjunctive":null,"Name":"reconcilar","EnglishMeaning":"View more suggestions"}
+{
+  "PresentParticiple": "reconciliando",
+  "PastParticiple": "reconciliado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "reconcilio",
+      "Tu": "reconcilias",
+      "ElEllaUsted": "reconcilia",
+      "Nosotros": "reconciliamos",
+      "Vosotros": "reconciliáis",
+      "EllosEllasUstedes": "reconcilian"
+    },
+    "Pretérito": {
+      "Yo": "reconcilié",
+      "Tu": "reconciliaste",
+      "ElEllaUsted": "reconcilió",
+      "Nosotros": "reconciliamos",
+      "Vosotros": "reconciliasteis",
+      "EllosEllasUstedes": "reconciliaron"
+    },
+    "Imperfect": {
+      "Yo": "reconciliaba",
+      "Tu": "reconciliabas",
+      "ElEllaUsted": "reconciliaba",
+      "Nosotros": "reconciliábamos",
+      "Vosotros": "reconciliabais",
+      "EllosEllasUstedes": "reconciliaban"
+    },
+    "Conditional": {
+      "Yo": "reconciliaría",
+      "Tu": "reconciliarías",
+      "ElEllaUsted": "reconciliaría",
+      "Nosotros": "reconciliaríamos",
+      "Vosotros": "reconciliaríais",
+      "EllosEllasUstedes": "reconciliarían"
+    },
+    "Future": {
+      "Yo": "reconciliaré",
+      "Tu": "reconciliarás",
+      "ElEllaUsted": "reconciliará",
+      "Nosotros": "reconciliaremos",
+      "Vosotros": "reconciliaréis",
+      "EllosEllasUstedes": "reconciliarán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "reconcilar",
+  "EnglishMeaning": "to reconcile"
+}

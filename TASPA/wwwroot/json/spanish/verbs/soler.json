@@ -1,1 +1,49 @@
-{"PresentParticiple":"soliendo?lang=es","PastParticiple":"solido?lang=es","Indicative":{"PresentTense":{"Yo":"suelo","Tu":"sueles","ElEllaUsted":"suele","Nosotros":"solemos","Vosotros":"soléis","EllosEllasUstedes":"suelen"},"Pretérito":{"Yo":"solí","Tu":"soliste","ElEllaUsted":"solió","Nosotros":"solimos","Vosotros":"solisteis","EllosEllasUstedes":"solieron"},"Imperfect":{"Yo":"solía","Tu":"solías","ElEllaUsted":"solía","Nosotros":"solíamos","Vosotros":"solíais","EllosEllasUstedes":"solían"},"Conditional":{"Yo":"solería","Tu":"solerías","ElEllaUsted":"solería","Nosotros":"soleríamos","Vosotros":"soleríais","EllosEllasUstedes":"solerían"},"Future":{"Yo":"soleré","Tu":"solerás","ElEllaUsted":"solerá","Nosotros":"soleremos","Vosotros":"soleréis","EllosEllasUstedes":"solerán"}},"Subjunctive":null,"Name":"soler","EnglishMeaning":"to use to"}
+{
+  "PresentParticiple": "soliendo",
+  "PastParticiple": "solido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "suelo",
+      "Tu": "sueles",
+      "ElEllaUsted": "suele",
+      "Nosotros": "solemos",
+      "Vosotros": "soléis",
+      "EllosEllasUstedes": "suelen"
+    },
+    "Pretérito": {
+      "Yo": "solí",
+      "Tu": "soliste",
+      "ElEllaUsted": "solió",
+      "Nosotros": "solimos",
+      "Vosotros": "solisteis",
+      "EllosEllasUstedes": "solieron"
+    },
+    "Imperfect": {
+      "Yo": "solía",
+      "Tu": "solías",
+      "ElEllaUsted": "solía",
+      "Nosotros": "solíamos",
+      "Vosotros": "solíais",
+      "EllosEllasUstedes": "solían"
+    },
+    "Conditional": {
+      "Yo": "solería",
+      "Tu": "solerías",
+      "ElEllaUsted": "solería",
+      "Nosotros": "soleríamos",
+      "Vosotros": "soleríais",
+      "EllosEllasUstedes": "solerían"
+    },
+    "Future": {
+      "Yo": "soleré",
+      "Tu": "solerás",
+      "ElEllaUsted": "solerá",
+      "Nosotros": "soleremos",
+      "Vosotros": "soleréis",
+      "EllosEllasUstedes": "solerán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "soler",
+  "EnglishMeaning": "to be used to"
+}

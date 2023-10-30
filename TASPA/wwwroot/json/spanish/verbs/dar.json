@@ -1,1 +1,66 @@
-{"PresentParticiple":null,"PastParticiple":null,"Indicative":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Pretérito":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Conditional":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Subjunctive":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Imperfect":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Name":"dar","EnglishMeaning":"to give"}
+{
+  "PresentParticiple": "dando",
+  "PastParticiple": "dado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "doy",
+      "Tu": "das",
+      "ElEllaUsted": "da",
+      "Nosotros": "damos",
+      "Vosotros": "dais",
+      "EllosEllasUstedes": "dan"
+    },
+    "Pretérito": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Conditional": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Subjunctive": {
+    "PresentTense": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Imperfect": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Name": "dar",
+  "EnglishMeaning": "to give"
+}

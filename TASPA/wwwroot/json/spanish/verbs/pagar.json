@@ -1,1 +1,66 @@
-{"PresentParticiple":null,"PastParticiple":null,"Indicative":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Pretérito":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Conditional":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Subjunctive":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Imperfect":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Name":"pagar","EnglishMeaning":"to pay"}
+{
+  "PresentParticiple": "pagando",
+  "PastParticiple": "pagado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pago",
+      "Tu": "pagas",
+      "ElEllaUsted": "paga",
+      "Nosotros": "pagamos",
+      "Vosotros": "pagáis",
+      "EllosEllasUstedes": "pagan"
+    },
+    "Pretérito": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Conditional": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Subjunctive": {
+    "PresentTense": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Imperfect": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Name": "pagar",
+  "EnglishMeaning": "to pay"
+}

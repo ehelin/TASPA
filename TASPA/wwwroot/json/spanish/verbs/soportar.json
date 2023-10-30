@@ -1,1 +1,49 @@
-{"PresentParticiple":"soportando?lang=es&translation=standing","PastParticiple":"soportado?lang=es&translation=stood","Indicative":{"PresentTense":{"Yo":"soporto","Tu":"soportas","ElEllaUsted":"soporta","Nosotros":"soportamos","Vosotros":"soportáis","EllosEllasUstedes":"soportan"},"Pretérito":{"Yo":"soporté","Tu":"soportaste","ElEllaUsted":"soportó","Nosotros":"soportamos","Vosotros":"soportasteis","EllosEllasUstedes":"soportaron"},"Imperfect":{"Yo":"soportaba","Tu":"soportabas","ElEllaUsted":"soportaba","Nosotros":"soportábamos","Vosotros":"soportabais","EllosEllasUstedes":"soportaban"},"Conditional":{"Yo":"soportaría","Tu":"soportarías","ElEllaUsted":"soportaría","Nosotros":"soportaríamos","Vosotros":"soportaríais","EllosEllasUstedes":"soportarían"},"Future":{"Yo":"soportaré","Tu":"soportarás","ElEllaUsted":"soportará","Nosotros":"soportaremos","Vosotros":"soportaréis","EllosEllasUstedes":"soportarán"}},"Subjunctive":null,"Name":"soportar","EnglishMeaning":"to stand"}
+{
+  "PresentParticiple": "soportando",
+  "PastParticiple": "soportado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "soporto",
+      "Tu": "soportas",
+      "ElEllaUsted": "soporta",
+      "Nosotros": "soportamos",
+      "Vosotros": "soportáis",
+      "EllosEllasUstedes": "soportan"
+    },
+    "Pretérito": {
+      "Yo": "soporté",
+      "Tu": "soportaste",
+      "ElEllaUsted": "soportó",
+      "Nosotros": "soportamos",
+      "Vosotros": "soportasteis",
+      "EllosEllasUstedes": "soportaron"
+    },
+    "Imperfect": {
+      "Yo": "soportaba",
+      "Tu": "soportabas",
+      "ElEllaUsted": "soportaba",
+      "Nosotros": "soportábamos",
+      "Vosotros": "soportabais",
+      "EllosEllasUstedes": "soportaban"
+    },
+    "Conditional": {
+      "Yo": "soportaría",
+      "Tu": "soportarías",
+      "ElEllaUsted": "soportaría",
+      "Nosotros": "soportaríamos",
+      "Vosotros": "soportaríais",
+      "EllosEllasUstedes": "soportarían"
+    },
+    "Future": {
+      "Yo": "soportaré",
+      "Tu": "soportarás",
+      "ElEllaUsted": "soportará",
+      "Nosotros": "soportaremos",
+      "Vosotros": "soportaréis",
+      "EllosEllasUstedes": "soportarán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "soportar",
+  "EnglishMeaning": "to suport"
+}

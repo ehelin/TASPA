@@ -1,1 +1,49 @@
-{"PresentParticiple":"tardando?lang=es&translation=taking","PastParticiple":"tardado?lang=es&translation=taken","Indicative":{"PresentTense":{"Yo":"tardo","Tu":"tardas","ElEllaUsted":"tarda","Nosotros":"tardamos","Vosotros":"tardáis","EllosEllasUstedes":"tardan"},"Pretérito":{"Yo":"tardé","Tu":"tardaste","ElEllaUsted":"tardó","Nosotros":"tardamos","Vosotros":"tardasteis","EllosEllasUstedes":"tardaron"},"Imperfect":{"Yo":"tardaba","Tu":"tardabas","ElEllaUsted":"tardaba","Nosotros":"tardábamos","Vosotros":"tardabais","EllosEllasUstedes":"tardaban"},"Conditional":{"Yo":"tardaría","Tu":"tardarías","ElEllaUsted":"tardaría","Nosotros":"tardaríamos","Vosotros":"tardaríais","EllosEllasUstedes":"tardarían"},"Future":{"Yo":"tardaré","Tu":"tardarás","ElEllaUsted":"tardará","Nosotros":"tardaremos","Vosotros":"tardaréis","EllosEllasUstedes":"tardarán"}},"Subjunctive":null,"Name":"tardar","EnglishMeaning":"to take"}
+{
+  "PresentParticiple": "tardando",
+  "PastParticiple": "tardado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "tardo",
+      "Tu": "tardas",
+      "ElEllaUsted": "tarda",
+      "Nosotros": "tardamos",
+      "Vosotros": "tardáis",
+      "EllosEllasUstedes": "tardan"
+    },
+    "Pretérito": {
+      "Yo": "tardé",
+      "Tu": "tardaste",
+      "ElEllaUsted": "tardó",
+      "Nosotros": "tardamos",
+      "Vosotros": "tardasteis",
+      "EllosEllasUstedes": "tardaron"
+    },
+    "Imperfect": {
+      "Yo": "tardaba",
+      "Tu": "tardabas",
+      "ElEllaUsted": "tardaba",
+      "Nosotros": "tardábamos",
+      "Vosotros": "tardabais",
+      "EllosEllasUstedes": "tardaban"
+    },
+    "Conditional": {
+      "Yo": "tardaría",
+      "Tu": "tardarías",
+      "ElEllaUsted": "tardaría",
+      "Nosotros": "tardaríamos",
+      "Vosotros": "tardaríais",
+      "EllosEllasUstedes": "tardarían"
+    },
+    "Future": {
+      "Yo": "tardaré",
+      "Tu": "tardarás",
+      "ElEllaUsted": "tardará",
+      "Nosotros": "tardaremos",
+      "Vosotros": "tardaréis",
+      "EllosEllasUstedes": "tardarán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "tardar",
+  "EnglishMeaning": "to delay"
+}

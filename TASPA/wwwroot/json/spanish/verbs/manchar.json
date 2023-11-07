@@ -1,1 +1,66 @@
-{"PresentParticiple":null,"PastParticiple":null,"Indicative":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Pretérito":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Conditional":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Subjunctive":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Imperfect":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Name":"manchar","EnglishMeaning":"to stain"}
+{
+  "PresentParticiple": "manchando",
+  "PastParticiple": "manchado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "mancho",
+      "Tu": "manchas",
+      "ElEllaUsted": "mancha",
+      "Nosotros": "manchamos",
+      "Vosotros": "mancháis",
+      "EllosEllasUstedes": "manchan"
+    },
+    "Pretérito": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Conditional": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Subjunctive": {
+    "PresentTense": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Imperfect": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Name": "manchar",
+  "EnglishMeaning": "to stain"
+}

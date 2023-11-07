@@ -1,1 +1,66 @@
-{"PresentParticiple":null,"PastParticiple":null,"Indicative":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Pretérito":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Conditional":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Subjunctive":{"PresentTense":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Imperfect":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null},"Future":{"Yo":null,"Tu":null,"ElEllaUsted":null,"Nosotros":null,"Vosotros":null,"EllosEllasUstedes":null}},"Name":"hacer","EnglishMeaning":"to do, to make"}
+{
+  "PresentParticiple": "haciendo",
+  "PastParticiple": "hecho",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "hago",
+      "Tu": "haces",
+      "ElEllaUsted": "hace",
+      "Nosotros": "hacemos",
+      "Vosotros": "hacéis",
+      "EllosEllasUstedes": "hacen"
+    },
+    "Pretérito": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Conditional": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Subjunctive": {
+    "PresentTense": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Imperfect": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    },
+    "Future": {
+      "Yo": null,
+      "Tu": null,
+      "ElEllaUsted": null,
+      "Nosotros": null,
+      "Vosotros": null,
+      "EllosEllasUstedes": null
+    }
+  },
+  "Name": "hacer",
+  "EnglishMeaning": "to do, to make"
+}

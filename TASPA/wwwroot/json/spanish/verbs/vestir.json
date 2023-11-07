@@ -1,1 +1,49 @@
-{"PresentParticiple":"vistiendo?lang=es&translation=wearing","PastParticiple":"vestido?lang=es&translation=worn","Indicative":{"PresentTense":{"Yo":"visto","Tu":"vistes","ElEllaUsted":"viste","Nosotros":"vestimos","Vosotros":"vestís","EllosEllasUstedes":"visten"},"Pretérito":{"Yo":"vestí","Tu":"vestiste","ElEllaUsted":"vistió","Nosotros":"vestimos","Vosotros":"vestisteis","EllosEllasUstedes":"vistieron"},"Imperfect":{"Yo":"vestía","Tu":"vestías","ElEllaUsted":"vestía","Nosotros":"vestíamos","Vosotros":"vestíais","EllosEllasUstedes":"vestían"},"Conditional":{"Yo":"vestiría","Tu":"vestirías","ElEllaUsted":"vestiría","Nosotros":"vestiríamos","Vosotros":"vestiríais","EllosEllasUstedes":"vestirían"},"Future":{"Yo":"vestiré","Tu":"vestirás","ElEllaUsted":"vestirá","Nosotros":"vestiremos","Vosotros":"vestiréis","EllosEllasUstedes":"vestirán"}},"Subjunctive":null,"Name":"vestir","EnglishMeaning":"to wear"}
+{
+  "PresentParticiple": "vistiendo",
+  "PastParticiple": "vestido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "visto",
+      "Tu": "vistes",
+      "ElEllaUsted": "viste",
+      "Nosotros": "vestimos",
+      "Vosotros": "vestís",
+      "EllosEllasUstedes": "visten"
+    },
+    "Pretérito": {
+      "Yo": "vestí",
+      "Tu": "vestiste",
+      "ElEllaUsted": "vistió",
+      "Nosotros": "vestimos",
+      "Vosotros": "vestisteis",
+      "EllosEllasUstedes": "vistieron"
+    },
+    "Imperfect": {
+      "Yo": "vestía",
+      "Tu": "vestías",
+      "ElEllaUsted": "vestía",
+      "Nosotros": "vestíamos",
+      "Vosotros": "vestíais",
+      "EllosEllasUstedes": "vestían"
+    },
+    "Conditional": {
+      "Yo": "vestiría",
+      "Tu": "vestirías",
+      "ElEllaUsted": "vestiría",
+      "Nosotros": "vestiríamos",
+      "Vosotros": "vestiríais",
+      "EllosEllasUstedes": "vestirían"
+    },
+    "Future": {
+      "Yo": "vestiré",
+      "Tu": "vestirás",
+      "ElEllaUsted": "vestirá",
+      "Nosotros": "vestiremos",
+      "Vosotros": "vestiréis",
+      "EllosEllasUstedes": "vestirán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "vestir",
+  "EnglishMeaning": "to dress"
+}

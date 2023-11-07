@@ -1,1 +1,49 @@
-{"PresentParticiple":"acostando?lang=es","PastParticiple":"acostado?lang=es","Indicative":{"PresentTense":{"Yo":"acuesto","Tu":"acuestas","ElEllaUsted":"acuesta","Nosotros":"acostamos","Vosotros":"acostáis","EllosEllasUstedes":"acuestan"},"Pretérito":{"Yo":"acosté","Tu":"acostaste","ElEllaUsted":"acostó","Nosotros":"acostamos","Vosotros":"acostasteis","EllosEllasUstedes":"acostaron"},"Imperfect":{"Yo":"acostaba","Tu":"acostabas","ElEllaUsted":"acostaba","Nosotros":"acostábamos","Vosotros":"acostabais","EllosEllasUstedes":"acostaban"},"Conditional":{"Yo":"acostaría","Tu":"acostarías","ElEllaUsted":"acostaría","Nosotros":"acostaríamos","Vosotros":"acostaríais","EllosEllasUstedes":"acostarían"},"Future":{"Yo":"acostaré","Tu":"acostarás","ElEllaUsted":"acostará","Nosotros":"acostaremos","Vosotros":"acostaréis","EllosEllasUstedes":"acostarán"}},"Subjunctive":null,"Name":"acostar","EnglishMeaning":"to put to bed"}
+{
+  "PresentParticiple": "acostando",
+  "PastParticiple": "acostado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "acuesto",
+      "Tu": "acuestas",
+      "ElEllaUsted": "acuesta",
+      "Nosotros": "acostamos",
+      "Vosotros": "acostáis",
+      "EllosEllasUstedes": "acuestan"
+    },
+    "Pretérito": {
+      "Yo": "acosté",
+      "Tu": "acostaste",
+      "ElEllaUsted": "acostó",
+      "Nosotros": "acostamos",
+      "Vosotros": "acostasteis",
+      "EllosEllasUstedes": "acostaron"
+    },
+    "Imperfect": {
+      "Yo": "acostaba",
+      "Tu": "acostabas",
+      "ElEllaUsted": "acostaba",
+      "Nosotros": "acostábamos",
+      "Vosotros": "acostabais",
+      "EllosEllasUstedes": "acostaban"
+    },
+    "Conditional": {
+      "Yo": "acostaría",
+      "Tu": "acostarías",
+      "ElEllaUsted": "acostaría",
+      "Nosotros": "acostaríamos",
+      "Vosotros": "acostaríais",
+      "EllosEllasUstedes": "acostarían"
+    },
+    "Future": {
+      "Yo": "acostaré",
+      "Tu": "acostarás",
+      "ElEllaUsted": "acostará",
+      "Nosotros": "acostaremos",
+      "Vosotros": "acostaréis",
+      "EllosEllasUstedes": "acostarán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "acostar",
+  "EnglishMeaning": "to lay down"
+}

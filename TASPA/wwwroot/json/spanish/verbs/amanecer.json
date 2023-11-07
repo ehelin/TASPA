@@ -1,1 +1,49 @@
-{"PresentParticiple":"amaneciendo?lang=es","PastParticiple":"amanecido?lang=es","Indicative":{"PresentTense":{"Yo":"amanezco","Tu":"amaneces","ElEllaUsted":"amanece","Nosotros":"amanecemos","Vosotros":"amanecéis","EllosEllasUstedes":"amanecen"},"Pretérito":{"Yo":"amanecí","Tu":"amaneciste","ElEllaUsted":"amaneció","Nosotros":"amanecimos","Vosotros":"amanecisteis","EllosEllasUstedes":"amanecieron"},"Imperfect":{"Yo":"amanecía","Tu":"amanecías","ElEllaUsted":"amanecía","Nosotros":"amanecíamos","Vosotros":"amanecíais","EllosEllasUstedes":"amanecían"},"Conditional":{"Yo":"amanecería","Tu":"amanecerías","ElEllaUsted":"amanecería","Nosotros":"amaneceríamos","Vosotros":"amaneceríais","EllosEllasUstedes":"amanecerían"},"Future":{"Yo":"amaneceré","Tu":"amanecerás","ElEllaUsted":"amanecerá","Nosotros":"amaneceremos","Vosotros":"amaneceréis","EllosEllasUstedes":"amanecerán"}},"Subjunctive":null,"Name":"amanecer","EnglishMeaning":"🚀 Remove ads"}
+{
+  "PresentParticiple": "amaneciendo",
+  "PastParticiple": "amanecido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "amanezco",
+      "Tu": "amaneces",
+      "ElEllaUsted": "amanece",
+      "Nosotros": "amanecemos",
+      "Vosotros": "amanecéis",
+      "EllosEllasUstedes": "amanecen"
+    },
+    "Pretérito": {
+      "Yo": "amanecí",
+      "Tu": "amaneciste",
+      "ElEllaUsted": "amaneció",
+      "Nosotros": "amanecimos",
+      "Vosotros": "amanecisteis",
+      "EllosEllasUstedes": "amanecieron"
+    },
+    "Imperfect": {
+      "Yo": "amanecía",
+      "Tu": "amanecías",
+      "ElEllaUsted": "amanecía",
+      "Nosotros": "amanecíamos",
+      "Vosotros": "amanecíais",
+      "EllosEllasUstedes": "amanecían"
+    },
+    "Conditional": {
+      "Yo": "amanecería",
+      "Tu": "amanecerías",
+      "ElEllaUsted": "amanecería",
+      "Nosotros": "amaneceríamos",
+      "Vosotros": "amaneceríais",
+      "EllosEllasUstedes": "amanecerían"
+    },
+    "Future": {
+      "Yo": "amaneceré",
+      "Tu": "amanecerás",
+      "ElEllaUsted": "amanecerá",
+      "Nosotros": "amaneceremos",
+      "Vosotros": "amaneceréis",
+      "EllosEllasUstedes": "amanecerán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "amanecer",
+  "EnglishMeaning": "to dawn"
+}

@@ -1,1 +1,49 @@
-{"PresentParticiple":"uniendo?lang=es&translation=joining","PastParticiple":"unido?lang=es&translation=joined","Indicative":{"PresentTense":{"Yo":"uno","Tu":"unes","ElEllaUsted":"une","Nosotros":"unimos","Vosotros":"unís","EllosEllasUstedes":"unen"},"Pretérito":{"Yo":"uní","Tu":"uniste","ElEllaUsted":"unió","Nosotros":"unimos","Vosotros":"unisteis","EllosEllasUstedes":"unieron"},"Imperfect":{"Yo":"unía","Tu":"unías","ElEllaUsted":"unía","Nosotros":"uníamos","Vosotros":"uníais","EllosEllasUstedes":"unían"},"Conditional":{"Yo":"uniría","Tu":"unirías","ElEllaUsted":"uniría","Nosotros":"uniríamos","Vosotros":"uniríais","EllosEllasUstedes":"unirían"},"Future":{"Yo":"uniré","Tu":"unirás","ElEllaUsted":"unirá","Nosotros":"uniremos","Vosotros":"uniréis","EllosEllasUstedes":"unirán"}},"Subjunctive":null,"Name":"unir","EnglishMeaning":"to join"}
+{
+  "PresentParticiple": "uniendo",
+  "PastParticiple": "unido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "uno",
+      "Tu": "unes",
+      "ElEllaUsted": "une",
+      "Nosotros": "unimos",
+      "Vosotros": "unís",
+      "EllosEllasUstedes": "unen"
+    },
+    "Pretérito": {
+      "Yo": "uní",
+      "Tu": "uniste",
+      "ElEllaUsted": "unió",
+      "Nosotros": "unimos",
+      "Vosotros": "unisteis",
+      "EllosEllasUstedes": "unieron"
+    },
+    "Imperfect": {
+      "Yo": "unía",
+      "Tu": "unías",
+      "ElEllaUsted": "unía",
+      "Nosotros": "uníamos",
+      "Vosotros": "uníais",
+      "EllosEllasUstedes": "unían"
+    },
+    "Conditional": {
+      "Yo": "uniría",
+      "Tu": "unirías",
+      "ElEllaUsted": "uniría",
+      "Nosotros": "uniríamos",
+      "Vosotros": "uniríais",
+      "EllosEllasUstedes": "unirían"
+    },
+    "Future": {
+      "Yo": "uniré",
+      "Tu": "unirás",
+      "ElEllaUsted": "unirá",
+      "Nosotros": "uniremos",
+      "Vosotros": "uniréis",
+      "EllosEllasUstedes": "unirán"
+    }
+  },
+  "Subjunctive": null,
+  "Name": "unir",
+  "EnglishMeaning": "to unite"
+}

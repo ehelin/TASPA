@@ -2,39 +2,11 @@
 @{
    var modValue = @Model.IsMobile ? 1 : 4;
 }
-
-<table width="100%">
-    <tr>
-    @for(var ctr=0; ctr<Model.VocabularyRadioButtons.Count; ctr++)
-    {                            
-        <td>
-            @if(@Model.VocabularyRadioButtons[ctr].Value == @Model.VocabularyList)
-            {
-                <input type="radio" name="type" checked
-                    id="@Model.VocabularyRadioButtons[ctr].Value"
-                    value="@Model.VocabularyRadioButtons[ctr].Value" 
-                    onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
-            } 
-            else if(string.IsNullOrEmpty(@Model.VocabularyList) && ctr == 0)
-            {
-                <input type="radio" name="type" checked
-                    id="@Model.VocabularyRadioButtons[ctr].Value"
-                    value="@Model.VocabularyRadioButtons[ctr].Value" 
-                    onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
-            }                            
-            else 
-            {
-                <input type="radio" name="type"
-                    id="@Model.VocabularyRadioButtons[ctr].Value"
-                    value="@Model.VocabularyRadioButtons[ctr].Value" 
-                    onclick="@Model.VocabularyRadioButtons[ctr].MethodCall">@Model.VocabularyRadioButtons[ctr].LinkText<br />
-            }
-        </td>
-                            
-        @if ((ctr+1) % modValue == 0) // (ctr+1) is because we start at index 0 for the lists, but need to start at 1 form the table to draw correctly
-        {
-            <tr></tr>                                
+<div class="center">
+    <select style="align-self: center" id="vocabularyListSelectList" class="displayPanel">
+        @foreach(var item in Model.VocabularyRadioButtons)
+        {        
+            <option value="@item.Value">@item.LinkText</option>
         }
-    }
-    </tr>
-</table>
+    </select>
+</div>

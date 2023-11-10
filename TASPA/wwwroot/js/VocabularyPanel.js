@@ -15,7 +15,11 @@
 }
 
 function SelectVocabularyList() {
-    var selectedVocabularyList = document.getElementById("vocabularyListSelectList");
+    //var selectedVerbList = document.getElementById("vocabularyListSelectList2");
+    //var selectedValue = selectedVerbList.value;
+
+    //ServerCalls.SetVerbList(selectedValue);
+    var selectedVocabularyList = document.getElementById("vocabularyListSelectList2");
     var selectedValue = selectedVocabularyList.value;
 
     ServerCalls.SetVocabularyList(selectedValue);

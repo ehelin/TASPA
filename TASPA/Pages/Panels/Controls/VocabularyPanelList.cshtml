@@ -3,7 +3,7 @@
    var modValue = @Model.IsMobile ? 1 : 4;
 }
 <div class="center">
-    <select style="align-self: center" id="vocabularyListSelectList" class="displayPanel">
+    <select style="align-self: center" id="vocabularyListSelectList2" class="displayPanel" onchange="SelectVocabularyList()">
         @foreach(var item in Model.VocabularyRadioButtons)
         {        
             <option value="@item.Value">@item.LinkText</option>

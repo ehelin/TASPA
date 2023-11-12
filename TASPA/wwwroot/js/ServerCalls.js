@@ -27,7 +27,7 @@ ServerCalls.SetVocabularyList = function (folder, searchTerm) {
                     InitializeVocabulary();
 
                     vocabularyList = jsonParsed;
-                    vocabularyFolder = folder;
+                    vocabularyFolder = folder.replace(/\d+$/, ''); // hack (from ChatGPT): remove any number suffix to use communal json folder
 
                     var jsonTerm = jsonParsed[0];
                     if (searchTerm != null && searchTerm != undefined && searchTerm.length > 0)
@@ -38,7 +38,7 @@ ServerCalls.SetVocabularyList = function (folder, searchTerm) {
                         jsonTerm = decodedSearchTerm.replace(' ', '_');
                     }
 
-                    ServerCalls.SetVocabularyJson(folder, jsonTerm);
+                    ServerCalls.SetVocabularyJson(vocabularyFolder, jsonTerm);
                 });
     }
     catch (ex) {

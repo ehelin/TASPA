@@ -136,33 +136,61 @@ namespace BLL
 
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_Phrases());
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetBodyParts());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_HouseTerms());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_HouseTerms2());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetClothing());
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetColors());
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetFamilyMembers());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetFruits());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetFruits2());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetMeetupList());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetMeetupList2());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetMeetupList3());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetMeetupList4());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetPrepositions());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetPrepositions2());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetQuestions());
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetShops());
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetTimeWords());
+
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetVegetables());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetVegetables2());
 
                 return fullVocabularyList;
             }
             else if (listName == "phrases") { return this.taspaDataService.GetVocabularyList_Phrases(); }
             else if (listName == "bodyparts") { return this.taspaDataService.GetVocabularyList_GetBodyParts(); }
+
             else if (listName == "houseterms") { return this.taspaDataService.GetVocabularyList_HouseTerms(); }
+            else if (listName == "houseterms2") { return this.taspaDataService.GetVocabularyList_HouseTerms2(); }
+
             else if (listName == "clothing") { return this.taspaDataService.GetVocabularyList_GetClothing(); }
             else if (listName == "colors") { return this.taspaDataService.GetVocabularyList_GetColors(); }
             else if (listName == "familymembers") { return this.taspaDataService.GetVocabularyList_GetFamilyMembers(); }
+
             else if (listName == "fruits") { return this.taspaDataService.GetVocabularyList_GetFruits(); }
+            else if (listName == "fruits2") { return this.taspaDataService.GetVocabularyList_GetFruits2(); }
+
             else if (listName == "listfrommeetup") { return this.taspaDataService.GetVocabularyList_GetMeetupList(); }
+            else if (listName == "listfrommeetup2") { return this.taspaDataService.GetVocabularyList_GetMeetupList2(); }
+            else if (listName == "listfrommeetup3") { return this.taspaDataService.GetVocabularyList_GetMeetupList3(); }
+            else if (listName == "listfrommeetup4") { return this.taspaDataService.GetVocabularyList_GetMeetupList4(); }
+
             else if (listName == "prepositions") { return this.taspaDataService.GetVocabularyList_GetPrepositions(); }
+            else if (listName == "prepositions2") { return this.taspaDataService.GetVocabularyList_GetPrepositions2(); }
+
             else if (listName == "questions") { return this.taspaDataService.GetVocabularyList_GetQuestions(); }
             else if (listName == "shops") { return this.taspaDataService.GetVocabularyList_GetShops(); }
             else if (listName == "timewords") { return this.taspaDataService.GetVocabularyList_GetTimeWords(); }
+
             else if (listName == "vegetables") { return this.taspaDataService.GetVocabularyList_GetVegetables(); }
+            else if (listName == "vegetables2") { return this.taspaDataService.GetVocabularyList_GetVegetables2(); }
 
             else
             {

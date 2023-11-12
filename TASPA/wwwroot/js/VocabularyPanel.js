@@ -14,12 +14,13 @@
     VocabularyPanelSetVocabularyList(vocabularyFolder, searchTerm);
 }
 
-function SelectVocabularyList() {
+function SelectVocabularyList2() {
     //var selectedVerbList = document.getElementById("vocabularyListSelectList2");
     //var selectedValue = selectedVerbList.value;
 
     //ServerCalls.SetVerbList(selectedValue);
     var selectedVocabularyList = document.getElementById("vocabularyListSelectList2");
+    var selectedText = selectedVocabularyList.innerText;
     var selectedValue = selectedVocabularyList.value;
 
     ServerCalls.SetVocabularyList(selectedValue);

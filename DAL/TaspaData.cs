@@ -14,7 +14,7 @@ namespace DAL
             var navigationLinks = new List<NavigationLink>();
 
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Index", LinkText = "Home" });
-            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/Chat", LinkText = "Chat" });
+            //navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/Chat", LinkText = "Chat" });
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VerbsPanel", LinkText = "Verbs" });
             navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VocabularyPanel", LinkText = "Vocabulary" });
 
@@ -41,14 +41,29 @@ namespace DAL
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Clothing", Value = "clothing", MethodCall = "VocabularyPanelSetVocabularyList('clothing');" });
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Colors", Value = "colors", MethodCall = "VocabularyPanelSetVocabularyList('colors');" });
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Family Members", Value = "familymembers", MethodCall = "VocabularyPanelSetVocabularyList('familymembers');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Fruits", Value = "fruits", MethodCall = "VocabularyPanelSetVocabularyList('fruits');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Fruits2", Value = "fruits2", MethodCall = "VocabularyPanelSetVocabularyList('fruits2');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "House Terms", Value = "houseterms", MethodCall = "VocabularyPanelSetVocabularyList('houseterms');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "House Terms2", Value = "houseterms2", MethodCall = "VocabularyPanelSetVocabularyList('houseterms2');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Meetup Group List", Value = "listfrommeetup", MethodCall = "VocabularyPanelSetVocabularyList('listfrommeetup');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Meetup Group List2", Value = "listfrommeetup2", MethodCall = "VocabularyPanelSetVocabularyList('listfrommeetup2');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Meetup Group List3", Value = "listfrommeetup3", MethodCall = "VocabularyPanelSetVocabularyList('listfrommeetup3');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Meetup Group List4", Value = "listfrommeetup4", MethodCall = "VocabularyPanelSetVocabularyList('listfrommeetup4');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Phrases", Value = "phrases", MethodCall = "VocabularyPanelSetVocabularyList('phrases');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Prepositions", Value = "prepositions", MethodCall = "VocabularyPanelSetVocabularyList('prepositions');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Prepositions2", Value = "prepositions2", MethodCall = "VocabularyPanelSetVocabularyList('prepositions2');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Questions", Value = "questions", MethodCall = "VocabularyPanelSetVocabularyList('questions');" });
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Shops", Value = "shops", MethodCall = "VocabularyPanelSetVocabularyList('shops');" });
+
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Vegetables", Value = "vegetables", MethodCall = "VocabularyPanelSetVocabularyList('vegetables');" });
+            vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Vegetables2", Value = "vegetables2", MethodCall = "VocabularyPanelSetVocabularyList('vegetables2');" });
+          
             vocabularyRadioButtons.Add(new VocabularyRadioButton() { LinkText = "Time", Value = "timewords", MethodCall = "VocabularyPanelSetVocabularyList('timewords');" });
 
             return vocabularyRadioButtons;
@@ -239,7 +254,7 @@ namespace DAL
         public List<string> GetVocabularyList_GetFruits()
         {
             var list = new List<string>();
-
+            
             list.Add("la_manzana");
             list.Add("el_damasco_el_albericoque");
             list.Add("el_aguacate");
@@ -268,6 +283,14 @@ namespace DAL
             list.Add("la_mandarina");
             list.Add("el_mango");
             list.Add("el_melón");
+            
+            return list;
+        }
+        
+        public List<string> GetVocabularyList_GetFruits2()
+        {
+            var list = new List<string>();
+
             list.Add("la_mora");
             list.Add("la_naranjilla_el_lulo");
             list.Add("la_nectarina");
@@ -295,7 +318,7 @@ namespace DAL
         public List<string> GetVocabularyList_GetMeetupList()
         {
             var list = new List<string>();
-
+                       
             list.Add("el_proximó_viernes");
             list.Add("el_viernes_pasado");
             list.Add("murciélago");
@@ -327,6 +350,17 @@ namespace DAL
             list.Add("la_coasta");
             list.Add("la_carcel");
             list.Add("el_calle");
+            list.Add("elote");
+            list.Add("paquete_de_programma");
+            list.Add("voy_a_bañarme");
+
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetMeetupList2()
+        {
+            var list = new List<string>();
+
             list.Add("la_calle_jeros");
             list.Add("la_carretera");
             list.Add("el_autopista");
@@ -358,6 +392,17 @@ namespace DAL
             list.Add("césped");
             list.Add("condado");
             list.Add("palepez");
+            list.Add("libre");
+            list.Add("totops");
+            list.Add("lilli_le_gusta_cariño_mucho");
+
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetMeetupList3()
+        {
+            var list = new List<string>();
+            
             list.Add("amargo");
             list.Add("tirar");
             list.Add("empujar");
@@ -387,7 +432,18 @@ namespace DAL
             list.Add("equipo");
             list.Add("esencialmente");
             list.Add("manteca");
-            list.Add("tema");
+            list.Add("tema"); 
+            list.Add("estoy_un_soldado_en_el_ejercito");
+            list.Add("nosotros_jugamos_básquetbol");
+            list.Add("güey");
+
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetMeetupList4()
+        {
+            var list = new List<string>();
+            
             list.Add("la_cumbre");
             list.Add("señales");
             list.Add("flaquillo");
@@ -419,16 +475,7 @@ namespace DAL
             list.Add("me_voy_a_banar");
             list.Add("entreviste");
             list.Add("maestro_suplente");
-            list.Add("estoy_un_soldado_en_el_ejercito");
-            list.Add("nosotros_jugamos_básquetbol");
-            list.Add("güey");
-            list.Add("libre");
-            list.Add("totops");
-            list.Add("lilli_le_gusta_cariño_mucho");
-            list.Add("elote");
-            list.Add("paquete_de_programma");
-            list.Add("voy_a_bañarme");
-
+         
             return list;
         }
 
@@ -466,6 +513,14 @@ namespace DAL
             list.Add("luego");
             list.Add("cada");
             list.Add("orale");
+          
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetPrepositions2()
+        {
+            var list = new List<string>();
+
             list.Add("pues");
             list.Add("si");
             list.Add("ya");
@@ -585,6 +640,14 @@ namespace DAL
             list.Add("el_pimiento_verde");
             list.Add("el_tupinambo");
             list.Add("la_jícama");
+          
+            return list;
+        }
+
+        public List<string> GetVocabularyList_GetVegetables2()
+        {
+            var list = new List<string>();
+
             list.Add("el_puerro");
             list.Add("la_lenteja");
             list.Add("el_ruibarbo");
@@ -623,7 +686,7 @@ namespace DAL
 
         {
             var list = new List<string>();
-
+            
             list.Add("el_ático");
             list.Add("el_sótano");
             list.Add("el_baño");
@@ -646,6 +709,15 @@ namespace DAL
             list.Add("el_suelo");
             list.Add("el_mostrador");
             list.Add("la_lámpara");
+          
+            return list;
+        }
+
+        public List<string> GetVocabularyList_HouseTerms2()
+
+        {
+            var list = new List<string>();
+
             list.Add("la_luz");
             list.Add("el_espejo");
             list.Add("el_tejado");

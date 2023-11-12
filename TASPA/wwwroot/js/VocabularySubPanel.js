@@ -12,12 +12,12 @@ function InitializeVocabulary() {
     vocabularySubPanelContent.classList.add('expanded');
 }
 
-function SelectVocabularyList() {
-    var selectedVocabularyList = document.getElementById("vocabularyListSelectList");
-    var selectedValue = selectedVocabularyList.value;
+//function SelectVocabularyList() {
+//    var selectedVocabularyList = document.getElementById("vocabularyListSelectList2");
+//    var selectedValue = selectedVocabularyList.value;
 
-    ServerCalls.GetVocabularyList(selectedValue);
-}
+//    ServerCalls.GetVocabularyList(selectedValue);
+//}
 
 function VolcabularyPanelResize() {
     var width = window.innerWidth;

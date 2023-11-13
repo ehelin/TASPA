@@ -77,6 +77,44 @@ namespace DAL
 
         #region Vocabulary Lists
 
+        public List<Vocabulary> GetVocabularyLists()
+        {
+            var vocabularyLists = new List<Vocabulary>();
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Select list", Value = "" });
+            //verbLists.Add("Full");
+            vocabularyLists.Add(new Vocabulary() { Text = "Body", Value = "bodyparts" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Clothing", Value = "clothing" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Colors", Value = "colors" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Family Members", Value = "familymembers" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Fruits", Value = "fruits" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Fruits2", Value = "fruits2" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "House Terms", Value = "houseterms" });
+            vocabularyLists.Add(new Vocabulary() { Text = "House Terms2", Value = "houseterms2" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Meetup Group List", Value = "listfrommeetup" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Meetup Group List2", Value = "listfrommeetup2" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Meetup Group List3", Value = "listfrommeetup3" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Meetup Group List4", Value = "listfrommeetup4" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Phrases", Value = "phrases" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Prepositions", Value = "prepositions" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Prepositions2", Value = "prepositions2" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Questions", Value = "questions" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Shops", Value = "shops" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Vegetables", Value = "vegetables" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Vegetables2", Value = "vegetables2" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Time", Value = "timewords" });
+
+            return vocabularyLists;
+        }
+
         public List<string> GetVocabularyList_Phrases()
         {
             var list = new List<string>();

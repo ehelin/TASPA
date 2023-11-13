@@ -79,6 +79,14 @@ namespace TASPA.Controllers
             return Ok(verbList); // 200
         }
 
+        [HttpGet("getVocabularyLists")]
+        public IActionResult GetVocabularyLists()
+        {
+            var vocabularyLists = this.taspaService.GetVocabularyLists();
+
+            return Ok(vocabularyLists); // 200
+        }
+
         [HttpGet("getVerbLists")]
         public IActionResult GetVerbLists()
         {

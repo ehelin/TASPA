@@ -65,6 +65,32 @@ ServerCalls.SetVocabularyJson = function (vocabularyFolder, vocabularyName) {
     }
 };
 
+ServerCalls.SetVocabularyLists = function (searchTerm, searchVerbList) {
+    try {
+        var path = '/TaspaApi/getVocabularyLists';
+        return ServerCall.Get(path)
+            .then(
+                function (response) {
+                    var jsonParsed = JSON.parse(response);
+                    var verbListSelectListControl = document.getElementById("vocabularyLists");
+
+                    for (var i = 0; i < jsonParsed.length; i++) {
+                        var currentJson = jsonParsed[i];
+                        verbListSelectListControl.options[verbListSelectListControl.options.length] = new Option(currentJson.text, currentJson.value);
+                    }
+
+                    if (searchTerm != null && searchTerm != undefined && searchTerm.length > 0) {
+                        ServerCalls.SetVerbList(searchVerbList, searchTerm);
+                    }
+
+                    ServerCalls.SetLastVerbListUsedDisplay();
+                });
+    }
+    catch (ex) {
+        throw ex;
+    }
+};
+
 ServerCalls.SetVerbLists = function (searchTerm, searchVerbList) {
     try {
         var path = '/TaspaApi/getVerbLists';

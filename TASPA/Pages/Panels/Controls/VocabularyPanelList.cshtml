@@ -2,11 +2,8 @@
 @{
    var modValue = @Model.IsMobile ? 1 : 4;
 }
+
 <div class="center">
-    <select style="align-self: center" id="vocabularyListSelectList2" class="displayPanel" onchange="SelectVocabularyList2()">
-        @foreach(var item in Model.VocabularyRadioButtons)
-        {        
-            <option value="@item.Value">@item.LinkText</option>
-        }
-    </select>
+    <select id="vocabularyLists" class="displayPanel"></select>
+    <button onclick="SelectVocabularyList();" class="displayPanel">Submit</button>
 </div>

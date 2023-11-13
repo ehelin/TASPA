@@ -205,6 +205,13 @@ namespace BLL
             return verbLists;
         }
 
+        public List<Vocabulary> GetVocabularyLists()
+        {
+            var vocabularyLists = this.taspaDataService.GetVocabularyLists();
+
+            return vocabularyLists;
+        }
+
         public List<string> GetVerbList(string verbListName)
         {
             // TODO - make verbListName comparison strings constants

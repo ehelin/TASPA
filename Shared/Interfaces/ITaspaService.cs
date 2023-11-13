@@ -13,6 +13,7 @@ namespace Shared.Interfaces
         public List<SearchTerm> Search(string searchTerm);
         public List<SearchTerm> GetSearchList();
 
+        public List<Vocabulary> GetVocabularyLists();
         public List<string> GetVocabularyList(string vocabularyListName);
 
         public List<string> GetVerbLists();

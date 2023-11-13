@@ -10,6 +10,7 @@ namespace Shared.Interfaces
         public List<VocabularyRadioButton> GetVocabularyRadioButtons();
         public List<SearchTerm> GetSearchList();
 
+        public List<Vocabulary> GetVocabularyLists();
         public List<string> GetVocabularyList_Phrases();
         public List<string> GetVocabularyList_GetBodyParts();
         public List<string> GetVocabularyList_HouseTerms();

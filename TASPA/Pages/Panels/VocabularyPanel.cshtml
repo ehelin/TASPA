@@ -13,12 +13,10 @@
         <label id="lastVocabularyListUsed"></label>
         <br />
         <div class="vocabularyListSelectionPanel">
-            <div id="vocabularyMobileMenu" class="collasped">
-                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, true))
-            </div>
-            <div id="vocabularyDesktopMenu" class="expanded">
-                @await Html.PartialAsync("/Pages/Panels/Controls/VocabularyPanelList.cshtml", new VocabularyPanelListModel(Model.VocabularyRadioButtons, Model.SearchVocabularyList, false))
-            </div>
+            <div class="center">
+                <select id="vocabularyLists" class="displayPanel"></select>
+                <button onclick="SelectVocabularyList();" class="displayPanel">Submit</button>
+            </div>       
         </div>
     </div>
 

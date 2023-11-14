@@ -76,7 +76,12 @@ ServerCalls.SetVocabularyLists = function (searchTerm, searchVerbList) {
 
                     for (var i = 0; i < jsonParsed.length; i++) {
                         var currentJson = jsonParsed[i];
-                        verbListSelectListControl.options[verbListSelectListControl.options.length] = new Option(currentJson.text, currentJson.value);
+
+                        var option = document.createElement("option");
+                        option.value = currentJson.value;
+                        option.text = currentJson.text;
+
+                        verbListSelectListControl.appendChild(option);
                     }
 
                     if (searchTerm != null && searchTerm != undefined && searchTerm.length > 0) {

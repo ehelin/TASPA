@@ -162,6 +162,9 @@ namespace BLL
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetVegetables());
                 fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_GetVegetables2());
 
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_MexicoList1());
+                fullVocabularyList.AddRange(this.taspaDataService.GetVocabularyList_MexicoList2());
+
                 return fullVocabularyList;
             }
             else if (listName == "phrases") { return this.taspaDataService.GetVocabularyList_Phrases(); }
@@ -191,6 +194,12 @@ namespace BLL
 
             else if (listName == "vegetables") { return this.taspaDataService.GetVocabularyList_GetVegetables(); }
             else if (listName == "vegetables2") { return this.taspaDataService.GetVocabularyList_GetVegetables2(); }
+
+            else if (listName == "vegetables") { return this.taspaDataService.GetVocabularyList_GetVegetables(); }
+            else if (listName == "vegetables") { return this.taspaDataService.GetVocabularyList_GetVegetables(); }
+
+            else if (listName == "mexico1") { return this.taspaDataService.GetVocabularyList_MexicoList1(); }
+            else if (listName == "mexico2") { return this.taspaDataService.GetVocabularyList_MexicoList2(); }
 
             else
             {

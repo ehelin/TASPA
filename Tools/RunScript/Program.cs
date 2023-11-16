@@ -1,10 +1,10 @@
-﻿////-------------------------------------------------------------------------
-////Script 1
-//// TODO - get paths dyanmically
-//var listStructuredFilePath = "C:\\EricDocuments\\Spanish\\OldListToConvertToTaspa2.txt";
-//var jsonPath = "C:\\EricDocuments\\Spanish\\output";
-//var fileName = "JsonDirectoryBllList.txt";
-//BLL.Utilities.CreateVocabularyList(listStructuredFilePath, jsonPath);
+﻿//-------------------------------------------------------------------------
+//Script 1
+// TODO - get paths dyanmically
+var listStructuredFilePath = "C:\\EricDocuments\\Personal\\vocabulary.txt";
+var jsonPath =  "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\mexico";
+var fileName = "JsonDirectoryBllList.txt";
+BLL.Utilities.CreateVocabularyList(listStructuredFilePath, jsonPath, fileName);
 
 ////-------------------------------------------------------------------------
 ////Script 2
@@ -54,7 +54,7 @@
 
 //-------------------------------------------------------------------------
 //Script 6
-var inputOutputPath = "C:\\EricDocuments\\Personal\\blogposts\\AI_2\\SentimentAnalysisFiles";
-BLL.Utilities.CreatePositiveNegativeWordLists(inputOutputPath);
+//var inputOutputPath = "C:\\EricDocuments\\Personal\\blogposts\\AI_2\\SentimentAnalysisFiles";
+//BLL.Utilities.CreatePositiveNegativeWordLists(inputOutputPath);
 
 

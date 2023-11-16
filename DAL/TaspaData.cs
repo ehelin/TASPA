@@ -77,6 +77,80 @@ namespace DAL
 
         #region Vocabulary Lists
 
+        public List<string> GetVocabularyList_MexicoList1()
+        {
+            var list = new List<string>();
+
+            list.Add("asco_me_das");
+            list.Add("balatas_traseras");
+            list.Add("casa_de_colina");
+            list.Add("Cuando_puedes");
+            list.Add("no_hay_pedo");
+            list.Add("Por_si_sirve_de_consuelo");
+            list.Add("párrafo");
+            list.Add("nalga_a_nalga");
+            list.Add("travieso-travesura");
+            list.Add("Bizca");
+            list.Add("balatas_delanteras");
+            list.Add("ombligo");
+            list.Add("imperdible");
+            list.Add("humedales_construidos");
+            list.Add("Cometelo");
+            list.Add("corajudo");
+            list.Add("subasta");
+            list.Add("no_manches");
+            list.Add("molino");
+            list.Add("Fusil");
+            list.Add("senderos_y_arroyo");
+            list.Add("Jamón_de_pierna_Sabori");
+            list.Add("Suero_en_polvo_natural");
+            list.Add("leña");
+            list.Add("párrafo");
+            list.Add("ancho");
+        
+            return list;
+        }
+
+        public List<string> GetVocabularyList_MexicoList2()
+        {
+            var list = new List<string>();
+
+            list.Add("palillos");
+            list.Add("parejo");
+            list.Add("te_rindes");
+            list.Add("apegado");
+            list.Add("cuesta_creer");
+            list.Add("desfile");
+            list.Add("madre_de_alquiler");
+            list.Add("mismo_significado");
+            list.Add("pasta_dental");
+            list.Add("tu_estas_a_cargo");
+            list.Add("mi_tarjeta_pasó");
+            list.Add("cerveza_de_trigo");
+            list.Add("se_ponchan_llantas");
+            list.Add("vete_el_diablo");
+            list.Add("puñado_de_chiles");
+            list.Add("fijate");
+            list.Add("me_queda_lejos");
+            list.Add("cacahuete");
+            list.Add("miel_de_maple");
+            list.Add("faucet");
+            list.Add("jarabe_de_maple");
+            list.Add("deprisa");
+            list.Add("dio_de_baja_el_número");
+            list.Add("Que_retorcidos!");
+            list.Add("herramienta");
+            list.Add("campesino");
+            list.Add("corazonada");
+            list.Add("guayabera");
+            list.Add("picoso");
+            list.Add("chiquitita");
+            list.Add("nunca_más");
+            list.Add("no_quiero_hablar_conmigo_mismo");
+
+            return list;
+        }
+
         public List<Vocabulary> GetVocabularyLists()
         {
             var vocabularyLists = new List<Vocabulary>();
@@ -109,6 +183,9 @@ namespace DAL
 
             vocabularyLists.Add(new Vocabulary() { Text = "Vegetables", Value = "vegetables" });
             vocabularyLists.Add(new Vocabulary() { Text = "Vegetables2", Value = "vegetables2" });
+
+            vocabularyLists.Add(new Vocabulary() { Text = "Mexico1", Value = "mexico1" });
+            vocabularyLists.Add(new Vocabulary() { Text = "Mexico2", Value = "mexico2" });
 
             vocabularyLists.Add(new Vocabulary() { Text = "Time", Value = "timewords" });
 

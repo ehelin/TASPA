@@ -34,13 +34,17 @@ namespace BLL
             var finalCodeVocabularyLists = CreateCodeVocabularyLists(rawVocabularyLists);
 
             WriteFinalVocabularyListToFile(outputJsonPath, fileName, finalCodeVocabularyLists);
-            var ctr = 1;
-            foreach (var vocabularyList in rawVocabularyLists)
-            {
-                var jsonPath = string.Format("{0}\\list{1}", outputJsonPath, ctr.ToString());
-                WriteFinalVocabularyListToJsonFiles(jsonPath, vocabularyList);
-                ctr++;
-            }
+
+            WriteFinalVocabularyListToJsonFiles(outputJsonPath, fileContentsByLines.ToList());
+          
+
+            //var ctr = 1;
+            //foreach (var vocabularyList in rawVocabularyLists)
+            //{
+            //    var jsonPath = string.Format("{0}\\list{1}", outputJsonPath, ctr.ToString());
+            //    WriteFinalVocabularyListToJsonFiles(jsonPath, vocabularyList);
+            //    ctr++;
+            //}
         }
         
         private static void WriteFinalVocabularyListToJsonFiles(string jsonPath, List<string> vocabularyList)
@@ -68,8 +72,8 @@ namespace BLL
                     continue;
                 }
 
-                var englishWord = line.Substring(0, line.IndexOf(",")).Trim();            
-                var spanishWord = line.Substring(line.IndexOf(",") + 1).Trim();
+                var spanishWord = line.Substring(0, line.IndexOf(",")).Trim();            
+                var englishWord = line.Substring(line.IndexOf(",") + 1).Trim();
                 var jsonContents = $"{{\"Name\":\"" + spanishWord + "\",\"EnglishMeaning\":\"" + englishWord + "\"}";
 
                 spanishWord = spanishWord.Replace(" ", "_");
@@ -118,7 +122,8 @@ namespace BLL
                 else 
                 {
                     var commaPos = line.IndexOf(",");
-                    var editedLine = line.Substring(commaPos+1, (line.Length-(commaPos+1)));
+                    //var editedLine = line.Substring(commaPos+1, (line.Length-(commaPos+1)));
+                    var editedLine = line.Substring(0, commaPos);
                     editedLine = editedLine.Replace(";\";", "");
                     editedLine = editedLine.Replace(";';\"", "");
 
@@ -132,7 +137,12 @@ namespace BLL
 
                     vocabularyList.Add(editedLine);
                 }
-           }
+            }
+
+            if (vocabularyLists.Count == 0)
+            {
+                vocabularyLists.Add(vocabularyList);
+            }
 
             return vocabularyLists;
         }

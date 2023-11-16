@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\json\spanish\verbs\" />
+    <Folder Include="wwwroot\json\spanish\vocabulary\mexico\" />
   </ItemGroup>
 
   <ItemGroup>

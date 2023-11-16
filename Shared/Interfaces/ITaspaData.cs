@@ -31,6 +31,8 @@ namespace Shared.Interfaces
         public List<string> GetVocabularyList_GetTimeWords();
         public List<string> GetVocabularyList_GetVegetables();
         public List<string> GetVocabularyList_GetVegetables2();
+        public List<string> GetVocabularyList_MexicoList1();
+        public List<string> GetVocabularyList_MexicoList2();
 
         public List<string> GetVerbLists();
         public List<string> GetAVerbList();

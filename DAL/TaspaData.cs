@@ -27,8 +27,8 @@ namespace DAL
 
             navigationLinks.Add(new NavigationLink() { LinkAction = "/components/HelloWorld", LinkText = "HelloWorld" });
             //navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/Chat", LinkText = "Chat" });
-            //navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VerbsPanel", LinkText = "Verbs" });
-            //navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VocabularyPanel", LinkText = "Vocabulary" });
+            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VerbsPanel", LinkText = "Verbs" });
+            navigationLinks.Add(new NavigationLink() { LinkAction = "/Panels/VocabularyPanel", LinkText = "Vocabulary" });
 
             return navigationLinks;
         }

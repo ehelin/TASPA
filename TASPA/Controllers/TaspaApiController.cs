@@ -5,6 +5,7 @@ using Shared.Interfaces;
 using System;
 using System.IO;
 using System.Linq;
+using Python.Runtime;
 
 namespace TASPA.Controllers
 {
@@ -110,5 +111,24 @@ namespace TASPA.Controllers
 
             return Ok(navigationLinks); // 200
         }
+
+		[HttpGet("chat")]
+		public IActionResult Chat(string message)
+		{
+            var response = string.Empty;
+
+			// TODO - add python chat link here
+			using (Py.GIL()) // acquire the Python GIL (Global Interpreter Lock)
+			{
+				dynamic myPythonModule = Py.Import("__your_python_module__");
+				dynamic result = myPythonModule.YourPythonFunction();
+
+				//Console.WriteLine(result);
+
+				response = Convert.ToString(result);
+			}
+
+			return Ok(response); // 200
+		}
     }
 }

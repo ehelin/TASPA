@@ -1,10 +1,10 @@
-﻿//-------------------------------------------------------------------------
-//Script 1
-// TODO - get paths dyanmically
-var listStructuredFilePath = "C:\\EricDocuments\\Personal\\vocabulary.txt";
-var jsonPath =  "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\mexico";
-var fileName = "JsonDirectoryBllList.txt";
-BLL.Utilities.CreateVocabularyList(listStructuredFilePath, jsonPath, fileName);
+﻿////-------------------------------------------------------------------------
+////Script 1
+//// TODO - get paths dyanmically
+//var listStructuredFilePath = "C:\\EricDocuments\\Personal\\vocabulary.txt";
+//var jsonPath =  "C:\\EricDocuments\\Personal\\Taspa2\\TASPA\\wwwroot\\json\\spanish\\vocabulary\\mexico";
+//var fileName = "JsonDirectoryBllList.txt";
+//BLL.Utilities.CreateVocabularyList(listStructuredFilePath, jsonPath, fileName);
 
 ////-------------------------------------------------------------------------
 ////Script 2
@@ -57,4 +57,11 @@ BLL.Utilities.CreateVocabularyList(listStructuredFilePath, jsonPath, fileName);
 //var inputOutputPath = "C:\\EricDocuments\\Personal\\blogposts\\AI_2\\SentimentAnalysisFiles";
 //BLL.Utilities.CreatePositiveNegativeWordLists(inputOutputPath);
 
+//-------------------------------------------------------------------------
+//Script 7
+var eng = IronPython.Hosting.Python.CreateEngine();
+var scope = eng.CreateScope();
+eng.Execute(@"def greetings(name): return 'Hello ' + name.title() + '!'", scope);
+dynamic greetings = scope.GetVariable("greetings");
+System.Console.WriteLine(greetings("world"));
 

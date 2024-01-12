@@ -64,8 +64,13 @@ var scope = eng.CreateScope();
 //eng.Execute(@"def greetings(name): 
 //					return 'Hello ' + name.title() + '!'
 //			", scope);
-
-eng.Execute(@"from transformers import AutoModelForCausalLM, AutoTokenizer
+// 
+eng.Execute(@"import sys
+sys.path.append(r'c:\users\erich\appdata\local\programs\python\python310\lib\site-packages')
+sys.path.append(r'C:\Users\erich\AppData\Local\Programs\Python\Python310\Lib\site-packages\transformers')
+sys.path.append(r'C:\Users\erich\AppData\Local\Programs\Python\Python310\Lib\site-packages\typing_extensions-4.9.0.dist-info')
+sys.path.append(r'C:\Users\erich\AppData\Local\Programs\Python\Python310\Lib\)
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-large')

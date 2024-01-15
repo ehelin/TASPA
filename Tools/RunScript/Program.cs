@@ -57,87 +57,207 @@
 //var inputOutputPath = "C:\\EricDocuments\\Personal\\blogposts\\AI_2\\SentimentAnalysisFiles";
 //BLL.Utilities.CreatePositiveNegativeWordLists(inputOutputPath);
 
+////-------------------------------------------------------------------------
+////Script 7 (mostly from ChatGPT)
+//using System.Diagnostics;
+
+//Main();
+
+//void Main()
+//{
+//	// Replace "python.exe" with the actual path to your Python interpreter
+//	string pythonPath = "C:\\Users\\erich\\AppData\\Local\\Programs\\Python\\Python310\\python.exe";
+//	string scriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chat.py";
+
+//	using (Process process = new Process())
+//	{
+//		#region
+
+//		process.StartInfo.FileName = pythonPath;
+//		process.StartInfo.Arguments = scriptPath;
+//		process.StartInfo.UseShellExecute = false;
+//		process.StartInfo.RedirectStandardInput = true;
+//		process.StartInfo.RedirectStandardOutput = true;
+//		process.StartInfo.CreateNoWindow = true;
+
+//		#endregion
+
+//		process.Start();
+
+//		using (StreamWriter sw = process.StandardInput)
+//		{
+//			using (StreamReader sr = process.StandardOutput)
+//			{
+//				// Send multiple requests
+//				for (int i = 0; i < 5; i++)
+//				{
+//					// Send input to the Python script
+//					//sw.WriteLine($"Request {i}");
+//					sw.WriteLine("How do you feel?");
+
+//					// Receive and process the response
+//					string response = sr.ReadLine();
+//					Console.WriteLine($"Response {i}: {response}");
+//				}
+
+//				// Optionally, you can send a termination signal
+//				sw.WriteLine("exit");
+//			}
+//		}
+
+//		process.WaitForExit();
+//	}
+//}
+
 //-------------------------------------------------------------------------
-//Script 7
-//var eng = IronPython.Hosting.Python.CreateEngine();
-//var scope = eng.CreateScope();
-////eng.Execute(@"def greetings(name): 
-////					return 'Hello ' + name.title() + '!'
-////			", scope);
-//// 
-//eng.Execute(@"import sys
-//sys.path.append(r'c:\users\erich\appdata\local\programs\python\python310\lib\site-packages')
-//sys.path.append(r'C:\Users\erich\AppData\Local\Programs\Python\Python310\Lib\site-packages\transformers')
-//#sys.path.append(r'C:\Users\erich\AppData\Local\Programs\Python\Python310\Lib\site-packages\typing_extensions-4.9.0.dist-info')
-//sys.path.append(r'C:\Users\erich\AppData\Local\Programs\Python\Python310\Lib\typing2.py)
-//from transformers import AutoModelForCausalLM, AutoTokenizer
-//import torch
-
-//tokenizer = AutoTokenizer.from_pretrained('microsoft/DialoGPT-large')
-//model = AutoModelForCausalLM.from_pretrained('microsoft/DialoGPT-large')
-
-//# Let's chat for 5 lines
-//for step in range(500):
-//    # encode the new user input, add the eos_token and return a tensor in Pytorch
-//    new_user_input_ids = tokenizer.encode(input('>> User:') + tokenizer.eos_token, return_tensors='pt')
-
-//    # append the new user input tokens to the chat history
-//    bot_input_ids = torch.cat([chat_history_ids, new_user_input_ids], dim=-1) if step > 0 else new_user_input_ids
-
-//    # generated a response while limiting the total chat history to 1000 tokens, 
-//    chat_history_ids = model.generate(bot_input_ids, max_length=1000, pad_token_id=tokenizer.eos_token_id)
-
-//    # pretty print last ouput tokens from bot
-//    print('DialoGPT: {}'.format(tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)))", scope);
-
-//dynamic greetings = scope.GetVariable("greetings");
-//System.Console.WriteLine(greetings("world"));
+//Script 8
+using System;
 using System.Diagnostics;
+using System.Net;
+using System.Text;
+using System.Threading;
 
-Main();
-
-void Main()
+class Program
 {
-	// Replace "python.exe" with the actual path to your Python interpreter
-	string pythonPath = "C:\\Users\\erich\\AppData\\Local\\Programs\\Python\\Python310\\python.exe";
-	string scriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chat.py";
+	private static string message = string.Empty;
+	private static string response = string.Empty;
+	private static bool exit = false;
 
-	using (Process process = new Process())
+	static void Main()
 	{
-		#region
+		// Start a new thread for the background process
+		Thread backgroundThread = new Thread(BackgroundProcessThreadMethod);
+		backgroundThread.Start();
 
-		process.StartInfo.FileName = pythonPath;
-		process.StartInfo.Arguments = scriptPath;
-		process.StartInfo.UseShellExecute = false;
-		process.StartInfo.RedirectStandardInput = true;
-		process.StartInfo.RedirectStandardOutput = true;
-		process.StartInfo.CreateNoWindow = true;
+		// Start a new thread for the API server
+		Thread apiThread = new Thread(ApiServerThreadMethod);
+		apiThread.Start();
 
-		#endregion
+		// Continue with the main thread or perform other tasks
 
-		process.Start();
+		// Wait for the background process and API server threads to finish (which won't happen in this case)
+		backgroundThread.Join();
+		apiThread.Join();
 
-		using (StreamWriter sw = process.StandardInput)
+		Console.WriteLine("Main thread exiting.");
+	}
+
+	static void BackgroundProcessThreadMethod()
+	{
+		// Replace "python.exe" with the actual path to your Python interpreter
+		string pythonPath = "C:\\Users\\erich\\AppData\\Local\\Programs\\Python\\Python310\\python.exe";
+		string scriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chat.py";
+
+		using (Process process = new Process())
 		{
-			using (StreamReader sr = process.StandardOutput)
+			#region
+
+			process.StartInfo.FileName = pythonPath;
+			process.StartInfo.Arguments = scriptPath;
+			process.StartInfo.UseShellExecute = false;
+			process.StartInfo.RedirectStandardInput = true;
+			process.StartInfo.RedirectStandardOutput = true;
+			process.StartInfo.CreateNoWindow = true;
+
+			#endregion
+
+			process.Start();
+
+			using (StreamWriter sw = process.StandardInput)
 			{
-				// Send multiple requests
-				for (int i = 0; i < 5; i++)
+				using (StreamReader sr = process.StandardOutput)
 				{
-					// Send input to the Python script
-					//sw.WriteLine($"Request {i}");
-					sw.WriteLine("How do you feel?");
+					while (!exit)
+					{
+						if (exit)
+						{
+							sw.WriteLine("exit");
+						}
+						if (!string.IsNullOrEmpty(message))
+						{
+							sw.WriteLine(message);
 
-					// Receive and process the response
-					string response = sr.ReadLine();
-					Console.WriteLine($"Response {i}: {response}");
+							// Receive and process the response
+							message = string.Empty;
+							response = sr.ReadLine();
+						}
+						Thread.Sleep(500);
+					}
 				}
+			}
 
-				// Optionally, you can send a termination signal
-				sw.WriteLine("exit");
+			process.WaitForExit();
+		}
+	}
+
+	static void ApiServerThreadMethod()
+	{
+		// Define the base URL for the API server
+		string apiUrl = "http://localhost:8080/";
+		HttpListener listener = new HttpListener();
+
+		try
+		{
+			// Add the URL prefixes to the listener
+			listener.Prefixes.Add(apiUrl);
+
+			listener.Start();
+
+			Console.WriteLine("API server started. Listening for requests...");
+
+			while (true)
+			{
+				// Wait for an incoming request
+				HttpListenerContext context = listener.GetContext();
+				ThreadPool.QueueUserWorkItem(HandleRequest, context);
 			}
 		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"An error occurred: {ex.Message}");
+		}
+		finally
+		{
+			// Stop the listener in case of any exceptions
+			listener.Stop();
+		}
+	}
 
-		process.WaitForExit();
+	static void HandleRequest(object state)
+	{
+		HttpListenerContext context = (HttpListenerContext)state;
+
+		// Read the request
+		string requestMethod = context.Request.HttpMethod;
+		string requestUrl = context.Request.Url.ToString();
+		Console.WriteLine($"Received {requestMethod} request for {requestUrl}");
+
+		// Extract GET parameters from the URL
+		string paramName = "message"; // Change this to your parameter name
+		string paramValue = context.Request.QueryString[paramName];
+
+		// Process the request and send input to the background process
+		string requestData = new StreamReader(context.Request.InputStream).ReadToEnd();
+		Console.WriteLine($"Request data: {requestData}");
+		Console.WriteLine($"GET Parameter '{paramName}': {paramValue}");
+
+		// Replace this with your logic to send input to the background process
+		// For simplicity, we're just printing the received data and parameter here
+		Console.WriteLine($"Sending input to the background process: {requestData}");
+
+		message = paramValue;
+
+		while (string.IsNullOrEmpty(response)) { }
+
+		// Prepare the response
+		//string responseString = $"API Response: Request received! Parameter '{paramName}' value: {paramValue}";
+		byte[] buffer = Encoding.UTF8.GetBytes(response);
+
+		response = string.Empty;
+
+		// Send the response
+		context.Response.ContentLength64 = buffer.Length;
+		context.Response.OutputStream.Write(buffer, 0, buffer.Length);
+		context.Response.Close();
 	}
 }

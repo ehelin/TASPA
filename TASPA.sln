@@ -31,6 +31,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TASPAVueJsClient", "TASPAVu
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AiModelRunner", "AiModelRunner\AiModelRunner.pyproj", "{E50E4A3F-C769-4014-BC63-72B39CE110E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiModelApi", "AiModelApi\AiModelApi.csproj", "{DFB8DD5B-C726-455C-B13A-7DCB73658135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{331157B8-82F6-4298-A286-4314B833E287}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E50E4A3F-C769-4014-BC63-72B39CE110E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E50E4A3F-C769-4014-BC63-72B39CE110E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB8DD5B-C726-455C-B13A-7DCB73658135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB8DD5B-C726-455C-B13A-7DCB73658135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB8DD5B-C726-455C-B13A-7DCB73658135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB8DD5B-C726-455C-B13A-7DCB73658135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

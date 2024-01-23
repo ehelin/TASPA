@@ -21,8 +21,8 @@ namespace AiModelApi
 		/// <summary>
 		/// Message/response for interacting w/Python script.  Not ideal, but works for now.
 		/// </summary>
-		public static string message = string.Empty;
-		public static string response = string.Empty;
+		public static string Message = string.Empty;
+		public static string Response = string.Empty;
 
 		public static void BackgroundProcessThreadMethod()
 		{
@@ -51,13 +51,13 @@ namespace AiModelApi
 							{
 								sw.WriteLine("exit");
 							}
-							if (!string.IsNullOrEmpty(message))
+							if (!string.IsNullOrEmpty(Message))
 							{
-								sw.WriteLine(message);
+								sw.WriteLine(Message);
 
 								// Receive and process the response
-								message = string.Empty;
-								response = sr.ReadLine();
+								Message = string.Empty;
+								Response = sr.ReadLine();
 							}
 							Thread.Sleep(500);
 						}

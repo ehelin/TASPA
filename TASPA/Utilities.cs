@@ -13,12 +13,20 @@ namespace TASPA
         {
             serviceCollection.AddSingleton<ITaspaData, TaspaData>();
             serviceCollection.AddSingleton<ITaspaService, TaspaService>();
-			serviceCollection.AddSingleton<IChatService, ChatServiceOne>();
 			serviceCollection.AddSingleton<ISentenceService, SentenceService>();
             serviceCollection.AddSingleton<ISentimentAnalysis, SentimentAnalysis>();
             serviceCollection.AddSingleton<ISentimentAnalysisData, SentimentAnalysisData>();
 
-            return serviceCollection;
+			// the 'goal' is to add ways to grab either implementation in constructor...so far, doesn't work (.net 8 has native solution I think)
+			serviceCollection.AddSingleton<IChatService, ChatServiceOne>(sp =>
+			{
+				var dependency1 = sp.GetRequiredService<ISentenceService>();
+				var dependency2 = sp.GetRequiredService<ISentimentAnalysis>();
+				return new ChatServiceOne(dependency1, dependency2);
+			});
+			serviceCollection.AddSingleton<IChatService, ChatServiceAiModelApi>(sp => new ChatServiceAiModelApi());
+
+			return serviceCollection;
         }
 
         public static string GetSearchResultsTargetUrl(SearchTerm searchResult)

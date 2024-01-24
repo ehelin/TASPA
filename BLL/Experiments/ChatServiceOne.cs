@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using Shared.Interfaces;
 using Shared.Dto;
+using System.Threading.Tasks;
 
 namespace BLL.Experiments
 {
@@ -110,6 +111,11 @@ namespace BLL.Experiments
 
 			this.sentimentAnalysis.ClearConversation();
         }
+
+		public Task<ChatResponse> GetMessageResponseAsync(string chatMessage)
+		{
+			throw new NotImplementedException();
+		}
 
 		public void ClearChatSession()
 		{
@@ -530,8 +536,8 @@ namespace BLL.Experiments
             Console.WriteLine(string.Format("Response Type is {0}", enumValues[this.currentResponseTypeIndex].ToString()));
         }
 
-        #endregion
+		#endregion
 
-        #endregion
-    }
+		#endregion
+	}
 }

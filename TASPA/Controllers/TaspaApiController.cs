@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using Shared.Dto;
 using Shared.Interfaces;
 using System;
 using System.IO;
 using System.Linq;
 using Python.Runtime;
+using BLL.Experiments;
+using System.Threading.Tasks;
 
 namespace TASPA.Controllers
 {
@@ -41,9 +44,10 @@ namespace TASPA.Controllers
         }
 
         [HttpPost("sendChatMessage")]
-        public IActionResult SendChatMessage([FromBody] ChatRequest request)
+        public async Task<IActionResult> SendChatMessage([FromBody] ChatRequest request)
 		{
-            var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, request.Message, request.UseSentimentAnalysis);
+            //var response = this.chatService.GetMessageResponse(this.environment.WebRootPath, request.Message, request.UseSentimentAnalysis);
+            var response = await this.chatService.GetMessageResponseAsync(request.Message);
 
             return Ok(response); // 200
         }
@@ -111,24 +115,5 @@ namespace TASPA.Controllers
 
             return Ok(navigationLinks); // 200
         }
-
-		[HttpGet("chat")]
-		public IActionResult Chat(string message)
-		{
-            var response = string.Empty;
-
-			// TODO - add python chat link here
-			using (Py.GIL()) // acquire the Python GIL (Global Interpreter Lock)
-			{
-				dynamic myPythonModule = Py.Import("__your_python_module__");
-				dynamic result = myPythonModule.YourPythonFunction();
-
-				//Console.WriteLine(result);
-
-				response = Convert.ToString(result);
-			}
-
-			return Ok(response); // 200
-		}
     }
 }

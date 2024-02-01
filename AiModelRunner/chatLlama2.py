@@ -1,25 +1,41 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+# from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
+# tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
+# model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
 
-# from transformers import AutoModelForCausalLM, AutoTokenizer
-# import torch
+#==================================================================================================
 
+# # prompt = "Hey, are you conscious? Can you talk to me?"
+# # inputs = tokenizer(prompt, return_tensors="pt")
 
-# tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-large")
-# model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-large")
+# # # Generate
+# # generate_ids = model.generate(inputs.input_ids, max_length=30)
+# # tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
 
-# # Let's chat for 5 lines
-# for step in range(5):
-#     # encode the new user input, add the eos_token and return a tensor in Pytorch
-#     new_user_input_ids = tokenizer.encode(input(">> User:") + tokenizer.eos_token, return_tensors='pt')
+# =============================================================================================
 
-#     # append the new user input tokens to the chat history
-#     bot_input_ids = torch.cat([chat_history_ids, new_user_input_ids], dim=-1) if step > 0 else new_user_input_ids
+# from transformers import pipeline
 
-#     # generated a response while limiting the total chat history to 1000 tokens, 
-#     chat_history_ids = model.generate(bot_input_ids, max_length=1000, pad_token_id=tokenizer.eos_token_id)
+# pipe = pipeline("text-generation", model="meta-llama/Llama-2-70b-chat-hf")
 
-#     # pretty print last ouput tokens from bot
-#     print("DialoGPT: {}".format(tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)))
+#===============================================================================================
+import json
+
+# Load the LLaMA model
+with open('llama_2_70b_chat_hf.json', 'r') as f:
+    model = json.load(f)
+
+# Define a function to generate responses
+def generate_response(input_text):
+    input_ids = tokenizer.encode(input_text, return_tensors='pt')
+    outputs = model(input_ids)
+    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    return response
+
+# Prompt the user to enter text
+print('Enter some text:')
+user_text = input()
+
+# Generate a response
+response = generate_
+

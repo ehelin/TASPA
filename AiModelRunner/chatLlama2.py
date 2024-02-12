@@ -4,11 +4,6 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
 model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
 
-# from transformers import AutoTokenizer, AutoModelForCausalLM
-
-# tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
-# model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
-
 test = 1
 
 for step in range(5):
@@ -17,10 +12,12 @@ for step in range(5):
 	inputs = tokenizer(prompt, return_tensors="pt") 
 
 	# Generate
-
 	generate_ids = model.generate(inputs.input_ids, max_length=30) 
 
-	result = tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+	result = tokenizer.batch_decode(generate_ids, 
+				 skip_special_tokens=True, 
+				 clean_up_tokenization_spaces=False)[0]
 
-	print("Llama2: {}".format(tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]))
-# 	#print("DialoGPT: {}".format(tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)))
+	print("Llama2: {}".format(tokenizer.batch_decode(generate_ids, 
+						  skip_special_tokens=True, 
+						  clean_up_tokenization_spaces=False)[0]))

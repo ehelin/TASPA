@@ -15,7 +15,8 @@ namespace AiModelApi
 		{
 			// Start python script
 			PythonRunner.PythonPath = "C:\\Users\\erich\\AppData\\Local\\Programs\\Python\\Python310\\python.exe";
-			PythonRunner.ScriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chat.py";
+			//PythonRunner.ScriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chat.py";
+			PythonRunner.ScriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chatLlama2.py";
 			Thread backgroundThread = new Thread(PythonRunner.BackgroundProcessThreadMethod);
 			backgroundThread.Start();
 

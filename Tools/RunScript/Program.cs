@@ -146,7 +146,7 @@ class Program
 	{
 		// Replace "python.exe" with the actual path to your Python interpreter
 		string pythonPath = "C:\\Users\\erich\\AppData\\Local\\Programs\\Python\\Python310\\python.exe";
-		string scriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chat.py";
+		string scriptPath = "C:\\EricDocuments\\Personal\\Taspa2\\AiModelRunner\\chatLlama2.py";
 
 		using (Process process = new Process())
 		{
@@ -163,6 +163,8 @@ class Program
 
 			process.Start();
 
+			Console.WriteLine($"Python Wrapper Script: starting!");
+
 			using (StreamWriter sw = process.StandardInput)
 			{
 				using (StreamReader sr = process.StandardOutput)
@@ -175,11 +177,19 @@ class Program
 						}
 						if (!string.IsNullOrEmpty(message))
 						{
+							Console.WriteLine($"Python Wrapper Script: Received message - {message}");
 							sw.WriteLine(message);
 
-							// Receive and process the response
+							while (string.IsNullOrEmpty(response))
+							{
+								// Receive and process the response
+								response = sr.ReadLine();
+
+								Thread.Sleep(500);
+							}
+							
 							message = string.Empty;
-							response = sr.ReadLine();
+							Console.WriteLine($"Python Wrapper Script: Received response - {response}");
 						}
 						Thread.Sleep(500);
 					}
@@ -230,7 +240,7 @@ class Program
 		// Read the request
 		string requestMethod = context.Request.HttpMethod;
 		string requestUrl = context.Request.Url.ToString();
-		Console.WriteLine($"Received {requestMethod} request for {requestUrl}");
+		Console.WriteLine($"HandleRequest: Received {requestMethod} request for {requestUrl}");
 
 		// Extract GET parameters from the URL
 		string paramName = "message"; // Change this to your parameter name
@@ -238,16 +248,18 @@ class Program
 
 		// Process the request and send input to the background process
 		string requestData = new StreamReader(context.Request.InputStream).ReadToEnd();
-		Console.WriteLine($"Request data: {requestData}");
+		Console.WriteLine($"HandleRequest: Request data: {requestData}");
 		Console.WriteLine($"GET Parameter '{paramName}': {paramValue}");
 
 		// Replace this with your logic to send input to the background process
 		// For simplicity, we're just printing the received data and parameter here
-		Console.WriteLine($"Sending input to the background process: {requestData}");
+		Console.WriteLine($"HandleRequest: Sending input to the background process: {requestData}");
 
 		message = paramValue;
 
 		while (string.IsNullOrEmpty(response)) { }
+
+		Console.WriteLine($"HandleRequest: Received response: {response}");
 
 		// Prepare the response
 		//string responseString = $"API Response: Request received! Parameter '{paramName}' value: {paramValue}";
@@ -259,5 +271,7 @@ class Program
 		context.Response.ContentLength64 = buffer.Length;
 		context.Response.OutputStream.Write(buffer, 0, buffer.Length);
 		context.Response.Close();
+
+		Console.WriteLine($"HandleRequest: Response sent!");
 	}
 }

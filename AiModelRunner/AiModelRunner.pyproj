@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e50e4a3f-c769-4014-bc63-72b39ce110e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chatLlama2.py</StartupFile>
+    <StartupFile>chatModelX.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="chatModelX.py" />
+    <Compile Include="chatMsPhi1_5 - Copy.py" />
+    <Compile Include="chatMsDialoGPT-small.py" />
     <Compile Include="chatLlama2.py" />
     <Compile Include="chat.py" />
     <Compile Include="commandpromptinterface.py" />

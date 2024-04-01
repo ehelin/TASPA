@@ -4,8 +4,8 @@ import subprocess
 # Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
-model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
+tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-1_5", trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained("microsoft/phi-1_5", trust_remote_code=True)
 #========================================================
 
 def interact_with_command_prompt():

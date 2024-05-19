@@ -279,10 +279,12 @@ namespace BLL
             //else if (verbListName == "X") { return this.taspaDataService.GetXVerbList(); }
             //else if (verbListName == "Y") { return this.taspaDataService.GetYVerbList(); }
             else if (verbListName == "Z") { return this.taspaDataService.GetZVerbList(); }
-            else
-            {
-                throw new Exception(string.Format("Unknown verb list name: {0}", verbListName));
-            }
+            //else
+            //{
+            //    throw new Exception(string.Format("Unknown verb list name: {0}", verbListName));
+            //}
+
+            return null;
         }
 
         #region Private Methods

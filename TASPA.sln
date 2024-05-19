@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiModelApi", "AiModelApi\Ai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiOrchestration", "AiOrchestration\AiOrchestration.csproj", "{76BE18F5-651C-4EE1-B675-4D08B18B26F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiTests", "AiTests\AiTests.csproj", "{D2B4A65B-69CB-4EE7-8282-654905998F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{76BE18F5-651C-4EE1-B675-4D08B18B26F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76BE18F5-651C-4EE1-B675-4D08B18B26F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76BE18F5-651C-4EE1-B675-4D08B18B26F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B4A65B-69CB-4EE7-8282-654905998F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B4A65B-69CB-4EE7-8282-654905998F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B4A65B-69CB-4EE7-8282-654905998F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B4A65B-69CB-4EE7-8282-654905998F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6F04A996-EAAF-45FD-BF21-F103750900B7} = {E7C14006-5252-4612-BE6D-8D44D8386157}
 		{D25B2937-59A5-49C1-89E6-1EC468E96739} = {3436BB35-EDDA-42AD-8A7B-A30E676E9FC0}
+		{D2B4A65B-69CB-4EE7-8282-654905998F13} = {E7C14006-5252-4612-BE6D-8D44D8386157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2CC44D7-9FC1-44FB-8BC9-C2F67E57390E}

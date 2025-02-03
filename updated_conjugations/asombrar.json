@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "asombraro",
+            "Tu": "asombraras",
+            "ElEllaUsted": "asombrara",
+            "Nosotros": "asombraramos",
+            "Vosotros": "asombraráis",
+            "EllosEllasUstedes": "asombraran"
+        },
+        "Pretérito": {
+            "Yo": "asombraré",
+            "Tu": "asombraraste",
+            "ElEllaUsted": "asombraró",
+            "Nosotros": "asombraramos",
+            "Vosotros": "asombrarasteis",
+            "EllosEllasUstedes": "asombrararon"
+        },
+        "Imperfect": {
+            "Yo": "asombraraba",
+            "Tu": "asombrarabas",
+            "ElEllaUsted": "asombraraba",
+            "Nosotros": "asombrarábamos",
+            "Vosotros": "asombrarabais",
+            "EllosEllasUstedes": "asombraraban"
+        },
+        "Conditional": {
+            "Yo": "asombrararía",
+            "Tu": "asombrararías",
+            "ElEllaUsted": "asombrararía",
+            "Nosotros": "asombrararíamos",
+            "Vosotros": "asombrararíais",
+            "EllosEllasUstedes": "asombrararían"
+        },
+        "Future": {
+            "Yo": "asombrararé",
+            "Tu": "asombrararás",
+            "ElEllaUsted": "asombrarará",
+            "Nosotros": "asombrararemos",
+            "Vosotros": "asombrararéis",
+            "EllosEllasUstedes": "asombrararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "asombrar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

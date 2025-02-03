@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "destacando",
+    "PastParticiple": "destacado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "destacaro",
+            "Tu": "destacaras",
+            "ElEllaUsted": "destacara",
+            "Nosotros": "destacaramos",
+            "Vosotros": "destacaráis",
+            "EllosEllasUstedes": "destacaran"
+        },
+        "Pretérito": {
+            "Yo": "destacaré",
+            "Tu": "destacaraste",
+            "ElEllaUsted": "destacaró",
+            "Nosotros": "destacaramos",
+            "Vosotros": "destacarasteis",
+            "EllosEllasUstedes": "destacararon"
+        },
+        "Imperfect": {
+            "Yo": "destacaraba",
+            "Tu": "destacarabas",
+            "ElEllaUsted": "destacaraba",
+            "Nosotros": "destacarábamos",
+            "Vosotros": "destacarabais",
+            "EllosEllasUstedes": "destacaraban"
+        },
+        "Conditional": {
+            "Yo": "destacararía",
+            "Tu": "destacararías",
+            "ElEllaUsted": "destacararía",
+            "Nosotros": "destacararíamos",
+            "Vosotros": "destacararíais",
+            "EllosEllasUstedes": "destacararían"
+        },
+        "Future": {
+            "Yo": "destacararé",
+            "Tu": "destacararás",
+            "ElEllaUsted": "destacarará",
+            "Nosotros": "destacararemos",
+            "Vosotros": "destacararéis",
+            "EllosEllasUstedes": "destacararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "destacar",
+    "EnglishMeaning": "to highlight"
+}

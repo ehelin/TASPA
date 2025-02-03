@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "atropellando",
+    "PastParticiple": "atropellado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "atropellaro",
+            "Tu": "atropellaras",
+            "ElEllaUsted": "atropellara",
+            "Nosotros": "atropellaramos",
+            "Vosotros": "atropellaráis",
+            "EllosEllasUstedes": "atropellaran"
+        },
+        "Pretérito": {
+            "Yo": "atropellaré",
+            "Tu": "atropellaraste",
+            "ElEllaUsted": "atropellaró",
+            "Nosotros": "atropellaramos",
+            "Vosotros": "atropellarasteis",
+            "EllosEllasUstedes": "atropellararon"
+        },
+        "Imperfect": {
+            "Yo": "atropellaraba",
+            "Tu": "atropellarabas",
+            "ElEllaUsted": "atropellaraba",
+            "Nosotros": "atropellarábamos",
+            "Vosotros": "atropellarabais",
+            "EllosEllasUstedes": "atropellaraban"
+        },
+        "Conditional": {
+            "Yo": "atropellararía",
+            "Tu": "atropellararías",
+            "ElEllaUsted": "atropellararía",
+            "Nosotros": "atropellararíamos",
+            "Vosotros": "atropellararíais",
+            "EllosEllasUstedes": "atropellararían"
+        },
+        "Future": {
+            "Yo": "atropellararé",
+            "Tu": "atropellararás",
+            "ElEllaUsted": "atropellarará",
+            "Nosotros": "atropellararemos",
+            "Vosotros": "atropellararéis",
+            "EllosEllasUstedes": "atropellararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "atropellar",
+    "EnglishMeaning": "to run over"
+}

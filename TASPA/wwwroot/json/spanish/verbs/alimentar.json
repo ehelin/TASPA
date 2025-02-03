@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "alimentando",
+    "PastParticiple": "alimentado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "alimentaro",
+            "Tu": "alimentaras",
+            "ElEllaUsted": "alimentara",
+            "Nosotros": "alimentaramos",
+            "Vosotros": "alimentaráis",
+            "EllosEllasUstedes": "alimentaran"
+        },
+        "Pretérito": {
+            "Yo": "alimentaré",
+            "Tu": "alimentaraste",
+            "ElEllaUsted": "alimentaró",
+            "Nosotros": "alimentaramos",
+            "Vosotros": "alimentarasteis",
+            "EllosEllasUstedes": "alimentararon"
+        },
+        "Imperfect": {
+            "Yo": "alimentaraba",
+            "Tu": "alimentarabas",
+            "ElEllaUsted": "alimentaraba",
+            "Nosotros": "alimentarábamos",
+            "Vosotros": "alimentarabais",
+            "EllosEllasUstedes": "alimentaraban"
+        },
+        "Conditional": {
+            "Yo": "alimentararía",
+            "Tu": "alimentararías",
+            "ElEllaUsted": "alimentararía",
+            "Nosotros": "alimentararíamos",
+            "Vosotros": "alimentararíais",
+            "EllosEllasUstedes": "alimentararían"
+        },
+        "Future": {
+            "Yo": "alimentararé",
+            "Tu": "alimentararás",
+            "ElEllaUsted": "alimentarará",
+            "Nosotros": "alimentararemos",
+            "Vosotros": "alimentararéis",
+            "EllosEllasUstedes": "alimentararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "alimentar",
+    "EnglishMeaning": "to feed"
+}

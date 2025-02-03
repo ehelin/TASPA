@@ -1,6 +1,6 @@
 {
-    "PresentParticiple": "superando",
-    "PastParticiple": "superado",
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
     "Indicative": {
         "PresentTense": {
             "Yo": "superaro",
@@ -45,5 +45,5 @@
     },
     "Subjunctive": null,
     "Name": "superar",
-    "EnglishMeaning": "to overcome"
+    "EnglishMeaning": "English meaning of Unknown"
 }

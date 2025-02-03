@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "ahorrando",
+    "PastParticiple": "ahorrado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "ahorraro",
+            "Tu": "ahorraras",
+            "ElEllaUsted": "ahorrara",
+            "Nosotros": "ahorraramos",
+            "Vosotros": "ahorraráis",
+            "EllosEllasUstedes": "ahorraran"
+        },
+        "Pretérito": {
+            "Yo": "ahorraré",
+            "Tu": "ahorraraste",
+            "ElEllaUsted": "ahorraró",
+            "Nosotros": "ahorraramos",
+            "Vosotros": "ahorrarasteis",
+            "EllosEllasUstedes": "ahorrararon"
+        },
+        "Imperfect": {
+            "Yo": "ahorraraba",
+            "Tu": "ahorrarabas",
+            "ElEllaUsted": "ahorraraba",
+            "Nosotros": "ahorrarábamos",
+            "Vosotros": "ahorrarabais",
+            "EllosEllasUstedes": "ahorraraban"
+        },
+        "Conditional": {
+            "Yo": "ahorrararía",
+            "Tu": "ahorrararías",
+            "ElEllaUsted": "ahorrararía",
+            "Nosotros": "ahorrararíamos",
+            "Vosotros": "ahorrararíais",
+            "EllosEllasUstedes": "ahorrararían"
+        },
+        "Future": {
+            "Yo": "ahorrararé",
+            "Tu": "ahorrararás",
+            "ElEllaUsted": "ahorrarará",
+            "Nosotros": "ahorrararemos",
+            "Vosotros": "ahorrararéis",
+            "EllosEllasUstedes": "ahorrararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "ahorrar",
+    "EnglishMeaning": "to save"
+}

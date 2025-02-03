@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "escatimando",
+    "PastParticiple": "escatimado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "escatimaro",
+            "Tu": "escatimaras",
+            "ElEllaUsted": "escatimara",
+            "Nosotros": "escatimaramos",
+            "Vosotros": "escatimaráis",
+            "EllosEllasUstedes": "escatimaran"
+        },
+        "Pretérito": {
+            "Yo": "escatimaré",
+            "Tu": "escatimaraste",
+            "ElEllaUsted": "escatimaró",
+            "Nosotros": "escatimaramos",
+            "Vosotros": "escatimarasteis",
+            "EllosEllasUstedes": "escatimararon"
+        },
+        "Imperfect": {
+            "Yo": "escatimaraba",
+            "Tu": "escatimarabas",
+            "ElEllaUsted": "escatimaraba",
+            "Nosotros": "escatimarábamos",
+            "Vosotros": "escatimarabais",
+            "EllosEllasUstedes": "escatimaraban"
+        },
+        "Conditional": {
+            "Yo": "escatimararía",
+            "Tu": "escatimararías",
+            "ElEllaUsted": "escatimararía",
+            "Nosotros": "escatimararíamos",
+            "Vosotros": "escatimararíais",
+            "EllosEllasUstedes": "escatimararían"
+        },
+        "Future": {
+            "Yo": "escatimararé",
+            "Tu": "escatimararás",
+            "ElEllaUsted": "escatimarará",
+            "Nosotros": "escatimararemos",
+            "Vosotros": "escatimararéis",
+            "EllosEllasUstedes": "escatimararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "escatimar",
+    "EnglishMeaning": "to skimp"
+}

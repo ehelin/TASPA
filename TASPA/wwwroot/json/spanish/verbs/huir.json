@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "huyendo",
+    "PastParticiple": "huido",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "huiro",
+            "Tu": "huiras",
+            "ElEllaUsted": "huira",
+            "Nosotros": "huiramos",
+            "Vosotros": "huiráis",
+            "EllosEllasUstedes": "huiran"
+        },
+        "Pretérito": {
+            "Yo": "huiré",
+            "Tu": "huiraste",
+            "ElEllaUsted": "huiró",
+            "Nosotros": "huiramos",
+            "Vosotros": "huirasteis",
+            "EllosEllasUstedes": "huiraron"
+        },
+        "Imperfect": {
+            "Yo": "huiraba",
+            "Tu": "huirabas",
+            "ElEllaUsted": "huiraba",
+            "Nosotros": "huirábamos",
+            "Vosotros": "huirabais",
+            "EllosEllasUstedes": "huiraban"
+        },
+        "Conditional": {
+            "Yo": "huiraría",
+            "Tu": "huirarías",
+            "ElEllaUsted": "huiraría",
+            "Nosotros": "huiraríamos",
+            "Vosotros": "huiraríais",
+            "EllosEllasUstedes": "huirarían"
+        },
+        "Future": {
+            "Yo": "huiraré",
+            "Tu": "huirarás",
+            "ElEllaUsted": "huirará",
+            "Nosotros": "huiraremos",
+            "Vosotros": "huiraréis",
+            "EllosEllasUstedes": "huirarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "huir",
+    "EnglishMeaning": "to flee"
+}

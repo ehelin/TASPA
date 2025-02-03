@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "abarcano",
+            "Tu": "abarcanas",
+            "ElEllaUsted": "abarcana",
+            "Nosotros": "abarcanamos",
+            "Vosotros": "abarcanáis",
+            "EllosEllasUstedes": "abarcanan"
+        },
+        "Pretérito": {
+            "Yo": "abarcané",
+            "Tu": "abarcanaste",
+            "ElEllaUsted": "abarcanó",
+            "Nosotros": "abarcanamos",
+            "Vosotros": "abarcanasteis",
+            "EllosEllasUstedes": "abarcanaron"
+        },
+        "Imperfect": {
+            "Yo": "abarcanaba",
+            "Tu": "abarcanabas",
+            "ElEllaUsted": "abarcanaba",
+            "Nosotros": "abarcanábamos",
+            "Vosotros": "abarcanabais",
+            "EllosEllasUstedes": "abarcanaban"
+        },
+        "Conditional": {
+            "Yo": "abarcanaría",
+            "Tu": "abarcanarías",
+            "ElEllaUsted": "abarcanaría",
+            "Nosotros": "abarcanaríamos",
+            "Vosotros": "abarcanaríais",
+            "EllosEllasUstedes": "abarcanarían"
+        },
+        "Future": {
+            "Yo": "abarcanaré",
+            "Tu": "abarcanarás",
+            "ElEllaUsted": "abarcanará",
+            "Nosotros": "abarcanaremos",
+            "Vosotros": "abarcanaréis",
+            "EllosEllasUstedes": "abarcanarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "abarcan",
+    "EnglishMeaning": "English meaning of Unknown"
+}

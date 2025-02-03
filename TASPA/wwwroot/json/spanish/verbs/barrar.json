@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "barrando",
+    "PastParticiple": "barrido",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "barraro",
+            "Tu": "barraras",
+            "ElEllaUsted": "barrara",
+            "Nosotros": "barraramos",
+            "Vosotros": "barraráis",
+            "EllosEllasUstedes": "barraran"
+        },
+        "Pretérito": {
+            "Yo": "barraré",
+            "Tu": "barraraste",
+            "ElEllaUsted": "barraró",
+            "Nosotros": "barraramos",
+            "Vosotros": "barrarasteis",
+            "EllosEllasUstedes": "barrararon"
+        },
+        "Imperfect": {
+            "Yo": "barraraba",
+            "Tu": "barrarabas",
+            "ElEllaUsted": "barraraba",
+            "Nosotros": "barrarábamos",
+            "Vosotros": "barrarabais",
+            "EllosEllasUstedes": "barraraban"
+        },
+        "Conditional": {
+            "Yo": "barrararía",
+            "Tu": "barrararías",
+            "ElEllaUsted": "barrararía",
+            "Nosotros": "barrararíamos",
+            "Vosotros": "barrararíais",
+            "EllosEllasUstedes": "barrararían"
+        },
+        "Future": {
+            "Yo": "barrararé",
+            "Tu": "barrararás",
+            "ElEllaUsted": "barrarará",
+            "Nosotros": "barrararemos",
+            "Vosotros": "barrararéis",
+            "EllosEllasUstedes": "barrararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "barrar",
+    "EnglishMeaning": "to sweep"
+}

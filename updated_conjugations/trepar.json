@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "treparo",
+            "Tu": "treparas",
+            "ElEllaUsted": "trepara",
+            "Nosotros": "treparamos",
+            "Vosotros": "treparáis",
+            "EllosEllasUstedes": "treparan"
+        },
+        "Pretérito": {
+            "Yo": "treparé",
+            "Tu": "treparaste",
+            "ElEllaUsted": "treparó",
+            "Nosotros": "treparamos",
+            "Vosotros": "treparasteis",
+            "EllosEllasUstedes": "trepararon"
+        },
+        "Imperfect": {
+            "Yo": "treparaba",
+            "Tu": "treparabas",
+            "ElEllaUsted": "treparaba",
+            "Nosotros": "treparábamos",
+            "Vosotros": "treparabais",
+            "EllosEllasUstedes": "treparaban"
+        },
+        "Conditional": {
+            "Yo": "trepararía",
+            "Tu": "trepararías",
+            "ElEllaUsted": "trepararía",
+            "Nosotros": "trepararíamos",
+            "Vosotros": "trepararíais",
+            "EllosEllasUstedes": "trepararían"
+        },
+        "Future": {
+            "Yo": "trepararé",
+            "Tu": "trepararás",
+            "ElEllaUsted": "treparará",
+            "Nosotros": "trepararemos",
+            "Vosotros": "trepararéis",
+            "EllosEllasUstedes": "trepararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "trepar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

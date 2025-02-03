@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "envasando",
+    "PastParticiple": "envasado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "envasaro",
+            "Tu": "envasaras",
+            "ElEllaUsted": "envasara",
+            "Nosotros": "envasaramos",
+            "Vosotros": "envasaráis",
+            "EllosEllasUstedes": "envasaran"
+        },
+        "Pretérito": {
+            "Yo": "envasaré",
+            "Tu": "envasaraste",
+            "ElEllaUsted": "envasaró",
+            "Nosotros": "envasaramos",
+            "Vosotros": "envasarasteis",
+            "EllosEllasUstedes": "envasararon"
+        },
+        "Imperfect": {
+            "Yo": "envasaraba",
+            "Tu": "envasarabas",
+            "ElEllaUsted": "envasaraba",
+            "Nosotros": "envasarábamos",
+            "Vosotros": "envasarabais",
+            "EllosEllasUstedes": "envasaraban"
+        },
+        "Conditional": {
+            "Yo": "envasararía",
+            "Tu": "envasararías",
+            "ElEllaUsted": "envasararía",
+            "Nosotros": "envasararíamos",
+            "Vosotros": "envasararíais",
+            "EllosEllasUstedes": "envasararían"
+        },
+        "Future": {
+            "Yo": "envasararé",
+            "Tu": "envasararás",
+            "ElEllaUsted": "envasarará",
+            "Nosotros": "envasararemos",
+            "Vosotros": "envasararéis",
+            "EllosEllasUstedes": "envasararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "envasar",
+    "EnglishMeaning": "to can"
+}

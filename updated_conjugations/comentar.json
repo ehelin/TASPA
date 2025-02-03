@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "comentaro",
+            "Tu": "comentaras",
+            "ElEllaUsted": "comentara",
+            "Nosotros": "comentaramos",
+            "Vosotros": "comentaráis",
+            "EllosEllasUstedes": "comentaran"
+        },
+        "Pretérito": {
+            "Yo": "comentaré",
+            "Tu": "comentaraste",
+            "ElEllaUsted": "comentaró",
+            "Nosotros": "comentaramos",
+            "Vosotros": "comentarasteis",
+            "EllosEllasUstedes": "comentararon"
+        },
+        "Imperfect": {
+            "Yo": "comentaraba",
+            "Tu": "comentarabas",
+            "ElEllaUsted": "comentaraba",
+            "Nosotros": "comentarábamos",
+            "Vosotros": "comentarabais",
+            "EllosEllasUstedes": "comentaraban"
+        },
+        "Conditional": {
+            "Yo": "comentararía",
+            "Tu": "comentararías",
+            "ElEllaUsted": "comentararía",
+            "Nosotros": "comentararíamos",
+            "Vosotros": "comentararíais",
+            "EllosEllasUstedes": "comentararían"
+        },
+        "Future": {
+            "Yo": "comentararé",
+            "Tu": "comentararás",
+            "ElEllaUsted": "comentarará",
+            "Nosotros": "comentararemos",
+            "Vosotros": "comentararéis",
+            "EllosEllasUstedes": "comentararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "comentar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "cotejando",
+    "PastParticiple": "cotejado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "cotejaro",
+            "Tu": "cotejaras",
+            "ElEllaUsted": "cotejara",
+            "Nosotros": "cotejaramos",
+            "Vosotros": "cotejaráis",
+            "EllosEllasUstedes": "cotejaran"
+        },
+        "Pretérito": {
+            "Yo": "cotejaré",
+            "Tu": "cotejaraste",
+            "ElEllaUsted": "cotejaró",
+            "Nosotros": "cotejaramos",
+            "Vosotros": "cotejarasteis",
+            "EllosEllasUstedes": "cotejararon"
+        },
+        "Imperfect": {
+            "Yo": "cotejaraba",
+            "Tu": "cotejarabas",
+            "ElEllaUsted": "cotejaraba",
+            "Nosotros": "cotejarábamos",
+            "Vosotros": "cotejarabais",
+            "EllosEllasUstedes": "cotejaraban"
+        },
+        "Conditional": {
+            "Yo": "cotejararía",
+            "Tu": "cotejararías",
+            "ElEllaUsted": "cotejararía",
+            "Nosotros": "cotejararíamos",
+            "Vosotros": "cotejararíais",
+            "EllosEllasUstedes": "cotejararían"
+        },
+        "Future": {
+            "Yo": "cotejararé",
+            "Tu": "cotejararás",
+            "ElEllaUsted": "cotejarará",
+            "Nosotros": "cotejararemos",
+            "Vosotros": "cotejararéis",
+            "EllosEllasUstedes": "cotejararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "cotejar",
+    "EnglishMeaning": "to compare"
+}

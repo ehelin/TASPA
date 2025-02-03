@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "edificando",
+    "PastParticiple": "edificado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "edificaro",
+            "Tu": "edificaras",
+            "ElEllaUsted": "edificara",
+            "Nosotros": "edificaramos",
+            "Vosotros": "edificaráis",
+            "EllosEllasUstedes": "edificaran"
+        },
+        "Pretérito": {
+            "Yo": "edificaré",
+            "Tu": "edificaraste",
+            "ElEllaUsted": "edificaró",
+            "Nosotros": "edificaramos",
+            "Vosotros": "edificarasteis",
+            "EllosEllasUstedes": "edificararon"
+        },
+        "Imperfect": {
+            "Yo": "edificaraba",
+            "Tu": "edificarabas",
+            "ElEllaUsted": "edificaraba",
+            "Nosotros": "edificarábamos",
+            "Vosotros": "edificarabais",
+            "EllosEllasUstedes": "edificaraban"
+        },
+        "Conditional": {
+            "Yo": "edificararía",
+            "Tu": "edificararías",
+            "ElEllaUsted": "edificararía",
+            "Nosotros": "edificararíamos",
+            "Vosotros": "edificararíais",
+            "EllosEllasUstedes": "edificararían"
+        },
+        "Future": {
+            "Yo": "edificararé",
+            "Tu": "edificararás",
+            "ElEllaUsted": "edificarará",
+            "Nosotros": "edificararemos",
+            "Vosotros": "edificararéis",
+            "EllosEllasUstedes": "edificararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "edificar",
+    "EnglishMeaning": "to build"
+}

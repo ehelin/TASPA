@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "doblando",
+    "PastParticiple": "doblado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "doblaro",
+            "Tu": "doblaras",
+            "ElEllaUsted": "doblara",
+            "Nosotros": "doblaramos",
+            "Vosotros": "doblaráis",
+            "EllosEllasUstedes": "doblaran"
+        },
+        "Pretérito": {
+            "Yo": "doblaré",
+            "Tu": "doblaraste",
+            "ElEllaUsted": "doblaró",
+            "Nosotros": "doblaramos",
+            "Vosotros": "doblarasteis",
+            "EllosEllasUstedes": "doblararon"
+        },
+        "Imperfect": {
+            "Yo": "doblaraba",
+            "Tu": "doblarabas",
+            "ElEllaUsted": "doblaraba",
+            "Nosotros": "doblarábamos",
+            "Vosotros": "doblarabais",
+            "EllosEllasUstedes": "doblaraban"
+        },
+        "Conditional": {
+            "Yo": "doblararía",
+            "Tu": "doblararías",
+            "ElEllaUsted": "doblararía",
+            "Nosotros": "doblararíamos",
+            "Vosotros": "doblararíais",
+            "EllosEllasUstedes": "doblararían"
+        },
+        "Future": {
+            "Yo": "doblararé",
+            "Tu": "doblararás",
+            "ElEllaUsted": "doblarará",
+            "Nosotros": "doblararemos",
+            "Vosotros": "doblararéis",
+            "EllosEllasUstedes": "doblararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "doblar",
+    "EnglishMeaning": "to bend"
+}

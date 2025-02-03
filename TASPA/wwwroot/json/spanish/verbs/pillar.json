@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "pillando",
+    "PastParticiple": "pillado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "pillaro",
+            "Tu": "pillaras",
+            "ElEllaUsted": "pillara",
+            "Nosotros": "pillaramos",
+            "Vosotros": "pillaráis",
+            "EllosEllasUstedes": "pillaran"
+        },
+        "Pretérito": {
+            "Yo": "pillaré",
+            "Tu": "pillaraste",
+            "ElEllaUsted": "pillaró",
+            "Nosotros": "pillaramos",
+            "Vosotros": "pillarasteis",
+            "EllosEllasUstedes": "pillararon"
+        },
+        "Imperfect": {
+            "Yo": "pillaraba",
+            "Tu": "pillarabas",
+            "ElEllaUsted": "pillaraba",
+            "Nosotros": "pillarábamos",
+            "Vosotros": "pillarabais",
+            "EllosEllasUstedes": "pillaraban"
+        },
+        "Conditional": {
+            "Yo": "pillararía",
+            "Tu": "pillararías",
+            "ElEllaUsted": "pillararía",
+            "Nosotros": "pillararíamos",
+            "Vosotros": "pillararíais",
+            "EllosEllasUstedes": "pillararían"
+        },
+        "Future": {
+            "Yo": "pillararé",
+            "Tu": "pillararás",
+            "ElEllaUsted": "pillarará",
+            "Nosotros": "pillararemos",
+            "Vosotros": "pillararéis",
+            "EllosEllasUstedes": "pillararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "pillar",
+    "EnglishMeaning": "to catch"
+}

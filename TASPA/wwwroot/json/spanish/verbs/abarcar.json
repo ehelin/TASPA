@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "abarcando",
+    "PastParticiple": "abarcado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "abarcaro",
+            "Tu": "abarcaras",
+            "ElEllaUsted": "abarcara",
+            "Nosotros": "abarcaramos",
+            "Vosotros": "abarcaráis",
+            "EllosEllasUstedes": "abarcaran"
+        },
+        "Pretérito": {
+            "Yo": "abarcaré",
+            "Tu": "abarcaraste",
+            "ElEllaUsted": "abarcaró",
+            "Nosotros": "abarcaramos",
+            "Vosotros": "abarcarasteis",
+            "EllosEllasUstedes": "abarcararon"
+        },
+        "Imperfect": {
+            "Yo": "abarcaraba",
+            "Tu": "abarcarabas",
+            "ElEllaUsted": "abarcaraba",
+            "Nosotros": "abarcarábamos",
+            "Vosotros": "abarcarabais",
+            "EllosEllasUstedes": "abarcaraban"
+        },
+        "Conditional": {
+            "Yo": "abarcararía",
+            "Tu": "abarcararías",
+            "ElEllaUsted": "abarcararía",
+            "Nosotros": "abarcararíamos",
+            "Vosotros": "abarcararíais",
+            "EllosEllasUstedes": "abarcararían"
+        },
+        "Future": {
+            "Yo": "abarcararé",
+            "Tu": "abarcararás",
+            "ElEllaUsted": "abarcarará",
+            "Nosotros": "abarcararemos",
+            "Vosotros": "abarcararéis",
+            "EllosEllasUstedes": "abarcararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "abarcar",
+    "EnglishMeaning": "to cover"
+}

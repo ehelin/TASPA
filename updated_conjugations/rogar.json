@@ -1,6 +1,6 @@
 {
-    "PresentParticiple": "rogando",
-    "PastParticiple": "rogado",
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
     "Indicative": {
         "PresentTense": {
             "Yo": "rogaro",
@@ -45,5 +45,5 @@
     },
     "Subjunctive": null,
     "Name": "rogar",
-    "EnglishMeaning": "to beg"
+    "EnglishMeaning": "English meaning of Unknown"
 }

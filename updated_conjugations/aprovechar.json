@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "aprovecharo",
+            "Tu": "aprovecharas",
+            "ElEllaUsted": "aprovechara",
+            "Nosotros": "aprovecharamos",
+            "Vosotros": "aprovecharáis",
+            "EllosEllasUstedes": "aprovecharan"
+        },
+        "Pretérito": {
+            "Yo": "aprovecharé",
+            "Tu": "aprovecharaste",
+            "ElEllaUsted": "aprovecharó",
+            "Nosotros": "aprovecharamos",
+            "Vosotros": "aprovecharasteis",
+            "EllosEllasUstedes": "aprovechararon"
+        },
+        "Imperfect": {
+            "Yo": "aprovecharaba",
+            "Tu": "aprovecharabas",
+            "ElEllaUsted": "aprovecharaba",
+            "Nosotros": "aprovecharábamos",
+            "Vosotros": "aprovecharabais",
+            "EllosEllasUstedes": "aprovecharaban"
+        },
+        "Conditional": {
+            "Yo": "aprovechararía",
+            "Tu": "aprovechararías",
+            "ElEllaUsted": "aprovechararía",
+            "Nosotros": "aprovechararíamos",
+            "Vosotros": "aprovechararíais",
+            "EllosEllasUstedes": "aprovechararían"
+        },
+        "Future": {
+            "Yo": "aprovechararé",
+            "Tu": "aprovechararás",
+            "ElEllaUsted": "aprovecharará",
+            "Nosotros": "aprovechararemos",
+            "Vosotros": "aprovechararéis",
+            "EllosEllasUstedes": "aprovechararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "aprovechar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

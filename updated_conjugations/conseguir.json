@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "conseguiro",
+            "Tu": "conseguiras",
+            "ElEllaUsted": "conseguira",
+            "Nosotros": "conseguiramos",
+            "Vosotros": "conseguiráis",
+            "EllosEllasUstedes": "conseguiran"
+        },
+        "Pretérito": {
+            "Yo": "conseguiré",
+            "Tu": "conseguiraste",
+            "ElEllaUsted": "conseguiró",
+            "Nosotros": "conseguiramos",
+            "Vosotros": "conseguirasteis",
+            "EllosEllasUstedes": "conseguiraron"
+        },
+        "Imperfect": {
+            "Yo": "conseguiraba",
+            "Tu": "conseguirabas",
+            "ElEllaUsted": "conseguiraba",
+            "Nosotros": "conseguirábamos",
+            "Vosotros": "conseguirabais",
+            "EllosEllasUstedes": "conseguiraban"
+        },
+        "Conditional": {
+            "Yo": "conseguiraría",
+            "Tu": "conseguirarías",
+            "ElEllaUsted": "conseguiraría",
+            "Nosotros": "conseguiraríamos",
+            "Vosotros": "conseguiraríais",
+            "EllosEllasUstedes": "conseguirarían"
+        },
+        "Future": {
+            "Yo": "conseguiraré",
+            "Tu": "conseguirarás",
+            "ElEllaUsted": "conseguirará",
+            "Nosotros": "conseguiraremos",
+            "Vosotros": "conseguiraréis",
+            "EllosEllasUstedes": "conseguirarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "conseguir",
+    "EnglishMeaning": "English meaning of Unknown"
+}

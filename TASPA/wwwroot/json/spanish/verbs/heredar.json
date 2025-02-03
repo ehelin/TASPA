@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "heredando",
+    "PastParticiple": "heredado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "heredaro",
+            "Tu": "heredaras",
+            "ElEllaUsted": "heredara",
+            "Nosotros": "heredaramos",
+            "Vosotros": "heredaráis",
+            "EllosEllasUstedes": "heredaran"
+        },
+        "Pretérito": {
+            "Yo": "heredaré",
+            "Tu": "heredaraste",
+            "ElEllaUsted": "heredaró",
+            "Nosotros": "heredaramos",
+            "Vosotros": "heredarasteis",
+            "EllosEllasUstedes": "heredararon"
+        },
+        "Imperfect": {
+            "Yo": "heredaraba",
+            "Tu": "heredarabas",
+            "ElEllaUsted": "heredaraba",
+            "Nosotros": "heredarábamos",
+            "Vosotros": "heredarabais",
+            "EllosEllasUstedes": "heredaraban"
+        },
+        "Conditional": {
+            "Yo": "heredararía",
+            "Tu": "heredararías",
+            "ElEllaUsted": "heredararía",
+            "Nosotros": "heredararíamos",
+            "Vosotros": "heredararíais",
+            "EllosEllasUstedes": "heredararían"
+        },
+        "Future": {
+            "Yo": "heredararé",
+            "Tu": "heredararás",
+            "ElEllaUsted": "heredarará",
+            "Nosotros": "heredararemos",
+            "Vosotros": "heredararéis",
+            "EllosEllasUstedes": "heredararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "heredar",
+    "EnglishMeaning": "to inherit"
+}

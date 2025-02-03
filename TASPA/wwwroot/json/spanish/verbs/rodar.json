@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "rodando",
+    "PastParticiple": "rodado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "rodaro",
+            "Tu": "rodaras",
+            "ElEllaUsted": "rodara",
+            "Nosotros": "rodaramos",
+            "Vosotros": "rodaráis",
+            "EllosEllasUstedes": "rodaran"
+        },
+        "Pretérito": {
+            "Yo": "rodaré",
+            "Tu": "rodaraste",
+            "ElEllaUsted": "rodaró",
+            "Nosotros": "rodaramos",
+            "Vosotros": "rodarasteis",
+            "EllosEllasUstedes": "rodararon"
+        },
+        "Imperfect": {
+            "Yo": "rodaraba",
+            "Tu": "rodarabas",
+            "ElEllaUsted": "rodaraba",
+            "Nosotros": "rodarábamos",
+            "Vosotros": "rodarabais",
+            "EllosEllasUstedes": "rodaraban"
+        },
+        "Conditional": {
+            "Yo": "rodararía",
+            "Tu": "rodararías",
+            "ElEllaUsted": "rodararía",
+            "Nosotros": "rodararíamos",
+            "Vosotros": "rodararíais",
+            "EllosEllasUstedes": "rodararían"
+        },
+        "Future": {
+            "Yo": "rodararé",
+            "Tu": "rodararás",
+            "ElEllaUsted": "rodarará",
+            "Nosotros": "rodararemos",
+            "Vosotros": "rodararéis",
+            "EllosEllasUstedes": "rodararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "rodar",
+    "EnglishMeaning": "to roll"
+}

@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "empeñando",
+    "PastParticiple": "empeñado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "empeñaro",
+            "Tu": "empeñaras",
+            "ElEllaUsted": "empeñara",
+            "Nosotros": "empeñaramos",
+            "Vosotros": "empeñaráis",
+            "EllosEllasUstedes": "empeñaran"
+        },
+        "Pretérito": {
+            "Yo": "empeñaré",
+            "Tu": "empeñaraste",
+            "ElEllaUsted": "empeñaró",
+            "Nosotros": "empeñaramos",
+            "Vosotros": "empeñarasteis",
+            "EllosEllasUstedes": "empeñararon"
+        },
+        "Imperfect": {
+            "Yo": "empeñaraba",
+            "Tu": "empeñarabas",
+            "ElEllaUsted": "empeñaraba",
+            "Nosotros": "empeñarábamos",
+            "Vosotros": "empeñarabais",
+            "EllosEllasUstedes": "empeñaraban"
+        },
+        "Conditional": {
+            "Yo": "empeñararía",
+            "Tu": "empeñararías",
+            "ElEllaUsted": "empeñararía",
+            "Nosotros": "empeñararíamos",
+            "Vosotros": "empeñararíais",
+            "EllosEllasUstedes": "empeñararían"
+        },
+        "Future": {
+            "Yo": "empeñararé",
+            "Tu": "empeñararás",
+            "ElEllaUsted": "empeñarará",
+            "Nosotros": "empeñararemos",
+            "Vosotros": "empeñararéis",
+            "EllosEllasUstedes": "empeñararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "empeñar",
+    "EnglishMeaning": "to pawn"
+}

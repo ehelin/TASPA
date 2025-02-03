@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "emboscaro",
+            "Tu": "emboscaras",
+            "ElEllaUsted": "emboscara",
+            "Nosotros": "emboscaramos",
+            "Vosotros": "emboscaráis",
+            "EllosEllasUstedes": "emboscaran"
+        },
+        "Pretérito": {
+            "Yo": "emboscaré",
+            "Tu": "emboscaraste",
+            "ElEllaUsted": "emboscaró",
+            "Nosotros": "emboscaramos",
+            "Vosotros": "emboscarasteis",
+            "EllosEllasUstedes": "emboscararon"
+        },
+        "Imperfect": {
+            "Yo": "emboscaraba",
+            "Tu": "emboscarabas",
+            "ElEllaUsted": "emboscaraba",
+            "Nosotros": "emboscarábamos",
+            "Vosotros": "emboscarabais",
+            "EllosEllasUstedes": "emboscaraban"
+        },
+        "Conditional": {
+            "Yo": "emboscararía",
+            "Tu": "emboscararías",
+            "ElEllaUsted": "emboscararía",
+            "Nosotros": "emboscararíamos",
+            "Vosotros": "emboscararíais",
+            "EllosEllasUstedes": "emboscararían"
+        },
+        "Future": {
+            "Yo": "emboscararé",
+            "Tu": "emboscararás",
+            "ElEllaUsted": "emboscarará",
+            "Nosotros": "emboscararemos",
+            "Vosotros": "emboscararéis",
+            "EllosEllasUstedes": "emboscararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "emboscar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

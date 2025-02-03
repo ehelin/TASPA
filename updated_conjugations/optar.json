@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "optaro",
+            "Tu": "optaras",
+            "ElEllaUsted": "optara",
+            "Nosotros": "optaramos",
+            "Vosotros": "optaráis",
+            "EllosEllasUstedes": "optaran"
+        },
+        "Pretérito": {
+            "Yo": "optaré",
+            "Tu": "optaraste",
+            "ElEllaUsted": "optaró",
+            "Nosotros": "optaramos",
+            "Vosotros": "optarasteis",
+            "EllosEllasUstedes": "optararon"
+        },
+        "Imperfect": {
+            "Yo": "optaraba",
+            "Tu": "optarabas",
+            "ElEllaUsted": "optaraba",
+            "Nosotros": "optarábamos",
+            "Vosotros": "optarabais",
+            "EllosEllasUstedes": "optaraban"
+        },
+        "Conditional": {
+            "Yo": "optararía",
+            "Tu": "optararías",
+            "ElEllaUsted": "optararía",
+            "Nosotros": "optararíamos",
+            "Vosotros": "optararíais",
+            "EllosEllasUstedes": "optararían"
+        },
+        "Future": {
+            "Yo": "optararé",
+            "Tu": "optararás",
+            "ElEllaUsted": "optarará",
+            "Nosotros": "optararemos",
+            "Vosotros": "optararéis",
+            "EllosEllasUstedes": "optararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "optar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

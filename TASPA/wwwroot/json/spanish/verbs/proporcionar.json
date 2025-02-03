@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "proporcionando",
+    "PastParticiple": "proporcionado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "proporcionaro",
+            "Tu": "proporcionaras",
+            "ElEllaUsted": "proporcionara",
+            "Nosotros": "proporcionaramos",
+            "Vosotros": "proporcionaráis",
+            "EllosEllasUstedes": "proporcionaran"
+        },
+        "Pretérito": {
+            "Yo": "proporcionaré",
+            "Tu": "proporcionaraste",
+            "ElEllaUsted": "proporcionaró",
+            "Nosotros": "proporcionaramos",
+            "Vosotros": "proporcionarasteis",
+            "EllosEllasUstedes": "proporcionararon"
+        },
+        "Imperfect": {
+            "Yo": "proporcionaraba",
+            "Tu": "proporcionarabas",
+            "ElEllaUsted": "proporcionaraba",
+            "Nosotros": "proporcionarábamos",
+            "Vosotros": "proporcionarabais",
+            "EllosEllasUstedes": "proporcionaraban"
+        },
+        "Conditional": {
+            "Yo": "proporcionararía",
+            "Tu": "proporcionararías",
+            "ElEllaUsted": "proporcionararía",
+            "Nosotros": "proporcionararíamos",
+            "Vosotros": "proporcionararíais",
+            "EllosEllasUstedes": "proporcionararían"
+        },
+        "Future": {
+            "Yo": "proporcionararé",
+            "Tu": "proporcionararás",
+            "ElEllaUsted": "proporcionarará",
+            "Nosotros": "proporcionararemos",
+            "Vosotros": "proporcionararéis",
+            "EllosEllasUstedes": "proporcionararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "proporcionar",
+    "EnglishMeaning": "to provide"
+}

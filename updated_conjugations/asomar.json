@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "asomaro",
+            "Tu": "asomaras",
+            "ElEllaUsted": "asomara",
+            "Nosotros": "asomaramos",
+            "Vosotros": "asomaráis",
+            "EllosEllasUstedes": "asomaran"
+        },
+        "Pretérito": {
+            "Yo": "asomaré",
+            "Tu": "asomaraste",
+            "ElEllaUsted": "asomaró",
+            "Nosotros": "asomaramos",
+            "Vosotros": "asomarasteis",
+            "EllosEllasUstedes": "asomararon"
+        },
+        "Imperfect": {
+            "Yo": "asomaraba",
+            "Tu": "asomarabas",
+            "ElEllaUsted": "asomaraba",
+            "Nosotros": "asomarábamos",
+            "Vosotros": "asomarabais",
+            "EllosEllasUstedes": "asomaraban"
+        },
+        "Conditional": {
+            "Yo": "asomararía",
+            "Tu": "asomararías",
+            "ElEllaUsted": "asomararía",
+            "Nosotros": "asomararíamos",
+            "Vosotros": "asomararíais",
+            "EllosEllasUstedes": "asomararían"
+        },
+        "Future": {
+            "Yo": "asomararé",
+            "Tu": "asomararás",
+            "ElEllaUsted": "asomarará",
+            "Nosotros": "asomararemos",
+            "Vosotros": "asomararéis",
+            "EllosEllasUstedes": "asomararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "asomar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

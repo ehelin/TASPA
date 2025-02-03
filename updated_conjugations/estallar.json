@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "estallaro",
+            "Tu": "estallaras",
+            "ElEllaUsted": "estallara",
+            "Nosotros": "estallaramos",
+            "Vosotros": "estallaráis",
+            "EllosEllasUstedes": "estallaran"
+        },
+        "Pretérito": {
+            "Yo": "estallaré",
+            "Tu": "estallaraste",
+            "ElEllaUsted": "estallaró",
+            "Nosotros": "estallaramos",
+            "Vosotros": "estallarasteis",
+            "EllosEllasUstedes": "estallararon"
+        },
+        "Imperfect": {
+            "Yo": "estallaraba",
+            "Tu": "estallarabas",
+            "ElEllaUsted": "estallaraba",
+            "Nosotros": "estallarábamos",
+            "Vosotros": "estallarabais",
+            "EllosEllasUstedes": "estallaraban"
+        },
+        "Conditional": {
+            "Yo": "estallararía",
+            "Tu": "estallararías",
+            "ElEllaUsted": "estallararía",
+            "Nosotros": "estallararíamos",
+            "Vosotros": "estallararíais",
+            "EllosEllasUstedes": "estallararían"
+        },
+        "Future": {
+            "Yo": "estallararé",
+            "Tu": "estallararás",
+            "ElEllaUsted": "estallarará",
+            "Nosotros": "estallararemos",
+            "Vosotros": "estallararéis",
+            "EllosEllasUstedes": "estallararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "estallar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "marearseo",
+            "Tu": "marearseas",
+            "ElEllaUsted": "marearsea",
+            "Nosotros": "marearseamos",
+            "Vosotros": "marearseáis",
+            "EllosEllasUstedes": "marearsean"
+        },
+        "Pretérito": {
+            "Yo": "marearseé",
+            "Tu": "marearseaste",
+            "ElEllaUsted": "marearseó",
+            "Nosotros": "marearseamos",
+            "Vosotros": "marearseasteis",
+            "EllosEllasUstedes": "marearsearon"
+        },
+        "Imperfect": {
+            "Yo": "marearseaba",
+            "Tu": "marearseabas",
+            "ElEllaUsted": "marearseaba",
+            "Nosotros": "marearseábamos",
+            "Vosotros": "marearseabais",
+            "EllosEllasUstedes": "marearseaban"
+        },
+        "Conditional": {
+            "Yo": "marearsearía",
+            "Tu": "marearsearías",
+            "ElEllaUsted": "marearsearía",
+            "Nosotros": "marearsearíamos",
+            "Vosotros": "marearsearíais",
+            "EllosEllasUstedes": "marearsearían"
+        },
+        "Future": {
+            "Yo": "marearsearé",
+            "Tu": "marearsearás",
+            "ElEllaUsted": "marearseará",
+            "Nosotros": "marearsearemos",
+            "Vosotros": "marearsearéis",
+            "EllosEllasUstedes": "marearsearán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "marearse",
+    "EnglishMeaning": "English meaning of Unknown"
+}

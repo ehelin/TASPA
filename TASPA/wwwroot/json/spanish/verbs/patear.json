@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "pateando",
+    "PastParticiple": "pateado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "patearo",
+            "Tu": "patearas",
+            "ElEllaUsted": "pateara",
+            "Nosotros": "patearamos",
+            "Vosotros": "patearáis",
+            "EllosEllasUstedes": "patearan"
+        },
+        "Pretérito": {
+            "Yo": "patearé",
+            "Tu": "patearaste",
+            "ElEllaUsted": "patearó",
+            "Nosotros": "patearamos",
+            "Vosotros": "patearasteis",
+            "EllosEllasUstedes": "pateararon"
+        },
+        "Imperfect": {
+            "Yo": "patearaba",
+            "Tu": "patearabas",
+            "ElEllaUsted": "patearaba",
+            "Nosotros": "patearábamos",
+            "Vosotros": "patearabais",
+            "EllosEllasUstedes": "patearaban"
+        },
+        "Conditional": {
+            "Yo": "pateararía",
+            "Tu": "pateararías",
+            "ElEllaUsted": "pateararía",
+            "Nosotros": "pateararíamos",
+            "Vosotros": "pateararíais",
+            "EllosEllasUstedes": "pateararían"
+        },
+        "Future": {
+            "Yo": "pateararé",
+            "Tu": "pateararás",
+            "ElEllaUsted": "patearará",
+            "Nosotros": "pateararemos",
+            "Vosotros": "pateararéis",
+            "EllosEllasUstedes": "pateararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "patear",
+    "EnglishMeaning": "to kick"
+}

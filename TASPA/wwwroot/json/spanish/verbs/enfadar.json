@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "enfandando",
+    "PastParticiple": "enfadado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "enfadaro",
+            "Tu": "enfadaras",
+            "ElEllaUsted": "enfadara",
+            "Nosotros": "enfadaramos",
+            "Vosotros": "enfadaráis",
+            "EllosEllasUstedes": "enfadaran"
+        },
+        "Pretérito": {
+            "Yo": "enfadaré",
+            "Tu": "enfadaraste",
+            "ElEllaUsted": "enfadaró",
+            "Nosotros": "enfadaramos",
+            "Vosotros": "enfadarasteis",
+            "EllosEllasUstedes": "enfadararon"
+        },
+        "Imperfect": {
+            "Yo": "enfadaraba",
+            "Tu": "enfadarabas",
+            "ElEllaUsted": "enfadaraba",
+            "Nosotros": "enfadarábamos",
+            "Vosotros": "enfadarabais",
+            "EllosEllasUstedes": "enfadaraban"
+        },
+        "Conditional": {
+            "Yo": "enfadararía",
+            "Tu": "enfadararías",
+            "ElEllaUsted": "enfadararía",
+            "Nosotros": "enfadararíamos",
+            "Vosotros": "enfadararíais",
+            "EllosEllasUstedes": "enfadararían"
+        },
+        "Future": {
+            "Yo": "enfadararé",
+            "Tu": "enfadararás",
+            "ElEllaUsted": "enfadarará",
+            "Nosotros": "enfadararemos",
+            "Vosotros": "enfadararéis",
+            "EllosEllasUstedes": "enfadararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "enfadar",
+    "EnglishMeaning": "to anger"
+}

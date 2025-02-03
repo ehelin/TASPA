@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "criaro",
+            "Tu": "criaras",
+            "ElEllaUsted": "criara",
+            "Nosotros": "criaramos",
+            "Vosotros": "criaráis",
+            "EllosEllasUstedes": "criaran"
+        },
+        "Pretérito": {
+            "Yo": "criaré",
+            "Tu": "criaraste",
+            "ElEllaUsted": "criaró",
+            "Nosotros": "criaramos",
+            "Vosotros": "criarasteis",
+            "EllosEllasUstedes": "criararon"
+        },
+        "Imperfect": {
+            "Yo": "criaraba",
+            "Tu": "criarabas",
+            "ElEllaUsted": "criaraba",
+            "Nosotros": "criarábamos",
+            "Vosotros": "criarabais",
+            "EllosEllasUstedes": "criaraban"
+        },
+        "Conditional": {
+            "Yo": "criararía",
+            "Tu": "criararías",
+            "ElEllaUsted": "criararía",
+            "Nosotros": "criararíamos",
+            "Vosotros": "criararíais",
+            "EllosEllasUstedes": "criararían"
+        },
+        "Future": {
+            "Yo": "criararé",
+            "Tu": "criararás",
+            "ElEllaUsted": "criarará",
+            "Nosotros": "criararemos",
+            "Vosotros": "criararéis",
+            "EllosEllasUstedes": "criararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "criar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "atrevero",
+            "Tu": "atreveras",
+            "ElEllaUsted": "atrevera",
+            "Nosotros": "atreveramos",
+            "Vosotros": "atreveráis",
+            "EllosEllasUstedes": "atreveran"
+        },
+        "Pretérito": {
+            "Yo": "atreveré",
+            "Tu": "atreveraste",
+            "ElEllaUsted": "atreveró",
+            "Nosotros": "atreveramos",
+            "Vosotros": "atreverasteis",
+            "EllosEllasUstedes": "atreveraron"
+        },
+        "Imperfect": {
+            "Yo": "atreveraba",
+            "Tu": "atreverabas",
+            "ElEllaUsted": "atreveraba",
+            "Nosotros": "atreverábamos",
+            "Vosotros": "atreverabais",
+            "EllosEllasUstedes": "atreveraban"
+        },
+        "Conditional": {
+            "Yo": "atreveraría",
+            "Tu": "atreverarías",
+            "ElEllaUsted": "atreveraría",
+            "Nosotros": "atreveraríamos",
+            "Vosotros": "atreveraríais",
+            "EllosEllasUstedes": "atreverarían"
+        },
+        "Future": {
+            "Yo": "atreveraré",
+            "Tu": "atreverarás",
+            "ElEllaUsted": "atreverará",
+            "Nosotros": "atreveraremos",
+            "Vosotros": "atreveraréis",
+            "EllosEllasUstedes": "atreverarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "atrever",
+    "EnglishMeaning": "English meaning of Unknown"
+}

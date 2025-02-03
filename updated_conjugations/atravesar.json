@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "atravesaro",
+            "Tu": "atravesaras",
+            "ElEllaUsted": "atravesara",
+            "Nosotros": "atravesaramos",
+            "Vosotros": "atravesaráis",
+            "EllosEllasUstedes": "atravesaran"
+        },
+        "Pretérito": {
+            "Yo": "atravesaré",
+            "Tu": "atravesaraste",
+            "ElEllaUsted": "atravesaró",
+            "Nosotros": "atravesaramos",
+            "Vosotros": "atravesarasteis",
+            "EllosEllasUstedes": "atravesararon"
+        },
+        "Imperfect": {
+            "Yo": "atravesaraba",
+            "Tu": "atravesarabas",
+            "ElEllaUsted": "atravesaraba",
+            "Nosotros": "atravesarábamos",
+            "Vosotros": "atravesarabais",
+            "EllosEllasUstedes": "atravesaraban"
+        },
+        "Conditional": {
+            "Yo": "atravesararía",
+            "Tu": "atravesararías",
+            "ElEllaUsted": "atravesararía",
+            "Nosotros": "atravesararíamos",
+            "Vosotros": "atravesararíais",
+            "EllosEllasUstedes": "atravesararían"
+        },
+        "Future": {
+            "Yo": "atravesararé",
+            "Tu": "atravesararás",
+            "ElEllaUsted": "atravesarará",
+            "Nosotros": "atravesararemos",
+            "Vosotros": "atravesararéis",
+            "EllosEllasUstedes": "atravesararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "atravesar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

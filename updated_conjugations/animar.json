@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "animaro",
+            "Tu": "animaras",
+            "ElEllaUsted": "animara",
+            "Nosotros": "animaramos",
+            "Vosotros": "animaráis",
+            "EllosEllasUstedes": "animaran"
+        },
+        "Pretérito": {
+            "Yo": "animaré",
+            "Tu": "animaraste",
+            "ElEllaUsted": "animaró",
+            "Nosotros": "animaramos",
+            "Vosotros": "animarasteis",
+            "EllosEllasUstedes": "animararon"
+        },
+        "Imperfect": {
+            "Yo": "animaraba",
+            "Tu": "animarabas",
+            "ElEllaUsted": "animaraba",
+            "Nosotros": "animarábamos",
+            "Vosotros": "animarabais",
+            "EllosEllasUstedes": "animaraban"
+        },
+        "Conditional": {
+            "Yo": "animararía",
+            "Tu": "animararías",
+            "ElEllaUsted": "animararía",
+            "Nosotros": "animararíamos",
+            "Vosotros": "animararíais",
+            "EllosEllasUstedes": "animararían"
+        },
+        "Future": {
+            "Yo": "animararé",
+            "Tu": "animararás",
+            "ElEllaUsted": "animarará",
+            "Nosotros": "animararemos",
+            "Vosotros": "animararéis",
+            "EllosEllasUstedes": "animararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "animar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "alabando",
+    "PastParticiple": "alabado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "alabaro",
+            "Tu": "alabaras",
+            "ElEllaUsted": "alabara",
+            "Nosotros": "alabaramos",
+            "Vosotros": "alabaráis",
+            "EllosEllasUstedes": "alabaran"
+        },
+        "Pretérito": {
+            "Yo": "alabaré",
+            "Tu": "alabaraste",
+            "ElEllaUsted": "alabaró",
+            "Nosotros": "alabaramos",
+            "Vosotros": "alabarasteis",
+            "EllosEllasUstedes": "alabararon"
+        },
+        "Imperfect": {
+            "Yo": "alabaraba",
+            "Tu": "alabarabas",
+            "ElEllaUsted": "alabaraba",
+            "Nosotros": "alabarábamos",
+            "Vosotros": "alabarabais",
+            "EllosEllasUstedes": "alabaraban"
+        },
+        "Conditional": {
+            "Yo": "alabararía",
+            "Tu": "alabararías",
+            "ElEllaUsted": "alabararía",
+            "Nosotros": "alabararíamos",
+            "Vosotros": "alabararíais",
+            "EllosEllasUstedes": "alabararían"
+        },
+        "Future": {
+            "Yo": "alabararé",
+            "Tu": "alabararás",
+            "ElEllaUsted": "alabarará",
+            "Nosotros": "alabararemos",
+            "Vosotros": "alabararéis",
+            "EllosEllasUstedes": "alabararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "alabar",
+    "EnglishMeaning": "to praise"
+}

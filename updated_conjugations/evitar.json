@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "evitaro",
+            "Tu": "evitaras",
+            "ElEllaUsted": "evitara",
+            "Nosotros": "evitaramos",
+            "Vosotros": "evitaráis",
+            "EllosEllasUstedes": "evitaran"
+        },
+        "Pretérito": {
+            "Yo": "evitaré",
+            "Tu": "evitaraste",
+            "ElEllaUsted": "evitaró",
+            "Nosotros": "evitaramos",
+            "Vosotros": "evitarasteis",
+            "EllosEllasUstedes": "evitararon"
+        },
+        "Imperfect": {
+            "Yo": "evitaraba",
+            "Tu": "evitarabas",
+            "ElEllaUsted": "evitaraba",
+            "Nosotros": "evitarábamos",
+            "Vosotros": "evitarabais",
+            "EllosEllasUstedes": "evitaraban"
+        },
+        "Conditional": {
+            "Yo": "evitararía",
+            "Tu": "evitararías",
+            "ElEllaUsted": "evitararía",
+            "Nosotros": "evitararíamos",
+            "Vosotros": "evitararíais",
+            "EllosEllasUstedes": "evitararían"
+        },
+        "Future": {
+            "Yo": "evitararé",
+            "Tu": "evitararás",
+            "ElEllaUsted": "evitarará",
+            "Nosotros": "evitararemos",
+            "Vosotros": "evitararéis",
+            "EllosEllasUstedes": "evitararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "evitar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

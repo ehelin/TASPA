@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "cobrando",
+    "PastParticiple": "cobrado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "cobraro",
+            "Tu": "cobraras",
+            "ElEllaUsted": "cobrara",
+            "Nosotros": "cobraramos",
+            "Vosotros": "cobraráis",
+            "EllosEllasUstedes": "cobraran"
+        },
+        "Pretérito": {
+            "Yo": "cobraré",
+            "Tu": "cobraraste",
+            "ElEllaUsted": "cobraró",
+            "Nosotros": "cobraramos",
+            "Vosotros": "cobrarasteis",
+            "EllosEllasUstedes": "cobrararon"
+        },
+        "Imperfect": {
+            "Yo": "cobraraba",
+            "Tu": "cobrarabas",
+            "ElEllaUsted": "cobraraba",
+            "Nosotros": "cobrarábamos",
+            "Vosotros": "cobrarabais",
+            "EllosEllasUstedes": "cobraraban"
+        },
+        "Conditional": {
+            "Yo": "cobrararía",
+            "Tu": "cobrararías",
+            "ElEllaUsted": "cobrararía",
+            "Nosotros": "cobrararíamos",
+            "Vosotros": "cobrararíais",
+            "EllosEllasUstedes": "cobrararían"
+        },
+        "Future": {
+            "Yo": "cobrararé",
+            "Tu": "cobrararás",
+            "ElEllaUsted": "cobrarará",
+            "Nosotros": "cobrararemos",
+            "Vosotros": "cobrararéis",
+            "EllosEllasUstedes": "cobrararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "cobrar",
+    "EnglishMeaning": "to charge"
+}

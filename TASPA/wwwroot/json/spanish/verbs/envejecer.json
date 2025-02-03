@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "envejeciendo",
+    "PastParticiple": "envejecido",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "envejecero",
+            "Tu": "envejeceras",
+            "ElEllaUsted": "envejecera",
+            "Nosotros": "envejeceramos",
+            "Vosotros": "envejeceráis",
+            "EllosEllasUstedes": "envejeceran"
+        },
+        "Pretérito": {
+            "Yo": "envejeceré",
+            "Tu": "envejeceraste",
+            "ElEllaUsted": "envejeceró",
+            "Nosotros": "envejeceramos",
+            "Vosotros": "envejecerasteis",
+            "EllosEllasUstedes": "envejeceraron"
+        },
+        "Imperfect": {
+            "Yo": "envejeceraba",
+            "Tu": "envejecerabas",
+            "ElEllaUsted": "envejeceraba",
+            "Nosotros": "envejecerábamos",
+            "Vosotros": "envejecerabais",
+            "EllosEllasUstedes": "envejeceraban"
+        },
+        "Conditional": {
+            "Yo": "envejeceraría",
+            "Tu": "envejecerarías",
+            "ElEllaUsted": "envejeceraría",
+            "Nosotros": "envejeceraríamos",
+            "Vosotros": "envejeceraríais",
+            "EllosEllasUstedes": "envejecerarían"
+        },
+        "Future": {
+            "Yo": "envejeceraré",
+            "Tu": "envejecerarás",
+            "ElEllaUsted": "envejecerará",
+            "Nosotros": "envejeceraremos",
+            "Vosotros": "envejeceraréis",
+            "EllosEllasUstedes": "envejecerarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "envejecer",
+    "EnglishMeaning": "to age"
+}

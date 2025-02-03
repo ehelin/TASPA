@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "sembrando",
+    "PastParticiple": "sembrado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "sembraro",
+            "Tu": "sembraras",
+            "ElEllaUsted": "sembrara",
+            "Nosotros": "sembraramos",
+            "Vosotros": "sembraráis",
+            "EllosEllasUstedes": "sembraran"
+        },
+        "Pretérito": {
+            "Yo": "sembraré",
+            "Tu": "sembraraste",
+            "ElEllaUsted": "sembraró",
+            "Nosotros": "sembraramos",
+            "Vosotros": "sembrarasteis",
+            "EllosEllasUstedes": "sembrararon"
+        },
+        "Imperfect": {
+            "Yo": "sembraraba",
+            "Tu": "sembrarabas",
+            "ElEllaUsted": "sembraraba",
+            "Nosotros": "sembrarábamos",
+            "Vosotros": "sembrarabais",
+            "EllosEllasUstedes": "sembraraban"
+        },
+        "Conditional": {
+            "Yo": "sembrararía",
+            "Tu": "sembrararías",
+            "ElEllaUsted": "sembrararía",
+            "Nosotros": "sembrararíamos",
+            "Vosotros": "sembrararíais",
+            "EllosEllasUstedes": "sembrararían"
+        },
+        "Future": {
+            "Yo": "sembrararé",
+            "Tu": "sembrararás",
+            "ElEllaUsted": "sembrarará",
+            "Nosotros": "sembrararemos",
+            "Vosotros": "sembrararéis",
+            "EllosEllasUstedes": "sembrararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "sembrar",
+    "EnglishMeaning": "to plant"
+}

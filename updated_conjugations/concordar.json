@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "concordaro",
+            "Tu": "concordaras",
+            "ElEllaUsted": "concordara",
+            "Nosotros": "concordaramos",
+            "Vosotros": "concordaráis",
+            "EllosEllasUstedes": "concordaran"
+        },
+        "Pretérito": {
+            "Yo": "concordaré",
+            "Tu": "concordaraste",
+            "ElEllaUsted": "concordaró",
+            "Nosotros": "concordaramos",
+            "Vosotros": "concordarasteis",
+            "EllosEllasUstedes": "concordararon"
+        },
+        "Imperfect": {
+            "Yo": "concordaraba",
+            "Tu": "concordarabas",
+            "ElEllaUsted": "concordaraba",
+            "Nosotros": "concordarábamos",
+            "Vosotros": "concordarabais",
+            "EllosEllasUstedes": "concordaraban"
+        },
+        "Conditional": {
+            "Yo": "concordararía",
+            "Tu": "concordararías",
+            "ElEllaUsted": "concordararía",
+            "Nosotros": "concordararíamos",
+            "Vosotros": "concordararíais",
+            "EllosEllasUstedes": "concordararían"
+        },
+        "Future": {
+            "Yo": "concordararé",
+            "Tu": "concordararás",
+            "ElEllaUsted": "concordarará",
+            "Nosotros": "concordararemos",
+            "Vosotros": "concordararéis",
+            "EllosEllasUstedes": "concordararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "concordar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

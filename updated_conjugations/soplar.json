@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "soplaro",
+            "Tu": "soplaras",
+            "ElEllaUsted": "soplara",
+            "Nosotros": "soplaramos",
+            "Vosotros": "soplaráis",
+            "EllosEllasUstedes": "soplaran"
+        },
+        "Pretérito": {
+            "Yo": "soplaré",
+            "Tu": "soplaraste",
+            "ElEllaUsted": "soplaró",
+            "Nosotros": "soplaramos",
+            "Vosotros": "soplarasteis",
+            "EllosEllasUstedes": "soplararon"
+        },
+        "Imperfect": {
+            "Yo": "soplaraba",
+            "Tu": "soplarabas",
+            "ElEllaUsted": "soplaraba",
+            "Nosotros": "soplarábamos",
+            "Vosotros": "soplarabais",
+            "EllosEllasUstedes": "soplaraban"
+        },
+        "Conditional": {
+            "Yo": "soplararía",
+            "Tu": "soplararías",
+            "ElEllaUsted": "soplararía",
+            "Nosotros": "soplararíamos",
+            "Vosotros": "soplararíais",
+            "EllosEllasUstedes": "soplararían"
+        },
+        "Future": {
+            "Yo": "soplararé",
+            "Tu": "soplararás",
+            "ElEllaUsted": "soplarará",
+            "Nosotros": "soplararemos",
+            "Vosotros": "soplararéis",
+            "EllosEllasUstedes": "soplararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "soplar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

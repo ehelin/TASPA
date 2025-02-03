@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "apoderaro",
+            "Tu": "apoderaras",
+            "ElEllaUsted": "apoderara",
+            "Nosotros": "apoderaramos",
+            "Vosotros": "apoderaráis",
+            "EllosEllasUstedes": "apoderaran"
+        },
+        "Pretérito": {
+            "Yo": "apoderaré",
+            "Tu": "apoderaraste",
+            "ElEllaUsted": "apoderaró",
+            "Nosotros": "apoderaramos",
+            "Vosotros": "apoderarasteis",
+            "EllosEllasUstedes": "apoderararon"
+        },
+        "Imperfect": {
+            "Yo": "apoderaraba",
+            "Tu": "apoderarabas",
+            "ElEllaUsted": "apoderaraba",
+            "Nosotros": "apoderarábamos",
+            "Vosotros": "apoderarabais",
+            "EllosEllasUstedes": "apoderaraban"
+        },
+        "Conditional": {
+            "Yo": "apoderararía",
+            "Tu": "apoderararías",
+            "ElEllaUsted": "apoderararía",
+            "Nosotros": "apoderararíamos",
+            "Vosotros": "apoderararíais",
+            "EllosEllasUstedes": "apoderararían"
+        },
+        "Future": {
+            "Yo": "apoderararé",
+            "Tu": "apoderararás",
+            "ElEllaUsted": "apoderarará",
+            "Nosotros": "apoderararemos",
+            "Vosotros": "apoderararéis",
+            "EllosEllasUstedes": "apoderararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "apoderar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

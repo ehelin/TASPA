@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "amarrando",
+    "PastParticiple": "amarrado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "amarraro",
+            "Tu": "amarraras",
+            "ElEllaUsted": "amarrara",
+            "Nosotros": "amarraramos",
+            "Vosotros": "amarraráis",
+            "EllosEllasUstedes": "amarraran"
+        },
+        "Pretérito": {
+            "Yo": "amarraré",
+            "Tu": "amarraraste",
+            "ElEllaUsted": "amarraró",
+            "Nosotros": "amarraramos",
+            "Vosotros": "amarrarasteis",
+            "EllosEllasUstedes": "amarrararon"
+        },
+        "Imperfect": {
+            "Yo": "amarraraba",
+            "Tu": "amarrarabas",
+            "ElEllaUsted": "amarraraba",
+            "Nosotros": "amarrarábamos",
+            "Vosotros": "amarrarabais",
+            "EllosEllasUstedes": "amarraraban"
+        },
+        "Conditional": {
+            "Yo": "amarrararía",
+            "Tu": "amarrararías",
+            "ElEllaUsted": "amarrararía",
+            "Nosotros": "amarrararíamos",
+            "Vosotros": "amarrararíais",
+            "EllosEllasUstedes": "amarrararían"
+        },
+        "Future": {
+            "Yo": "amarrararé",
+            "Tu": "amarrararás",
+            "ElEllaUsted": "amarrarará",
+            "Nosotros": "amarrararemos",
+            "Vosotros": "amarrararéis",
+            "EllosEllasUstedes": "amarrararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "amarrar",
+    "EnglishMeaning": "to tie"
+}

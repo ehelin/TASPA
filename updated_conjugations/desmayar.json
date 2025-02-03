@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "desmayaro",
+            "Tu": "desmayaras",
+            "ElEllaUsted": "desmayara",
+            "Nosotros": "desmayaramos",
+            "Vosotros": "desmayaráis",
+            "EllosEllasUstedes": "desmayaran"
+        },
+        "Pretérito": {
+            "Yo": "desmayaré",
+            "Tu": "desmayaraste",
+            "ElEllaUsted": "desmayaró",
+            "Nosotros": "desmayaramos",
+            "Vosotros": "desmayarasteis",
+            "EllosEllasUstedes": "desmayararon"
+        },
+        "Imperfect": {
+            "Yo": "desmayaraba",
+            "Tu": "desmayarabas",
+            "ElEllaUsted": "desmayaraba",
+            "Nosotros": "desmayarábamos",
+            "Vosotros": "desmayarabais",
+            "EllosEllasUstedes": "desmayaraban"
+        },
+        "Conditional": {
+            "Yo": "desmayararía",
+            "Tu": "desmayararías",
+            "ElEllaUsted": "desmayararía",
+            "Nosotros": "desmayararíamos",
+            "Vosotros": "desmayararíais",
+            "EllosEllasUstedes": "desmayararían"
+        },
+        "Future": {
+            "Yo": "desmayararé",
+            "Tu": "desmayararás",
+            "ElEllaUsted": "desmayarará",
+            "Nosotros": "desmayararemos",
+            "Vosotros": "desmayararéis",
+            "EllosEllasUstedes": "desmayararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "desmayar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

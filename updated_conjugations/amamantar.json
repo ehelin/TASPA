@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "amamantaro",
+            "Tu": "amamantaras",
+            "ElEllaUsted": "amamantara",
+            "Nosotros": "amamantaramos",
+            "Vosotros": "amamantaráis",
+            "EllosEllasUstedes": "amamantaran"
+        },
+        "Pretérito": {
+            "Yo": "amamantaré",
+            "Tu": "amamantaraste",
+            "ElEllaUsted": "amamantaró",
+            "Nosotros": "amamantaramos",
+            "Vosotros": "amamantarasteis",
+            "EllosEllasUstedes": "amamantararon"
+        },
+        "Imperfect": {
+            "Yo": "amamantaraba",
+            "Tu": "amamantarabas",
+            "ElEllaUsted": "amamantaraba",
+            "Nosotros": "amamantarábamos",
+            "Vosotros": "amamantarabais",
+            "EllosEllasUstedes": "amamantaraban"
+        },
+        "Conditional": {
+            "Yo": "amamantararía",
+            "Tu": "amamantararías",
+            "ElEllaUsted": "amamantararía",
+            "Nosotros": "amamantararíamos",
+            "Vosotros": "amamantararíais",
+            "EllosEllasUstedes": "amamantararían"
+        },
+        "Future": {
+            "Yo": "amamantararé",
+            "Tu": "amamantararás",
+            "ElEllaUsted": "amamantarará",
+            "Nosotros": "amamantararemos",
+            "Vosotros": "amamantararéis",
+            "EllosEllasUstedes": "amamantararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "amamantar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

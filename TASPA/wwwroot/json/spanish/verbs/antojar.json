@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "antojando",
+    "PastParticiple": "antojado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "antojaro",
+            "Tu": "antojaras",
+            "ElEllaUsted": "antojara",
+            "Nosotros": "antojaramos",
+            "Vosotros": "antojaráis",
+            "EllosEllasUstedes": "antojaran"
+        },
+        "Pretérito": {
+            "Yo": "antojaré",
+            "Tu": "antojaraste",
+            "ElEllaUsted": "antojaró",
+            "Nosotros": "antojaramos",
+            "Vosotros": "antojarasteis",
+            "EllosEllasUstedes": "antojararon"
+        },
+        "Imperfect": {
+            "Yo": "antojaraba",
+            "Tu": "antojarabas",
+            "ElEllaUsted": "antojaraba",
+            "Nosotros": "antojarábamos",
+            "Vosotros": "antojarabais",
+            "EllosEllasUstedes": "antojaraban"
+        },
+        "Conditional": {
+            "Yo": "antojararía",
+            "Tu": "antojararías",
+            "ElEllaUsted": "antojararía",
+            "Nosotros": "antojararíamos",
+            "Vosotros": "antojararíais",
+            "EllosEllasUstedes": "antojararían"
+        },
+        "Future": {
+            "Yo": "antojararé",
+            "Tu": "antojararás",
+            "ElEllaUsted": "antojarará",
+            "Nosotros": "antojararemos",
+            "Vosotros": "antojararéis",
+            "EllosEllasUstedes": "antojararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "antojar",
+    "EnglishMeaning": "to crave"
+}

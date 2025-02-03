@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "orinando",
+    "PastParticiple": "orinado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "orinaro",
+            "Tu": "orinaras",
+            "ElEllaUsted": "orinara",
+            "Nosotros": "orinaramos",
+            "Vosotros": "orinaráis",
+            "EllosEllasUstedes": "orinaran"
+        },
+        "Pretérito": {
+            "Yo": "orinaré",
+            "Tu": "orinaraste",
+            "ElEllaUsted": "orinaró",
+            "Nosotros": "orinaramos",
+            "Vosotros": "orinarasteis",
+            "EllosEllasUstedes": "orinararon"
+        },
+        "Imperfect": {
+            "Yo": "orinaraba",
+            "Tu": "orinarabas",
+            "ElEllaUsted": "orinaraba",
+            "Nosotros": "orinarábamos",
+            "Vosotros": "orinarabais",
+            "EllosEllasUstedes": "orinaraban"
+        },
+        "Conditional": {
+            "Yo": "orinararía",
+            "Tu": "orinararías",
+            "ElEllaUsted": "orinararía",
+            "Nosotros": "orinararíamos",
+            "Vosotros": "orinararíais",
+            "EllosEllasUstedes": "orinararían"
+        },
+        "Future": {
+            "Yo": "orinararé",
+            "Tu": "orinararás",
+            "ElEllaUsted": "orinarará",
+            "Nosotros": "orinararemos",
+            "Vosotros": "orinararéis",
+            "EllosEllasUstedes": "orinararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "orinar",
+    "EnglishMeaning": "to urinate"
+}

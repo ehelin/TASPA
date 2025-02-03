@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "sanando",
+    "PastParticiple": "sanado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "sanaro",
+            "Tu": "sanaras",
+            "ElEllaUsted": "sanara",
+            "Nosotros": "sanaramos",
+            "Vosotros": "sanaráis",
+            "EllosEllasUstedes": "sanaran"
+        },
+        "Pretérito": {
+            "Yo": "sanaré",
+            "Tu": "sanaraste",
+            "ElEllaUsted": "sanaró",
+            "Nosotros": "sanaramos",
+            "Vosotros": "sanarasteis",
+            "EllosEllasUstedes": "sanararon"
+        },
+        "Imperfect": {
+            "Yo": "sanaraba",
+            "Tu": "sanarabas",
+            "ElEllaUsted": "sanaraba",
+            "Nosotros": "sanarábamos",
+            "Vosotros": "sanarabais",
+            "EllosEllasUstedes": "sanaraban"
+        },
+        "Conditional": {
+            "Yo": "sanararía",
+            "Tu": "sanararías",
+            "ElEllaUsted": "sanararía",
+            "Nosotros": "sanararíamos",
+            "Vosotros": "sanararíais",
+            "EllosEllasUstedes": "sanararían"
+        },
+        "Future": {
+            "Yo": "sanararé",
+            "Tu": "sanararás",
+            "ElEllaUsted": "sanarará",
+            "Nosotros": "sanararemos",
+            "Vosotros": "sanararéis",
+            "EllosEllasUstedes": "sanararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "sanar",
+    "EnglishMeaning": "to heal"
+}

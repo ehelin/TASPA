@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "depararo",
+            "Tu": "depararas",
+            "ElEllaUsted": "deparara",
+            "Nosotros": "depararamos",
+            "Vosotros": "depararáis",
+            "EllosEllasUstedes": "depararan"
+        },
+        "Pretérito": {
+            "Yo": "depararé",
+            "Tu": "depararaste",
+            "ElEllaUsted": "depararó",
+            "Nosotros": "depararamos",
+            "Vosotros": "depararasteis",
+            "EllosEllasUstedes": "deparararon"
+        },
+        "Imperfect": {
+            "Yo": "depararaba",
+            "Tu": "depararabas",
+            "ElEllaUsted": "depararaba",
+            "Nosotros": "depararábamos",
+            "Vosotros": "depararabais",
+            "EllosEllasUstedes": "depararaban"
+        },
+        "Conditional": {
+            "Yo": "deparararía",
+            "Tu": "deparararías",
+            "ElEllaUsted": "deparararía",
+            "Nosotros": "deparararíamos",
+            "Vosotros": "deparararíais",
+            "EllosEllasUstedes": "deparararían"
+        },
+        "Future": {
+            "Yo": "deparararé",
+            "Tu": "deparararás",
+            "ElEllaUsted": "depararará",
+            "Nosotros": "deparararemos",
+            "Vosotros": "deparararéis",
+            "EllosEllasUstedes": "deparararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "deparar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

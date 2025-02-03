@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "egresoso",
+            "Tu": "egresosas",
+            "ElEllaUsted": "egresosa",
+            "Nosotros": "egresosamos",
+            "Vosotros": "egresosáis",
+            "EllosEllasUstedes": "egresosan"
+        },
+        "Pretérito": {
+            "Yo": "egresosé",
+            "Tu": "egresosaste",
+            "ElEllaUsted": "egresosó",
+            "Nosotros": "egresosamos",
+            "Vosotros": "egresosasteis",
+            "EllosEllasUstedes": "egresosaron"
+        },
+        "Imperfect": {
+            "Yo": "egresosaba",
+            "Tu": "egresosabas",
+            "ElEllaUsted": "egresosaba",
+            "Nosotros": "egresosábamos",
+            "Vosotros": "egresosabais",
+            "EllosEllasUstedes": "egresosaban"
+        },
+        "Conditional": {
+            "Yo": "egresosaría",
+            "Tu": "egresosarías",
+            "ElEllaUsted": "egresosaría",
+            "Nosotros": "egresosaríamos",
+            "Vosotros": "egresosaríais",
+            "EllosEllasUstedes": "egresosarían"
+        },
+        "Future": {
+            "Yo": "egresosaré",
+            "Tu": "egresosarás",
+            "ElEllaUsted": "egresosará",
+            "Nosotros": "egresosaremos",
+            "Vosotros": "egresosaréis",
+            "EllosEllasUstedes": "egresosarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "egresos",
+    "EnglishMeaning": "English meaning of Unknown"
+}

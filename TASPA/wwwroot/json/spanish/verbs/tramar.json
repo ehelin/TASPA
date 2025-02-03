@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "tramando",
+    "PastParticiple": "tramado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "tramaro",
+            "Tu": "tramaras",
+            "ElEllaUsted": "tramara",
+            "Nosotros": "tramaramos",
+            "Vosotros": "tramaráis",
+            "EllosEllasUstedes": "tramaran"
+        },
+        "Pretérito": {
+            "Yo": "tramaré",
+            "Tu": "tramaraste",
+            "ElEllaUsted": "tramaró",
+            "Nosotros": "tramaramos",
+            "Vosotros": "tramarasteis",
+            "EllosEllasUstedes": "tramararon"
+        },
+        "Imperfect": {
+            "Yo": "tramaraba",
+            "Tu": "tramarabas",
+            "ElEllaUsted": "tramaraba",
+            "Nosotros": "tramarábamos",
+            "Vosotros": "tramarabais",
+            "EllosEllasUstedes": "tramaraban"
+        },
+        "Conditional": {
+            "Yo": "tramararía",
+            "Tu": "tramararías",
+            "ElEllaUsted": "tramararía",
+            "Nosotros": "tramararíamos",
+            "Vosotros": "tramararíais",
+            "EllosEllasUstedes": "tramararían"
+        },
+        "Future": {
+            "Yo": "tramararé",
+            "Tu": "tramararás",
+            "ElEllaUsted": "tramarará",
+            "Nosotros": "tramararemos",
+            "Vosotros": "tramararéis",
+            "EllosEllasUstedes": "tramararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "tramar",
+    "EnglishMeaning": "to plot"
+}

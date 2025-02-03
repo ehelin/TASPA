@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "hallando",
+    "PastParticiple": "hallado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "hallaro",
+            "Tu": "hallaras",
+            "ElEllaUsted": "hallara",
+            "Nosotros": "hallaramos",
+            "Vosotros": "hallaráis",
+            "EllosEllasUstedes": "hallaran"
+        },
+        "Pretérito": {
+            "Yo": "hallaré",
+            "Tu": "hallaraste",
+            "ElEllaUsted": "hallaró",
+            "Nosotros": "hallaramos",
+            "Vosotros": "hallarasteis",
+            "EllosEllasUstedes": "hallararon"
+        },
+        "Imperfect": {
+            "Yo": "hallaraba",
+            "Tu": "hallarabas",
+            "ElEllaUsted": "hallaraba",
+            "Nosotros": "hallarábamos",
+            "Vosotros": "hallarabais",
+            "EllosEllasUstedes": "hallaraban"
+        },
+        "Conditional": {
+            "Yo": "hallararía",
+            "Tu": "hallararías",
+            "ElEllaUsted": "hallararía",
+            "Nosotros": "hallararíamos",
+            "Vosotros": "hallararíais",
+            "EllosEllasUstedes": "hallararían"
+        },
+        "Future": {
+            "Yo": "hallararé",
+            "Tu": "hallararás",
+            "ElEllaUsted": "hallarará",
+            "Nosotros": "hallararemos",
+            "Vosotros": "hallararéis",
+            "EllosEllasUstedes": "hallararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "hallar",
+    "EnglishMeaning": "to find"
+}

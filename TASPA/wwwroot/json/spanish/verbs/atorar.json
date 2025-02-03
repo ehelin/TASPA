@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "atorando",
+    "PastParticiple": "atorado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "atoraro",
+            "Tu": "atoraras",
+            "ElEllaUsted": "atorara",
+            "Nosotros": "atoraramos",
+            "Vosotros": "atoraráis",
+            "EllosEllasUstedes": "atoraran"
+        },
+        "Pretérito": {
+            "Yo": "atoraré",
+            "Tu": "atoraraste",
+            "ElEllaUsted": "atoraró",
+            "Nosotros": "atoraramos",
+            "Vosotros": "atorarasteis",
+            "EllosEllasUstedes": "atorararon"
+        },
+        "Imperfect": {
+            "Yo": "atoraraba",
+            "Tu": "atorarabas",
+            "ElEllaUsted": "atoraraba",
+            "Nosotros": "atorarábamos",
+            "Vosotros": "atorarabais",
+            "EllosEllasUstedes": "atoraraban"
+        },
+        "Conditional": {
+            "Yo": "atorararía",
+            "Tu": "atorararías",
+            "ElEllaUsted": "atorararía",
+            "Nosotros": "atorararíamos",
+            "Vosotros": "atorararíais",
+            "EllosEllasUstedes": "atorararían"
+        },
+        "Future": {
+            "Yo": "atorararé",
+            "Tu": "atorararás",
+            "ElEllaUsted": "atorarará",
+            "Nosotros": "atorararemos",
+            "Vosotros": "atorararéis",
+            "EllosEllasUstedes": "atorararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "atorar",
+    "EnglishMeaning": "to block"
+}

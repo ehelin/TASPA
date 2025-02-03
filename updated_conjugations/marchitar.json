@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "marchitaro",
+            "Tu": "marchitaras",
+            "ElEllaUsted": "marchitara",
+            "Nosotros": "marchitaramos",
+            "Vosotros": "marchitaráis",
+            "EllosEllasUstedes": "marchitaran"
+        },
+        "Pretérito": {
+            "Yo": "marchitaré",
+            "Tu": "marchitaraste",
+            "ElEllaUsted": "marchitaró",
+            "Nosotros": "marchitaramos",
+            "Vosotros": "marchitarasteis",
+            "EllosEllasUstedes": "marchitararon"
+        },
+        "Imperfect": {
+            "Yo": "marchitaraba",
+            "Tu": "marchitarabas",
+            "ElEllaUsted": "marchitaraba",
+            "Nosotros": "marchitarábamos",
+            "Vosotros": "marchitarabais",
+            "EllosEllasUstedes": "marchitaraban"
+        },
+        "Conditional": {
+            "Yo": "marchitararía",
+            "Tu": "marchitararías",
+            "ElEllaUsted": "marchitararía",
+            "Nosotros": "marchitararíamos",
+            "Vosotros": "marchitararíais",
+            "EllosEllasUstedes": "marchitararían"
+        },
+        "Future": {
+            "Yo": "marchitararé",
+            "Tu": "marchitararás",
+            "ElEllaUsted": "marchitarará",
+            "Nosotros": "marchitararemos",
+            "Vosotros": "marchitararéis",
+            "EllosEllasUstedes": "marchitararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "marchitar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

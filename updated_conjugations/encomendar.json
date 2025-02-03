@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "encomendaro",
+            "Tu": "encomendaras",
+            "ElEllaUsted": "encomendara",
+            "Nosotros": "encomendaramos",
+            "Vosotros": "encomendaráis",
+            "EllosEllasUstedes": "encomendaran"
+        },
+        "Pretérito": {
+            "Yo": "encomendaré",
+            "Tu": "encomendaraste",
+            "ElEllaUsted": "encomendaró",
+            "Nosotros": "encomendaramos",
+            "Vosotros": "encomendarasteis",
+            "EllosEllasUstedes": "encomendararon"
+        },
+        "Imperfect": {
+            "Yo": "encomendaraba",
+            "Tu": "encomendarabas",
+            "ElEllaUsted": "encomendaraba",
+            "Nosotros": "encomendarábamos",
+            "Vosotros": "encomendarabais",
+            "EllosEllasUstedes": "encomendaraban"
+        },
+        "Conditional": {
+            "Yo": "encomendararía",
+            "Tu": "encomendararías",
+            "ElEllaUsted": "encomendararía",
+            "Nosotros": "encomendararíamos",
+            "Vosotros": "encomendararíais",
+            "EllosEllasUstedes": "encomendararían"
+        },
+        "Future": {
+            "Yo": "encomendararé",
+            "Tu": "encomendararás",
+            "ElEllaUsted": "encomendarará",
+            "Nosotros": "encomendararemos",
+            "Vosotros": "encomendararéis",
+            "EllosEllasUstedes": "encomendararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "encomendar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

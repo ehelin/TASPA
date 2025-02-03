@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "aplicando",
+    "PastParticiple": "aplicado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "applicaro",
+            "Tu": "applicaras",
+            "ElEllaUsted": "applicara",
+            "Nosotros": "applicaramos",
+            "Vosotros": "applicaráis",
+            "EllosEllasUstedes": "applicaran"
+        },
+        "Pretérito": {
+            "Yo": "applicaré",
+            "Tu": "applicaraste",
+            "ElEllaUsted": "applicaró",
+            "Nosotros": "applicaramos",
+            "Vosotros": "applicarasteis",
+            "EllosEllasUstedes": "applicararon"
+        },
+        "Imperfect": {
+            "Yo": "applicaraba",
+            "Tu": "applicarabas",
+            "ElEllaUsted": "applicaraba",
+            "Nosotros": "applicarábamos",
+            "Vosotros": "applicarabais",
+            "EllosEllasUstedes": "applicaraban"
+        },
+        "Conditional": {
+            "Yo": "applicararía",
+            "Tu": "applicararías",
+            "ElEllaUsted": "applicararía",
+            "Nosotros": "applicararíamos",
+            "Vosotros": "applicararíais",
+            "EllosEllasUstedes": "applicararían"
+        },
+        "Future": {
+            "Yo": "applicararé",
+            "Tu": "applicararás",
+            "ElEllaUsted": "applicarará",
+            "Nosotros": "applicararemos",
+            "Vosotros": "applicararéis",
+            "EllosEllasUstedes": "applicararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "applicar",
+    "EnglishMeaning": "to apply"
+}

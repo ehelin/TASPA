@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "acataro",
+            "Tu": "acataras",
+            "ElEllaUsted": "acatara",
+            "Nosotros": "acataramos",
+            "Vosotros": "acataráis",
+            "EllosEllasUstedes": "acataran"
+        },
+        "Pretérito": {
+            "Yo": "acataré",
+            "Tu": "acataraste",
+            "ElEllaUsted": "acataró",
+            "Nosotros": "acataramos",
+            "Vosotros": "acatarasteis",
+            "EllosEllasUstedes": "acatararon"
+        },
+        "Imperfect": {
+            "Yo": "acataraba",
+            "Tu": "acatarabas",
+            "ElEllaUsted": "acataraba",
+            "Nosotros": "acatarábamos",
+            "Vosotros": "acatarabais",
+            "EllosEllasUstedes": "acataraban"
+        },
+        "Conditional": {
+            "Yo": "acatararía",
+            "Tu": "acatararías",
+            "ElEllaUsted": "acatararía",
+            "Nosotros": "acatararíamos",
+            "Vosotros": "acatararíais",
+            "EllosEllasUstedes": "acatararían"
+        },
+        "Future": {
+            "Yo": "acatararé",
+            "Tu": "acatararás",
+            "ElEllaUsted": "acatarará",
+            "Nosotros": "acatararemos",
+            "Vosotros": "acatararéis",
+            "EllosEllasUstedes": "acatararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "acatar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

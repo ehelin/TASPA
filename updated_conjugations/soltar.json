@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "soltaro",
+            "Tu": "soltaras",
+            "ElEllaUsted": "soltara",
+            "Nosotros": "soltaramos",
+            "Vosotros": "soltaráis",
+            "EllosEllasUstedes": "soltaran"
+        },
+        "Pretérito": {
+            "Yo": "soltaré",
+            "Tu": "soltaraste",
+            "ElEllaUsted": "soltaró",
+            "Nosotros": "soltaramos",
+            "Vosotros": "soltarasteis",
+            "EllosEllasUstedes": "soltararon"
+        },
+        "Imperfect": {
+            "Yo": "soltaraba",
+            "Tu": "soltarabas",
+            "ElEllaUsted": "soltaraba",
+            "Nosotros": "soltarábamos",
+            "Vosotros": "soltarabais",
+            "EllosEllasUstedes": "soltaraban"
+        },
+        "Conditional": {
+            "Yo": "soltararía",
+            "Tu": "soltararías",
+            "ElEllaUsted": "soltararía",
+            "Nosotros": "soltararíamos",
+            "Vosotros": "soltararíais",
+            "EllosEllasUstedes": "soltararían"
+        },
+        "Future": {
+            "Yo": "soltararé",
+            "Tu": "soltararás",
+            "ElEllaUsted": "soltarará",
+            "Nosotros": "soltararemos",
+            "Vosotros": "soltararéis",
+            "EllosEllasUstedes": "soltararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "soltar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

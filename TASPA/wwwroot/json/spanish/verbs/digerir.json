@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "digiriendo",
+    "PastParticiple": "digiriendo",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "digeriro",
+            "Tu": "digeriras",
+            "ElEllaUsted": "digerira",
+            "Nosotros": "digeriramos",
+            "Vosotros": "digeriráis",
+            "EllosEllasUstedes": "digeriran"
+        },
+        "Pretérito": {
+            "Yo": "digeriré",
+            "Tu": "digeriraste",
+            "ElEllaUsted": "digeriró",
+            "Nosotros": "digeriramos",
+            "Vosotros": "digerirasteis",
+            "EllosEllasUstedes": "digeriraron"
+        },
+        "Imperfect": {
+            "Yo": "digeriraba",
+            "Tu": "digerirabas",
+            "ElEllaUsted": "digeriraba",
+            "Nosotros": "digerirábamos",
+            "Vosotros": "digerirabais",
+            "EllosEllasUstedes": "digeriraban"
+        },
+        "Conditional": {
+            "Yo": "digeriraría",
+            "Tu": "digerirarías",
+            "ElEllaUsted": "digeriraría",
+            "Nosotros": "digeriraríamos",
+            "Vosotros": "digeriraríais",
+            "EllosEllasUstedes": "digerirarían"
+        },
+        "Future": {
+            "Yo": "digeriraré",
+            "Tu": "digerirarás",
+            "ElEllaUsted": "digerirará",
+            "Nosotros": "digeriraremos",
+            "Vosotros": "digeriraréis",
+            "EllosEllasUstedes": "digerirarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "digerir",
+    "EnglishMeaning": "to digest"
+}

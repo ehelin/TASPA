@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "agendaro",
+            "Tu": "agendaras",
+            "ElEllaUsted": "agendara",
+            "Nosotros": "agendaramos",
+            "Vosotros": "agendaráis",
+            "EllosEllasUstedes": "agendaran"
+        },
+        "Pretérito": {
+            "Yo": "agendaré",
+            "Tu": "agendaraste",
+            "ElEllaUsted": "agendaró",
+            "Nosotros": "agendaramos",
+            "Vosotros": "agendarasteis",
+            "EllosEllasUstedes": "agendararon"
+        },
+        "Imperfect": {
+            "Yo": "agendaraba",
+            "Tu": "agendarabas",
+            "ElEllaUsted": "agendaraba",
+            "Nosotros": "agendarábamos",
+            "Vosotros": "agendarabais",
+            "EllosEllasUstedes": "agendaraban"
+        },
+        "Conditional": {
+            "Yo": "agendararía",
+            "Tu": "agendararías",
+            "ElEllaUsted": "agendararía",
+            "Nosotros": "agendararíamos",
+            "Vosotros": "agendararíais",
+            "EllosEllasUstedes": "agendararían"
+        },
+        "Future": {
+            "Yo": "agendararé",
+            "Tu": "agendararás",
+            "ElEllaUsted": "agendarará",
+            "Nosotros": "agendararemos",
+            "Vosotros": "agendararéis",
+            "EllosEllasUstedes": "agendararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "agendar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

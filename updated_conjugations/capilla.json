@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "capillao",
+            "Tu": "capillaas",
+            "ElEllaUsted": "capillaa",
+            "Nosotros": "capillaamos",
+            "Vosotros": "capillaáis",
+            "EllosEllasUstedes": "capillaan"
+        },
+        "Pretérito": {
+            "Yo": "capillaé",
+            "Tu": "capillaaste",
+            "ElEllaUsted": "capillaó",
+            "Nosotros": "capillaamos",
+            "Vosotros": "capillaasteis",
+            "EllosEllasUstedes": "capillaaron"
+        },
+        "Imperfect": {
+            "Yo": "capillaaba",
+            "Tu": "capillaabas",
+            "ElEllaUsted": "capillaaba",
+            "Nosotros": "capillaábamos",
+            "Vosotros": "capillaabais",
+            "EllosEllasUstedes": "capillaaban"
+        },
+        "Conditional": {
+            "Yo": "capillaaría",
+            "Tu": "capillaarías",
+            "ElEllaUsted": "capillaaría",
+            "Nosotros": "capillaaríamos",
+            "Vosotros": "capillaaríais",
+            "EllosEllasUstedes": "capillaarían"
+        },
+        "Future": {
+            "Yo": "capillaaré",
+            "Tu": "capillaarás",
+            "ElEllaUsted": "capillaará",
+            "Nosotros": "capillaaremos",
+            "Vosotros": "capillaaréis",
+            "EllosEllasUstedes": "capillaarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "capilla",
+    "EnglishMeaning": "English meaning of Unknown"
+}

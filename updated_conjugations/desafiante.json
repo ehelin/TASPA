@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "desafianteo",
+            "Tu": "desafianteas",
+            "ElEllaUsted": "desafiantea",
+            "Nosotros": "desafianteamos",
+            "Vosotros": "desafianteáis",
+            "EllosEllasUstedes": "desafiantean"
+        },
+        "Pretérito": {
+            "Yo": "desafianteé",
+            "Tu": "desafianteaste",
+            "ElEllaUsted": "desafianteó",
+            "Nosotros": "desafianteamos",
+            "Vosotros": "desafianteasteis",
+            "EllosEllasUstedes": "desafiantearon"
+        },
+        "Imperfect": {
+            "Yo": "desafianteaba",
+            "Tu": "desafianteabas",
+            "ElEllaUsted": "desafianteaba",
+            "Nosotros": "desafianteábamos",
+            "Vosotros": "desafianteabais",
+            "EllosEllasUstedes": "desafianteaban"
+        },
+        "Conditional": {
+            "Yo": "desafiantearía",
+            "Tu": "desafiantearías",
+            "ElEllaUsted": "desafiantearía",
+            "Nosotros": "desafiantearíamos",
+            "Vosotros": "desafiantearíais",
+            "EllosEllasUstedes": "desafiantearían"
+        },
+        "Future": {
+            "Yo": "desafiantearé",
+            "Tu": "desafiantearás",
+            "ElEllaUsted": "desafianteará",
+            "Nosotros": "desafiantearemos",
+            "Vosotros": "desafiantearéis",
+            "EllosEllasUstedes": "desafiantearán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "desafiante",
+    "EnglishMeaning": "English meaning of Unknown"
+}

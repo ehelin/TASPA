@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "durando",
+    "PastParticiple": "durado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "duraro",
+            "Tu": "duraras",
+            "ElEllaUsted": "durara",
+            "Nosotros": "duraramos",
+            "Vosotros": "duraráis",
+            "EllosEllasUstedes": "duraran"
+        },
+        "Pretérito": {
+            "Yo": "duraré",
+            "Tu": "duraraste",
+            "ElEllaUsted": "duraró",
+            "Nosotros": "duraramos",
+            "Vosotros": "durarasteis",
+            "EllosEllasUstedes": "durararon"
+        },
+        "Imperfect": {
+            "Yo": "duraraba",
+            "Tu": "durarabas",
+            "ElEllaUsted": "duraraba",
+            "Nosotros": "durarábamos",
+            "Vosotros": "durarabais",
+            "EllosEllasUstedes": "duraraban"
+        },
+        "Conditional": {
+            "Yo": "durararía",
+            "Tu": "durararías",
+            "ElEllaUsted": "durararía",
+            "Nosotros": "durararíamos",
+            "Vosotros": "durararíais",
+            "EllosEllasUstedes": "durararían"
+        },
+        "Future": {
+            "Yo": "durararé",
+            "Tu": "durararás",
+            "ElEllaUsted": "durarará",
+            "Nosotros": "durararemos",
+            "Vosotros": "durararéis",
+            "EllosEllasUstedes": "durararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "durar",
+    "EnglishMeaning": "to last"
+}

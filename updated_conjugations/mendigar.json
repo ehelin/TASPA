@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "mendigaro",
+            "Tu": "mendigaras",
+            "ElEllaUsted": "mendigara",
+            "Nosotros": "mendigaramos",
+            "Vosotros": "mendigaráis",
+            "EllosEllasUstedes": "mendigaran"
+        },
+        "Pretérito": {
+            "Yo": "mendigaré",
+            "Tu": "mendigaraste",
+            "ElEllaUsted": "mendigaró",
+            "Nosotros": "mendigaramos",
+            "Vosotros": "mendigarasteis",
+            "EllosEllasUstedes": "mendigararon"
+        },
+        "Imperfect": {
+            "Yo": "mendigaraba",
+            "Tu": "mendigarabas",
+            "ElEllaUsted": "mendigaraba",
+            "Nosotros": "mendigarábamos",
+            "Vosotros": "mendigarabais",
+            "EllosEllasUstedes": "mendigaraban"
+        },
+        "Conditional": {
+            "Yo": "mendigararía",
+            "Tu": "mendigararías",
+            "ElEllaUsted": "mendigararía",
+            "Nosotros": "mendigararíamos",
+            "Vosotros": "mendigararíais",
+            "EllosEllasUstedes": "mendigararían"
+        },
+        "Future": {
+            "Yo": "mendigararé",
+            "Tu": "mendigararás",
+            "ElEllaUsted": "mendigarará",
+            "Nosotros": "mendigararemos",
+            "Vosotros": "mendigararéis",
+            "EllosEllasUstedes": "mendigararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "mendigar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

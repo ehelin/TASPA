@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "cojearo",
+            "Tu": "cojearas",
+            "ElEllaUsted": "cojeara",
+            "Nosotros": "cojearamos",
+            "Vosotros": "cojearáis",
+            "EllosEllasUstedes": "cojearan"
+        },
+        "Pretérito": {
+            "Yo": "cojearé",
+            "Tu": "cojearaste",
+            "ElEllaUsted": "cojearó",
+            "Nosotros": "cojearamos",
+            "Vosotros": "cojearasteis",
+            "EllosEllasUstedes": "cojeararon"
+        },
+        "Imperfect": {
+            "Yo": "cojearaba",
+            "Tu": "cojearabas",
+            "ElEllaUsted": "cojearaba",
+            "Nosotros": "cojearábamos",
+            "Vosotros": "cojearabais",
+            "EllosEllasUstedes": "cojearaban"
+        },
+        "Conditional": {
+            "Yo": "cojeararía",
+            "Tu": "cojeararías",
+            "ElEllaUsted": "cojeararía",
+            "Nosotros": "cojeararíamos",
+            "Vosotros": "cojeararíais",
+            "EllosEllasUstedes": "cojeararían"
+        },
+        "Future": {
+            "Yo": "cojeararé",
+            "Tu": "cojeararás",
+            "ElEllaUsted": "cojearará",
+            "Nosotros": "cojeararemos",
+            "Vosotros": "cojeararéis",
+            "EllosEllasUstedes": "cojeararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "cojear",
+    "EnglishMeaning": "English meaning of Unknown"
+}

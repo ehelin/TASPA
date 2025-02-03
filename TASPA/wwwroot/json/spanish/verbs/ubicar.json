@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "ubicando",
+    "PastParticiple": "ubicado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "ubicaro",
+            "Tu": "ubicaras",
+            "ElEllaUsted": "ubicara",
+            "Nosotros": "ubicaramos",
+            "Vosotros": "ubicaráis",
+            "EllosEllasUstedes": "ubicaran"
+        },
+        "Pretérito": {
+            "Yo": "ubicaré",
+            "Tu": "ubicaraste",
+            "ElEllaUsted": "ubicaró",
+            "Nosotros": "ubicaramos",
+            "Vosotros": "ubicarasteis",
+            "EllosEllasUstedes": "ubicararon"
+        },
+        "Imperfect": {
+            "Yo": "ubicaraba",
+            "Tu": "ubicarabas",
+            "ElEllaUsted": "ubicaraba",
+            "Nosotros": "ubicarábamos",
+            "Vosotros": "ubicarabais",
+            "EllosEllasUstedes": "ubicaraban"
+        },
+        "Conditional": {
+            "Yo": "ubicararía",
+            "Tu": "ubicararías",
+            "ElEllaUsted": "ubicararía",
+            "Nosotros": "ubicararíamos",
+            "Vosotros": "ubicararíais",
+            "EllosEllasUstedes": "ubicararían"
+        },
+        "Future": {
+            "Yo": "ubicararé",
+            "Tu": "ubicararás",
+            "ElEllaUsted": "ubicarará",
+            "Nosotros": "ubicararemos",
+            "Vosotros": "ubicararéis",
+            "EllosEllasUstedes": "ubicararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "ubicar",
+    "EnglishMeaning": "to locate"
+}

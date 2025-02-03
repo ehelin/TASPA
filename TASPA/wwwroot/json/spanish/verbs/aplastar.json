@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "aplastando",
+    "PastParticiple": "aplastado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "aplastaro",
+            "Tu": "aplastaras",
+            "ElEllaUsted": "aplastara",
+            "Nosotros": "aplastaramos",
+            "Vosotros": "aplastaráis",
+            "EllosEllasUstedes": "aplastaran"
+        },
+        "Pretérito": {
+            "Yo": "aplastaré",
+            "Tu": "aplastaraste",
+            "ElEllaUsted": "aplastaró",
+            "Nosotros": "aplastaramos",
+            "Vosotros": "aplastarasteis",
+            "EllosEllasUstedes": "aplastararon"
+        },
+        "Imperfect": {
+            "Yo": "aplastaraba",
+            "Tu": "aplastarabas",
+            "ElEllaUsted": "aplastaraba",
+            "Nosotros": "aplastarábamos",
+            "Vosotros": "aplastarabais",
+            "EllosEllasUstedes": "aplastaraban"
+        },
+        "Conditional": {
+            "Yo": "aplastararía",
+            "Tu": "aplastararías",
+            "ElEllaUsted": "aplastararía",
+            "Nosotros": "aplastararíamos",
+            "Vosotros": "aplastararíais",
+            "EllosEllasUstedes": "aplastararían"
+        },
+        "Future": {
+            "Yo": "aplastararé",
+            "Tu": "aplastararás",
+            "ElEllaUsted": "aplastarará",
+            "Nosotros": "aplastararemos",
+            "Vosotros": "aplastararéis",
+            "EllosEllasUstedes": "aplastararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "aplastar",
+    "EnglishMeaning": "to crush"
+}

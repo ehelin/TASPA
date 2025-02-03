@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "vetaro",
+            "Tu": "vetaras",
+            "ElEllaUsted": "vetara",
+            "Nosotros": "vetaramos",
+            "Vosotros": "vetaráis",
+            "EllosEllasUstedes": "vetaran"
+        },
+        "Pretérito": {
+            "Yo": "vetaré",
+            "Tu": "vetaraste",
+            "ElEllaUsted": "vetaró",
+            "Nosotros": "vetaramos",
+            "Vosotros": "vetarasteis",
+            "EllosEllasUstedes": "vetararon"
+        },
+        "Imperfect": {
+            "Yo": "vetaraba",
+            "Tu": "vetarabas",
+            "ElEllaUsted": "vetaraba",
+            "Nosotros": "vetarábamos",
+            "Vosotros": "vetarabais",
+            "EllosEllasUstedes": "vetaraban"
+        },
+        "Conditional": {
+            "Yo": "vetararía",
+            "Tu": "vetararías",
+            "ElEllaUsted": "vetararía",
+            "Nosotros": "vetararíamos",
+            "Vosotros": "vetararíais",
+            "EllosEllasUstedes": "vetararían"
+        },
+        "Future": {
+            "Yo": "vetararé",
+            "Tu": "vetararás",
+            "ElEllaUsted": "vetarará",
+            "Nosotros": "vetararemos",
+            "Vosotros": "vetararéis",
+            "EllosEllasUstedes": "vetararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "vetar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

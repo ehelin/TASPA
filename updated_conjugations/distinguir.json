@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "distinguiro",
+            "Tu": "distinguiras",
+            "ElEllaUsted": "distinguira",
+            "Nosotros": "distinguiramos",
+            "Vosotros": "distinguiráis",
+            "EllosEllasUstedes": "distinguiran"
+        },
+        "Pretérito": {
+            "Yo": "distinguiré",
+            "Tu": "distinguiraste",
+            "ElEllaUsted": "distinguiró",
+            "Nosotros": "distinguiramos",
+            "Vosotros": "distinguirasteis",
+            "EllosEllasUstedes": "distinguiraron"
+        },
+        "Imperfect": {
+            "Yo": "distinguiraba",
+            "Tu": "distinguirabas",
+            "ElEllaUsted": "distinguiraba",
+            "Nosotros": "distinguirábamos",
+            "Vosotros": "distinguirabais",
+            "EllosEllasUstedes": "distinguiraban"
+        },
+        "Conditional": {
+            "Yo": "distinguiraría",
+            "Tu": "distinguirarías",
+            "ElEllaUsted": "distinguiraría",
+            "Nosotros": "distinguiraríamos",
+            "Vosotros": "distinguiraríais",
+            "EllosEllasUstedes": "distinguirarían"
+        },
+        "Future": {
+            "Yo": "distinguiraré",
+            "Tu": "distinguirarás",
+            "ElEllaUsted": "distinguirará",
+            "Nosotros": "distinguiraremos",
+            "Vosotros": "distinguiraréis",
+            "EllosEllasUstedes": "distinguirarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "distinguir",
+    "EnglishMeaning": "English meaning of Unknown"
+}

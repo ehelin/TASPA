@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "pisaro",
+            "Tu": "pisaras",
+            "ElEllaUsted": "pisara",
+            "Nosotros": "pisaramos",
+            "Vosotros": "pisaráis",
+            "EllosEllasUstedes": "pisaran"
+        },
+        "Pretérito": {
+            "Yo": "pisaré",
+            "Tu": "pisaraste",
+            "ElEllaUsted": "pisaró",
+            "Nosotros": "pisaramos",
+            "Vosotros": "pisarasteis",
+            "EllosEllasUstedes": "pisararon"
+        },
+        "Imperfect": {
+            "Yo": "pisaraba",
+            "Tu": "pisarabas",
+            "ElEllaUsted": "pisaraba",
+            "Nosotros": "pisarábamos",
+            "Vosotros": "pisarabais",
+            "EllosEllasUstedes": "pisaraban"
+        },
+        "Conditional": {
+            "Yo": "pisararía",
+            "Tu": "pisararías",
+            "ElEllaUsted": "pisararía",
+            "Nosotros": "pisararíamos",
+            "Vosotros": "pisararíais",
+            "EllosEllasUstedes": "pisararían"
+        },
+        "Future": {
+            "Yo": "pisararé",
+            "Tu": "pisararás",
+            "ElEllaUsted": "pisarará",
+            "Nosotros": "pisararemos",
+            "Vosotros": "pisararéis",
+            "EllosEllasUstedes": "pisararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "pisar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

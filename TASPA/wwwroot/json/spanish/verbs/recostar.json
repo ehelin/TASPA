@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "recostando",
+    "PastParticiple": "recostado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "recostaro",
+            "Tu": "recostaras",
+            "ElEllaUsted": "recostara",
+            "Nosotros": "recostaramos",
+            "Vosotros": "recostaráis",
+            "EllosEllasUstedes": "recostaran"
+        },
+        "Pretérito": {
+            "Yo": "recostaré",
+            "Tu": "recostaraste",
+            "ElEllaUsted": "recostaró",
+            "Nosotros": "recostaramos",
+            "Vosotros": "recostarasteis",
+            "EllosEllasUstedes": "recostararon"
+        },
+        "Imperfect": {
+            "Yo": "recostaraba",
+            "Tu": "recostarabas",
+            "ElEllaUsted": "recostaraba",
+            "Nosotros": "recostarábamos",
+            "Vosotros": "recostarabais",
+            "EllosEllasUstedes": "recostaraban"
+        },
+        "Conditional": {
+            "Yo": "recostararía",
+            "Tu": "recostararías",
+            "ElEllaUsted": "recostararía",
+            "Nosotros": "recostararíamos",
+            "Vosotros": "recostararíais",
+            "EllosEllasUstedes": "recostararían"
+        },
+        "Future": {
+            "Yo": "recostararé",
+            "Tu": "recostararás",
+            "ElEllaUsted": "recostarará",
+            "Nosotros": "recostararemos",
+            "Vosotros": "recostararéis",
+            "EllosEllasUstedes": "recostararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "recostar",
+    "EnglishMeaning": "to lean"
+}

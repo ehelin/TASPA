@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "estafao",
+            "Tu": "estafaas",
+            "ElEllaUsted": "estafaa",
+            "Nosotros": "estafaamos",
+            "Vosotros": "estafaáis",
+            "EllosEllasUstedes": "estafaan"
+        },
+        "Pretérito": {
+            "Yo": "estafaé",
+            "Tu": "estafaaste",
+            "ElEllaUsted": "estafaó",
+            "Nosotros": "estafaamos",
+            "Vosotros": "estafaasteis",
+            "EllosEllasUstedes": "estafaaron"
+        },
+        "Imperfect": {
+            "Yo": "estafaaba",
+            "Tu": "estafaabas",
+            "ElEllaUsted": "estafaaba",
+            "Nosotros": "estafaábamos",
+            "Vosotros": "estafaabais",
+            "EllosEllasUstedes": "estafaaban"
+        },
+        "Conditional": {
+            "Yo": "estafaaría",
+            "Tu": "estafaarías",
+            "ElEllaUsted": "estafaaría",
+            "Nosotros": "estafaaríamos",
+            "Vosotros": "estafaaríais",
+            "EllosEllasUstedes": "estafaarían"
+        },
+        "Future": {
+            "Yo": "estafaaré",
+            "Tu": "estafaarás",
+            "ElEllaUsted": "estafaará",
+            "Nosotros": "estafaaremos",
+            "Vosotros": "estafaaréis",
+            "EllosEllasUstedes": "estafaarán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "estafa",
+    "EnglishMeaning": "English meaning of Unknown"
+}

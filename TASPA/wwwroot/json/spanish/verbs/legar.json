@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "legando",
+    "PastParticiple": "legado",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "legaro",
+            "Tu": "legaras",
+            "ElEllaUsted": "legara",
+            "Nosotros": "legaramos",
+            "Vosotros": "legaráis",
+            "EllosEllasUstedes": "legaran"
+        },
+        "Pretérito": {
+            "Yo": "legaré",
+            "Tu": "legaraste",
+            "ElEllaUsted": "legaró",
+            "Nosotros": "legaramos",
+            "Vosotros": "legarasteis",
+            "EllosEllasUstedes": "legararon"
+        },
+        "Imperfect": {
+            "Yo": "legaraba",
+            "Tu": "legarabas",
+            "ElEllaUsted": "legaraba",
+            "Nosotros": "legarábamos",
+            "Vosotros": "legarabais",
+            "EllosEllasUstedes": "legaraban"
+        },
+        "Conditional": {
+            "Yo": "legararía",
+            "Tu": "legararías",
+            "ElEllaUsted": "legararía",
+            "Nosotros": "legararíamos",
+            "Vosotros": "legararíais",
+            "EllosEllasUstedes": "legararían"
+        },
+        "Future": {
+            "Yo": "legararé",
+            "Tu": "legararás",
+            "ElEllaUsted": "legarará",
+            "Nosotros": "legararemos",
+            "Vosotros": "legararéis",
+            "EllosEllasUstedes": "legararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "legar",
+    "EnglishMeaning": "to bequeath"
+}

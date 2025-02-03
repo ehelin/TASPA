@@ -1,0 +1,49 @@
+{
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
+    "Indicative": {
+        "PresentTense": {
+            "Yo": "madrugaro",
+            "Tu": "madrugaras",
+            "ElEllaUsted": "madrugara",
+            "Nosotros": "madrugaramos",
+            "Vosotros": "madrugaráis",
+            "EllosEllasUstedes": "madrugaran"
+        },
+        "Pretérito": {
+            "Yo": "madrugaré",
+            "Tu": "madrugaraste",
+            "ElEllaUsted": "madrugaró",
+            "Nosotros": "madrugaramos",
+            "Vosotros": "madrugarasteis",
+            "EllosEllasUstedes": "madrugararon"
+        },
+        "Imperfect": {
+            "Yo": "madrugaraba",
+            "Tu": "madrugarabas",
+            "ElEllaUsted": "madrugaraba",
+            "Nosotros": "madrugarábamos",
+            "Vosotros": "madrugarabais",
+            "EllosEllasUstedes": "madrugaraban"
+        },
+        "Conditional": {
+            "Yo": "madrugararía",
+            "Tu": "madrugararías",
+            "ElEllaUsted": "madrugararía",
+            "Nosotros": "madrugararíamos",
+            "Vosotros": "madrugararíais",
+            "EllosEllasUstedes": "madrugararían"
+        },
+        "Future": {
+            "Yo": "madrugararé",
+            "Tu": "madrugararás",
+            "ElEllaUsted": "madrugarará",
+            "Nosotros": "madrugararemos",
+            "Vosotros": "madrugararéis",
+            "EllosEllasUstedes": "madrugararán"
+        }
+    },
+    "Subjunctive": null,
+    "Name": "madrugar",
+    "EnglishMeaning": "English meaning of Unknown"
+}

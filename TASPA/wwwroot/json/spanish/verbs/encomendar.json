@@ -3,44 +3,44 @@
     "PastParticiple": "encomendado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "encomendaro",
-            "Tu": "encomendaras",
-            "ElEllaUsted": "encomendara",
-            "Nosotros": "encomendaramos",
-            "Vosotros": "encomendaráis",
-            "EllosEllasUstedes": "encomendaran"
+            "Yo": "encomendo",
+            "Tu": "encomendas",
+            "ElEllaUsted": "encomenda",
+            "Nosotros": "encomendamos",
+            "Vosotros": "encomendáis",
+            "EllosEllasUstedes": "encomendan"
         },
         "Pretérito": {
-            "Yo": "encomendaré",
-            "Tu": "encomendaraste",
-            "ElEllaUsted": "encomendaró",
-            "Nosotros": "encomendaramos",
-            "Vosotros": "encomendarasteis",
-            "EllosEllasUstedes": "encomendararon"
+            "Yo": "encomendé",
+            "Tu": "encomendaste",
+            "ElEllaUsted": "encomendó",
+            "Nosotros": "encomendamos",
+            "Vosotros": "encomendasteis",
+            "EllosEllasUstedes": "encomendaron"
         },
         "Imperfect": {
-            "Yo": "encomendaraba",
-            "Tu": "encomendarabas",
-            "ElEllaUsted": "encomendaraba",
-            "Nosotros": "encomendarábamos",
-            "Vosotros": "encomendarabais",
-            "EllosEllasUstedes": "encomendaraban"
+            "Yo": "encomendaba",
+            "Tu": "encomendabas",
+            "ElEllaUsted": "encomendaba",
+            "Nosotros": "encomendábamos",
+            "Vosotros": "encomendabais",
+            "EllosEllasUstedes": "encomendaban"
         },
         "Conditional": {
-            "Yo": "encomendararía",
-            "Tu": "encomendararías",
-            "ElEllaUsted": "encomendararía",
-            "Nosotros": "encomendararíamos",
-            "Vosotros": "encomendararíais",
-            "EllosEllasUstedes": "encomendararían"
+            "Yo": "encomendaría",
+            "Tu": "encomendarías",
+            "ElEllaUsted": "encomendaría",
+            "Nosotros": "encomendaríamos",
+            "Vosotros": "encomendaríais",
+            "EllosEllasUstedes": "encomendarían"
         },
         "Future": {
-            "Yo": "encomendararé",
-            "Tu": "encomendararás",
-            "ElEllaUsted": "encomendarará",
-            "Nosotros": "encomendararemos",
-            "Vosotros": "encomendararéis",
-            "EllosEllasUstedes": "encomendararán"
+            "Yo": "encomendaré",
+            "Tu": "encomendarás",
+            "ElEllaUsted": "encomendará",
+            "Nosotros": "encomendaremos",
+            "Vosotros": "encomendaréis",
+            "EllosEllasUstedes": "encomendarán"
         }
     },
     "Subjunctive": null,

@@ -24,6 +24,7 @@
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\json\spanish\verbs\" />
     <Folder Include="wwwroot\json\spanish\vocabulary\mexico\" />
+    <Folder Include="wwwroot\json\spanish\vocabulary\NewFolder\" />
   </ItemGroup>
 
   <ItemGroup>

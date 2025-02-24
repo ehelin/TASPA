@@ -3,44 +3,44 @@
     "PastParticiple": "escatimado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "escatimaro",
-            "Tu": "escatimaras",
-            "ElEllaUsted": "escatimara",
-            "Nosotros": "escatimaramos",
-            "Vosotros": "escatimaráis",
-            "EllosEllasUstedes": "escatimaran"
+            "Yo": "escatimo",
+            "Tu": "escatimas",
+            "ElEllaUsted": "escatima",
+            "Nosotros": "escatimamos",
+            "Vosotros": "escatimáis",
+            "EllosEllasUstedes": "escatiman"
         },
         "Pretérito": {
-            "Yo": "escatimaré",
-            "Tu": "escatimaraste",
-            "ElEllaUsted": "escatimaró",
-            "Nosotros": "escatimaramos",
-            "Vosotros": "escatimarasteis",
-            "EllosEllasUstedes": "escatimararon"
+            "Yo": "escatimé",
+            "Tu": "escatimaste",
+            "ElEllaUsted": "escatimó",
+            "Nosotros": "escatimamos",
+            "Vosotros": "escatimasteis",
+            "EllosEllasUstedes": "escatimaron"
         },
         "Imperfect": {
-            "Yo": "escatimaraba",
-            "Tu": "escatimarabas",
-            "ElEllaUsted": "escatimaraba",
-            "Nosotros": "escatimarábamos",
-            "Vosotros": "escatimarabais",
-            "EllosEllasUstedes": "escatimaraban"
+            "Yo": "escatimaba",
+            "Tu": "escatimabas",
+            "ElEllaUsted": "escatimaba",
+            "Nosotros": "escatimábamos",
+            "Vosotros": "escatimabais",
+            "EllosEllasUstedes": "escatimaban"
         },
         "Conditional": {
-            "Yo": "escatimararía",
-            "Tu": "escatimararías",
-            "ElEllaUsted": "escatimararía",
-            "Nosotros": "escatimararíamos",
-            "Vosotros": "escatimararíais",
-            "EllosEllasUstedes": "escatimararían"
+            "Yo": "escatimaría",
+            "Tu": "escatimarías",
+            "ElEllaUsted": "escatimaría",
+            "Nosotros": "escatimaríamos",
+            "Vosotros": "escatimaríais",
+            "EllosEllasUstedes": "escatimarían"
         },
         "Future": {
-            "Yo": "escatimararé",
-            "Tu": "escatimararás",
-            "ElEllaUsted": "escatimarará",
-            "Nosotros": "escatimararemos",
-            "Vosotros": "escatimararéis",
-            "EllosEllasUstedes": "escatimararán"
+            "Yo": "escatimaré",
+            "Tu": "escatimarás",
+            "ElEllaUsted": "escatimará",
+            "Nosotros": "escatimaremos",
+            "Vosotros": "escatimaréis",
+            "EllosEllasUstedes": "escatimarán"
         }
     },
     "Subjunctive": null,

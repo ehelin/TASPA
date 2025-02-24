@@ -3,44 +3,44 @@
     "PastParticiple": "optado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "optaro",
-            "Tu": "optaras",
-            "ElEllaUsted": "optara",
-            "Nosotros": "optaramos",
-            "Vosotros": "optaráis",
-            "EllosEllasUstedes": "optaran"
+            "Yo": "opto",
+            "Tu": "optas",
+            "ElEllaUsted": "opta",
+            "Nosotros": "optamos",
+            "Vosotros": "optáis",
+            "EllosEllasUstedes": "optan"
         },
         "Pretérito": {
-            "Yo": "optaré",
-            "Tu": "optaraste",
-            "ElEllaUsted": "optaró",
-            "Nosotros": "optaramos",
-            "Vosotros": "optarasteis",
-            "EllosEllasUstedes": "optararon"
+            "Yo": "opté",
+            "Tu": "optaste",
+            "ElEllaUsted": "optó",
+            "Nosotros": "optamos",
+            "Vosotros": "optasteis",
+            "EllosEllasUstedes": "optaron"
         },
         "Imperfect": {
-            "Yo": "optaraba",
-            "Tu": "optarabas",
-            "ElEllaUsted": "optaraba",
-            "Nosotros": "optarábamos",
-            "Vosotros": "optarabais",
-            "EllosEllasUstedes": "optaraban"
+            "Yo": "optaba",
+            "Tu": "optabas",
+            "ElEllaUsted": "optaba",
+            "Nosotros": "optábamos",
+            "Vosotros": "optabais",
+            "EllosEllasUstedes": "optaban"
         },
         "Conditional": {
-            "Yo": "optararía",
-            "Tu": "optararías",
-            "ElEllaUsted": "optararía",
-            "Nosotros": "optararíamos",
-            "Vosotros": "optararíais",
-            "EllosEllasUstedes": "optararían"
+            "Yo": "optaría",
+            "Tu": "optarías",
+            "ElEllaUsted": "optaría",
+            "Nosotros": "optaríamos",
+            "Vosotros": "optaríais",
+            "EllosEllasUstedes": "optarían"
         },
         "Future": {
-            "Yo": "optararé",
-            "Tu": "optararás",
-            "ElEllaUsted": "optarará",
-            "Nosotros": "optararemos",
-            "Vosotros": "optararéis",
-            "EllosEllasUstedes": "optararán"
+            "Yo": "optaré",
+            "Tu": "optarás",
+            "ElEllaUsted": "optará",
+            "Nosotros": "optaremos",
+            "Vosotros": "optaréis",
+            "EllosEllasUstedes": "optarán"
         }
     },
     "Subjunctive": null,

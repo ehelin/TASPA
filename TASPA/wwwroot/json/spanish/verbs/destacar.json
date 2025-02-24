@@ -3,44 +3,44 @@
     "PastParticiple": "destacado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "destacaro",
-            "Tu": "destacaras",
-            "ElEllaUsted": "destacara",
-            "Nosotros": "destacaramos",
-            "Vosotros": "destacaráis",
-            "EllosEllasUstedes": "destacaran"
+            "Yo": "destaco",
+            "Tu": "destacas",
+            "ElEllaUsted": "destaca",
+            "Nosotros": "destacamos",
+            "Vosotros": "destacáis",
+            "EllosEllasUstedes": "destacan"
         },
         "Pretérito": {
-            "Yo": "destacaré",
-            "Tu": "destacaraste",
-            "ElEllaUsted": "destacaró",
-            "Nosotros": "destacaramos",
-            "Vosotros": "destacarasteis",
-            "EllosEllasUstedes": "destacararon"
+            "Yo": "destacé",
+            "Tu": "destacaste",
+            "ElEllaUsted": "destacó",
+            "Nosotros": "destacamos",
+            "Vosotros": "destacasteis",
+            "EllosEllasUstedes": "destacaron"
         },
         "Imperfect": {
-            "Yo": "destacaraba",
-            "Tu": "destacarabas",
-            "ElEllaUsted": "destacaraba",
-            "Nosotros": "destacarábamos",
-            "Vosotros": "destacarabais",
-            "EllosEllasUstedes": "destacaraban"
+            "Yo": "destacaba",
+            "Tu": "destacabas",
+            "ElEllaUsted": "destacaba",
+            "Nosotros": "destacábamos",
+            "Vosotros": "destacabais",
+            "EllosEllasUstedes": "destacaban"
         },
         "Conditional": {
-            "Yo": "destacararía",
-            "Tu": "destacararías",
-            "ElEllaUsted": "destacararía",
-            "Nosotros": "destacararíamos",
-            "Vosotros": "destacararíais",
-            "EllosEllasUstedes": "destacararían"
+            "Yo": "destacaría",
+            "Tu": "destacarías",
+            "ElEllaUsted": "destacaría",
+            "Nosotros": "destacaríamos",
+            "Vosotros": "destacaríais",
+            "EllosEllasUstedes": "destacarían"
         },
         "Future": {
-            "Yo": "destacararé",
-            "Tu": "destacararás",
-            "ElEllaUsted": "destacarará",
-            "Nosotros": "destacararemos",
-            "Vosotros": "destacararéis",
-            "EllosEllasUstedes": "destacararán"
+            "Yo": "destacaré",
+            "Tu": "destacarás",
+            "ElEllaUsted": "destacará",
+            "Nosotros": "destacaremos",
+            "Vosotros": "destacaréis",
+            "EllosEllasUstedes": "destacarán"
         }
     },
     "Subjunctive": null,

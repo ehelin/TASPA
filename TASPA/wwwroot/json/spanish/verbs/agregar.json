@@ -3,44 +3,44 @@
     "PastParticiple": "agregado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "agregaro",
-            "Tu": "agregaras",
-            "ElEllaUsted": "agregara",
-            "Nosotros": "agregaramos",
-            "Vosotros": "agregaráis",
-            "EllosEllasUstedes": "agregaran"
+            "Yo": "agrego",
+            "Tu": "agregas",
+            "ElEllaUsted": "agrega",
+            "Nosotros": "agregamos",
+            "Vosotros": "agregáis",
+            "EllosEllasUstedes": "agregan"
         },
         "Pretérito": {
-            "Yo": "agregaré",
-            "Tu": "agregaraste",
-            "ElEllaUsted": "agregaró",
-            "Nosotros": "agregaramos",
-            "Vosotros": "agregarasteis",
-            "EllosEllasUstedes": "agregararon"
+            "Yo": "agregé",
+            "Tu": "agregaste",
+            "ElEllaUsted": "agregó",
+            "Nosotros": "agregamos",
+            "Vosotros": "agregasteis",
+            "EllosEllasUstedes": "agregaron"
         },
         "Imperfect": {
-            "Yo": "agregaraba",
-            "Tu": "agregarabas",
-            "ElEllaUsted": "agregaraba",
-            "Nosotros": "agregarábamos",
-            "Vosotros": "agregarabais",
-            "EllosEllasUstedes": "agregaraban"
+            "Yo": "agregaba",
+            "Tu": "agregabas",
+            "ElEllaUsted": "agregaba",
+            "Nosotros": "agregábamos",
+            "Vosotros": "agregabais",
+            "EllosEllasUstedes": "agregaban"
         },
         "Conditional": {
-            "Yo": "agregararía",
-            "Tu": "agregararías",
-            "ElEllaUsted": "agregararía",
-            "Nosotros": "agregararíamos",
-            "Vosotros": "agregararíais",
-            "EllosEllasUstedes": "agregararían"
+            "Yo": "agregaría",
+            "Tu": "agregarías",
+            "ElEllaUsted": "agregaría",
+            "Nosotros": "agregaríamos",
+            "Vosotros": "agregaríais",
+            "EllosEllasUstedes": "agregarían"
         },
         "Future": {
-            "Yo": "agregararé",
-            "Tu": "agregararás",
-            "ElEllaUsted": "agregarará",
-            "Nosotros": "agregararemos",
-            "Vosotros": "agregararéis",
-            "EllosEllasUstedes": "agregararán"
+            "Yo": "agregaré",
+            "Tu": "agregarás",
+            "ElEllaUsted": "agregará",
+            "Nosotros": "agregaremos",
+            "Vosotros": "agregaréis",
+            "EllosEllasUstedes": "agregarán"
         }
     },
     "Subjunctive": null,

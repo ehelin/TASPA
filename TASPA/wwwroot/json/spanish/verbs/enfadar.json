@@ -3,44 +3,44 @@
     "PastParticiple": "enfadado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "enfadaro",
-            "Tu": "enfadaras",
-            "ElEllaUsted": "enfadara",
-            "Nosotros": "enfadaramos",
-            "Vosotros": "enfadaráis",
-            "EllosEllasUstedes": "enfadaran"
+            "Yo": "enfado",
+            "Tu": "enfadas",
+            "ElEllaUsted": "enfada",
+            "Nosotros": "enfadamos",
+            "Vosotros": "enfadáis",
+            "EllosEllasUstedes": "enfadan"
         },
         "Pretérito": {
-            "Yo": "enfadaré",
-            "Tu": "enfadaraste",
-            "ElEllaUsted": "enfadaró",
-            "Nosotros": "enfadaramos",
-            "Vosotros": "enfadarasteis",
-            "EllosEllasUstedes": "enfadararon"
+            "Yo": "enfadé",
+            "Tu": "enfadaste",
+            "ElEllaUsted": "enfadó",
+            "Nosotros": "enfadamos",
+            "Vosotros": "enfadasteis",
+            "EllosEllasUstedes": "enfadaron"
         },
         "Imperfect": {
-            "Yo": "enfadaraba",
-            "Tu": "enfadarabas",
-            "ElEllaUsted": "enfadaraba",
-            "Nosotros": "enfadarábamos",
-            "Vosotros": "enfadarabais",
-            "EllosEllasUstedes": "enfadaraban"
+            "Yo": "enfadaba",
+            "Tu": "enfadabas",
+            "ElEllaUsted": "enfadaba",
+            "Nosotros": "enfadábamos",
+            "Vosotros": "enfadabais",
+            "EllosEllasUstedes": "enfadaban"
         },
         "Conditional": {
-            "Yo": "enfadararía",
-            "Tu": "enfadararías",
-            "ElEllaUsted": "enfadararía",
-            "Nosotros": "enfadararíamos",
-            "Vosotros": "enfadararíais",
-            "EllosEllasUstedes": "enfadararían"
+            "Yo": "enfadaría",
+            "Tu": "enfadarías",
+            "ElEllaUsted": "enfadaría",
+            "Nosotros": "enfadaríamos",
+            "Vosotros": "enfadaríais",
+            "EllosEllasUstedes": "enfadarían"
         },
         "Future": {
-            "Yo": "enfadararé",
-            "Tu": "enfadararás",
-            "ElEllaUsted": "enfadarará",
-            "Nosotros": "enfadararemos",
-            "Vosotros": "enfadararéis",
-            "EllosEllasUstedes": "enfadararán"
+            "Yo": "enfadaré",
+            "Tu": "enfadarás",
+            "ElEllaUsted": "enfadará",
+            "Nosotros": "enfadaremos",
+            "Vosotros": "enfadaréis",
+            "EllosEllasUstedes": "enfadarán"
         }
     },
     "Subjunctive": null,

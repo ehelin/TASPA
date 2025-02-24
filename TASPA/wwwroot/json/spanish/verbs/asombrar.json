@@ -3,44 +3,44 @@
     "PastParticiple": "asombrado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "asombraro",
-            "Tu": "asombraras",
-            "ElEllaUsted": "asombrara",
-            "Nosotros": "asombraramos",
-            "Vosotros": "asombraráis",
-            "EllosEllasUstedes": "asombraran"
+            "Yo": "asombro",
+            "Tu": "asombras",
+            "ElEllaUsted": "asombra",
+            "Nosotros": "asombramos",
+            "Vosotros": "asombráis",
+            "EllosEllasUstedes": "asombran"
         },
         "Pretérito": {
-            "Yo": "asombraré",
-            "Tu": "asombraraste",
-            "ElEllaUsted": "asombraró",
-            "Nosotros": "asombraramos",
-            "Vosotros": "asombrarasteis",
-            "EllosEllasUstedes": "asombrararon"
+            "Yo": "asombré",
+            "Tu": "asombraste",
+            "ElEllaUsted": "asombró",
+            "Nosotros": "asombramos",
+            "Vosotros": "asombrasteis",
+            "EllosEllasUstedes": "asombraron"
         },
         "Imperfect": {
-            "Yo": "asombraraba",
-            "Tu": "asombrarabas",
-            "ElEllaUsted": "asombraraba",
-            "Nosotros": "asombrarábamos",
-            "Vosotros": "asombrarabais",
-            "EllosEllasUstedes": "asombraraban"
+            "Yo": "asombraba",
+            "Tu": "asombrabas",
+            "ElEllaUsted": "asombraba",
+            "Nosotros": "asombrábamos",
+            "Vosotros": "asombrabais",
+            "EllosEllasUstedes": "asombraban"
         },
         "Conditional": {
-            "Yo": "asombrararía",
-            "Tu": "asombrararías",
-            "ElEllaUsted": "asombrararía",
-            "Nosotros": "asombrararíamos",
-            "Vosotros": "asombrararíais",
-            "EllosEllasUstedes": "asombrararían"
+            "Yo": "asombraría",
+            "Tu": "asombrarías",
+            "ElEllaUsted": "asombraría",
+            "Nosotros": "asombraríamos",
+            "Vosotros": "asombraríais",
+            "EllosEllasUstedes": "asombrarían"
         },
         "Future": {
-            "Yo": "asombrararé",
-            "Tu": "asombrararás",
-            "ElEllaUsted": "asombrarará",
-            "Nosotros": "asombrararemos",
-            "Vosotros": "asombrararéis",
-            "EllosEllasUstedes": "asombrararán"
+            "Yo": "asombraré",
+            "Tu": "asombrarás",
+            "ElEllaUsted": "asombrará",
+            "Nosotros": "asombraremos",
+            "Vosotros": "asombraréis",
+            "EllosEllasUstedes": "asombrarán"
         }
     },
     "Subjunctive": null,

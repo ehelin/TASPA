@@ -3,44 +3,44 @@
     "PastParticiple": "abarcado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "abarcaro",
-            "Tu": "abarcaras",
-            "ElEllaUsted": "abarcara",
-            "Nosotros": "abarcaramos",
-            "Vosotros": "abarcaráis",
-            "EllosEllasUstedes": "abarcaran"
+            "Yo": "abarco",
+            "Tu": "abarcas",
+            "ElEllaUsted": "abarca",
+            "Nosotros": "abarcamos",
+            "Vosotros": "abarcáis",
+            "EllosEllasUstedes": "abarcan"
         },
         "Pretérito": {
-            "Yo": "abarcaré",
-            "Tu": "abarcaraste",
-            "ElEllaUsted": "abarcaró",
-            "Nosotros": "abarcaramos",
-            "Vosotros": "abarcarasteis",
-            "EllosEllasUstedes": "abarcararon"
+            "Yo": "abarcé",
+            "Tu": "abarcaste",
+            "ElEllaUsted": "abarcó",
+            "Nosotros": "abarcamos",
+            "Vosotros": "abarcasteis",
+            "EllosEllasUstedes": "abarcaron"
         },
         "Imperfect": {
-            "Yo": "abarcaraba",
-            "Tu": "abarcarabas",
-            "ElEllaUsted": "abarcaraba",
-            "Nosotros": "abarcarábamos",
-            "Vosotros": "abarcarabais",
-            "EllosEllasUstedes": "abarcaraban"
+            "Yo": "abarcaba",
+            "Tu": "abarcabas",
+            "ElEllaUsted": "abarcaba",
+            "Nosotros": "abarcábamos",
+            "Vosotros": "abarcabais",
+            "EllosEllasUstedes": "abarcaban"
         },
         "Conditional": {
-            "Yo": "abarcararía",
-            "Tu": "abarcararías",
-            "ElEllaUsted": "abarcararía",
-            "Nosotros": "abarcararíamos",
-            "Vosotros": "abarcararíais",
-            "EllosEllasUstedes": "abarcararían"
+            "Yo": "abarcaría",
+            "Tu": "abarcarías",
+            "ElEllaUsted": "abarcaría",
+            "Nosotros": "abarcaríamos",
+            "Vosotros": "abarcaríais",
+            "EllosEllasUstedes": "abarcarían"
         },
         "Future": {
-            "Yo": "abarcararé",
-            "Tu": "abarcararás",
-            "ElEllaUsted": "abarcarará",
-            "Nosotros": "abarcararemos",
-            "Vosotros": "abarcararéis",
-            "EllosEllasUstedes": "abarcararán"
+            "Yo": "abarcaré",
+            "Tu": "abarcarás",
+            "ElEllaUsted": "abarcará",
+            "Nosotros": "abarcaremos",
+            "Vosotros": "abarcaréis",
+            "EllosEllasUstedes": "abarcarán"
         }
     },
     "Subjunctive": null,

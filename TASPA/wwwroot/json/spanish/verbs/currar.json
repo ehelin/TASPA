@@ -3,44 +3,44 @@
     "PastParticiple": "currado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "curraro",
-            "Tu": "curraras",
-            "ElEllaUsted": "currara",
-            "Nosotros": "curraramos",
-            "Vosotros": "curraráis",
-            "EllosEllasUstedes": "curraran"
+            "Yo": "curro",
+            "Tu": "curras",
+            "ElEllaUsted": "curra",
+            "Nosotros": "curramos",
+            "Vosotros": "curráis",
+            "EllosEllasUstedes": "curran"
         },
         "Pretérito": {
-            "Yo": "curraré",
-            "Tu": "curraraste",
-            "ElEllaUsted": "curraró",
-            "Nosotros": "curraramos",
-            "Vosotros": "currarasteis",
-            "EllosEllasUstedes": "currararon"
+            "Yo": "curré",
+            "Tu": "curraste",
+            "ElEllaUsted": "curró",
+            "Nosotros": "curramos",
+            "Vosotros": "currasteis",
+            "EllosEllasUstedes": "curraron"
         },
         "Imperfect": {
-            "Yo": "curraraba",
-            "Tu": "currarabas",
-            "ElEllaUsted": "curraraba",
-            "Nosotros": "currarábamos",
-            "Vosotros": "currarabais",
-            "EllosEllasUstedes": "curraraban"
+            "Yo": "curraba",
+            "Tu": "currabas",
+            "ElEllaUsted": "curraba",
+            "Nosotros": "currábamos",
+            "Vosotros": "currabais",
+            "EllosEllasUstedes": "curraban"
         },
         "Conditional": {
-            "Yo": "currararía",
-            "Tu": "currararías",
-            "ElEllaUsted": "currararía",
-            "Nosotros": "currararíamos",
-            "Vosotros": "currararíais",
-            "EllosEllasUstedes": "currararían"
+            "Yo": "curraría",
+            "Tu": "currarías",
+            "ElEllaUsted": "curraría",
+            "Nosotros": "curraríamos",
+            "Vosotros": "curraríais",
+            "EllosEllasUstedes": "currarían"
         },
         "Future": {
-            "Yo": "currararé",
-            "Tu": "currararás",
-            "ElEllaUsted": "currarará",
-            "Nosotros": "currararemos",
-            "Vosotros": "currararéis",
-            "EllosEllasUstedes": "currararán"
+            "Yo": "curraré",
+            "Tu": "currarás",
+            "ElEllaUsted": "currará",
+            "Nosotros": "curraremos",
+            "Vosotros": "curraréis",
+            "EllosEllasUstedes": "currarán"
         }
     },
     "Subjunctive": null,

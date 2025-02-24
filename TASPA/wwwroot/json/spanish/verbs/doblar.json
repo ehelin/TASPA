@@ -3,44 +3,44 @@
     "PastParticiple": "doblado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "doblaro",
-            "Tu": "doblaras",
-            "ElEllaUsted": "doblara",
-            "Nosotros": "doblaramos",
-            "Vosotros": "doblaráis",
-            "EllosEllasUstedes": "doblaran"
+            "Yo": "doblo",
+            "Tu": "doblas",
+            "ElEllaUsted": "dobla",
+            "Nosotros": "doblamos",
+            "Vosotros": "dobláis",
+            "EllosEllasUstedes": "doblan"
         },
         "Pretérito": {
-            "Yo": "doblaré",
-            "Tu": "doblaraste",
-            "ElEllaUsted": "doblaró",
-            "Nosotros": "doblaramos",
-            "Vosotros": "doblarasteis",
-            "EllosEllasUstedes": "doblararon"
+            "Yo": "doblé",
+            "Tu": "doblaste",
+            "ElEllaUsted": "dobló",
+            "Nosotros": "doblamos",
+            "Vosotros": "doblasteis",
+            "EllosEllasUstedes": "doblaron"
         },
         "Imperfect": {
-            "Yo": "doblaraba",
-            "Tu": "doblarabas",
-            "ElEllaUsted": "doblaraba",
-            "Nosotros": "doblarábamos",
-            "Vosotros": "doblarabais",
-            "EllosEllasUstedes": "doblaraban"
+            "Yo": "doblaba",
+            "Tu": "doblabas",
+            "ElEllaUsted": "doblaba",
+            "Nosotros": "doblábamos",
+            "Vosotros": "doblabais",
+            "EllosEllasUstedes": "doblaban"
         },
         "Conditional": {
-            "Yo": "doblararía",
-            "Tu": "doblararías",
-            "ElEllaUsted": "doblararía",
-            "Nosotros": "doblararíamos",
-            "Vosotros": "doblararíais",
-            "EllosEllasUstedes": "doblararían"
+            "Yo": "doblaría",
+            "Tu": "doblarías",
+            "ElEllaUsted": "doblaría",
+            "Nosotros": "doblaríamos",
+            "Vosotros": "doblaríais",
+            "EllosEllasUstedes": "doblarían"
         },
         "Future": {
-            "Yo": "doblararé",
-            "Tu": "doblararás",
-            "ElEllaUsted": "doblarará",
-            "Nosotros": "doblararemos",
-            "Vosotros": "doblararéis",
-            "EllosEllasUstedes": "doblararán"
+            "Yo": "doblaré",
+            "Tu": "doblarás",
+            "ElEllaUsted": "doblará",
+            "Nosotros": "doblaremos",
+            "Vosotros": "doblaréis",
+            "EllosEllasUstedes": "doblarán"
         }
     },
     "Subjunctive": null,

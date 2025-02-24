@@ -3,44 +3,44 @@
     "PastParticiple": "sanado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "sanaro",
-            "Tu": "sanaras",
-            "ElEllaUsted": "sanara",
-            "Nosotros": "sanaramos",
-            "Vosotros": "sanaráis",
-            "EllosEllasUstedes": "sanaran"
+            "Yo": "sano",
+            "Tu": "sanas",
+            "ElEllaUsted": "sana",
+            "Nosotros": "sanamos",
+            "Vosotros": "sanáis",
+            "EllosEllasUstedes": "sanan"
         },
         "Pretérito": {
-            "Yo": "sanaré",
-            "Tu": "sanaraste",
-            "ElEllaUsted": "sanaró",
-            "Nosotros": "sanaramos",
-            "Vosotros": "sanarasteis",
-            "EllosEllasUstedes": "sanararon"
+            "Yo": "sané",
+            "Tu": "sanaste",
+            "ElEllaUsted": "sanó",
+            "Nosotros": "sanamos",
+            "Vosotros": "sanasteis",
+            "EllosEllasUstedes": "sanaron"
         },
         "Imperfect": {
-            "Yo": "sanaraba",
-            "Tu": "sanarabas",
-            "ElEllaUsted": "sanaraba",
-            "Nosotros": "sanarábamos",
-            "Vosotros": "sanarabais",
-            "EllosEllasUstedes": "sanaraban"
+            "Yo": "sanaba",
+            "Tu": "sanabas",
+            "ElEllaUsted": "sanaba",
+            "Nosotros": "sanábamos",
+            "Vosotros": "sanabais",
+            "EllosEllasUstedes": "sanaban"
         },
         "Conditional": {
-            "Yo": "sanararía",
-            "Tu": "sanararías",
-            "ElEllaUsted": "sanararía",
-            "Nosotros": "sanararíamos",
-            "Vosotros": "sanararíais",
-            "EllosEllasUstedes": "sanararían"
+            "Yo": "sanaría",
+            "Tu": "sanarías",
+            "ElEllaUsted": "sanaría",
+            "Nosotros": "sanaríamos",
+            "Vosotros": "sanaríais",
+            "EllosEllasUstedes": "sanarían"
         },
         "Future": {
-            "Yo": "sanararé",
-            "Tu": "sanararás",
-            "ElEllaUsted": "sanarará",
-            "Nosotros": "sanararemos",
-            "Vosotros": "sanararéis",
-            "EllosEllasUstedes": "sanararán"
+            "Yo": "sanaré",
+            "Tu": "sanarás",
+            "ElEllaUsted": "sanará",
+            "Nosotros": "sanaremos",
+            "Vosotros": "sanaréis",
+            "EllosEllasUstedes": "sanarán"
         }
     },
     "Subjunctive": null,

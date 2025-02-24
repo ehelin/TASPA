@@ -3,44 +3,44 @@
     "PastParticiple": "atravesado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "atravesaro",
-            "Tu": "atravesaras",
-            "ElEllaUsted": "atravesara",
-            "Nosotros": "atravesaramos",
-            "Vosotros": "atravesaráis",
-            "EllosEllasUstedes": "atravesaran"
+            "Yo": "atraveso",
+            "Tu": "atravesas",
+            "ElEllaUsted": "atravesa",
+            "Nosotros": "atravesamos",
+            "Vosotros": "atravesáis",
+            "EllosEllasUstedes": "atravesan"
         },
         "Pretérito": {
-            "Yo": "atravesaré",
-            "Tu": "atravesaraste",
-            "ElEllaUsted": "atravesaró",
-            "Nosotros": "atravesaramos",
-            "Vosotros": "atravesarasteis",
-            "EllosEllasUstedes": "atravesararon"
+            "Yo": "atravesé",
+            "Tu": "atravesaste",
+            "ElEllaUsted": "atravesó",
+            "Nosotros": "atravesamos",
+            "Vosotros": "atravesasteis",
+            "EllosEllasUstedes": "atravesaron"
         },
         "Imperfect": {
-            "Yo": "atravesaraba",
-            "Tu": "atravesarabas",
-            "ElEllaUsted": "atravesaraba",
-            "Nosotros": "atravesarábamos",
-            "Vosotros": "atravesarabais",
-            "EllosEllasUstedes": "atravesaraban"
+            "Yo": "atravesaba",
+            "Tu": "atravesabas",
+            "ElEllaUsted": "atravesaba",
+            "Nosotros": "atravesábamos",
+            "Vosotros": "atravesabais",
+            "EllosEllasUstedes": "atravesaban"
         },
         "Conditional": {
-            "Yo": "atravesararía",
-            "Tu": "atravesararías",
-            "ElEllaUsted": "atravesararía",
-            "Nosotros": "atravesararíamos",
-            "Vosotros": "atravesararíais",
-            "EllosEllasUstedes": "atravesararían"
+            "Yo": "atravesaría",
+            "Tu": "atravesarías",
+            "ElEllaUsted": "atravesaría",
+            "Nosotros": "atravesaríamos",
+            "Vosotros": "atravesaríais",
+            "EllosEllasUstedes": "atravesarían"
         },
         "Future": {
-            "Yo": "atravesararé",
-            "Tu": "atravesararás",
-            "ElEllaUsted": "atravesarará",
-            "Nosotros": "atravesararemos",
-            "Vosotros": "atravesararéis",
-            "EllosEllasUstedes": "atravesararán"
+            "Yo": "atravesaré",
+            "Tu": "atravesarás",
+            "ElEllaUsted": "atravesará",
+            "Nosotros": "atravesaremos",
+            "Vosotros": "atravesaréis",
+            "EllosEllasUstedes": "atravesarán"
         }
     },
     "Subjunctive": null,

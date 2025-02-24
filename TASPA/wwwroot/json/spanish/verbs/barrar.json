@@ -3,44 +3,44 @@
     "PastParticiple": "barrido",
     "Indicative": {
         "PresentTense": {
-            "Yo": "barraro",
-            "Tu": "barraras",
-            "ElEllaUsted": "barrara",
-            "Nosotros": "barraramos",
-            "Vosotros": "barraráis",
-            "EllosEllasUstedes": "barraran"
+            "Yo": "barro",
+            "Tu": "barras",
+            "ElEllaUsted": "barra",
+            "Nosotros": "barramos",
+            "Vosotros": "barráis",
+            "EllosEllasUstedes": "barran"
         },
         "Pretérito": {
-            "Yo": "barraré",
-            "Tu": "barraraste",
-            "ElEllaUsted": "barraró",
-            "Nosotros": "barraramos",
-            "Vosotros": "barrarasteis",
-            "EllosEllasUstedes": "barrararon"
+            "Yo": "barré",
+            "Tu": "barraste",
+            "ElEllaUsted": "barró",
+            "Nosotros": "barramos",
+            "Vosotros": "barrasteis",
+            "EllosEllasUstedes": "barraron"
         },
         "Imperfect": {
-            "Yo": "barraraba",
-            "Tu": "barrarabas",
-            "ElEllaUsted": "barraraba",
-            "Nosotros": "barrarábamos",
-            "Vosotros": "barrarabais",
-            "EllosEllasUstedes": "barraraban"
+            "Yo": "barraba",
+            "Tu": "barrabas",
+            "ElEllaUsted": "barraba",
+            "Nosotros": "barrábamos",
+            "Vosotros": "barrabais",
+            "EllosEllasUstedes": "barraban"
         },
         "Conditional": {
-            "Yo": "barrararía",
-            "Tu": "barrararías",
-            "ElEllaUsted": "barrararía",
-            "Nosotros": "barrararíamos",
-            "Vosotros": "barrararíais",
-            "EllosEllasUstedes": "barrararían"
+            "Yo": "barraría",
+            "Tu": "barrarías",
+            "ElEllaUsted": "barraría",
+            "Nosotros": "barraríamos",
+            "Vosotros": "barraríais",
+            "EllosEllasUstedes": "barrarían"
         },
         "Future": {
-            "Yo": "barrararé",
-            "Tu": "barrararás",
-            "ElEllaUsted": "barrarará",
-            "Nosotros": "barrararemos",
-            "Vosotros": "barrararéis",
-            "EllosEllasUstedes": "barrararán"
+            "Yo": "barraré",
+            "Tu": "barrarás",
+            "ElEllaUsted": "barrará",
+            "Nosotros": "barraremos",
+            "Vosotros": "barraréis",
+            "EllosEllasUstedes": "barrarán"
         }
     },
     "Subjunctive": null,

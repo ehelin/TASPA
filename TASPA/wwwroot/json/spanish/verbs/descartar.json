@@ -3,44 +3,44 @@
     "PastParticiple": "descartado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "descartaro",
-            "Tu": "descartaras",
-            "ElEllaUsted": "descartara",
-            "Nosotros": "descartaramos",
-            "Vosotros": "descartaráis",
-            "EllosEllasUstedes": "descartaran"
+            "Yo": "descarto",
+            "Tu": "descartas",
+            "ElEllaUsted": "descarta",
+            "Nosotros": "descartamos",
+            "Vosotros": "descartáis",
+            "EllosEllasUstedes": "descartan"
         },
         "Pretérito": {
-            "Yo": "descartaré",
-            "Tu": "descartaraste",
-            "ElEllaUsted": "descartaró",
-            "Nosotros": "descartaramos",
-            "Vosotros": "descartarasteis",
-            "EllosEllasUstedes": "descartararon"
+            "Yo": "descarté",
+            "Tu": "descartaste",
+            "ElEllaUsted": "descartó",
+            "Nosotros": "descartamos",
+            "Vosotros": "descartasteis",
+            "EllosEllasUstedes": "descartaron"
         },
         "Imperfect": {
-            "Yo": "descartaraba",
-            "Tu": "descartarabas",
-            "ElEllaUsted": "descartaraba",
-            "Nosotros": "descartarábamos",
-            "Vosotros": "descartarabais",
-            "EllosEllasUstedes": "descartaraban"
+            "Yo": "descartaba",
+            "Tu": "descartabas",
+            "ElEllaUsted": "descartaba",
+            "Nosotros": "descartábamos",
+            "Vosotros": "descartabais",
+            "EllosEllasUstedes": "descartaban"
         },
         "Conditional": {
-            "Yo": "descartararía",
-            "Tu": "descartararías",
-            "ElEllaUsted": "descartararía",
-            "Nosotros": "descartararíamos",
-            "Vosotros": "descartararíais",
-            "EllosEllasUstedes": "descartararían"
+            "Yo": "descartaría",
+            "Tu": "descartarías",
+            "ElEllaUsted": "descartaría",
+            "Nosotros": "descartaríamos",
+            "Vosotros": "descartaríais",
+            "EllosEllasUstedes": "descartarían"
         },
         "Future": {
-            "Yo": "descartararé",
-            "Tu": "descartararás",
-            "ElEllaUsted": "descartarará",
-            "Nosotros": "descartararemos",
-            "Vosotros": "descartararéis",
-            "EllosEllasUstedes": "descartararán"
+            "Yo": "descartaré",
+            "Tu": "descartarás",
+            "ElEllaUsted": "descartará",
+            "Nosotros": "descartaremos",
+            "Vosotros": "descartaréis",
+            "EllosEllasUstedes": "descartarán"
         }
     },
     "Subjunctive": null,

@@ -3,44 +3,44 @@
     "PastParticiple": "amarrado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "amarraro",
-            "Tu": "amarraras",
-            "ElEllaUsted": "amarrara",
-            "Nosotros": "amarraramos",
-            "Vosotros": "amarraráis",
-            "EllosEllasUstedes": "amarraran"
+            "Yo": "amarro",
+            "Tu": "amarras",
+            "ElEllaUsted": "amarra",
+            "Nosotros": "amarramos",
+            "Vosotros": "amarráis",
+            "EllosEllasUstedes": "amarran"
         },
         "Pretérito": {
-            "Yo": "amarraré",
-            "Tu": "amarraraste",
-            "ElEllaUsted": "amarraró",
-            "Nosotros": "amarraramos",
-            "Vosotros": "amarrarasteis",
-            "EllosEllasUstedes": "amarrararon"
+            "Yo": "amarré",
+            "Tu": "amarraste",
+            "ElEllaUsted": "amarró",
+            "Nosotros": "amarramos",
+            "Vosotros": "amarrasteis",
+            "EllosEllasUstedes": "amarraron"
         },
         "Imperfect": {
-            "Yo": "amarraraba",
-            "Tu": "amarrarabas",
-            "ElEllaUsted": "amarraraba",
-            "Nosotros": "amarrarábamos",
-            "Vosotros": "amarrarabais",
-            "EllosEllasUstedes": "amarraraban"
+            "Yo": "amarraba",
+            "Tu": "amarrabas",
+            "ElEllaUsted": "amarraba",
+            "Nosotros": "amarrábamos",
+            "Vosotros": "amarrabais",
+            "EllosEllasUstedes": "amarraban"
         },
         "Conditional": {
-            "Yo": "amarrararía",
-            "Tu": "amarrararías",
-            "ElEllaUsted": "amarrararía",
-            "Nosotros": "amarrararíamos",
-            "Vosotros": "amarrararíais",
-            "EllosEllasUstedes": "amarrararían"
+            "Yo": "amarraría",
+            "Tu": "amarrarías",
+            "ElEllaUsted": "amarraría",
+            "Nosotros": "amarraríamos",
+            "Vosotros": "amarraríais",
+            "EllosEllasUstedes": "amarrarían"
         },
         "Future": {
-            "Yo": "amarrararé",
-            "Tu": "amarrararás",
-            "ElEllaUsted": "amarrarará",
-            "Nosotros": "amarrararemos",
-            "Vosotros": "amarrararéis",
-            "EllosEllasUstedes": "amarrararán"
+            "Yo": "amarraré",
+            "Tu": "amarrarás",
+            "ElEllaUsted": "amarrará",
+            "Nosotros": "amarraremos",
+            "Vosotros": "amarraréis",
+            "EllosEllasUstedes": "amarrarán"
         }
     },
     "Subjunctive": null,

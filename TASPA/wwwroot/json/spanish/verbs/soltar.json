@@ -3,44 +3,44 @@
     "PastParticiple": "soltado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "soltaro",
-            "Tu": "soltaras",
-            "ElEllaUsted": "soltara",
-            "Nosotros": "soltaramos",
-            "Vosotros": "soltaráis",
-            "EllosEllasUstedes": "soltaran"
+            "Yo": "solto",
+            "Tu": "soltas",
+            "ElEllaUsted": "solta",
+            "Nosotros": "soltamos",
+            "Vosotros": "soltáis",
+            "EllosEllasUstedes": "soltan"
         },
         "Pretérito": {
-            "Yo": "soltaré",
-            "Tu": "soltaraste",
-            "ElEllaUsted": "soltaró",
-            "Nosotros": "soltaramos",
-            "Vosotros": "soltarasteis",
-            "EllosEllasUstedes": "soltararon"
+            "Yo": "solté",
+            "Tu": "soltaste",
+            "ElEllaUsted": "soltó",
+            "Nosotros": "soltamos",
+            "Vosotros": "soltasteis",
+            "EllosEllasUstedes": "soltaron"
         },
         "Imperfect": {
-            "Yo": "soltaraba",
-            "Tu": "soltarabas",
-            "ElEllaUsted": "soltaraba",
-            "Nosotros": "soltarábamos",
-            "Vosotros": "soltarabais",
-            "EllosEllasUstedes": "soltaraban"
+            "Yo": "soltaba",
+            "Tu": "soltabas",
+            "ElEllaUsted": "soltaba",
+            "Nosotros": "soltábamos",
+            "Vosotros": "soltabais",
+            "EllosEllasUstedes": "soltaban"
         },
         "Conditional": {
-            "Yo": "soltararía",
-            "Tu": "soltararías",
-            "ElEllaUsted": "soltararía",
-            "Nosotros": "soltararíamos",
-            "Vosotros": "soltararíais",
-            "EllosEllasUstedes": "soltararían"
+            "Yo": "soltaría",
+            "Tu": "soltarías",
+            "ElEllaUsted": "soltaría",
+            "Nosotros": "soltaríamos",
+            "Vosotros": "soltaríais",
+            "EllosEllasUstedes": "soltarían"
         },
         "Future": {
-            "Yo": "soltararé",
-            "Tu": "soltararás",
-            "ElEllaUsted": "soltarará",
-            "Nosotros": "soltararemos",
-            "Vosotros": "soltararéis",
-            "EllosEllasUstedes": "soltararán"
+            "Yo": "soltaré",
+            "Tu": "soltarás",
+            "ElEllaUsted": "soltará",
+            "Nosotros": "soltaremos",
+            "Vosotros": "soltaréis",
+            "EllosEllasUstedes": "soltarán"
         }
     },
     "Subjunctive": null,

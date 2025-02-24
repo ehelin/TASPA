@@ -3,44 +3,44 @@
     "PastParticiple": "pateado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "patearo",
-            "Tu": "patearas",
-            "ElEllaUsted": "pateara",
-            "Nosotros": "patearamos",
-            "Vosotros": "patearáis",
-            "EllosEllasUstedes": "patearan"
+            "Yo": "pateo",
+            "Tu": "pateas",
+            "ElEllaUsted": "patea",
+            "Nosotros": "pateamos",
+            "Vosotros": "pateáis",
+            "EllosEllasUstedes": "patean"
         },
         "Pretérito": {
-            "Yo": "patearé",
-            "Tu": "patearaste",
-            "ElEllaUsted": "patearó",
-            "Nosotros": "patearamos",
-            "Vosotros": "patearasteis",
-            "EllosEllasUstedes": "pateararon"
+            "Yo": "pateé",
+            "Tu": "pateaste",
+            "ElEllaUsted": "pateó",
+            "Nosotros": "pateamos",
+            "Vosotros": "pateasteis",
+            "EllosEllasUstedes": "patearon"
         },
         "Imperfect": {
-            "Yo": "patearaba",
-            "Tu": "patearabas",
-            "ElEllaUsted": "patearaba",
-            "Nosotros": "patearábamos",
-            "Vosotros": "patearabais",
-            "EllosEllasUstedes": "patearaban"
+            "Yo": "pateaba",
+            "Tu": "pateabas",
+            "ElEllaUsted": "pateaba",
+            "Nosotros": "pateábamos",
+            "Vosotros": "pateabais",
+            "EllosEllasUstedes": "pateaban"
         },
         "Conditional": {
-            "Yo": "pateararía",
-            "Tu": "pateararías",
-            "ElEllaUsted": "pateararía",
-            "Nosotros": "pateararíamos",
-            "Vosotros": "pateararíais",
-            "EllosEllasUstedes": "pateararían"
+            "Yo": "patearía",
+            "Tu": "patearías",
+            "ElEllaUsted": "patearía",
+            "Nosotros": "patearíamos",
+            "Vosotros": "patearíais",
+            "EllosEllasUstedes": "patearían"
         },
         "Future": {
-            "Yo": "pateararé",
-            "Tu": "pateararás",
-            "ElEllaUsted": "patearará",
-            "Nosotros": "pateararemos",
-            "Vosotros": "pateararéis",
-            "EllosEllasUstedes": "pateararán"
+            "Yo": "patearé",
+            "Tu": "patearás",
+            "ElEllaUsted": "pateará",
+            "Nosotros": "patearemos",
+            "Vosotros": "patearéis",
+            "EllosEllasUstedes": "patearán"
         }
     },
     "Subjunctive": null,

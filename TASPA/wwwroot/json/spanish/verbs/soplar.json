@@ -3,44 +3,44 @@
     "PastParticiple": "soplado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "soplaro",
-            "Tu": "soplaras",
-            "ElEllaUsted": "soplara",
-            "Nosotros": "soplaramos",
-            "Vosotros": "soplaráis",
-            "EllosEllasUstedes": "soplaran"
+            "Yo": "soplo",
+            "Tu": "soplas",
+            "ElEllaUsted": "sopla",
+            "Nosotros": "soplamos",
+            "Vosotros": "sopláis",
+            "EllosEllasUstedes": "soplan"
         },
         "Pretérito": {
-            "Yo": "soplaré",
-            "Tu": "soplaraste",
-            "ElEllaUsted": "soplaró",
-            "Nosotros": "soplaramos",
-            "Vosotros": "soplarasteis",
-            "EllosEllasUstedes": "soplararon"
+            "Yo": "soplé",
+            "Tu": "soplaste",
+            "ElEllaUsted": "sopló",
+            "Nosotros": "soplamos",
+            "Vosotros": "soplasteis",
+            "EllosEllasUstedes": "soplaron"
         },
         "Imperfect": {
-            "Yo": "soplaraba",
-            "Tu": "soplarabas",
-            "ElEllaUsted": "soplaraba",
-            "Nosotros": "soplarábamos",
-            "Vosotros": "soplarabais",
-            "EllosEllasUstedes": "soplaraban"
+            "Yo": "soplaba",
+            "Tu": "soplabas",
+            "ElEllaUsted": "soplaba",
+            "Nosotros": "soplábamos",
+            "Vosotros": "soplabais",
+            "EllosEllasUstedes": "soplaban"
         },
         "Conditional": {
-            "Yo": "soplararía",
-            "Tu": "soplararías",
-            "ElEllaUsted": "soplararía",
-            "Nosotros": "soplararíamos",
-            "Vosotros": "soplararíais",
-            "EllosEllasUstedes": "soplararían"
+            "Yo": "soplaría",
+            "Tu": "soplarías",
+            "ElEllaUsted": "soplaría",
+            "Nosotros": "soplaríamos",
+            "Vosotros": "soplaríais",
+            "EllosEllasUstedes": "soplarían"
         },
         "Future": {
-            "Yo": "soplararé",
-            "Tu": "soplararás",
-            "ElEllaUsted": "soplarará",
-            "Nosotros": "soplararemos",
-            "Vosotros": "soplararéis",
-            "EllosEllasUstedes": "soplararán"
+            "Yo": "soplaré",
+            "Tu": "soplarás",
+            "ElEllaUsted": "soplará",
+            "Nosotros": "soplaremos",
+            "Vosotros": "soplaréis",
+            "EllosEllasUstedes": "soplarán"
         }
     },
     "Subjunctive": null,

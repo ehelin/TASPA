@@ -3,44 +3,44 @@
     "PastParticiple": "cotejado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "cotejaro",
-            "Tu": "cotejaras",
-            "ElEllaUsted": "cotejara",
-            "Nosotros": "cotejaramos",
-            "Vosotros": "cotejaráis",
-            "EllosEllasUstedes": "cotejaran"
+            "Yo": "cotejo",
+            "Tu": "cotejas",
+            "ElEllaUsted": "coteja",
+            "Nosotros": "cotejamos",
+            "Vosotros": "cotejáis",
+            "EllosEllasUstedes": "cotejan"
         },
         "Pretérito": {
-            "Yo": "cotejaré",
-            "Tu": "cotejaraste",
-            "ElEllaUsted": "cotejaró",
-            "Nosotros": "cotejaramos",
-            "Vosotros": "cotejarasteis",
-            "EllosEllasUstedes": "cotejararon"
+            "Yo": "cotejé",
+            "Tu": "cotejaste",
+            "ElEllaUsted": "cotejó",
+            "Nosotros": "cotejamos",
+            "Vosotros": "cotejasteis",
+            "EllosEllasUstedes": "cotejaron"
         },
         "Imperfect": {
-            "Yo": "cotejaraba",
-            "Tu": "cotejarabas",
-            "ElEllaUsted": "cotejaraba",
-            "Nosotros": "cotejarábamos",
-            "Vosotros": "cotejarabais",
-            "EllosEllasUstedes": "cotejaraban"
+            "Yo": "cotejaba",
+            "Tu": "cotejabas",
+            "ElEllaUsted": "cotejaba",
+            "Nosotros": "cotejábamos",
+            "Vosotros": "cotejabais",
+            "EllosEllasUstedes": "cotejaban"
         },
         "Conditional": {
-            "Yo": "cotejararía",
-            "Tu": "cotejararías",
-            "ElEllaUsted": "cotejararía",
-            "Nosotros": "cotejararíamos",
-            "Vosotros": "cotejararíais",
-            "EllosEllasUstedes": "cotejararían"
+            "Yo": "cotejaría",
+            "Tu": "cotejarías",
+            "ElEllaUsted": "cotejaría",
+            "Nosotros": "cotejaríamos",
+            "Vosotros": "cotejaríais",
+            "EllosEllasUstedes": "cotejarían"
         },
         "Future": {
-            "Yo": "cotejararé",
-            "Tu": "cotejararás",
-            "ElEllaUsted": "cotejarará",
-            "Nosotros": "cotejararemos",
-            "Vosotros": "cotejararéis",
-            "EllosEllasUstedes": "cotejararán"
+            "Yo": "cotejaré",
+            "Tu": "cotejarás",
+            "ElEllaUsted": "cotejará",
+            "Nosotros": "cotejaremos",
+            "Vosotros": "cotejaréis",
+            "EllosEllasUstedes": "cotejarán"
         }
     },
     "Subjunctive": null,

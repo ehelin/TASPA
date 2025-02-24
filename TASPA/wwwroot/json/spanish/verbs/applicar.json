@@ -3,44 +3,44 @@
     "PastParticiple": "aplicado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "applicaro",
-            "Tu": "applicaras",
-            "ElEllaUsted": "applicara",
-            "Nosotros": "applicaramos",
-            "Vosotros": "applicaráis",
-            "EllosEllasUstedes": "applicaran"
+            "Yo": "applico",
+            "Tu": "applicas",
+            "ElEllaUsted": "applica",
+            "Nosotros": "applicamos",
+            "Vosotros": "applicáis",
+            "EllosEllasUstedes": "applican"
         },
         "Pretérito": {
-            "Yo": "applicaré",
-            "Tu": "applicaraste",
-            "ElEllaUsted": "applicaró",
-            "Nosotros": "applicaramos",
-            "Vosotros": "applicarasteis",
-            "EllosEllasUstedes": "applicararon"
+            "Yo": "applicé",
+            "Tu": "applicaste",
+            "ElEllaUsted": "applicó",
+            "Nosotros": "applicamos",
+            "Vosotros": "applicasteis",
+            "EllosEllasUstedes": "applicaron"
         },
         "Imperfect": {
-            "Yo": "applicaraba",
-            "Tu": "applicarabas",
-            "ElEllaUsted": "applicaraba",
-            "Nosotros": "applicarábamos",
-            "Vosotros": "applicarabais",
-            "EllosEllasUstedes": "applicaraban"
+            "Yo": "applicaba",
+            "Tu": "applicabas",
+            "ElEllaUsted": "applicaba",
+            "Nosotros": "applicábamos",
+            "Vosotros": "applicabais",
+            "EllosEllasUstedes": "applicaban"
         },
         "Conditional": {
-            "Yo": "applicararía",
-            "Tu": "applicararías",
-            "ElEllaUsted": "applicararía",
-            "Nosotros": "applicararíamos",
-            "Vosotros": "applicararíais",
-            "EllosEllasUstedes": "applicararían"
+            "Yo": "applicaría",
+            "Tu": "applicarías",
+            "ElEllaUsted": "applicaría",
+            "Nosotros": "applicaríamos",
+            "Vosotros": "applicaríais",
+            "EllosEllasUstedes": "applicarían"
         },
         "Future": {
-            "Yo": "applicararé",
-            "Tu": "applicararás",
-            "ElEllaUsted": "applicarará",
-            "Nosotros": "applicararemos",
-            "Vosotros": "applicararéis",
-            "EllosEllasUstedes": "applicararán"
+            "Yo": "applicaré",
+            "Tu": "applicarás",
+            "ElEllaUsted": "applicará",
+            "Nosotros": "applicaremos",
+            "Vosotros": "applicaréis",
+            "EllosEllasUstedes": "applicarán"
         }
     },
     "Subjunctive": null,

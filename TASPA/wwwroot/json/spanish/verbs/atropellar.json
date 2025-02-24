@@ -3,44 +3,44 @@
     "PastParticiple": "atropellado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "atropellaro",
-            "Tu": "atropellaras",
-            "ElEllaUsted": "atropellara",
-            "Nosotros": "atropellaramos",
-            "Vosotros": "atropellaráis",
-            "EllosEllasUstedes": "atropellaran"
+            "Yo": "atropello",
+            "Tu": "atropellas",
+            "ElEllaUsted": "atropella",
+            "Nosotros": "atropellamos",
+            "Vosotros": "atropelláis",
+            "EllosEllasUstedes": "atropellan"
         },
         "Pretérito": {
-            "Yo": "atropellaré",
-            "Tu": "atropellaraste",
-            "ElEllaUsted": "atropellaró",
-            "Nosotros": "atropellaramos",
-            "Vosotros": "atropellarasteis",
-            "EllosEllasUstedes": "atropellararon"
+            "Yo": "atropellé",
+            "Tu": "atropellaste",
+            "ElEllaUsted": "atropelló",
+            "Nosotros": "atropellamos",
+            "Vosotros": "atropellasteis",
+            "EllosEllasUstedes": "atropellaron"
         },
         "Imperfect": {
-            "Yo": "atropellaraba",
-            "Tu": "atropellarabas",
-            "ElEllaUsted": "atropellaraba",
-            "Nosotros": "atropellarábamos",
-            "Vosotros": "atropellarabais",
-            "EllosEllasUstedes": "atropellaraban"
+            "Yo": "atropellaba",
+            "Tu": "atropellabas",
+            "ElEllaUsted": "atropellaba",
+            "Nosotros": "atropellábamos",
+            "Vosotros": "atropellabais",
+            "EllosEllasUstedes": "atropellaban"
         },
         "Conditional": {
-            "Yo": "atropellararía",
-            "Tu": "atropellararías",
-            "ElEllaUsted": "atropellararía",
-            "Nosotros": "atropellararíamos",
-            "Vosotros": "atropellararíais",
-            "EllosEllasUstedes": "atropellararían"
+            "Yo": "atropellaría",
+            "Tu": "atropellarías",
+            "ElEllaUsted": "atropellaría",
+            "Nosotros": "atropellaríamos",
+            "Vosotros": "atropellaríais",
+            "EllosEllasUstedes": "atropellarían"
         },
         "Future": {
-            "Yo": "atropellararé",
-            "Tu": "atropellararás",
-            "ElEllaUsted": "atropellarará",
-            "Nosotros": "atropellararemos",
-            "Vosotros": "atropellararéis",
-            "EllosEllasUstedes": "atropellararán"
+            "Yo": "atropellaré",
+            "Tu": "atropellarás",
+            "ElEllaUsted": "atropellará",
+            "Nosotros": "atropellaremos",
+            "Vosotros": "atropellaréis",
+            "EllosEllasUstedes": "atropellarán"
         }
     },
     "Subjunctive": null,

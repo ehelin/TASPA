@@ -3,44 +3,44 @@
     "PastParticiple": "sembrado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "sembraro",
-            "Tu": "sembraras",
-            "ElEllaUsted": "sembrara",
-            "Nosotros": "sembraramos",
-            "Vosotros": "sembraráis",
-            "EllosEllasUstedes": "sembraran"
+            "Yo": "sembro",
+            "Tu": "sembras",
+            "ElEllaUsted": "sembra",
+            "Nosotros": "sembramos",
+            "Vosotros": "sembráis",
+            "EllosEllasUstedes": "sembran"
         },
         "Pretérito": {
-            "Yo": "sembraré",
-            "Tu": "sembraraste",
-            "ElEllaUsted": "sembraró",
-            "Nosotros": "sembraramos",
-            "Vosotros": "sembrarasteis",
-            "EllosEllasUstedes": "sembrararon"
+            "Yo": "sembré",
+            "Tu": "sembraste",
+            "ElEllaUsted": "sembró",
+            "Nosotros": "sembramos",
+            "Vosotros": "sembrasteis",
+            "EllosEllasUstedes": "sembraron"
         },
         "Imperfect": {
-            "Yo": "sembraraba",
-            "Tu": "sembrarabas",
-            "ElEllaUsted": "sembraraba",
-            "Nosotros": "sembrarábamos",
-            "Vosotros": "sembrarabais",
-            "EllosEllasUstedes": "sembraraban"
+            "Yo": "sembraba",
+            "Tu": "sembrabas",
+            "ElEllaUsted": "sembraba",
+            "Nosotros": "sembrábamos",
+            "Vosotros": "sembrabais",
+            "EllosEllasUstedes": "sembraban"
         },
         "Conditional": {
-            "Yo": "sembrararía",
-            "Tu": "sembrararías",
-            "ElEllaUsted": "sembrararía",
-            "Nosotros": "sembrararíamos",
-            "Vosotros": "sembrararíais",
-            "EllosEllasUstedes": "sembrararían"
+            "Yo": "sembraría",
+            "Tu": "sembrarías",
+            "ElEllaUsted": "sembraría",
+            "Nosotros": "sembraríamos",
+            "Vosotros": "sembraríais",
+            "EllosEllasUstedes": "sembrarían"
         },
         "Future": {
-            "Yo": "sembrararé",
-            "Tu": "sembrararás",
-            "ElEllaUsted": "sembrarará",
-            "Nosotros": "sembrararemos",
-            "Vosotros": "sembrararéis",
-            "EllosEllasUstedes": "sembrararán"
+            "Yo": "sembraré",
+            "Tu": "sembrarás",
+            "ElEllaUsted": "sembrará",
+            "Nosotros": "sembraremos",
+            "Vosotros": "sembraréis",
+            "EllosEllasUstedes": "sembrarán"
         }
     },
     "Subjunctive": null,

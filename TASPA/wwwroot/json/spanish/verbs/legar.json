@@ -3,44 +3,44 @@
     "PastParticiple": "legado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "legaro",
-            "Tu": "legaras",
-            "ElEllaUsted": "legara",
-            "Nosotros": "legaramos",
-            "Vosotros": "legaráis",
-            "EllosEllasUstedes": "legaran"
+            "Yo": "lego",
+            "Tu": "legas",
+            "ElEllaUsted": "lega",
+            "Nosotros": "legamos",
+            "Vosotros": "legáis",
+            "EllosEllasUstedes": "legan"
         },
         "Pretérito": {
-            "Yo": "legaré",
-            "Tu": "legaraste",
-            "ElEllaUsted": "legaró",
-            "Nosotros": "legaramos",
-            "Vosotros": "legarasteis",
-            "EllosEllasUstedes": "legararon"
+            "Yo": "legé",
+            "Tu": "legaste",
+            "ElEllaUsted": "legó",
+            "Nosotros": "legamos",
+            "Vosotros": "legasteis",
+            "EllosEllasUstedes": "legaron"
         },
         "Imperfect": {
-            "Yo": "legaraba",
-            "Tu": "legarabas",
-            "ElEllaUsted": "legaraba",
-            "Nosotros": "legarábamos",
-            "Vosotros": "legarabais",
-            "EllosEllasUstedes": "legaraban"
+            "Yo": "legaba",
+            "Tu": "legabas",
+            "ElEllaUsted": "legaba",
+            "Nosotros": "legábamos",
+            "Vosotros": "legabais",
+            "EllosEllasUstedes": "legaban"
         },
         "Conditional": {
-            "Yo": "legararía",
-            "Tu": "legararías",
-            "ElEllaUsted": "legararía",
-            "Nosotros": "legararíamos",
-            "Vosotros": "legararíais",
-            "EllosEllasUstedes": "legararían"
+            "Yo": "legaría",
+            "Tu": "legarías",
+            "ElEllaUsted": "legaría",
+            "Nosotros": "legaríamos",
+            "Vosotros": "legaríais",
+            "EllosEllasUstedes": "legarían"
         },
         "Future": {
-            "Yo": "legararé",
-            "Tu": "legararás",
-            "ElEllaUsted": "legarará",
-            "Nosotros": "legararemos",
-            "Vosotros": "legararéis",
-            "EllosEllasUstedes": "legararán"
+            "Yo": "legaré",
+            "Tu": "legarás",
+            "ElEllaUsted": "legará",
+            "Nosotros": "legaremos",
+            "Vosotros": "legaréis",
+            "EllosEllasUstedes": "legarán"
         }
     },
     "Subjunctive": null,

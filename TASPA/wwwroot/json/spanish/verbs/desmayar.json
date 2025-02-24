@@ -3,44 +3,44 @@
     "PastParticiple": "desmayado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "desmayaro",
-            "Tu": "desmayaras",
-            "ElEllaUsted": "desmayara",
-            "Nosotros": "desmayaramos",
-            "Vosotros": "desmayaráis",
-            "EllosEllasUstedes": "desmayaran"
+            "Yo": "desmayo",
+            "Tu": "desmayas",
+            "ElEllaUsted": "desmaya",
+            "Nosotros": "desmayamos",
+            "Vosotros": "desmayáis",
+            "EllosEllasUstedes": "desmayan"
         },
         "Pretérito": {
-            "Yo": "desmayaré",
-            "Tu": "desmayaraste",
-            "ElEllaUsted": "desmayaró",
-            "Nosotros": "desmayaramos",
-            "Vosotros": "desmayarasteis",
-            "EllosEllasUstedes": "desmayararon"
+            "Yo": "desmayé",
+            "Tu": "desmayaste",
+            "ElEllaUsted": "desmayó",
+            "Nosotros": "desmayamos",
+            "Vosotros": "desmayasteis",
+            "EllosEllasUstedes": "desmayaron"
         },
         "Imperfect": {
-            "Yo": "desmayaraba",
-            "Tu": "desmayarabas",
-            "ElEllaUsted": "desmayaraba",
-            "Nosotros": "desmayarábamos",
-            "Vosotros": "desmayarabais",
-            "EllosEllasUstedes": "desmayaraban"
+            "Yo": "desmayaba",
+            "Tu": "desmayabas",
+            "ElEllaUsted": "desmayaba",
+            "Nosotros": "desmayábamos",
+            "Vosotros": "desmayabais",
+            "EllosEllasUstedes": "desmayaban"
         },
         "Conditional": {
-            "Yo": "desmayararía",
-            "Tu": "desmayararías",
-            "ElEllaUsted": "desmayararía",
-            "Nosotros": "desmayararíamos",
-            "Vosotros": "desmayararíais",
-            "EllosEllasUstedes": "desmayararían"
+            "Yo": "desmayaría",
+            "Tu": "desmayarías",
+            "ElEllaUsted": "desmayaría",
+            "Nosotros": "desmayaríamos",
+            "Vosotros": "desmayaríais",
+            "EllosEllasUstedes": "desmayarían"
         },
         "Future": {
-            "Yo": "desmayararé",
-            "Tu": "desmayararás",
-            "ElEllaUsted": "desmayarará",
-            "Nosotros": "desmayararemos",
-            "Vosotros": "desmayararéis",
-            "EllosEllasUstedes": "desmayararán"
+            "Yo": "desmayaré",
+            "Tu": "desmayarás",
+            "ElEllaUsted": "desmayará",
+            "Nosotros": "desmayaremos",
+            "Vosotros": "desmayaréis",
+            "EllosEllasUstedes": "desmayarán"
         }
     },
     "Subjunctive": null,

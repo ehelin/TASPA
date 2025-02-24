@@ -3,44 +3,44 @@
     "PastParticiple": "comentado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "comentaro",
-            "Tu": "comentaras",
-            "ElEllaUsted": "comentara",
-            "Nosotros": "comentaramos",
-            "Vosotros": "comentaráis",
-            "EllosEllasUstedes": "comentaran"
+            "Yo": "comento",
+            "Tu": "comentas",
+            "ElEllaUsted": "comenta",
+            "Nosotros": "comentamos",
+            "Vosotros": "comentáis",
+            "EllosEllasUstedes": "comentan"
         },
         "Pretérito": {
-            "Yo": "comentaré",
-            "Tu": "comentaraste",
-            "ElEllaUsted": "comentaró",
-            "Nosotros": "comentaramos",
-            "Vosotros": "comentarasteis",
-            "EllosEllasUstedes": "comentararon"
+            "Yo": "comenté",
+            "Tu": "comentaste",
+            "ElEllaUsted": "comentó",
+            "Nosotros": "comentamos",
+            "Vosotros": "comentasteis",
+            "EllosEllasUstedes": "comentaron"
         },
         "Imperfect": {
-            "Yo": "comentaraba",
-            "Tu": "comentarabas",
-            "ElEllaUsted": "comentaraba",
-            "Nosotros": "comentarábamos",
-            "Vosotros": "comentarabais",
-            "EllosEllasUstedes": "comentaraban"
+            "Yo": "comentaba",
+            "Tu": "comentabas",
+            "ElEllaUsted": "comentaba",
+            "Nosotros": "comentábamos",
+            "Vosotros": "comentabais",
+            "EllosEllasUstedes": "comentaban"
         },
         "Conditional": {
-            "Yo": "comentararía",
-            "Tu": "comentararías",
-            "ElEllaUsted": "comentararía",
-            "Nosotros": "comentararíamos",
-            "Vosotros": "comentararíais",
-            "EllosEllasUstedes": "comentararían"
+            "Yo": "comentaría",
+            "Tu": "comentarías",
+            "ElEllaUsted": "comentaría",
+            "Nosotros": "comentaríamos",
+            "Vosotros": "comentaríais",
+            "EllosEllasUstedes": "comentarían"
         },
         "Future": {
-            "Yo": "comentararé",
-            "Tu": "comentararás",
-            "ElEllaUsted": "comentarará",
-            "Nosotros": "comentararemos",
-            "Vosotros": "comentararéis",
-            "EllosEllasUstedes": "comentararán"
+            "Yo": "comentaré",
+            "Tu": "comentarás",
+            "ElEllaUsted": "comentará",
+            "Nosotros": "comentaremos",
+            "Vosotros": "comentaréis",
+            "EllosEllasUstedes": "comentarán"
         }
     },
     "Subjunctive": null,

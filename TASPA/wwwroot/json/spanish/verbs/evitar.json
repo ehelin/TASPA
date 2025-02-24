@@ -3,44 +3,44 @@
     "PastParticiple": "evitado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "evitaro",
-            "Tu": "evitaras",
-            "ElEllaUsted": "evitara",
-            "Nosotros": "evitaramos",
-            "Vosotros": "evitaráis",
-            "EllosEllasUstedes": "evitaran"
+            "Yo": "evito",
+            "Tu": "evitas",
+            "ElEllaUsted": "evita",
+            "Nosotros": "evitamos",
+            "Vosotros": "evitáis",
+            "EllosEllasUstedes": "evitan"
         },
         "Pretérito": {
-            "Yo": "evitaré",
-            "Tu": "evitaraste",
-            "ElEllaUsted": "evitaró",
-            "Nosotros": "evitaramos",
-            "Vosotros": "evitarasteis",
-            "EllosEllasUstedes": "evitararon"
+            "Yo": "evité",
+            "Tu": "evitaste",
+            "ElEllaUsted": "evitó",
+            "Nosotros": "evitamos",
+            "Vosotros": "evitasteis",
+            "EllosEllasUstedes": "evitaron"
         },
         "Imperfect": {
-            "Yo": "evitaraba",
-            "Tu": "evitarabas",
-            "ElEllaUsted": "evitaraba",
-            "Nosotros": "evitarábamos",
-            "Vosotros": "evitarabais",
-            "EllosEllasUstedes": "evitaraban"
+            "Yo": "evitaba",
+            "Tu": "evitabas",
+            "ElEllaUsted": "evitaba",
+            "Nosotros": "evitábamos",
+            "Vosotros": "evitabais",
+            "EllosEllasUstedes": "evitaban"
         },
         "Conditional": {
-            "Yo": "evitararía",
-            "Tu": "evitararías",
-            "ElEllaUsted": "evitararía",
-            "Nosotros": "evitararíamos",
-            "Vosotros": "evitararíais",
-            "EllosEllasUstedes": "evitararían"
+            "Yo": "evitaría",
+            "Tu": "evitarías",
+            "ElEllaUsted": "evitaría",
+            "Nosotros": "evitaríamos",
+            "Vosotros": "evitaríais",
+            "EllosEllasUstedes": "evitarían"
         },
         "Future": {
-            "Yo": "evitararé",
-            "Tu": "evitararás",
-            "ElEllaUsted": "evitarará",
-            "Nosotros": "evitararemos",
-            "Vosotros": "evitararéis",
-            "EllosEllasUstedes": "evitararán"
+            "Yo": "evitaré",
+            "Tu": "evitarás",
+            "ElEllaUsted": "evitará",
+            "Nosotros": "evitaremos",
+            "Vosotros": "evitaréis",
+            "EllosEllasUstedes": "evitarán"
         }
     },
     "Subjunctive": null,

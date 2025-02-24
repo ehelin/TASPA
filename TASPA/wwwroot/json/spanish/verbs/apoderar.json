@@ -3,44 +3,44 @@
     "PastParticiple": "apoderado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "apoderaro",
-            "Tu": "apoderaras",
-            "ElEllaUsted": "apoderara",
-            "Nosotros": "apoderaramos",
-            "Vosotros": "apoderaráis",
-            "EllosEllasUstedes": "apoderaran"
+            "Yo": "apodero",
+            "Tu": "apoderas",
+            "ElEllaUsted": "apodera",
+            "Nosotros": "apoderamos",
+            "Vosotros": "apoderáis",
+            "EllosEllasUstedes": "apoderan"
         },
         "Pretérito": {
-            "Yo": "apoderaré",
-            "Tu": "apoderaraste",
-            "ElEllaUsted": "apoderaró",
-            "Nosotros": "apoderaramos",
-            "Vosotros": "apoderarasteis",
-            "EllosEllasUstedes": "apoderararon"
+            "Yo": "apoderé",
+            "Tu": "apoderaste",
+            "ElEllaUsted": "apoderó",
+            "Nosotros": "apoderamos",
+            "Vosotros": "apoderasteis",
+            "EllosEllasUstedes": "apoderaron"
         },
         "Imperfect": {
-            "Yo": "apoderaraba",
-            "Tu": "apoderarabas",
-            "ElEllaUsted": "apoderaraba",
-            "Nosotros": "apoderarábamos",
-            "Vosotros": "apoderarabais",
-            "EllosEllasUstedes": "apoderaraban"
+            "Yo": "apoderaba",
+            "Tu": "apoderabas",
+            "ElEllaUsted": "apoderaba",
+            "Nosotros": "apoderábamos",
+            "Vosotros": "apoderabais",
+            "EllosEllasUstedes": "apoderaban"
         },
         "Conditional": {
-            "Yo": "apoderararía",
-            "Tu": "apoderararías",
-            "ElEllaUsted": "apoderararía",
-            "Nosotros": "apoderararíamos",
-            "Vosotros": "apoderararíais",
-            "EllosEllasUstedes": "apoderararían"
+            "Yo": "apoderaría",
+            "Tu": "apoderarías",
+            "ElEllaUsted": "apoderaría",
+            "Nosotros": "apoderaríamos",
+            "Vosotros": "apoderaríais",
+            "EllosEllasUstedes": "apoderarían"
         },
         "Future": {
-            "Yo": "apoderararé",
-            "Tu": "apoderararás",
-            "ElEllaUsted": "apoderarará",
-            "Nosotros": "apoderararemos",
-            "Vosotros": "apoderararéis",
-            "EllosEllasUstedes": "apoderararán"
+            "Yo": "apoderaré",
+            "Tu": "apoderarás",
+            "ElEllaUsted": "apoderará",
+            "Nosotros": "apoderaremos",
+            "Vosotros": "apoderaréis",
+            "EllosEllasUstedes": "apoderarán"
         }
     },
     "Subjunctive": null,

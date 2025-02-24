@@ -3,44 +3,44 @@
     "PastParticiple": "empeñado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "empeñaro",
-            "Tu": "empeñaras",
-            "ElEllaUsted": "empeñara",
-            "Nosotros": "empeñaramos",
-            "Vosotros": "empeñaráis",
-            "EllosEllasUstedes": "empeñaran"
+            "Yo": "empeño",
+            "Tu": "empeñas",
+            "ElEllaUsted": "empeña",
+            "Nosotros": "empeñamos",
+            "Vosotros": "empeñáis",
+            "EllosEllasUstedes": "empeñan"
         },
         "Pretérito": {
-            "Yo": "empeñaré",
-            "Tu": "empeñaraste",
-            "ElEllaUsted": "empeñaró",
-            "Nosotros": "empeñaramos",
-            "Vosotros": "empeñarasteis",
-            "EllosEllasUstedes": "empeñararon"
+            "Yo": "empeñé",
+            "Tu": "empeñaste",
+            "ElEllaUsted": "empeñó",
+            "Nosotros": "empeñamos",
+            "Vosotros": "empeñasteis",
+            "EllosEllasUstedes": "empeñaron"
         },
         "Imperfect": {
-            "Yo": "empeñaraba",
-            "Tu": "empeñarabas",
-            "ElEllaUsted": "empeñaraba",
-            "Nosotros": "empeñarábamos",
-            "Vosotros": "empeñarabais",
-            "EllosEllasUstedes": "empeñaraban"
+            "Yo": "empeñaba",
+            "Tu": "empeñabas",
+            "ElEllaUsted": "empeñaba",
+            "Nosotros": "empeñábamos",
+            "Vosotros": "empeñabais",
+            "EllosEllasUstedes": "empeñaban"
         },
         "Conditional": {
-            "Yo": "empeñararía",
-            "Tu": "empeñararías",
-            "ElEllaUsted": "empeñararía",
-            "Nosotros": "empeñararíamos",
-            "Vosotros": "empeñararíais",
-            "EllosEllasUstedes": "empeñararían"
+            "Yo": "empeñaría",
+            "Tu": "empeñarías",
+            "ElEllaUsted": "empeñaría",
+            "Nosotros": "empeñaríamos",
+            "Vosotros": "empeñaríais",
+            "EllosEllasUstedes": "empeñarían"
         },
         "Future": {
-            "Yo": "empeñararé",
-            "Tu": "empeñararás",
-            "ElEllaUsted": "empeñarará",
-            "Nosotros": "empeñararemos",
-            "Vosotros": "empeñararéis",
-            "EllosEllasUstedes": "empeñararán"
+            "Yo": "empeñaré",
+            "Tu": "empeñarás",
+            "ElEllaUsted": "empeñará",
+            "Nosotros": "empeñaremos",
+            "Vosotros": "empeñaréis",
+            "EllosEllasUstedes": "empeñarán"
         }
     },
     "Subjunctive": null,

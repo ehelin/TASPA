@@ -3,44 +3,44 @@
     "PastParticiple": "atorado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "atoraro",
-            "Tu": "atoraras",
-            "ElEllaUsted": "atorara",
-            "Nosotros": "atoraramos",
-            "Vosotros": "atoraráis",
-            "EllosEllasUstedes": "atoraran"
+            "Yo": "atoro",
+            "Tu": "atoras",
+            "ElEllaUsted": "atora",
+            "Nosotros": "atoramos",
+            "Vosotros": "atoráis",
+            "EllosEllasUstedes": "atoran"
         },
         "Pretérito": {
-            "Yo": "atoraré",
-            "Tu": "atoraraste",
-            "ElEllaUsted": "atoraró",
-            "Nosotros": "atoraramos",
-            "Vosotros": "atorarasteis",
-            "EllosEllasUstedes": "atorararon"
+            "Yo": "atoré",
+            "Tu": "atoraste",
+            "ElEllaUsted": "atoró",
+            "Nosotros": "atoramos",
+            "Vosotros": "atorasteis",
+            "EllosEllasUstedes": "atoraron"
         },
         "Imperfect": {
-            "Yo": "atoraraba",
-            "Tu": "atorarabas",
-            "ElEllaUsted": "atoraraba",
-            "Nosotros": "atorarábamos",
-            "Vosotros": "atorarabais",
-            "EllosEllasUstedes": "atoraraban"
+            "Yo": "atoraba",
+            "Tu": "atorabas",
+            "ElEllaUsted": "atoraba",
+            "Nosotros": "atorábamos",
+            "Vosotros": "atorabais",
+            "EllosEllasUstedes": "atoraban"
         },
         "Conditional": {
-            "Yo": "atorararía",
-            "Tu": "atorararías",
-            "ElEllaUsted": "atorararía",
-            "Nosotros": "atorararíamos",
-            "Vosotros": "atorararíais",
-            "EllosEllasUstedes": "atorararían"
+            "Yo": "atoraría",
+            "Tu": "atorarías",
+            "ElEllaUsted": "atoraría",
+            "Nosotros": "atoraríamos",
+            "Vosotros": "atoraríais",
+            "EllosEllasUstedes": "atorarían"
         },
         "Future": {
-            "Yo": "atorararé",
-            "Tu": "atorararás",
-            "ElEllaUsted": "atorarará",
-            "Nosotros": "atorararemos",
-            "Vosotros": "atorararéis",
-            "EllosEllasUstedes": "atorararán"
+            "Yo": "atoraré",
+            "Tu": "atorarás",
+            "ElEllaUsted": "atorará",
+            "Nosotros": "atoraremos",
+            "Vosotros": "atoraréis",
+            "EllosEllasUstedes": "atorarán"
         }
     },
     "Subjunctive": null,

@@ -3,44 +3,44 @@
     "PastParticiple": "criado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "criaro",
-            "Tu": "criaras",
-            "ElEllaUsted": "criara",
-            "Nosotros": "criaramos",
-            "Vosotros": "criaráis",
-            "EllosEllasUstedes": "criaran"
+            "Yo": "crio",
+            "Tu": "crias",
+            "ElEllaUsted": "cria",
+            "Nosotros": "criamos",
+            "Vosotros": "criáis",
+            "EllosEllasUstedes": "crian"
         },
         "Pretérito": {
-            "Yo": "criaré",
-            "Tu": "criaraste",
-            "ElEllaUsted": "criaró",
-            "Nosotros": "criaramos",
-            "Vosotros": "criarasteis",
-            "EllosEllasUstedes": "criararon"
+            "Yo": "crié",
+            "Tu": "criaste",
+            "ElEllaUsted": "crió",
+            "Nosotros": "criamos",
+            "Vosotros": "criasteis",
+            "EllosEllasUstedes": "criaron"
         },
         "Imperfect": {
-            "Yo": "criaraba",
-            "Tu": "criarabas",
-            "ElEllaUsted": "criaraba",
-            "Nosotros": "criarábamos",
-            "Vosotros": "criarabais",
-            "EllosEllasUstedes": "criaraban"
+            "Yo": "criaba",
+            "Tu": "criabas",
+            "ElEllaUsted": "criaba",
+            "Nosotros": "criábamos",
+            "Vosotros": "criabais",
+            "EllosEllasUstedes": "criaban"
         },
         "Conditional": {
-            "Yo": "criararía",
-            "Tu": "criararías",
-            "ElEllaUsted": "criararía",
-            "Nosotros": "criararíamos",
-            "Vosotros": "criararíais",
-            "EllosEllasUstedes": "criararían"
+            "Yo": "criaría",
+            "Tu": "criarías",
+            "ElEllaUsted": "criaría",
+            "Nosotros": "criaríamos",
+            "Vosotros": "criaríais",
+            "EllosEllasUstedes": "criarían"
         },
         "Future": {
-            "Yo": "criararé",
-            "Tu": "criararás",
-            "ElEllaUsted": "criarará",
-            "Nosotros": "criararemos",
-            "Vosotros": "criararéis",
-            "EllosEllasUstedes": "criararán"
+            "Yo": "criaré",
+            "Tu": "criarás",
+            "ElEllaUsted": "criará",
+            "Nosotros": "criaremos",
+            "Vosotros": "criaréis",
+            "EllosEllasUstedes": "criarán"
         }
     },
     "Subjunctive": null,

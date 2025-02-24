@@ -3,44 +3,44 @@
     "PastParticiple": "trepado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "treparo",
-            "Tu": "treparas",
-            "ElEllaUsted": "trepara",
-            "Nosotros": "treparamos",
-            "Vosotros": "treparáis",
-            "EllosEllasUstedes": "treparan"
+            "Yo": "trepo",
+            "Tu": "trepas",
+            "ElEllaUsted": "trepa",
+            "Nosotros": "trepamos",
+            "Vosotros": "trepáis",
+            "EllosEllasUstedes": "trepan"
         },
         "Pretérito": {
-            "Yo": "treparé",
-            "Tu": "treparaste",
-            "ElEllaUsted": "treparó",
-            "Nosotros": "treparamos",
-            "Vosotros": "treparasteis",
-            "EllosEllasUstedes": "trepararon"
+            "Yo": "trepé",
+            "Tu": "trepaste",
+            "ElEllaUsted": "trepó",
+            "Nosotros": "trepamos",
+            "Vosotros": "trepasteis",
+            "EllosEllasUstedes": "treparon"
         },
         "Imperfect": {
-            "Yo": "treparaba",
-            "Tu": "treparabas",
-            "ElEllaUsted": "treparaba",
-            "Nosotros": "treparábamos",
-            "Vosotros": "treparabais",
-            "EllosEllasUstedes": "treparaban"
+            "Yo": "trepaba",
+            "Tu": "trepabas",
+            "ElEllaUsted": "trepaba",
+            "Nosotros": "trepábamos",
+            "Vosotros": "trepabais",
+            "EllosEllasUstedes": "trepaban"
         },
         "Conditional": {
-            "Yo": "trepararía",
-            "Tu": "trepararías",
-            "ElEllaUsted": "trepararía",
-            "Nosotros": "trepararíamos",
-            "Vosotros": "trepararíais",
-            "EllosEllasUstedes": "trepararían"
+            "Yo": "treparía",
+            "Tu": "treparías",
+            "ElEllaUsted": "treparía",
+            "Nosotros": "treparíamos",
+            "Vosotros": "treparíais",
+            "EllosEllasUstedes": "treparían"
         },
         "Future": {
-            "Yo": "trepararé",
-            "Tu": "trepararás",
-            "ElEllaUsted": "treparará",
-            "Nosotros": "trepararemos",
-            "Vosotros": "trepararéis",
-            "EllosEllasUstedes": "trepararán"
+            "Yo": "treparé",
+            "Tu": "treparás",
+            "ElEllaUsted": "trepará",
+            "Nosotros": "treparemos",
+            "Vosotros": "treparéis",
+            "EllosEllasUstedes": "treparán"
         }
     },
     "Subjunctive": null,

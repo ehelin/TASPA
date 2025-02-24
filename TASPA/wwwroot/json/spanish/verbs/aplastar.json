@@ -3,44 +3,44 @@
     "PastParticiple": "aplastado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "aplastaro",
-            "Tu": "aplastaras",
-            "ElEllaUsted": "aplastara",
-            "Nosotros": "aplastaramos",
-            "Vosotros": "aplastaráis",
-            "EllosEllasUstedes": "aplastaran"
+            "Yo": "aplasto",
+            "Tu": "aplastas",
+            "ElEllaUsted": "aplasta",
+            "Nosotros": "aplastamos",
+            "Vosotros": "aplastáis",
+            "EllosEllasUstedes": "aplastan"
         },
         "Pretérito": {
-            "Yo": "aplastaré",
-            "Tu": "aplastaraste",
-            "ElEllaUsted": "aplastaró",
-            "Nosotros": "aplastaramos",
-            "Vosotros": "aplastarasteis",
-            "EllosEllasUstedes": "aplastararon"
+            "Yo": "aplasté",
+            "Tu": "aplastaste",
+            "ElEllaUsted": "aplastó",
+            "Nosotros": "aplastamos",
+            "Vosotros": "aplastasteis",
+            "EllosEllasUstedes": "aplastaron"
         },
         "Imperfect": {
-            "Yo": "aplastaraba",
-            "Tu": "aplastarabas",
-            "ElEllaUsted": "aplastaraba",
-            "Nosotros": "aplastarábamos",
-            "Vosotros": "aplastarabais",
-            "EllosEllasUstedes": "aplastaraban"
+            "Yo": "aplastaba",
+            "Tu": "aplastabas",
+            "ElEllaUsted": "aplastaba",
+            "Nosotros": "aplastábamos",
+            "Vosotros": "aplastabais",
+            "EllosEllasUstedes": "aplastaban"
         },
         "Conditional": {
-            "Yo": "aplastararía",
-            "Tu": "aplastararías",
-            "ElEllaUsted": "aplastararía",
-            "Nosotros": "aplastararíamos",
-            "Vosotros": "aplastararíais",
-            "EllosEllasUstedes": "aplastararían"
+            "Yo": "aplastaría",
+            "Tu": "aplastarías",
+            "ElEllaUsted": "aplastaría",
+            "Nosotros": "aplastaríamos",
+            "Vosotros": "aplastaríais",
+            "EllosEllasUstedes": "aplastarían"
         },
         "Future": {
-            "Yo": "aplastararé",
-            "Tu": "aplastararás",
-            "ElEllaUsted": "aplastarará",
-            "Nosotros": "aplastararemos",
-            "Vosotros": "aplastararéis",
-            "EllosEllasUstedes": "aplastararán"
+            "Yo": "aplastaré",
+            "Tu": "aplastarás",
+            "ElEllaUsted": "aplastará",
+            "Nosotros": "aplastaremos",
+            "Vosotros": "aplastaréis",
+            "EllosEllasUstedes": "aplastarán"
         }
     },
     "Subjunctive": null,

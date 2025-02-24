@@ -3,44 +3,44 @@
     "PastParticiple": "mendigado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "mendigaro",
-            "Tu": "mendigaras",
-            "ElEllaUsted": "mendigara",
-            "Nosotros": "mendigaramos",
-            "Vosotros": "mendigaráis",
-            "EllosEllasUstedes": "mendigaran"
+            "Yo": "mendigo",
+            "Tu": "mendigas",
+            "ElEllaUsted": "mendiga",
+            "Nosotros": "mendigamos",
+            "Vosotros": "mendigáis",
+            "EllosEllasUstedes": "mendigan"
         },
         "Pretérito": {
-            "Yo": "mendigaré",
-            "Tu": "mendigaraste",
-            "ElEllaUsted": "mendigaró",
-            "Nosotros": "mendigaramos",
-            "Vosotros": "mendigarasteis",
-            "EllosEllasUstedes": "mendigararon"
+            "Yo": "mendigé",
+            "Tu": "mendigaste",
+            "ElEllaUsted": "mendigó",
+            "Nosotros": "mendigamos",
+            "Vosotros": "mendigasteis",
+            "EllosEllasUstedes": "mendigaron"
         },
         "Imperfect": {
-            "Yo": "mendigaraba",
-            "Tu": "mendigarabas",
-            "ElEllaUsted": "mendigaraba",
-            "Nosotros": "mendigarábamos",
-            "Vosotros": "mendigarabais",
-            "EllosEllasUstedes": "mendigaraban"
+            "Yo": "mendigaba",
+            "Tu": "mendigabas",
+            "ElEllaUsted": "mendigaba",
+            "Nosotros": "mendigábamos",
+            "Vosotros": "mendigabais",
+            "EllosEllasUstedes": "mendigaban"
         },
         "Conditional": {
-            "Yo": "mendigararía",
-            "Tu": "mendigararías",
-            "ElEllaUsted": "mendigararía",
-            "Nosotros": "mendigararíamos",
-            "Vosotros": "mendigararíais",
-            "EllosEllasUstedes": "mendigararían"
+            "Yo": "mendigaría",
+            "Tu": "mendigarías",
+            "ElEllaUsted": "mendigaría",
+            "Nosotros": "mendigaríamos",
+            "Vosotros": "mendigaríais",
+            "EllosEllasUstedes": "mendigarían"
         },
         "Future": {
-            "Yo": "mendigararé",
-            "Tu": "mendigararás",
-            "ElEllaUsted": "mendigarará",
-            "Nosotros": "mendigararemos",
-            "Vosotros": "mendigararéis",
-            "EllosEllasUstedes": "mendigararán"
+            "Yo": "mendigaré",
+            "Tu": "mendigarás",
+            "ElEllaUsted": "mendigará",
+            "Nosotros": "mendigaremos",
+            "Vosotros": "mendigaréis",
+            "EllosEllasUstedes": "mendigarán"
         }
     },
     "Subjunctive": null,

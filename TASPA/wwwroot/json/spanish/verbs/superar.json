@@ -3,44 +3,44 @@
     "PastParticiple": "superado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "superaro",
-            "Tu": "superaras",
-            "ElEllaUsted": "superara",
-            "Nosotros": "superaramos",
-            "Vosotros": "superaráis",
-            "EllosEllasUstedes": "superaran"
+            "Yo": "supero",
+            "Tu": "superas",
+            "ElEllaUsted": "supera",
+            "Nosotros": "superamos",
+            "Vosotros": "superáis",
+            "EllosEllasUstedes": "superan"
         },
         "Pretérito": {
-            "Yo": "superaré",
-            "Tu": "superaraste",
-            "ElEllaUsted": "superaró",
-            "Nosotros": "superaramos",
-            "Vosotros": "superarasteis",
-            "EllosEllasUstedes": "superararon"
+            "Yo": "superé",
+            "Tu": "superaste",
+            "ElEllaUsted": "superó",
+            "Nosotros": "superamos",
+            "Vosotros": "superasteis",
+            "EllosEllasUstedes": "superaron"
         },
         "Imperfect": {
-            "Yo": "superaraba",
-            "Tu": "superarabas",
-            "ElEllaUsted": "superaraba",
-            "Nosotros": "superarábamos",
-            "Vosotros": "superarabais",
-            "EllosEllasUstedes": "superaraban"
+            "Yo": "superaba",
+            "Tu": "superabas",
+            "ElEllaUsted": "superaba",
+            "Nosotros": "superábamos",
+            "Vosotros": "superabais",
+            "EllosEllasUstedes": "superaban"
         },
         "Conditional": {
-            "Yo": "superararía",
-            "Tu": "superararías",
-            "ElEllaUsted": "superararía",
-            "Nosotros": "superararíamos",
-            "Vosotros": "superararíais",
-            "EllosEllasUstedes": "superararían"
+            "Yo": "superaría",
+            "Tu": "superarías",
+            "ElEllaUsted": "superaría",
+            "Nosotros": "superaríamos",
+            "Vosotros": "superaríais",
+            "EllosEllasUstedes": "superarían"
         },
         "Future": {
-            "Yo": "superararé",
-            "Tu": "superararás",
-            "ElEllaUsted": "superarará",
-            "Nosotros": "superararemos",
-            "Vosotros": "superararéis",
-            "EllosEllasUstedes": "superararán"
+            "Yo": "superaré",
+            "Tu": "superarás",
+            "ElEllaUsted": "superará",
+            "Nosotros": "superaremos",
+            "Vosotros": "superaréis",
+            "EllosEllasUstedes": "superarán"
         }
     },
     "Subjunctive": null,

@@ -3,44 +3,44 @@
     "PastParticiple": "antojado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "antojaro",
-            "Tu": "antojaras",
-            "ElEllaUsted": "antojara",
-            "Nosotros": "antojaramos",
-            "Vosotros": "antojaráis",
-            "EllosEllasUstedes": "antojaran"
+            "Yo": "antojo",
+            "Tu": "antojas",
+            "ElEllaUsted": "antoja",
+            "Nosotros": "antojamos",
+            "Vosotros": "antojáis",
+            "EllosEllasUstedes": "antojan"
         },
         "Pretérito": {
-            "Yo": "antojaré",
-            "Tu": "antojaraste",
-            "ElEllaUsted": "antojaró",
-            "Nosotros": "antojaramos",
-            "Vosotros": "antojarasteis",
-            "EllosEllasUstedes": "antojararon"
+            "Yo": "antojé",
+            "Tu": "antojaste",
+            "ElEllaUsted": "antojó",
+            "Nosotros": "antojamos",
+            "Vosotros": "antojasteis",
+            "EllosEllasUstedes": "antojaron"
         },
         "Imperfect": {
-            "Yo": "antojaraba",
-            "Tu": "antojarabas",
-            "ElEllaUsted": "antojaraba",
-            "Nosotros": "antojarábamos",
-            "Vosotros": "antojarabais",
-            "EllosEllasUstedes": "antojaraban"
+            "Yo": "antojaba",
+            "Tu": "antojabas",
+            "ElEllaUsted": "antojaba",
+            "Nosotros": "antojábamos",
+            "Vosotros": "antojabais",
+            "EllosEllasUstedes": "antojaban"
         },
         "Conditional": {
-            "Yo": "antojararía",
-            "Tu": "antojararías",
-            "ElEllaUsted": "antojararía",
-            "Nosotros": "antojararíamos",
-            "Vosotros": "antojararíais",
-            "EllosEllasUstedes": "antojararían"
+            "Yo": "antojaría",
+            "Tu": "antojarías",
+            "ElEllaUsted": "antojaría",
+            "Nosotros": "antojaríamos",
+            "Vosotros": "antojaríais",
+            "EllosEllasUstedes": "antojarían"
         },
         "Future": {
-            "Yo": "antojararé",
-            "Tu": "antojararás",
-            "ElEllaUsted": "antojarará",
-            "Nosotros": "antojararemos",
-            "Vosotros": "antojararéis",
-            "EllosEllasUstedes": "antojararán"
+            "Yo": "antojaré",
+            "Tu": "antojarás",
+            "ElEllaUsted": "antojará",
+            "Nosotros": "antojaremos",
+            "Vosotros": "antojaréis",
+            "EllosEllasUstedes": "antojarán"
         }
     },
     "Subjunctive": null,

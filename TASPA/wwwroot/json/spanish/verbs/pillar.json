@@ -3,44 +3,44 @@
     "PastParticiple": "pillado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "pillaro",
-            "Tu": "pillaras",
-            "ElEllaUsted": "pillara",
-            "Nosotros": "pillaramos",
-            "Vosotros": "pillaráis",
-            "EllosEllasUstedes": "pillaran"
+            "Yo": "pillo",
+            "Tu": "pillas",
+            "ElEllaUsted": "pilla",
+            "Nosotros": "pillamos",
+            "Vosotros": "pilláis",
+            "EllosEllasUstedes": "pillan"
         },
         "Pretérito": {
-            "Yo": "pillaré",
-            "Tu": "pillaraste",
-            "ElEllaUsted": "pillaró",
-            "Nosotros": "pillaramos",
-            "Vosotros": "pillarasteis",
-            "EllosEllasUstedes": "pillararon"
+            "Yo": "pillé",
+            "Tu": "pillaste",
+            "ElEllaUsted": "pilló",
+            "Nosotros": "pillamos",
+            "Vosotros": "pillasteis",
+            "EllosEllasUstedes": "pillaron"
         },
         "Imperfect": {
-            "Yo": "pillaraba",
-            "Tu": "pillarabas",
-            "ElEllaUsted": "pillaraba",
-            "Nosotros": "pillarábamos",
-            "Vosotros": "pillarabais",
-            "EllosEllasUstedes": "pillaraban"
+            "Yo": "pillaba",
+            "Tu": "pillabas",
+            "ElEllaUsted": "pillaba",
+            "Nosotros": "pillábamos",
+            "Vosotros": "pillabais",
+            "EllosEllasUstedes": "pillaban"
         },
         "Conditional": {
-            "Yo": "pillararía",
-            "Tu": "pillararías",
-            "ElEllaUsted": "pillararía",
-            "Nosotros": "pillararíamos",
-            "Vosotros": "pillararíais",
-            "EllosEllasUstedes": "pillararían"
+            "Yo": "pillaría",
+            "Tu": "pillarías",
+            "ElEllaUsted": "pillaría",
+            "Nosotros": "pillaríamos",
+            "Vosotros": "pillaríais",
+            "EllosEllasUstedes": "pillarían"
         },
         "Future": {
-            "Yo": "pillararé",
-            "Tu": "pillararás",
-            "ElEllaUsted": "pillarará",
-            "Nosotros": "pillararemos",
-            "Vosotros": "pillararéis",
-            "EllosEllasUstedes": "pillararán"
+            "Yo": "pillaré",
+            "Tu": "pillarás",
+            "ElEllaUsted": "pillará",
+            "Nosotros": "pillaremos",
+            "Vosotros": "pillaréis",
+            "EllosEllasUstedes": "pillarán"
         }
     },
     "Subjunctive": null,

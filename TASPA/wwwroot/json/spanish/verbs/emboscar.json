@@ -3,44 +3,44 @@
     "PastParticiple": "emboscado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "emboscaro",
-            "Tu": "emboscaras",
-            "ElEllaUsted": "emboscara",
-            "Nosotros": "emboscaramos",
-            "Vosotros": "emboscaráis",
-            "EllosEllasUstedes": "emboscaran"
+            "Yo": "embosco",
+            "Tu": "emboscas",
+            "ElEllaUsted": "embosca",
+            "Nosotros": "emboscamos",
+            "Vosotros": "emboscáis",
+            "EllosEllasUstedes": "emboscan"
         },
         "Pretérito": {
-            "Yo": "emboscaré",
-            "Tu": "emboscaraste",
-            "ElEllaUsted": "emboscaró",
-            "Nosotros": "emboscaramos",
-            "Vosotros": "emboscarasteis",
-            "EllosEllasUstedes": "emboscararon"
+            "Yo": "emboscé",
+            "Tu": "emboscaste",
+            "ElEllaUsted": "emboscó",
+            "Nosotros": "emboscamos",
+            "Vosotros": "emboscasteis",
+            "EllosEllasUstedes": "emboscaron"
         },
         "Imperfect": {
-            "Yo": "emboscaraba",
-            "Tu": "emboscarabas",
-            "ElEllaUsted": "emboscaraba",
-            "Nosotros": "emboscarábamos",
-            "Vosotros": "emboscarabais",
-            "EllosEllasUstedes": "emboscaraban"
+            "Yo": "emboscaba",
+            "Tu": "emboscabas",
+            "ElEllaUsted": "emboscaba",
+            "Nosotros": "emboscábamos",
+            "Vosotros": "emboscabais",
+            "EllosEllasUstedes": "emboscaban"
         },
         "Conditional": {
-            "Yo": "emboscararía",
-            "Tu": "emboscararías",
-            "ElEllaUsted": "emboscararía",
-            "Nosotros": "emboscararíamos",
-            "Vosotros": "emboscararíais",
-            "EllosEllasUstedes": "emboscararían"
+            "Yo": "emboscaría",
+            "Tu": "emboscarías",
+            "ElEllaUsted": "emboscaría",
+            "Nosotros": "emboscaríamos",
+            "Vosotros": "emboscaríais",
+            "EllosEllasUstedes": "emboscarían"
         },
         "Future": {
-            "Yo": "emboscararé",
-            "Tu": "emboscararás",
-            "ElEllaUsted": "emboscarará",
-            "Nosotros": "emboscararemos",
-            "Vosotros": "emboscararéis",
-            "EllosEllasUstedes": "emboscararán"
+            "Yo": "emboscaré",
+            "Tu": "emboscarás",
+            "ElEllaUsted": "emboscará",
+            "Nosotros": "emboscaremos",
+            "Vosotros": "emboscaréis",
+            "EllosEllasUstedes": "emboscarán"
         }
     },
     "Subjunctive": null,

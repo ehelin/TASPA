@@ -3,44 +3,44 @@
     "PastParticiple": "cobrado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "cobraro",
-            "Tu": "cobraras",
-            "ElEllaUsted": "cobrara",
-            "Nosotros": "cobraramos",
-            "Vosotros": "cobraráis",
-            "EllosEllasUstedes": "cobraran"
+            "Yo": "cobro",
+            "Tu": "cobras",
+            "ElEllaUsted": "cobra",
+            "Nosotros": "cobramos",
+            "Vosotros": "cobráis",
+            "EllosEllasUstedes": "cobran"
         },
         "Pretérito": {
-            "Yo": "cobraré",
-            "Tu": "cobraraste",
-            "ElEllaUsted": "cobraró",
-            "Nosotros": "cobraramos",
-            "Vosotros": "cobrarasteis",
-            "EllosEllasUstedes": "cobrararon"
+            "Yo": "cobré",
+            "Tu": "cobraste",
+            "ElEllaUsted": "cobró",
+            "Nosotros": "cobramos",
+            "Vosotros": "cobrasteis",
+            "EllosEllasUstedes": "cobraron"
         },
         "Imperfect": {
-            "Yo": "cobraraba",
-            "Tu": "cobrarabas",
-            "ElEllaUsted": "cobraraba",
-            "Nosotros": "cobrarábamos",
-            "Vosotros": "cobrarabais",
-            "EllosEllasUstedes": "cobraraban"
+            "Yo": "cobraba",
+            "Tu": "cobrabas",
+            "ElEllaUsted": "cobraba",
+            "Nosotros": "cobrábamos",
+            "Vosotros": "cobrabais",
+            "EllosEllasUstedes": "cobraban"
         },
         "Conditional": {
-            "Yo": "cobrararía",
-            "Tu": "cobrararías",
-            "ElEllaUsted": "cobrararía",
-            "Nosotros": "cobrararíamos",
-            "Vosotros": "cobrararíais",
-            "EllosEllasUstedes": "cobrararían"
+            "Yo": "cobraría",
+            "Tu": "cobrarías",
+            "ElEllaUsted": "cobraría",
+            "Nosotros": "cobraríamos",
+            "Vosotros": "cobraríais",
+            "EllosEllasUstedes": "cobrarían"
         },
         "Future": {
-            "Yo": "cobrararé",
-            "Tu": "cobrararás",
-            "ElEllaUsted": "cobrarará",
-            "Nosotros": "cobrararemos",
-            "Vosotros": "cobrararéis",
-            "EllosEllasUstedes": "cobrararán"
+            "Yo": "cobraré",
+            "Tu": "cobrarás",
+            "ElEllaUsted": "cobrará",
+            "Nosotros": "cobraremos",
+            "Vosotros": "cobraréis",
+            "EllosEllasUstedes": "cobrarán"
         }
     },
     "Subjunctive": null,

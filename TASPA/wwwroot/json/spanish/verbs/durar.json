@@ -3,44 +3,44 @@
     "PastParticiple": "durado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "duraro",
-            "Tu": "duraras",
-            "ElEllaUsted": "durara",
-            "Nosotros": "duraramos",
-            "Vosotros": "duraráis",
-            "EllosEllasUstedes": "duraran"
+            "Yo": "duro",
+            "Tu": "duras",
+            "ElEllaUsted": "dura",
+            "Nosotros": "duramos",
+            "Vosotros": "duráis",
+            "EllosEllasUstedes": "duran"
         },
         "Pretérito": {
-            "Yo": "duraré",
-            "Tu": "duraraste",
-            "ElEllaUsted": "duraró",
-            "Nosotros": "duraramos",
-            "Vosotros": "durarasteis",
-            "EllosEllasUstedes": "durararon"
+            "Yo": "duré",
+            "Tu": "duraste",
+            "ElEllaUsted": "duró",
+            "Nosotros": "duramos",
+            "Vosotros": "durasteis",
+            "EllosEllasUstedes": "duraron"
         },
         "Imperfect": {
-            "Yo": "duraraba",
-            "Tu": "durarabas",
-            "ElEllaUsted": "duraraba",
-            "Nosotros": "durarábamos",
-            "Vosotros": "durarabais",
-            "EllosEllasUstedes": "duraraban"
+            "Yo": "duraba",
+            "Tu": "durabas",
+            "ElEllaUsted": "duraba",
+            "Nosotros": "durábamos",
+            "Vosotros": "durabais",
+            "EllosEllasUstedes": "duraban"
         },
         "Conditional": {
-            "Yo": "durararía",
-            "Tu": "durararías",
-            "ElEllaUsted": "durararía",
-            "Nosotros": "durararíamos",
-            "Vosotros": "durararíais",
-            "EllosEllasUstedes": "durararían"
+            "Yo": "duraría",
+            "Tu": "durarías",
+            "ElEllaUsted": "duraría",
+            "Nosotros": "duraríamos",
+            "Vosotros": "duraríais",
+            "EllosEllasUstedes": "durarían"
         },
         "Future": {
-            "Yo": "durararé",
-            "Tu": "durararás",
-            "ElEllaUsted": "durarará",
-            "Nosotros": "durararemos",
-            "Vosotros": "durararéis",
-            "EllosEllasUstedes": "durararán"
+            "Yo": "duraré",
+            "Tu": "durarás",
+            "ElEllaUsted": "durará",
+            "Nosotros": "duraremos",
+            "Vosotros": "duraréis",
+            "EllosEllasUstedes": "durarán"
         }
     },
     "Subjunctive": null,

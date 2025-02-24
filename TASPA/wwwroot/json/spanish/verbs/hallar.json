@@ -3,44 +3,44 @@
     "PastParticiple": "hallado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "hallaro",
-            "Tu": "hallaras",
-            "ElEllaUsted": "hallara",
-            "Nosotros": "hallaramos",
-            "Vosotros": "hallaráis",
-            "EllosEllasUstedes": "hallaran"
+            "Yo": "hallo",
+            "Tu": "hallas",
+            "ElEllaUsted": "halla",
+            "Nosotros": "hallamos",
+            "Vosotros": "halláis",
+            "EllosEllasUstedes": "hallan"
         },
         "Pretérito": {
-            "Yo": "hallaré",
-            "Tu": "hallaraste",
-            "ElEllaUsted": "hallaró",
-            "Nosotros": "hallaramos",
-            "Vosotros": "hallarasteis",
-            "EllosEllasUstedes": "hallararon"
+            "Yo": "hallé",
+            "Tu": "hallaste",
+            "ElEllaUsted": "halló",
+            "Nosotros": "hallamos",
+            "Vosotros": "hallasteis",
+            "EllosEllasUstedes": "hallaron"
         },
         "Imperfect": {
-            "Yo": "hallaraba",
-            "Tu": "hallarabas",
-            "ElEllaUsted": "hallaraba",
-            "Nosotros": "hallarábamos",
-            "Vosotros": "hallarabais",
-            "EllosEllasUstedes": "hallaraban"
+            "Yo": "hallaba",
+            "Tu": "hallabas",
+            "ElEllaUsted": "hallaba",
+            "Nosotros": "hallábamos",
+            "Vosotros": "hallabais",
+            "EllosEllasUstedes": "hallaban"
         },
         "Conditional": {
-            "Yo": "hallararía",
-            "Tu": "hallararías",
-            "ElEllaUsted": "hallararía",
-            "Nosotros": "hallararíamos",
-            "Vosotros": "hallararíais",
-            "EllosEllasUstedes": "hallararían"
+            "Yo": "hallaría",
+            "Tu": "hallarías",
+            "ElEllaUsted": "hallaría",
+            "Nosotros": "hallaríamos",
+            "Vosotros": "hallaríais",
+            "EllosEllasUstedes": "hallarían"
         },
         "Future": {
-            "Yo": "hallararé",
-            "Tu": "hallararás",
-            "ElEllaUsted": "hallarará",
-            "Nosotros": "hallararemos",
-            "Vosotros": "hallararéis",
-            "EllosEllasUstedes": "hallararán"
+            "Yo": "hallaré",
+            "Tu": "hallarás",
+            "ElEllaUsted": "hallará",
+            "Nosotros": "hallaremos",
+            "Vosotros": "hallaréis",
+            "EllosEllasUstedes": "hallarán"
         }
     },
     "Subjunctive": null,

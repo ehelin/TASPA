@@ -3,44 +3,44 @@
     "PastParticiple": "acatado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "acataro",
-            "Tu": "acataras",
-            "ElEllaUsted": "acatara",
-            "Nosotros": "acataramos",
-            "Vosotros": "acataráis",
-            "EllosEllasUstedes": "acataran"
+            "Yo": "acato",
+            "Tu": "acatas",
+            "ElEllaUsted": "acata",
+            "Nosotros": "acatamos",
+            "Vosotros": "acatáis",
+            "EllosEllasUstedes": "acatan"
         },
         "Pretérito": {
-            "Yo": "acataré",
-            "Tu": "acataraste",
-            "ElEllaUsted": "acataró",
-            "Nosotros": "acataramos",
-            "Vosotros": "acatarasteis",
-            "EllosEllasUstedes": "acatararon"
+            "Yo": "acaté",
+            "Tu": "acataste",
+            "ElEllaUsted": "acató",
+            "Nosotros": "acatamos",
+            "Vosotros": "acatasteis",
+            "EllosEllasUstedes": "acataron"
         },
         "Imperfect": {
-            "Yo": "acataraba",
-            "Tu": "acatarabas",
-            "ElEllaUsted": "acataraba",
-            "Nosotros": "acatarábamos",
-            "Vosotros": "acatarabais",
-            "EllosEllasUstedes": "acataraban"
+            "Yo": "acataba",
+            "Tu": "acatabas",
+            "ElEllaUsted": "acataba",
+            "Nosotros": "acatábamos",
+            "Vosotros": "acatabais",
+            "EllosEllasUstedes": "acataban"
         },
         "Conditional": {
-            "Yo": "acatararía",
-            "Tu": "acatararías",
-            "ElEllaUsted": "acatararía",
-            "Nosotros": "acatararíamos",
-            "Vosotros": "acatararíais",
-            "EllosEllasUstedes": "acatararían"
+            "Yo": "acataría",
+            "Tu": "acatarías",
+            "ElEllaUsted": "acataría",
+            "Nosotros": "acataríamos",
+            "Vosotros": "acataríais",
+            "EllosEllasUstedes": "acatarían"
         },
         "Future": {
-            "Yo": "acatararé",
-            "Tu": "acatararás",
-            "ElEllaUsted": "acatarará",
-            "Nosotros": "acatararemos",
-            "Vosotros": "acatararéis",
-            "EllosEllasUstedes": "acatararán"
+            "Yo": "acataré",
+            "Tu": "acatarás",
+            "ElEllaUsted": "acatará",
+            "Nosotros": "acataremos",
+            "Vosotros": "acataréis",
+            "EllosEllasUstedes": "acatarán"
         }
     },
     "Subjunctive": null,

@@ -3,44 +3,44 @@
     "PastParticiple": "rogado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "rogaro",
-            "Tu": "rogaras",
-            "ElEllaUsted": "rogara",
-            "Nosotros": "rogaramos",
-            "Vosotros": "rogaráis",
-            "EllosEllasUstedes": "rogaran"
+            "Yo": "rogo",
+            "Tu": "rogas",
+            "ElEllaUsted": "roga",
+            "Nosotros": "rogamos",
+            "Vosotros": "rogáis",
+            "EllosEllasUstedes": "rogan"
         },
         "Pretérito": {
-            "Yo": "rogaré",
-            "Tu": "rogaraste",
-            "ElEllaUsted": "rogaró",
-            "Nosotros": "rogaramos",
-            "Vosotros": "rogarasteis",
-            "EllosEllasUstedes": "rogararon"
+            "Yo": "rogé",
+            "Tu": "rogaste",
+            "ElEllaUsted": "rogó",
+            "Nosotros": "rogamos",
+            "Vosotros": "rogasteis",
+            "EllosEllasUstedes": "rogaron"
         },
         "Imperfect": {
-            "Yo": "rogaraba",
-            "Tu": "rogarabas",
-            "ElEllaUsted": "rogaraba",
-            "Nosotros": "rogarábamos",
-            "Vosotros": "rogarabais",
-            "EllosEllasUstedes": "rogaraban"
+            "Yo": "rogaba",
+            "Tu": "rogabas",
+            "ElEllaUsted": "rogaba",
+            "Nosotros": "rogábamos",
+            "Vosotros": "rogabais",
+            "EllosEllasUstedes": "rogaban"
         },
         "Conditional": {
-            "Yo": "rogararía",
-            "Tu": "rogararías",
-            "ElEllaUsted": "rogararía",
-            "Nosotros": "rogararíamos",
-            "Vosotros": "rogararíais",
-            "EllosEllasUstedes": "rogararían"
+            "Yo": "rogaría",
+            "Tu": "rogarías",
+            "ElEllaUsted": "rogaría",
+            "Nosotros": "rogaríamos",
+            "Vosotros": "rogaríais",
+            "EllosEllasUstedes": "rogarían"
         },
         "Future": {
-            "Yo": "rogararé",
-            "Tu": "rogararás",
-            "ElEllaUsted": "rogarará",
-            "Nosotros": "rogararemos",
-            "Vosotros": "rogararéis",
-            "EllosEllasUstedes": "rogararán"
+            "Yo": "rogaré",
+            "Tu": "rogarás",
+            "ElEllaUsted": "rogará",
+            "Nosotros": "rogaremos",
+            "Vosotros": "rogaréis",
+            "EllosEllasUstedes": "rogarán"
         }
     },
     "Subjunctive": null,

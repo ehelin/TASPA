@@ -3,44 +3,44 @@
     "PastParticiple": "alabado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "alabaro",
-            "Tu": "alabaras",
-            "ElEllaUsted": "alabara",
-            "Nosotros": "alabaramos",
-            "Vosotros": "alabaráis",
-            "EllosEllasUstedes": "alabaran"
+            "Yo": "alabo",
+            "Tu": "alabas",
+            "ElEllaUsted": "alaba",
+            "Nosotros": "alabamos",
+            "Vosotros": "alabáis",
+            "EllosEllasUstedes": "alaban"
         },
         "Pretérito": {
-            "Yo": "alabaré",
-            "Tu": "alabaraste",
-            "ElEllaUsted": "alabaró",
-            "Nosotros": "alabaramos",
-            "Vosotros": "alabarasteis",
-            "EllosEllasUstedes": "alabararon"
+            "Yo": "alabé",
+            "Tu": "alabaste",
+            "ElEllaUsted": "alabó",
+            "Nosotros": "alabamos",
+            "Vosotros": "alabasteis",
+            "EllosEllasUstedes": "alabaron"
         },
         "Imperfect": {
-            "Yo": "alabaraba",
-            "Tu": "alabarabas",
-            "ElEllaUsted": "alabaraba",
-            "Nosotros": "alabarábamos",
-            "Vosotros": "alabarabais",
-            "EllosEllasUstedes": "alabaraban"
+            "Yo": "alababa",
+            "Tu": "alababas",
+            "ElEllaUsted": "alababa",
+            "Nosotros": "alabábamos",
+            "Vosotros": "alababais",
+            "EllosEllasUstedes": "alababan"
         },
         "Conditional": {
-            "Yo": "alabararía",
-            "Tu": "alabararías",
-            "ElEllaUsted": "alabararía",
-            "Nosotros": "alabararíamos",
-            "Vosotros": "alabararíais",
-            "EllosEllasUstedes": "alabararían"
+            "Yo": "alabaría",
+            "Tu": "alabarías",
+            "ElEllaUsted": "alabaría",
+            "Nosotros": "alabaríamos",
+            "Vosotros": "alabaríais",
+            "EllosEllasUstedes": "alabarían"
         },
         "Future": {
-            "Yo": "alabararé",
-            "Tu": "alabararás",
-            "ElEllaUsted": "alabarará",
-            "Nosotros": "alabararemos",
-            "Vosotros": "alabararéis",
-            "EllosEllasUstedes": "alabararán"
+            "Yo": "alabaré",
+            "Tu": "alabarás",
+            "ElEllaUsted": "alabará",
+            "Nosotros": "alabaremos",
+            "Vosotros": "alabaréis",
+            "EllosEllasUstedes": "alabarán"
         }
     },
     "Subjunctive": null,

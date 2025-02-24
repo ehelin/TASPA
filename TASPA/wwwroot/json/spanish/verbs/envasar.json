@@ -3,44 +3,44 @@
     "PastParticiple": "envasado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "envasaro",
-            "Tu": "envasaras",
-            "ElEllaUsted": "envasara",
-            "Nosotros": "envasaramos",
-            "Vosotros": "envasaráis",
-            "EllosEllasUstedes": "envasaran"
+            "Yo": "envaso",
+            "Tu": "envasas",
+            "ElEllaUsted": "envasa",
+            "Nosotros": "envasamos",
+            "Vosotros": "envasáis",
+            "EllosEllasUstedes": "envasan"
         },
         "Pretérito": {
-            "Yo": "envasaré",
-            "Tu": "envasaraste",
-            "ElEllaUsted": "envasaró",
-            "Nosotros": "envasaramos",
-            "Vosotros": "envasarasteis",
-            "EllosEllasUstedes": "envasararon"
+            "Yo": "envasé",
+            "Tu": "envasaste",
+            "ElEllaUsted": "envasó",
+            "Nosotros": "envasamos",
+            "Vosotros": "envasasteis",
+            "EllosEllasUstedes": "envasaron"
         },
         "Imperfect": {
-            "Yo": "envasaraba",
-            "Tu": "envasarabas",
-            "ElEllaUsted": "envasaraba",
-            "Nosotros": "envasarábamos",
-            "Vosotros": "envasarabais",
-            "EllosEllasUstedes": "envasaraban"
+            "Yo": "envasaba",
+            "Tu": "envasabas",
+            "ElEllaUsted": "envasaba",
+            "Nosotros": "envasábamos",
+            "Vosotros": "envasabais",
+            "EllosEllasUstedes": "envasaban"
         },
         "Conditional": {
-            "Yo": "envasararía",
-            "Tu": "envasararías",
-            "ElEllaUsted": "envasararía",
-            "Nosotros": "envasararíamos",
-            "Vosotros": "envasararíais",
-            "EllosEllasUstedes": "envasararían"
+            "Yo": "envasaría",
+            "Tu": "envasarías",
+            "ElEllaUsted": "envasaría",
+            "Nosotros": "envasaríamos",
+            "Vosotros": "envasaríais",
+            "EllosEllasUstedes": "envasarían"
         },
         "Future": {
-            "Yo": "envasararé",
-            "Tu": "envasararás",
-            "ElEllaUsted": "envasarará",
-            "Nosotros": "envasararemos",
-            "Vosotros": "envasararéis",
-            "EllosEllasUstedes": "envasararán"
+            "Yo": "envasaré",
+            "Tu": "envasarás",
+            "ElEllaUsted": "envasará",
+            "Nosotros": "envasaremos",
+            "Vosotros": "envasaréis",
+            "EllosEllasUstedes": "envasarán"
         }
     },
     "Subjunctive": null,

@@ -3,44 +3,44 @@
     "PastParticiple": "aprovechado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "aprovecharo",
-            "Tu": "aprovecharas",
-            "ElEllaUsted": "aprovechara",
-            "Nosotros": "aprovecharamos",
-            "Vosotros": "aprovecharáis",
-            "EllosEllasUstedes": "aprovecharan"
+            "Yo": "aprovecho",
+            "Tu": "aprovechas",
+            "ElEllaUsted": "aprovecha",
+            "Nosotros": "aprovechamos",
+            "Vosotros": "aprovecháis",
+            "EllosEllasUstedes": "aprovechan"
         },
         "Pretérito": {
-            "Yo": "aprovecharé",
-            "Tu": "aprovecharaste",
-            "ElEllaUsted": "aprovecharó",
-            "Nosotros": "aprovecharamos",
-            "Vosotros": "aprovecharasteis",
-            "EllosEllasUstedes": "aprovechararon"
+            "Yo": "aproveché",
+            "Tu": "aprovechaste",
+            "ElEllaUsted": "aprovechó",
+            "Nosotros": "aprovechamos",
+            "Vosotros": "aprovechasteis",
+            "EllosEllasUstedes": "aprovecharon"
         },
         "Imperfect": {
-            "Yo": "aprovecharaba",
-            "Tu": "aprovecharabas",
-            "ElEllaUsted": "aprovecharaba",
-            "Nosotros": "aprovecharábamos",
-            "Vosotros": "aprovecharabais",
-            "EllosEllasUstedes": "aprovecharaban"
+            "Yo": "aprovechaba",
+            "Tu": "aprovechabas",
+            "ElEllaUsted": "aprovechaba",
+            "Nosotros": "aprovechábamos",
+            "Vosotros": "aprovechabais",
+            "EllosEllasUstedes": "aprovechaban"
         },
         "Conditional": {
-            "Yo": "aprovechararía",
-            "Tu": "aprovechararías",
-            "ElEllaUsted": "aprovechararía",
-            "Nosotros": "aprovechararíamos",
-            "Vosotros": "aprovechararíais",
-            "EllosEllasUstedes": "aprovechararían"
+            "Yo": "aprovecharía",
+            "Tu": "aprovecharías",
+            "ElEllaUsted": "aprovecharía",
+            "Nosotros": "aprovecharíamos",
+            "Vosotros": "aprovecharíais",
+            "EllosEllasUstedes": "aprovecharían"
         },
         "Future": {
-            "Yo": "aprovechararé",
-            "Tu": "aprovechararás",
-            "ElEllaUsted": "aprovecharará",
-            "Nosotros": "aprovechararemos",
-            "Vosotros": "aprovechararéis",
-            "EllosEllasUstedes": "aprovechararán"
+            "Yo": "aprovecharé",
+            "Tu": "aprovecharás",
+            "ElEllaUsted": "aprovechará",
+            "Nosotros": "aprovecharemos",
+            "Vosotros": "aprovecharéis",
+            "EllosEllasUstedes": "aprovecharán"
         }
     },
     "Subjunctive": null,

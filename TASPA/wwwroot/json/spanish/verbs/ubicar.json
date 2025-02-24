@@ -3,44 +3,44 @@
     "PastParticiple": "ubicado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "ubicaro",
-            "Tu": "ubicaras",
-            "ElEllaUsted": "ubicara",
-            "Nosotros": "ubicaramos",
-            "Vosotros": "ubicaráis",
-            "EllosEllasUstedes": "ubicaran"
+            "Yo": "ubico",
+            "Tu": "ubicas",
+            "ElEllaUsted": "ubica",
+            "Nosotros": "ubicamos",
+            "Vosotros": "ubicáis",
+            "EllosEllasUstedes": "ubican"
         },
         "Pretérito": {
-            "Yo": "ubicaré",
-            "Tu": "ubicaraste",
-            "ElEllaUsted": "ubicaró",
-            "Nosotros": "ubicaramos",
-            "Vosotros": "ubicarasteis",
-            "EllosEllasUstedes": "ubicararon"
+            "Yo": "ubicé",
+            "Tu": "ubicaste",
+            "ElEllaUsted": "ubicó",
+            "Nosotros": "ubicamos",
+            "Vosotros": "ubicasteis",
+            "EllosEllasUstedes": "ubicaron"
         },
         "Imperfect": {
-            "Yo": "ubicaraba",
-            "Tu": "ubicarabas",
-            "ElEllaUsted": "ubicaraba",
-            "Nosotros": "ubicarábamos",
-            "Vosotros": "ubicarabais",
-            "EllosEllasUstedes": "ubicaraban"
+            "Yo": "ubicaba",
+            "Tu": "ubicabas",
+            "ElEllaUsted": "ubicaba",
+            "Nosotros": "ubicábamos",
+            "Vosotros": "ubicabais",
+            "EllosEllasUstedes": "ubicaban"
         },
         "Conditional": {
-            "Yo": "ubicararía",
-            "Tu": "ubicararías",
-            "ElEllaUsted": "ubicararía",
-            "Nosotros": "ubicararíamos",
-            "Vosotros": "ubicararíais",
-            "EllosEllasUstedes": "ubicararían"
+            "Yo": "ubicaría",
+            "Tu": "ubicarías",
+            "ElEllaUsted": "ubicaría",
+            "Nosotros": "ubicaríamos",
+            "Vosotros": "ubicaríais",
+            "EllosEllasUstedes": "ubicarían"
         },
         "Future": {
-            "Yo": "ubicararé",
-            "Tu": "ubicararás",
-            "ElEllaUsted": "ubicarará",
-            "Nosotros": "ubicararemos",
-            "Vosotros": "ubicararéis",
-            "EllosEllasUstedes": "ubicararán"
+            "Yo": "ubicaré",
+            "Tu": "ubicarás",
+            "ElEllaUsted": "ubicará",
+            "Nosotros": "ubicaremos",
+            "Vosotros": "ubicaréis",
+            "EllosEllasUstedes": "ubicarán"
         }
     },
     "Subjunctive": null,

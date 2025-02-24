@@ -3,44 +3,44 @@
     "PastParticiple": "edificado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "edificaro",
-            "Tu": "edificaras",
-            "ElEllaUsted": "edificara",
-            "Nosotros": "edificaramos",
-            "Vosotros": "edificaráis",
-            "EllosEllasUstedes": "edificaran"
+            "Yo": "edifico",
+            "Tu": "edificas",
+            "ElEllaUsted": "edifica",
+            "Nosotros": "edificamos",
+            "Vosotros": "edificáis",
+            "EllosEllasUstedes": "edifican"
         },
         "Pretérito": {
-            "Yo": "edificaré",
-            "Tu": "edificaraste",
-            "ElEllaUsted": "edificaró",
-            "Nosotros": "edificaramos",
-            "Vosotros": "edificarasteis",
-            "EllosEllasUstedes": "edificararon"
+            "Yo": "edificé",
+            "Tu": "edificaste",
+            "ElEllaUsted": "edificó",
+            "Nosotros": "edificamos",
+            "Vosotros": "edificasteis",
+            "EllosEllasUstedes": "edificaron"
         },
         "Imperfect": {
-            "Yo": "edificaraba",
-            "Tu": "edificarabas",
-            "ElEllaUsted": "edificaraba",
-            "Nosotros": "edificarábamos",
-            "Vosotros": "edificarabais",
-            "EllosEllasUstedes": "edificaraban"
+            "Yo": "edificaba",
+            "Tu": "edificabas",
+            "ElEllaUsted": "edificaba",
+            "Nosotros": "edificábamos",
+            "Vosotros": "edificabais",
+            "EllosEllasUstedes": "edificaban"
         },
         "Conditional": {
-            "Yo": "edificararía",
-            "Tu": "edificararías",
-            "ElEllaUsted": "edificararía",
-            "Nosotros": "edificararíamos",
-            "Vosotros": "edificararíais",
-            "EllosEllasUstedes": "edificararían"
+            "Yo": "edificaría",
+            "Tu": "edificarías",
+            "ElEllaUsted": "edificaría",
+            "Nosotros": "edificaríamos",
+            "Vosotros": "edificaríais",
+            "EllosEllasUstedes": "edificarían"
         },
         "Future": {
-            "Yo": "edificararé",
-            "Tu": "edificararás",
-            "ElEllaUsted": "edificarará",
-            "Nosotros": "edificararemos",
-            "Vosotros": "edificararéis",
-            "EllosEllasUstedes": "edificararán"
+            "Yo": "edificaré",
+            "Tu": "edificarás",
+            "ElEllaUsted": "edificará",
+            "Nosotros": "edificaremos",
+            "Vosotros": "edificaréis",
+            "EllosEllasUstedes": "edificarán"
         }
     },
     "Subjunctive": null,

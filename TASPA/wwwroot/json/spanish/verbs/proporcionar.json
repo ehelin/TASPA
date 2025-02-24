@@ -3,44 +3,44 @@
     "PastParticiple": "proporcionado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "proporcionaro",
-            "Tu": "proporcionaras",
-            "ElEllaUsted": "proporcionara",
-            "Nosotros": "proporcionaramos",
-            "Vosotros": "proporcionaráis",
-            "EllosEllasUstedes": "proporcionaran"
+            "Yo": "proporciono",
+            "Tu": "proporcionas",
+            "ElEllaUsted": "proporciona",
+            "Nosotros": "proporcionamos",
+            "Vosotros": "proporcionáis",
+            "EllosEllasUstedes": "proporcionan"
         },
         "Pretérito": {
-            "Yo": "proporcionaré",
-            "Tu": "proporcionaraste",
-            "ElEllaUsted": "proporcionaró",
-            "Nosotros": "proporcionaramos",
-            "Vosotros": "proporcionarasteis",
-            "EllosEllasUstedes": "proporcionararon"
+            "Yo": "proporcioné",
+            "Tu": "proporcionaste",
+            "ElEllaUsted": "proporcionó",
+            "Nosotros": "proporcionamos",
+            "Vosotros": "proporcionasteis",
+            "EllosEllasUstedes": "proporcionaron"
         },
         "Imperfect": {
-            "Yo": "proporcionaraba",
-            "Tu": "proporcionarabas",
-            "ElEllaUsted": "proporcionaraba",
-            "Nosotros": "proporcionarábamos",
-            "Vosotros": "proporcionarabais",
-            "EllosEllasUstedes": "proporcionaraban"
+            "Yo": "proporcionaba",
+            "Tu": "proporcionabas",
+            "ElEllaUsted": "proporcionaba",
+            "Nosotros": "proporcionábamos",
+            "Vosotros": "proporcionabais",
+            "EllosEllasUstedes": "proporcionaban"
         },
         "Conditional": {
-            "Yo": "proporcionararía",
-            "Tu": "proporcionararías",
-            "ElEllaUsted": "proporcionararía",
-            "Nosotros": "proporcionararíamos",
-            "Vosotros": "proporcionararíais",
-            "EllosEllasUstedes": "proporcionararían"
+            "Yo": "proporcionaría",
+            "Tu": "proporcionarías",
+            "ElEllaUsted": "proporcionaría",
+            "Nosotros": "proporcionaríamos",
+            "Vosotros": "proporcionaríais",
+            "EllosEllasUstedes": "proporcionarían"
         },
         "Future": {
-            "Yo": "proporcionararé",
-            "Tu": "proporcionararás",
-            "ElEllaUsted": "proporcionarará",
-            "Nosotros": "proporcionararemos",
-            "Vosotros": "proporcionararéis",
-            "EllosEllasUstedes": "proporcionararán"
+            "Yo": "proporcionaré",
+            "Tu": "proporcionarás",
+            "ElEllaUsted": "proporcionará",
+            "Nosotros": "proporcionaremos",
+            "Vosotros": "proporcionaréis",
+            "EllosEllasUstedes": "proporcionarán"
         }
     },
     "Subjunctive": null,

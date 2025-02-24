@@ -3,44 +3,44 @@
     "PastParticiple": "vetado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "vetaro",
-            "Tu": "vetaras",
-            "ElEllaUsted": "vetara",
-            "Nosotros": "vetaramos",
-            "Vosotros": "vetaráis",
-            "EllosEllasUstedes": "vetaran"
+            "Yo": "veto",
+            "Tu": "vetas",
+            "ElEllaUsted": "veta",
+            "Nosotros": "vetamos",
+            "Vosotros": "vetáis",
+            "EllosEllasUstedes": "vetan"
         },
         "Pretérito": {
-            "Yo": "vetaré",
-            "Tu": "vetaraste",
-            "ElEllaUsted": "vetaró",
-            "Nosotros": "vetaramos",
-            "Vosotros": "vetarasteis",
-            "EllosEllasUstedes": "vetararon"
+            "Yo": "veté",
+            "Tu": "vetaste",
+            "ElEllaUsted": "vetó",
+            "Nosotros": "vetamos",
+            "Vosotros": "vetasteis",
+            "EllosEllasUstedes": "vetaron"
         },
         "Imperfect": {
-            "Yo": "vetaraba",
-            "Tu": "vetarabas",
-            "ElEllaUsted": "vetaraba",
-            "Nosotros": "vetarábamos",
-            "Vosotros": "vetarabais",
-            "EllosEllasUstedes": "vetaraban"
+            "Yo": "vetaba",
+            "Tu": "vetabas",
+            "ElEllaUsted": "vetaba",
+            "Nosotros": "vetábamos",
+            "Vosotros": "vetabais",
+            "EllosEllasUstedes": "vetaban"
         },
         "Conditional": {
-            "Yo": "vetararía",
-            "Tu": "vetararías",
-            "ElEllaUsted": "vetararía",
-            "Nosotros": "vetararíamos",
-            "Vosotros": "vetararíais",
-            "EllosEllasUstedes": "vetararían"
+            "Yo": "vetaría",
+            "Tu": "vetarías",
+            "ElEllaUsted": "vetaría",
+            "Nosotros": "vetaríamos",
+            "Vosotros": "vetaríais",
+            "EllosEllasUstedes": "vetarían"
         },
         "Future": {
-            "Yo": "vetararé",
-            "Tu": "vetararás",
-            "ElEllaUsted": "vetarará",
-            "Nosotros": "vetararemos",
-            "Vosotros": "vetararéis",
-            "EllosEllasUstedes": "vetararán"
+            "Yo": "vetaré",
+            "Tu": "vetarás",
+            "ElEllaUsted": "vetará",
+            "Nosotros": "vetaremos",
+            "Vosotros": "vetaréis",
+            "EllosEllasUstedes": "vetarán"
         }
     },
     "Subjunctive": null,

@@ -3,44 +3,44 @@
     "PastParticiple": "agendado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "agendaro",
-            "Tu": "agendaras",
-            "ElEllaUsted": "agendara",
-            "Nosotros": "agendaramos",
-            "Vosotros": "agendaráis",
-            "EllosEllasUstedes": "agendaran"
+            "Yo": "agendo",
+            "Tu": "agendas",
+            "ElEllaUsted": "agenda",
+            "Nosotros": "agendamos",
+            "Vosotros": "agendáis",
+            "EllosEllasUstedes": "agendan"
         },
         "Pretérito": {
-            "Yo": "agendaré",
-            "Tu": "agendaraste",
-            "ElEllaUsted": "agendaró",
-            "Nosotros": "agendaramos",
-            "Vosotros": "agendarasteis",
-            "EllosEllasUstedes": "agendararon"
+            "Yo": "agendé",
+            "Tu": "agendaste",
+            "ElEllaUsted": "agendó",
+            "Nosotros": "agendamos",
+            "Vosotros": "agendasteis",
+            "EllosEllasUstedes": "agendaron"
         },
         "Imperfect": {
-            "Yo": "agendaraba",
-            "Tu": "agendarabas",
-            "ElEllaUsted": "agendaraba",
-            "Nosotros": "agendarábamos",
-            "Vosotros": "agendarabais",
-            "EllosEllasUstedes": "agendaraban"
+            "Yo": "agendaba",
+            "Tu": "agendabas",
+            "ElEllaUsted": "agendaba",
+            "Nosotros": "agendábamos",
+            "Vosotros": "agendabais",
+            "EllosEllasUstedes": "agendaban"
         },
         "Conditional": {
-            "Yo": "agendararía",
-            "Tu": "agendararías",
-            "ElEllaUsted": "agendararía",
-            "Nosotros": "agendararíamos",
-            "Vosotros": "agendararíais",
-            "EllosEllasUstedes": "agendararían"
+            "Yo": "agendaría",
+            "Tu": "agendarías",
+            "ElEllaUsted": "agendaría",
+            "Nosotros": "agendaríamos",
+            "Vosotros": "agendaríais",
+            "EllosEllasUstedes": "agendarían"
         },
         "Future": {
-            "Yo": "agendararé",
-            "Tu": "agendararás",
-            "ElEllaUsted": "agendarará",
-            "Nosotros": "agendararemos",
-            "Vosotros": "agendararéis",
-            "EllosEllasUstedes": "agendararán"
+            "Yo": "agendaré",
+            "Tu": "agendarás",
+            "ElEllaUsted": "agendará",
+            "Nosotros": "agendaremos",
+            "Vosotros": "agendaréis",
+            "EllosEllasUstedes": "agendarán"
         }
     },
     "Subjunctive": null,

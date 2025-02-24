@@ -175,6 +175,8 @@ namespace BLL
 
             else if (listName == "clothing") { return this.taspaDataService.GetVocabularyList_GetClothing(); }
             else if (listName == "colors") { return this.taspaDataService.GetVocabularyList_GetColors(); }
+            else if (listName == "charades") { return this.taspaDataService.GetCharadesList(); }
+
             else if (listName == "familymembers") { return this.taspaDataService.GetVocabularyList_GetFamilyMembers(); }
 
             else if (listName == "fruits") { return this.taspaDataService.GetVocabularyList_GetFruits(); }

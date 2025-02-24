@@ -3,44 +3,44 @@
     "PastParticiple": "concordado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "concordaro",
-            "Tu": "concordaras",
-            "ElEllaUsted": "concordara",
-            "Nosotros": "concordaramos",
-            "Vosotros": "concordaráis",
-            "EllosEllasUstedes": "concordaran"
+            "Yo": "concordo",
+            "Tu": "concordas",
+            "ElEllaUsted": "concorda",
+            "Nosotros": "concordamos",
+            "Vosotros": "concordáis",
+            "EllosEllasUstedes": "concordan"
         },
         "Pretérito": {
-            "Yo": "concordaré",
-            "Tu": "concordaraste",
-            "ElEllaUsted": "concordaró",
-            "Nosotros": "concordaramos",
-            "Vosotros": "concordarasteis",
-            "EllosEllasUstedes": "concordararon"
+            "Yo": "concordé",
+            "Tu": "concordaste",
+            "ElEllaUsted": "concordó",
+            "Nosotros": "concordamos",
+            "Vosotros": "concordasteis",
+            "EllosEllasUstedes": "concordaron"
         },
         "Imperfect": {
-            "Yo": "concordaraba",
-            "Tu": "concordarabas",
-            "ElEllaUsted": "concordaraba",
-            "Nosotros": "concordarábamos",
-            "Vosotros": "concordarabais",
-            "EllosEllasUstedes": "concordaraban"
+            "Yo": "concordaba",
+            "Tu": "concordabas",
+            "ElEllaUsted": "concordaba",
+            "Nosotros": "concordábamos",
+            "Vosotros": "concordabais",
+            "EllosEllasUstedes": "concordaban"
         },
         "Conditional": {
-            "Yo": "concordararía",
-            "Tu": "concordararías",
-            "ElEllaUsted": "concordararía",
-            "Nosotros": "concordararíamos",
-            "Vosotros": "concordararíais",
-            "EllosEllasUstedes": "concordararían"
+            "Yo": "concordaría",
+            "Tu": "concordarías",
+            "ElEllaUsted": "concordaría",
+            "Nosotros": "concordaríamos",
+            "Vosotros": "concordaríais",
+            "EllosEllasUstedes": "concordarían"
         },
         "Future": {
-            "Yo": "concordararé",
-            "Tu": "concordararás",
-            "ElEllaUsted": "concordarará",
-            "Nosotros": "concordararemos",
-            "Vosotros": "concordararéis",
-            "EllosEllasUstedes": "concordararán"
+            "Yo": "concordaré",
+            "Tu": "concordarás",
+            "ElEllaUsted": "concordará",
+            "Nosotros": "concordaremos",
+            "Vosotros": "concordaréis",
+            "EllosEllasUstedes": "concordarán"
         }
     },
     "Subjunctive": null,

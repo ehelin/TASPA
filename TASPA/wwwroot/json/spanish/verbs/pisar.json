@@ -3,44 +3,44 @@
     "PastParticiple": "pisado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "pisaro",
-            "Tu": "pisaras",
-            "ElEllaUsted": "pisara",
-            "Nosotros": "pisaramos",
-            "Vosotros": "pisaráis",
-            "EllosEllasUstedes": "pisaran"
+            "Yo": "piso",
+            "Tu": "pisas",
+            "ElEllaUsted": "pisa",
+            "Nosotros": "pisamos",
+            "Vosotros": "pisáis",
+            "EllosEllasUstedes": "pisan"
         },
         "Pretérito": {
-            "Yo": "pisaré",
-            "Tu": "pisaraste",
-            "ElEllaUsted": "pisaró",
-            "Nosotros": "pisaramos",
-            "Vosotros": "pisarasteis",
-            "EllosEllasUstedes": "pisararon"
+            "Yo": "pisé",
+            "Tu": "pisaste",
+            "ElEllaUsted": "pisó",
+            "Nosotros": "pisamos",
+            "Vosotros": "pisasteis",
+            "EllosEllasUstedes": "pisaron"
         },
         "Imperfect": {
-            "Yo": "pisaraba",
-            "Tu": "pisarabas",
-            "ElEllaUsted": "pisaraba",
-            "Nosotros": "pisarábamos",
-            "Vosotros": "pisarabais",
-            "EllosEllasUstedes": "pisaraban"
+            "Yo": "pisaba",
+            "Tu": "pisabas",
+            "ElEllaUsted": "pisaba",
+            "Nosotros": "pisábamos",
+            "Vosotros": "pisabais",
+            "EllosEllasUstedes": "pisaban"
         },
         "Conditional": {
-            "Yo": "pisararía",
-            "Tu": "pisararías",
-            "ElEllaUsted": "pisararía",
-            "Nosotros": "pisararíamos",
-            "Vosotros": "pisararíais",
-            "EllosEllasUstedes": "pisararían"
+            "Yo": "pisaría",
+            "Tu": "pisarías",
+            "ElEllaUsted": "pisaría",
+            "Nosotros": "pisaríamos",
+            "Vosotros": "pisaríais",
+            "EllosEllasUstedes": "pisarían"
         },
         "Future": {
-            "Yo": "pisararé",
-            "Tu": "pisararás",
-            "ElEllaUsted": "pisarará",
-            "Nosotros": "pisararemos",
-            "Vosotros": "pisararéis",
-            "EllosEllasUstedes": "pisararán"
+            "Yo": "pisaré",
+            "Tu": "pisarás",
+            "ElEllaUsted": "pisará",
+            "Nosotros": "pisaremos",
+            "Vosotros": "pisaréis",
+            "EllosEllasUstedes": "pisarán"
         }
     },
     "Subjunctive": null,

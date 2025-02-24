@@ -3,44 +3,44 @@
     "PastParticiple": "heredado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "heredaro",
-            "Tu": "heredaras",
-            "ElEllaUsted": "heredara",
-            "Nosotros": "heredaramos",
-            "Vosotros": "heredaráis",
-            "EllosEllasUstedes": "heredaran"
+            "Yo": "heredo",
+            "Tu": "heredas",
+            "ElEllaUsted": "hereda",
+            "Nosotros": "heredamos",
+            "Vosotros": "heredáis",
+            "EllosEllasUstedes": "heredan"
         },
         "Pretérito": {
-            "Yo": "heredaré",
-            "Tu": "heredaraste",
-            "ElEllaUsted": "heredaró",
-            "Nosotros": "heredaramos",
-            "Vosotros": "heredarasteis",
-            "EllosEllasUstedes": "heredararon"
+            "Yo": "heredé",
+            "Tu": "heredaste",
+            "ElEllaUsted": "heredó",
+            "Nosotros": "heredamos",
+            "Vosotros": "heredasteis",
+            "EllosEllasUstedes": "heredaron"
         },
         "Imperfect": {
-            "Yo": "heredaraba",
-            "Tu": "heredarabas",
-            "ElEllaUsted": "heredaraba",
-            "Nosotros": "heredarábamos",
-            "Vosotros": "heredarabais",
-            "EllosEllasUstedes": "heredaraban"
+            "Yo": "heredaba",
+            "Tu": "heredabas",
+            "ElEllaUsted": "heredaba",
+            "Nosotros": "heredábamos",
+            "Vosotros": "heredabais",
+            "EllosEllasUstedes": "heredaban"
         },
         "Conditional": {
-            "Yo": "heredararía",
-            "Tu": "heredararías",
-            "ElEllaUsted": "heredararía",
-            "Nosotros": "heredararíamos",
-            "Vosotros": "heredararíais",
-            "EllosEllasUstedes": "heredararían"
+            "Yo": "heredaría",
+            "Tu": "heredarías",
+            "ElEllaUsted": "heredaría",
+            "Nosotros": "heredaríamos",
+            "Vosotros": "heredaríais",
+            "EllosEllasUstedes": "heredarían"
         },
         "Future": {
-            "Yo": "heredararé",
-            "Tu": "heredararás",
-            "ElEllaUsted": "heredarará",
-            "Nosotros": "heredararemos",
-            "Vosotros": "heredararéis",
-            "EllosEllasUstedes": "heredararán"
+            "Yo": "heredaré",
+            "Tu": "heredarás",
+            "ElEllaUsted": "heredará",
+            "Nosotros": "heredaremos",
+            "Vosotros": "heredaréis",
+            "EllosEllasUstedes": "heredarán"
         }
     },
     "Subjunctive": null,

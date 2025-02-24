@@ -3,44 +3,44 @@
     "PastParticiple": "tramado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "tramaro",
-            "Tu": "tramaras",
-            "ElEllaUsted": "tramara",
-            "Nosotros": "tramaramos",
-            "Vosotros": "tramaráis",
-            "EllosEllasUstedes": "tramaran"
+            "Yo": "tramo",
+            "Tu": "tramas",
+            "ElEllaUsted": "trama",
+            "Nosotros": "tramamos",
+            "Vosotros": "tramáis",
+            "EllosEllasUstedes": "traman"
         },
         "Pretérito": {
-            "Yo": "tramaré",
-            "Tu": "tramaraste",
-            "ElEllaUsted": "tramaró",
-            "Nosotros": "tramaramos",
-            "Vosotros": "tramarasteis",
-            "EllosEllasUstedes": "tramararon"
+            "Yo": "tramé",
+            "Tu": "tramaste",
+            "ElEllaUsted": "tramó",
+            "Nosotros": "tramamos",
+            "Vosotros": "tramasteis",
+            "EllosEllasUstedes": "tramaron"
         },
         "Imperfect": {
-            "Yo": "tramaraba",
-            "Tu": "tramarabas",
-            "ElEllaUsted": "tramaraba",
-            "Nosotros": "tramarábamos",
-            "Vosotros": "tramarabais",
-            "EllosEllasUstedes": "tramaraban"
+            "Yo": "tramaba",
+            "Tu": "tramabas",
+            "ElEllaUsted": "tramaba",
+            "Nosotros": "tramábamos",
+            "Vosotros": "tramabais",
+            "EllosEllasUstedes": "tramaban"
         },
         "Conditional": {
-            "Yo": "tramararía",
-            "Tu": "tramararías",
-            "ElEllaUsted": "tramararía",
-            "Nosotros": "tramararíamos",
-            "Vosotros": "tramararíais",
-            "EllosEllasUstedes": "tramararían"
+            "Yo": "tramaría",
+            "Tu": "tramarías",
+            "ElEllaUsted": "tramaría",
+            "Nosotros": "tramaríamos",
+            "Vosotros": "tramaríais",
+            "EllosEllasUstedes": "tramarían"
         },
         "Future": {
-            "Yo": "tramararé",
-            "Tu": "tramararás",
-            "ElEllaUsted": "tramarará",
-            "Nosotros": "tramararemos",
-            "Vosotros": "tramararéis",
-            "EllosEllasUstedes": "tramararán"
+            "Yo": "tramaré",
+            "Tu": "tramarás",
+            "ElEllaUsted": "tramará",
+            "Nosotros": "tramaremos",
+            "Vosotros": "tramaréis",
+            "EllosEllasUstedes": "tramarán"
         }
     },
     "Subjunctive": null,

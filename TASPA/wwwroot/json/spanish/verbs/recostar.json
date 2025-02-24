@@ -3,44 +3,44 @@
     "PastParticiple": "recostado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "recostaro",
-            "Tu": "recostaras",
-            "ElEllaUsted": "recostara",
-            "Nosotros": "recostaramos",
-            "Vosotros": "recostaráis",
-            "EllosEllasUstedes": "recostaran"
+            "Yo": "recosto",
+            "Tu": "recostas",
+            "ElEllaUsted": "recosta",
+            "Nosotros": "recostamos",
+            "Vosotros": "recostáis",
+            "EllosEllasUstedes": "recostan"
         },
         "Pretérito": {
-            "Yo": "recostaré",
-            "Tu": "recostaraste",
-            "ElEllaUsted": "recostaró",
-            "Nosotros": "recostaramos",
-            "Vosotros": "recostarasteis",
-            "EllosEllasUstedes": "recostararon"
+            "Yo": "recosté",
+            "Tu": "recostaste",
+            "ElEllaUsted": "recostó",
+            "Nosotros": "recostamos",
+            "Vosotros": "recostasteis",
+            "EllosEllasUstedes": "recostaron"
         },
         "Imperfect": {
-            "Yo": "recostaraba",
-            "Tu": "recostarabas",
-            "ElEllaUsted": "recostaraba",
-            "Nosotros": "recostarábamos",
-            "Vosotros": "recostarabais",
-            "EllosEllasUstedes": "recostaraban"
+            "Yo": "recostaba",
+            "Tu": "recostabas",
+            "ElEllaUsted": "recostaba",
+            "Nosotros": "recostábamos",
+            "Vosotros": "recostabais",
+            "EllosEllasUstedes": "recostaban"
         },
         "Conditional": {
-            "Yo": "recostararía",
-            "Tu": "recostararías",
-            "ElEllaUsted": "recostararía",
-            "Nosotros": "recostararíamos",
-            "Vosotros": "recostararíais",
-            "EllosEllasUstedes": "recostararían"
+            "Yo": "recostaría",
+            "Tu": "recostarías",
+            "ElEllaUsted": "recostaría",
+            "Nosotros": "recostaríamos",
+            "Vosotros": "recostaríais",
+            "EllosEllasUstedes": "recostarían"
         },
         "Future": {
-            "Yo": "recostararé",
-            "Tu": "recostararás",
-            "ElEllaUsted": "recostarará",
-            "Nosotros": "recostararemos",
-            "Vosotros": "recostararéis",
-            "EllosEllasUstedes": "recostararán"
+            "Yo": "recostaré",
+            "Tu": "recostarás",
+            "ElEllaUsted": "recostará",
+            "Nosotros": "recostaremos",
+            "Vosotros": "recostaréis",
+            "EllosEllasUstedes": "recostarán"
         }
     },
     "Subjunctive": null,

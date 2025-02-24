@@ -1,6 +1,6 @@
 {
-    "PresentParticiple": "abarcando",
-    "PastParticiple": "abarcado",
+    "PresentParticiple": "Unknowning",
+    "PastParticiple": "Unknowned",
     "Indicative": {
         "PresentTense": {
             "Yo": "abarcano",
@@ -45,5 +45,5 @@
     },
     "Subjunctive": null,
     "Name": "abarcan",
-    "EnglishMeaning": "to cover"
+    "EnglishMeaning": "Unknown"
 }

@@ -3,44 +3,44 @@
     "PastParticiple": "amamantado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "amamantaro",
-            "Tu": "amamantaras",
-            "ElEllaUsted": "amamantara",
-            "Nosotros": "amamantaramos",
-            "Vosotros": "amamantaráis",
-            "EllosEllasUstedes": "amamantaran"
+            "Yo": "amamanto",
+            "Tu": "amamantas",
+            "ElEllaUsted": "amamanta",
+            "Nosotros": "amamantamos",
+            "Vosotros": "amamantáis",
+            "EllosEllasUstedes": "amamantan"
         },
         "Pretérito": {
-            "Yo": "amamantaré",
-            "Tu": "amamantaraste",
-            "ElEllaUsted": "amamantaró",
-            "Nosotros": "amamantaramos",
-            "Vosotros": "amamantarasteis",
-            "EllosEllasUstedes": "amamantararon"
+            "Yo": "amamanté",
+            "Tu": "amamantaste",
+            "ElEllaUsted": "amamantó",
+            "Nosotros": "amamantamos",
+            "Vosotros": "amamantasteis",
+            "EllosEllasUstedes": "amamantaron"
         },
         "Imperfect": {
-            "Yo": "amamantaraba",
-            "Tu": "amamantarabas",
-            "ElEllaUsted": "amamantaraba",
-            "Nosotros": "amamantarábamos",
-            "Vosotros": "amamantarabais",
-            "EllosEllasUstedes": "amamantaraban"
+            "Yo": "amamantaba",
+            "Tu": "amamantabas",
+            "ElEllaUsted": "amamantaba",
+            "Nosotros": "amamantábamos",
+            "Vosotros": "amamantabais",
+            "EllosEllasUstedes": "amamantaban"
         },
         "Conditional": {
-            "Yo": "amamantararía",
-            "Tu": "amamantararías",
-            "ElEllaUsted": "amamantararía",
-            "Nosotros": "amamantararíamos",
-            "Vosotros": "amamantararíais",
-            "EllosEllasUstedes": "amamantararían"
+            "Yo": "amamantaría",
+            "Tu": "amamantarías",
+            "ElEllaUsted": "amamantaría",
+            "Nosotros": "amamantaríamos",
+            "Vosotros": "amamantaríais",
+            "EllosEllasUstedes": "amamantarían"
         },
         "Future": {
-            "Yo": "amamantararé",
-            "Tu": "amamantararás",
-            "ElEllaUsted": "amamantarará",
-            "Nosotros": "amamantararemos",
-            "Vosotros": "amamantararéis",
-            "EllosEllasUstedes": "amamantararán"
+            "Yo": "amamantaré",
+            "Tu": "amamantarás",
+            "ElEllaUsted": "amamantará",
+            "Nosotros": "amamantaremos",
+            "Vosotros": "amamantaréis",
+            "EllosEllasUstedes": "amamantarán"
         }
     },
     "Subjunctive": null,

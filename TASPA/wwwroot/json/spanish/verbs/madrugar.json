@@ -3,44 +3,44 @@
     "PastParticiple": "madrugado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "madrugaro",
-            "Tu": "madrugaras",
-            "ElEllaUsted": "madrugara",
-            "Nosotros": "madrugaramos",
-            "Vosotros": "madrugaráis",
-            "EllosEllasUstedes": "madrugaran"
+            "Yo": "madrugo",
+            "Tu": "madrugas",
+            "ElEllaUsted": "madruga",
+            "Nosotros": "madrugamos",
+            "Vosotros": "madrugáis",
+            "EllosEllasUstedes": "madrugan"
         },
         "Pretérito": {
-            "Yo": "madrugaré",
-            "Tu": "madrugaraste",
-            "ElEllaUsted": "madrugaró",
-            "Nosotros": "madrugaramos",
-            "Vosotros": "madrugarasteis",
-            "EllosEllasUstedes": "madrugararon"
+            "Yo": "madrugé",
+            "Tu": "madrugaste",
+            "ElEllaUsted": "madrugó",
+            "Nosotros": "madrugamos",
+            "Vosotros": "madrugasteis",
+            "EllosEllasUstedes": "madrugaron"
         },
         "Imperfect": {
-            "Yo": "madrugaraba",
-            "Tu": "madrugarabas",
-            "ElEllaUsted": "madrugaraba",
-            "Nosotros": "madrugarábamos",
-            "Vosotros": "madrugarabais",
-            "EllosEllasUstedes": "madrugaraban"
+            "Yo": "madrugaba",
+            "Tu": "madrugabas",
+            "ElEllaUsted": "madrugaba",
+            "Nosotros": "madrugábamos",
+            "Vosotros": "madrugabais",
+            "EllosEllasUstedes": "madrugaban"
         },
         "Conditional": {
-            "Yo": "madrugararía",
-            "Tu": "madrugararías",
-            "ElEllaUsted": "madrugararía",
-            "Nosotros": "madrugararíamos",
-            "Vosotros": "madrugararíais",
-            "EllosEllasUstedes": "madrugararían"
+            "Yo": "madrugaría",
+            "Tu": "madrugarías",
+            "ElEllaUsted": "madrugaría",
+            "Nosotros": "madrugaríamos",
+            "Vosotros": "madrugaríais",
+            "EllosEllasUstedes": "madrugarían"
         },
         "Future": {
-            "Yo": "madrugararé",
-            "Tu": "madrugararás",
-            "ElEllaUsted": "madrugarará",
-            "Nosotros": "madrugararemos",
-            "Vosotros": "madrugararéis",
-            "EllosEllasUstedes": "madrugararán"
+            "Yo": "madrugaré",
+            "Tu": "madrugarás",
+            "ElEllaUsted": "madrugará",
+            "Nosotros": "madrugaremos",
+            "Vosotros": "madrugaréis",
+            "EllosEllasUstedes": "madrugarán"
         }
     },
     "Subjunctive": null,

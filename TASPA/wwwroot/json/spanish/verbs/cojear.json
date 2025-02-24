@@ -3,44 +3,44 @@
     "PastParticiple": "cojeado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "cojearo",
-            "Tu": "cojearas",
-            "ElEllaUsted": "cojeara",
-            "Nosotros": "cojearamos",
-            "Vosotros": "cojearáis",
-            "EllosEllasUstedes": "cojearan"
+            "Yo": "cojeo",
+            "Tu": "cojeas",
+            "ElEllaUsted": "cojea",
+            "Nosotros": "cojeamos",
+            "Vosotros": "cojeáis",
+            "EllosEllasUstedes": "cojean"
         },
         "Pretérito": {
-            "Yo": "cojearé",
-            "Tu": "cojearaste",
-            "ElEllaUsted": "cojearó",
-            "Nosotros": "cojearamos",
-            "Vosotros": "cojearasteis",
-            "EllosEllasUstedes": "cojeararon"
+            "Yo": "cojeé",
+            "Tu": "cojeaste",
+            "ElEllaUsted": "cojeó",
+            "Nosotros": "cojeamos",
+            "Vosotros": "cojeasteis",
+            "EllosEllasUstedes": "cojearon"
         },
         "Imperfect": {
-            "Yo": "cojearaba",
-            "Tu": "cojearabas",
-            "ElEllaUsted": "cojearaba",
-            "Nosotros": "cojearábamos",
-            "Vosotros": "cojearabais",
-            "EllosEllasUstedes": "cojearaban"
+            "Yo": "cojeaba",
+            "Tu": "cojeabas",
+            "ElEllaUsted": "cojeaba",
+            "Nosotros": "cojeábamos",
+            "Vosotros": "cojeabais",
+            "EllosEllasUstedes": "cojeaban"
         },
         "Conditional": {
-            "Yo": "cojeararía",
-            "Tu": "cojeararías",
-            "ElEllaUsted": "cojeararía",
-            "Nosotros": "cojeararíamos",
-            "Vosotros": "cojeararíais",
-            "EllosEllasUstedes": "cojeararían"
+            "Yo": "cojearía",
+            "Tu": "cojearías",
+            "ElEllaUsted": "cojearía",
+            "Nosotros": "cojearíamos",
+            "Vosotros": "cojearíais",
+            "EllosEllasUstedes": "cojearían"
         },
         "Future": {
-            "Yo": "cojeararé",
-            "Tu": "cojeararás",
-            "ElEllaUsted": "cojearará",
-            "Nosotros": "cojeararemos",
-            "Vosotros": "cojeararéis",
-            "EllosEllasUstedes": "cojeararán"
+            "Yo": "cojearé",
+            "Tu": "cojearás",
+            "ElEllaUsted": "cojeará",
+            "Nosotros": "cojearemos",
+            "Vosotros": "cojearéis",
+            "EllosEllasUstedes": "cojearán"
         }
     },
     "Subjunctive": null,

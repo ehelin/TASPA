@@ -3,44 +3,44 @@
     "PastParticiple": "orinado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "orinaro",
-            "Tu": "orinaras",
-            "ElEllaUsted": "orinara",
-            "Nosotros": "orinaramos",
-            "Vosotros": "orinaráis",
-            "EllosEllasUstedes": "orinaran"
+            "Yo": "orino",
+            "Tu": "orinas",
+            "ElEllaUsted": "orina",
+            "Nosotros": "orinamos",
+            "Vosotros": "orináis",
+            "EllosEllasUstedes": "orinan"
         },
         "Pretérito": {
-            "Yo": "orinaré",
-            "Tu": "orinaraste",
-            "ElEllaUsted": "orinaró",
-            "Nosotros": "orinaramos",
-            "Vosotros": "orinarasteis",
-            "EllosEllasUstedes": "orinararon"
+            "Yo": "oriné",
+            "Tu": "orinaste",
+            "ElEllaUsted": "orinó",
+            "Nosotros": "orinamos",
+            "Vosotros": "orinasteis",
+            "EllosEllasUstedes": "orinaron"
         },
         "Imperfect": {
-            "Yo": "orinaraba",
-            "Tu": "orinarabas",
-            "ElEllaUsted": "orinaraba",
-            "Nosotros": "orinarábamos",
-            "Vosotros": "orinarabais",
-            "EllosEllasUstedes": "orinaraban"
+            "Yo": "orinaba",
+            "Tu": "orinabas",
+            "ElEllaUsted": "orinaba",
+            "Nosotros": "orinábamos",
+            "Vosotros": "orinabais",
+            "EllosEllasUstedes": "orinaban"
         },
         "Conditional": {
-            "Yo": "orinararía",
-            "Tu": "orinararías",
-            "ElEllaUsted": "orinararía",
-            "Nosotros": "orinararíamos",
-            "Vosotros": "orinararíais",
-            "EllosEllasUstedes": "orinararían"
+            "Yo": "orinaría",
+            "Tu": "orinarías",
+            "ElEllaUsted": "orinaría",
+            "Nosotros": "orinaríamos",
+            "Vosotros": "orinaríais",
+            "EllosEllasUstedes": "orinarían"
         },
         "Future": {
-            "Yo": "orinararé",
-            "Tu": "orinararás",
-            "ElEllaUsted": "orinarará",
-            "Nosotros": "orinararemos",
-            "Vosotros": "orinararéis",
-            "EllosEllasUstedes": "orinararán"
+            "Yo": "orinaré",
+            "Tu": "orinarás",
+            "ElEllaUsted": "orinará",
+            "Nosotros": "orinaremos",
+            "Vosotros": "orinaréis",
+            "EllosEllasUstedes": "orinarán"
         }
     },
     "Subjunctive": null,

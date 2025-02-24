@@ -3,44 +3,44 @@
     "PastParticiple": "apostado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "apostaro",
-            "Tu": "apostaras",
-            "ElEllaUsted": "apostara",
-            "Nosotros": "apostaramos",
-            "Vosotros": "apostaráis",
-            "EllosEllasUstedes": "apostaran"
+            "Yo": "aposto",
+            "Tu": "apostas",
+            "ElEllaUsted": "aposta",
+            "Nosotros": "apostamos",
+            "Vosotros": "apostáis",
+            "EllosEllasUstedes": "apostan"
         },
         "Pretérito": {
-            "Yo": "apostaré",
-            "Tu": "apostaraste",
-            "ElEllaUsted": "apostaró",
-            "Nosotros": "apostaramos",
-            "Vosotros": "apostarasteis",
-            "EllosEllasUstedes": "apostararon"
+            "Yo": "aposté",
+            "Tu": "apostaste",
+            "ElEllaUsted": "apostó",
+            "Nosotros": "apostamos",
+            "Vosotros": "apostasteis",
+            "EllosEllasUstedes": "apostaron"
         },
         "Imperfect": {
-            "Yo": "apostaraba",
-            "Tu": "apostarabas",
-            "ElEllaUsted": "apostaraba",
-            "Nosotros": "apostarábamos",
-            "Vosotros": "apostarabais",
-            "EllosEllasUstedes": "apostaraban"
+            "Yo": "apostaba",
+            "Tu": "apostabas",
+            "ElEllaUsted": "apostaba",
+            "Nosotros": "apostábamos",
+            "Vosotros": "apostabais",
+            "EllosEllasUstedes": "apostaban"
         },
         "Conditional": {
-            "Yo": "apostararía",
-            "Tu": "apostararías",
-            "ElEllaUsted": "apostararía",
-            "Nosotros": "apostararíamos",
-            "Vosotros": "apostararíais",
-            "EllosEllasUstedes": "apostararían"
+            "Yo": "apostaría",
+            "Tu": "apostarías",
+            "ElEllaUsted": "apostaría",
+            "Nosotros": "apostaríamos",
+            "Vosotros": "apostaríais",
+            "EllosEllasUstedes": "apostarían"
         },
         "Future": {
-            "Yo": "apostararé",
-            "Tu": "apostararás",
-            "ElEllaUsted": "apostarará",
-            "Nosotros": "apostararemos",
-            "Vosotros": "apostararéis",
-            "EllosEllasUstedes": "apostararán"
+            "Yo": "apostaré",
+            "Tu": "apostarás",
+            "ElEllaUsted": "apostará",
+            "Nosotros": "apostaremos",
+            "Vosotros": "apostaréis",
+            "EllosEllasUstedes": "apostarán"
         }
     },
     "Subjunctive": null,

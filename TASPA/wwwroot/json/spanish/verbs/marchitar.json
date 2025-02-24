@@ -3,44 +3,44 @@
     "PastParticiple": "marchitado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "marchitaro",
-            "Tu": "marchitaras",
-            "ElEllaUsted": "marchitara",
-            "Nosotros": "marchitaramos",
-            "Vosotros": "marchitaráis",
-            "EllosEllasUstedes": "marchitaran"
+            "Yo": "marchito",
+            "Tu": "marchitas",
+            "ElEllaUsted": "marchita",
+            "Nosotros": "marchitamos",
+            "Vosotros": "marchitáis",
+            "EllosEllasUstedes": "marchitan"
         },
         "Pretérito": {
-            "Yo": "marchitaré",
-            "Tu": "marchitaraste",
-            "ElEllaUsted": "marchitaró",
-            "Nosotros": "marchitaramos",
-            "Vosotros": "marchitarasteis",
-            "EllosEllasUstedes": "marchitararon"
+            "Yo": "marchité",
+            "Tu": "marchitaste",
+            "ElEllaUsted": "marchitó",
+            "Nosotros": "marchitamos",
+            "Vosotros": "marchitasteis",
+            "EllosEllasUstedes": "marchitaron"
         },
         "Imperfect": {
-            "Yo": "marchitaraba",
-            "Tu": "marchitarabas",
-            "ElEllaUsted": "marchitaraba",
-            "Nosotros": "marchitarábamos",
-            "Vosotros": "marchitarabais",
-            "EllosEllasUstedes": "marchitaraban"
+            "Yo": "marchitaba",
+            "Tu": "marchitabas",
+            "ElEllaUsted": "marchitaba",
+            "Nosotros": "marchitábamos",
+            "Vosotros": "marchitabais",
+            "EllosEllasUstedes": "marchitaban"
         },
         "Conditional": {
-            "Yo": "marchitararía",
-            "Tu": "marchitararías",
-            "ElEllaUsted": "marchitararía",
-            "Nosotros": "marchitararíamos",
-            "Vosotros": "marchitararíais",
-            "EllosEllasUstedes": "marchitararían"
+            "Yo": "marchitaría",
+            "Tu": "marchitarías",
+            "ElEllaUsted": "marchitaría",
+            "Nosotros": "marchitaríamos",
+            "Vosotros": "marchitaríais",
+            "EllosEllasUstedes": "marchitarían"
         },
         "Future": {
-            "Yo": "marchitararé",
-            "Tu": "marchitararás",
-            "ElEllaUsted": "marchitarará",
-            "Nosotros": "marchitararemos",
-            "Vosotros": "marchitararéis",
-            "EllosEllasUstedes": "marchitararán"
+            "Yo": "marchitaré",
+            "Tu": "marchitarás",
+            "ElEllaUsted": "marchitará",
+            "Nosotros": "marchitaremos",
+            "Vosotros": "marchitaréis",
+            "EllosEllasUstedes": "marchitarán"
         }
     },
     "Subjunctive": null,

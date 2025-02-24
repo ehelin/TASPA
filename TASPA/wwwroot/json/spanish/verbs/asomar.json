@@ -3,44 +3,44 @@
     "PastParticiple": "asomado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "asomaro",
-            "Tu": "asomaras",
-            "ElEllaUsted": "asomara",
-            "Nosotros": "asomaramos",
-            "Vosotros": "asomaráis",
-            "EllosEllasUstedes": "asomaran"
+            "Yo": "asomo",
+            "Tu": "asomas",
+            "ElEllaUsted": "asoma",
+            "Nosotros": "asomamos",
+            "Vosotros": "asomáis",
+            "EllosEllasUstedes": "asoman"
         },
         "Pretérito": {
-            "Yo": "asomaré",
-            "Tu": "asomaraste",
-            "ElEllaUsted": "asomaró",
-            "Nosotros": "asomaramos",
-            "Vosotros": "asomarasteis",
-            "EllosEllasUstedes": "asomararon"
+            "Yo": "asomé",
+            "Tu": "asomaste",
+            "ElEllaUsted": "asomó",
+            "Nosotros": "asomamos",
+            "Vosotros": "asomasteis",
+            "EllosEllasUstedes": "asomaron"
         },
         "Imperfect": {
-            "Yo": "asomaraba",
-            "Tu": "asomarabas",
-            "ElEllaUsted": "asomaraba",
-            "Nosotros": "asomarábamos",
-            "Vosotros": "asomarabais",
-            "EllosEllasUstedes": "asomaraban"
+            "Yo": "asomaba",
+            "Tu": "asomabas",
+            "ElEllaUsted": "asomaba",
+            "Nosotros": "asomábamos",
+            "Vosotros": "asomabais",
+            "EllosEllasUstedes": "asomaban"
         },
         "Conditional": {
-            "Yo": "asomararía",
-            "Tu": "asomararías",
-            "ElEllaUsted": "asomararía",
-            "Nosotros": "asomararíamos",
-            "Vosotros": "asomararíais",
-            "EllosEllasUstedes": "asomararían"
+            "Yo": "asomaría",
+            "Tu": "asomarías",
+            "ElEllaUsted": "asomaría",
+            "Nosotros": "asomaríamos",
+            "Vosotros": "asomaríais",
+            "EllosEllasUstedes": "asomarían"
         },
         "Future": {
-            "Yo": "asomararé",
-            "Tu": "asomararás",
-            "ElEllaUsted": "asomarará",
-            "Nosotros": "asomararemos",
-            "Vosotros": "asomararéis",
-            "EllosEllasUstedes": "asomararán"
+            "Yo": "asomaré",
+            "Tu": "asomarás",
+            "ElEllaUsted": "asomará",
+            "Nosotros": "asomaremos",
+            "Vosotros": "asomaréis",
+            "EllosEllasUstedes": "asomarán"
         }
     },
     "Subjunctive": null,

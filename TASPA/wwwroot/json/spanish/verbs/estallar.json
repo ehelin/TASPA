@@ -3,44 +3,44 @@
     "PastParticiple": "estallado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "estallaro",
-            "Tu": "estallaras",
-            "ElEllaUsted": "estallara",
-            "Nosotros": "estallaramos",
-            "Vosotros": "estallaráis",
-            "EllosEllasUstedes": "estallaran"
+            "Yo": "estallo",
+            "Tu": "estallas",
+            "ElEllaUsted": "estalla",
+            "Nosotros": "estallamos",
+            "Vosotros": "estalláis",
+            "EllosEllasUstedes": "estallan"
         },
         "Pretérito": {
-            "Yo": "estallaré",
-            "Tu": "estallaraste",
-            "ElEllaUsted": "estallaró",
-            "Nosotros": "estallaramos",
-            "Vosotros": "estallarasteis",
-            "EllosEllasUstedes": "estallararon"
+            "Yo": "estallé",
+            "Tu": "estallaste",
+            "ElEllaUsted": "estalló",
+            "Nosotros": "estallamos",
+            "Vosotros": "estallasteis",
+            "EllosEllasUstedes": "estallaron"
         },
         "Imperfect": {
-            "Yo": "estallaraba",
-            "Tu": "estallarabas",
-            "ElEllaUsted": "estallaraba",
-            "Nosotros": "estallarábamos",
-            "Vosotros": "estallarabais",
-            "EllosEllasUstedes": "estallaraban"
+            "Yo": "estallaba",
+            "Tu": "estallabas",
+            "ElEllaUsted": "estallaba",
+            "Nosotros": "estallábamos",
+            "Vosotros": "estallabais",
+            "EllosEllasUstedes": "estallaban"
         },
         "Conditional": {
-            "Yo": "estallararía",
-            "Tu": "estallararías",
-            "ElEllaUsted": "estallararía",
-            "Nosotros": "estallararíamos",
-            "Vosotros": "estallararíais",
-            "EllosEllasUstedes": "estallararían"
+            "Yo": "estallaría",
+            "Tu": "estallarías",
+            "ElEllaUsted": "estallaría",
+            "Nosotros": "estallaríamos",
+            "Vosotros": "estallaríais",
+            "EllosEllasUstedes": "estallarían"
         },
         "Future": {
-            "Yo": "estallararé",
-            "Tu": "estallararás",
-            "ElEllaUsted": "estallarará",
-            "Nosotros": "estallararemos",
-            "Vosotros": "estallararéis",
-            "EllosEllasUstedes": "estallararán"
+            "Yo": "estallaré",
+            "Tu": "estallarás",
+            "ElEllaUsted": "estallará",
+            "Nosotros": "estallaremos",
+            "Vosotros": "estallaréis",
+            "EllosEllasUstedes": "estallarán"
         }
     },
     "Subjunctive": null,

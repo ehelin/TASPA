@@ -3,44 +3,44 @@
     "PastParticiple": "alimentado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "alimentaro",
-            "Tu": "alimentaras",
-            "ElEllaUsted": "alimentara",
-            "Nosotros": "alimentaramos",
-            "Vosotros": "alimentaráis",
-            "EllosEllasUstedes": "alimentaran"
+            "Yo": "alimento",
+            "Tu": "alimentas",
+            "ElEllaUsted": "alimenta",
+            "Nosotros": "alimentamos",
+            "Vosotros": "alimentáis",
+            "EllosEllasUstedes": "alimentan"
         },
         "Pretérito": {
-            "Yo": "alimentaré",
-            "Tu": "alimentaraste",
-            "ElEllaUsted": "alimentaró",
-            "Nosotros": "alimentaramos",
-            "Vosotros": "alimentarasteis",
-            "EllosEllasUstedes": "alimentararon"
+            "Yo": "alimenté",
+            "Tu": "alimentaste",
+            "ElEllaUsted": "alimentó",
+            "Nosotros": "alimentamos",
+            "Vosotros": "alimentasteis",
+            "EllosEllasUstedes": "alimentaron"
         },
         "Imperfect": {
-            "Yo": "alimentaraba",
-            "Tu": "alimentarabas",
-            "ElEllaUsted": "alimentaraba",
-            "Nosotros": "alimentarábamos",
-            "Vosotros": "alimentarabais",
-            "EllosEllasUstedes": "alimentaraban"
+            "Yo": "alimentaba",
+            "Tu": "alimentabas",
+            "ElEllaUsted": "alimentaba",
+            "Nosotros": "alimentábamos",
+            "Vosotros": "alimentabais",
+            "EllosEllasUstedes": "alimentaban"
         },
         "Conditional": {
-            "Yo": "alimentararía",
-            "Tu": "alimentararías",
-            "ElEllaUsted": "alimentararía",
-            "Nosotros": "alimentararíamos",
-            "Vosotros": "alimentararíais",
-            "EllosEllasUstedes": "alimentararían"
+            "Yo": "alimentaría",
+            "Tu": "alimentarías",
+            "ElEllaUsted": "alimentaría",
+            "Nosotros": "alimentaríamos",
+            "Vosotros": "alimentaríais",
+            "EllosEllasUstedes": "alimentarían"
         },
         "Future": {
-            "Yo": "alimentararé",
-            "Tu": "alimentararás",
-            "ElEllaUsted": "alimentarará",
-            "Nosotros": "alimentararemos",
-            "Vosotros": "alimentararéis",
-            "EllosEllasUstedes": "alimentararán"
+            "Yo": "alimentaré",
+            "Tu": "alimentarás",
+            "ElEllaUsted": "alimentará",
+            "Nosotros": "alimentaremos",
+            "Vosotros": "alimentaréis",
+            "EllosEllasUstedes": "alimentarán"
         }
     },
     "Subjunctive": null,

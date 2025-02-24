@@ -3,44 +3,44 @@
     "PastParticiple": "rodado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "rodaro",
-            "Tu": "rodaras",
-            "ElEllaUsted": "rodara",
-            "Nosotros": "rodaramos",
-            "Vosotros": "rodaráis",
-            "EllosEllasUstedes": "rodaran"
+            "Yo": "rodo",
+            "Tu": "rodas",
+            "ElEllaUsted": "roda",
+            "Nosotros": "rodamos",
+            "Vosotros": "rodáis",
+            "EllosEllasUstedes": "rodan"
         },
         "Pretérito": {
-            "Yo": "rodaré",
-            "Tu": "rodaraste",
-            "ElEllaUsted": "rodaró",
-            "Nosotros": "rodaramos",
-            "Vosotros": "rodarasteis",
-            "EllosEllasUstedes": "rodararon"
+            "Yo": "rodé",
+            "Tu": "rodaste",
+            "ElEllaUsted": "rodó",
+            "Nosotros": "rodamos",
+            "Vosotros": "rodasteis",
+            "EllosEllasUstedes": "rodaron"
         },
         "Imperfect": {
-            "Yo": "rodaraba",
-            "Tu": "rodarabas",
-            "ElEllaUsted": "rodaraba",
-            "Nosotros": "rodarábamos",
-            "Vosotros": "rodarabais",
-            "EllosEllasUstedes": "rodaraban"
+            "Yo": "rodaba",
+            "Tu": "rodabas",
+            "ElEllaUsted": "rodaba",
+            "Nosotros": "rodábamos",
+            "Vosotros": "rodabais",
+            "EllosEllasUstedes": "rodaban"
         },
         "Conditional": {
-            "Yo": "rodararía",
-            "Tu": "rodararías",
-            "ElEllaUsted": "rodararía",
-            "Nosotros": "rodararíamos",
-            "Vosotros": "rodararíais",
-            "EllosEllasUstedes": "rodararían"
+            "Yo": "rodaría",
+            "Tu": "rodarías",
+            "ElEllaUsted": "rodaría",
+            "Nosotros": "rodaríamos",
+            "Vosotros": "rodaríais",
+            "EllosEllasUstedes": "rodarían"
         },
         "Future": {
-            "Yo": "rodararé",
-            "Tu": "rodararás",
-            "ElEllaUsted": "rodarará",
-            "Nosotros": "rodararemos",
-            "Vosotros": "rodararéis",
-            "EllosEllasUstedes": "rodararán"
+            "Yo": "rodaré",
+            "Tu": "rodarás",
+            "ElEllaUsted": "rodará",
+            "Nosotros": "rodaremos",
+            "Vosotros": "rodaréis",
+            "EllosEllasUstedes": "rodarán"
         }
     },
     "Subjunctive": null,

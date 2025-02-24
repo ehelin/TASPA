@@ -3,44 +3,44 @@
     "PastParticiple": "dimesionado",
     "Indicative": {
         "PresentTense": {
-            "Yo": "dimesionaro",
-            "Tu": "dimesionaras",
-            "ElEllaUsted": "dimesionara",
-            "Nosotros": "dimesionaramos",
-            "Vosotros": "dimesionaráis",
-            "EllosEllasUstedes": "dimesionaran"
+            "Yo": "dimesiono",
+            "Tu": "dimesionas",
+            "ElEllaUsted": "dimesiona",
+            "Nosotros": "dimesionamos",
+            "Vosotros": "dimesionáis",
+            "EllosEllasUstedes": "dimesionan"
         },
         "Pretérito": {
-            "Yo": "dimesionaré",
-            "Tu": "dimesionaraste",
-            "ElEllaUsted": "dimesionaró",
-            "Nosotros": "dimesionaramos",
-            "Vosotros": "dimesionarasteis",
-            "EllosEllasUstedes": "dimesionararon"
+            "Yo": "dimesioné",
+            "Tu": "dimesionaste",
+            "ElEllaUsted": "dimesionó",
+            "Nosotros": "dimesionamos",
+            "Vosotros": "dimesionasteis",
+            "EllosEllasUstedes": "dimesionaron"
         },
         "Imperfect": {
-            "Yo": "dimesionaraba",
-            "Tu": "dimesionarabas",
-            "ElEllaUsted": "dimesionaraba",
-            "Nosotros": "dimesionarábamos",
-            "Vosotros": "dimesionarabais",
-            "EllosEllasUstedes": "dimesionaraban"
+            "Yo": "dimesionaba",
+            "Tu": "dimesionabas",
+            "ElEllaUsted": "dimesionaba",
+            "Nosotros": "dimesionábamos",
+            "Vosotros": "dimesionabais",
+            "EllosEllasUstedes": "dimesionaban"
         },
         "Conditional": {
-            "Yo": "dimesionararía",
-            "Tu": "dimesionararías",
-            "ElEllaUsted": "dimesionararía",
-            "Nosotros": "dimesionararíamos",
-            "Vosotros": "dimesionararíais",
-            "EllosEllasUstedes": "dimesionararían"
+            "Yo": "dimesionaría",
+            "Tu": "dimesionarías",
+            "ElEllaUsted": "dimesionaría",
+            "Nosotros": "dimesionaríamos",
+            "Vosotros": "dimesionaríais",
+            "EllosEllasUstedes": "dimesionarían"
         },
         "Future": {
-            "Yo": "dimesionararé",
-            "Tu": "dimesionararás",
-            "ElEllaUsted": "dimesionarará",
-            "Nosotros": "dimesionararemos",
-            "Vosotros": "dimesionararéis",
-            "EllosEllasUstedes": "dimesionararán"
+            "Yo": "dimesionaré",
+            "Tu": "dimesionarás",
+            "ElEllaUsted": "dimesionará",
+            "Nosotros": "dimesionaremos",
+            "Vosotros": "dimesionaréis",
+            "EllosEllasUstedes": "dimesionarán"
         }
     },
     "Subjunctive": null,

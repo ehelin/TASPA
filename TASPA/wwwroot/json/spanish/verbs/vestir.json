@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "vestirán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "vista",
+      "Tu": "vistas",
+      "ElEllaUsted": "vista",
+      "Nosotros": "vistamos",
+      "Vosotros": "vistáis",
+      "EllosEllasUstedes": "vistan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "vistiea",
+      "Tu": "vistieas",
+      "ElEllaUsted": "vistiea",
+      "Nosotros": "vistieamos",
+      "Vosotros": "vistieais",
+      "EllosEllasUstedes": "vistiean"
+    }
+  },
   "Name": "vestir",
   "EnglishMeaning": "to dress"
 }

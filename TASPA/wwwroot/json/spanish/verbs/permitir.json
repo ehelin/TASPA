@@ -1,1 +1,68 @@
-{"PresentParticiple":"permitiendo&translation=allowing","PastParticiple":"permitido&translation=allowed","Indicative":{"PresentTense":{"Yo":"permito","Tu":"permites","ElEllaUsted":"permite","Nosotros":"permitimos","Vosotros":"permitís","EllosEllasUstedes":"permiten"},"Pretérito":{"Yo":"permití","Tu":"permitiste","ElEllaUsted":"permitió","Nosotros":"permitimos","Vosotros":"permitisteis","EllosEllasUstedes":"permitieron"},"Imperfect":{"Yo":"permitía","Tu":"permitías","ElEllaUsted":"permitía","Nosotros":"permitíamos","Vosotros":"permitíais","EllosEllasUstedes":"permitían"},"Conditional":{"Yo":"permitiría","Tu":"permitirías","ElEllaUsted":"permitiría","Nosotros":"permitiríamos","Vosotros":"permitiríais","EllosEllasUstedes":"permitirían"},"Future":{"Yo":"permitiré","Tu":"permitirás","ElEllaUsted":"permitirá","Nosotros":"permitiremos","Vosotros":"permitiréis","EllosEllasUstedes":"permitirán"}},"Subjunctive":null,"Name":"permitir","EnglishMeaning":"to allow"}
+{
+  "PresentParticiple": "permitiendo",
+  "PastParticiple": "permitido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "permito",
+      "Tu": "permites",
+      "ElEllaUsted": "permite",
+      "Nosotros": "permitimos",
+      "Vosotros": "permitís",
+      "EllosEllasUstedes": "permiten"
+    },
+    "Pretérito": {
+      "Yo": "permití",
+      "Tu": "permitiste",
+      "ElEllaUsted": "permitió",
+      "Nosotros": "permitimos",
+      "Vosotros": "permitisteis",
+      "EllosEllasUstedes": "permitieron"
+    },
+    "Imperfect": {
+      "Yo": "permitía",
+      "Tu": "permitías",
+      "ElEllaUsted": "permitía",
+      "Nosotros": "permitíamos",
+      "Vosotros": "permitíais",
+      "EllosEllasUstedes": "permitían"
+    },
+    "Conditional": {
+      "Yo": "permitiría",
+      "Tu": "permitirías",
+      "ElEllaUsted": "permitiría",
+      "Nosotros": "permitiríamos",
+      "Vosotros": "permitiríais",
+      "EllosEllasUstedes": "permitirían"
+    },
+    "Future": {
+      "Yo": "permitiré",
+      "Tu": "permitirás",
+      "ElEllaUsted": "permitirá",
+      "Nosotros": "permitiremos",
+      "Vosotros": "permitiréis",
+      "EllosEllasUstedes": "permitirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "permita",
+      "Tu": "permitas",
+      "ElEllaUsted": "permita",
+      "Nosotros": "permitamos",
+      "Vosotros": "permitáis",
+      "EllosEllasUstedes": "permitan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "permitiea",
+      "Tu": "permitieas",
+      "ElEllaUsted": "permitiea",
+      "Nosotros": "permitieamos",
+      "Vosotros": "permitieais",
+      "EllosEllasUstedes": "permitiean"
+    }
+  },
+  "Name": "permitir",
+  "EnglishMeaning": "to allow",
+  "PresentParticipleTranslation": "allowing",
+  "PastParticipleTranslation": "allowed"
+}

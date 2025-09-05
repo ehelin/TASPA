@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "tardarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "tarde",
+      "Tu": "tardes",
+      "ElEllaUsted": "tarde",
+      "Nosotros": "tardemos",
+      "Vosotros": "tardéis",
+      "EllosEllasUstedes": "tarden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tardara",
+      "Tu": "tardaras",
+      "ElEllaUsted": "tardara",
+      "Nosotros": "tardaramos",
+      "Vosotros": "tardarais",
+      "EllosEllasUstedes": "tardaran"
+    }
+  },
   "Name": "tardar",
   "EnglishMeaning": "to delay"
 }

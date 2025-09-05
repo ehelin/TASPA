@@ -1,1 +1,68 @@
-{"PresentParticiple":"rodeando&translation=surrounding","PastParticiple":"rodeado&translation=surrounded","Indicative":{"PresentTense":{"Yo":"rodeo","Tu":"rodeas","ElEllaUsted":"rodea","Nosotros":"rodeamos","Vosotros":"rodeáis","EllosEllasUstedes":"rodean"},"Pretérito":{"Yo":"rodeé","Tu":"rodeaste","ElEllaUsted":"rodeó","Nosotros":"rodeamos","Vosotros":"rodeasteis","EllosEllasUstedes":"rodearon"},"Imperfect":{"Yo":"rodeaba","Tu":"rodeabas","ElEllaUsted":"rodeaba","Nosotros":"rodeábamos","Vosotros":"rodeabais","EllosEllasUstedes":"rodeaban"},"Conditional":{"Yo":"rodearía","Tu":"rodearías","ElEllaUsted":"rodearía","Nosotros":"rodearíamos","Vosotros":"rodearíais","EllosEllasUstedes":"rodearían"},"Future":{"Yo":"rodearé","Tu":"rodearás","ElEllaUsted":"rodeará","Nosotros":"rodearemos","Vosotros":"rodearéis","EllosEllasUstedes":"rodearán"}},"Subjunctive":null,"Name":"rodear","EnglishMeaning":"to surround"}
+{
+  "PresentParticiple": "rodeando",
+  "PastParticiple": "rodeado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "rodeo",
+      "Tu": "rodeas",
+      "ElEllaUsted": "rodea",
+      "Nosotros": "rodeamos",
+      "Vosotros": "rodeáis",
+      "EllosEllasUstedes": "rodean"
+    },
+    "Pretérito": {
+      "Yo": "rodeé",
+      "Tu": "rodeaste",
+      "ElEllaUsted": "rodeó",
+      "Nosotros": "rodeamos",
+      "Vosotros": "rodeasteis",
+      "EllosEllasUstedes": "rodearon"
+    },
+    "Imperfect": {
+      "Yo": "rodeaba",
+      "Tu": "rodeabas",
+      "ElEllaUsted": "rodeaba",
+      "Nosotros": "rodeábamos",
+      "Vosotros": "rodeabais",
+      "EllosEllasUstedes": "rodeaban"
+    },
+    "Conditional": {
+      "Yo": "rodearía",
+      "Tu": "rodearías",
+      "ElEllaUsted": "rodearía",
+      "Nosotros": "rodearíamos",
+      "Vosotros": "rodearíais",
+      "EllosEllasUstedes": "rodearían"
+    },
+    "Future": {
+      "Yo": "rodearé",
+      "Tu": "rodearás",
+      "ElEllaUsted": "rodeará",
+      "Nosotros": "rodearemos",
+      "Vosotros": "rodearéis",
+      "EllosEllasUstedes": "rodearán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "rodee",
+      "Tu": "rodees",
+      "ElEllaUsted": "rodee",
+      "Nosotros": "rodeemos",
+      "Vosotros": "rodeéis",
+      "EllosEllasUstedes": "rodeen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "rodeara",
+      "Tu": "rodearas",
+      "ElEllaUsted": "rodeara",
+      "Nosotros": "rodearamos",
+      "Vosotros": "rodearais",
+      "EllosEllasUstedes": "rodearan"
+    }
+  },
+  "Name": "rodear",
+  "EnglishMeaning": "to surround",
+  "PresentParticipleTranslation": "surrounding",
+  "PastParticipleTranslation": "surrounded"
+}

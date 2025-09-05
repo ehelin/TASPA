@@ -1,1 +1,68 @@
-{"PresentParticiple":"viajando&translation=travelling","PastParticiple":"viajado&translation=travelled","Indicative":{"PresentTense":{"Yo":"viajo","Tu":"viajas","ElEllaUsted":"viaja","Nosotros":"viajamos","Vosotros":"viajáis","EllosEllasUstedes":"viajan"},"Pretérito":{"Yo":"viajé","Tu":"viajaste","ElEllaUsted":"viajó","Nosotros":"viajamos","Vosotros":"viajasteis","EllosEllasUstedes":"viajaron"},"Imperfect":{"Yo":"viajaba","Tu":"viajabas","ElEllaUsted":"viajaba","Nosotros":"viajábamos","Vosotros":"viajabais","EllosEllasUstedes":"viajaban"},"Conditional":{"Yo":"viajaría","Tu":"viajarías","ElEllaUsted":"viajaría","Nosotros":"viajaríamos","Vosotros":"viajaríais","EllosEllasUstedes":"viajarían"},"Future":{"Yo":"viajaré","Tu":"viajarás","ElEllaUsted":"viajará","Nosotros":"viajaremos","Vosotros":"viajaréis","EllosEllasUstedes":"viajarán"}},"Subjunctive":null,"Name":"viajar","EnglishMeaning":"to travel"}
+{
+  "PresentParticiple": "viajando",
+  "PastParticiple": "viajado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "viajo",
+      "Tu": "viajas",
+      "ElEllaUsted": "viaja",
+      "Nosotros": "viajamos",
+      "Vosotros": "viajáis",
+      "EllosEllasUstedes": "viajan"
+    },
+    "Pretérito": {
+      "Yo": "viajé",
+      "Tu": "viajaste",
+      "ElEllaUsted": "viajó",
+      "Nosotros": "viajamos",
+      "Vosotros": "viajasteis",
+      "EllosEllasUstedes": "viajaron"
+    },
+    "Imperfect": {
+      "Yo": "viajaba",
+      "Tu": "viajabas",
+      "ElEllaUsted": "viajaba",
+      "Nosotros": "viajábamos",
+      "Vosotros": "viajabais",
+      "EllosEllasUstedes": "viajaban"
+    },
+    "Conditional": {
+      "Yo": "viajaría",
+      "Tu": "viajarías",
+      "ElEllaUsted": "viajaría",
+      "Nosotros": "viajaríamos",
+      "Vosotros": "viajaríais",
+      "EllosEllasUstedes": "viajarían"
+    },
+    "Future": {
+      "Yo": "viajaré",
+      "Tu": "viajarás",
+      "ElEllaUsted": "viajará",
+      "Nosotros": "viajaremos",
+      "Vosotros": "viajaréis",
+      "EllosEllasUstedes": "viajarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "viaje",
+      "Tu": "viajes",
+      "ElEllaUsted": "viaje",
+      "Nosotros": "viajemos",
+      "Vosotros": "viajéis",
+      "EllosEllasUstedes": "viajen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "viajara",
+      "Tu": "viajaras",
+      "ElEllaUsted": "viajara",
+      "Nosotros": "viajaramos",
+      "Vosotros": "viajarais",
+      "EllosEllasUstedes": "viajaran"
+    }
+  },
+  "Name": "viajar",
+  "EnglishMeaning": "to travel",
+  "PresentParticipleTranslation": "travelling",
+  "PastParticipleTranslation": "travelled"
+}

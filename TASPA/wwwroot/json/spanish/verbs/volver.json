@@ -1,1 +1,68 @@
-{"PresentParticiple":"volviendo&translation=returning","PastParticiple":"vuelto&translation=returned","Indicative":{"PresentTense":{"Yo":"vuelvo","Tu":"vuelves","ElEllaUsted":"vuelve","Nosotros":"volvemos","Vosotros":"volvéis","EllosEllasUstedes":"vuelven"},"Pretérito":{"Yo":"volví","Tu":"volviste","ElEllaUsted":"volvió","Nosotros":"volvimos","Vosotros":"volvisteis","EllosEllasUstedes":"volvieron"},"Imperfect":{"Yo":"volvía","Tu":"volvías","ElEllaUsted":"volvía","Nosotros":"volvíamos","Vosotros":"volvíais","EllosEllasUstedes":"volvían"},"Conditional":{"Yo":"volvería","Tu":"volverías","ElEllaUsted":"volvería","Nosotros":"volveríamos","Vosotros":"volveríais","EllosEllasUstedes":"volverían"},"Future":{"Yo":"volveré","Tu":"volverás","ElEllaUsted":"volverá","Nosotros":"volveremos","Vosotros":"volveréis","EllosEllasUstedes":"volverán"}},"Subjunctive":null,"Name":"volver","EnglishMeaning":"to return"}
+{
+  "PresentParticiple": "volviendo",
+  "PastParticiple": "vuelto",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "vuelvo",
+      "Tu": "vuelves",
+      "ElEllaUsted": "vuelve",
+      "Nosotros": "volvemos",
+      "Vosotros": "volvéis",
+      "EllosEllasUstedes": "vuelven"
+    },
+    "Pretérito": {
+      "Yo": "volví",
+      "Tu": "volviste",
+      "ElEllaUsted": "volvió",
+      "Nosotros": "volvimos",
+      "Vosotros": "volvisteis",
+      "EllosEllasUstedes": "volvieron"
+    },
+    "Imperfect": {
+      "Yo": "volvía",
+      "Tu": "volvías",
+      "ElEllaUsted": "volvía",
+      "Nosotros": "volvíamos",
+      "Vosotros": "volvíais",
+      "EllosEllasUstedes": "volvían"
+    },
+    "Conditional": {
+      "Yo": "volvería",
+      "Tu": "volverías",
+      "ElEllaUsted": "volvería",
+      "Nosotros": "volveríamos",
+      "Vosotros": "volveríais",
+      "EllosEllasUstedes": "volverían"
+    },
+    "Future": {
+      "Yo": "volveré",
+      "Tu": "volverás",
+      "ElEllaUsted": "volverá",
+      "Nosotros": "volveremos",
+      "Vosotros": "volveréis",
+      "EllosEllasUstedes": "volverán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "vuelva",
+      "Tu": "vuelvas",
+      "ElEllaUsted": "vuelva",
+      "Nosotros": "vuelvamos",
+      "Vosotros": "vuelváis",
+      "EllosEllasUstedes": "vuelvan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "volviea",
+      "Tu": "volvieas",
+      "ElEllaUsted": "volviea",
+      "Nosotros": "volvieamos",
+      "Vosotros": "volvieais",
+      "EllosEllasUstedes": "volviean"
+    }
+  },
+  "Name": "volver",
+  "EnglishMeaning": "to return",
+  "PresentParticipleTranslation": "returning",
+  "PastParticipleTranslation": "returned"
+}

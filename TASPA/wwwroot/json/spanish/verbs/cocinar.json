@@ -1,1 +1,68 @@
-{"PresentParticiple":"cocinando&translation=cooking","PastParticiple":"cocinado&translation=cooked","Indicative":{"PresentTense":{"Yo":"cocino","Tu":"cocinas","ElEllaUsted":"cocina","Nosotros":"cocinamos","Vosotros":"cocináis","EllosEllasUstedes":"cocinan"},"Pretérito":{"Yo":"cociné","Tu":"cocinaste","ElEllaUsted":"cocinó","Nosotros":"cocinamos","Vosotros":"cocinasteis","EllosEllasUstedes":"cocinaron"},"Imperfect":{"Yo":"cocinaba","Tu":"cocinabas","ElEllaUsted":"cocinaba","Nosotros":"cocinábamos","Vosotros":"cocinabais","EllosEllasUstedes":"cocinaban"},"Conditional":{"Yo":"cocinaría","Tu":"cocinarías","ElEllaUsted":"cocinaría","Nosotros":"cocinaríamos","Vosotros":"cocinaríais","EllosEllasUstedes":"cocinarían"},"Future":{"Yo":"cocinaré","Tu":"cocinarás","ElEllaUsted":"cocinará","Nosotros":"cocinaremos","Vosotros":"cocinaréis","EllosEllasUstedes":"cocinarán"}},"Subjunctive":null,"Name":"cocinar","EnglishMeaning":"to cook"}
+{
+  "PresentParticiple": "cocinando",
+  "PastParticiple": "cocinado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cocino",
+      "Tu": "cocinas",
+      "ElEllaUsted": "cocina",
+      "Nosotros": "cocinamos",
+      "Vosotros": "cocináis",
+      "EllosEllasUstedes": "cocinan"
+    },
+    "Pretérito": {
+      "Yo": "cociné",
+      "Tu": "cocinaste",
+      "ElEllaUsted": "cocinó",
+      "Nosotros": "cocinamos",
+      "Vosotros": "cocinasteis",
+      "EllosEllasUstedes": "cocinaron"
+    },
+    "Imperfect": {
+      "Yo": "cocinaba",
+      "Tu": "cocinabas",
+      "ElEllaUsted": "cocinaba",
+      "Nosotros": "cocinábamos",
+      "Vosotros": "cocinabais",
+      "EllosEllasUstedes": "cocinaban"
+    },
+    "Conditional": {
+      "Yo": "cocinaría",
+      "Tu": "cocinarías",
+      "ElEllaUsted": "cocinaría",
+      "Nosotros": "cocinaríamos",
+      "Vosotros": "cocinaríais",
+      "EllosEllasUstedes": "cocinarían"
+    },
+    "Future": {
+      "Yo": "cocinaré",
+      "Tu": "cocinarás",
+      "ElEllaUsted": "cocinará",
+      "Nosotros": "cocinaremos",
+      "Vosotros": "cocinaréis",
+      "EllosEllasUstedes": "cocinarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cocine",
+      "Tu": "cocines",
+      "ElEllaUsted": "cocine",
+      "Nosotros": "cocinemos",
+      "Vosotros": "cocinéis",
+      "EllosEllasUstedes": "cocinen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cocinara",
+      "Tu": "cocinaras",
+      "ElEllaUsted": "cocinara",
+      "Nosotros": "cocinaramos",
+      "Vosotros": "cocinarais",
+      "EllosEllasUstedes": "cocinaran"
+    }
+  },
+  "Name": "cocinar",
+  "EnglishMeaning": "to cook",
+  "PresentParticipleTranslation": "cooking",
+  "PastParticipleTranslation": "cooked"
+}

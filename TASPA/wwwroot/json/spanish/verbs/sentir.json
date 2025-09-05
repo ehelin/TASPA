@@ -1,1 +1,68 @@
-{"PresentParticiple":"sintiendo&translation=feeling","PastParticiple":"sentido&translation=felt","Indicative":{"PresentTense":{"Yo":"siento","Tu":"sientes","ElEllaUsted":"siente","Nosotros":"sentimos","Vosotros":"sentís","EllosEllasUstedes":"sienten"},"Pretérito":{"Yo":"sentí","Tu":"sentiste","ElEllaUsted":"sintió","Nosotros":"sentimos","Vosotros":"sentisteis","EllosEllasUstedes":"sintieron"},"Imperfect":{"Yo":"sentía","Tu":"sentías","ElEllaUsted":"sentía","Nosotros":"sentíamos","Vosotros":"sentíais","EllosEllasUstedes":"sentían"},"Conditional":{"Yo":"sentiría","Tu":"sentirías","ElEllaUsted":"sentiría","Nosotros":"sentiríamos","Vosotros":"sentiríais","EllosEllasUstedes":"sentirían"},"Future":{"Yo":"sentiré","Tu":"sentirás","ElEllaUsted":"sentirá","Nosotros":"sentiremos","Vosotros":"sentiréis","EllosEllasUstedes":"sentirán"}},"Subjunctive":null,"Name":"sentir","EnglishMeaning":"to feel"}
+{
+  "PresentParticiple": "sintiendo",
+  "PastParticiple": "sentido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "siento",
+      "Tu": "sientes",
+      "ElEllaUsted": "siente",
+      "Nosotros": "sentimos",
+      "Vosotros": "sentís",
+      "EllosEllasUstedes": "sienten"
+    },
+    "Pretérito": {
+      "Yo": "sentí",
+      "Tu": "sentiste",
+      "ElEllaUsted": "sintió",
+      "Nosotros": "sentimos",
+      "Vosotros": "sentisteis",
+      "EllosEllasUstedes": "sintieron"
+    },
+    "Imperfect": {
+      "Yo": "sentía",
+      "Tu": "sentías",
+      "ElEllaUsted": "sentía",
+      "Nosotros": "sentíamos",
+      "Vosotros": "sentíais",
+      "EllosEllasUstedes": "sentían"
+    },
+    "Conditional": {
+      "Yo": "sentiría",
+      "Tu": "sentirías",
+      "ElEllaUsted": "sentiría",
+      "Nosotros": "sentiríamos",
+      "Vosotros": "sentiríais",
+      "EllosEllasUstedes": "sentirían"
+    },
+    "Future": {
+      "Yo": "sentiré",
+      "Tu": "sentirás",
+      "ElEllaUsted": "sentirá",
+      "Nosotros": "sentiremos",
+      "Vosotros": "sentiréis",
+      "EllosEllasUstedes": "sentirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sienta",
+      "Tu": "sientas",
+      "ElEllaUsted": "sienta",
+      "Nosotros": "sientamos",
+      "Vosotros": "sientáis",
+      "EllosEllasUstedes": "sientan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "sintiea",
+      "Tu": "sintieas",
+      "ElEllaUsted": "sintiea",
+      "Nosotros": "sintieamos",
+      "Vosotros": "sintieais",
+      "EllosEllasUstedes": "sintiean"
+    }
+  },
+  "Name": "sentir",
+  "EnglishMeaning": "to feel",
+  "PresentParticipleTranslation": "feeling",
+  "PastParticipleTranslation": "felt"
+}

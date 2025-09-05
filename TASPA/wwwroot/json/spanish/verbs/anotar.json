@@ -1,1 +1,66 @@
-{"PresentParticiple":"anotando","PastParticiple":"anotado","Indicative":{"PresentTense":{"Yo":"anoto","Tu":"anotas","ElEllaUsted":"anota","Nosotros":"anotamos","Vosotros":"anotáis","EllosEllasUstedes":"anotan"},"Pretérito":{"Yo":"anoté","Tu":"anotaste","ElEllaUsted":"anotó","Nosotros":"anotamos","Vosotros":"anotasteis","EllosEllasUstedes":"anotaron"},"Imperfect":{"Yo":"anotaba","Tu":"anotabas","ElEllaUsted":"anotaba","Nosotros":"anotábamos","Vosotros":"anotabais","EllosEllasUstedes":"anotaban"},"Conditional":{"Yo":"anotaría","Tu":"anotarías","ElEllaUsted":"anotaría","Nosotros":"anotaríamos","Vosotros":"anotaríais","EllosEllasUstedes":"anotarían"},"Future":{"Yo":"anotaré","Tu":"anotarás","ElEllaUsted":"anotará","Nosotros":"anotaremos","Vosotros":"anotaréis","EllosEllasUstedes":"anotarán"}},"Subjunctive":null,"Name":"anotar","EnglishMeaning":"to note down"}
+{
+  "PresentParticiple": "anotando",
+  "PastParticiple": "anotado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "anoto",
+      "Tu": "anotas",
+      "ElEllaUsted": "anota",
+      "Nosotros": "anotamos",
+      "Vosotros": "anotáis",
+      "EllosEllasUstedes": "anotan"
+    },
+    "Pretérito": {
+      "Yo": "anoté",
+      "Tu": "anotaste",
+      "ElEllaUsted": "anotó",
+      "Nosotros": "anotamos",
+      "Vosotros": "anotasteis",
+      "EllosEllasUstedes": "anotaron"
+    },
+    "Imperfect": {
+      "Yo": "anotaba",
+      "Tu": "anotabas",
+      "ElEllaUsted": "anotaba",
+      "Nosotros": "anotábamos",
+      "Vosotros": "anotabais",
+      "EllosEllasUstedes": "anotaban"
+    },
+    "Conditional": {
+      "Yo": "anotaría",
+      "Tu": "anotarías",
+      "ElEllaUsted": "anotaría",
+      "Nosotros": "anotaríamos",
+      "Vosotros": "anotaríais",
+      "EllosEllasUstedes": "anotarían"
+    },
+    "Future": {
+      "Yo": "anotaré",
+      "Tu": "anotarás",
+      "ElEllaUsted": "anotará",
+      "Nosotros": "anotaremos",
+      "Vosotros": "anotaréis",
+      "EllosEllasUstedes": "anotarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "anote",
+      "Tu": "anotes",
+      "ElEllaUsted": "anote",
+      "Nosotros": "anotemos",
+      "Vosotros": "anotéis",
+      "EllosEllasUstedes": "anoten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "anotara",
+      "Tu": "anotaras",
+      "ElEllaUsted": "anotara",
+      "Nosotros": "anotaramos",
+      "Vosotros": "anotarais",
+      "EllosEllasUstedes": "anotaran"
+    }
+  },
+  "Name": "anotar",
+  "EnglishMeaning": "to note down"
+}

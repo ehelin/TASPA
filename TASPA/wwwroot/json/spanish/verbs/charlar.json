@@ -1,1 +1,68 @@
-{"PresentParticiple":"charlando&translation=chatting","PastParticiple":"charlado&translation=chatted","Indicative":{"PresentTense":{"Yo":"charlo","Tu":"charlas","ElEllaUsted":"charla","Nosotros":"charlamos","Vosotros":"charláis","EllosEllasUstedes":"charlan"},"Pretérito":{"Yo":"charlé","Tu":"charlaste","ElEllaUsted":"charló","Nosotros":"charlamos","Vosotros":"charlasteis","EllosEllasUstedes":"charlaron"},"Imperfect":{"Yo":"charlaba","Tu":"charlabas","ElEllaUsted":"charlaba","Nosotros":"charlábamos","Vosotros":"charlabais","EllosEllasUstedes":"charlaban"},"Conditional":{"Yo":"charlaría","Tu":"charlarías","ElEllaUsted":"charlaría","Nosotros":"charlaríamos","Vosotros":"charlaríais","EllosEllasUstedes":"charlarían"},"Future":{"Yo":"charlaré","Tu":"charlarás","ElEllaUsted":"charlará","Nosotros":"charlaremos","Vosotros":"charlaréis","EllosEllasUstedes":"charlarán"}},"Subjunctive":null,"Name":"charlar","EnglishMeaning":"to chat"}
+{
+  "PresentParticiple": "charlando",
+  "PastParticiple": "charlado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "charlo",
+      "Tu": "charlas",
+      "ElEllaUsted": "charla",
+      "Nosotros": "charlamos",
+      "Vosotros": "charláis",
+      "EllosEllasUstedes": "charlan"
+    },
+    "Pretérito": {
+      "Yo": "charlé",
+      "Tu": "charlaste",
+      "ElEllaUsted": "charló",
+      "Nosotros": "charlamos",
+      "Vosotros": "charlasteis",
+      "EllosEllasUstedes": "charlaron"
+    },
+    "Imperfect": {
+      "Yo": "charlaba",
+      "Tu": "charlabas",
+      "ElEllaUsted": "charlaba",
+      "Nosotros": "charlábamos",
+      "Vosotros": "charlabais",
+      "EllosEllasUstedes": "charlaban"
+    },
+    "Conditional": {
+      "Yo": "charlaría",
+      "Tu": "charlarías",
+      "ElEllaUsted": "charlaría",
+      "Nosotros": "charlaríamos",
+      "Vosotros": "charlaríais",
+      "EllosEllasUstedes": "charlarían"
+    },
+    "Future": {
+      "Yo": "charlaré",
+      "Tu": "charlarás",
+      "ElEllaUsted": "charlará",
+      "Nosotros": "charlaremos",
+      "Vosotros": "charlaréis",
+      "EllosEllasUstedes": "charlarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "charle",
+      "Tu": "charles",
+      "ElEllaUsted": "charle",
+      "Nosotros": "charlemos",
+      "Vosotros": "charléis",
+      "EllosEllasUstedes": "charlen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "charlara",
+      "Tu": "charlaras",
+      "ElEllaUsted": "charlara",
+      "Nosotros": "charlaramos",
+      "Vosotros": "charlarais",
+      "EllosEllasUstedes": "charlaran"
+    }
+  },
+  "Name": "charlar",
+  "EnglishMeaning": "to chat",
+  "PresentParticipleTranslation": "chatting",
+  "PastParticipleTranslation": "chatted"
+}

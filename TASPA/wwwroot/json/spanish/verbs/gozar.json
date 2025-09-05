@@ -1,1 +1,66 @@
-{"PresentParticiple":"gozando","PastParticiple":"gozado","Indicative":{"PresentTense":{"Yo":"gozo","Tu":"gozas","ElEllaUsted":"goza","Nosotros":"gozamos","Vosotros":"gozáis","EllosEllasUstedes":"gozan"},"Pretérito":{"Yo":"gocé","Tu":"gozaste","ElEllaUsted":"gozó","Nosotros":"gozamos","Vosotros":"gozasteis","EllosEllasUstedes":"gozaron"},"Imperfect":{"Yo":"gozaba","Tu":"gozabas","ElEllaUsted":"gozaba","Nosotros":"gozábamos","Vosotros":"gozabais","EllosEllasUstedes":"gozaban"},"Conditional":{"Yo":"gozaría","Tu":"gozarías","ElEllaUsted":"gozaría","Nosotros":"gozaríamos","Vosotros":"gozaríais","EllosEllasUstedes":"gozarían"},"Future":{"Yo":"gozaré","Tu":"gozarás","ElEllaUsted":"gozará","Nosotros":"gozaremos","Vosotros":"gozaréis","EllosEllasUstedes":"gozarán"}},"Subjunctive":null,"Name":"gozar","EnglishMeaning":"to enjoy oneself"}
+{
+  "PresentParticiple": "gozando",
+  "PastParticiple": "gozado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "gozo",
+      "Tu": "gozas",
+      "ElEllaUsted": "goza",
+      "Nosotros": "gozamos",
+      "Vosotros": "gozáis",
+      "EllosEllasUstedes": "gozan"
+    },
+    "Pretérito": {
+      "Yo": "gocé",
+      "Tu": "gozaste",
+      "ElEllaUsted": "gozó",
+      "Nosotros": "gozamos",
+      "Vosotros": "gozasteis",
+      "EllosEllasUstedes": "gozaron"
+    },
+    "Imperfect": {
+      "Yo": "gozaba",
+      "Tu": "gozabas",
+      "ElEllaUsted": "gozaba",
+      "Nosotros": "gozábamos",
+      "Vosotros": "gozabais",
+      "EllosEllasUstedes": "gozaban"
+    },
+    "Conditional": {
+      "Yo": "gozaría",
+      "Tu": "gozarías",
+      "ElEllaUsted": "gozaría",
+      "Nosotros": "gozaríamos",
+      "Vosotros": "gozaríais",
+      "EllosEllasUstedes": "gozarían"
+    },
+    "Future": {
+      "Yo": "gozaré",
+      "Tu": "gozarás",
+      "ElEllaUsted": "gozará",
+      "Nosotros": "gozaremos",
+      "Vosotros": "gozaréis",
+      "EllosEllasUstedes": "gozarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "goze",
+      "Tu": "gozes",
+      "ElEllaUsted": "goze",
+      "Nosotros": "gozemos",
+      "Vosotros": "gozéis",
+      "EllosEllasUstedes": "gozen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "gozara",
+      "Tu": "gozaras",
+      "ElEllaUsted": "gozara",
+      "Nosotros": "gozaramos",
+      "Vosotros": "gozarais",
+      "EllosEllasUstedes": "gozaran"
+    }
+  },
+  "Name": "gozar",
+  "EnglishMeaning": "to enjoy oneself"
+}

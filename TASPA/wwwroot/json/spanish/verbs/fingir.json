@@ -1,1 +1,68 @@
-{"PresentParticiple":"fingiendo&translation=pretending","PastParticiple":"fingido&translation=pretended","Indicative":{"PresentTense":{"Yo":"finjo","Tu":"finges","ElEllaUsted":"finge","Nosotros":"fingimos","Vosotros":"fingís","EllosEllasUstedes":"fingen"},"Pretérito":{"Yo":"fingí","Tu":"fingiste","ElEllaUsted":"fingió","Nosotros":"fingimos","Vosotros":"fingisteis","EllosEllasUstedes":"fingieron"},"Imperfect":{"Yo":"fingía","Tu":"fingías","ElEllaUsted":"fingía","Nosotros":"fingíamos","Vosotros":"fingíais","EllosEllasUstedes":"fingían"},"Conditional":{"Yo":"fingiría","Tu":"fingirías","ElEllaUsted":"fingiría","Nosotros":"fingiríamos","Vosotros":"fingiríais","EllosEllasUstedes":"fingirían"},"Future":{"Yo":"fingiré","Tu":"fingirás","ElEllaUsted":"fingirá","Nosotros":"fingiremos","Vosotros":"fingiréis","EllosEllasUstedes":"fingirán"}},"Subjunctive":null,"Name":"fingir","EnglishMeaning":"to pretend"}
+{
+  "PresentParticiple": "fingiendo",
+  "PastParticiple": "fingido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "finjo",
+      "Tu": "finges",
+      "ElEllaUsted": "finge",
+      "Nosotros": "fingimos",
+      "Vosotros": "fingís",
+      "EllosEllasUstedes": "fingen"
+    },
+    "Pretérito": {
+      "Yo": "fingí",
+      "Tu": "fingiste",
+      "ElEllaUsted": "fingió",
+      "Nosotros": "fingimos",
+      "Vosotros": "fingisteis",
+      "EllosEllasUstedes": "fingieron"
+    },
+    "Imperfect": {
+      "Yo": "fingía",
+      "Tu": "fingías",
+      "ElEllaUsted": "fingía",
+      "Nosotros": "fingíamos",
+      "Vosotros": "fingíais",
+      "EllosEllasUstedes": "fingían"
+    },
+    "Conditional": {
+      "Yo": "fingiría",
+      "Tu": "fingirías",
+      "ElEllaUsted": "fingiría",
+      "Nosotros": "fingiríamos",
+      "Vosotros": "fingiríais",
+      "EllosEllasUstedes": "fingirían"
+    },
+    "Future": {
+      "Yo": "fingiré",
+      "Tu": "fingirás",
+      "ElEllaUsted": "fingirá",
+      "Nosotros": "fingiremos",
+      "Vosotros": "fingiréis",
+      "EllosEllasUstedes": "fingirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "finja",
+      "Tu": "finjas",
+      "ElEllaUsted": "finja",
+      "Nosotros": "finjamos",
+      "Vosotros": "finjáis",
+      "EllosEllasUstedes": "finjan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "fingiea",
+      "Tu": "fingieas",
+      "ElEllaUsted": "fingiea",
+      "Nosotros": "fingieamos",
+      "Vosotros": "fingieais",
+      "EllosEllasUstedes": "fingiean"
+    }
+  },
+  "Name": "fingir",
+  "EnglishMeaning": "to pretend",
+  "PresentParticipleTranslation": "pretending",
+  "PastParticipleTranslation": "pretended"
+}

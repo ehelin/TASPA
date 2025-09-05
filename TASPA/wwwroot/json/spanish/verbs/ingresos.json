@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "ingresando",
-    "PastParticiple": "ingresado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "ingresoso",
-            "Tu": "ingresosas",
-            "ElEllaUsted": "ingresosa",
-            "Nosotros": "ingresosamos",
-            "Vosotros": "ingresosáis",
-            "EllosEllasUstedes": "ingresosan"
-        },
-        "Pretérito": {
-            "Yo": "ingresosé",
-            "Tu": "ingresosaste",
-            "ElEllaUsted": "ingresosó",
-            "Nosotros": "ingresosamos",
-            "Vosotros": "ingresosasteis",
-            "EllosEllasUstedes": "ingresosaron"
-        },
-        "Imperfect": {
-            "Yo": "ingresosaba",
-            "Tu": "ingresosabas",
-            "ElEllaUsted": "ingresosaba",
-            "Nosotros": "ingresosábamos",
-            "Vosotros": "ingresosabais",
-            "EllosEllasUstedes": "ingresosaban"
-        },
-        "Conditional": {
-            "Yo": "ingresosaría",
-            "Tu": "ingresosarías",
-            "ElEllaUsted": "ingresosaría",
-            "Nosotros": "ingresosaríamos",
-            "Vosotros": "ingresosaríais",
-            "EllosEllasUstedes": "ingresosarían"
-        },
-        "Future": {
-            "Yo": "ingresosaré",
-            "Tu": "ingresosarás",
-            "ElEllaUsted": "ingresosará",
-            "Nosotros": "ingresosaremos",
-            "Vosotros": "ingresosaréis",
-            "EllosEllasUstedes": "ingresosarán"
-        }
+  "PresentParticiple": "ingresando",
+  "PastParticiple": "ingresado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "ingresoso",
+      "Tu": "ingresosas",
+      "ElEllaUsted": "ingresosa",
+      "Nosotros": "ingresosamos",
+      "Vosotros": "ingresosáis",
+      "EllosEllasUstedes": "ingresosan"
     },
-    "Subjunctive": null,
-    "Name": "ingresos",
-    "EnglishMeaning": "to enter"
+    "Pretérito": {
+      "Yo": "ingresosé",
+      "Tu": "ingresosaste",
+      "ElEllaUsted": "ingresosó",
+      "Nosotros": "ingresosamos",
+      "Vosotros": "ingresosasteis",
+      "EllosEllasUstedes": "ingresosaron"
+    },
+    "Imperfect": {
+      "Yo": "ingresosaba",
+      "Tu": "ingresosabas",
+      "ElEllaUsted": "ingresosaba",
+      "Nosotros": "ingresosábamos",
+      "Vosotros": "ingresosabais",
+      "EllosEllasUstedes": "ingresosaban"
+    },
+    "Conditional": {
+      "Yo": "ingresosaría",
+      "Tu": "ingresosarías",
+      "ElEllaUsted": "ingresosaría",
+      "Nosotros": "ingresosaríamos",
+      "Vosotros": "ingresosaríais",
+      "EllosEllasUstedes": "ingresosarían"
+    },
+    "Future": {
+      "Yo": "ingresosaré",
+      "Tu": "ingresosarás",
+      "ElEllaUsted": "ingresosará",
+      "Nosotros": "ingresosaremos",
+      "Vosotros": "ingresosaréis",
+      "EllosEllasUstedes": "ingresosarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "ingresosa",
+      "Tu": "ingresosas",
+      "ElEllaUsted": "ingresosa",
+      "Nosotros": "ingresosamos",
+      "Vosotros": "ingresosáis",
+      "EllosEllasUstedes": "ingresosan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "ingresosara",
+      "Tu": "ingresosaras",
+      "ElEllaUsted": "ingresosara",
+      "Nosotros": "ingresosaramos",
+      "Vosotros": "ingresosarais",
+      "EllosEllasUstedes": "ingresosaran"
+    }
+  },
+  "Name": "ingresos",
+  "EnglishMeaning": "to enter"
 }

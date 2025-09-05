@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "cobrando",
-    "PastParticiple": "cobrado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "cobro",
-            "Tu": "cobras",
-            "ElEllaUsted": "cobra",
-            "Nosotros": "cobramos",
-            "Vosotros": "cobráis",
-            "EllosEllasUstedes": "cobran"
-        },
-        "Pretérito": {
-            "Yo": "cobré",
-            "Tu": "cobraste",
-            "ElEllaUsted": "cobró",
-            "Nosotros": "cobramos",
-            "Vosotros": "cobrasteis",
-            "EllosEllasUstedes": "cobraron"
-        },
-        "Imperfect": {
-            "Yo": "cobraba",
-            "Tu": "cobrabas",
-            "ElEllaUsted": "cobraba",
-            "Nosotros": "cobrábamos",
-            "Vosotros": "cobrabais",
-            "EllosEllasUstedes": "cobraban"
-        },
-        "Conditional": {
-            "Yo": "cobraría",
-            "Tu": "cobrarías",
-            "ElEllaUsted": "cobraría",
-            "Nosotros": "cobraríamos",
-            "Vosotros": "cobraríais",
-            "EllosEllasUstedes": "cobrarían"
-        },
-        "Future": {
-            "Yo": "cobraré",
-            "Tu": "cobrarás",
-            "ElEllaUsted": "cobrará",
-            "Nosotros": "cobraremos",
-            "Vosotros": "cobraréis",
-            "EllosEllasUstedes": "cobrarán"
-        }
+  "PresentParticiple": "cobrando",
+  "PastParticiple": "cobrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cobro",
+      "Tu": "cobras",
+      "ElEllaUsted": "cobra",
+      "Nosotros": "cobramos",
+      "Vosotros": "cobráis",
+      "EllosEllasUstedes": "cobran"
     },
-    "Subjunctive": null,
-    "Name": "cobrar",
-    "EnglishMeaning": "to charge"
+    "Pretérito": {
+      "Yo": "cobré",
+      "Tu": "cobraste",
+      "ElEllaUsted": "cobró",
+      "Nosotros": "cobramos",
+      "Vosotros": "cobrasteis",
+      "EllosEllasUstedes": "cobraron"
+    },
+    "Imperfect": {
+      "Yo": "cobraba",
+      "Tu": "cobrabas",
+      "ElEllaUsted": "cobraba",
+      "Nosotros": "cobrábamos",
+      "Vosotros": "cobrabais",
+      "EllosEllasUstedes": "cobraban"
+    },
+    "Conditional": {
+      "Yo": "cobraría",
+      "Tu": "cobrarías",
+      "ElEllaUsted": "cobraría",
+      "Nosotros": "cobraríamos",
+      "Vosotros": "cobraríais",
+      "EllosEllasUstedes": "cobrarían"
+    },
+    "Future": {
+      "Yo": "cobraré",
+      "Tu": "cobrarás",
+      "ElEllaUsted": "cobrará",
+      "Nosotros": "cobraremos",
+      "Vosotros": "cobraréis",
+      "EllosEllasUstedes": "cobrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cobre",
+      "Tu": "cobres",
+      "ElEllaUsted": "cobre",
+      "Nosotros": "cobremos",
+      "Vosotros": "cobréis",
+      "EllosEllasUstedes": "cobren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cobrara",
+      "Tu": "cobraras",
+      "ElEllaUsted": "cobrara",
+      "Nosotros": "cobraramos",
+      "Vosotros": "cobrarais",
+      "EllosEllasUstedes": "cobraran"
+    }
+  },
+  "Name": "cobrar",
+  "EnglishMeaning": "to charge"
 }

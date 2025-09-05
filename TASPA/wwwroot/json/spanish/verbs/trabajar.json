@@ -1,1 +1,68 @@
-{"PresentParticiple":"trabajando&translation=working","PastParticiple":"trabajado&translation=worked","Indicative":{"PresentTense":{"Yo":"trabajo","Tu":"trabajas","ElEllaUsted":"trabaja","Nosotros":"trabajamos","Vosotros":"trabajáis","EllosEllasUstedes":"trabajan"},"Pretérito":{"Yo":"trabajé","Tu":"trabajaste","ElEllaUsted":"trabajó","Nosotros":"trabajamos","Vosotros":"trabajasteis","EllosEllasUstedes":"trabajaron"},"Imperfect":{"Yo":"trabajaba","Tu":"trabajabas","ElEllaUsted":"trabajaba","Nosotros":"trabajábamos","Vosotros":"trabajabais","EllosEllasUstedes":"trabajaban"},"Conditional":{"Yo":"trabajaría","Tu":"trabajarías","ElEllaUsted":"trabajaría","Nosotros":"trabajaríamos","Vosotros":"trabajaríais","EllosEllasUstedes":"trabajarían"},"Future":{"Yo":"trabajaré","Tu":"trabajarás","ElEllaUsted":"trabajará","Nosotros":"trabajaremos","Vosotros":"trabajaréis","EllosEllasUstedes":"trabajarán"}},"Subjunctive":null,"Name":"trabajar","EnglishMeaning":"to work"}
+{
+  "PresentParticiple": "trabajando",
+  "PastParticiple": "trabajado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "trabajo",
+      "Tu": "trabajas",
+      "ElEllaUsted": "trabaja",
+      "Nosotros": "trabajamos",
+      "Vosotros": "trabajáis",
+      "EllosEllasUstedes": "trabajan"
+    },
+    "Pretérito": {
+      "Yo": "trabajé",
+      "Tu": "trabajaste",
+      "ElEllaUsted": "trabajó",
+      "Nosotros": "trabajamos",
+      "Vosotros": "trabajasteis",
+      "EllosEllasUstedes": "trabajaron"
+    },
+    "Imperfect": {
+      "Yo": "trabajaba",
+      "Tu": "trabajabas",
+      "ElEllaUsted": "trabajaba",
+      "Nosotros": "trabajábamos",
+      "Vosotros": "trabajabais",
+      "EllosEllasUstedes": "trabajaban"
+    },
+    "Conditional": {
+      "Yo": "trabajaría",
+      "Tu": "trabajarías",
+      "ElEllaUsted": "trabajaría",
+      "Nosotros": "trabajaríamos",
+      "Vosotros": "trabajaríais",
+      "EllosEllasUstedes": "trabajarían"
+    },
+    "Future": {
+      "Yo": "trabajaré",
+      "Tu": "trabajarás",
+      "ElEllaUsted": "trabajará",
+      "Nosotros": "trabajaremos",
+      "Vosotros": "trabajaréis",
+      "EllosEllasUstedes": "trabajarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "trabaje",
+      "Tu": "trabajes",
+      "ElEllaUsted": "trabaje",
+      "Nosotros": "trabajemos",
+      "Vosotros": "trabajéis",
+      "EllosEllasUstedes": "trabajen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "trabajara",
+      "Tu": "trabajaras",
+      "ElEllaUsted": "trabajara",
+      "Nosotros": "trabajaramos",
+      "Vosotros": "trabajarais",
+      "EllosEllasUstedes": "trabajaran"
+    }
+  },
+  "Name": "trabajar",
+  "EnglishMeaning": "to work",
+  "PresentParticipleTranslation": "working",
+  "PastParticipleTranslation": "worked"
+}

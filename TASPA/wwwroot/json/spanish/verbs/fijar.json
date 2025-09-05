@@ -1,1 +1,68 @@
-{"PresentParticiple":"fijando&translation=fixing","PastParticiple":"fijado&translation=fixed","Indicative":{"PresentTense":{"Yo":"fijo","Tu":"fijas","ElEllaUsted":"fija","Nosotros":"fijamos","Vosotros":"fijáis","EllosEllasUstedes":"fijan"},"Pretérito":{"Yo":"fijé","Tu":"fijaste","ElEllaUsted":"fijó","Nosotros":"fijamos","Vosotros":"fijasteis","EllosEllasUstedes":"fijaron"},"Imperfect":{"Yo":"fijaba","Tu":"fijabas","ElEllaUsted":"fijaba","Nosotros":"fijábamos","Vosotros":"fijabais","EllosEllasUstedes":"fijaban"},"Conditional":{"Yo":"fijaría","Tu":"fijarías","ElEllaUsted":"fijaría","Nosotros":"fijaríamos","Vosotros":"fijaríais","EllosEllasUstedes":"fijarían"},"Future":{"Yo":"fijaré","Tu":"fijarás","ElEllaUsted":"fijará","Nosotros":"fijaremos","Vosotros":"fijaréis","EllosEllasUstedes":"fijarán"}},"Subjunctive":null,"Name":"fijar","EnglishMeaning":"to fix"}
+{
+  "PresentParticiple": "fijando",
+  "PastParticiple": "fijado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "fijo",
+      "Tu": "fijas",
+      "ElEllaUsted": "fija",
+      "Nosotros": "fijamos",
+      "Vosotros": "fijáis",
+      "EllosEllasUstedes": "fijan"
+    },
+    "Pretérito": {
+      "Yo": "fijé",
+      "Tu": "fijaste",
+      "ElEllaUsted": "fijó",
+      "Nosotros": "fijamos",
+      "Vosotros": "fijasteis",
+      "EllosEllasUstedes": "fijaron"
+    },
+    "Imperfect": {
+      "Yo": "fijaba",
+      "Tu": "fijabas",
+      "ElEllaUsted": "fijaba",
+      "Nosotros": "fijábamos",
+      "Vosotros": "fijabais",
+      "EllosEllasUstedes": "fijaban"
+    },
+    "Conditional": {
+      "Yo": "fijaría",
+      "Tu": "fijarías",
+      "ElEllaUsted": "fijaría",
+      "Nosotros": "fijaríamos",
+      "Vosotros": "fijaríais",
+      "EllosEllasUstedes": "fijarían"
+    },
+    "Future": {
+      "Yo": "fijaré",
+      "Tu": "fijarás",
+      "ElEllaUsted": "fijará",
+      "Nosotros": "fijaremos",
+      "Vosotros": "fijaréis",
+      "EllosEllasUstedes": "fijarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "fije",
+      "Tu": "fijes",
+      "ElEllaUsted": "fije",
+      "Nosotros": "fijemos",
+      "Vosotros": "fijéis",
+      "EllosEllasUstedes": "fijen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "fijara",
+      "Tu": "fijaras",
+      "ElEllaUsted": "fijara",
+      "Nosotros": "fijaramos",
+      "Vosotros": "fijarais",
+      "EllosEllasUstedes": "fijaran"
+    }
+  },
+  "Name": "fijar",
+  "EnglishMeaning": "to fix",
+  "PresentParticipleTranslation": "fixing",
+  "PastParticipleTranslation": "fixed"
+}

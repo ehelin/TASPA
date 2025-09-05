@@ -1,1 +1,68 @@
-{"PresentParticiple":"olvidando&translation=forgetting","PastParticiple":"olvidado&translation=forgot","Indicative":{"PresentTense":{"Yo":"olvido","Tu":"olvidas","ElEllaUsted":"olvida","Nosotros":"olvidamos","Vosotros":"olvidáis","EllosEllasUstedes":"olvidan"},"Pretérito":{"Yo":"olvidé","Tu":"olvidaste","ElEllaUsted":"olvidó","Nosotros":"olvidamos","Vosotros":"olvidasteis","EllosEllasUstedes":"olvidaron"},"Imperfect":{"Yo":"olvidaba","Tu":"olvidabas","ElEllaUsted":"olvidaba","Nosotros":"olvidábamos","Vosotros":"olvidabais","EllosEllasUstedes":"olvidaban"},"Conditional":{"Yo":"olvidaría","Tu":"olvidarías","ElEllaUsted":"olvidaría","Nosotros":"olvidaríamos","Vosotros":"olvidaríais","EllosEllasUstedes":"olvidarían"},"Future":{"Yo":"olvidaré","Tu":"olvidarás","ElEllaUsted":"olvidará","Nosotros":"olvidaremos","Vosotros":"olvidaréis","EllosEllasUstedes":"olvidarán"}},"Subjunctive":null,"Name":"olvidar","EnglishMeaning":"to forget"}
+{
+  "PresentParticiple": "olvidando",
+  "PastParticiple": "olvidado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "olvido",
+      "Tu": "olvidas",
+      "ElEllaUsted": "olvida",
+      "Nosotros": "olvidamos",
+      "Vosotros": "olvidáis",
+      "EllosEllasUstedes": "olvidan"
+    },
+    "Pretérito": {
+      "Yo": "olvidé",
+      "Tu": "olvidaste",
+      "ElEllaUsted": "olvidó",
+      "Nosotros": "olvidamos",
+      "Vosotros": "olvidasteis",
+      "EllosEllasUstedes": "olvidaron"
+    },
+    "Imperfect": {
+      "Yo": "olvidaba",
+      "Tu": "olvidabas",
+      "ElEllaUsted": "olvidaba",
+      "Nosotros": "olvidábamos",
+      "Vosotros": "olvidabais",
+      "EllosEllasUstedes": "olvidaban"
+    },
+    "Conditional": {
+      "Yo": "olvidaría",
+      "Tu": "olvidarías",
+      "ElEllaUsted": "olvidaría",
+      "Nosotros": "olvidaríamos",
+      "Vosotros": "olvidaríais",
+      "EllosEllasUstedes": "olvidarían"
+    },
+    "Future": {
+      "Yo": "olvidaré",
+      "Tu": "olvidarás",
+      "ElEllaUsted": "olvidará",
+      "Nosotros": "olvidaremos",
+      "Vosotros": "olvidaréis",
+      "EllosEllasUstedes": "olvidarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "olvide",
+      "Tu": "olvides",
+      "ElEllaUsted": "olvide",
+      "Nosotros": "olvidemos",
+      "Vosotros": "olvidéis",
+      "EllosEllasUstedes": "olviden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "olvidara",
+      "Tu": "olvidaras",
+      "ElEllaUsted": "olvidara",
+      "Nosotros": "olvidaramos",
+      "Vosotros": "olvidarais",
+      "EllosEllasUstedes": "olvidaran"
+    }
+  },
+  "Name": "olvidar",
+  "EnglishMeaning": "to forget",
+  "PresentParticipleTranslation": "forgetting",
+  "PastParticipleTranslation": "forgot"
+}

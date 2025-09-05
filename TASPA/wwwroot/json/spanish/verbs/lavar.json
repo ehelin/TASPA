@@ -1,1 +1,68 @@
-{"PresentParticiple":"lavando&translation=washing","PastParticiple":"lavado&translation=washed","Indicative":{"PresentTense":{"Yo":"lavo","Tu":"lavas","ElEllaUsted":"lava","Nosotros":"lavamos","Vosotros":"laváis","EllosEllasUstedes":"lavan"},"Pretérito":{"Yo":"lavé","Tu":"lavaste","ElEllaUsted":"lavó","Nosotros":"lavamos","Vosotros":"lavasteis","EllosEllasUstedes":"lavaron"},"Imperfect":{"Yo":"lavaba","Tu":"lavabas","ElEllaUsted":"lavaba","Nosotros":"lavábamos","Vosotros":"lavabais","EllosEllasUstedes":"lavaban"},"Conditional":{"Yo":"lavaría","Tu":"lavarías","ElEllaUsted":"lavaría","Nosotros":"lavaríamos","Vosotros":"lavaríais","EllosEllasUstedes":"lavarían"},"Future":{"Yo":"lavaré","Tu":"lavarás","ElEllaUsted":"lavará","Nosotros":"lavaremos","Vosotros":"lavaréis","EllosEllasUstedes":"lavarán"}},"Subjunctive":null,"Name":"lavar","EnglishMeaning":"to wash"}
+{
+  "PresentParticiple": "lavando",
+  "PastParticiple": "lavado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "lavo",
+      "Tu": "lavas",
+      "ElEllaUsted": "lava",
+      "Nosotros": "lavamos",
+      "Vosotros": "laváis",
+      "EllosEllasUstedes": "lavan"
+    },
+    "Pretérito": {
+      "Yo": "lavé",
+      "Tu": "lavaste",
+      "ElEllaUsted": "lavó",
+      "Nosotros": "lavamos",
+      "Vosotros": "lavasteis",
+      "EllosEllasUstedes": "lavaron"
+    },
+    "Imperfect": {
+      "Yo": "lavaba",
+      "Tu": "lavabas",
+      "ElEllaUsted": "lavaba",
+      "Nosotros": "lavábamos",
+      "Vosotros": "lavabais",
+      "EllosEllasUstedes": "lavaban"
+    },
+    "Conditional": {
+      "Yo": "lavaría",
+      "Tu": "lavarías",
+      "ElEllaUsted": "lavaría",
+      "Nosotros": "lavaríamos",
+      "Vosotros": "lavaríais",
+      "EllosEllasUstedes": "lavarían"
+    },
+    "Future": {
+      "Yo": "lavaré",
+      "Tu": "lavarás",
+      "ElEllaUsted": "lavará",
+      "Nosotros": "lavaremos",
+      "Vosotros": "lavaréis",
+      "EllosEllasUstedes": "lavarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "lave",
+      "Tu": "laves",
+      "ElEllaUsted": "lave",
+      "Nosotros": "lavemos",
+      "Vosotros": "lavéis",
+      "EllosEllasUstedes": "laven"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "lavara",
+      "Tu": "lavaras",
+      "ElEllaUsted": "lavara",
+      "Nosotros": "lavaramos",
+      "Vosotros": "lavarais",
+      "EllosEllasUstedes": "lavaran"
+    }
+  },
+  "Name": "lavar",
+  "EnglishMeaning": "to wash",
+  "PresentParticipleTranslation": "washing",
+  "PastParticipleTranslation": "washed"
+}

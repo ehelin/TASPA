@@ -1,1 +1,66 @@
-{"PresentParticiple":"estrenando","PastParticiple":"estrenado","Indicative":{"PresentTense":{"Yo":"estreno","Tu":"estrenas","ElEllaUsted":"estrena","Nosotros":"estrenamos","Vosotros":"estrenáis","EllosEllasUstedes":"estrenan"},"Pretérito":{"Yo":"estrené","Tu":"estrenaste","ElEllaUsted":"estrenó","Nosotros":"estrenamos","Vosotros":"estrenasteis","EllosEllasUstedes":"estrenaron"},"Imperfect":{"Yo":"estrenaba","Tu":"estrenabas","ElEllaUsted":"estrenaba","Nosotros":"estrenábamos","Vosotros":"estrenabais","EllosEllasUstedes":"estrenaban"},"Conditional":{"Yo":"estrenaría","Tu":"estrenarías","ElEllaUsted":"estrenaría","Nosotros":"estrenaríamos","Vosotros":"estrenaríais","EllosEllasUstedes":"estrenarían"},"Future":{"Yo":"estrenaré","Tu":"estrenarás","ElEllaUsted":"estrenará","Nosotros":"estrenaremos","Vosotros":"estrenaréis","EllosEllasUstedes":"estrenarán"}},"Subjunctive":null,"Name":"estrenar","EnglishMeaning":"to wear for the first time"}
+{
+  "PresentParticiple": "estrenando",
+  "PastParticiple": "estrenado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "estreno",
+      "Tu": "estrenas",
+      "ElEllaUsted": "estrena",
+      "Nosotros": "estrenamos",
+      "Vosotros": "estrenáis",
+      "EllosEllasUstedes": "estrenan"
+    },
+    "Pretérito": {
+      "Yo": "estrené",
+      "Tu": "estrenaste",
+      "ElEllaUsted": "estrenó",
+      "Nosotros": "estrenamos",
+      "Vosotros": "estrenasteis",
+      "EllosEllasUstedes": "estrenaron"
+    },
+    "Imperfect": {
+      "Yo": "estrenaba",
+      "Tu": "estrenabas",
+      "ElEllaUsted": "estrenaba",
+      "Nosotros": "estrenábamos",
+      "Vosotros": "estrenabais",
+      "EllosEllasUstedes": "estrenaban"
+    },
+    "Conditional": {
+      "Yo": "estrenaría",
+      "Tu": "estrenarías",
+      "ElEllaUsted": "estrenaría",
+      "Nosotros": "estrenaríamos",
+      "Vosotros": "estrenaríais",
+      "EllosEllasUstedes": "estrenarían"
+    },
+    "Future": {
+      "Yo": "estrenaré",
+      "Tu": "estrenarás",
+      "ElEllaUsted": "estrenará",
+      "Nosotros": "estrenaremos",
+      "Vosotros": "estrenaréis",
+      "EllosEllasUstedes": "estrenarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "estrene",
+      "Tu": "estrenes",
+      "ElEllaUsted": "estrene",
+      "Nosotros": "estrenemos",
+      "Vosotros": "estrenéis",
+      "EllosEllasUstedes": "estrenen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "estrenara",
+      "Tu": "estrenaras",
+      "ElEllaUsted": "estrenara",
+      "Nosotros": "estrenaramos",
+      "Vosotros": "estrenarais",
+      "EllosEllasUstedes": "estrenaran"
+    }
+  },
+  "Name": "estrenar",
+  "EnglishMeaning": "to wear for the first time"
+}

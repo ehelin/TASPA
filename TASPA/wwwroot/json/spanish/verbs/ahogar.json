@@ -1,1 +1,68 @@
-{"PresentParticiple":"ahogando&translation=drowning","PastParticiple":"ahogado&translation=drowned","Indicative":{"PresentTense":{"Yo":"ahogo","Tu":"ahogas","ElEllaUsted":"ahoga","Nosotros":"ahogamos","Vosotros":"ahogáis","EllosEllasUstedes":"ahogan"},"Pretérito":{"Yo":"ahogué","Tu":"ahogaste","ElEllaUsted":"ahogó","Nosotros":"ahogamos","Vosotros":"ahogasteis","EllosEllasUstedes":"ahogaron"},"Imperfect":{"Yo":"ahogaba","Tu":"ahogabas","ElEllaUsted":"ahogaba","Nosotros":"ahogábamos","Vosotros":"ahogabais","EllosEllasUstedes":"ahogaban"},"Conditional":{"Yo":"ahogaría","Tu":"ahogarías","ElEllaUsted":"ahogaría","Nosotros":"ahogaríamos","Vosotros":"ahogaríais","EllosEllasUstedes":"ahogarían"},"Future":{"Yo":"ahogaré","Tu":"ahogarás","ElEllaUsted":"ahogará","Nosotros":"ahogaremos","Vosotros":"ahogaréis","EllosEllasUstedes":"ahogarán"}},"Subjunctive":null,"Name":"ahogar","EnglishMeaning":"to drown"}
+{
+  "PresentParticiple": "ahogando",
+  "PastParticiple": "ahogado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "ahogo",
+      "Tu": "ahogas",
+      "ElEllaUsted": "ahoga",
+      "Nosotros": "ahogamos",
+      "Vosotros": "ahogáis",
+      "EllosEllasUstedes": "ahogan"
+    },
+    "Pretérito": {
+      "Yo": "ahogué",
+      "Tu": "ahogaste",
+      "ElEllaUsted": "ahogó",
+      "Nosotros": "ahogamos",
+      "Vosotros": "ahogasteis",
+      "EllosEllasUstedes": "ahogaron"
+    },
+    "Imperfect": {
+      "Yo": "ahogaba",
+      "Tu": "ahogabas",
+      "ElEllaUsted": "ahogaba",
+      "Nosotros": "ahogábamos",
+      "Vosotros": "ahogabais",
+      "EllosEllasUstedes": "ahogaban"
+    },
+    "Conditional": {
+      "Yo": "ahogaría",
+      "Tu": "ahogarías",
+      "ElEllaUsted": "ahogaría",
+      "Nosotros": "ahogaríamos",
+      "Vosotros": "ahogaríais",
+      "EllosEllasUstedes": "ahogarían"
+    },
+    "Future": {
+      "Yo": "ahogaré",
+      "Tu": "ahogarás",
+      "ElEllaUsted": "ahogará",
+      "Nosotros": "ahogaremos",
+      "Vosotros": "ahogaréis",
+      "EllosEllasUstedes": "ahogarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "ahoge",
+      "Tu": "ahoges",
+      "ElEllaUsted": "ahoge",
+      "Nosotros": "ahogemos",
+      "Vosotros": "ahogéis",
+      "EllosEllasUstedes": "ahogen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "ahogara",
+      "Tu": "ahogaras",
+      "ElEllaUsted": "ahogara",
+      "Nosotros": "ahogaramos",
+      "Vosotros": "ahogarais",
+      "EllosEllasUstedes": "ahogaran"
+    }
+  },
+  "Name": "ahogar",
+  "EnglishMeaning": "to drown",
+  "PresentParticipleTranslation": "drowning",
+  "PastParticipleTranslation": "drowned"
+}

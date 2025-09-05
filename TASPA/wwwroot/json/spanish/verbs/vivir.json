@@ -1,1 +1,68 @@
-{"PresentParticiple":"viviendo&translation=living","PastParticiple":"vivido&translation=lived","Indicative":{"PresentTense":{"Yo":"vivo","Tu":"vives","ElEllaUsted":"vive","Nosotros":"vivimos","Vosotros":"vivís","EllosEllasUstedes":"viven"},"Pretérito":{"Yo":"viví","Tu":"viviste","ElEllaUsted":"vivió","Nosotros":"vivimos","Vosotros":"vivisteis","EllosEllasUstedes":"vivieron"},"Imperfect":{"Yo":"vivía","Tu":"vivías","ElEllaUsted":"vivía","Nosotros":"vivíamos","Vosotros":"vivíais","EllosEllasUstedes":"vivían"},"Conditional":{"Yo":"viviría","Tu":"vivirías","ElEllaUsted":"viviría","Nosotros":"viviríamos","Vosotros":"viviríais","EllosEllasUstedes":"vivirían"},"Future":{"Yo":"viviré","Tu":"vivirás","ElEllaUsted":"vivirá","Nosotros":"viviremos","Vosotros":"viviréis","EllosEllasUstedes":"vivirán"}},"Subjunctive":null,"Name":"vivir","EnglishMeaning":"to live"}
+{
+  "PresentParticiple": "viviendo",
+  "PastParticiple": "vivido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "vivo",
+      "Tu": "vives",
+      "ElEllaUsted": "vive",
+      "Nosotros": "vivimos",
+      "Vosotros": "vivís",
+      "EllosEllasUstedes": "viven"
+    },
+    "Pretérito": {
+      "Yo": "viví",
+      "Tu": "viviste",
+      "ElEllaUsted": "vivió",
+      "Nosotros": "vivimos",
+      "Vosotros": "vivisteis",
+      "EllosEllasUstedes": "vivieron"
+    },
+    "Imperfect": {
+      "Yo": "vivía",
+      "Tu": "vivías",
+      "ElEllaUsted": "vivía",
+      "Nosotros": "vivíamos",
+      "Vosotros": "vivíais",
+      "EllosEllasUstedes": "vivían"
+    },
+    "Conditional": {
+      "Yo": "viviría",
+      "Tu": "vivirías",
+      "ElEllaUsted": "viviría",
+      "Nosotros": "viviríamos",
+      "Vosotros": "viviríais",
+      "EllosEllasUstedes": "vivirían"
+    },
+    "Future": {
+      "Yo": "viviré",
+      "Tu": "vivirás",
+      "ElEllaUsted": "vivirá",
+      "Nosotros": "viviremos",
+      "Vosotros": "viviréis",
+      "EllosEllasUstedes": "vivirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "viva",
+      "Tu": "vivas",
+      "ElEllaUsted": "viva",
+      "Nosotros": "vivamos",
+      "Vosotros": "viváis",
+      "EllosEllasUstedes": "vivan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "viviea",
+      "Tu": "vivieas",
+      "ElEllaUsted": "viviea",
+      "Nosotros": "vivieamos",
+      "Vosotros": "vivieais",
+      "EllosEllasUstedes": "viviean"
+    }
+  },
+  "Name": "vivir",
+  "EnglishMeaning": "to live",
+  "PresentParticipleTranslation": "living",
+  "PastParticipleTranslation": "lived"
+}

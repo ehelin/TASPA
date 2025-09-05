@@ -1,1 +1,68 @@
-{"PresentParticiple":"prefiriendo&translation=preferring","PastParticiple":"preferido&translation=preferred","Indicative":{"PresentTense":{"Yo":"prefiero","Tu":"prefieres","ElEllaUsted":"prefiere","Nosotros":"preferimos","Vosotros":"preferís","EllosEllasUstedes":"prefieren"},"Pretérito":{"Yo":"preferí","Tu":"preferiste","ElEllaUsted":"prefirió","Nosotros":"preferimos","Vosotros":"preferisteis","EllosEllasUstedes":"prefirieron"},"Imperfect":{"Yo":"prefería","Tu":"preferías","ElEllaUsted":"prefería","Nosotros":"preferíamos","Vosotros":"preferíais","EllosEllasUstedes":"preferían"},"Conditional":{"Yo":"preferiría","Tu":"preferirías","ElEllaUsted":"preferiría","Nosotros":"preferiríamos","Vosotros":"preferiríais","EllosEllasUstedes":"preferirían"},"Future":{"Yo":"preferiré","Tu":"preferirás","ElEllaUsted":"preferirá","Nosotros":"preferiremos","Vosotros":"preferiréis","EllosEllasUstedes":"preferirán"}},"Subjunctive":null,"Name":"preferir","EnglishMeaning":"to prefer"}
+{
+  "PresentParticiple": "prefiriendo",
+  "PastParticiple": "preferido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "prefiero",
+      "Tu": "prefieres",
+      "ElEllaUsted": "prefiere",
+      "Nosotros": "preferimos",
+      "Vosotros": "preferís",
+      "EllosEllasUstedes": "prefieren"
+    },
+    "Pretérito": {
+      "Yo": "preferí",
+      "Tu": "preferiste",
+      "ElEllaUsted": "prefirió",
+      "Nosotros": "preferimos",
+      "Vosotros": "preferisteis",
+      "EllosEllasUstedes": "prefirieron"
+    },
+    "Imperfect": {
+      "Yo": "prefería",
+      "Tu": "preferías",
+      "ElEllaUsted": "prefería",
+      "Nosotros": "preferíamos",
+      "Vosotros": "preferíais",
+      "EllosEllasUstedes": "preferían"
+    },
+    "Conditional": {
+      "Yo": "preferiría",
+      "Tu": "preferirías",
+      "ElEllaUsted": "preferiría",
+      "Nosotros": "preferiríamos",
+      "Vosotros": "preferiríais",
+      "EllosEllasUstedes": "preferirían"
+    },
+    "Future": {
+      "Yo": "preferiré",
+      "Tu": "preferirás",
+      "ElEllaUsted": "preferirá",
+      "Nosotros": "preferiremos",
+      "Vosotros": "preferiréis",
+      "EllosEllasUstedes": "preferirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "prefiera",
+      "Tu": "prefieras",
+      "ElEllaUsted": "prefiera",
+      "Nosotros": "prefieramos",
+      "Vosotros": "prefieráis",
+      "EllosEllasUstedes": "prefieran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "prefiriea",
+      "Tu": "prefirieas",
+      "ElEllaUsted": "prefiriea",
+      "Nosotros": "prefirieamos",
+      "Vosotros": "prefirieais",
+      "EllosEllasUstedes": "prefiriean"
+    }
+  },
+  "Name": "preferir",
+  "EnglishMeaning": "to prefer",
+  "PresentParticipleTranslation": "preferring",
+  "PastParticipleTranslation": "preferred"
+}

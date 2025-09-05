@@ -1,1 +1,68 @@
-{"PresentParticiple":"iniciando&translation=beginning","PastParticiple":"iniciado&translation=begun","Indicative":{"PresentTense":{"Yo":"inicio","Tu":"inicias","ElEllaUsted":"inicia","Nosotros":"iniciamos","Vosotros":"iniciáis","EllosEllasUstedes":"inician"},"Pretérito":{"Yo":"inicié","Tu":"iniciaste","ElEllaUsted":"inició","Nosotros":"iniciamos","Vosotros":"iniciasteis","EllosEllasUstedes":"iniciaron"},"Imperfect":{"Yo":"iniciaba","Tu":"iniciabas","ElEllaUsted":"iniciaba","Nosotros":"iniciábamos","Vosotros":"iniciabais","EllosEllasUstedes":"iniciaban"},"Conditional":{"Yo":"iniciaría","Tu":"iniciarías","ElEllaUsted":"iniciaría","Nosotros":"iniciaríamos","Vosotros":"iniciaríais","EllosEllasUstedes":"iniciarían"},"Future":{"Yo":"iniciaré","Tu":"iniciarás","ElEllaUsted":"iniciará","Nosotros":"iniciaremos","Vosotros":"iniciaréis","EllosEllasUstedes":"iniciarán"}},"Subjunctive":null,"Name":"iniciar","EnglishMeaning":"to begin"}
+{
+  "PresentParticiple": "iniciando",
+  "PastParticiple": "iniciado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "inicio",
+      "Tu": "inicias",
+      "ElEllaUsted": "inicia",
+      "Nosotros": "iniciamos",
+      "Vosotros": "iniciáis",
+      "EllosEllasUstedes": "inician"
+    },
+    "Pretérito": {
+      "Yo": "inicié",
+      "Tu": "iniciaste",
+      "ElEllaUsted": "inició",
+      "Nosotros": "iniciamos",
+      "Vosotros": "iniciasteis",
+      "EllosEllasUstedes": "iniciaron"
+    },
+    "Imperfect": {
+      "Yo": "iniciaba",
+      "Tu": "iniciabas",
+      "ElEllaUsted": "iniciaba",
+      "Nosotros": "iniciábamos",
+      "Vosotros": "iniciabais",
+      "EllosEllasUstedes": "iniciaban"
+    },
+    "Conditional": {
+      "Yo": "iniciaría",
+      "Tu": "iniciarías",
+      "ElEllaUsted": "iniciaría",
+      "Nosotros": "iniciaríamos",
+      "Vosotros": "iniciaríais",
+      "EllosEllasUstedes": "iniciarían"
+    },
+    "Future": {
+      "Yo": "iniciaré",
+      "Tu": "iniciarás",
+      "ElEllaUsted": "iniciará",
+      "Nosotros": "iniciaremos",
+      "Vosotros": "iniciaréis",
+      "EllosEllasUstedes": "iniciarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "inicie",
+      "Tu": "inicies",
+      "ElEllaUsted": "inicie",
+      "Nosotros": "iniciemos",
+      "Vosotros": "iniciéis",
+      "EllosEllasUstedes": "inicien"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "iniciara",
+      "Tu": "iniciaras",
+      "ElEllaUsted": "iniciara",
+      "Nosotros": "iniciaramos",
+      "Vosotros": "iniciarais",
+      "EllosEllasUstedes": "iniciaran"
+    }
+  },
+  "Name": "iniciar",
+  "EnglishMeaning": "to begin",
+  "PresentParticipleTranslation": "beginning",
+  "PastParticipleTranslation": "begun"
+}

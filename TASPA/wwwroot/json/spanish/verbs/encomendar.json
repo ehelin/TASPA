@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "encomendando",
-    "PastParticiple": "encomendado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "encomendo",
-            "Tu": "encomendas",
-            "ElEllaUsted": "encomenda",
-            "Nosotros": "encomendamos",
-            "Vosotros": "encomendáis",
-            "EllosEllasUstedes": "encomendan"
-        },
-        "Pretérito": {
-            "Yo": "encomendé",
-            "Tu": "encomendaste",
-            "ElEllaUsted": "encomendó",
-            "Nosotros": "encomendamos",
-            "Vosotros": "encomendasteis",
-            "EllosEllasUstedes": "encomendaron"
-        },
-        "Imperfect": {
-            "Yo": "encomendaba",
-            "Tu": "encomendabas",
-            "ElEllaUsted": "encomendaba",
-            "Nosotros": "encomendábamos",
-            "Vosotros": "encomendabais",
-            "EllosEllasUstedes": "encomendaban"
-        },
-        "Conditional": {
-            "Yo": "encomendaría",
-            "Tu": "encomendarías",
-            "ElEllaUsted": "encomendaría",
-            "Nosotros": "encomendaríamos",
-            "Vosotros": "encomendaríais",
-            "EllosEllasUstedes": "encomendarían"
-        },
-        "Future": {
-            "Yo": "encomendaré",
-            "Tu": "encomendarás",
-            "ElEllaUsted": "encomendará",
-            "Nosotros": "encomendaremos",
-            "Vosotros": "encomendaréis",
-            "EllosEllasUstedes": "encomendarán"
-        }
+  "PresentParticiple": "encomendando",
+  "PastParticiple": "encomendado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "encomendo",
+      "Tu": "encomendas",
+      "ElEllaUsted": "encomenda",
+      "Nosotros": "encomendamos",
+      "Vosotros": "encomendáis",
+      "EllosEllasUstedes": "encomendan"
     },
-    "Subjunctive": null,
-    "Name": "encomendar",
-    "EnglishMeaning": "to entrust"
+    "Pretérito": {
+      "Yo": "encomendé",
+      "Tu": "encomendaste",
+      "ElEllaUsted": "encomendó",
+      "Nosotros": "encomendamos",
+      "Vosotros": "encomendasteis",
+      "EllosEllasUstedes": "encomendaron"
+    },
+    "Imperfect": {
+      "Yo": "encomendaba",
+      "Tu": "encomendabas",
+      "ElEllaUsted": "encomendaba",
+      "Nosotros": "encomendábamos",
+      "Vosotros": "encomendabais",
+      "EllosEllasUstedes": "encomendaban"
+    },
+    "Conditional": {
+      "Yo": "encomendaría",
+      "Tu": "encomendarías",
+      "ElEllaUsted": "encomendaría",
+      "Nosotros": "encomendaríamos",
+      "Vosotros": "encomendaríais",
+      "EllosEllasUstedes": "encomendarían"
+    },
+    "Future": {
+      "Yo": "encomendaré",
+      "Tu": "encomendarás",
+      "ElEllaUsted": "encomendará",
+      "Nosotros": "encomendaremos",
+      "Vosotros": "encomendaréis",
+      "EllosEllasUstedes": "encomendarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "encomende",
+      "Tu": "encomendes",
+      "ElEllaUsted": "encomende",
+      "Nosotros": "encomendemos",
+      "Vosotros": "encomendéis",
+      "EllosEllasUstedes": "encomenden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "encomendara",
+      "Tu": "encomendaras",
+      "ElEllaUsted": "encomendara",
+      "Nosotros": "encomendaramos",
+      "Vosotros": "encomendarais",
+      "EllosEllasUstedes": "encomendaran"
+    }
+  },
+  "Name": "encomendar",
+  "EnglishMeaning": "to entrust"
 }

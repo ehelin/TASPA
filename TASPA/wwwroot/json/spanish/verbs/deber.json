@@ -1,1 +1,68 @@
-{"PresentParticiple":"debiendo&translation=owing","PastParticiple":"debido&translation=owed","Indicative":{"PresentTense":{"Yo":"debo","Tu":"debes","ElEllaUsted":"debe","Nosotros":"debemos","Vosotros":"debéis","EllosEllasUstedes":"deben"},"Pretérito":{"Yo":"debí","Tu":"debiste","ElEllaUsted":"debió","Nosotros":"debimos","Vosotros":"debisteis","EllosEllasUstedes":"debieron"},"Imperfect":{"Yo":"debía","Tu":"debías","ElEllaUsted":"debía","Nosotros":"debíamos","Vosotros":"debíais","EllosEllasUstedes":"debían"},"Conditional":{"Yo":"debería","Tu":"deberías","ElEllaUsted":"debería","Nosotros":"deberíamos","Vosotros":"deberíais","EllosEllasUstedes":"deberían"},"Future":{"Yo":"deberé","Tu":"deberás","ElEllaUsted":"deberá","Nosotros":"deberemos","Vosotros":"deberéis","EllosEllasUstedes":"deberán"}},"Subjunctive":null,"Name":"deber","EnglishMeaning":"to owe"}
+{
+  "PresentParticiple": "debiendo",
+  "PastParticiple": "debido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "debo",
+      "Tu": "debes",
+      "ElEllaUsted": "debe",
+      "Nosotros": "debemos",
+      "Vosotros": "debéis",
+      "EllosEllasUstedes": "deben"
+    },
+    "Pretérito": {
+      "Yo": "debí",
+      "Tu": "debiste",
+      "ElEllaUsted": "debió",
+      "Nosotros": "debimos",
+      "Vosotros": "debisteis",
+      "EllosEllasUstedes": "debieron"
+    },
+    "Imperfect": {
+      "Yo": "debía",
+      "Tu": "debías",
+      "ElEllaUsted": "debía",
+      "Nosotros": "debíamos",
+      "Vosotros": "debíais",
+      "EllosEllasUstedes": "debían"
+    },
+    "Conditional": {
+      "Yo": "debería",
+      "Tu": "deberías",
+      "ElEllaUsted": "debería",
+      "Nosotros": "deberíamos",
+      "Vosotros": "deberíais",
+      "EllosEllasUstedes": "deberían"
+    },
+    "Future": {
+      "Yo": "deberé",
+      "Tu": "deberás",
+      "ElEllaUsted": "deberá",
+      "Nosotros": "deberemos",
+      "Vosotros": "deberéis",
+      "EllosEllasUstedes": "deberán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "deba",
+      "Tu": "debas",
+      "ElEllaUsted": "deba",
+      "Nosotros": "debamos",
+      "Vosotros": "debáis",
+      "EllosEllasUstedes": "deban"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "debiea",
+      "Tu": "debieas",
+      "ElEllaUsted": "debiea",
+      "Nosotros": "debieamos",
+      "Vosotros": "debieais",
+      "EllosEllasUstedes": "debiean"
+    }
+  },
+  "Name": "deber",
+  "EnglishMeaning": "to owe",
+  "PresentParticipleTranslation": "owing",
+  "PastParticipleTranslation": "owed"
+}

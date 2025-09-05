@@ -1,1 +1,68 @@
-{"PresentParticiple":"calentando&translation=heating","PastParticiple":"calentado&translation=heated","Indicative":{"PresentTense":{"Yo":"caliento","Tu":"calientas","ElEllaUsted":"calienta","Nosotros":"calentamos","Vosotros":"calentáis","EllosEllasUstedes":"calientan"},"Pretérito":{"Yo":"calenté","Tu":"calentaste","ElEllaUsted":"calentó","Nosotros":"calentamos","Vosotros":"calentasteis","EllosEllasUstedes":"calentaron"},"Imperfect":{"Yo":"calentaba","Tu":"calentabas","ElEllaUsted":"calentaba","Nosotros":"calentábamos","Vosotros":"calentabais","EllosEllasUstedes":"calentaban"},"Conditional":{"Yo":"calentaría","Tu":"calentarías","ElEllaUsted":"calentaría","Nosotros":"calentaríamos","Vosotros":"calentaríais","EllosEllasUstedes":"calentarían"},"Future":{"Yo":"calentaré","Tu":"calentarás","ElEllaUsted":"calentará","Nosotros":"calentaremos","Vosotros":"calentaréis","EllosEllasUstedes":"calentarán"}},"Subjunctive":null,"Name":"calentar","EnglishMeaning":"to heat"}
+{
+  "PresentParticiple": "calentando",
+  "PastParticiple": "calentado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "caliento",
+      "Tu": "calientas",
+      "ElEllaUsted": "calienta",
+      "Nosotros": "calentamos",
+      "Vosotros": "calentáis",
+      "EllosEllasUstedes": "calientan"
+    },
+    "Pretérito": {
+      "Yo": "calenté",
+      "Tu": "calentaste",
+      "ElEllaUsted": "calentó",
+      "Nosotros": "calentamos",
+      "Vosotros": "calentasteis",
+      "EllosEllasUstedes": "calentaron"
+    },
+    "Imperfect": {
+      "Yo": "calentaba",
+      "Tu": "calentabas",
+      "ElEllaUsted": "calentaba",
+      "Nosotros": "calentábamos",
+      "Vosotros": "calentabais",
+      "EllosEllasUstedes": "calentaban"
+    },
+    "Conditional": {
+      "Yo": "calentaría",
+      "Tu": "calentarías",
+      "ElEllaUsted": "calentaría",
+      "Nosotros": "calentaríamos",
+      "Vosotros": "calentaríais",
+      "EllosEllasUstedes": "calentarían"
+    },
+    "Future": {
+      "Yo": "calentaré",
+      "Tu": "calentarás",
+      "ElEllaUsted": "calentará",
+      "Nosotros": "calentaremos",
+      "Vosotros": "calentaréis",
+      "EllosEllasUstedes": "calentarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "caliente",
+      "Tu": "calientes",
+      "ElEllaUsted": "caliente",
+      "Nosotros": "calientemos",
+      "Vosotros": "calientéis",
+      "EllosEllasUstedes": "calienten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "calentara",
+      "Tu": "calentaras",
+      "ElEllaUsted": "calentara",
+      "Nosotros": "calentaramos",
+      "Vosotros": "calentarais",
+      "EllosEllasUstedes": "calentaran"
+    }
+  },
+  "Name": "calentar",
+  "EnglishMeaning": "to heat",
+  "PresentParticipleTranslation": "heating",
+  "PastParticipleTranslation": "heated"
+}

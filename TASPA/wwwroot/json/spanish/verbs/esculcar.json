@@ -1,1 +1,68 @@
-{"PresentParticiple":"esculcando&translation=searching","PastParticiple":"esculcado&translation=searched","Indicative":{"PresentTense":{"Yo":"esculco","Tu":"esculcas","ElEllaUsted":"esculca","Nosotros":"esculcamos","Vosotros":"esculcáis","EllosEllasUstedes":"esculcan"},"Pretérito":{"Yo":"esculqué","Tu":"esculcaste","ElEllaUsted":"esculcó","Nosotros":"esculcamos","Vosotros":"esculcasteis","EllosEllasUstedes":"esculcaron"},"Imperfect":{"Yo":"esculcaba","Tu":"esculcabas","ElEllaUsted":"esculcaba","Nosotros":"esculcábamos","Vosotros":"esculcabais","EllosEllasUstedes":"esculcaban"},"Conditional":{"Yo":"esculcaría","Tu":"esculcarías","ElEllaUsted":"esculcaría","Nosotros":"esculcaríamos","Vosotros":"esculcaríais","EllosEllasUstedes":"esculcarían"},"Future":{"Yo":"esculcaré","Tu":"esculcarás","ElEllaUsted":"esculcará","Nosotros":"esculcaremos","Vosotros":"esculcaréis","EllosEllasUstedes":"esculcarán"}},"Subjunctive":null,"Name":"esculcar","EnglishMeaning":"to search"}
+{
+  "PresentParticiple": "esculcando",
+  "PastParticiple": "esculcado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "esculco",
+      "Tu": "esculcas",
+      "ElEllaUsted": "esculca",
+      "Nosotros": "esculcamos",
+      "Vosotros": "esculcáis",
+      "EllosEllasUstedes": "esculcan"
+    },
+    "Pretérito": {
+      "Yo": "esculqué",
+      "Tu": "esculcaste",
+      "ElEllaUsted": "esculcó",
+      "Nosotros": "esculcamos",
+      "Vosotros": "esculcasteis",
+      "EllosEllasUstedes": "esculcaron"
+    },
+    "Imperfect": {
+      "Yo": "esculcaba",
+      "Tu": "esculcabas",
+      "ElEllaUsted": "esculcaba",
+      "Nosotros": "esculcábamos",
+      "Vosotros": "esculcabais",
+      "EllosEllasUstedes": "esculcaban"
+    },
+    "Conditional": {
+      "Yo": "esculcaría",
+      "Tu": "esculcarías",
+      "ElEllaUsted": "esculcaría",
+      "Nosotros": "esculcaríamos",
+      "Vosotros": "esculcaríais",
+      "EllosEllasUstedes": "esculcarían"
+    },
+    "Future": {
+      "Yo": "esculcaré",
+      "Tu": "esculcarás",
+      "ElEllaUsted": "esculcará",
+      "Nosotros": "esculcaremos",
+      "Vosotros": "esculcaréis",
+      "EllosEllasUstedes": "esculcarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "esculce",
+      "Tu": "esculces",
+      "ElEllaUsted": "esculce",
+      "Nosotros": "esculcemos",
+      "Vosotros": "esculcéis",
+      "EllosEllasUstedes": "esculcen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "esculcara",
+      "Tu": "esculcaras",
+      "ElEllaUsted": "esculcara",
+      "Nosotros": "esculcaramos",
+      "Vosotros": "esculcarais",
+      "EllosEllasUstedes": "esculcaran"
+    }
+  },
+  "Name": "esculcar",
+  "EnglishMeaning": "to search",
+  "PresentParticipleTranslation": "searching",
+  "PastParticipleTranslation": "searched"
+}

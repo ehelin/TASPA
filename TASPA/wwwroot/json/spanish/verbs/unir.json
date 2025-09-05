@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "unirán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "una",
+      "Tu": "unas",
+      "ElEllaUsted": "una",
+      "Nosotros": "unamos",
+      "Vosotros": "unáis",
+      "EllosEllasUstedes": "unan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "uniea",
+      "Tu": "unieas",
+      "ElEllaUsted": "uniea",
+      "Nosotros": "unieamos",
+      "Vosotros": "unieais",
+      "EllosEllasUstedes": "uniean"
+    }
+  },
   "Name": "unir",
   "EnglishMeaning": "to unite"
 }

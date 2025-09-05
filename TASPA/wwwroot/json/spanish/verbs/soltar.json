@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "soltando",
-    "PastParticiple": "soltado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "solto",
-            "Tu": "soltas",
-            "ElEllaUsted": "solta",
-            "Nosotros": "soltamos",
-            "Vosotros": "soltáis",
-            "EllosEllasUstedes": "soltan"
-        },
-        "Pretérito": {
-            "Yo": "solté",
-            "Tu": "soltaste",
-            "ElEllaUsted": "soltó",
-            "Nosotros": "soltamos",
-            "Vosotros": "soltasteis",
-            "EllosEllasUstedes": "soltaron"
-        },
-        "Imperfect": {
-            "Yo": "soltaba",
-            "Tu": "soltabas",
-            "ElEllaUsted": "soltaba",
-            "Nosotros": "soltábamos",
-            "Vosotros": "soltabais",
-            "EllosEllasUstedes": "soltaban"
-        },
-        "Conditional": {
-            "Yo": "soltaría",
-            "Tu": "soltarías",
-            "ElEllaUsted": "soltaría",
-            "Nosotros": "soltaríamos",
-            "Vosotros": "soltaríais",
-            "EllosEllasUstedes": "soltarían"
-        },
-        "Future": {
-            "Yo": "soltaré",
-            "Tu": "soltarás",
-            "ElEllaUsted": "soltará",
-            "Nosotros": "soltaremos",
-            "Vosotros": "soltaréis",
-            "EllosEllasUstedes": "soltarán"
-        }
+  "PresentParticiple": "soltando",
+  "PastParticiple": "soltado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "solto",
+      "Tu": "soltas",
+      "ElEllaUsted": "solta",
+      "Nosotros": "soltamos",
+      "Vosotros": "soltáis",
+      "EllosEllasUstedes": "soltan"
     },
-    "Subjunctive": null,
-    "Name": "soltar",
-    "EnglishMeaning": "to release"
+    "Pretérito": {
+      "Yo": "solté",
+      "Tu": "soltaste",
+      "ElEllaUsted": "soltó",
+      "Nosotros": "soltamos",
+      "Vosotros": "soltasteis",
+      "EllosEllasUstedes": "soltaron"
+    },
+    "Imperfect": {
+      "Yo": "soltaba",
+      "Tu": "soltabas",
+      "ElEllaUsted": "soltaba",
+      "Nosotros": "soltábamos",
+      "Vosotros": "soltabais",
+      "EllosEllasUstedes": "soltaban"
+    },
+    "Conditional": {
+      "Yo": "soltaría",
+      "Tu": "soltarías",
+      "ElEllaUsted": "soltaría",
+      "Nosotros": "soltaríamos",
+      "Vosotros": "soltaríais",
+      "EllosEllasUstedes": "soltarían"
+    },
+    "Future": {
+      "Yo": "soltaré",
+      "Tu": "soltarás",
+      "ElEllaUsted": "soltará",
+      "Nosotros": "soltaremos",
+      "Vosotros": "soltaréis",
+      "EllosEllasUstedes": "soltarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "solte",
+      "Tu": "soltes",
+      "ElEllaUsted": "solte",
+      "Nosotros": "soltemos",
+      "Vosotros": "soltéis",
+      "EllosEllasUstedes": "solten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "soltara",
+      "Tu": "soltaras",
+      "ElEllaUsted": "soltara",
+      "Nosotros": "soltaramos",
+      "Vosotros": "soltarais",
+      "EllosEllasUstedes": "soltaran"
+    }
+  },
+  "Name": "soltar",
+  "EnglishMeaning": "to release"
 }

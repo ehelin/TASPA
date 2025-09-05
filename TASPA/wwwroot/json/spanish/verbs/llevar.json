@@ -1,1 +1,68 @@
-{"PresentParticiple":"llevando&translation=taking","PastParticiple":"llevado&translation=taken","Indicative":{"PresentTense":{"Yo":"llevo","Tu":"llevas","ElEllaUsted":"lleva","Nosotros":"llevamos","Vosotros":"lleváis","EllosEllasUstedes":"llevan"},"Pretérito":{"Yo":"llevé","Tu":"llevaste","ElEllaUsted":"llevó","Nosotros":"llevamos","Vosotros":"llevasteis","EllosEllasUstedes":"llevaron"},"Imperfect":{"Yo":"llevaba","Tu":"llevabas","ElEllaUsted":"llevaba","Nosotros":"llevábamos","Vosotros":"llevabais","EllosEllasUstedes":"llevaban"},"Conditional":{"Yo":"llevaría","Tu":"llevarías","ElEllaUsted":"llevaría","Nosotros":"llevaríamos","Vosotros":"llevaríais","EllosEllasUstedes":"llevarían"},"Future":{"Yo":"llevaré","Tu":"llevarás","ElEllaUsted":"llevará","Nosotros":"llevaremos","Vosotros":"llevaréis","EllosEllasUstedes":"llevarán"}},"Subjunctive":null,"Name":"llevar","EnglishMeaning":"to take"}
+{
+  "PresentParticiple": "llevando",
+  "PastParticiple": "llevado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "llevo",
+      "Tu": "llevas",
+      "ElEllaUsted": "lleva",
+      "Nosotros": "llevamos",
+      "Vosotros": "lleváis",
+      "EllosEllasUstedes": "llevan"
+    },
+    "Pretérito": {
+      "Yo": "llevé",
+      "Tu": "llevaste",
+      "ElEllaUsted": "llevó",
+      "Nosotros": "llevamos",
+      "Vosotros": "llevasteis",
+      "EllosEllasUstedes": "llevaron"
+    },
+    "Imperfect": {
+      "Yo": "llevaba",
+      "Tu": "llevabas",
+      "ElEllaUsted": "llevaba",
+      "Nosotros": "llevábamos",
+      "Vosotros": "llevabais",
+      "EllosEllasUstedes": "llevaban"
+    },
+    "Conditional": {
+      "Yo": "llevaría",
+      "Tu": "llevarías",
+      "ElEllaUsted": "llevaría",
+      "Nosotros": "llevaríamos",
+      "Vosotros": "llevaríais",
+      "EllosEllasUstedes": "llevarían"
+    },
+    "Future": {
+      "Yo": "llevaré",
+      "Tu": "llevarás",
+      "ElEllaUsted": "llevará",
+      "Nosotros": "llevaremos",
+      "Vosotros": "llevaréis",
+      "EllosEllasUstedes": "llevarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "lleve",
+      "Tu": "lleves",
+      "ElEllaUsted": "lleve",
+      "Nosotros": "llevemos",
+      "Vosotros": "llevéis",
+      "EllosEllasUstedes": "lleven"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "llevara",
+      "Tu": "llevaras",
+      "ElEllaUsted": "llevara",
+      "Nosotros": "llevaramos",
+      "Vosotros": "llevarais",
+      "EllosEllasUstedes": "llevaran"
+    }
+  },
+  "Name": "llevar",
+  "EnglishMeaning": "to take",
+  "PresentParticipleTranslation": "taking",
+  "PastParticipleTranslation": "taken"
+}

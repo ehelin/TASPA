@@ -1,1 +1,68 @@
-{"PresentParticiple":"comprendiendo&translation=understanding","PastParticiple":"comprendido&translation=understood","Indicative":{"PresentTense":{"Yo":"comprendo","Tu":"comprendes","ElEllaUsted":"comprende","Nosotros":"comprendemos","Vosotros":"comprendéis","EllosEllasUstedes":"comprenden"},"Pretérito":{"Yo":"comprendí","Tu":"comprendiste","ElEllaUsted":"comprendió","Nosotros":"comprendimos","Vosotros":"comprendisteis","EllosEllasUstedes":"comprendieron"},"Imperfect":{"Yo":"comprendía","Tu":"comprendías","ElEllaUsted":"comprendía","Nosotros":"comprendíamos","Vosotros":"comprendíais","EllosEllasUstedes":"comprendían"},"Conditional":{"Yo":"comprendería","Tu":"comprenderías","ElEllaUsted":"comprendería","Nosotros":"comprenderíamos","Vosotros":"comprenderíais","EllosEllasUstedes":"comprenderían"},"Future":{"Yo":"comprenderé","Tu":"comprenderás","ElEllaUsted":"comprenderá","Nosotros":"comprenderemos","Vosotros":"comprenderéis","EllosEllasUstedes":"comprenderán"}},"Subjunctive":null,"Name":"comprender","EnglishMeaning":"to understand"}
+{
+  "PresentParticiple": "comprendiendo",
+  "PastParticiple": "comprendido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "comprendo",
+      "Tu": "comprendes",
+      "ElEllaUsted": "comprende",
+      "Nosotros": "comprendemos",
+      "Vosotros": "comprendéis",
+      "EllosEllasUstedes": "comprenden"
+    },
+    "Pretérito": {
+      "Yo": "comprendí",
+      "Tu": "comprendiste",
+      "ElEllaUsted": "comprendió",
+      "Nosotros": "comprendimos",
+      "Vosotros": "comprendisteis",
+      "EllosEllasUstedes": "comprendieron"
+    },
+    "Imperfect": {
+      "Yo": "comprendía",
+      "Tu": "comprendías",
+      "ElEllaUsted": "comprendía",
+      "Nosotros": "comprendíamos",
+      "Vosotros": "comprendíais",
+      "EllosEllasUstedes": "comprendían"
+    },
+    "Conditional": {
+      "Yo": "comprendería",
+      "Tu": "comprenderías",
+      "ElEllaUsted": "comprendería",
+      "Nosotros": "comprenderíamos",
+      "Vosotros": "comprenderíais",
+      "EllosEllasUstedes": "comprenderían"
+    },
+    "Future": {
+      "Yo": "comprenderé",
+      "Tu": "comprenderás",
+      "ElEllaUsted": "comprenderá",
+      "Nosotros": "comprenderemos",
+      "Vosotros": "comprenderéis",
+      "EllosEllasUstedes": "comprenderán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "comprenda",
+      "Tu": "comprendas",
+      "ElEllaUsted": "comprenda",
+      "Nosotros": "comprendamos",
+      "Vosotros": "comprendáis",
+      "EllosEllasUstedes": "comprendan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "comprendiea",
+      "Tu": "comprendieas",
+      "ElEllaUsted": "comprendiea",
+      "Nosotros": "comprendieamos",
+      "Vosotros": "comprendieais",
+      "EllosEllasUstedes": "comprendiean"
+    }
+  },
+  "Name": "comprender",
+  "EnglishMeaning": "to understand",
+  "PresentParticipleTranslation": "understanding",
+  "PastParticipleTranslation": "understood"
+}

@@ -1,1 +1,66 @@
-{"PresentParticiple":"gustando","PastParticiple":"gustado","Indicative":{"PresentTense":{"Yo":"gusto","Tu":"gustas","ElEllaUsted":"gusta","Nosotros":"gustamos","Vosotros":"gustáis","EllosEllasUstedes":"gustan"},"Pretérito":{"Yo":"gusté","Tu":"gustaste","ElEllaUsted":"gustó","Nosotros":"gustamos","Vosotros":"gustasteis","EllosEllasUstedes":"gustaron"},"Imperfect":{"Yo":"gustaba","Tu":"gustabas","ElEllaUsted":"gustaba","Nosotros":"gustábamos","Vosotros":"gustabais","EllosEllasUstedes":"gustaban"},"Conditional":{"Yo":"gustaría","Tu":"gustarías","ElEllaUsted":"gustaría","Nosotros":"gustaríamos","Vosotros":"gustaríais","EllosEllasUstedes":"gustarían"},"Future":{"Yo":"gustaré","Tu":"gustarás","ElEllaUsted":"gustará","Nosotros":"gustaremos","Vosotros":"gustaréis","EllosEllasUstedes":"gustarán"}},"Subjunctive":null,"Name":"gustar","EnglishMeaning":"to like"}
+{
+  "PresentParticiple": "gustando",
+  "PastParticiple": "gustado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "gusto",
+      "Tu": "gustas",
+      "ElEllaUsted": "gusta",
+      "Nosotros": "gustamos",
+      "Vosotros": "gustáis",
+      "EllosEllasUstedes": "gustan"
+    },
+    "Pretérito": {
+      "Yo": "gusté",
+      "Tu": "gustaste",
+      "ElEllaUsted": "gustó",
+      "Nosotros": "gustamos",
+      "Vosotros": "gustasteis",
+      "EllosEllasUstedes": "gustaron"
+    },
+    "Imperfect": {
+      "Yo": "gustaba",
+      "Tu": "gustabas",
+      "ElEllaUsted": "gustaba",
+      "Nosotros": "gustábamos",
+      "Vosotros": "gustabais",
+      "EllosEllasUstedes": "gustaban"
+    },
+    "Conditional": {
+      "Yo": "gustaría",
+      "Tu": "gustarías",
+      "ElEllaUsted": "gustaría",
+      "Nosotros": "gustaríamos",
+      "Vosotros": "gustaríais",
+      "EllosEllasUstedes": "gustarían"
+    },
+    "Future": {
+      "Yo": "gustaré",
+      "Tu": "gustarás",
+      "ElEllaUsted": "gustará",
+      "Nosotros": "gustaremos",
+      "Vosotros": "gustaréis",
+      "EllosEllasUstedes": "gustarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "guste",
+      "Tu": "gustes",
+      "ElEllaUsted": "guste",
+      "Nosotros": "gustemos",
+      "Vosotros": "gustéis",
+      "EllosEllasUstedes": "gusten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "gustara",
+      "Tu": "gustaras",
+      "ElEllaUsted": "gustara",
+      "Nosotros": "gustaramos",
+      "Vosotros": "gustarais",
+      "EllosEllasUstedes": "gustaran"
+    }
+  },
+  "Name": "gustar",
+  "EnglishMeaning": "to like"
+}

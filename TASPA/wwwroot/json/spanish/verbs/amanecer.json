@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "amanecerán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "amanezca",
+      "Tu": "amanezcas",
+      "ElEllaUsted": "amanezca",
+      "Nosotros": "amanezcamos",
+      "Vosotros": "amanezcáis",
+      "EllosEllasUstedes": "amanezcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "amaneciea",
+      "Tu": "amanecieas",
+      "ElEllaUsted": "amaneciea",
+      "Nosotros": "amanecieamos",
+      "Vosotros": "amanecieais",
+      "EllosEllasUstedes": "amaneciean"
+    }
+  },
   "Name": "amanecer",
   "EnglishMeaning": "to dawn"
 }

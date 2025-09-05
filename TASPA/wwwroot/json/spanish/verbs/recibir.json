@@ -1,1 +1,68 @@
-{"PresentParticiple":"recibiendo&translation=receiving","PastParticiple":"recibido&translation=received","Indicative":{"PresentTense":{"Yo":"recibo","Tu":"recibes","ElEllaUsted":"recibe","Nosotros":"recibimos","Vosotros":"recibís","EllosEllasUstedes":"reciben"},"Pretérito":{"Yo":"recibí","Tu":"recibiste","ElEllaUsted":"recibió","Nosotros":"recibimos","Vosotros":"recibisteis","EllosEllasUstedes":"recibieron"},"Imperfect":{"Yo":"recibía","Tu":"recibías","ElEllaUsted":"recibía","Nosotros":"recibíamos","Vosotros":"recibíais","EllosEllasUstedes":"recibían"},"Conditional":{"Yo":"recibiría","Tu":"recibirías","ElEllaUsted":"recibiría","Nosotros":"recibiríamos","Vosotros":"recibiríais","EllosEllasUstedes":"recibirían"},"Future":{"Yo":"recibiré","Tu":"recibirás","ElEllaUsted":"recibirá","Nosotros":"recibiremos","Vosotros":"recibiréis","EllosEllasUstedes":"recibirán"}},"Subjunctive":null,"Name":"recibir","EnglishMeaning":"to receive"}
+{
+  "PresentParticiple": "recibiendo",
+  "PastParticiple": "recibido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "recibo",
+      "Tu": "recibes",
+      "ElEllaUsted": "recibe",
+      "Nosotros": "recibimos",
+      "Vosotros": "recibís",
+      "EllosEllasUstedes": "reciben"
+    },
+    "Pretérito": {
+      "Yo": "recibí",
+      "Tu": "recibiste",
+      "ElEllaUsted": "recibió",
+      "Nosotros": "recibimos",
+      "Vosotros": "recibisteis",
+      "EllosEllasUstedes": "recibieron"
+    },
+    "Imperfect": {
+      "Yo": "recibía",
+      "Tu": "recibías",
+      "ElEllaUsted": "recibía",
+      "Nosotros": "recibíamos",
+      "Vosotros": "recibíais",
+      "EllosEllasUstedes": "recibían"
+    },
+    "Conditional": {
+      "Yo": "recibiría",
+      "Tu": "recibirías",
+      "ElEllaUsted": "recibiría",
+      "Nosotros": "recibiríamos",
+      "Vosotros": "recibiríais",
+      "EllosEllasUstedes": "recibirían"
+    },
+    "Future": {
+      "Yo": "recibiré",
+      "Tu": "recibirás",
+      "ElEllaUsted": "recibirá",
+      "Nosotros": "recibiremos",
+      "Vosotros": "recibiréis",
+      "EllosEllasUstedes": "recibirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "reciba",
+      "Tu": "recibas",
+      "ElEllaUsted": "reciba",
+      "Nosotros": "recibamos",
+      "Vosotros": "recibáis",
+      "EllosEllasUstedes": "reciban"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "recibiea",
+      "Tu": "recibieas",
+      "ElEllaUsted": "recibiea",
+      "Nosotros": "recibieamos",
+      "Vosotros": "recibieais",
+      "EllosEllasUstedes": "recibiean"
+    }
+  },
+  "Name": "recibir",
+  "EnglishMeaning": "to receive",
+  "PresentParticipleTranslation": "receiving",
+  "PastParticipleTranslation": "received"
+}

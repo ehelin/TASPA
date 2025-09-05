@@ -1,1 +1,68 @@
-{"PresentParticiple":"empezando&translation=beginning","PastParticiple":"empezado&translation=begun","Indicative":{"PresentTense":{"Yo":"empiezo","Tu":"empiezas","ElEllaUsted":"empieza","Nosotros":"empezamos","Vosotros":"empezáis","EllosEllasUstedes":"empiezan"},"Pretérito":{"Yo":"empecé","Tu":"empezaste","ElEllaUsted":"empezó","Nosotros":"empezamos","Vosotros":"empezasteis","EllosEllasUstedes":"empezaron"},"Imperfect":{"Yo":"empezaba","Tu":"empezabas","ElEllaUsted":"empezaba","Nosotros":"empezábamos","Vosotros":"empezabais","EllosEllasUstedes":"empezaban"},"Conditional":{"Yo":"empezaría","Tu":"empezarías","ElEllaUsted":"empezaría","Nosotros":"empezaríamos","Vosotros":"empezaríais","EllosEllasUstedes":"empezarían"},"Future":{"Yo":"empezaré","Tu":"empezarás","ElEllaUsted":"empezará","Nosotros":"empezaremos","Vosotros":"empezaréis","EllosEllasUstedes":"empezarán"}},"Subjunctive":null,"Name":"empezar","EnglishMeaning":"to start"}
+{
+  "PresentParticiple": "empezando",
+  "PastParticiple": "empezado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "empiezo",
+      "Tu": "empiezas",
+      "ElEllaUsted": "empieza",
+      "Nosotros": "empezamos",
+      "Vosotros": "empezáis",
+      "EllosEllasUstedes": "empiezan"
+    },
+    "Pretérito": {
+      "Yo": "empecé",
+      "Tu": "empezaste",
+      "ElEllaUsted": "empezó",
+      "Nosotros": "empezamos",
+      "Vosotros": "empezasteis",
+      "EllosEllasUstedes": "empezaron"
+    },
+    "Imperfect": {
+      "Yo": "empezaba",
+      "Tu": "empezabas",
+      "ElEllaUsted": "empezaba",
+      "Nosotros": "empezábamos",
+      "Vosotros": "empezabais",
+      "EllosEllasUstedes": "empezaban"
+    },
+    "Conditional": {
+      "Yo": "empezaría",
+      "Tu": "empezarías",
+      "ElEllaUsted": "empezaría",
+      "Nosotros": "empezaríamos",
+      "Vosotros": "empezaríais",
+      "EllosEllasUstedes": "empezarían"
+    },
+    "Future": {
+      "Yo": "empezaré",
+      "Tu": "empezarás",
+      "ElEllaUsted": "empezará",
+      "Nosotros": "empezaremos",
+      "Vosotros": "empezaréis",
+      "EllosEllasUstedes": "empezarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "empieze",
+      "Tu": "empiezes",
+      "ElEllaUsted": "empieze",
+      "Nosotros": "empiezemos",
+      "Vosotros": "empiezéis",
+      "EllosEllasUstedes": "empiezen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "empezara",
+      "Tu": "empezaras",
+      "ElEllaUsted": "empezara",
+      "Nosotros": "empezaramos",
+      "Vosotros": "empezarais",
+      "EllosEllasUstedes": "empezaran"
+    }
+  },
+  "Name": "empezar",
+  "EnglishMeaning": "to start",
+  "PresentParticipleTranslation": "beginning",
+  "PastParticipleTranslation": "begun"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"fumando&translation=smoking","PastParticiple":"fumado&translation=smoked","Indicative":{"PresentTense":{"Yo":"fumo","Tu":"fumas","ElEllaUsted":"fuma","Nosotros":"fumamos","Vosotros":"fumáis","EllosEllasUstedes":"fuman"},"Pretérito":{"Yo":"fumé","Tu":"fumaste","ElEllaUsted":"fumó","Nosotros":"fumamos","Vosotros":"fumasteis","EllosEllasUstedes":"fumaron"},"Imperfect":{"Yo":"fumaba","Tu":"fumabas","ElEllaUsted":"fumaba","Nosotros":"fumábamos","Vosotros":"fumabais","EllosEllasUstedes":"fumaban"},"Conditional":{"Yo":"fumaría","Tu":"fumarías","ElEllaUsted":"fumaría","Nosotros":"fumaríamos","Vosotros":"fumaríais","EllosEllasUstedes":"fumarían"},"Future":{"Yo":"fumaré","Tu":"fumarás","ElEllaUsted":"fumará","Nosotros":"fumaremos","Vosotros":"fumaréis","EllosEllasUstedes":"fumarán"}},"Subjunctive":null,"Name":"fugar","EnglishMeaning":"View more suggestions"}
+{
+  "PresentParticiple": "fumando",
+  "PastParticiple": "fumado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "fumo",
+      "Tu": "fumas",
+      "ElEllaUsted": "fuma",
+      "Nosotros": "fumamos",
+      "Vosotros": "fumáis",
+      "EllosEllasUstedes": "fuman"
+    },
+    "Pretérito": {
+      "Yo": "fumé",
+      "Tu": "fumaste",
+      "ElEllaUsted": "fumó",
+      "Nosotros": "fumamos",
+      "Vosotros": "fumasteis",
+      "EllosEllasUstedes": "fumaron"
+    },
+    "Imperfect": {
+      "Yo": "fumaba",
+      "Tu": "fumabas",
+      "ElEllaUsted": "fumaba",
+      "Nosotros": "fumábamos",
+      "Vosotros": "fumabais",
+      "EllosEllasUstedes": "fumaban"
+    },
+    "Conditional": {
+      "Yo": "fumaría",
+      "Tu": "fumarías",
+      "ElEllaUsted": "fumaría",
+      "Nosotros": "fumaríamos",
+      "Vosotros": "fumaríais",
+      "EllosEllasUstedes": "fumarían"
+    },
+    "Future": {
+      "Yo": "fumaré",
+      "Tu": "fumarás",
+      "ElEllaUsted": "fumará",
+      "Nosotros": "fumaremos",
+      "Vosotros": "fumaréis",
+      "EllosEllasUstedes": "fumarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "fume",
+      "Tu": "fumes",
+      "ElEllaUsted": "fume",
+      "Nosotros": "fumemos",
+      "Vosotros": "fuméis",
+      "EllosEllasUstedes": "fumen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "fumara",
+      "Tu": "fumaras",
+      "ElEllaUsted": "fumara",
+      "Nosotros": "fumaramos",
+      "Vosotros": "fumarais",
+      "EllosEllasUstedes": "fumaran"
+    }
+  },
+  "Name": "fugar",
+  "EnglishMeaning": "View more suggestions",
+  "PresentParticipleTranslation": "smoking",
+  "PastParticipleTranslation": "smoked"
+}

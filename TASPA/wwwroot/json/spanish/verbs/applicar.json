@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "aplicando",
-    "PastParticiple": "aplicado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "applico",
-            "Tu": "applicas",
-            "ElEllaUsted": "applica",
-            "Nosotros": "applicamos",
-            "Vosotros": "applicáis",
-            "EllosEllasUstedes": "applican"
-        },
-        "Pretérito": {
-            "Yo": "applicé",
-            "Tu": "applicaste",
-            "ElEllaUsted": "applicó",
-            "Nosotros": "applicamos",
-            "Vosotros": "applicasteis",
-            "EllosEllasUstedes": "applicaron"
-        },
-        "Imperfect": {
-            "Yo": "applicaba",
-            "Tu": "applicabas",
-            "ElEllaUsted": "applicaba",
-            "Nosotros": "applicábamos",
-            "Vosotros": "applicabais",
-            "EllosEllasUstedes": "applicaban"
-        },
-        "Conditional": {
-            "Yo": "applicaría",
-            "Tu": "applicarías",
-            "ElEllaUsted": "applicaría",
-            "Nosotros": "applicaríamos",
-            "Vosotros": "applicaríais",
-            "EllosEllasUstedes": "applicarían"
-        },
-        "Future": {
-            "Yo": "applicaré",
-            "Tu": "applicarás",
-            "ElEllaUsted": "applicará",
-            "Nosotros": "applicaremos",
-            "Vosotros": "applicaréis",
-            "EllosEllasUstedes": "applicarán"
-        }
+  "PresentParticiple": "aplicando",
+  "PastParticiple": "aplicado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "applico",
+      "Tu": "applicas",
+      "ElEllaUsted": "applica",
+      "Nosotros": "applicamos",
+      "Vosotros": "applicáis",
+      "EllosEllasUstedes": "applican"
     },
-    "Subjunctive": null,
-    "Name": "applicar",
-    "EnglishMeaning": "to apply"
+    "Pretérito": {
+      "Yo": "applicé",
+      "Tu": "applicaste",
+      "ElEllaUsted": "applicó",
+      "Nosotros": "applicamos",
+      "Vosotros": "applicasteis",
+      "EllosEllasUstedes": "applicaron"
+    },
+    "Imperfect": {
+      "Yo": "applicaba",
+      "Tu": "applicabas",
+      "ElEllaUsted": "applicaba",
+      "Nosotros": "applicábamos",
+      "Vosotros": "applicabais",
+      "EllosEllasUstedes": "applicaban"
+    },
+    "Conditional": {
+      "Yo": "applicaría",
+      "Tu": "applicarías",
+      "ElEllaUsted": "applicaría",
+      "Nosotros": "applicaríamos",
+      "Vosotros": "applicaríais",
+      "EllosEllasUstedes": "applicarían"
+    },
+    "Future": {
+      "Yo": "applicaré",
+      "Tu": "applicarás",
+      "ElEllaUsted": "applicará",
+      "Nosotros": "applicaremos",
+      "Vosotros": "applicaréis",
+      "EllosEllasUstedes": "applicarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "applice",
+      "Tu": "applices",
+      "ElEllaUsted": "applice",
+      "Nosotros": "applicemos",
+      "Vosotros": "applicéis",
+      "EllosEllasUstedes": "applicen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "applicara",
+      "Tu": "applicaras",
+      "ElEllaUsted": "applicara",
+      "Nosotros": "applicaramos",
+      "Vosotros": "applicarais",
+      "EllosEllasUstedes": "applicaran"
+    }
+  },
+  "Name": "applicar",
+  "EnglishMeaning": "to apply"
 }

@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "currando",
-    "PastParticiple": "currado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "curro",
-            "Tu": "curras",
-            "ElEllaUsted": "curra",
-            "Nosotros": "curramos",
-            "Vosotros": "curráis",
-            "EllosEllasUstedes": "curran"
-        },
-        "Pretérito": {
-            "Yo": "curré",
-            "Tu": "curraste",
-            "ElEllaUsted": "curró",
-            "Nosotros": "curramos",
-            "Vosotros": "currasteis",
-            "EllosEllasUstedes": "curraron"
-        },
-        "Imperfect": {
-            "Yo": "curraba",
-            "Tu": "currabas",
-            "ElEllaUsted": "curraba",
-            "Nosotros": "currábamos",
-            "Vosotros": "currabais",
-            "EllosEllasUstedes": "curraban"
-        },
-        "Conditional": {
-            "Yo": "curraría",
-            "Tu": "currarías",
-            "ElEllaUsted": "curraría",
-            "Nosotros": "curraríamos",
-            "Vosotros": "curraríais",
-            "EllosEllasUstedes": "currarían"
-        },
-        "Future": {
-            "Yo": "curraré",
-            "Tu": "currarás",
-            "ElEllaUsted": "currará",
-            "Nosotros": "curraremos",
-            "Vosotros": "curraréis",
-            "EllosEllasUstedes": "currarán"
-        }
+  "PresentParticiple": "currando",
+  "PastParticiple": "currado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "curro",
+      "Tu": "curras",
+      "ElEllaUsted": "curra",
+      "Nosotros": "curramos",
+      "Vosotros": "curráis",
+      "EllosEllasUstedes": "curran"
     },
-    "Subjunctive": null,
-    "Name": "currar",
-    "EnglishMeaning": "to work"
+    "Pretérito": {
+      "Yo": "curré",
+      "Tu": "curraste",
+      "ElEllaUsted": "curró",
+      "Nosotros": "curramos",
+      "Vosotros": "currasteis",
+      "EllosEllasUstedes": "curraron"
+    },
+    "Imperfect": {
+      "Yo": "curraba",
+      "Tu": "currabas",
+      "ElEllaUsted": "curraba",
+      "Nosotros": "currábamos",
+      "Vosotros": "currabais",
+      "EllosEllasUstedes": "curraban"
+    },
+    "Conditional": {
+      "Yo": "curraría",
+      "Tu": "currarías",
+      "ElEllaUsted": "curraría",
+      "Nosotros": "curraríamos",
+      "Vosotros": "curraríais",
+      "EllosEllasUstedes": "currarían"
+    },
+    "Future": {
+      "Yo": "curraré",
+      "Tu": "currarás",
+      "ElEllaUsted": "currará",
+      "Nosotros": "curraremos",
+      "Vosotros": "curraréis",
+      "EllosEllasUstedes": "currarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "curre",
+      "Tu": "curres",
+      "ElEllaUsted": "curre",
+      "Nosotros": "curremos",
+      "Vosotros": "curréis",
+      "EllosEllasUstedes": "curren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "currara",
+      "Tu": "curraras",
+      "ElEllaUsted": "currara",
+      "Nosotros": "curraramos",
+      "Vosotros": "currarais",
+      "EllosEllasUstedes": "curraran"
+    }
+  },
+  "Name": "currar",
+  "EnglishMeaning": "to work"
 }

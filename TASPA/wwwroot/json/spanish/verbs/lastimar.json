@@ -1,1 +1,68 @@
-{"PresentParticiple":"lastimando&translation=hurting","PastParticiple":"lastimado&translation=hurt","Indicative":{"PresentTense":{"Yo":"lastimo","Tu":"lastimas","ElEllaUsted":"lastima","Nosotros":"lastimamos","Vosotros":"lastimáis","EllosEllasUstedes":"lastiman"},"Pretérito":{"Yo":"lastimé","Tu":"lastimaste","ElEllaUsted":"lastimó","Nosotros":"lastimamos","Vosotros":"lastimasteis","EllosEllasUstedes":"lastimaron"},"Imperfect":{"Yo":"lastimaba","Tu":"lastimabas","ElEllaUsted":"lastimaba","Nosotros":"lastimábamos","Vosotros":"lastimabais","EllosEllasUstedes":"lastimaban"},"Conditional":{"Yo":"lastimaría","Tu":"lastimarías","ElEllaUsted":"lastimaría","Nosotros":"lastimaríamos","Vosotros":"lastimaríais","EllosEllasUstedes":"lastimarían"},"Future":{"Yo":"lastimaré","Tu":"lastimarás","ElEllaUsted":"lastimará","Nosotros":"lastimaremos","Vosotros":"lastimaréis","EllosEllasUstedes":"lastimarán"}},"Subjunctive":null,"Name":"lastimar","EnglishMeaning":"to hurt"}
+{
+  "PresentParticiple": "lastimando",
+  "PastParticiple": "lastimado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "lastimo",
+      "Tu": "lastimas",
+      "ElEllaUsted": "lastima",
+      "Nosotros": "lastimamos",
+      "Vosotros": "lastimáis",
+      "EllosEllasUstedes": "lastiman"
+    },
+    "Pretérito": {
+      "Yo": "lastimé",
+      "Tu": "lastimaste",
+      "ElEllaUsted": "lastimó",
+      "Nosotros": "lastimamos",
+      "Vosotros": "lastimasteis",
+      "EllosEllasUstedes": "lastimaron"
+    },
+    "Imperfect": {
+      "Yo": "lastimaba",
+      "Tu": "lastimabas",
+      "ElEllaUsted": "lastimaba",
+      "Nosotros": "lastimábamos",
+      "Vosotros": "lastimabais",
+      "EllosEllasUstedes": "lastimaban"
+    },
+    "Conditional": {
+      "Yo": "lastimaría",
+      "Tu": "lastimarías",
+      "ElEllaUsted": "lastimaría",
+      "Nosotros": "lastimaríamos",
+      "Vosotros": "lastimaríais",
+      "EllosEllasUstedes": "lastimarían"
+    },
+    "Future": {
+      "Yo": "lastimaré",
+      "Tu": "lastimarás",
+      "ElEllaUsted": "lastimará",
+      "Nosotros": "lastimaremos",
+      "Vosotros": "lastimaréis",
+      "EllosEllasUstedes": "lastimarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "lastime",
+      "Tu": "lastimes",
+      "ElEllaUsted": "lastime",
+      "Nosotros": "lastimemos",
+      "Vosotros": "lastiméis",
+      "EllosEllasUstedes": "lastimen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "lastimara",
+      "Tu": "lastimaras",
+      "ElEllaUsted": "lastimara",
+      "Nosotros": "lastimaramos",
+      "Vosotros": "lastimarais",
+      "EllosEllasUstedes": "lastimaran"
+    }
+  },
+  "Name": "lastimar",
+  "EnglishMeaning": "to hurt",
+  "PresentParticipleTranslation": "hurting",
+  "PastParticipleTranslation": "hurt"
+}

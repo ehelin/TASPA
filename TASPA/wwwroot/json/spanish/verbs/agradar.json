@@ -1,1 +1,66 @@
-{"PresentParticiple":"agradando","PastParticiple":"agradado","Indicative":{"PresentTense":{"Yo":"agrado","Tu":"agradas","ElEllaUsted":"agrada","Nosotros":"agradamos","Vosotros":"agradáis","EllosEllasUstedes":"agradan"},"Pretérito":{"Yo":"agradé","Tu":"agradaste","ElEllaUsted":"agradó","Nosotros":"agradamos","Vosotros":"agradasteis","EllosEllasUstedes":"agradaron"},"Imperfect":{"Yo":"agradaba","Tu":"agradabas","ElEllaUsted":"agradaba","Nosotros":"agradábamos","Vosotros":"agradabais","EllosEllasUstedes":"agradaban"},"Conditional":{"Yo":"agradaría","Tu":"agradarías","ElEllaUsted":"agradaría","Nosotros":"agradaríamos","Vosotros":"agradaríais","EllosEllasUstedes":"agradarían"},"Future":{"Yo":"agradaré","Tu":"agradarás","ElEllaUsted":"agradará","Nosotros":"agradaremos","Vosotros":"agradaréis","EllosEllasUstedes":"agradarán"}},"Subjunctive":null,"Name":"agradar","EnglishMeaning":"to please"}
+{
+  "PresentParticiple": "agradando",
+  "PastParticiple": "agradado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "agrado",
+      "Tu": "agradas",
+      "ElEllaUsted": "agrada",
+      "Nosotros": "agradamos",
+      "Vosotros": "agradáis",
+      "EllosEllasUstedes": "agradan"
+    },
+    "Pretérito": {
+      "Yo": "agradé",
+      "Tu": "agradaste",
+      "ElEllaUsted": "agradó",
+      "Nosotros": "agradamos",
+      "Vosotros": "agradasteis",
+      "EllosEllasUstedes": "agradaron"
+    },
+    "Imperfect": {
+      "Yo": "agradaba",
+      "Tu": "agradabas",
+      "ElEllaUsted": "agradaba",
+      "Nosotros": "agradábamos",
+      "Vosotros": "agradabais",
+      "EllosEllasUstedes": "agradaban"
+    },
+    "Conditional": {
+      "Yo": "agradaría",
+      "Tu": "agradarías",
+      "ElEllaUsted": "agradaría",
+      "Nosotros": "agradaríamos",
+      "Vosotros": "agradaríais",
+      "EllosEllasUstedes": "agradarían"
+    },
+    "Future": {
+      "Yo": "agradaré",
+      "Tu": "agradarás",
+      "ElEllaUsted": "agradará",
+      "Nosotros": "agradaremos",
+      "Vosotros": "agradaréis",
+      "EllosEllasUstedes": "agradarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "agrade",
+      "Tu": "agrades",
+      "ElEllaUsted": "agrade",
+      "Nosotros": "agrademos",
+      "Vosotros": "agradéis",
+      "EllosEllasUstedes": "agraden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "agradara",
+      "Tu": "agradaras",
+      "ElEllaUsted": "agradara",
+      "Nosotros": "agradaramos",
+      "Vosotros": "agradarais",
+      "EllosEllasUstedes": "agradaran"
+    }
+  },
+  "Name": "agradar",
+  "EnglishMeaning": "to please"
+}

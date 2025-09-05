@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "comentando",
-    "PastParticiple": "comentado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "comento",
-            "Tu": "comentas",
-            "ElEllaUsted": "comenta",
-            "Nosotros": "comentamos",
-            "Vosotros": "comentáis",
-            "EllosEllasUstedes": "comentan"
-        },
-        "Pretérito": {
-            "Yo": "comenté",
-            "Tu": "comentaste",
-            "ElEllaUsted": "comentó",
-            "Nosotros": "comentamos",
-            "Vosotros": "comentasteis",
-            "EllosEllasUstedes": "comentaron"
-        },
-        "Imperfect": {
-            "Yo": "comentaba",
-            "Tu": "comentabas",
-            "ElEllaUsted": "comentaba",
-            "Nosotros": "comentábamos",
-            "Vosotros": "comentabais",
-            "EllosEllasUstedes": "comentaban"
-        },
-        "Conditional": {
-            "Yo": "comentaría",
-            "Tu": "comentarías",
-            "ElEllaUsted": "comentaría",
-            "Nosotros": "comentaríamos",
-            "Vosotros": "comentaríais",
-            "EllosEllasUstedes": "comentarían"
-        },
-        "Future": {
-            "Yo": "comentaré",
-            "Tu": "comentarás",
-            "ElEllaUsted": "comentará",
-            "Nosotros": "comentaremos",
-            "Vosotros": "comentaréis",
-            "EllosEllasUstedes": "comentarán"
-        }
+  "PresentParticiple": "comentando",
+  "PastParticiple": "comentado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "comento",
+      "Tu": "comentas",
+      "ElEllaUsted": "comenta",
+      "Nosotros": "comentamos",
+      "Vosotros": "comentáis",
+      "EllosEllasUstedes": "comentan"
     },
-    "Subjunctive": null,
-    "Name": "comentar",
-    "EnglishMeaning": "to comment"
+    "Pretérito": {
+      "Yo": "comenté",
+      "Tu": "comentaste",
+      "ElEllaUsted": "comentó",
+      "Nosotros": "comentamos",
+      "Vosotros": "comentasteis",
+      "EllosEllasUstedes": "comentaron"
+    },
+    "Imperfect": {
+      "Yo": "comentaba",
+      "Tu": "comentabas",
+      "ElEllaUsted": "comentaba",
+      "Nosotros": "comentábamos",
+      "Vosotros": "comentabais",
+      "EllosEllasUstedes": "comentaban"
+    },
+    "Conditional": {
+      "Yo": "comentaría",
+      "Tu": "comentarías",
+      "ElEllaUsted": "comentaría",
+      "Nosotros": "comentaríamos",
+      "Vosotros": "comentaríais",
+      "EllosEllasUstedes": "comentarían"
+    },
+    "Future": {
+      "Yo": "comentaré",
+      "Tu": "comentarás",
+      "ElEllaUsted": "comentará",
+      "Nosotros": "comentaremos",
+      "Vosotros": "comentaréis",
+      "EllosEllasUstedes": "comentarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "comente",
+      "Tu": "comentes",
+      "ElEllaUsted": "comente",
+      "Nosotros": "comentemos",
+      "Vosotros": "comentéis",
+      "EllosEllasUstedes": "comenten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "comentara",
+      "Tu": "comentaras",
+      "ElEllaUsted": "comentara",
+      "Nosotros": "comentaramos",
+      "Vosotros": "comentarais",
+      "EllosEllasUstedes": "comentaran"
+    }
+  },
+  "Name": "comentar",
+  "EnglishMeaning": "to comment"
 }

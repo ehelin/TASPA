@@ -1,1 +1,68 @@
-{"PresentParticiple":"casando&translation=marrying","PastParticiple":"casado&translation=married","Indicative":{"PresentTense":{"Yo":"caso","Tu":"casas","ElEllaUsted":"casa","Nosotros":"casamos","Vosotros":"casáis","EllosEllasUstedes":"casan"},"Pretérito":{"Yo":"casé","Tu":"casaste","ElEllaUsted":"casó","Nosotros":"casamos","Vosotros":"casasteis","EllosEllasUstedes":"casaron"},"Imperfect":{"Yo":"casaba","Tu":"casabas","ElEllaUsted":"casaba","Nosotros":"casábamos","Vosotros":"casabais","EllosEllasUstedes":"casaban"},"Conditional":{"Yo":"casaría","Tu":"casarías","ElEllaUsted":"casaría","Nosotros":"casaríamos","Vosotros":"casaríais","EllosEllasUstedes":"casarían"},"Future":{"Yo":"casaré","Tu":"casarás","ElEllaUsted":"casará","Nosotros":"casaremos","Vosotros":"casaréis","EllosEllasUstedes":"casarán"}},"Subjunctive":null,"Name":"casar","EnglishMeaning":"to marry"}
+{
+  "PresentParticiple": "casando",
+  "PastParticiple": "casado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "caso",
+      "Tu": "casas",
+      "ElEllaUsted": "casa",
+      "Nosotros": "casamos",
+      "Vosotros": "casáis",
+      "EllosEllasUstedes": "casan"
+    },
+    "Pretérito": {
+      "Yo": "casé",
+      "Tu": "casaste",
+      "ElEllaUsted": "casó",
+      "Nosotros": "casamos",
+      "Vosotros": "casasteis",
+      "EllosEllasUstedes": "casaron"
+    },
+    "Imperfect": {
+      "Yo": "casaba",
+      "Tu": "casabas",
+      "ElEllaUsted": "casaba",
+      "Nosotros": "casábamos",
+      "Vosotros": "casabais",
+      "EllosEllasUstedes": "casaban"
+    },
+    "Conditional": {
+      "Yo": "casaría",
+      "Tu": "casarías",
+      "ElEllaUsted": "casaría",
+      "Nosotros": "casaríamos",
+      "Vosotros": "casaríais",
+      "EllosEllasUstedes": "casarían"
+    },
+    "Future": {
+      "Yo": "casaré",
+      "Tu": "casarás",
+      "ElEllaUsted": "casará",
+      "Nosotros": "casaremos",
+      "Vosotros": "casaréis",
+      "EllosEllasUstedes": "casarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "case",
+      "Tu": "cases",
+      "ElEllaUsted": "case",
+      "Nosotros": "casemos",
+      "Vosotros": "caséis",
+      "EllosEllasUstedes": "casen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "casara",
+      "Tu": "casaras",
+      "ElEllaUsted": "casara",
+      "Nosotros": "casaramos",
+      "Vosotros": "casarais",
+      "EllosEllasUstedes": "casaran"
+    }
+  },
+  "Name": "casar",
+  "EnglishMeaning": "to marry",
+  "PresentParticipleTranslation": "marrying",
+  "PastParticipleTranslation": "married"
+}

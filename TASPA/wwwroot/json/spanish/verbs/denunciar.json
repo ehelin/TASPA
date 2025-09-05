@@ -1,1 +1,68 @@
-{"PresentParticiple":"denunciando&translation=denouncing","PastParticiple":"denunciado&translation=denounced","Indicative":{"PresentTense":{"Yo":"denuncio","Tu":"denuncias","ElEllaUsted":"denuncia","Nosotros":"denunciamos","Vosotros":"denunciáis","EllosEllasUstedes":"denuncian"},"Pretérito":{"Yo":"denuncié","Tu":"denunciaste","ElEllaUsted":"denunció","Nosotros":"denunciamos","Vosotros":"denunciasteis","EllosEllasUstedes":"denunciaron"},"Imperfect":{"Yo":"denunciaba","Tu":"denunciabas","ElEllaUsted":"denunciaba","Nosotros":"denunciábamos","Vosotros":"denunciabais","EllosEllasUstedes":"denunciaban"},"Conditional":{"Yo":"denunciaría","Tu":"denunciarías","ElEllaUsted":"denunciaría","Nosotros":"denunciaríamos","Vosotros":"denunciaríais","EllosEllasUstedes":"denunciarían"},"Future":{"Yo":"denunciaré","Tu":"denunciarás","ElEllaUsted":"denunciará","Nosotros":"denunciaremos","Vosotros":"denunciaréis","EllosEllasUstedes":"denunciarán"}},"Subjunctive":null,"Name":"denunciar","EnglishMeaning":"to denounce"}
+{
+  "PresentParticiple": "denunciando",
+  "PastParticiple": "denunciado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "denuncio",
+      "Tu": "denuncias",
+      "ElEllaUsted": "denuncia",
+      "Nosotros": "denunciamos",
+      "Vosotros": "denunciáis",
+      "EllosEllasUstedes": "denuncian"
+    },
+    "Pretérito": {
+      "Yo": "denuncié",
+      "Tu": "denunciaste",
+      "ElEllaUsted": "denunció",
+      "Nosotros": "denunciamos",
+      "Vosotros": "denunciasteis",
+      "EllosEllasUstedes": "denunciaron"
+    },
+    "Imperfect": {
+      "Yo": "denunciaba",
+      "Tu": "denunciabas",
+      "ElEllaUsted": "denunciaba",
+      "Nosotros": "denunciábamos",
+      "Vosotros": "denunciabais",
+      "EllosEllasUstedes": "denunciaban"
+    },
+    "Conditional": {
+      "Yo": "denunciaría",
+      "Tu": "denunciarías",
+      "ElEllaUsted": "denunciaría",
+      "Nosotros": "denunciaríamos",
+      "Vosotros": "denunciaríais",
+      "EllosEllasUstedes": "denunciarían"
+    },
+    "Future": {
+      "Yo": "denunciaré",
+      "Tu": "denunciarás",
+      "ElEllaUsted": "denunciará",
+      "Nosotros": "denunciaremos",
+      "Vosotros": "denunciaréis",
+      "EllosEllasUstedes": "denunciarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "denuncie",
+      "Tu": "denuncies",
+      "ElEllaUsted": "denuncie",
+      "Nosotros": "denunciemos",
+      "Vosotros": "denunciéis",
+      "EllosEllasUstedes": "denuncien"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "denunciara",
+      "Tu": "denunciaras",
+      "ElEllaUsted": "denunciara",
+      "Nosotros": "denunciaramos",
+      "Vosotros": "denunciarais",
+      "EllosEllasUstedes": "denunciaran"
+    }
+  },
+  "Name": "denunciar",
+  "EnglishMeaning": "to denounce",
+  "PresentParticipleTranslation": "denouncing",
+  "PastParticipleTranslation": "denounced"
+}

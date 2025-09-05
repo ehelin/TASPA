@@ -1,1 +1,68 @@
-{"PresentParticiple":"vendiendo&translation=selling","PastParticiple":"vendido&translation=sold","Indicative":{"PresentTense":{"Yo":"vendo","Tu":"vendes","ElEllaUsted":"vende","Nosotros":"vendemos","Vosotros":"vendéis","EllosEllasUstedes":"venden"},"Pretérito":{"Yo":"vendí","Tu":"vendiste","ElEllaUsted":"vendió","Nosotros":"vendimos","Vosotros":"vendisteis","EllosEllasUstedes":"vendieron"},"Imperfect":{"Yo":"vendía","Tu":"vendías","ElEllaUsted":"vendía","Nosotros":"vendíamos","Vosotros":"vendíais","EllosEllasUstedes":"vendían"},"Conditional":{"Yo":"vendería","Tu":"venderías","ElEllaUsted":"vendería","Nosotros":"venderíamos","Vosotros":"venderíais","EllosEllasUstedes":"venderían"},"Future":{"Yo":"venderé","Tu":"venderás","ElEllaUsted":"venderá","Nosotros":"venderemos","Vosotros":"venderéis","EllosEllasUstedes":"venderán"}},"Subjunctive":null,"Name":"vender","EnglishMeaning":"to sell"}
+{
+  "PresentParticiple": "vendiendo",
+  "PastParticiple": "vendido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "vendo",
+      "Tu": "vendes",
+      "ElEllaUsted": "vende",
+      "Nosotros": "vendemos",
+      "Vosotros": "vendéis",
+      "EllosEllasUstedes": "venden"
+    },
+    "Pretérito": {
+      "Yo": "vendí",
+      "Tu": "vendiste",
+      "ElEllaUsted": "vendió",
+      "Nosotros": "vendimos",
+      "Vosotros": "vendisteis",
+      "EllosEllasUstedes": "vendieron"
+    },
+    "Imperfect": {
+      "Yo": "vendía",
+      "Tu": "vendías",
+      "ElEllaUsted": "vendía",
+      "Nosotros": "vendíamos",
+      "Vosotros": "vendíais",
+      "EllosEllasUstedes": "vendían"
+    },
+    "Conditional": {
+      "Yo": "vendería",
+      "Tu": "venderías",
+      "ElEllaUsted": "vendería",
+      "Nosotros": "venderíamos",
+      "Vosotros": "venderíais",
+      "EllosEllasUstedes": "venderían"
+    },
+    "Future": {
+      "Yo": "venderé",
+      "Tu": "venderás",
+      "ElEllaUsted": "venderá",
+      "Nosotros": "venderemos",
+      "Vosotros": "venderéis",
+      "EllosEllasUstedes": "venderán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "venda",
+      "Tu": "vendas",
+      "ElEllaUsted": "venda",
+      "Nosotros": "vendamos",
+      "Vosotros": "vendáis",
+      "EllosEllasUstedes": "vendan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "vendiea",
+      "Tu": "vendieas",
+      "ElEllaUsted": "vendiea",
+      "Nosotros": "vendieamos",
+      "Vosotros": "vendieais",
+      "EllosEllasUstedes": "vendiean"
+    }
+  },
+  "Name": "vender",
+  "EnglishMeaning": "to sell",
+  "PresentParticipleTranslation": "selling",
+  "PastParticipleTranslation": "sold"
+}

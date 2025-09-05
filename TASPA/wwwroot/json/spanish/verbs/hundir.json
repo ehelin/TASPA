@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "hundiendo",
-    "PastParticiple": "hundido",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "hundiro",
-            "Tu": "hundiras",
-            "ElEllaUsted": "hundira",
-            "Nosotros": "hundiramos",
-            "Vosotros": "hundiráis",
-            "EllosEllasUstedes": "hundiran"
-        },
-        "Pretérito": {
-            "Yo": "hundiré",
-            "Tu": "hundiraste",
-            "ElEllaUsted": "hundiró",
-            "Nosotros": "hundiramos",
-            "Vosotros": "hundirasteis",
-            "EllosEllasUstedes": "hundiraron"
-        },
-        "Imperfect": {
-            "Yo": "hundiraba",
-            "Tu": "hundirabas",
-            "ElEllaUsted": "hundiraba",
-            "Nosotros": "hundirábamos",
-            "Vosotros": "hundirabais",
-            "EllosEllasUstedes": "hundiraban"
-        },
-        "Conditional": {
-            "Yo": "hundiraría",
-            "Tu": "hundirarías",
-            "ElEllaUsted": "hundiraría",
-            "Nosotros": "hundiraríamos",
-            "Vosotros": "hundiraríais",
-            "EllosEllasUstedes": "hundirarían"
-        },
-        "Future": {
-            "Yo": "hundiraré",
-            "Tu": "hundirarás",
-            "ElEllaUsted": "hundirará",
-            "Nosotros": "hundiraremos",
-            "Vosotros": "hundiraréis",
-            "EllosEllasUstedes": "hundirarán"
-        }
+  "PresentParticiple": "hundiendo",
+  "PastParticiple": "hundido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "hundiro",
+      "Tu": "hundiras",
+      "ElEllaUsted": "hundira",
+      "Nosotros": "hundiramos",
+      "Vosotros": "hundiráis",
+      "EllosEllasUstedes": "hundiran"
     },
-    "Subjunctive": null,
-    "Name": "hundir",
-    "EnglishMeaning": "to sink"
+    "Pretérito": {
+      "Yo": "hundiré",
+      "Tu": "hundiraste",
+      "ElEllaUsted": "hundiró",
+      "Nosotros": "hundiramos",
+      "Vosotros": "hundirasteis",
+      "EllosEllasUstedes": "hundiraron"
+    },
+    "Imperfect": {
+      "Yo": "hundiraba",
+      "Tu": "hundirabas",
+      "ElEllaUsted": "hundiraba",
+      "Nosotros": "hundirábamos",
+      "Vosotros": "hundirabais",
+      "EllosEllasUstedes": "hundiraban"
+    },
+    "Conditional": {
+      "Yo": "hundiraría",
+      "Tu": "hundirarías",
+      "ElEllaUsted": "hundiraría",
+      "Nosotros": "hundiraríamos",
+      "Vosotros": "hundiraríais",
+      "EllosEllasUstedes": "hundirarían"
+    },
+    "Future": {
+      "Yo": "hundiraré",
+      "Tu": "hundirarás",
+      "ElEllaUsted": "hundirará",
+      "Nosotros": "hundiraremos",
+      "Vosotros": "hundiraréis",
+      "EllosEllasUstedes": "hundirarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "hundira",
+      "Tu": "hundiras",
+      "ElEllaUsted": "hundira",
+      "Nosotros": "hundiramos",
+      "Vosotros": "hundiráis",
+      "EllosEllasUstedes": "hundiran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "hundirara",
+      "Tu": "hundiraras",
+      "ElEllaUsted": "hundirara",
+      "Nosotros": "hundiraramos",
+      "Vosotros": "hundirarais",
+      "EllosEllasUstedes": "hundiraran"
+    }
+  },
+  "Name": "hundir",
+  "EnglishMeaning": "to sink"
 }

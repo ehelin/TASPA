@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "agendando",
-    "PastParticiple": "agendado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "agendo",
-            "Tu": "agendas",
-            "ElEllaUsted": "agenda",
-            "Nosotros": "agendamos",
-            "Vosotros": "agendáis",
-            "EllosEllasUstedes": "agendan"
-        },
-        "Pretérito": {
-            "Yo": "agendé",
-            "Tu": "agendaste",
-            "ElEllaUsted": "agendó",
-            "Nosotros": "agendamos",
-            "Vosotros": "agendasteis",
-            "EllosEllasUstedes": "agendaron"
-        },
-        "Imperfect": {
-            "Yo": "agendaba",
-            "Tu": "agendabas",
-            "ElEllaUsted": "agendaba",
-            "Nosotros": "agendábamos",
-            "Vosotros": "agendabais",
-            "EllosEllasUstedes": "agendaban"
-        },
-        "Conditional": {
-            "Yo": "agendaría",
-            "Tu": "agendarías",
-            "ElEllaUsted": "agendaría",
-            "Nosotros": "agendaríamos",
-            "Vosotros": "agendaríais",
-            "EllosEllasUstedes": "agendarían"
-        },
-        "Future": {
-            "Yo": "agendaré",
-            "Tu": "agendarás",
-            "ElEllaUsted": "agendará",
-            "Nosotros": "agendaremos",
-            "Vosotros": "agendaréis",
-            "EllosEllasUstedes": "agendarán"
-        }
+  "PresentParticiple": "agendando",
+  "PastParticiple": "agendado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "agendo",
+      "Tu": "agendas",
+      "ElEllaUsted": "agenda",
+      "Nosotros": "agendamos",
+      "Vosotros": "agendáis",
+      "EllosEllasUstedes": "agendan"
     },
-    "Subjunctive": null,
-    "Name": "agendar",
-    "EnglishMeaning": "to schedule"
+    "Pretérito": {
+      "Yo": "agendé",
+      "Tu": "agendaste",
+      "ElEllaUsted": "agendó",
+      "Nosotros": "agendamos",
+      "Vosotros": "agendasteis",
+      "EllosEllasUstedes": "agendaron"
+    },
+    "Imperfect": {
+      "Yo": "agendaba",
+      "Tu": "agendabas",
+      "ElEllaUsted": "agendaba",
+      "Nosotros": "agendábamos",
+      "Vosotros": "agendabais",
+      "EllosEllasUstedes": "agendaban"
+    },
+    "Conditional": {
+      "Yo": "agendaría",
+      "Tu": "agendarías",
+      "ElEllaUsted": "agendaría",
+      "Nosotros": "agendaríamos",
+      "Vosotros": "agendaríais",
+      "EllosEllasUstedes": "agendarían"
+    },
+    "Future": {
+      "Yo": "agendaré",
+      "Tu": "agendarás",
+      "ElEllaUsted": "agendará",
+      "Nosotros": "agendaremos",
+      "Vosotros": "agendaréis",
+      "EllosEllasUstedes": "agendarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "agende",
+      "Tu": "agendes",
+      "ElEllaUsted": "agende",
+      "Nosotros": "agendemos",
+      "Vosotros": "agendéis",
+      "EllosEllasUstedes": "agenden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "agendara",
+      "Tu": "agendaras",
+      "ElEllaUsted": "agendara",
+      "Nosotros": "agendaramos",
+      "Vosotros": "agendarais",
+      "EllosEllasUstedes": "agendaran"
+    }
+  },
+  "Name": "agendar",
+  "EnglishMeaning": "to schedule"
 }

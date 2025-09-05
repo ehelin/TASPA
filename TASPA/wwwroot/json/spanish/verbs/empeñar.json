@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "empeñando",
-    "PastParticiple": "empeñado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "empeño",
-            "Tu": "empeñas",
-            "ElEllaUsted": "empeña",
-            "Nosotros": "empeñamos",
-            "Vosotros": "empeñáis",
-            "EllosEllasUstedes": "empeñan"
-        },
-        "Pretérito": {
-            "Yo": "empeñé",
-            "Tu": "empeñaste",
-            "ElEllaUsted": "empeñó",
-            "Nosotros": "empeñamos",
-            "Vosotros": "empeñasteis",
-            "EllosEllasUstedes": "empeñaron"
-        },
-        "Imperfect": {
-            "Yo": "empeñaba",
-            "Tu": "empeñabas",
-            "ElEllaUsted": "empeñaba",
-            "Nosotros": "empeñábamos",
-            "Vosotros": "empeñabais",
-            "EllosEllasUstedes": "empeñaban"
-        },
-        "Conditional": {
-            "Yo": "empeñaría",
-            "Tu": "empeñarías",
-            "ElEllaUsted": "empeñaría",
-            "Nosotros": "empeñaríamos",
-            "Vosotros": "empeñaríais",
-            "EllosEllasUstedes": "empeñarían"
-        },
-        "Future": {
-            "Yo": "empeñaré",
-            "Tu": "empeñarás",
-            "ElEllaUsted": "empeñará",
-            "Nosotros": "empeñaremos",
-            "Vosotros": "empeñaréis",
-            "EllosEllasUstedes": "empeñarán"
-        }
+  "PresentParticiple": "empeñando",
+  "PastParticiple": "empeñado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "empeño",
+      "Tu": "empeñas",
+      "ElEllaUsted": "empeña",
+      "Nosotros": "empeñamos",
+      "Vosotros": "empeñáis",
+      "EllosEllasUstedes": "empeñan"
     },
-    "Subjunctive": null,
-    "Name": "empeñar",
-    "EnglishMeaning": "to pawn"
+    "Pretérito": {
+      "Yo": "empeñé",
+      "Tu": "empeñaste",
+      "ElEllaUsted": "empeñó",
+      "Nosotros": "empeñamos",
+      "Vosotros": "empeñasteis",
+      "EllosEllasUstedes": "empeñaron"
+    },
+    "Imperfect": {
+      "Yo": "empeñaba",
+      "Tu": "empeñabas",
+      "ElEllaUsted": "empeñaba",
+      "Nosotros": "empeñábamos",
+      "Vosotros": "empeñabais",
+      "EllosEllasUstedes": "empeñaban"
+    },
+    "Conditional": {
+      "Yo": "empeñaría",
+      "Tu": "empeñarías",
+      "ElEllaUsted": "empeñaría",
+      "Nosotros": "empeñaríamos",
+      "Vosotros": "empeñaríais",
+      "EllosEllasUstedes": "empeñarían"
+    },
+    "Future": {
+      "Yo": "empeñaré",
+      "Tu": "empeñarás",
+      "ElEllaUsted": "empeñará",
+      "Nosotros": "empeñaremos",
+      "Vosotros": "empeñaréis",
+      "EllosEllasUstedes": "empeñarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "empeñe",
+      "Tu": "empeñes",
+      "ElEllaUsted": "empeñe",
+      "Nosotros": "empeñemos",
+      "Vosotros": "empeñéis",
+      "EllosEllasUstedes": "empeñen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "empeñara",
+      "Tu": "empeñaras",
+      "ElEllaUsted": "empeñara",
+      "Nosotros": "empeñaramos",
+      "Vosotros": "empeñarais",
+      "EllosEllasUstedes": "empeñaran"
+    }
+  },
+  "Name": "empeñar",
+  "EnglishMeaning": "to pawn"
 }

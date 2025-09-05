@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "madrugando",
-    "PastParticiple": "madrugado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "madrugo",
-            "Tu": "madrugas",
-            "ElEllaUsted": "madruga",
-            "Nosotros": "madrugamos",
-            "Vosotros": "madrugáis",
-            "EllosEllasUstedes": "madrugan"
-        },
-        "Pretérito": {
-            "Yo": "madrugé",
-            "Tu": "madrugaste",
-            "ElEllaUsted": "madrugó",
-            "Nosotros": "madrugamos",
-            "Vosotros": "madrugasteis",
-            "EllosEllasUstedes": "madrugaron"
-        },
-        "Imperfect": {
-            "Yo": "madrugaba",
-            "Tu": "madrugabas",
-            "ElEllaUsted": "madrugaba",
-            "Nosotros": "madrugábamos",
-            "Vosotros": "madrugabais",
-            "EllosEllasUstedes": "madrugaban"
-        },
-        "Conditional": {
-            "Yo": "madrugaría",
-            "Tu": "madrugarías",
-            "ElEllaUsted": "madrugaría",
-            "Nosotros": "madrugaríamos",
-            "Vosotros": "madrugaríais",
-            "EllosEllasUstedes": "madrugarían"
-        },
-        "Future": {
-            "Yo": "madrugaré",
-            "Tu": "madrugarás",
-            "ElEllaUsted": "madrugará",
-            "Nosotros": "madrugaremos",
-            "Vosotros": "madrugaréis",
-            "EllosEllasUstedes": "madrugarán"
-        }
+  "PresentParticiple": "madrugando",
+  "PastParticiple": "madrugado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "madrugo",
+      "Tu": "madrugas",
+      "ElEllaUsted": "madruga",
+      "Nosotros": "madrugamos",
+      "Vosotros": "madrugáis",
+      "EllosEllasUstedes": "madrugan"
     },
-    "Subjunctive": null,
-    "Name": "madrugar",
-    "EnglishMeaning": "to rise early"
+    "Pretérito": {
+      "Yo": "madrugé",
+      "Tu": "madrugaste",
+      "ElEllaUsted": "madrugó",
+      "Nosotros": "madrugamos",
+      "Vosotros": "madrugasteis",
+      "EllosEllasUstedes": "madrugaron"
+    },
+    "Imperfect": {
+      "Yo": "madrugaba",
+      "Tu": "madrugabas",
+      "ElEllaUsted": "madrugaba",
+      "Nosotros": "madrugábamos",
+      "Vosotros": "madrugabais",
+      "EllosEllasUstedes": "madrugaban"
+    },
+    "Conditional": {
+      "Yo": "madrugaría",
+      "Tu": "madrugarías",
+      "ElEllaUsted": "madrugaría",
+      "Nosotros": "madrugaríamos",
+      "Vosotros": "madrugaríais",
+      "EllosEllasUstedes": "madrugarían"
+    },
+    "Future": {
+      "Yo": "madrugaré",
+      "Tu": "madrugarás",
+      "ElEllaUsted": "madrugará",
+      "Nosotros": "madrugaremos",
+      "Vosotros": "madrugaréis",
+      "EllosEllasUstedes": "madrugarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "madruge",
+      "Tu": "madruges",
+      "ElEllaUsted": "madruge",
+      "Nosotros": "madrugemos",
+      "Vosotros": "madrugéis",
+      "EllosEllasUstedes": "madrugen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "madrugara",
+      "Tu": "madrugaras",
+      "ElEllaUsted": "madrugara",
+      "Nosotros": "madrugaramos",
+      "Vosotros": "madrugarais",
+      "EllosEllasUstedes": "madrugaran"
+    }
+  },
+  "Name": "madrugar",
+  "EnglishMeaning": "to rise early"
 }

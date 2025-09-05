@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "soportarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "soporte",
+      "Tu": "soportes",
+      "ElEllaUsted": "soporte",
+      "Nosotros": "soportemos",
+      "Vosotros": "soportéis",
+      "EllosEllasUstedes": "soporten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "soportara",
+      "Tu": "soportaras",
+      "ElEllaUsted": "soportara",
+      "Nosotros": "soportaramos",
+      "Vosotros": "soportarais",
+      "EllosEllasUstedes": "soportaran"
+    }
+  },
   "Name": "soportar",
   "EnglishMeaning": "to suport"
 }

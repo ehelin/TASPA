@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "evitando",
-    "PastParticiple": "evitado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "evito",
-            "Tu": "evitas",
-            "ElEllaUsted": "evita",
-            "Nosotros": "evitamos",
-            "Vosotros": "evitáis",
-            "EllosEllasUstedes": "evitan"
-        },
-        "Pretérito": {
-            "Yo": "evité",
-            "Tu": "evitaste",
-            "ElEllaUsted": "evitó",
-            "Nosotros": "evitamos",
-            "Vosotros": "evitasteis",
-            "EllosEllasUstedes": "evitaron"
-        },
-        "Imperfect": {
-            "Yo": "evitaba",
-            "Tu": "evitabas",
-            "ElEllaUsted": "evitaba",
-            "Nosotros": "evitábamos",
-            "Vosotros": "evitabais",
-            "EllosEllasUstedes": "evitaban"
-        },
-        "Conditional": {
-            "Yo": "evitaría",
-            "Tu": "evitarías",
-            "ElEllaUsted": "evitaría",
-            "Nosotros": "evitaríamos",
-            "Vosotros": "evitaríais",
-            "EllosEllasUstedes": "evitarían"
-        },
-        "Future": {
-            "Yo": "evitaré",
-            "Tu": "evitarás",
-            "ElEllaUsted": "evitará",
-            "Nosotros": "evitaremos",
-            "Vosotros": "evitaréis",
-            "EllosEllasUstedes": "evitarán"
-        }
+  "PresentParticiple": "evitando",
+  "PastParticiple": "evitado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "evito",
+      "Tu": "evitas",
+      "ElEllaUsted": "evita",
+      "Nosotros": "evitamos",
+      "Vosotros": "evitáis",
+      "EllosEllasUstedes": "evitan"
     },
-    "Subjunctive": null,
-    "Name": "evitar",
-    "EnglishMeaning": "to avoid"
+    "Pretérito": {
+      "Yo": "evité",
+      "Tu": "evitaste",
+      "ElEllaUsted": "evitó",
+      "Nosotros": "evitamos",
+      "Vosotros": "evitasteis",
+      "EllosEllasUstedes": "evitaron"
+    },
+    "Imperfect": {
+      "Yo": "evitaba",
+      "Tu": "evitabas",
+      "ElEllaUsted": "evitaba",
+      "Nosotros": "evitábamos",
+      "Vosotros": "evitabais",
+      "EllosEllasUstedes": "evitaban"
+    },
+    "Conditional": {
+      "Yo": "evitaría",
+      "Tu": "evitarías",
+      "ElEllaUsted": "evitaría",
+      "Nosotros": "evitaríamos",
+      "Vosotros": "evitaríais",
+      "EllosEllasUstedes": "evitarían"
+    },
+    "Future": {
+      "Yo": "evitaré",
+      "Tu": "evitarás",
+      "ElEllaUsted": "evitará",
+      "Nosotros": "evitaremos",
+      "Vosotros": "evitaréis",
+      "EllosEllasUstedes": "evitarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "evite",
+      "Tu": "evites",
+      "ElEllaUsted": "evite",
+      "Nosotros": "evitemos",
+      "Vosotros": "evitéis",
+      "EllosEllasUstedes": "eviten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "evitara",
+      "Tu": "evitaras",
+      "ElEllaUsted": "evitara",
+      "Nosotros": "evitaramos",
+      "Vosotros": "evitarais",
+      "EllosEllasUstedes": "evitaran"
+    }
+  },
+  "Name": "evitar",
+  "EnglishMeaning": "to avoid"
 }

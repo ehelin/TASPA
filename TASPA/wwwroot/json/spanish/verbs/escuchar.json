@@ -1,1 +1,66 @@
-{"PresentParticiple":"escuchando","PastParticiple":"escuchado","Indicative":{"PresentTense":{"Yo":"escucho","Tu":"escuchas","ElEllaUsted":"escucha","Nosotros":"escuchamos","Vosotros":"escucháis","EllosEllasUstedes":"escuchan"},"Pretérito":{"Yo":"escuché","Tu":"escuchaste","ElEllaUsted":"escuchó","Nosotros":"escuchamos","Vosotros":"escuchasteis","EllosEllasUstedes":"escucharon"},"Imperfect":{"Yo":"escuchaba","Tu":"escuchabas","ElEllaUsted":"escuchaba","Nosotros":"escuchábamos","Vosotros":"escuchabais","EllosEllasUstedes":"escuchaban"},"Conditional":{"Yo":"escucharía","Tu":"escucharías","ElEllaUsted":"escucharía","Nosotros":"escucharíamos","Vosotros":"escucharíais","EllosEllasUstedes":"escucharían"},"Future":{"Yo":"escucharé","Tu":"escucharás","ElEllaUsted":"escuchará","Nosotros":"escucharemos","Vosotros":"escucharéis","EllosEllasUstedes":"escucharán"}},"Subjunctive":null,"Name":"escuchar","EnglishMeaning":"to listen to"}
+{
+  "PresentParticiple": "escuchando",
+  "PastParticiple": "escuchado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "escucho",
+      "Tu": "escuchas",
+      "ElEllaUsted": "escucha",
+      "Nosotros": "escuchamos",
+      "Vosotros": "escucháis",
+      "EllosEllasUstedes": "escuchan"
+    },
+    "Pretérito": {
+      "Yo": "escuché",
+      "Tu": "escuchaste",
+      "ElEllaUsted": "escuchó",
+      "Nosotros": "escuchamos",
+      "Vosotros": "escuchasteis",
+      "EllosEllasUstedes": "escucharon"
+    },
+    "Imperfect": {
+      "Yo": "escuchaba",
+      "Tu": "escuchabas",
+      "ElEllaUsted": "escuchaba",
+      "Nosotros": "escuchábamos",
+      "Vosotros": "escuchabais",
+      "EllosEllasUstedes": "escuchaban"
+    },
+    "Conditional": {
+      "Yo": "escucharía",
+      "Tu": "escucharías",
+      "ElEllaUsted": "escucharía",
+      "Nosotros": "escucharíamos",
+      "Vosotros": "escucharíais",
+      "EllosEllasUstedes": "escucharían"
+    },
+    "Future": {
+      "Yo": "escucharé",
+      "Tu": "escucharás",
+      "ElEllaUsted": "escuchará",
+      "Nosotros": "escucharemos",
+      "Vosotros": "escucharéis",
+      "EllosEllasUstedes": "escucharán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "escuche",
+      "Tu": "escuches",
+      "ElEllaUsted": "escuche",
+      "Nosotros": "escuchemos",
+      "Vosotros": "escuchéis",
+      "EllosEllasUstedes": "escuchen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "escuchara",
+      "Tu": "escucharas",
+      "ElEllaUsted": "escuchara",
+      "Nosotros": "escucharamos",
+      "Vosotros": "escucharais",
+      "EllosEllasUstedes": "escucharan"
+    }
+  },
+  "Name": "escuchar",
+  "EnglishMeaning": "to listen to"
+}

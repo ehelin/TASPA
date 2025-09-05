@@ -1,1 +1,68 @@
-{"PresentParticiple":"omitiendo&translation=omitting","PastParticiple":"omitido%2Comiso&translation=omitted","Indicative":{"PresentTense":{"Yo":"omito","Tu":"omites","ElEllaUsted":"omite","Nosotros":"omitimos","Vosotros":"omitís","EllosEllasUstedes":"omiten"},"Pretérito":{"Yo":"omití","Tu":"omitiste","ElEllaUsted":"omitió","Nosotros":"omitimos","Vosotros":"omitisteis","EllosEllasUstedes":"omitieron"},"Imperfect":{"Yo":"omitía","Tu":"omitías","ElEllaUsted":"omitía","Nosotros":"omitíamos","Vosotros":"omitíais","EllosEllasUstedes":"omitían"},"Conditional":{"Yo":"omitiría","Tu":"omitirías","ElEllaUsted":"omitiría","Nosotros":"omitiríamos","Vosotros":"omitiríais","EllosEllasUstedes":"omitirían"},"Future":{"Yo":"omitiré","Tu":"omitirás","ElEllaUsted":"omitirá","Nosotros":"omitiremos","Vosotros":"omitiréis","EllosEllasUstedes":"omitirán"}},"Subjunctive":null,"Name":"omitir","EnglishMeaning":"to omit"}
+{
+  "PresentParticiple": "omitiendo",
+  "PastParticiple": "omitido%2Comiso",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "omito",
+      "Tu": "omites",
+      "ElEllaUsted": "omite",
+      "Nosotros": "omitimos",
+      "Vosotros": "omitís",
+      "EllosEllasUstedes": "omiten"
+    },
+    "Pretérito": {
+      "Yo": "omití",
+      "Tu": "omitiste",
+      "ElEllaUsted": "omitió",
+      "Nosotros": "omitimos",
+      "Vosotros": "omitisteis",
+      "EllosEllasUstedes": "omitieron"
+    },
+    "Imperfect": {
+      "Yo": "omitía",
+      "Tu": "omitías",
+      "ElEllaUsted": "omitía",
+      "Nosotros": "omitíamos",
+      "Vosotros": "omitíais",
+      "EllosEllasUstedes": "omitían"
+    },
+    "Conditional": {
+      "Yo": "omitiría",
+      "Tu": "omitirías",
+      "ElEllaUsted": "omitiría",
+      "Nosotros": "omitiríamos",
+      "Vosotros": "omitiríais",
+      "EllosEllasUstedes": "omitirían"
+    },
+    "Future": {
+      "Yo": "omitiré",
+      "Tu": "omitirás",
+      "ElEllaUsted": "omitirá",
+      "Nosotros": "omitiremos",
+      "Vosotros": "omitiréis",
+      "EllosEllasUstedes": "omitirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "omita",
+      "Tu": "omitas",
+      "ElEllaUsted": "omita",
+      "Nosotros": "omitamos",
+      "Vosotros": "omitáis",
+      "EllosEllasUstedes": "omitan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "omitiea",
+      "Tu": "omitieas",
+      "ElEllaUsted": "omitiea",
+      "Nosotros": "omitieamos",
+      "Vosotros": "omitieais",
+      "EllosEllasUstedes": "omitiean"
+    }
+  },
+  "Name": "omitir",
+  "EnglishMeaning": "to omit",
+  "PresentParticipleTranslation": "omitting",
+  "PastParticipleTranslation": "omitted"
+}

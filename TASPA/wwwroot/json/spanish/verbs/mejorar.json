@@ -1,1 +1,68 @@
-{"PresentParticiple":"mejorando&translation=improving","PastParticiple":"mejorado&translation=improved","Indicative":{"PresentTense":{"Yo":"mejoro","Tu":"mejoras","ElEllaUsted":"mejora","Nosotros":"mejoramos","Vosotros":"mejoráis","EllosEllasUstedes":"mejoran"},"Pretérito":{"Yo":"mejoré","Tu":"mejoraste","ElEllaUsted":"mejoró","Nosotros":"mejoramos","Vosotros":"mejorasteis","EllosEllasUstedes":"mejoraron"},"Imperfect":{"Yo":"mejoraba","Tu":"mejorabas","ElEllaUsted":"mejoraba","Nosotros":"mejorábamos","Vosotros":"mejorabais","EllosEllasUstedes":"mejoraban"},"Conditional":{"Yo":"mejoraría","Tu":"mejorarías","ElEllaUsted":"mejoraría","Nosotros":"mejoraríamos","Vosotros":"mejoraríais","EllosEllasUstedes":"mejorarían"},"Future":{"Yo":"mejoraré","Tu":"mejorarás","ElEllaUsted":"mejorará","Nosotros":"mejoraremos","Vosotros":"mejoraréis","EllosEllasUstedes":"mejorarán"}},"Subjunctive":null,"Name":"mejorar","EnglishMeaning":"to improve"}
+{
+  "PresentParticiple": "mejorando",
+  "PastParticiple": "mejorado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "mejoro",
+      "Tu": "mejoras",
+      "ElEllaUsted": "mejora",
+      "Nosotros": "mejoramos",
+      "Vosotros": "mejoráis",
+      "EllosEllasUstedes": "mejoran"
+    },
+    "Pretérito": {
+      "Yo": "mejoré",
+      "Tu": "mejoraste",
+      "ElEllaUsted": "mejoró",
+      "Nosotros": "mejoramos",
+      "Vosotros": "mejorasteis",
+      "EllosEllasUstedes": "mejoraron"
+    },
+    "Imperfect": {
+      "Yo": "mejoraba",
+      "Tu": "mejorabas",
+      "ElEllaUsted": "mejoraba",
+      "Nosotros": "mejorábamos",
+      "Vosotros": "mejorabais",
+      "EllosEllasUstedes": "mejoraban"
+    },
+    "Conditional": {
+      "Yo": "mejoraría",
+      "Tu": "mejorarías",
+      "ElEllaUsted": "mejoraría",
+      "Nosotros": "mejoraríamos",
+      "Vosotros": "mejoraríais",
+      "EllosEllasUstedes": "mejorarían"
+    },
+    "Future": {
+      "Yo": "mejoraré",
+      "Tu": "mejorarás",
+      "ElEllaUsted": "mejorará",
+      "Nosotros": "mejoraremos",
+      "Vosotros": "mejoraréis",
+      "EllosEllasUstedes": "mejorarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "mejore",
+      "Tu": "mejores",
+      "ElEllaUsted": "mejore",
+      "Nosotros": "mejoremos",
+      "Vosotros": "mejoréis",
+      "EllosEllasUstedes": "mejoren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "mejorara",
+      "Tu": "mejoraras",
+      "ElEllaUsted": "mejorara",
+      "Nosotros": "mejoraramos",
+      "Vosotros": "mejorarais",
+      "EllosEllasUstedes": "mejoraran"
+    }
+  },
+  "Name": "mejorar",
+  "EnglishMeaning": "to improve",
+  "PresentParticipleTranslation": "improving",
+  "PastParticipleTranslation": "improved"
+}

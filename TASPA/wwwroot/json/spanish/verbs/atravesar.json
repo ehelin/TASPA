@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "atravesando",
-    "PastParticiple": "atravesado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "atraveso",
-            "Tu": "atravesas",
-            "ElEllaUsted": "atravesa",
-            "Nosotros": "atravesamos",
-            "Vosotros": "atravesáis",
-            "EllosEllasUstedes": "atravesan"
-        },
-        "Pretérito": {
-            "Yo": "atravesé",
-            "Tu": "atravesaste",
-            "ElEllaUsted": "atravesó",
-            "Nosotros": "atravesamos",
-            "Vosotros": "atravesasteis",
-            "EllosEllasUstedes": "atravesaron"
-        },
-        "Imperfect": {
-            "Yo": "atravesaba",
-            "Tu": "atravesabas",
-            "ElEllaUsted": "atravesaba",
-            "Nosotros": "atravesábamos",
-            "Vosotros": "atravesabais",
-            "EllosEllasUstedes": "atravesaban"
-        },
-        "Conditional": {
-            "Yo": "atravesaría",
-            "Tu": "atravesarías",
-            "ElEllaUsted": "atravesaría",
-            "Nosotros": "atravesaríamos",
-            "Vosotros": "atravesaríais",
-            "EllosEllasUstedes": "atravesarían"
-        },
-        "Future": {
-            "Yo": "atravesaré",
-            "Tu": "atravesarás",
-            "ElEllaUsted": "atravesará",
-            "Nosotros": "atravesaremos",
-            "Vosotros": "atravesaréis",
-            "EllosEllasUstedes": "atravesarán"
-        }
+  "PresentParticiple": "atravesando",
+  "PastParticiple": "atravesado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "atraveso",
+      "Tu": "atravesas",
+      "ElEllaUsted": "atravesa",
+      "Nosotros": "atravesamos",
+      "Vosotros": "atravesáis",
+      "EllosEllasUstedes": "atravesan"
     },
-    "Subjunctive": null,
-    "Name": "atravesar",
-    "EnglishMeaning": "to cross"
+    "Pretérito": {
+      "Yo": "atravesé",
+      "Tu": "atravesaste",
+      "ElEllaUsted": "atravesó",
+      "Nosotros": "atravesamos",
+      "Vosotros": "atravesasteis",
+      "EllosEllasUstedes": "atravesaron"
+    },
+    "Imperfect": {
+      "Yo": "atravesaba",
+      "Tu": "atravesabas",
+      "ElEllaUsted": "atravesaba",
+      "Nosotros": "atravesábamos",
+      "Vosotros": "atravesabais",
+      "EllosEllasUstedes": "atravesaban"
+    },
+    "Conditional": {
+      "Yo": "atravesaría",
+      "Tu": "atravesarías",
+      "ElEllaUsted": "atravesaría",
+      "Nosotros": "atravesaríamos",
+      "Vosotros": "atravesaríais",
+      "EllosEllasUstedes": "atravesarían"
+    },
+    "Future": {
+      "Yo": "atravesaré",
+      "Tu": "atravesarás",
+      "ElEllaUsted": "atravesará",
+      "Nosotros": "atravesaremos",
+      "Vosotros": "atravesaréis",
+      "EllosEllasUstedes": "atravesarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "atravese",
+      "Tu": "atraveses",
+      "ElEllaUsted": "atravese",
+      "Nosotros": "atravesemos",
+      "Vosotros": "atraveséis",
+      "EllosEllasUstedes": "atravesen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "atravesara",
+      "Tu": "atravesaras",
+      "ElEllaUsted": "atravesara",
+      "Nosotros": "atravesaramos",
+      "Vosotros": "atravesarais",
+      "EllosEllasUstedes": "atravesaran"
+    }
+  },
+  "Name": "atravesar",
+  "EnglishMeaning": "to cross"
 }

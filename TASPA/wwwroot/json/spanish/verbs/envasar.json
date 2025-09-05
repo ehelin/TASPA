@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "envasando",
-    "PastParticiple": "envasado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "envaso",
-            "Tu": "envasas",
-            "ElEllaUsted": "envasa",
-            "Nosotros": "envasamos",
-            "Vosotros": "envasáis",
-            "EllosEllasUstedes": "envasan"
-        },
-        "Pretérito": {
-            "Yo": "envasé",
-            "Tu": "envasaste",
-            "ElEllaUsted": "envasó",
-            "Nosotros": "envasamos",
-            "Vosotros": "envasasteis",
-            "EllosEllasUstedes": "envasaron"
-        },
-        "Imperfect": {
-            "Yo": "envasaba",
-            "Tu": "envasabas",
-            "ElEllaUsted": "envasaba",
-            "Nosotros": "envasábamos",
-            "Vosotros": "envasabais",
-            "EllosEllasUstedes": "envasaban"
-        },
-        "Conditional": {
-            "Yo": "envasaría",
-            "Tu": "envasarías",
-            "ElEllaUsted": "envasaría",
-            "Nosotros": "envasaríamos",
-            "Vosotros": "envasaríais",
-            "EllosEllasUstedes": "envasarían"
-        },
-        "Future": {
-            "Yo": "envasaré",
-            "Tu": "envasarás",
-            "ElEllaUsted": "envasará",
-            "Nosotros": "envasaremos",
-            "Vosotros": "envasaréis",
-            "EllosEllasUstedes": "envasarán"
-        }
+  "PresentParticiple": "envasando",
+  "PastParticiple": "envasado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "envaso",
+      "Tu": "envasas",
+      "ElEllaUsted": "envasa",
+      "Nosotros": "envasamos",
+      "Vosotros": "envasáis",
+      "EllosEllasUstedes": "envasan"
     },
-    "Subjunctive": null,
-    "Name": "envasar",
-    "EnglishMeaning": "to can"
+    "Pretérito": {
+      "Yo": "envasé",
+      "Tu": "envasaste",
+      "ElEllaUsted": "envasó",
+      "Nosotros": "envasamos",
+      "Vosotros": "envasasteis",
+      "EllosEllasUstedes": "envasaron"
+    },
+    "Imperfect": {
+      "Yo": "envasaba",
+      "Tu": "envasabas",
+      "ElEllaUsted": "envasaba",
+      "Nosotros": "envasábamos",
+      "Vosotros": "envasabais",
+      "EllosEllasUstedes": "envasaban"
+    },
+    "Conditional": {
+      "Yo": "envasaría",
+      "Tu": "envasarías",
+      "ElEllaUsted": "envasaría",
+      "Nosotros": "envasaríamos",
+      "Vosotros": "envasaríais",
+      "EllosEllasUstedes": "envasarían"
+    },
+    "Future": {
+      "Yo": "envasaré",
+      "Tu": "envasarás",
+      "ElEllaUsted": "envasará",
+      "Nosotros": "envasaremos",
+      "Vosotros": "envasaréis",
+      "EllosEllasUstedes": "envasarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "envase",
+      "Tu": "envases",
+      "ElEllaUsted": "envase",
+      "Nosotros": "envasemos",
+      "Vosotros": "envaséis",
+      "EllosEllasUstedes": "envasen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "envasara",
+      "Tu": "envasaras",
+      "ElEllaUsted": "envasara",
+      "Nosotros": "envasaramos",
+      "Vosotros": "envasarais",
+      "EllosEllasUstedes": "envasaran"
+    }
+  },
+  "Name": "envasar",
+  "EnglishMeaning": "to can"
 }

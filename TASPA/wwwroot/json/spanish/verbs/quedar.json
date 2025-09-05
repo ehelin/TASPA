@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "quedarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "quede",
+      "Tu": "quedes",
+      "ElEllaUsted": "quede",
+      "Nosotros": "quedemos",
+      "Vosotros": "quedéis",
+      "EllosEllasUstedes": "queden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "quedara",
+      "Tu": "quedaras",
+      "ElEllaUsted": "quedara",
+      "Nosotros": "quedaramos",
+      "Vosotros": "quedarais",
+      "EllosEllasUstedes": "quedaran"
+    }
+  },
   "Name": "quedar",
   "EnglishMeaning": "to stay"
 }

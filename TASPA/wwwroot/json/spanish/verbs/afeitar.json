@@ -1,1 +1,68 @@
-{"PresentParticiple":"afeitando&translation=shaving","PastParticiple":"afeitado&translation=shaven","Indicative":{"PresentTense":{"Yo":"afeito","Tu":"afeitas","ElEllaUsted":"afeita","Nosotros":"afeitamos","Vosotros":"afeitáis","EllosEllasUstedes":"afeitan"},"Pretérito":{"Yo":"afeité","Tu":"afeitaste","ElEllaUsted":"afeitó","Nosotros":"afeitamos","Vosotros":"afeitasteis","EllosEllasUstedes":"afeitaron"},"Imperfect":{"Yo":"afeitaba","Tu":"afeitabas","ElEllaUsted":"afeitaba","Nosotros":"afeitábamos","Vosotros":"afeitabais","EllosEllasUstedes":"afeitaban"},"Conditional":{"Yo":"afeitaría","Tu":"afeitarías","ElEllaUsted":"afeitaría","Nosotros":"afeitaríamos","Vosotros":"afeitaríais","EllosEllasUstedes":"afeitarían"},"Future":{"Yo":"afeitaré","Tu":"afeitarás","ElEllaUsted":"afeitará","Nosotros":"afeitaremos","Vosotros":"afeitaréis","EllosEllasUstedes":"afeitarán"}},"Subjunctive":null,"Name":"afeitar","EnglishMeaning":"to shave"}
+{
+  "PresentParticiple": "afeitando",
+  "PastParticiple": "afeitado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "afeito",
+      "Tu": "afeitas",
+      "ElEllaUsted": "afeita",
+      "Nosotros": "afeitamos",
+      "Vosotros": "afeitáis",
+      "EllosEllasUstedes": "afeitan"
+    },
+    "Pretérito": {
+      "Yo": "afeité",
+      "Tu": "afeitaste",
+      "ElEllaUsted": "afeitó",
+      "Nosotros": "afeitamos",
+      "Vosotros": "afeitasteis",
+      "EllosEllasUstedes": "afeitaron"
+    },
+    "Imperfect": {
+      "Yo": "afeitaba",
+      "Tu": "afeitabas",
+      "ElEllaUsted": "afeitaba",
+      "Nosotros": "afeitábamos",
+      "Vosotros": "afeitabais",
+      "EllosEllasUstedes": "afeitaban"
+    },
+    "Conditional": {
+      "Yo": "afeitaría",
+      "Tu": "afeitarías",
+      "ElEllaUsted": "afeitaría",
+      "Nosotros": "afeitaríamos",
+      "Vosotros": "afeitaríais",
+      "EllosEllasUstedes": "afeitarían"
+    },
+    "Future": {
+      "Yo": "afeitaré",
+      "Tu": "afeitarás",
+      "ElEllaUsted": "afeitará",
+      "Nosotros": "afeitaremos",
+      "Vosotros": "afeitaréis",
+      "EllosEllasUstedes": "afeitarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "afeite",
+      "Tu": "afeites",
+      "ElEllaUsted": "afeite",
+      "Nosotros": "afeitemos",
+      "Vosotros": "afeitéis",
+      "EllosEllasUstedes": "afeiten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "afeitara",
+      "Tu": "afeitaras",
+      "ElEllaUsted": "afeitara",
+      "Nosotros": "afeitaramos",
+      "Vosotros": "afeitarais",
+      "EllosEllasUstedes": "afeitaran"
+    }
+  },
+  "Name": "afeitar",
+  "EnglishMeaning": "to shave",
+  "PresentParticipleTranslation": "shaving",
+  "PastParticipleTranslation": "shaven"
+}

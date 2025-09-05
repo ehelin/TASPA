@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "emprenderán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "emprenda",
+      "Tu": "emprendas",
+      "ElEllaUsted": "emprenda",
+      "Nosotros": "emprendamos",
+      "Vosotros": "emprendáis",
+      "EllosEllasUstedes": "emprendan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "emprendiea",
+      "Tu": "emprendieas",
+      "ElEllaUsted": "emprendiea",
+      "Nosotros": "emprendieamos",
+      "Vosotros": "emprendieais",
+      "EllosEllasUstedes": "emprendiean"
+    }
+  },
   "Name": "emprender",
   "EnglishMeaning": "to undertake"
 }

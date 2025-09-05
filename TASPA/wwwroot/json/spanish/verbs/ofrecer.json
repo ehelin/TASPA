@@ -1,1 +1,68 @@
-{"PresentParticiple":"ofreciendo&translation=offering","PastParticiple":"ofrecido&translation=offered","Indicative":{"PresentTense":{"Yo":"ofrezco","Tu":"ofreces","ElEllaUsted":"ofrece","Nosotros":"ofrecemos","Vosotros":"ofrecéis","EllosEllasUstedes":"ofrecen"},"Pretérito":{"Yo":"ofrecí","Tu":"ofreciste","ElEllaUsted":"ofreció","Nosotros":"ofrecimos","Vosotros":"ofrecisteis","EllosEllasUstedes":"ofrecieron"},"Imperfect":{"Yo":"ofrecía","Tu":"ofrecías","ElEllaUsted":"ofrecía","Nosotros":"ofrecíamos","Vosotros":"ofrecíais","EllosEllasUstedes":"ofrecían"},"Conditional":{"Yo":"ofrecería","Tu":"ofrecerías","ElEllaUsted":"ofrecería","Nosotros":"ofreceríamos","Vosotros":"ofreceríais","EllosEllasUstedes":"ofrecerían"},"Future":{"Yo":"ofreceré","Tu":"ofrecerás","ElEllaUsted":"ofrecerá","Nosotros":"ofreceremos","Vosotros":"ofreceréis","EllosEllasUstedes":"ofrecerán"}},"Subjunctive":null,"Name":"ofrecer","EnglishMeaning":"to offer"}
+{
+  "PresentParticiple": "ofreciendo",
+  "PastParticiple": "ofrecido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "ofrezco",
+      "Tu": "ofreces",
+      "ElEllaUsted": "ofrece",
+      "Nosotros": "ofrecemos",
+      "Vosotros": "ofrecéis",
+      "EllosEllasUstedes": "ofrecen"
+    },
+    "Pretérito": {
+      "Yo": "ofrecí",
+      "Tu": "ofreciste",
+      "ElEllaUsted": "ofreció",
+      "Nosotros": "ofrecimos",
+      "Vosotros": "ofrecisteis",
+      "EllosEllasUstedes": "ofrecieron"
+    },
+    "Imperfect": {
+      "Yo": "ofrecía",
+      "Tu": "ofrecías",
+      "ElEllaUsted": "ofrecía",
+      "Nosotros": "ofrecíamos",
+      "Vosotros": "ofrecíais",
+      "EllosEllasUstedes": "ofrecían"
+    },
+    "Conditional": {
+      "Yo": "ofrecería",
+      "Tu": "ofrecerías",
+      "ElEllaUsted": "ofrecería",
+      "Nosotros": "ofreceríamos",
+      "Vosotros": "ofreceríais",
+      "EllosEllasUstedes": "ofrecerían"
+    },
+    "Future": {
+      "Yo": "ofreceré",
+      "Tu": "ofrecerás",
+      "ElEllaUsted": "ofrecerá",
+      "Nosotros": "ofreceremos",
+      "Vosotros": "ofreceréis",
+      "EllosEllasUstedes": "ofrecerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "ofrezca",
+      "Tu": "ofrezcas",
+      "ElEllaUsted": "ofrezca",
+      "Nosotros": "ofrezcamos",
+      "Vosotros": "ofrezcáis",
+      "EllosEllasUstedes": "ofrezcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "ofreciea",
+      "Tu": "ofrecieas",
+      "ElEllaUsted": "ofreciea",
+      "Nosotros": "ofrecieamos",
+      "Vosotros": "ofrecieais",
+      "EllosEllasUstedes": "ofreciean"
+    }
+  },
+  "Name": "ofrecer",
+  "EnglishMeaning": "to offer",
+  "PresentParticipleTranslation": "offering",
+  "PastParticipleTranslation": "offered"
+}

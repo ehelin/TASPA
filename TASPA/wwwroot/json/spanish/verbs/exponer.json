@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "exponiendo",
-    "PastParticiple": "expuesto",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "exponero",
-            "Tu": "exponeras",
-            "ElEllaUsted": "exponera",
-            "Nosotros": "exponeramos",
-            "Vosotros": "exponeráis",
-            "EllosEllasUstedes": "exponeran"
-        },
-        "Pretérito": {
-            "Yo": "exponeré",
-            "Tu": "exponeraste",
-            "ElEllaUsted": "exponeró",
-            "Nosotros": "exponeramos",
-            "Vosotros": "exponerasteis",
-            "EllosEllasUstedes": "exponeraron"
-        },
-        "Imperfect": {
-            "Yo": "exponeraba",
-            "Tu": "exponerabas",
-            "ElEllaUsted": "exponeraba",
-            "Nosotros": "exponerábamos",
-            "Vosotros": "exponerabais",
-            "EllosEllasUstedes": "exponeraban"
-        },
-        "Conditional": {
-            "Yo": "exponeraría",
-            "Tu": "exponerarías",
-            "ElEllaUsted": "exponeraría",
-            "Nosotros": "exponeraríamos",
-            "Vosotros": "exponeraríais",
-            "EllosEllasUstedes": "exponerarían"
-        },
-        "Future": {
-            "Yo": "exponeraré",
-            "Tu": "exponerarás",
-            "ElEllaUsted": "exponerará",
-            "Nosotros": "exponeraremos",
-            "Vosotros": "exponeraréis",
-            "EllosEllasUstedes": "exponerarán"
-        }
+  "PresentParticiple": "exponiendo",
+  "PastParticiple": "expuesto",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "exponero",
+      "Tu": "exponeras",
+      "ElEllaUsted": "exponera",
+      "Nosotros": "exponeramos",
+      "Vosotros": "exponeráis",
+      "EllosEllasUstedes": "exponeran"
     },
-    "Subjunctive": null,
-    "Name": "exponer",
-    "EnglishMeaning": "to expose"
+    "Pretérito": {
+      "Yo": "exponeré",
+      "Tu": "exponeraste",
+      "ElEllaUsted": "exponeró",
+      "Nosotros": "exponeramos",
+      "Vosotros": "exponerasteis",
+      "EllosEllasUstedes": "exponeraron"
+    },
+    "Imperfect": {
+      "Yo": "exponeraba",
+      "Tu": "exponerabas",
+      "ElEllaUsted": "exponeraba",
+      "Nosotros": "exponerábamos",
+      "Vosotros": "exponerabais",
+      "EllosEllasUstedes": "exponeraban"
+    },
+    "Conditional": {
+      "Yo": "exponeraría",
+      "Tu": "exponerarías",
+      "ElEllaUsted": "exponeraría",
+      "Nosotros": "exponeraríamos",
+      "Vosotros": "exponeraríais",
+      "EllosEllasUstedes": "exponerarían"
+    },
+    "Future": {
+      "Yo": "exponeraré",
+      "Tu": "exponerarás",
+      "ElEllaUsted": "exponerará",
+      "Nosotros": "exponeraremos",
+      "Vosotros": "exponeraréis",
+      "EllosEllasUstedes": "exponerarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "exponera",
+      "Tu": "exponeras",
+      "ElEllaUsted": "exponera",
+      "Nosotros": "exponeramos",
+      "Vosotros": "exponeráis",
+      "EllosEllasUstedes": "exponeran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "exponerara",
+      "Tu": "exponeraras",
+      "ElEllaUsted": "exponerara",
+      "Nosotros": "exponeraramos",
+      "Vosotros": "exponerarais",
+      "EllosEllasUstedes": "exponeraran"
+    }
+  },
+  "Name": "exponer",
+  "EnglishMeaning": "to expose"
 }

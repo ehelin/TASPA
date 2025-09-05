@@ -1,1 +1,68 @@
-{"PresentParticiple":"tosiendo&translation=coughing","PastParticiple":"tosido&translation=coughed","Indicative":{"PresentTense":{"Yo":"toso","Tu":"toses","ElEllaUsted":"tose","Nosotros":"tosemos","Vosotros":"toséis","EllosEllasUstedes":"tosen"},"Pretérito":{"Yo":"tosí","Tu":"tosiste","ElEllaUsted":"tosió","Nosotros":"tosimos","Vosotros":"tosisteis","EllosEllasUstedes":"tosieron"},"Imperfect":{"Yo":"tosía","Tu":"tosías","ElEllaUsted":"tosía","Nosotros":"tosíamos","Vosotros":"tosíais","EllosEllasUstedes":"tosían"},"Conditional":{"Yo":"tosería","Tu":"toserías","ElEllaUsted":"tosería","Nosotros":"toseríamos","Vosotros":"toseríais","EllosEllasUstedes":"toserían"},"Future":{"Yo":"toseré","Tu":"toserás","ElEllaUsted":"toserá","Nosotros":"toseremos","Vosotros":"toseréis","EllosEllasUstedes":"toserán"}},"Subjunctive":null,"Name":"toser","EnglishMeaning":"to cough"}
+{
+  "PresentParticiple": "tosiendo",
+  "PastParticiple": "tosido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "toso",
+      "Tu": "toses",
+      "ElEllaUsted": "tose",
+      "Nosotros": "tosemos",
+      "Vosotros": "toséis",
+      "EllosEllasUstedes": "tosen"
+    },
+    "Pretérito": {
+      "Yo": "tosí",
+      "Tu": "tosiste",
+      "ElEllaUsted": "tosió",
+      "Nosotros": "tosimos",
+      "Vosotros": "tosisteis",
+      "EllosEllasUstedes": "tosieron"
+    },
+    "Imperfect": {
+      "Yo": "tosía",
+      "Tu": "tosías",
+      "ElEllaUsted": "tosía",
+      "Nosotros": "tosíamos",
+      "Vosotros": "tosíais",
+      "EllosEllasUstedes": "tosían"
+    },
+    "Conditional": {
+      "Yo": "tosería",
+      "Tu": "toserías",
+      "ElEllaUsted": "tosería",
+      "Nosotros": "toseríamos",
+      "Vosotros": "toseríais",
+      "EllosEllasUstedes": "toserían"
+    },
+    "Future": {
+      "Yo": "toseré",
+      "Tu": "toserás",
+      "ElEllaUsted": "toserá",
+      "Nosotros": "toseremos",
+      "Vosotros": "toseréis",
+      "EllosEllasUstedes": "toserán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "tosa",
+      "Tu": "tosas",
+      "ElEllaUsted": "tosa",
+      "Nosotros": "tosamos",
+      "Vosotros": "tosáis",
+      "EllosEllasUstedes": "tosan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tosiea",
+      "Tu": "tosieas",
+      "ElEllaUsted": "tosiea",
+      "Nosotros": "tosieamos",
+      "Vosotros": "tosieais",
+      "EllosEllasUstedes": "tosiean"
+    }
+  },
+  "Name": "toser",
+  "EnglishMeaning": "to cough",
+  "PresentParticipleTranslation": "coughing",
+  "PastParticipleTranslation": "coughed"
+}

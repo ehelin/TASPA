@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "criando",
-    "PastParticiple": "criado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "crio",
-            "Tu": "crias",
-            "ElEllaUsted": "cria",
-            "Nosotros": "criamos",
-            "Vosotros": "criáis",
-            "EllosEllasUstedes": "crian"
-        },
-        "Pretérito": {
-            "Yo": "crié",
-            "Tu": "criaste",
-            "ElEllaUsted": "crió",
-            "Nosotros": "criamos",
-            "Vosotros": "criasteis",
-            "EllosEllasUstedes": "criaron"
-        },
-        "Imperfect": {
-            "Yo": "criaba",
-            "Tu": "criabas",
-            "ElEllaUsted": "criaba",
-            "Nosotros": "criábamos",
-            "Vosotros": "criabais",
-            "EllosEllasUstedes": "criaban"
-        },
-        "Conditional": {
-            "Yo": "criaría",
-            "Tu": "criarías",
-            "ElEllaUsted": "criaría",
-            "Nosotros": "criaríamos",
-            "Vosotros": "criaríais",
-            "EllosEllasUstedes": "criarían"
-        },
-        "Future": {
-            "Yo": "criaré",
-            "Tu": "criarás",
-            "ElEllaUsted": "criará",
-            "Nosotros": "criaremos",
-            "Vosotros": "criaréis",
-            "EllosEllasUstedes": "criarán"
-        }
+  "PresentParticiple": "criando",
+  "PastParticiple": "criado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "crio",
+      "Tu": "crias",
+      "ElEllaUsted": "cria",
+      "Nosotros": "criamos",
+      "Vosotros": "criáis",
+      "EllosEllasUstedes": "crian"
     },
-    "Subjunctive": null,
-    "Name": "criar",
-    "EnglishMeaning": "to raise"
+    "Pretérito": {
+      "Yo": "crié",
+      "Tu": "criaste",
+      "ElEllaUsted": "crió",
+      "Nosotros": "criamos",
+      "Vosotros": "criasteis",
+      "EllosEllasUstedes": "criaron"
+    },
+    "Imperfect": {
+      "Yo": "criaba",
+      "Tu": "criabas",
+      "ElEllaUsted": "criaba",
+      "Nosotros": "criábamos",
+      "Vosotros": "criabais",
+      "EllosEllasUstedes": "criaban"
+    },
+    "Conditional": {
+      "Yo": "criaría",
+      "Tu": "criarías",
+      "ElEllaUsted": "criaría",
+      "Nosotros": "criaríamos",
+      "Vosotros": "criaríais",
+      "EllosEllasUstedes": "criarían"
+    },
+    "Future": {
+      "Yo": "criaré",
+      "Tu": "criarás",
+      "ElEllaUsted": "criará",
+      "Nosotros": "criaremos",
+      "Vosotros": "criaréis",
+      "EllosEllasUstedes": "criarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "crie",
+      "Tu": "cries",
+      "ElEllaUsted": "crie",
+      "Nosotros": "criemos",
+      "Vosotros": "criéis",
+      "EllosEllasUstedes": "crien"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "criara",
+      "Tu": "criaras",
+      "ElEllaUsted": "criara",
+      "Nosotros": "criaramos",
+      "Vosotros": "criarais",
+      "EllosEllasUstedes": "criaran"
+    }
+  },
+  "Name": "criar",
+  "EnglishMeaning": "to raise"
 }

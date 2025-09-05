@@ -1,1 +1,66 @@
-{"PresentParticiple":"faltando","PastParticiple":"faltado","Indicative":{"PresentTense":{"Yo":"falto","Tu":"faltas","ElEllaUsted":"falta","Nosotros":"faltamos","Vosotros":"faltáis","EllosEllasUstedes":"faltan"},"Pretérito":{"Yo":"falté","Tu":"faltaste","ElEllaUsted":"faltó","Nosotros":"faltamos","Vosotros":"faltasteis","EllosEllasUstedes":"faltaron"},"Imperfect":{"Yo":"faltaba","Tu":"faltabas","ElEllaUsted":"faltaba","Nosotros":"faltábamos","Vosotros":"faltabais","EllosEllasUstedes":"faltaban"},"Conditional":{"Yo":"faltaría","Tu":"faltarías","ElEllaUsted":"faltaría","Nosotros":"faltaríamos","Vosotros":"faltaríais","EllosEllasUstedes":"faltarían"},"Future":{"Yo":"faltaré","Tu":"faltarás","ElEllaUsted":"faltará","Nosotros":"faltaremos","Vosotros":"faltaréis","EllosEllasUstedes":"faltarán"}},"Subjunctive":null,"Name":"faltar","EnglishMeaning":"to miss"}
+{
+  "PresentParticiple": "faltando",
+  "PastParticiple": "faltado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "falto",
+      "Tu": "faltas",
+      "ElEllaUsted": "falta",
+      "Nosotros": "faltamos",
+      "Vosotros": "faltáis",
+      "EllosEllasUstedes": "faltan"
+    },
+    "Pretérito": {
+      "Yo": "falté",
+      "Tu": "faltaste",
+      "ElEllaUsted": "faltó",
+      "Nosotros": "faltamos",
+      "Vosotros": "faltasteis",
+      "EllosEllasUstedes": "faltaron"
+    },
+    "Imperfect": {
+      "Yo": "faltaba",
+      "Tu": "faltabas",
+      "ElEllaUsted": "faltaba",
+      "Nosotros": "faltábamos",
+      "Vosotros": "faltabais",
+      "EllosEllasUstedes": "faltaban"
+    },
+    "Conditional": {
+      "Yo": "faltaría",
+      "Tu": "faltarías",
+      "ElEllaUsted": "faltaría",
+      "Nosotros": "faltaríamos",
+      "Vosotros": "faltaríais",
+      "EllosEllasUstedes": "faltarían"
+    },
+    "Future": {
+      "Yo": "faltaré",
+      "Tu": "faltarás",
+      "ElEllaUsted": "faltará",
+      "Nosotros": "faltaremos",
+      "Vosotros": "faltaréis",
+      "EllosEllasUstedes": "faltarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "falte",
+      "Tu": "faltes",
+      "ElEllaUsted": "falte",
+      "Nosotros": "faltemos",
+      "Vosotros": "faltéis",
+      "EllosEllasUstedes": "falten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "faltara",
+      "Tu": "faltaras",
+      "ElEllaUsted": "faltara",
+      "Nosotros": "faltaramos",
+      "Vosotros": "faltarais",
+      "EllosEllasUstedes": "faltaran"
+    }
+  },
+  "Name": "faltar",
+  "EnglishMeaning": "to miss"
+}

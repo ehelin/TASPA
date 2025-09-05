@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "expedirán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "expia",
+      "Tu": "expias",
+      "ElEllaUsted": "expia",
+      "Nosotros": "expiamos",
+      "Vosotros": "expiáis",
+      "EllosEllasUstedes": "expian"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "expidiea",
+      "Tu": "expidieas",
+      "ElEllaUsted": "expidiea",
+      "Nosotros": "expidieamos",
+      "Vosotros": "expidieais",
+      "EllosEllasUstedes": "expidiean"
+    }
+  },
   "Name": "expedir",
   "EnglishMeaning": "to issue (a check)"
 }

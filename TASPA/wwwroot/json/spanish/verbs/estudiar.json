@@ -1,1 +1,68 @@
-{"PresentParticiple":"estudiando&translation=studying","PastParticiple":"estudiado&translation=studied","Indicative":{"PresentTense":{"Yo":"estudio","Tu":"estudias","ElEllaUsted":"estudia","Nosotros":"estudiamos","Vosotros":"estudiáis","EllosEllasUstedes":"estudian"},"Pretérito":{"Yo":"estudié","Tu":"estudiaste","ElEllaUsted":"estudió","Nosotros":"estudiamos","Vosotros":"estudiasteis","EllosEllasUstedes":"estudiaron"},"Imperfect":{"Yo":"estudiaba","Tu":"estudiabas","ElEllaUsted":"estudiaba","Nosotros":"estudiábamos","Vosotros":"estudiabais","EllosEllasUstedes":"estudiaban"},"Conditional":{"Yo":"estudiaría","Tu":"estudiarías","ElEllaUsted":"estudiaría","Nosotros":"estudiaríamos","Vosotros":"estudiaríais","EllosEllasUstedes":"estudiarían"},"Future":{"Yo":"estudiaré","Tu":"estudiarás","ElEllaUsted":"estudiará","Nosotros":"estudiaremos","Vosotros":"estudiaréis","EllosEllasUstedes":"estudiarán"}},"Subjunctive":null,"Name":"estudiar","EnglishMeaning":"to study"}
+{
+  "PresentParticiple": "estudiando",
+  "PastParticiple": "estudiado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "estudio",
+      "Tu": "estudias",
+      "ElEllaUsted": "estudia",
+      "Nosotros": "estudiamos",
+      "Vosotros": "estudiáis",
+      "EllosEllasUstedes": "estudian"
+    },
+    "Pretérito": {
+      "Yo": "estudié",
+      "Tu": "estudiaste",
+      "ElEllaUsted": "estudió",
+      "Nosotros": "estudiamos",
+      "Vosotros": "estudiasteis",
+      "EllosEllasUstedes": "estudiaron"
+    },
+    "Imperfect": {
+      "Yo": "estudiaba",
+      "Tu": "estudiabas",
+      "ElEllaUsted": "estudiaba",
+      "Nosotros": "estudiábamos",
+      "Vosotros": "estudiabais",
+      "EllosEllasUstedes": "estudiaban"
+    },
+    "Conditional": {
+      "Yo": "estudiaría",
+      "Tu": "estudiarías",
+      "ElEllaUsted": "estudiaría",
+      "Nosotros": "estudiaríamos",
+      "Vosotros": "estudiaríais",
+      "EllosEllasUstedes": "estudiarían"
+    },
+    "Future": {
+      "Yo": "estudiaré",
+      "Tu": "estudiarás",
+      "ElEllaUsted": "estudiará",
+      "Nosotros": "estudiaremos",
+      "Vosotros": "estudiaréis",
+      "EllosEllasUstedes": "estudiarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "estudie",
+      "Tu": "estudies",
+      "ElEllaUsted": "estudie",
+      "Nosotros": "estudiemos",
+      "Vosotros": "estudiéis",
+      "EllosEllasUstedes": "estudien"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "estudiara",
+      "Tu": "estudiaras",
+      "ElEllaUsted": "estudiara",
+      "Nosotros": "estudiaramos",
+      "Vosotros": "estudiarais",
+      "EllosEllasUstedes": "estudiaran"
+    }
+  },
+  "Name": "estudiar",
+  "EnglishMeaning": "to study",
+  "PresentParticipleTranslation": "studying",
+  "PastParticipleTranslation": "studied"
+}

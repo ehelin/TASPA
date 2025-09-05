@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "tramando",
-    "PastParticiple": "tramado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "tramo",
-            "Tu": "tramas",
-            "ElEllaUsted": "trama",
-            "Nosotros": "tramamos",
-            "Vosotros": "tramáis",
-            "EllosEllasUstedes": "traman"
-        },
-        "Pretérito": {
-            "Yo": "tramé",
-            "Tu": "tramaste",
-            "ElEllaUsted": "tramó",
-            "Nosotros": "tramamos",
-            "Vosotros": "tramasteis",
-            "EllosEllasUstedes": "tramaron"
-        },
-        "Imperfect": {
-            "Yo": "tramaba",
-            "Tu": "tramabas",
-            "ElEllaUsted": "tramaba",
-            "Nosotros": "tramábamos",
-            "Vosotros": "tramabais",
-            "EllosEllasUstedes": "tramaban"
-        },
-        "Conditional": {
-            "Yo": "tramaría",
-            "Tu": "tramarías",
-            "ElEllaUsted": "tramaría",
-            "Nosotros": "tramaríamos",
-            "Vosotros": "tramaríais",
-            "EllosEllasUstedes": "tramarían"
-        },
-        "Future": {
-            "Yo": "tramaré",
-            "Tu": "tramarás",
-            "ElEllaUsted": "tramará",
-            "Nosotros": "tramaremos",
-            "Vosotros": "tramaréis",
-            "EllosEllasUstedes": "tramarán"
-        }
+  "PresentParticiple": "tramando",
+  "PastParticiple": "tramado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "tramo",
+      "Tu": "tramas",
+      "ElEllaUsted": "trama",
+      "Nosotros": "tramamos",
+      "Vosotros": "tramáis",
+      "EllosEllasUstedes": "traman"
     },
-    "Subjunctive": null,
-    "Name": "tramar",
-    "EnglishMeaning": "to plot"
+    "Pretérito": {
+      "Yo": "tramé",
+      "Tu": "tramaste",
+      "ElEllaUsted": "tramó",
+      "Nosotros": "tramamos",
+      "Vosotros": "tramasteis",
+      "EllosEllasUstedes": "tramaron"
+    },
+    "Imperfect": {
+      "Yo": "tramaba",
+      "Tu": "tramabas",
+      "ElEllaUsted": "tramaba",
+      "Nosotros": "tramábamos",
+      "Vosotros": "tramabais",
+      "EllosEllasUstedes": "tramaban"
+    },
+    "Conditional": {
+      "Yo": "tramaría",
+      "Tu": "tramarías",
+      "ElEllaUsted": "tramaría",
+      "Nosotros": "tramaríamos",
+      "Vosotros": "tramaríais",
+      "EllosEllasUstedes": "tramarían"
+    },
+    "Future": {
+      "Yo": "tramaré",
+      "Tu": "tramarás",
+      "ElEllaUsted": "tramará",
+      "Nosotros": "tramaremos",
+      "Vosotros": "tramaréis",
+      "EllosEllasUstedes": "tramarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "trame",
+      "Tu": "trames",
+      "ElEllaUsted": "trame",
+      "Nosotros": "tramemos",
+      "Vosotros": "traméis",
+      "EllosEllasUstedes": "tramen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tramara",
+      "Tu": "tramaras",
+      "ElEllaUsted": "tramara",
+      "Nosotros": "tramaramos",
+      "Vosotros": "tramarais",
+      "EllosEllasUstedes": "tramaran"
+    }
+  },
+  "Name": "tramar",
+  "EnglishMeaning": "to plot"
 }

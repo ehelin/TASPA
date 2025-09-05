@@ -1,1 +1,68 @@
-{"PresentParticiple":"causando&translation=causing","PastParticiple":"causado&translation=caused","Indicative":{"PresentTense":{"Yo":"causo","Tu":"causas","ElEllaUsted":"causa","Nosotros":"causamos","Vosotros":"causáis","EllosEllasUstedes":"causan"},"Pretérito":{"Yo":"causé","Tu":"causaste","ElEllaUsted":"causó","Nosotros":"causamos","Vosotros":"causasteis","EllosEllasUstedes":"causaron"},"Imperfect":{"Yo":"causaba","Tu":"causabas","ElEllaUsted":"causaba","Nosotros":"causábamos","Vosotros":"causabais","EllosEllasUstedes":"causaban"},"Conditional":{"Yo":"causaría","Tu":"causarías","ElEllaUsted":"causaría","Nosotros":"causaríamos","Vosotros":"causaríais","EllosEllasUstedes":"causarían"},"Future":{"Yo":"causaré","Tu":"causarás","ElEllaUsted":"causará","Nosotros":"causaremos","Vosotros":"causaréis","EllosEllasUstedes":"causarán"}},"Subjunctive":null,"Name":"causar","EnglishMeaning":"to cause"}
+{
+  "PresentParticiple": "causando",
+  "PastParticiple": "causado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "causo",
+      "Tu": "causas",
+      "ElEllaUsted": "causa",
+      "Nosotros": "causamos",
+      "Vosotros": "causáis",
+      "EllosEllasUstedes": "causan"
+    },
+    "Pretérito": {
+      "Yo": "causé",
+      "Tu": "causaste",
+      "ElEllaUsted": "causó",
+      "Nosotros": "causamos",
+      "Vosotros": "causasteis",
+      "EllosEllasUstedes": "causaron"
+    },
+    "Imperfect": {
+      "Yo": "causaba",
+      "Tu": "causabas",
+      "ElEllaUsted": "causaba",
+      "Nosotros": "causábamos",
+      "Vosotros": "causabais",
+      "EllosEllasUstedes": "causaban"
+    },
+    "Conditional": {
+      "Yo": "causaría",
+      "Tu": "causarías",
+      "ElEllaUsted": "causaría",
+      "Nosotros": "causaríamos",
+      "Vosotros": "causaríais",
+      "EllosEllasUstedes": "causarían"
+    },
+    "Future": {
+      "Yo": "causaré",
+      "Tu": "causarás",
+      "ElEllaUsted": "causará",
+      "Nosotros": "causaremos",
+      "Vosotros": "causaréis",
+      "EllosEllasUstedes": "causarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cause",
+      "Tu": "causes",
+      "ElEllaUsted": "cause",
+      "Nosotros": "causemos",
+      "Vosotros": "causéis",
+      "EllosEllasUstedes": "causen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "causara",
+      "Tu": "causaras",
+      "ElEllaUsted": "causara",
+      "Nosotros": "causaramos",
+      "Vosotros": "causarais",
+      "EllosEllasUstedes": "causaran"
+    }
+  },
+  "Name": "causar",
+  "EnglishMeaning": "to cause",
+  "PresentParticipleTranslation": "causing",
+  "PastParticipleTranslation": "caused"
+}

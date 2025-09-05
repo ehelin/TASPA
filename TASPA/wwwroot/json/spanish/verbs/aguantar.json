@@ -1,1 +1,66 @@
-{"PresentParticiple":"aguantando","PastParticiple":"aguantado","Indicative":{"PresentTense":{"Yo":"aguanto","Tu":"aguantas","ElEllaUsted":"aguanta","Nosotros":"aguantamos","Vosotros":"aguantáis","EllosEllasUstedes":"aguantan"},"Pretérito":{"Yo":"aguanté","Tu":"aguantaste","ElEllaUsted":"aguantó","Nosotros":"aguantamos","Vosotros":"aguantasteis","EllosEllasUstedes":"aguantaron"},"Imperfect":{"Yo":"aguantaba","Tu":"aguantabas","ElEllaUsted":"aguantaba","Nosotros":"aguantábamos","Vosotros":"aguantabais","EllosEllasUstedes":"aguantaban"},"Conditional":{"Yo":"aguantaría","Tu":"aguantarías","ElEllaUsted":"aguantaría","Nosotros":"aguantaríamos","Vosotros":"aguantaríais","EllosEllasUstedes":"aguantarían"},"Future":{"Yo":"aguantaré","Tu":"aguantarás","ElEllaUsted":"aguantará","Nosotros":"aguantaremos","Vosotros":"aguantaréis","EllosEllasUstedes":"aguantarán"}},"Subjunctive":null,"Name":"aguantar","EnglishMeaning":"to bear"}
+{
+  "PresentParticiple": "aguantando",
+  "PastParticiple": "aguantado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aguanto",
+      "Tu": "aguantas",
+      "ElEllaUsted": "aguanta",
+      "Nosotros": "aguantamos",
+      "Vosotros": "aguantáis",
+      "EllosEllasUstedes": "aguantan"
+    },
+    "Pretérito": {
+      "Yo": "aguanté",
+      "Tu": "aguantaste",
+      "ElEllaUsted": "aguantó",
+      "Nosotros": "aguantamos",
+      "Vosotros": "aguantasteis",
+      "EllosEllasUstedes": "aguantaron"
+    },
+    "Imperfect": {
+      "Yo": "aguantaba",
+      "Tu": "aguantabas",
+      "ElEllaUsted": "aguantaba",
+      "Nosotros": "aguantábamos",
+      "Vosotros": "aguantabais",
+      "EllosEllasUstedes": "aguantaban"
+    },
+    "Conditional": {
+      "Yo": "aguantaría",
+      "Tu": "aguantarías",
+      "ElEllaUsted": "aguantaría",
+      "Nosotros": "aguantaríamos",
+      "Vosotros": "aguantaríais",
+      "EllosEllasUstedes": "aguantarían"
+    },
+    "Future": {
+      "Yo": "aguantaré",
+      "Tu": "aguantarás",
+      "ElEllaUsted": "aguantará",
+      "Nosotros": "aguantaremos",
+      "Vosotros": "aguantaréis",
+      "EllosEllasUstedes": "aguantarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aguante",
+      "Tu": "aguantes",
+      "ElEllaUsted": "aguante",
+      "Nosotros": "aguantemos",
+      "Vosotros": "aguantéis",
+      "EllosEllasUstedes": "aguanten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aguantara",
+      "Tu": "aguantaras",
+      "ElEllaUsted": "aguantara",
+      "Nosotros": "aguantaramos",
+      "Vosotros": "aguantarais",
+      "EllosEllasUstedes": "aguantaran"
+    }
+  },
+  "Name": "aguantar",
+  "EnglishMeaning": "to bear"
+}

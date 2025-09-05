@@ -1,1 +1,68 @@
-{"PresentParticiple":"platicando&translation=talking","PastParticiple":"platicado&translation=talked","Indicative":{"PresentTense":{"Yo":"platico","Tu":"platicas","ElEllaUsted":"platica","Nosotros":"platicamos","Vosotros":"platicáis","EllosEllasUstedes":"platican"},"Pretérito":{"Yo":"platiqué","Tu":"platicaste","ElEllaUsted":"platicó","Nosotros":"platicamos","Vosotros":"platicasteis","EllosEllasUstedes":"platicaron"},"Imperfect":{"Yo":"platicaba","Tu":"platicabas","ElEllaUsted":"platicaba","Nosotros":"platicábamos","Vosotros":"platicabais","EllosEllasUstedes":"platicaban"},"Conditional":{"Yo":"platicaría","Tu":"platicarías","ElEllaUsted":"platicaría","Nosotros":"platicaríamos","Vosotros":"platicaríais","EllosEllasUstedes":"platicarían"},"Future":{"Yo":"platicaré","Tu":"platicarás","ElEllaUsted":"platicará","Nosotros":"platicaremos","Vosotros":"platicaréis","EllosEllasUstedes":"platicarán"}},"Subjunctive":null,"Name":"platicar","EnglishMeaning":"to talk"}
+{
+  "PresentParticiple": "platicando",
+  "PastParticiple": "platicado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "platico",
+      "Tu": "platicas",
+      "ElEllaUsted": "platica",
+      "Nosotros": "platicamos",
+      "Vosotros": "platicáis",
+      "EllosEllasUstedes": "platican"
+    },
+    "Pretérito": {
+      "Yo": "platiqué",
+      "Tu": "platicaste",
+      "ElEllaUsted": "platicó",
+      "Nosotros": "platicamos",
+      "Vosotros": "platicasteis",
+      "EllosEllasUstedes": "platicaron"
+    },
+    "Imperfect": {
+      "Yo": "platicaba",
+      "Tu": "platicabas",
+      "ElEllaUsted": "platicaba",
+      "Nosotros": "platicábamos",
+      "Vosotros": "platicabais",
+      "EllosEllasUstedes": "platicaban"
+    },
+    "Conditional": {
+      "Yo": "platicaría",
+      "Tu": "platicarías",
+      "ElEllaUsted": "platicaría",
+      "Nosotros": "platicaríamos",
+      "Vosotros": "platicaríais",
+      "EllosEllasUstedes": "platicarían"
+    },
+    "Future": {
+      "Yo": "platicaré",
+      "Tu": "platicarás",
+      "ElEllaUsted": "platicará",
+      "Nosotros": "platicaremos",
+      "Vosotros": "platicaréis",
+      "EllosEllasUstedes": "platicarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "platice",
+      "Tu": "platices",
+      "ElEllaUsted": "platice",
+      "Nosotros": "platicemos",
+      "Vosotros": "platicéis",
+      "EllosEllasUstedes": "platicen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "platicara",
+      "Tu": "platicaras",
+      "ElEllaUsted": "platicara",
+      "Nosotros": "platicaramos",
+      "Vosotros": "platicarais",
+      "EllosEllasUstedes": "platicaran"
+    }
+  },
+  "Name": "platicar",
+  "EnglishMeaning": "to talk",
+  "PresentParticipleTranslation": "talking",
+  "PastParticipleTranslation": "talked"
+}

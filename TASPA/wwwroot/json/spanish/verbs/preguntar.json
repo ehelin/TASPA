@@ -1,1 +1,68 @@
-{"PresentParticiple":"preguntando&translation=asking","PastParticiple":"preguntado&translation=asked","Indicative":{"PresentTense":{"Yo":"pregunto","Tu":"preguntas","ElEllaUsted":"pregunta","Nosotros":"preguntamos","Vosotros":"preguntáis","EllosEllasUstedes":"preguntan"},"Pretérito":{"Yo":"pregunté","Tu":"preguntaste","ElEllaUsted":"preguntó","Nosotros":"preguntamos","Vosotros":"preguntasteis","EllosEllasUstedes":"preguntaron"},"Imperfect":{"Yo":"preguntaba","Tu":"preguntabas","ElEllaUsted":"preguntaba","Nosotros":"preguntábamos","Vosotros":"preguntabais","EllosEllasUstedes":"preguntaban"},"Conditional":{"Yo":"preguntaría","Tu":"preguntarías","ElEllaUsted":"preguntaría","Nosotros":"preguntaríamos","Vosotros":"preguntaríais","EllosEllasUstedes":"preguntarían"},"Future":{"Yo":"preguntaré","Tu":"preguntarás","ElEllaUsted":"preguntará","Nosotros":"preguntaremos","Vosotros":"preguntaréis","EllosEllasUstedes":"preguntarán"}},"Subjunctive":null,"Name":"preguntar","EnglishMeaning":"to ask"}
+{
+  "PresentParticiple": "preguntando",
+  "PastParticiple": "preguntado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pregunto",
+      "Tu": "preguntas",
+      "ElEllaUsted": "pregunta",
+      "Nosotros": "preguntamos",
+      "Vosotros": "preguntáis",
+      "EllosEllasUstedes": "preguntan"
+    },
+    "Pretérito": {
+      "Yo": "pregunté",
+      "Tu": "preguntaste",
+      "ElEllaUsted": "preguntó",
+      "Nosotros": "preguntamos",
+      "Vosotros": "preguntasteis",
+      "EllosEllasUstedes": "preguntaron"
+    },
+    "Imperfect": {
+      "Yo": "preguntaba",
+      "Tu": "preguntabas",
+      "ElEllaUsted": "preguntaba",
+      "Nosotros": "preguntábamos",
+      "Vosotros": "preguntabais",
+      "EllosEllasUstedes": "preguntaban"
+    },
+    "Conditional": {
+      "Yo": "preguntaría",
+      "Tu": "preguntarías",
+      "ElEllaUsted": "preguntaría",
+      "Nosotros": "preguntaríamos",
+      "Vosotros": "preguntaríais",
+      "EllosEllasUstedes": "preguntarían"
+    },
+    "Future": {
+      "Yo": "preguntaré",
+      "Tu": "preguntarás",
+      "ElEllaUsted": "preguntará",
+      "Nosotros": "preguntaremos",
+      "Vosotros": "preguntaréis",
+      "EllosEllasUstedes": "preguntarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pregunte",
+      "Tu": "preguntes",
+      "ElEllaUsted": "pregunte",
+      "Nosotros": "preguntemos",
+      "Vosotros": "preguntéis",
+      "EllosEllasUstedes": "pregunten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "preguntara",
+      "Tu": "preguntaras",
+      "ElEllaUsted": "preguntara",
+      "Nosotros": "preguntaramos",
+      "Vosotros": "preguntarais",
+      "EllosEllasUstedes": "preguntaran"
+    }
+  },
+  "Name": "preguntar",
+  "EnglishMeaning": "to ask",
+  "PresentParticipleTranslation": "asking",
+  "PastParticipleTranslation": "asked"
+}

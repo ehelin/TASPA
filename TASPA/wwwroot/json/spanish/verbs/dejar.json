@@ -1,1 +1,66 @@
-{"PresentParticiple":"dejando","PastParticiple":"dejado","Indicative":{"PresentTense":{"Yo":"dejo","Tu":"dejas","ElEllaUsted":"deja","Nosotros":"dejamos","Vosotros":"dejáis","EllosEllasUstedes":"dejan"},"Pretérito":{"Yo":"dejé","Tu":"dejaste","ElEllaUsted":"dejó","Nosotros":"dejamos","Vosotros":"dejasteis","EllosEllasUstedes":"dejaron"},"Imperfect":{"Yo":"dejaba","Tu":"dejabas","ElEllaUsted":"dejaba","Nosotros":"dejábamos","Vosotros":"dejabais","EllosEllasUstedes":"dejaban"},"Conditional":{"Yo":"dejaría","Tu":"dejarías","ElEllaUsted":"dejaría","Nosotros":"dejaríamos","Vosotros":"dejaríais","EllosEllasUstedes":"dejarían"},"Future":{"Yo":"dejaré","Tu":"dejarás","ElEllaUsted":"dejará","Nosotros":"dejaremos","Vosotros":"dejaréis","EllosEllasUstedes":"dejarán"}},"Subjunctive":null,"Name":"dejar","EnglishMeaning":"to leave"}
+{
+  "PresentParticiple": "dejando",
+  "PastParticiple": "dejado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "dejo",
+      "Tu": "dejas",
+      "ElEllaUsted": "deja",
+      "Nosotros": "dejamos",
+      "Vosotros": "dejáis",
+      "EllosEllasUstedes": "dejan"
+    },
+    "Pretérito": {
+      "Yo": "dejé",
+      "Tu": "dejaste",
+      "ElEllaUsted": "dejó",
+      "Nosotros": "dejamos",
+      "Vosotros": "dejasteis",
+      "EllosEllasUstedes": "dejaron"
+    },
+    "Imperfect": {
+      "Yo": "dejaba",
+      "Tu": "dejabas",
+      "ElEllaUsted": "dejaba",
+      "Nosotros": "dejábamos",
+      "Vosotros": "dejabais",
+      "EllosEllasUstedes": "dejaban"
+    },
+    "Conditional": {
+      "Yo": "dejaría",
+      "Tu": "dejarías",
+      "ElEllaUsted": "dejaría",
+      "Nosotros": "dejaríamos",
+      "Vosotros": "dejaríais",
+      "EllosEllasUstedes": "dejarían"
+    },
+    "Future": {
+      "Yo": "dejaré",
+      "Tu": "dejarás",
+      "ElEllaUsted": "dejará",
+      "Nosotros": "dejaremos",
+      "Vosotros": "dejaréis",
+      "EllosEllasUstedes": "dejarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "deje",
+      "Tu": "dejes",
+      "ElEllaUsted": "deje",
+      "Nosotros": "dejemos",
+      "Vosotros": "dejéis",
+      "EllosEllasUstedes": "dejen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dejara",
+      "Tu": "dejaras",
+      "ElEllaUsted": "dejara",
+      "Nosotros": "dejaramos",
+      "Vosotros": "dejarais",
+      "EllosEllasUstedes": "dejaran"
+    }
+  },
+  "Name": "dejar",
+  "EnglishMeaning": "to leave"
+}

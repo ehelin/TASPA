@@ -1,1 +1,68 @@
-{"PresentParticiple":"organizando&translation=organizing","PastParticiple":"organizado&translation=organized","Indicative":{"PresentTense":{"Yo":"organizo","Tu":"organizas","ElEllaUsted":"organiza","Nosotros":"organizamos","Vosotros":"organizáis","EllosEllasUstedes":"organizan"},"Pretérito":{"Yo":"organicé","Tu":"organizaste","ElEllaUsted":"organizó","Nosotros":"organizamos","Vosotros":"organizasteis","EllosEllasUstedes":"organizaron"},"Imperfect":{"Yo":"organizaba","Tu":"organizabas","ElEllaUsted":"organizaba","Nosotros":"organizábamos","Vosotros":"organizabais","EllosEllasUstedes":"organizaban"},"Conditional":{"Yo":"organizaría","Tu":"organizarías","ElEllaUsted":"organizaría","Nosotros":"organizaríamos","Vosotros":"organizaríais","EllosEllasUstedes":"organizarían"},"Future":{"Yo":"organizaré","Tu":"organizarás","ElEllaUsted":"organizará","Nosotros":"organizaremos","Vosotros":"organizaréis","EllosEllasUstedes":"organizarán"}},"Subjunctive":null,"Name":"organizar","EnglishMeaning":"to organize"}
+{
+  "PresentParticiple": "organizando",
+  "PastParticiple": "organizado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "organizo",
+      "Tu": "organizas",
+      "ElEllaUsted": "organiza",
+      "Nosotros": "organizamos",
+      "Vosotros": "organizáis",
+      "EllosEllasUstedes": "organizan"
+    },
+    "Pretérito": {
+      "Yo": "organicé",
+      "Tu": "organizaste",
+      "ElEllaUsted": "organizó",
+      "Nosotros": "organizamos",
+      "Vosotros": "organizasteis",
+      "EllosEllasUstedes": "organizaron"
+    },
+    "Imperfect": {
+      "Yo": "organizaba",
+      "Tu": "organizabas",
+      "ElEllaUsted": "organizaba",
+      "Nosotros": "organizábamos",
+      "Vosotros": "organizabais",
+      "EllosEllasUstedes": "organizaban"
+    },
+    "Conditional": {
+      "Yo": "organizaría",
+      "Tu": "organizarías",
+      "ElEllaUsted": "organizaría",
+      "Nosotros": "organizaríamos",
+      "Vosotros": "organizaríais",
+      "EllosEllasUstedes": "organizarían"
+    },
+    "Future": {
+      "Yo": "organizaré",
+      "Tu": "organizarás",
+      "ElEllaUsted": "organizará",
+      "Nosotros": "organizaremos",
+      "Vosotros": "organizaréis",
+      "EllosEllasUstedes": "organizarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "organize",
+      "Tu": "organizes",
+      "ElEllaUsted": "organize",
+      "Nosotros": "organizemos",
+      "Vosotros": "organizéis",
+      "EllosEllasUstedes": "organizen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "organizara",
+      "Tu": "organizaras",
+      "ElEllaUsted": "organizara",
+      "Nosotros": "organizaramos",
+      "Vosotros": "organizarais",
+      "EllosEllasUstedes": "organizaran"
+    }
+  },
+  "Name": "organizar",
+  "EnglishMeaning": "to organize",
+  "PresentParticipleTranslation": "organizing",
+  "PastParticipleTranslation": "organized"
+}

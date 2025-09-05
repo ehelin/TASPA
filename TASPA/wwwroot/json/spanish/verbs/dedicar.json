@@ -1,1 +1,68 @@
-{"PresentParticiple":"dedicando&translation=dedicating","PastParticiple":"dedicado&translation=dedicated","Indicative":{"PresentTense":{"Yo":"dedico","Tu":"dedicas","ElEllaUsted":"dedica","Nosotros":"dedicamos","Vosotros":"dedicáis","EllosEllasUstedes":"dedican"},"Pretérito":{"Yo":"dediqué","Tu":"dedicaste","ElEllaUsted":"dedicó","Nosotros":"dedicamos","Vosotros":"dedicasteis","EllosEllasUstedes":"dedicaron"},"Imperfect":{"Yo":"dedicaba","Tu":"dedicabas","ElEllaUsted":"dedicaba","Nosotros":"dedicábamos","Vosotros":"dedicabais","EllosEllasUstedes":"dedicaban"},"Conditional":{"Yo":"dedicaría","Tu":"dedicarías","ElEllaUsted":"dedicaría","Nosotros":"dedicaríamos","Vosotros":"dedicaríais","EllosEllasUstedes":"dedicarían"},"Future":{"Yo":"dedicaré","Tu":"dedicarás","ElEllaUsted":"dedicará","Nosotros":"dedicaremos","Vosotros":"dedicaréis","EllosEllasUstedes":"dedicarán"}},"Subjunctive":null,"Name":"dedicar","EnglishMeaning":"to dedicate"}
+{
+  "PresentParticiple": "dedicando",
+  "PastParticiple": "dedicado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "dedico",
+      "Tu": "dedicas",
+      "ElEllaUsted": "dedica",
+      "Nosotros": "dedicamos",
+      "Vosotros": "dedicáis",
+      "EllosEllasUstedes": "dedican"
+    },
+    "Pretérito": {
+      "Yo": "dediqué",
+      "Tu": "dedicaste",
+      "ElEllaUsted": "dedicó",
+      "Nosotros": "dedicamos",
+      "Vosotros": "dedicasteis",
+      "EllosEllasUstedes": "dedicaron"
+    },
+    "Imperfect": {
+      "Yo": "dedicaba",
+      "Tu": "dedicabas",
+      "ElEllaUsted": "dedicaba",
+      "Nosotros": "dedicábamos",
+      "Vosotros": "dedicabais",
+      "EllosEllasUstedes": "dedicaban"
+    },
+    "Conditional": {
+      "Yo": "dedicaría",
+      "Tu": "dedicarías",
+      "ElEllaUsted": "dedicaría",
+      "Nosotros": "dedicaríamos",
+      "Vosotros": "dedicaríais",
+      "EllosEllasUstedes": "dedicarían"
+    },
+    "Future": {
+      "Yo": "dedicaré",
+      "Tu": "dedicarás",
+      "ElEllaUsted": "dedicará",
+      "Nosotros": "dedicaremos",
+      "Vosotros": "dedicaréis",
+      "EllosEllasUstedes": "dedicarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "dedice",
+      "Tu": "dedices",
+      "ElEllaUsted": "dedice",
+      "Nosotros": "dedicemos",
+      "Vosotros": "dedicéis",
+      "EllosEllasUstedes": "dedicen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dedicara",
+      "Tu": "dedicaras",
+      "ElEllaUsted": "dedicara",
+      "Nosotros": "dedicaramos",
+      "Vosotros": "dedicarais",
+      "EllosEllasUstedes": "dedicaran"
+    }
+  },
+  "Name": "dedicar",
+  "EnglishMeaning": "to dedicate",
+  "PresentParticipleTranslation": "dedicating",
+  "PastParticipleTranslation": "dedicated"
+}

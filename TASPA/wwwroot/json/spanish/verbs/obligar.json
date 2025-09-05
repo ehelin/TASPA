@@ -1,1 +1,68 @@
-{"PresentParticiple":"obligando&translation=forcing","PastParticiple":"obligado&translation=forced","Indicative":{"PresentTense":{"Yo":"obligo","Tu":"obligas","ElEllaUsted":"obliga","Nosotros":"obligamos","Vosotros":"obligáis","EllosEllasUstedes":"obligan"},"Pretérito":{"Yo":"obligué","Tu":"obligaste","ElEllaUsted":"obligó","Nosotros":"obligamos","Vosotros":"obligasteis","EllosEllasUstedes":"obligaron"},"Imperfect":{"Yo":"obligaba","Tu":"obligabas","ElEllaUsted":"obligaba","Nosotros":"obligábamos","Vosotros":"obligabais","EllosEllasUstedes":"obligaban"},"Conditional":{"Yo":"obligaría","Tu":"obligarías","ElEllaUsted":"obligaría","Nosotros":"obligaríamos","Vosotros":"obligaríais","EllosEllasUstedes":"obligarían"},"Future":{"Yo":"obligaré","Tu":"obligarás","ElEllaUsted":"obligará","Nosotros":"obligaremos","Vosotros":"obligaréis","EllosEllasUstedes":"obligarán"}},"Subjunctive":null,"Name":"obligar","EnglishMeaning":"to force"}
+{
+  "PresentParticiple": "obligando",
+  "PastParticiple": "obligado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "obligo",
+      "Tu": "obligas",
+      "ElEllaUsted": "obliga",
+      "Nosotros": "obligamos",
+      "Vosotros": "obligáis",
+      "EllosEllasUstedes": "obligan"
+    },
+    "Pretérito": {
+      "Yo": "obligué",
+      "Tu": "obligaste",
+      "ElEllaUsted": "obligó",
+      "Nosotros": "obligamos",
+      "Vosotros": "obligasteis",
+      "EllosEllasUstedes": "obligaron"
+    },
+    "Imperfect": {
+      "Yo": "obligaba",
+      "Tu": "obligabas",
+      "ElEllaUsted": "obligaba",
+      "Nosotros": "obligábamos",
+      "Vosotros": "obligabais",
+      "EllosEllasUstedes": "obligaban"
+    },
+    "Conditional": {
+      "Yo": "obligaría",
+      "Tu": "obligarías",
+      "ElEllaUsted": "obligaría",
+      "Nosotros": "obligaríamos",
+      "Vosotros": "obligaríais",
+      "EllosEllasUstedes": "obligarían"
+    },
+    "Future": {
+      "Yo": "obligaré",
+      "Tu": "obligarás",
+      "ElEllaUsted": "obligará",
+      "Nosotros": "obligaremos",
+      "Vosotros": "obligaréis",
+      "EllosEllasUstedes": "obligarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "oblige",
+      "Tu": "obliges",
+      "ElEllaUsted": "oblige",
+      "Nosotros": "obligemos",
+      "Vosotros": "obligéis",
+      "EllosEllasUstedes": "obligen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "obligara",
+      "Tu": "obligaras",
+      "ElEllaUsted": "obligara",
+      "Nosotros": "obligaramos",
+      "Vosotros": "obligarais",
+      "EllosEllasUstedes": "obligaran"
+    }
+  },
+  "Name": "obligar",
+  "EnglishMeaning": "to force",
+  "PresentParticipleTranslation": "forcing",
+  "PastParticipleTranslation": "forced"
+}

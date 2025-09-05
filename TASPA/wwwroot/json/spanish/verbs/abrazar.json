@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "abrazarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "abraze",
+      "Tu": "abrazes",
+      "ElEllaUsted": "abraze",
+      "Nosotros": "abrazemos",
+      "Vosotros": "abrazéis",
+      "EllosEllasUstedes": "abrazen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "abrazara",
+      "Tu": "abrazaras",
+      "ElEllaUsted": "abrazara",
+      "Nosotros": "abrazaramos",
+      "Vosotros": "abrazarais",
+      "EllosEllasUstedes": "abrazaran"
+    }
+  },
   "Name": "abrazar",
   "EnglishMeaning": "to hug"
 }

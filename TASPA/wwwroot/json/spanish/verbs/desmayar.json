@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "desmayando",
-    "PastParticiple": "desmayado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "desmayo",
-            "Tu": "desmayas",
-            "ElEllaUsted": "desmaya",
-            "Nosotros": "desmayamos",
-            "Vosotros": "desmayáis",
-            "EllosEllasUstedes": "desmayan"
-        },
-        "Pretérito": {
-            "Yo": "desmayé",
-            "Tu": "desmayaste",
-            "ElEllaUsted": "desmayó",
-            "Nosotros": "desmayamos",
-            "Vosotros": "desmayasteis",
-            "EllosEllasUstedes": "desmayaron"
-        },
-        "Imperfect": {
-            "Yo": "desmayaba",
-            "Tu": "desmayabas",
-            "ElEllaUsted": "desmayaba",
-            "Nosotros": "desmayábamos",
-            "Vosotros": "desmayabais",
-            "EllosEllasUstedes": "desmayaban"
-        },
-        "Conditional": {
-            "Yo": "desmayaría",
-            "Tu": "desmayarías",
-            "ElEllaUsted": "desmayaría",
-            "Nosotros": "desmayaríamos",
-            "Vosotros": "desmayaríais",
-            "EllosEllasUstedes": "desmayarían"
-        },
-        "Future": {
-            "Yo": "desmayaré",
-            "Tu": "desmayarás",
-            "ElEllaUsted": "desmayará",
-            "Nosotros": "desmayaremos",
-            "Vosotros": "desmayaréis",
-            "EllosEllasUstedes": "desmayarán"
-        }
+  "PresentParticiple": "desmayando",
+  "PastParticiple": "desmayado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "desmayo",
+      "Tu": "desmayas",
+      "ElEllaUsted": "desmaya",
+      "Nosotros": "desmayamos",
+      "Vosotros": "desmayáis",
+      "EllosEllasUstedes": "desmayan"
     },
-    "Subjunctive": null,
-    "Name": "desmayar",
-    "EnglishMeaning": "to faint"
+    "Pretérito": {
+      "Yo": "desmayé",
+      "Tu": "desmayaste",
+      "ElEllaUsted": "desmayó",
+      "Nosotros": "desmayamos",
+      "Vosotros": "desmayasteis",
+      "EllosEllasUstedes": "desmayaron"
+    },
+    "Imperfect": {
+      "Yo": "desmayaba",
+      "Tu": "desmayabas",
+      "ElEllaUsted": "desmayaba",
+      "Nosotros": "desmayábamos",
+      "Vosotros": "desmayabais",
+      "EllosEllasUstedes": "desmayaban"
+    },
+    "Conditional": {
+      "Yo": "desmayaría",
+      "Tu": "desmayarías",
+      "ElEllaUsted": "desmayaría",
+      "Nosotros": "desmayaríamos",
+      "Vosotros": "desmayaríais",
+      "EllosEllasUstedes": "desmayarían"
+    },
+    "Future": {
+      "Yo": "desmayaré",
+      "Tu": "desmayarás",
+      "ElEllaUsted": "desmayará",
+      "Nosotros": "desmayaremos",
+      "Vosotros": "desmayaréis",
+      "EllosEllasUstedes": "desmayarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "desmaye",
+      "Tu": "desmayes",
+      "ElEllaUsted": "desmaye",
+      "Nosotros": "desmayemos",
+      "Vosotros": "desmayéis",
+      "EllosEllasUstedes": "desmayen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "desmayara",
+      "Tu": "desmayaras",
+      "ElEllaUsted": "desmayara",
+      "Nosotros": "desmayaramos",
+      "Vosotros": "desmayarais",
+      "EllosEllasUstedes": "desmayaran"
+    }
+  },
+  "Name": "desmayar",
+  "EnglishMeaning": "to faint"
 }

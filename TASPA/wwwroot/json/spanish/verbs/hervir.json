@@ -1,1 +1,68 @@
-{"PresentParticiple":"hirviendo&translation=boiling","PastParticiple":"hervido&translation=boiled","Indicative":{"PresentTense":{"Yo":"hiervo","Tu":"hierves","ElEllaUsted":"hierve","Nosotros":"hervimos","Vosotros":"hervís","EllosEllasUstedes":"hierven"},"Pretérito":{"Yo":"herví","Tu":"herviste","ElEllaUsted":"hirvió","Nosotros":"hervimos","Vosotros":"hervisteis","EllosEllasUstedes":"hirvieron"},"Imperfect":{"Yo":"hervía","Tu":"hervías","ElEllaUsted":"hervía","Nosotros":"hervíamos","Vosotros":"hervíais","EllosEllasUstedes":"hervían"},"Conditional":{"Yo":"herviría","Tu":"hervirías","ElEllaUsted":"herviría","Nosotros":"herviríamos","Vosotros":"herviríais","EllosEllasUstedes":"hervirían"},"Future":{"Yo":"herviré","Tu":"hervirás","ElEllaUsted":"hervirá","Nosotros":"herviremos","Vosotros":"herviréis","EllosEllasUstedes":"hervirán"}},"Subjunctive":null,"Name":"hervir","EnglishMeaning":"to boil"}
+{
+  "PresentParticiple": "hirviendo",
+  "PastParticiple": "hervido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "hiervo",
+      "Tu": "hierves",
+      "ElEllaUsted": "hierve",
+      "Nosotros": "hervimos",
+      "Vosotros": "hervís",
+      "EllosEllasUstedes": "hierven"
+    },
+    "Pretérito": {
+      "Yo": "herví",
+      "Tu": "herviste",
+      "ElEllaUsted": "hirvió",
+      "Nosotros": "hervimos",
+      "Vosotros": "hervisteis",
+      "EllosEllasUstedes": "hirvieron"
+    },
+    "Imperfect": {
+      "Yo": "hervía",
+      "Tu": "hervías",
+      "ElEllaUsted": "hervía",
+      "Nosotros": "hervíamos",
+      "Vosotros": "hervíais",
+      "EllosEllasUstedes": "hervían"
+    },
+    "Conditional": {
+      "Yo": "herviría",
+      "Tu": "hervirías",
+      "ElEllaUsted": "herviría",
+      "Nosotros": "herviríamos",
+      "Vosotros": "herviríais",
+      "EllosEllasUstedes": "hervirían"
+    },
+    "Future": {
+      "Yo": "herviré",
+      "Tu": "hervirás",
+      "ElEllaUsted": "hervirá",
+      "Nosotros": "herviremos",
+      "Vosotros": "herviréis",
+      "EllosEllasUstedes": "hervirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "hierva",
+      "Tu": "hiervas",
+      "ElEllaUsted": "hierva",
+      "Nosotros": "hiervamos",
+      "Vosotros": "hierváis",
+      "EllosEllasUstedes": "hiervan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "hirviea",
+      "Tu": "hirvieas",
+      "ElEllaUsted": "hirviea",
+      "Nosotros": "hirvieamos",
+      "Vosotros": "hirvieais",
+      "EllosEllasUstedes": "hirviean"
+    }
+  },
+  "Name": "hervir",
+  "EnglishMeaning": "to boil",
+  "PresentParticipleTranslation": "boiling",
+  "PastParticipleTranslation": "boiled"
+}

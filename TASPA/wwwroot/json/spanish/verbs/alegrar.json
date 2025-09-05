@@ -1,1 +1,66 @@
-{"PresentParticiple":"alegrando","PastParticiple":"alegrado","Indicative":{"PresentTense":{"Yo":"alegro","Tu":"alegras","ElEllaUsted":"alegra","Nosotros":"alegramos","Vosotros":"alegráis","EllosEllasUstedes":"alegran"},"Pretérito":{"Yo":"alegré","Tu":"alegraste","ElEllaUsted":"alegró","Nosotros":"alegramos","Vosotros":"alegrasteis","EllosEllasUstedes":"alegraron"},"Imperfect":{"Yo":"alegraba","Tu":"alegrabas","ElEllaUsted":"alegraba","Nosotros":"alegrábamos","Vosotros":"alegrabais","EllosEllasUstedes":"alegraban"},"Conditional":{"Yo":"alegraría","Tu":"alegrarías","ElEllaUsted":"alegraría","Nosotros":"alegraríamos","Vosotros":"alegraríais","EllosEllasUstedes":"alegrarían"},"Future":{"Yo":"alegraré","Tu":"alegrarás","ElEllaUsted":"alegrará","Nosotros":"alegraremos","Vosotros":"alegraréis","EllosEllasUstedes":"alegrarán"}},"Subjunctive":null,"Name":"alegrar","EnglishMeaning":"to cheer up"}
+{
+  "PresentParticiple": "alegrando",
+  "PastParticiple": "alegrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "alegro",
+      "Tu": "alegras",
+      "ElEllaUsted": "alegra",
+      "Nosotros": "alegramos",
+      "Vosotros": "alegráis",
+      "EllosEllasUstedes": "alegran"
+    },
+    "Pretérito": {
+      "Yo": "alegré",
+      "Tu": "alegraste",
+      "ElEllaUsted": "alegró",
+      "Nosotros": "alegramos",
+      "Vosotros": "alegrasteis",
+      "EllosEllasUstedes": "alegraron"
+    },
+    "Imperfect": {
+      "Yo": "alegraba",
+      "Tu": "alegrabas",
+      "ElEllaUsted": "alegraba",
+      "Nosotros": "alegrábamos",
+      "Vosotros": "alegrabais",
+      "EllosEllasUstedes": "alegraban"
+    },
+    "Conditional": {
+      "Yo": "alegraría",
+      "Tu": "alegrarías",
+      "ElEllaUsted": "alegraría",
+      "Nosotros": "alegraríamos",
+      "Vosotros": "alegraríais",
+      "EllosEllasUstedes": "alegrarían"
+    },
+    "Future": {
+      "Yo": "alegraré",
+      "Tu": "alegrarás",
+      "ElEllaUsted": "alegrará",
+      "Nosotros": "alegraremos",
+      "Vosotros": "alegraréis",
+      "EllosEllasUstedes": "alegrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "alegre",
+      "Tu": "alegres",
+      "ElEllaUsted": "alegre",
+      "Nosotros": "alegremos",
+      "Vosotros": "alegréis",
+      "EllosEllasUstedes": "alegren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "alegrara",
+      "Tu": "alegraras",
+      "ElEllaUsted": "alegrara",
+      "Nosotros": "alegraramos",
+      "Vosotros": "alegrarais",
+      "EllosEllasUstedes": "alegraran"
+    }
+  },
+  "Name": "alegrar",
+  "EnglishMeaning": "to cheer up"
+}

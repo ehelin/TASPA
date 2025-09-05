@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "cotejando",
-    "PastParticiple": "cotejado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "cotejo",
-            "Tu": "cotejas",
-            "ElEllaUsted": "coteja",
-            "Nosotros": "cotejamos",
-            "Vosotros": "cotejáis",
-            "EllosEllasUstedes": "cotejan"
-        },
-        "Pretérito": {
-            "Yo": "cotejé",
-            "Tu": "cotejaste",
-            "ElEllaUsted": "cotejó",
-            "Nosotros": "cotejamos",
-            "Vosotros": "cotejasteis",
-            "EllosEllasUstedes": "cotejaron"
-        },
-        "Imperfect": {
-            "Yo": "cotejaba",
-            "Tu": "cotejabas",
-            "ElEllaUsted": "cotejaba",
-            "Nosotros": "cotejábamos",
-            "Vosotros": "cotejabais",
-            "EllosEllasUstedes": "cotejaban"
-        },
-        "Conditional": {
-            "Yo": "cotejaría",
-            "Tu": "cotejarías",
-            "ElEllaUsted": "cotejaría",
-            "Nosotros": "cotejaríamos",
-            "Vosotros": "cotejaríais",
-            "EllosEllasUstedes": "cotejarían"
-        },
-        "Future": {
-            "Yo": "cotejaré",
-            "Tu": "cotejarás",
-            "ElEllaUsted": "cotejará",
-            "Nosotros": "cotejaremos",
-            "Vosotros": "cotejaréis",
-            "EllosEllasUstedes": "cotejarán"
-        }
+  "PresentParticiple": "cotejando",
+  "PastParticiple": "cotejado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cotejo",
+      "Tu": "cotejas",
+      "ElEllaUsted": "coteja",
+      "Nosotros": "cotejamos",
+      "Vosotros": "cotejáis",
+      "EllosEllasUstedes": "cotejan"
     },
-    "Subjunctive": null,
-    "Name": "cotejar",
-    "EnglishMeaning": "to compare"
+    "Pretérito": {
+      "Yo": "cotejé",
+      "Tu": "cotejaste",
+      "ElEllaUsted": "cotejó",
+      "Nosotros": "cotejamos",
+      "Vosotros": "cotejasteis",
+      "EllosEllasUstedes": "cotejaron"
+    },
+    "Imperfect": {
+      "Yo": "cotejaba",
+      "Tu": "cotejabas",
+      "ElEllaUsted": "cotejaba",
+      "Nosotros": "cotejábamos",
+      "Vosotros": "cotejabais",
+      "EllosEllasUstedes": "cotejaban"
+    },
+    "Conditional": {
+      "Yo": "cotejaría",
+      "Tu": "cotejarías",
+      "ElEllaUsted": "cotejaría",
+      "Nosotros": "cotejaríamos",
+      "Vosotros": "cotejaríais",
+      "EllosEllasUstedes": "cotejarían"
+    },
+    "Future": {
+      "Yo": "cotejaré",
+      "Tu": "cotejarás",
+      "ElEllaUsted": "cotejará",
+      "Nosotros": "cotejaremos",
+      "Vosotros": "cotejaréis",
+      "EllosEllasUstedes": "cotejarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "coteje",
+      "Tu": "cotejes",
+      "ElEllaUsted": "coteje",
+      "Nosotros": "cotejemos",
+      "Vosotros": "cotejéis",
+      "EllosEllasUstedes": "cotejen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cotejara",
+      "Tu": "cotejaras",
+      "ElEllaUsted": "cotejara",
+      "Nosotros": "cotejaramos",
+      "Vosotros": "cotejarais",
+      "EllosEllasUstedes": "cotejaran"
+    }
+  },
+  "Name": "cotejar",
+  "EnglishMeaning": "to compare"
 }

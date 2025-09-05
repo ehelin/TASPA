@@ -1,1 +1,68 @@
-{"PresentParticiple":"dividiendo&translation=dividing","PastParticiple":"dividido&translation=divided","Indicative":{"PresentTense":{"Yo":"divido","Tu":"divides","ElEllaUsted":"divide","Nosotros":"dividimos","Vosotros":"dividís","EllosEllasUstedes":"dividen"},"Pretérito":{"Yo":"dividí","Tu":"dividiste","ElEllaUsted":"dividió","Nosotros":"dividimos","Vosotros":"dividisteis","EllosEllasUstedes":"dividieron"},"Imperfect":{"Yo":"dividía","Tu":"dividías","ElEllaUsted":"dividía","Nosotros":"dividíamos","Vosotros":"dividíais","EllosEllasUstedes":"dividían"},"Conditional":{"Yo":"dividiría","Tu":"dividirías","ElEllaUsted":"dividiría","Nosotros":"dividiríamos","Vosotros":"dividiríais","EllosEllasUstedes":"dividirían"},"Future":{"Yo":"dividiré","Tu":"dividirás","ElEllaUsted":"dividirá","Nosotros":"dividiremos","Vosotros":"dividiréis","EllosEllasUstedes":"dividirán"}},"Subjunctive":null,"Name":"dividir","EnglishMeaning":"to divide"}
+{
+  "PresentParticiple": "dividiendo",
+  "PastParticiple": "dividido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "divido",
+      "Tu": "divides",
+      "ElEllaUsted": "divide",
+      "Nosotros": "dividimos",
+      "Vosotros": "dividís",
+      "EllosEllasUstedes": "dividen"
+    },
+    "Pretérito": {
+      "Yo": "dividí",
+      "Tu": "dividiste",
+      "ElEllaUsted": "dividió",
+      "Nosotros": "dividimos",
+      "Vosotros": "dividisteis",
+      "EllosEllasUstedes": "dividieron"
+    },
+    "Imperfect": {
+      "Yo": "dividía",
+      "Tu": "dividías",
+      "ElEllaUsted": "dividía",
+      "Nosotros": "dividíamos",
+      "Vosotros": "dividíais",
+      "EllosEllasUstedes": "dividían"
+    },
+    "Conditional": {
+      "Yo": "dividiría",
+      "Tu": "dividirías",
+      "ElEllaUsted": "dividiría",
+      "Nosotros": "dividiríamos",
+      "Vosotros": "dividiríais",
+      "EllosEllasUstedes": "dividirían"
+    },
+    "Future": {
+      "Yo": "dividiré",
+      "Tu": "dividirás",
+      "ElEllaUsted": "dividirá",
+      "Nosotros": "dividiremos",
+      "Vosotros": "dividiréis",
+      "EllosEllasUstedes": "dividirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "divida",
+      "Tu": "dividas",
+      "ElEllaUsted": "divida",
+      "Nosotros": "dividamos",
+      "Vosotros": "dividáis",
+      "EllosEllasUstedes": "dividan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dividiea",
+      "Tu": "dividieas",
+      "ElEllaUsted": "dividiea",
+      "Nosotros": "dividieamos",
+      "Vosotros": "dividieais",
+      "EllosEllasUstedes": "dividiean"
+    }
+  },
+  "Name": "dividir",
+  "EnglishMeaning": "to divide",
+  "PresentParticipleTranslation": "dividing",
+  "PastParticipleTranslation": "divided"
+}

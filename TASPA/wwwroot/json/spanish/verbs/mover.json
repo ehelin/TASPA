@@ -1,1 +1,68 @@
-{"PresentParticiple":"moviendo&translation=moving","PastParticiple":"movido&translation=moved","Indicative":{"PresentTense":{"Yo":"muevo","Tu":"mueves","ElEllaUsted":"mueve","Nosotros":"movemos","Vosotros":"movéis","EllosEllasUstedes":"mueven"},"Pretérito":{"Yo":"moví","Tu":"moviste","ElEllaUsted":"movió","Nosotros":"movimos","Vosotros":"movisteis","EllosEllasUstedes":"movieron"},"Imperfect":{"Yo":"movía","Tu":"movías","ElEllaUsted":"movía","Nosotros":"movíamos","Vosotros":"movíais","EllosEllasUstedes":"movían"},"Conditional":{"Yo":"movería","Tu":"moverías","ElEllaUsted":"movería","Nosotros":"moveríamos","Vosotros":"moveríais","EllosEllasUstedes":"moverían"},"Future":{"Yo":"moveré","Tu":"moverás","ElEllaUsted":"moverá","Nosotros":"moveremos","Vosotros":"moveréis","EllosEllasUstedes":"moverán"}},"Subjunctive":null,"Name":"mover","EnglishMeaning":"to move"}
+{
+  "PresentParticiple": "moviendo",
+  "PastParticiple": "movido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "muevo",
+      "Tu": "mueves",
+      "ElEllaUsted": "mueve",
+      "Nosotros": "movemos",
+      "Vosotros": "movéis",
+      "EllosEllasUstedes": "mueven"
+    },
+    "Pretérito": {
+      "Yo": "moví",
+      "Tu": "moviste",
+      "ElEllaUsted": "movió",
+      "Nosotros": "movimos",
+      "Vosotros": "movisteis",
+      "EllosEllasUstedes": "movieron"
+    },
+    "Imperfect": {
+      "Yo": "movía",
+      "Tu": "movías",
+      "ElEllaUsted": "movía",
+      "Nosotros": "movíamos",
+      "Vosotros": "movíais",
+      "EllosEllasUstedes": "movían"
+    },
+    "Conditional": {
+      "Yo": "movería",
+      "Tu": "moverías",
+      "ElEllaUsted": "movería",
+      "Nosotros": "moveríamos",
+      "Vosotros": "moveríais",
+      "EllosEllasUstedes": "moverían"
+    },
+    "Future": {
+      "Yo": "moveré",
+      "Tu": "moverás",
+      "ElEllaUsted": "moverá",
+      "Nosotros": "moveremos",
+      "Vosotros": "moveréis",
+      "EllosEllasUstedes": "moverán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "mueva",
+      "Tu": "muevas",
+      "ElEllaUsted": "mueva",
+      "Nosotros": "muevamos",
+      "Vosotros": "mueváis",
+      "EllosEllasUstedes": "muevan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "moviea",
+      "Tu": "movieas",
+      "ElEllaUsted": "moviea",
+      "Nosotros": "movieamos",
+      "Vosotros": "movieais",
+      "EllosEllasUstedes": "moviean"
+    }
+  },
+  "Name": "mover",
+  "EnglishMeaning": "to move",
+  "PresentParticipleTranslation": "moving",
+  "PastParticipleTranslation": "moved"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"oyendo&translation=hearing","PastParticiple":"o%C3%ADdo&translation=heard","Indicative":{"PresentTense":{"Yo":"oigo","Tu":"oyes","ElEllaUsted":"oye","Nosotros":"oímos","Vosotros":"oís","EllosEllasUstedes":"oyen"},"Pretérito":{"Yo":"oí","Tu":"oíste","ElEllaUsted":"oyó","Nosotros":"oímos","Vosotros":"oísteis","EllosEllasUstedes":"oyeron"},"Imperfect":{"Yo":"oía","Tu":"oías","ElEllaUsted":"oía","Nosotros":"oíamos","Vosotros":"oíais","EllosEllasUstedes":"oían"},"Conditional":{"Yo":"oiría","Tu":"oirías","ElEllaUsted":"oiría","Nosotros":"oiríamos","Vosotros":"oiríais","EllosEllasUstedes":"oirían"},"Future":{"Yo":"oiré","Tu":"oirás","ElEllaUsted":"oirá","Nosotros":"oiremos","Vosotros":"oiréis","EllosEllasUstedes":"oirán"}},"Subjunctive":null,"Name":"oir","EnglishMeaning":"to hear"}
+{
+  "PresentParticiple": "oyendo",
+  "PastParticiple": "o%C3%ADdo",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "oigo",
+      "Tu": "oyes",
+      "ElEllaUsted": "oye",
+      "Nosotros": "oímos",
+      "Vosotros": "oís",
+      "EllosEllasUstedes": "oyen"
+    },
+    "Pretérito": {
+      "Yo": "oí",
+      "Tu": "oíste",
+      "ElEllaUsted": "oyó",
+      "Nosotros": "oímos",
+      "Vosotros": "oísteis",
+      "EllosEllasUstedes": "oyeron"
+    },
+    "Imperfect": {
+      "Yo": "oía",
+      "Tu": "oías",
+      "ElEllaUsted": "oía",
+      "Nosotros": "oíamos",
+      "Vosotros": "oíais",
+      "EllosEllasUstedes": "oían"
+    },
+    "Conditional": {
+      "Yo": "oiría",
+      "Tu": "oirías",
+      "ElEllaUsted": "oiría",
+      "Nosotros": "oiríamos",
+      "Vosotros": "oiríais",
+      "EllosEllasUstedes": "oirían"
+    },
+    "Future": {
+      "Yo": "oiré",
+      "Tu": "oirás",
+      "ElEllaUsted": "oirá",
+      "Nosotros": "oiremos",
+      "Vosotros": "oiréis",
+      "EllosEllasUstedes": "oirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "oiga",
+      "Tu": "oigas",
+      "ElEllaUsted": "oiga",
+      "Nosotros": "oigamos",
+      "Vosotros": "oigáis",
+      "EllosEllasUstedes": "oigan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "oyea",
+      "Tu": "oyeas",
+      "ElEllaUsted": "oyea",
+      "Nosotros": "oyeamos",
+      "Vosotros": "oyeais",
+      "EllosEllasUstedes": "oyean"
+    }
+  },
+  "Name": "oir",
+  "EnglishMeaning": "to hear",
+  "PresentParticipleTranslation": "hearing",
+  "PastParticipleTranslation": "heard"
+}

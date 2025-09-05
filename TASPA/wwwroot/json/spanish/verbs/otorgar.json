@@ -1,1 +1,68 @@
-{"PresentParticiple":"otorgando&translation=granting","PastParticiple":"otorgado&translation=granted","Indicative":{"PresentTense":{"Yo":"otorgo","Tu":"otorgas","ElEllaUsted":"otorga","Nosotros":"otorgamos","Vosotros":"otorgáis","EllosEllasUstedes":"otorgan"},"Pretérito":{"Yo":"otorgué","Tu":"otorgaste","ElEllaUsted":"otorgó","Nosotros":"otorgamos","Vosotros":"otorgasteis","EllosEllasUstedes":"otorgaron"},"Imperfect":{"Yo":"otorgaba","Tu":"otorgabas","ElEllaUsted":"otorgaba","Nosotros":"otorgábamos","Vosotros":"otorgabais","EllosEllasUstedes":"otorgaban"},"Conditional":{"Yo":"otorgaría","Tu":"otorgarías","ElEllaUsted":"otorgaría","Nosotros":"otorgaríamos","Vosotros":"otorgaríais","EllosEllasUstedes":"otorgarían"},"Future":{"Yo":"otorgaré","Tu":"otorgarás","ElEllaUsted":"otorgará","Nosotros":"otorgaremos","Vosotros":"otorgaréis","EllosEllasUstedes":"otorgarán"}},"Subjunctive":null,"Name":"otorgar","EnglishMeaning":"to grant"}
+{
+  "PresentParticiple": "otorgando",
+  "PastParticiple": "otorgado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "otorgo",
+      "Tu": "otorgas",
+      "ElEllaUsted": "otorga",
+      "Nosotros": "otorgamos",
+      "Vosotros": "otorgáis",
+      "EllosEllasUstedes": "otorgan"
+    },
+    "Pretérito": {
+      "Yo": "otorgué",
+      "Tu": "otorgaste",
+      "ElEllaUsted": "otorgó",
+      "Nosotros": "otorgamos",
+      "Vosotros": "otorgasteis",
+      "EllosEllasUstedes": "otorgaron"
+    },
+    "Imperfect": {
+      "Yo": "otorgaba",
+      "Tu": "otorgabas",
+      "ElEllaUsted": "otorgaba",
+      "Nosotros": "otorgábamos",
+      "Vosotros": "otorgabais",
+      "EllosEllasUstedes": "otorgaban"
+    },
+    "Conditional": {
+      "Yo": "otorgaría",
+      "Tu": "otorgarías",
+      "ElEllaUsted": "otorgaría",
+      "Nosotros": "otorgaríamos",
+      "Vosotros": "otorgaríais",
+      "EllosEllasUstedes": "otorgarían"
+    },
+    "Future": {
+      "Yo": "otorgaré",
+      "Tu": "otorgarás",
+      "ElEllaUsted": "otorgará",
+      "Nosotros": "otorgaremos",
+      "Vosotros": "otorgaréis",
+      "EllosEllasUstedes": "otorgarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "otorge",
+      "Tu": "otorges",
+      "ElEllaUsted": "otorge",
+      "Nosotros": "otorgemos",
+      "Vosotros": "otorgéis",
+      "EllosEllasUstedes": "otorgen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "otorgara",
+      "Tu": "otorgaras",
+      "ElEllaUsted": "otorgara",
+      "Nosotros": "otorgaramos",
+      "Vosotros": "otorgarais",
+      "EllosEllasUstedes": "otorgaran"
+    }
+  },
+  "Name": "otorgar",
+  "EnglishMeaning": "to grant",
+  "PresentParticipleTranslation": "granting",
+  "PastParticipleTranslation": "granted"
+}

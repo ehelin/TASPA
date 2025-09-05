@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "descartando",
-    "PastParticiple": "descartado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "descarto",
-            "Tu": "descartas",
-            "ElEllaUsted": "descarta",
-            "Nosotros": "descartamos",
-            "Vosotros": "descartáis",
-            "EllosEllasUstedes": "descartan"
-        },
-        "Pretérito": {
-            "Yo": "descarté",
-            "Tu": "descartaste",
-            "ElEllaUsted": "descartó",
-            "Nosotros": "descartamos",
-            "Vosotros": "descartasteis",
-            "EllosEllasUstedes": "descartaron"
-        },
-        "Imperfect": {
-            "Yo": "descartaba",
-            "Tu": "descartabas",
-            "ElEllaUsted": "descartaba",
-            "Nosotros": "descartábamos",
-            "Vosotros": "descartabais",
-            "EllosEllasUstedes": "descartaban"
-        },
-        "Conditional": {
-            "Yo": "descartaría",
-            "Tu": "descartarías",
-            "ElEllaUsted": "descartaría",
-            "Nosotros": "descartaríamos",
-            "Vosotros": "descartaríais",
-            "EllosEllasUstedes": "descartarían"
-        },
-        "Future": {
-            "Yo": "descartaré",
-            "Tu": "descartarás",
-            "ElEllaUsted": "descartará",
-            "Nosotros": "descartaremos",
-            "Vosotros": "descartaréis",
-            "EllosEllasUstedes": "descartarán"
-        }
+  "PresentParticiple": "descartando",
+  "PastParticiple": "descartado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "descarto",
+      "Tu": "descartas",
+      "ElEllaUsted": "descarta",
+      "Nosotros": "descartamos",
+      "Vosotros": "descartáis",
+      "EllosEllasUstedes": "descartan"
     },
-    "Subjunctive": null,
-    "Name": "descartar",
-    "EnglishMeaning": "to discard"
+    "Pretérito": {
+      "Yo": "descarté",
+      "Tu": "descartaste",
+      "ElEllaUsted": "descartó",
+      "Nosotros": "descartamos",
+      "Vosotros": "descartasteis",
+      "EllosEllasUstedes": "descartaron"
+    },
+    "Imperfect": {
+      "Yo": "descartaba",
+      "Tu": "descartabas",
+      "ElEllaUsted": "descartaba",
+      "Nosotros": "descartábamos",
+      "Vosotros": "descartabais",
+      "EllosEllasUstedes": "descartaban"
+    },
+    "Conditional": {
+      "Yo": "descartaría",
+      "Tu": "descartarías",
+      "ElEllaUsted": "descartaría",
+      "Nosotros": "descartaríamos",
+      "Vosotros": "descartaríais",
+      "EllosEllasUstedes": "descartarían"
+    },
+    "Future": {
+      "Yo": "descartaré",
+      "Tu": "descartarás",
+      "ElEllaUsted": "descartará",
+      "Nosotros": "descartaremos",
+      "Vosotros": "descartaréis",
+      "EllosEllasUstedes": "descartarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "descarte",
+      "Tu": "descartes",
+      "ElEllaUsted": "descarte",
+      "Nosotros": "descartemos",
+      "Vosotros": "descartéis",
+      "EllosEllasUstedes": "descarten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "descartara",
+      "Tu": "descartaras",
+      "ElEllaUsted": "descartara",
+      "Nosotros": "descartaramos",
+      "Vosotros": "descartarais",
+      "EllosEllasUstedes": "descartaran"
+    }
+  },
+  "Name": "descartar",
+  "EnglishMeaning": "to discard"
 }

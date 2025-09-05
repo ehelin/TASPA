@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "abarcando",
-    "PastParticiple": "abarcado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "abarco",
-            "Tu": "abarcas",
-            "ElEllaUsted": "abarca",
-            "Nosotros": "abarcamos",
-            "Vosotros": "abarcáis",
-            "EllosEllasUstedes": "abarcan"
-        },
-        "Pretérito": {
-            "Yo": "abarcé",
-            "Tu": "abarcaste",
-            "ElEllaUsted": "abarcó",
-            "Nosotros": "abarcamos",
-            "Vosotros": "abarcasteis",
-            "EllosEllasUstedes": "abarcaron"
-        },
-        "Imperfect": {
-            "Yo": "abarcaba",
-            "Tu": "abarcabas",
-            "ElEllaUsted": "abarcaba",
-            "Nosotros": "abarcábamos",
-            "Vosotros": "abarcabais",
-            "EllosEllasUstedes": "abarcaban"
-        },
-        "Conditional": {
-            "Yo": "abarcaría",
-            "Tu": "abarcarías",
-            "ElEllaUsted": "abarcaría",
-            "Nosotros": "abarcaríamos",
-            "Vosotros": "abarcaríais",
-            "EllosEllasUstedes": "abarcarían"
-        },
-        "Future": {
-            "Yo": "abarcaré",
-            "Tu": "abarcarás",
-            "ElEllaUsted": "abarcará",
-            "Nosotros": "abarcaremos",
-            "Vosotros": "abarcaréis",
-            "EllosEllasUstedes": "abarcarán"
-        }
+  "PresentParticiple": "abarcando",
+  "PastParticiple": "abarcado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "abarco",
+      "Tu": "abarcas",
+      "ElEllaUsted": "abarca",
+      "Nosotros": "abarcamos",
+      "Vosotros": "abarcáis",
+      "EllosEllasUstedes": "abarcan"
     },
-    "Subjunctive": null,
-    "Name": "abarcar",
-    "EnglishMeaning": "to cover"
+    "Pretérito": {
+      "Yo": "abarcé",
+      "Tu": "abarcaste",
+      "ElEllaUsted": "abarcó",
+      "Nosotros": "abarcamos",
+      "Vosotros": "abarcasteis",
+      "EllosEllasUstedes": "abarcaron"
+    },
+    "Imperfect": {
+      "Yo": "abarcaba",
+      "Tu": "abarcabas",
+      "ElEllaUsted": "abarcaba",
+      "Nosotros": "abarcábamos",
+      "Vosotros": "abarcabais",
+      "EllosEllasUstedes": "abarcaban"
+    },
+    "Conditional": {
+      "Yo": "abarcaría",
+      "Tu": "abarcarías",
+      "ElEllaUsted": "abarcaría",
+      "Nosotros": "abarcaríamos",
+      "Vosotros": "abarcaríais",
+      "EllosEllasUstedes": "abarcarían"
+    },
+    "Future": {
+      "Yo": "abarcaré",
+      "Tu": "abarcarás",
+      "ElEllaUsted": "abarcará",
+      "Nosotros": "abarcaremos",
+      "Vosotros": "abarcaréis",
+      "EllosEllasUstedes": "abarcarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "abarce",
+      "Tu": "abarces",
+      "ElEllaUsted": "abarce",
+      "Nosotros": "abarcemos",
+      "Vosotros": "abarcéis",
+      "EllosEllasUstedes": "abarcen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "abarcara",
+      "Tu": "abarcaras",
+      "ElEllaUsted": "abarcara",
+      "Nosotros": "abarcaramos",
+      "Vosotros": "abarcarais",
+      "EllosEllasUstedes": "abarcaran"
+    }
+  },
+  "Name": "abarcar",
+  "EnglishMeaning": "to cover"
 }

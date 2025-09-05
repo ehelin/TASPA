@@ -1,1 +1,68 @@
-{"PresentParticiple":"visitando&translation=visiting","PastParticiple":"visitado&translation=visited","Indicative":{"PresentTense":{"Yo":"visito","Tu":"visitas","ElEllaUsted":"visita","Nosotros":"visitamos","Vosotros":"visitáis","EllosEllasUstedes":"visitan"},"Pretérito":{"Yo":"visité","Tu":"visitaste","ElEllaUsted":"visitó","Nosotros":"visitamos","Vosotros":"visitasteis","EllosEllasUstedes":"visitaron"},"Imperfect":{"Yo":"visitaba","Tu":"visitabas","ElEllaUsted":"visitaba","Nosotros":"visitábamos","Vosotros":"visitabais","EllosEllasUstedes":"visitaban"},"Conditional":{"Yo":"visitaría","Tu":"visitarías","ElEllaUsted":"visitaría","Nosotros":"visitaríamos","Vosotros":"visitaríais","EllosEllasUstedes":"visitarían"},"Future":{"Yo":"visitaré","Tu":"visitarás","ElEllaUsted":"visitará","Nosotros":"visitaremos","Vosotros":"visitaréis","EllosEllasUstedes":"visitarán"}},"Subjunctive":null,"Name":"visitar","EnglishMeaning":"to visit"}
+{
+  "PresentParticiple": "visitando",
+  "PastParticiple": "visitado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "visito",
+      "Tu": "visitas",
+      "ElEllaUsted": "visita",
+      "Nosotros": "visitamos",
+      "Vosotros": "visitáis",
+      "EllosEllasUstedes": "visitan"
+    },
+    "Pretérito": {
+      "Yo": "visité",
+      "Tu": "visitaste",
+      "ElEllaUsted": "visitó",
+      "Nosotros": "visitamos",
+      "Vosotros": "visitasteis",
+      "EllosEllasUstedes": "visitaron"
+    },
+    "Imperfect": {
+      "Yo": "visitaba",
+      "Tu": "visitabas",
+      "ElEllaUsted": "visitaba",
+      "Nosotros": "visitábamos",
+      "Vosotros": "visitabais",
+      "EllosEllasUstedes": "visitaban"
+    },
+    "Conditional": {
+      "Yo": "visitaría",
+      "Tu": "visitarías",
+      "ElEllaUsted": "visitaría",
+      "Nosotros": "visitaríamos",
+      "Vosotros": "visitaríais",
+      "EllosEllasUstedes": "visitarían"
+    },
+    "Future": {
+      "Yo": "visitaré",
+      "Tu": "visitarás",
+      "ElEllaUsted": "visitará",
+      "Nosotros": "visitaremos",
+      "Vosotros": "visitaréis",
+      "EllosEllasUstedes": "visitarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "visite",
+      "Tu": "visites",
+      "ElEllaUsted": "visite",
+      "Nosotros": "visitemos",
+      "Vosotros": "visitéis",
+      "EllosEllasUstedes": "visiten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "visitara",
+      "Tu": "visitaras",
+      "ElEllaUsted": "visitara",
+      "Nosotros": "visitaramos",
+      "Vosotros": "visitarais",
+      "EllosEllasUstedes": "visitaran"
+    }
+  },
+  "Name": "visitar",
+  "EnglishMeaning": "to visit",
+  "PresentParticipleTranslation": "visiting",
+  "PastParticipleTranslation": "visited"
+}

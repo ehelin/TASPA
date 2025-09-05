@@ -1,1 +1,68 @@
-{"PresentParticiple":"enga%C3%B1ando&translation=deceiving","PastParticiple":"enga%C3%B1ado&translation=deceived","Indicative":{"PresentTense":{"Yo":"engaño","Tu":"engañas","ElEllaUsted":"engaña","Nosotros":"engañamos","Vosotros":"engañáis","EllosEllasUstedes":"engañan"},"Pretérito":{"Yo":"engañé","Tu":"engañaste","ElEllaUsted":"engañó","Nosotros":"engañamos","Vosotros":"engañasteis","EllosEllasUstedes":"engañaron"},"Imperfect":{"Yo":"engañaba","Tu":"engañabas","ElEllaUsted":"engañaba","Nosotros":"engañábamos","Vosotros":"engañabais","EllosEllasUstedes":"engañaban"},"Conditional":{"Yo":"engañaría","Tu":"engañarías","ElEllaUsted":"engañaría","Nosotros":"engañaríamos","Vosotros":"engañaríais","EllosEllasUstedes":"engañarían"},"Future":{"Yo":"engañaré","Tu":"engañarás","ElEllaUsted":"engañará","Nosotros":"engañaremos","Vosotros":"engañaréis","EllosEllasUstedes":"engañarán"}},"Subjunctive":null,"Name":"engañar","EnglishMeaning":"to deceive"}
+{
+  "PresentParticiple": "enga%C3%B1ando",
+  "PastParticiple": "enga%C3%B1ado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "engaño",
+      "Tu": "engañas",
+      "ElEllaUsted": "engaña",
+      "Nosotros": "engañamos",
+      "Vosotros": "engañáis",
+      "EllosEllasUstedes": "engañan"
+    },
+    "Pretérito": {
+      "Yo": "engañé",
+      "Tu": "engañaste",
+      "ElEllaUsted": "engañó",
+      "Nosotros": "engañamos",
+      "Vosotros": "engañasteis",
+      "EllosEllasUstedes": "engañaron"
+    },
+    "Imperfect": {
+      "Yo": "engañaba",
+      "Tu": "engañabas",
+      "ElEllaUsted": "engañaba",
+      "Nosotros": "engañábamos",
+      "Vosotros": "engañabais",
+      "EllosEllasUstedes": "engañaban"
+    },
+    "Conditional": {
+      "Yo": "engañaría",
+      "Tu": "engañarías",
+      "ElEllaUsted": "engañaría",
+      "Nosotros": "engañaríamos",
+      "Vosotros": "engañaríais",
+      "EllosEllasUstedes": "engañarían"
+    },
+    "Future": {
+      "Yo": "engañaré",
+      "Tu": "engañarás",
+      "ElEllaUsted": "engañará",
+      "Nosotros": "engañaremos",
+      "Vosotros": "engañaréis",
+      "EllosEllasUstedes": "engañarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "engañe",
+      "Tu": "engañes",
+      "ElEllaUsted": "engañe",
+      "Nosotros": "engañemos",
+      "Vosotros": "engañéis",
+      "EllosEllasUstedes": "engañen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "engañara",
+      "Tu": "engañaras",
+      "ElEllaUsted": "engañara",
+      "Nosotros": "engañaramos",
+      "Vosotros": "engañarais",
+      "EllosEllasUstedes": "engañaran"
+    }
+  },
+  "Name": "engañar",
+  "EnglishMeaning": "to deceive",
+  "PresentParticipleTranslation": "deceiving",
+  "PastParticipleTranslation": "deceived"
+}

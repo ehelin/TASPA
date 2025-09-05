@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "dirigiendo",
-    "PastParticiple": "dirigido",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "dirigiro",
-            "Tu": "dirigiras",
-            "ElEllaUsted": "dirigira",
-            "Nosotros": "dirigiramos",
-            "Vosotros": "dirigiráis",
-            "EllosEllasUstedes": "dirigiran"
-        },
-        "Pretérito": {
-            "Yo": "dirigiré",
-            "Tu": "dirigiraste",
-            "ElEllaUsted": "dirigiró",
-            "Nosotros": "dirigiramos",
-            "Vosotros": "dirigirasteis",
-            "EllosEllasUstedes": "dirigiraron"
-        },
-        "Imperfect": {
-            "Yo": "dirigiraba",
-            "Tu": "dirigirabas",
-            "ElEllaUsted": "dirigiraba",
-            "Nosotros": "dirigirábamos",
-            "Vosotros": "dirigirabais",
-            "EllosEllasUstedes": "dirigiraban"
-        },
-        "Conditional": {
-            "Yo": "dirigiraría",
-            "Tu": "dirigirarías",
-            "ElEllaUsted": "dirigiraría",
-            "Nosotros": "dirigiraríamos",
-            "Vosotros": "dirigiraríais",
-            "EllosEllasUstedes": "dirigirarían"
-        },
-        "Future": {
-            "Yo": "dirigiraré",
-            "Tu": "dirigirarás",
-            "ElEllaUsted": "dirigirará",
-            "Nosotros": "dirigiraremos",
-            "Vosotros": "dirigiraréis",
-            "EllosEllasUstedes": "dirigirarán"
-        }
+  "PresentParticiple": "dirigiendo",
+  "PastParticiple": "dirigido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "dirigiro",
+      "Tu": "dirigiras",
+      "ElEllaUsted": "dirigira",
+      "Nosotros": "dirigiramos",
+      "Vosotros": "dirigiráis",
+      "EllosEllasUstedes": "dirigiran"
     },
-    "Subjunctive": null,
-    "Name": "dirigir",
-    "EnglishMeaning": "to direct"
+    "Pretérito": {
+      "Yo": "dirigiré",
+      "Tu": "dirigiraste",
+      "ElEllaUsted": "dirigiró",
+      "Nosotros": "dirigiramos",
+      "Vosotros": "dirigirasteis",
+      "EllosEllasUstedes": "dirigiraron"
+    },
+    "Imperfect": {
+      "Yo": "dirigiraba",
+      "Tu": "dirigirabas",
+      "ElEllaUsted": "dirigiraba",
+      "Nosotros": "dirigirábamos",
+      "Vosotros": "dirigirabais",
+      "EllosEllasUstedes": "dirigiraban"
+    },
+    "Conditional": {
+      "Yo": "dirigiraría",
+      "Tu": "dirigirarías",
+      "ElEllaUsted": "dirigiraría",
+      "Nosotros": "dirigiraríamos",
+      "Vosotros": "dirigiraríais",
+      "EllosEllasUstedes": "dirigirarían"
+    },
+    "Future": {
+      "Yo": "dirigiraré",
+      "Tu": "dirigirarás",
+      "ElEllaUsted": "dirigirará",
+      "Nosotros": "dirigiraremos",
+      "Vosotros": "dirigiraréis",
+      "EllosEllasUstedes": "dirigirarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "dirigira",
+      "Tu": "dirigiras",
+      "ElEllaUsted": "dirigira",
+      "Nosotros": "dirigiramos",
+      "Vosotros": "dirigiráis",
+      "EllosEllasUstedes": "dirigiran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dirigirara",
+      "Tu": "dirigiraras",
+      "ElEllaUsted": "dirigirara",
+      "Nosotros": "dirigiraramos",
+      "Vosotros": "dirigirarais",
+      "EllosEllasUstedes": "dirigiraran"
+    }
+  },
+  "Name": "dirigir",
+  "EnglishMeaning": "to direct"
 }

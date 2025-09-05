@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "destacando",
-    "PastParticiple": "destacado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "destaco",
-            "Tu": "destacas",
-            "ElEllaUsted": "destaca",
-            "Nosotros": "destacamos",
-            "Vosotros": "destacáis",
-            "EllosEllasUstedes": "destacan"
-        },
-        "Pretérito": {
-            "Yo": "destacé",
-            "Tu": "destacaste",
-            "ElEllaUsted": "destacó",
-            "Nosotros": "destacamos",
-            "Vosotros": "destacasteis",
-            "EllosEllasUstedes": "destacaron"
-        },
-        "Imperfect": {
-            "Yo": "destacaba",
-            "Tu": "destacabas",
-            "ElEllaUsted": "destacaba",
-            "Nosotros": "destacábamos",
-            "Vosotros": "destacabais",
-            "EllosEllasUstedes": "destacaban"
-        },
-        "Conditional": {
-            "Yo": "destacaría",
-            "Tu": "destacarías",
-            "ElEllaUsted": "destacaría",
-            "Nosotros": "destacaríamos",
-            "Vosotros": "destacaríais",
-            "EllosEllasUstedes": "destacarían"
-        },
-        "Future": {
-            "Yo": "destacaré",
-            "Tu": "destacarás",
-            "ElEllaUsted": "destacará",
-            "Nosotros": "destacaremos",
-            "Vosotros": "destacaréis",
-            "EllosEllasUstedes": "destacarán"
-        }
+  "PresentParticiple": "destacando",
+  "PastParticiple": "destacado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "destaco",
+      "Tu": "destacas",
+      "ElEllaUsted": "destaca",
+      "Nosotros": "destacamos",
+      "Vosotros": "destacáis",
+      "EllosEllasUstedes": "destacan"
     },
-    "Subjunctive": null,
-    "Name": "destacar",
-    "EnglishMeaning": "to highlight"
+    "Pretérito": {
+      "Yo": "destacé",
+      "Tu": "destacaste",
+      "ElEllaUsted": "destacó",
+      "Nosotros": "destacamos",
+      "Vosotros": "destacasteis",
+      "EllosEllasUstedes": "destacaron"
+    },
+    "Imperfect": {
+      "Yo": "destacaba",
+      "Tu": "destacabas",
+      "ElEllaUsted": "destacaba",
+      "Nosotros": "destacábamos",
+      "Vosotros": "destacabais",
+      "EllosEllasUstedes": "destacaban"
+    },
+    "Conditional": {
+      "Yo": "destacaría",
+      "Tu": "destacarías",
+      "ElEllaUsted": "destacaría",
+      "Nosotros": "destacaríamos",
+      "Vosotros": "destacaríais",
+      "EllosEllasUstedes": "destacarían"
+    },
+    "Future": {
+      "Yo": "destacaré",
+      "Tu": "destacarás",
+      "ElEllaUsted": "destacará",
+      "Nosotros": "destacaremos",
+      "Vosotros": "destacaréis",
+      "EllosEllasUstedes": "destacarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "destace",
+      "Tu": "destaces",
+      "ElEllaUsted": "destace",
+      "Nosotros": "destacemos",
+      "Vosotros": "destacéis",
+      "EllosEllasUstedes": "destacen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "destacara",
+      "Tu": "destacaras",
+      "ElEllaUsted": "destacara",
+      "Nosotros": "destacaramos",
+      "Vosotros": "destacarais",
+      "EllosEllasUstedes": "destacaran"
+    }
+  },
+  "Name": "destacar",
+  "EnglishMeaning": "to highlight"
 }

@@ -1,1 +1,68 @@
-{"PresentParticiple":"renovando&translation=renewing","PastParticiple":"renovado&translation=renewed","Indicative":{"PresentTense":{"Yo":"renuevo","Tu":"renuevas","ElEllaUsted":"renueva","Nosotros":"renovamos","Vosotros":"renováis","EllosEllasUstedes":"renuevan"},"Pretérito":{"Yo":"renové","Tu":"renovaste","ElEllaUsted":"renovó","Nosotros":"renovamos","Vosotros":"renovasteis","EllosEllasUstedes":"renovaron"},"Imperfect":{"Yo":"renovaba","Tu":"renovabas","ElEllaUsted":"renovaba","Nosotros":"renovábamos","Vosotros":"renovabais","EllosEllasUstedes":"renovaban"},"Conditional":{"Yo":"renovaría","Tu":"renovarías","ElEllaUsted":"renovaría","Nosotros":"renovaríamos","Vosotros":"renovaríais","EllosEllasUstedes":"renovarían"},"Future":{"Yo":"renovaré","Tu":"renovarás","ElEllaUsted":"renovará","Nosotros":"renovaremos","Vosotros":"renovaréis","EllosEllasUstedes":"renovarán"}},"Subjunctive":null,"Name":"renovar","EnglishMeaning":"to renew"}
+{
+  "PresentParticiple": "renovando",
+  "PastParticiple": "renovado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "renuevo",
+      "Tu": "renuevas",
+      "ElEllaUsted": "renueva",
+      "Nosotros": "renovamos",
+      "Vosotros": "renováis",
+      "EllosEllasUstedes": "renuevan"
+    },
+    "Pretérito": {
+      "Yo": "renové",
+      "Tu": "renovaste",
+      "ElEllaUsted": "renovó",
+      "Nosotros": "renovamos",
+      "Vosotros": "renovasteis",
+      "EllosEllasUstedes": "renovaron"
+    },
+    "Imperfect": {
+      "Yo": "renovaba",
+      "Tu": "renovabas",
+      "ElEllaUsted": "renovaba",
+      "Nosotros": "renovábamos",
+      "Vosotros": "renovabais",
+      "EllosEllasUstedes": "renovaban"
+    },
+    "Conditional": {
+      "Yo": "renovaría",
+      "Tu": "renovarías",
+      "ElEllaUsted": "renovaría",
+      "Nosotros": "renovaríamos",
+      "Vosotros": "renovaríais",
+      "EllosEllasUstedes": "renovarían"
+    },
+    "Future": {
+      "Yo": "renovaré",
+      "Tu": "renovarás",
+      "ElEllaUsted": "renovará",
+      "Nosotros": "renovaremos",
+      "Vosotros": "renovaréis",
+      "EllosEllasUstedes": "renovarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "renueve",
+      "Tu": "renueves",
+      "ElEllaUsted": "renueve",
+      "Nosotros": "renuevemos",
+      "Vosotros": "renuevéis",
+      "EllosEllasUstedes": "renueven"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "renovara",
+      "Tu": "renovaras",
+      "ElEllaUsted": "renovara",
+      "Nosotros": "renovaramos",
+      "Vosotros": "renovarais",
+      "EllosEllasUstedes": "renovaran"
+    }
+  },
+  "Name": "renovar",
+  "EnglishMeaning": "to renew",
+  "PresentParticipleTranslation": "renewing",
+  "PastParticipleTranslation": "renewed"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"rehaciendo&translation=redoing","PastParticiple":"rehecho&translation=redone","Indicative":{"PresentTense":{"Yo":"rehago","Tu":"rehaces","ElEllaUsted":"rehace","Nosotros":"rehacemos","Vosotros":"rehacéis","EllosEllasUstedes":"rehacen"},"Pretérito":{"Yo":"rehíce","Tu":"rehiciste","ElEllaUsted":"rehízo","Nosotros":"rehicimos","Vosotros":"rehicisteis","EllosEllasUstedes":"rehicieron"},"Imperfect":{"Yo":"rehacía","Tu":"rehacías","ElEllaUsted":"rehacía","Nosotros":"rehacíamos","Vosotros":"rehacíais","EllosEllasUstedes":"rehacían"},"Conditional":{"Yo":"reharía","Tu":"reharías","ElEllaUsted":"reharía","Nosotros":"reharíamos","Vosotros":"reharíais","EllosEllasUstedes":"reharían"},"Future":{"Yo":"reharé","Tu":"reharás","ElEllaUsted":"rehará","Nosotros":"reharemos","Vosotros":"reharéis","EllosEllasUstedes":"reharán"}},"Subjunctive":null,"Name":"rehacer","EnglishMeaning":"to redo"}
+{
+  "PresentParticiple": "rehaciendo",
+  "PastParticiple": "rehecho",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "rehago",
+      "Tu": "rehaces",
+      "ElEllaUsted": "rehace",
+      "Nosotros": "rehacemos",
+      "Vosotros": "rehacéis",
+      "EllosEllasUstedes": "rehacen"
+    },
+    "Pretérito": {
+      "Yo": "rehíce",
+      "Tu": "rehiciste",
+      "ElEllaUsted": "rehízo",
+      "Nosotros": "rehicimos",
+      "Vosotros": "rehicisteis",
+      "EllosEllasUstedes": "rehicieron"
+    },
+    "Imperfect": {
+      "Yo": "rehacía",
+      "Tu": "rehacías",
+      "ElEllaUsted": "rehacía",
+      "Nosotros": "rehacíamos",
+      "Vosotros": "rehacíais",
+      "EllosEllasUstedes": "rehacían"
+    },
+    "Conditional": {
+      "Yo": "reharía",
+      "Tu": "reharías",
+      "ElEllaUsted": "reharía",
+      "Nosotros": "reharíamos",
+      "Vosotros": "reharíais",
+      "EllosEllasUstedes": "reharían"
+    },
+    "Future": {
+      "Yo": "reharé",
+      "Tu": "reharás",
+      "ElEllaUsted": "rehará",
+      "Nosotros": "reharemos",
+      "Vosotros": "reharéis",
+      "EllosEllasUstedes": "reharán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "rehaga",
+      "Tu": "rehagas",
+      "ElEllaUsted": "rehaga",
+      "Nosotros": "rehagamos",
+      "Vosotros": "rehagáis",
+      "EllosEllasUstedes": "rehagan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "rehiciea",
+      "Tu": "rehicieas",
+      "ElEllaUsted": "rehiciea",
+      "Nosotros": "rehicieamos",
+      "Vosotros": "rehicieais",
+      "EllosEllasUstedes": "rehiciean"
+    }
+  },
+  "Name": "rehacer",
+  "EnglishMeaning": "to redo",
+  "PresentParticipleTranslation": "redoing",
+  "PastParticipleTranslation": "redone"
+}

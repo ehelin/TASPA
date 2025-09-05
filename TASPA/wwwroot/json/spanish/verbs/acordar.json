@@ -1,1 +1,68 @@
-{"PresentParticiple":"acordando&translation=agreeing","PastParticiple":"acordado&translation=agreed","Indicative":{"PresentTense":{"Yo":"acuerdo","Tu":"acuerdas","ElEllaUsted":"acuerda","Nosotros":"acordamos","Vosotros":"acordáis","EllosEllasUstedes":"acuerdan"},"Pretérito":{"Yo":"acordé","Tu":"acordaste","ElEllaUsted":"acordó","Nosotros":"acordamos","Vosotros":"acordasteis","EllosEllasUstedes":"acordaron"},"Imperfect":{"Yo":"acordaba","Tu":"acordabas","ElEllaUsted":"acordaba","Nosotros":"acordábamos","Vosotros":"acordabais","EllosEllasUstedes":"acordaban"},"Conditional":{"Yo":"acordaría","Tu":"acordarías","ElEllaUsted":"acordaría","Nosotros":"acordaríamos","Vosotros":"acordaríais","EllosEllasUstedes":"acordarían"},"Future":{"Yo":"acordaré","Tu":"acordarás","ElEllaUsted":"acordará","Nosotros":"acordaremos","Vosotros":"acordaréis","EllosEllasUstedes":"acordarán"}},"Subjunctive":null,"Name":"acordar","EnglishMeaning":"to agree"}
+{
+  "PresentParticiple": "acordando",
+  "PastParticiple": "acordado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "acuerdo",
+      "Tu": "acuerdas",
+      "ElEllaUsted": "acuerda",
+      "Nosotros": "acordamos",
+      "Vosotros": "acordáis",
+      "EllosEllasUstedes": "acuerdan"
+    },
+    "Pretérito": {
+      "Yo": "acordé",
+      "Tu": "acordaste",
+      "ElEllaUsted": "acordó",
+      "Nosotros": "acordamos",
+      "Vosotros": "acordasteis",
+      "EllosEllasUstedes": "acordaron"
+    },
+    "Imperfect": {
+      "Yo": "acordaba",
+      "Tu": "acordabas",
+      "ElEllaUsted": "acordaba",
+      "Nosotros": "acordábamos",
+      "Vosotros": "acordabais",
+      "EllosEllasUstedes": "acordaban"
+    },
+    "Conditional": {
+      "Yo": "acordaría",
+      "Tu": "acordarías",
+      "ElEllaUsted": "acordaría",
+      "Nosotros": "acordaríamos",
+      "Vosotros": "acordaríais",
+      "EllosEllasUstedes": "acordarían"
+    },
+    "Future": {
+      "Yo": "acordaré",
+      "Tu": "acordarás",
+      "ElEllaUsted": "acordará",
+      "Nosotros": "acordaremos",
+      "Vosotros": "acordaréis",
+      "EllosEllasUstedes": "acordarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "acuerde",
+      "Tu": "acuerdes",
+      "ElEllaUsted": "acuerde",
+      "Nosotros": "acuerdemos",
+      "Vosotros": "acuerdéis",
+      "EllosEllasUstedes": "acuerden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "acordara",
+      "Tu": "acordaras",
+      "ElEllaUsted": "acordara",
+      "Nosotros": "acordaramos",
+      "Vosotros": "acordarais",
+      "EllosEllasUstedes": "acordaran"
+    }
+  },
+  "Name": "acordar",
+  "EnglishMeaning": "to agree",
+  "PresentParticipleTranslation": "agreeing",
+  "PastParticipleTranslation": "agreed"
+}

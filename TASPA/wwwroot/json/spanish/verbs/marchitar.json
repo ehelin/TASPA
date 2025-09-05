@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "marchitando",
-    "PastParticiple": "marchitado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "marchito",
-            "Tu": "marchitas",
-            "ElEllaUsted": "marchita",
-            "Nosotros": "marchitamos",
-            "Vosotros": "marchitáis",
-            "EllosEllasUstedes": "marchitan"
-        },
-        "Pretérito": {
-            "Yo": "marchité",
-            "Tu": "marchitaste",
-            "ElEllaUsted": "marchitó",
-            "Nosotros": "marchitamos",
-            "Vosotros": "marchitasteis",
-            "EllosEllasUstedes": "marchitaron"
-        },
-        "Imperfect": {
-            "Yo": "marchitaba",
-            "Tu": "marchitabas",
-            "ElEllaUsted": "marchitaba",
-            "Nosotros": "marchitábamos",
-            "Vosotros": "marchitabais",
-            "EllosEllasUstedes": "marchitaban"
-        },
-        "Conditional": {
-            "Yo": "marchitaría",
-            "Tu": "marchitarías",
-            "ElEllaUsted": "marchitaría",
-            "Nosotros": "marchitaríamos",
-            "Vosotros": "marchitaríais",
-            "EllosEllasUstedes": "marchitarían"
-        },
-        "Future": {
-            "Yo": "marchitaré",
-            "Tu": "marchitarás",
-            "ElEllaUsted": "marchitará",
-            "Nosotros": "marchitaremos",
-            "Vosotros": "marchitaréis",
-            "EllosEllasUstedes": "marchitarán"
-        }
+  "PresentParticiple": "marchitando",
+  "PastParticiple": "marchitado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "marchito",
+      "Tu": "marchitas",
+      "ElEllaUsted": "marchita",
+      "Nosotros": "marchitamos",
+      "Vosotros": "marchitáis",
+      "EllosEllasUstedes": "marchitan"
     },
-    "Subjunctive": null,
-    "Name": "marchitar",
-    "EnglishMeaning": "to wither"
+    "Pretérito": {
+      "Yo": "marchité",
+      "Tu": "marchitaste",
+      "ElEllaUsted": "marchitó",
+      "Nosotros": "marchitamos",
+      "Vosotros": "marchitasteis",
+      "EllosEllasUstedes": "marchitaron"
+    },
+    "Imperfect": {
+      "Yo": "marchitaba",
+      "Tu": "marchitabas",
+      "ElEllaUsted": "marchitaba",
+      "Nosotros": "marchitábamos",
+      "Vosotros": "marchitabais",
+      "EllosEllasUstedes": "marchitaban"
+    },
+    "Conditional": {
+      "Yo": "marchitaría",
+      "Tu": "marchitarías",
+      "ElEllaUsted": "marchitaría",
+      "Nosotros": "marchitaríamos",
+      "Vosotros": "marchitaríais",
+      "EllosEllasUstedes": "marchitarían"
+    },
+    "Future": {
+      "Yo": "marchitaré",
+      "Tu": "marchitarás",
+      "ElEllaUsted": "marchitará",
+      "Nosotros": "marchitaremos",
+      "Vosotros": "marchitaréis",
+      "EllosEllasUstedes": "marchitarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "marchite",
+      "Tu": "marchites",
+      "ElEllaUsted": "marchite",
+      "Nosotros": "marchitemos",
+      "Vosotros": "marchitéis",
+      "EllosEllasUstedes": "marchiten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "marchitara",
+      "Tu": "marchitaras",
+      "ElEllaUsted": "marchitara",
+      "Nosotros": "marchitaramos",
+      "Vosotros": "marchitarais",
+      "EllosEllasUstedes": "marchitaran"
+    }
+  },
+  "Name": "marchitar",
+  "EnglishMeaning": "to wither"
 }

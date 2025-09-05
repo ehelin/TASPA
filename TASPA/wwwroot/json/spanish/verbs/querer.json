@@ -1,1 +1,68 @@
-{"PresentParticiple":"queriendo&translation=wanting","PastParticiple":"querido&translation=wanted","Indicative":{"PresentTense":{"Yo":"quiero","Tu":"quieres","ElEllaUsted":"quiere","Nosotros":"queremos","Vosotros":"queréis","EllosEllasUstedes":"quieren"},"Pretérito":{"Yo":"quise","Tu":"quisiste","ElEllaUsted":"quiso","Nosotros":"quisimos","Vosotros":"quisisteis","EllosEllasUstedes":"quisieron"},"Imperfect":{"Yo":"quería","Tu":"querías","ElEllaUsted":"quería","Nosotros":"queríamos","Vosotros":"queríais","EllosEllasUstedes":"querían"},"Conditional":{"Yo":"querría","Tu":"querrías","ElEllaUsted":"querría","Nosotros":"querríamos","Vosotros":"querríais","EllosEllasUstedes":"querrían"},"Future":{"Yo":"querré","Tu":"querrás","ElEllaUsted":"querrá","Nosotros":"querremos","Vosotros":"querréis","EllosEllasUstedes":"querrán"}},"Subjunctive":null,"Name":"querer","EnglishMeaning":"to want"}
+{
+  "PresentParticiple": "queriendo",
+  "PastParticiple": "querido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "quiero",
+      "Tu": "quieres",
+      "ElEllaUsted": "quiere",
+      "Nosotros": "queremos",
+      "Vosotros": "queréis",
+      "EllosEllasUstedes": "quieren"
+    },
+    "Pretérito": {
+      "Yo": "quise",
+      "Tu": "quisiste",
+      "ElEllaUsted": "quiso",
+      "Nosotros": "quisimos",
+      "Vosotros": "quisisteis",
+      "EllosEllasUstedes": "quisieron"
+    },
+    "Imperfect": {
+      "Yo": "quería",
+      "Tu": "querías",
+      "ElEllaUsted": "quería",
+      "Nosotros": "queríamos",
+      "Vosotros": "queríais",
+      "EllosEllasUstedes": "querían"
+    },
+    "Conditional": {
+      "Yo": "querría",
+      "Tu": "querrías",
+      "ElEllaUsted": "querría",
+      "Nosotros": "querríamos",
+      "Vosotros": "querríais",
+      "EllosEllasUstedes": "querrían"
+    },
+    "Future": {
+      "Yo": "querré",
+      "Tu": "querrás",
+      "ElEllaUsted": "querrá",
+      "Nosotros": "querremos",
+      "Vosotros": "querréis",
+      "EllosEllasUstedes": "querrán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "quiera",
+      "Tu": "quieras",
+      "ElEllaUsted": "quiera",
+      "Nosotros": "queramos",
+      "Vosotros": "queráis",
+      "EllosEllasUstedes": "quieran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "quisiera",
+      "Tu": "quisieras",
+      "ElEllaUsted": "quisiera",
+      "Nosotros": "quisiéramos",
+      "Vosotros": "quisierais",
+      "EllosEllasUstedes": "quisieran"
+    }
+  },
+  "Name": "querer",
+  "EnglishMeaning": "to want",
+  "PresentParticipleTranslation": "wanting",
+  "PastParticipleTranslation": "wanted"
+}

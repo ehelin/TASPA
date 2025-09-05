@@ -1,1 +1,68 @@
-{"PresentParticiple":"conociendo&translation=knowing","PastParticiple":"conocido&translation=known","Indicative":{"PresentTense":{"Yo":"conozco","Tu":"conoces","ElEllaUsted":"conoce","Nosotros":"conocemos","Vosotros":"conocéis","EllosEllasUstedes":"conocen"},"Pretérito":{"Yo":"conocí","Tu":"conociste","ElEllaUsted":"conoció","Nosotros":"conocimos","Vosotros":"conocisteis","EllosEllasUstedes":"conocieron"},"Imperfect":{"Yo":"conocía","Tu":"conocías","ElEllaUsted":"conocía","Nosotros":"conocíamos","Vosotros":"conocíais","EllosEllasUstedes":"conocían"},"Conditional":{"Yo":"conocería","Tu":"conocerías","ElEllaUsted":"conocería","Nosotros":"conoceríamos","Vosotros":"conoceríais","EllosEllasUstedes":"conocerían"},"Future":{"Yo":"conoceré","Tu":"conocerás","ElEllaUsted":"conocerá","Nosotros":"conoceremos","Vosotros":"conoceréis","EllosEllasUstedes":"conocerán"}},"Subjunctive":null,"Name":"conocer","EnglishMeaning":"to know"}
+{
+  "PresentParticiple": "conociendo",
+  "PastParticiple": "conocido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "conozco",
+      "Tu": "conoces",
+      "ElEllaUsted": "conoce",
+      "Nosotros": "conocemos",
+      "Vosotros": "conocéis",
+      "EllosEllasUstedes": "conocen"
+    },
+    "Pretérito": {
+      "Yo": "conocí",
+      "Tu": "conociste",
+      "ElEllaUsted": "conoció",
+      "Nosotros": "conocimos",
+      "Vosotros": "conocisteis",
+      "EllosEllasUstedes": "conocieron"
+    },
+    "Imperfect": {
+      "Yo": "conocía",
+      "Tu": "conocías",
+      "ElEllaUsted": "conocía",
+      "Nosotros": "conocíamos",
+      "Vosotros": "conocíais",
+      "EllosEllasUstedes": "conocían"
+    },
+    "Conditional": {
+      "Yo": "conocería",
+      "Tu": "conocerías",
+      "ElEllaUsted": "conocería",
+      "Nosotros": "conoceríamos",
+      "Vosotros": "conoceríais",
+      "EllosEllasUstedes": "conocerían"
+    },
+    "Future": {
+      "Yo": "conoceré",
+      "Tu": "conocerás",
+      "ElEllaUsted": "conocerá",
+      "Nosotros": "conoceremos",
+      "Vosotros": "conoceréis",
+      "EllosEllasUstedes": "conocerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "conozca",
+      "Tu": "conozcas",
+      "ElEllaUsted": "conozca",
+      "Nosotros": "conozcamos",
+      "Vosotros": "conozcáis",
+      "EllosEllasUstedes": "conozcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "conociea",
+      "Tu": "conocieas",
+      "ElEllaUsted": "conociea",
+      "Nosotros": "conocieamos",
+      "Vosotros": "conocieais",
+      "EllosEllasUstedes": "conociean"
+    }
+  },
+  "Name": "conocer",
+  "EnglishMeaning": "to know",
+  "PresentParticipleTranslation": "knowing",
+  "PastParticipleTranslation": "known"
+}

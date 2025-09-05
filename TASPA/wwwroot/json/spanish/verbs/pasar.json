@@ -1,1 +1,68 @@
-{"PresentParticiple":"pasando&translation=passing","PastParticiple":"pasado&translation=passed","Indicative":{"PresentTense":{"Yo":"paso","Tu":"pasas","ElEllaUsted":"pasa","Nosotros":"pasamos","Vosotros":"pasáis","EllosEllasUstedes":"pasan"},"Pretérito":{"Yo":"pasé","Tu":"pasaste","ElEllaUsted":"pasó","Nosotros":"pasamos","Vosotros":"pasasteis","EllosEllasUstedes":"pasaron"},"Imperfect":{"Yo":"pasaba","Tu":"pasabas","ElEllaUsted":"pasaba","Nosotros":"pasábamos","Vosotros":"pasabais","EllosEllasUstedes":"pasaban"},"Conditional":{"Yo":"pasaría","Tu":"pasarías","ElEllaUsted":"pasaría","Nosotros":"pasaríamos","Vosotros":"pasaríais","EllosEllasUstedes":"pasarían"},"Future":{"Yo":"pasaré","Tu":"pasarás","ElEllaUsted":"pasará","Nosotros":"pasaremos","Vosotros":"pasaréis","EllosEllasUstedes":"pasarán"}},"Subjunctive":null,"Name":"pasar","EnglishMeaning":"to pass"}
+{
+  "PresentParticiple": "pasando",
+  "PastParticiple": "pasado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "paso",
+      "Tu": "pasas",
+      "ElEllaUsted": "pasa",
+      "Nosotros": "pasamos",
+      "Vosotros": "pasáis",
+      "EllosEllasUstedes": "pasan"
+    },
+    "Pretérito": {
+      "Yo": "pasé",
+      "Tu": "pasaste",
+      "ElEllaUsted": "pasó",
+      "Nosotros": "pasamos",
+      "Vosotros": "pasasteis",
+      "EllosEllasUstedes": "pasaron"
+    },
+    "Imperfect": {
+      "Yo": "pasaba",
+      "Tu": "pasabas",
+      "ElEllaUsted": "pasaba",
+      "Nosotros": "pasábamos",
+      "Vosotros": "pasabais",
+      "EllosEllasUstedes": "pasaban"
+    },
+    "Conditional": {
+      "Yo": "pasaría",
+      "Tu": "pasarías",
+      "ElEllaUsted": "pasaría",
+      "Nosotros": "pasaríamos",
+      "Vosotros": "pasaríais",
+      "EllosEllasUstedes": "pasarían"
+    },
+    "Future": {
+      "Yo": "pasaré",
+      "Tu": "pasarás",
+      "ElEllaUsted": "pasará",
+      "Nosotros": "pasaremos",
+      "Vosotros": "pasaréis",
+      "EllosEllasUstedes": "pasarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pase",
+      "Tu": "pases",
+      "ElEllaUsted": "pase",
+      "Nosotros": "pasemos",
+      "Vosotros": "paséis",
+      "EllosEllasUstedes": "pasen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pasara",
+      "Tu": "pasaras",
+      "ElEllaUsted": "pasara",
+      "Nosotros": "pasaramos",
+      "Vosotros": "pasarais",
+      "EllosEllasUstedes": "pasaran"
+    }
+  },
+  "Name": "pasar",
+  "EnglishMeaning": "to pass",
+  "PresentParticipleTranslation": "passing",
+  "PastParticipleTranslation": "passed"
+}

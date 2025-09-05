@@ -1,1 +1,68 @@
-{"PresentParticiple":"jurando&translation=swearing","PastParticiple":"jurado&translation=sworn","Indicative":{"PresentTense":{"Yo":"juro","Tu":"juras","ElEllaUsted":"jura","Nosotros":"juramos","Vosotros":"juráis","EllosEllasUstedes":"juran"},"Pretérito":{"Yo":"juré","Tu":"juraste","ElEllaUsted":"juró","Nosotros":"juramos","Vosotros":"jurasteis","EllosEllasUstedes":"juraron"},"Imperfect":{"Yo":"juraba","Tu":"jurabas","ElEllaUsted":"juraba","Nosotros":"jurábamos","Vosotros":"jurabais","EllosEllasUstedes":"juraban"},"Conditional":{"Yo":"juraría","Tu":"jurarías","ElEllaUsted":"juraría","Nosotros":"juraríamos","Vosotros":"juraríais","EllosEllasUstedes":"jurarían"},"Future":{"Yo":"juraré","Tu":"jurarás","ElEllaUsted":"jurará","Nosotros":"juraremos","Vosotros":"juraréis","EllosEllasUstedes":"jurarán"}},"Subjunctive":null,"Name":"jurar","EnglishMeaning":"to swear"}
+{
+  "PresentParticiple": "jurando",
+  "PastParticiple": "jurado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "juro",
+      "Tu": "juras",
+      "ElEllaUsted": "jura",
+      "Nosotros": "juramos",
+      "Vosotros": "juráis",
+      "EllosEllasUstedes": "juran"
+    },
+    "Pretérito": {
+      "Yo": "juré",
+      "Tu": "juraste",
+      "ElEllaUsted": "juró",
+      "Nosotros": "juramos",
+      "Vosotros": "jurasteis",
+      "EllosEllasUstedes": "juraron"
+    },
+    "Imperfect": {
+      "Yo": "juraba",
+      "Tu": "jurabas",
+      "ElEllaUsted": "juraba",
+      "Nosotros": "jurábamos",
+      "Vosotros": "jurabais",
+      "EllosEllasUstedes": "juraban"
+    },
+    "Conditional": {
+      "Yo": "juraría",
+      "Tu": "jurarías",
+      "ElEllaUsted": "juraría",
+      "Nosotros": "juraríamos",
+      "Vosotros": "juraríais",
+      "EllosEllasUstedes": "jurarían"
+    },
+    "Future": {
+      "Yo": "juraré",
+      "Tu": "jurarás",
+      "ElEllaUsted": "jurará",
+      "Nosotros": "juraremos",
+      "Vosotros": "juraréis",
+      "EllosEllasUstedes": "jurarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "jure",
+      "Tu": "jures",
+      "ElEllaUsted": "jure",
+      "Nosotros": "juremos",
+      "Vosotros": "juréis",
+      "EllosEllasUstedes": "juren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "jurara",
+      "Tu": "juraras",
+      "ElEllaUsted": "jurara",
+      "Nosotros": "juraramos",
+      "Vosotros": "jurarais",
+      "EllosEllasUstedes": "juraran"
+    }
+  },
+  "Name": "jurar",
+  "EnglishMeaning": "to swear",
+  "PresentParticipleTranslation": "swearing",
+  "PastParticipleTranslation": "sworn"
+}

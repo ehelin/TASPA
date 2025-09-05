@@ -1,1 +1,68 @@
-{"PresentParticiple":"azotando&translation=whipping","PastParticiple":"azotado&translation=whipped","Indicative":{"PresentTense":{"Yo":"azoto","Tu":"azotas","ElEllaUsted":"azota","Nosotros":"azotamos","Vosotros":"azotáis","EllosEllasUstedes":"azotan"},"Pretérito":{"Yo":"azoté","Tu":"azotaste","ElEllaUsted":"azotó","Nosotros":"azotamos","Vosotros":"azotasteis","EllosEllasUstedes":"azotaron"},"Imperfect":{"Yo":"azotaba","Tu":"azotabas","ElEllaUsted":"azotaba","Nosotros":"azotábamos","Vosotros":"azotabais","EllosEllasUstedes":"azotaban"},"Conditional":{"Yo":"azotaría","Tu":"azotarías","ElEllaUsted":"azotaría","Nosotros":"azotaríamos","Vosotros":"azotaríais","EllosEllasUstedes":"azotarían"},"Future":{"Yo":"azotaré","Tu":"azotarás","ElEllaUsted":"azotará","Nosotros":"azotaremos","Vosotros":"azotaréis","EllosEllasUstedes":"azotarán"}},"Subjunctive":null,"Name":"azotar","EnglishMeaning":"to whip"}
+{
+  "PresentParticiple": "azotando",
+  "PastParticiple": "azotado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "azoto",
+      "Tu": "azotas",
+      "ElEllaUsted": "azota",
+      "Nosotros": "azotamos",
+      "Vosotros": "azotáis",
+      "EllosEllasUstedes": "azotan"
+    },
+    "Pretérito": {
+      "Yo": "azoté",
+      "Tu": "azotaste",
+      "ElEllaUsted": "azotó",
+      "Nosotros": "azotamos",
+      "Vosotros": "azotasteis",
+      "EllosEllasUstedes": "azotaron"
+    },
+    "Imperfect": {
+      "Yo": "azotaba",
+      "Tu": "azotabas",
+      "ElEllaUsted": "azotaba",
+      "Nosotros": "azotábamos",
+      "Vosotros": "azotabais",
+      "EllosEllasUstedes": "azotaban"
+    },
+    "Conditional": {
+      "Yo": "azotaría",
+      "Tu": "azotarías",
+      "ElEllaUsted": "azotaría",
+      "Nosotros": "azotaríamos",
+      "Vosotros": "azotaríais",
+      "EllosEllasUstedes": "azotarían"
+    },
+    "Future": {
+      "Yo": "azotaré",
+      "Tu": "azotarás",
+      "ElEllaUsted": "azotará",
+      "Nosotros": "azotaremos",
+      "Vosotros": "azotaréis",
+      "EllosEllasUstedes": "azotarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "azote",
+      "Tu": "azotes",
+      "ElEllaUsted": "azote",
+      "Nosotros": "azotemos",
+      "Vosotros": "azotéis",
+      "EllosEllasUstedes": "azoten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "azotara",
+      "Tu": "azotaras",
+      "ElEllaUsted": "azotara",
+      "Nosotros": "azotaramos",
+      "Vosotros": "azotarais",
+      "EllosEllasUstedes": "azotaran"
+    }
+  },
+  "Name": "azotar",
+  "EnglishMeaning": "to whip",
+  "PresentParticipleTranslation": "whipping",
+  "PastParticipleTranslation": "whipped"
+}

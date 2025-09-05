@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "asombrando",
-    "PastParticiple": "asombrado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "asombro",
-            "Tu": "asombras",
-            "ElEllaUsted": "asombra",
-            "Nosotros": "asombramos",
-            "Vosotros": "asombráis",
-            "EllosEllasUstedes": "asombran"
-        },
-        "Pretérito": {
-            "Yo": "asombré",
-            "Tu": "asombraste",
-            "ElEllaUsted": "asombró",
-            "Nosotros": "asombramos",
-            "Vosotros": "asombrasteis",
-            "EllosEllasUstedes": "asombraron"
-        },
-        "Imperfect": {
-            "Yo": "asombraba",
-            "Tu": "asombrabas",
-            "ElEllaUsted": "asombraba",
-            "Nosotros": "asombrábamos",
-            "Vosotros": "asombrabais",
-            "EllosEllasUstedes": "asombraban"
-        },
-        "Conditional": {
-            "Yo": "asombraría",
-            "Tu": "asombrarías",
-            "ElEllaUsted": "asombraría",
-            "Nosotros": "asombraríamos",
-            "Vosotros": "asombraríais",
-            "EllosEllasUstedes": "asombrarían"
-        },
-        "Future": {
-            "Yo": "asombraré",
-            "Tu": "asombrarás",
-            "ElEllaUsted": "asombrará",
-            "Nosotros": "asombraremos",
-            "Vosotros": "asombraréis",
-            "EllosEllasUstedes": "asombrarán"
-        }
+  "PresentParticiple": "asombrando",
+  "PastParticiple": "asombrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "asombro",
+      "Tu": "asombras",
+      "ElEllaUsted": "asombra",
+      "Nosotros": "asombramos",
+      "Vosotros": "asombráis",
+      "EllosEllasUstedes": "asombran"
     },
-    "Subjunctive": null,
-    "Name": "asombrar",
-    "EnglishMeaning": "to amaze"
+    "Pretérito": {
+      "Yo": "asombré",
+      "Tu": "asombraste",
+      "ElEllaUsted": "asombró",
+      "Nosotros": "asombramos",
+      "Vosotros": "asombrasteis",
+      "EllosEllasUstedes": "asombraron"
+    },
+    "Imperfect": {
+      "Yo": "asombraba",
+      "Tu": "asombrabas",
+      "ElEllaUsted": "asombraba",
+      "Nosotros": "asombrábamos",
+      "Vosotros": "asombrabais",
+      "EllosEllasUstedes": "asombraban"
+    },
+    "Conditional": {
+      "Yo": "asombraría",
+      "Tu": "asombrarías",
+      "ElEllaUsted": "asombraría",
+      "Nosotros": "asombraríamos",
+      "Vosotros": "asombraríais",
+      "EllosEllasUstedes": "asombrarían"
+    },
+    "Future": {
+      "Yo": "asombraré",
+      "Tu": "asombrarás",
+      "ElEllaUsted": "asombrará",
+      "Nosotros": "asombraremos",
+      "Vosotros": "asombraréis",
+      "EllosEllasUstedes": "asombrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "asombre",
+      "Tu": "asombres",
+      "ElEllaUsted": "asombre",
+      "Nosotros": "asombremos",
+      "Vosotros": "asombréis",
+      "EllosEllasUstedes": "asombren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "asombrara",
+      "Tu": "asombraras",
+      "ElEllaUsted": "asombrara",
+      "Nosotros": "asombraramos",
+      "Vosotros": "asombrarais",
+      "EllosEllasUstedes": "asombraran"
+    }
+  },
+  "Name": "asombrar",
+  "EnglishMeaning": "to amaze"
 }

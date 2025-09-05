@@ -1,1 +1,68 @@
-{"PresentParticiple":"chupando&translation=sucking","PastParticiple":"chupado&translation=sucked","Indicative":{"PresentTense":{"Yo":"chupo","Tu":"chupas","ElEllaUsted":"chupa","Nosotros":"chupamos","Vosotros":"chupáis","EllosEllasUstedes":"chupan"},"Pretérito":{"Yo":"chupé","Tu":"chupaste","ElEllaUsted":"chupó","Nosotros":"chupamos","Vosotros":"chupasteis","EllosEllasUstedes":"chuparon"},"Imperfect":{"Yo":"chupaba","Tu":"chupabas","ElEllaUsted":"chupaba","Nosotros":"chupábamos","Vosotros":"chupabais","EllosEllasUstedes":"chupaban"},"Conditional":{"Yo":"chuparía","Tu":"chuparías","ElEllaUsted":"chuparía","Nosotros":"chuparíamos","Vosotros":"chuparíais","EllosEllasUstedes":"chuparían"},"Future":{"Yo":"chuparé","Tu":"chuparás","ElEllaUsted":"chupará","Nosotros":"chuparemos","Vosotros":"chuparéis","EllosEllasUstedes":"chuparán"}},"Subjunctive":null,"Name":"chupar","EnglishMeaning":"to suck"}
+{
+  "PresentParticiple": "chupando",
+  "PastParticiple": "chupado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "chupo",
+      "Tu": "chupas",
+      "ElEllaUsted": "chupa",
+      "Nosotros": "chupamos",
+      "Vosotros": "chupáis",
+      "EllosEllasUstedes": "chupan"
+    },
+    "Pretérito": {
+      "Yo": "chupé",
+      "Tu": "chupaste",
+      "ElEllaUsted": "chupó",
+      "Nosotros": "chupamos",
+      "Vosotros": "chupasteis",
+      "EllosEllasUstedes": "chuparon"
+    },
+    "Imperfect": {
+      "Yo": "chupaba",
+      "Tu": "chupabas",
+      "ElEllaUsted": "chupaba",
+      "Nosotros": "chupábamos",
+      "Vosotros": "chupabais",
+      "EllosEllasUstedes": "chupaban"
+    },
+    "Conditional": {
+      "Yo": "chuparía",
+      "Tu": "chuparías",
+      "ElEllaUsted": "chuparía",
+      "Nosotros": "chuparíamos",
+      "Vosotros": "chuparíais",
+      "EllosEllasUstedes": "chuparían"
+    },
+    "Future": {
+      "Yo": "chuparé",
+      "Tu": "chuparás",
+      "ElEllaUsted": "chupará",
+      "Nosotros": "chuparemos",
+      "Vosotros": "chuparéis",
+      "EllosEllasUstedes": "chuparán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "chupe",
+      "Tu": "chupes",
+      "ElEllaUsted": "chupe",
+      "Nosotros": "chupemos",
+      "Vosotros": "chupéis",
+      "EllosEllasUstedes": "chupen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "chupara",
+      "Tu": "chuparas",
+      "ElEllaUsted": "chupara",
+      "Nosotros": "chuparamos",
+      "Vosotros": "chuparais",
+      "EllosEllasUstedes": "chuparan"
+    }
+  },
+  "Name": "chupar",
+  "EnglishMeaning": "to suck",
+  "PresentParticipleTranslation": "sucking",
+  "PastParticipleTranslation": "sucked"
+}

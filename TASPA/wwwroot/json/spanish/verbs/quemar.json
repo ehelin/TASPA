@@ -1,1 +1,68 @@
-{"PresentParticiple":"quemando&translation=burning","PastParticiple":"quemado&translation=burned","Indicative":{"PresentTense":{"Yo":"quemo","Tu":"quemas","ElEllaUsted":"quema","Nosotros":"quemamos","Vosotros":"quemáis","EllosEllasUstedes":"queman"},"Pretérito":{"Yo":"quemé","Tu":"quemaste","ElEllaUsted":"quemó","Nosotros":"quemamos","Vosotros":"quemasteis","EllosEllasUstedes":"quemaron"},"Imperfect":{"Yo":"quemaba","Tu":"quemabas","ElEllaUsted":"quemaba","Nosotros":"quemábamos","Vosotros":"quemabais","EllosEllasUstedes":"quemaban"},"Conditional":{"Yo":"quemaría","Tu":"quemarías","ElEllaUsted":"quemaría","Nosotros":"quemaríamos","Vosotros":"quemaríais","EllosEllasUstedes":"quemarían"},"Future":{"Yo":"quemaré","Tu":"quemarás","ElEllaUsted":"quemará","Nosotros":"quemaremos","Vosotros":"quemaréis","EllosEllasUstedes":"quemarán"}},"Subjunctive":null,"Name":"quemar","EnglishMeaning":"to burn"}
+{
+  "PresentParticiple": "quemando",
+  "PastParticiple": "quemado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "quemo",
+      "Tu": "quemas",
+      "ElEllaUsted": "quema",
+      "Nosotros": "quemamos",
+      "Vosotros": "quemáis",
+      "EllosEllasUstedes": "queman"
+    },
+    "Pretérito": {
+      "Yo": "quemé",
+      "Tu": "quemaste",
+      "ElEllaUsted": "quemó",
+      "Nosotros": "quemamos",
+      "Vosotros": "quemasteis",
+      "EllosEllasUstedes": "quemaron"
+    },
+    "Imperfect": {
+      "Yo": "quemaba",
+      "Tu": "quemabas",
+      "ElEllaUsted": "quemaba",
+      "Nosotros": "quemábamos",
+      "Vosotros": "quemabais",
+      "EllosEllasUstedes": "quemaban"
+    },
+    "Conditional": {
+      "Yo": "quemaría",
+      "Tu": "quemarías",
+      "ElEllaUsted": "quemaría",
+      "Nosotros": "quemaríamos",
+      "Vosotros": "quemaríais",
+      "EllosEllasUstedes": "quemarían"
+    },
+    "Future": {
+      "Yo": "quemaré",
+      "Tu": "quemarás",
+      "ElEllaUsted": "quemará",
+      "Nosotros": "quemaremos",
+      "Vosotros": "quemaréis",
+      "EllosEllasUstedes": "quemarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "queme",
+      "Tu": "quemes",
+      "ElEllaUsted": "queme",
+      "Nosotros": "quememos",
+      "Vosotros": "queméis",
+      "EllosEllasUstedes": "quemen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "quemara",
+      "Tu": "quemaras",
+      "ElEllaUsted": "quemara",
+      "Nosotros": "quemaramos",
+      "Vosotros": "quemarais",
+      "EllosEllasUstedes": "quemaran"
+    }
+  },
+  "Name": "quemar",
+  "EnglishMeaning": "to burn",
+  "PresentParticipleTranslation": "burning",
+  "PastParticipleTranslation": "burned"
+}

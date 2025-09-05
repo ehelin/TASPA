@@ -1,1 +1,68 @@
-{"PresentParticiple":"estropeando&translation=damaging","PastParticiple":"estropeado&translation=damaged","Indicative":{"PresentTense":{"Yo":"estropeo","Tu":"estropeas","ElEllaUsted":"estropea","Nosotros":"estropeamos","Vosotros":"estropeáis","EllosEllasUstedes":"estropean"},"Pretérito":{"Yo":"estropeé","Tu":"estropeaste","ElEllaUsted":"estropeó","Nosotros":"estropeamos","Vosotros":"estropeasteis","EllosEllasUstedes":"estropearon"},"Imperfect":{"Yo":"estropeaba","Tu":"estropeabas","ElEllaUsted":"estropeaba","Nosotros":"estropeábamos","Vosotros":"estropeabais","EllosEllasUstedes":"estropeaban"},"Conditional":{"Yo":"estropearía","Tu":"estropearías","ElEllaUsted":"estropearía","Nosotros":"estropearíamos","Vosotros":"estropearíais","EllosEllasUstedes":"estropearían"},"Future":{"Yo":"estropearé","Tu":"estropearás","ElEllaUsted":"estropeará","Nosotros":"estropearemos","Vosotros":"estropearéis","EllosEllasUstedes":"estropearán"}},"Subjunctive":null,"Name":"estropear","EnglishMeaning":"to damage"}
+{
+  "PresentParticiple": "estropeando",
+  "PastParticiple": "estropeado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "estropeo",
+      "Tu": "estropeas",
+      "ElEllaUsted": "estropea",
+      "Nosotros": "estropeamos",
+      "Vosotros": "estropeáis",
+      "EllosEllasUstedes": "estropean"
+    },
+    "Pretérito": {
+      "Yo": "estropeé",
+      "Tu": "estropeaste",
+      "ElEllaUsted": "estropeó",
+      "Nosotros": "estropeamos",
+      "Vosotros": "estropeasteis",
+      "EllosEllasUstedes": "estropearon"
+    },
+    "Imperfect": {
+      "Yo": "estropeaba",
+      "Tu": "estropeabas",
+      "ElEllaUsted": "estropeaba",
+      "Nosotros": "estropeábamos",
+      "Vosotros": "estropeabais",
+      "EllosEllasUstedes": "estropeaban"
+    },
+    "Conditional": {
+      "Yo": "estropearía",
+      "Tu": "estropearías",
+      "ElEllaUsted": "estropearía",
+      "Nosotros": "estropearíamos",
+      "Vosotros": "estropearíais",
+      "EllosEllasUstedes": "estropearían"
+    },
+    "Future": {
+      "Yo": "estropearé",
+      "Tu": "estropearás",
+      "ElEllaUsted": "estropeará",
+      "Nosotros": "estropearemos",
+      "Vosotros": "estropearéis",
+      "EllosEllasUstedes": "estropearán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "estropee",
+      "Tu": "estropees",
+      "ElEllaUsted": "estropee",
+      "Nosotros": "estropeemos",
+      "Vosotros": "estropeéis",
+      "EllosEllasUstedes": "estropeen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "estropeara",
+      "Tu": "estropearas",
+      "ElEllaUsted": "estropeara",
+      "Nosotros": "estropearamos",
+      "Vosotros": "estropearais",
+      "EllosEllasUstedes": "estropearan"
+    }
+  },
+  "Name": "estropear",
+  "EnglishMeaning": "to damage",
+  "PresentParticipleTranslation": "damaging",
+  "PastParticipleTranslation": "damaged"
+}

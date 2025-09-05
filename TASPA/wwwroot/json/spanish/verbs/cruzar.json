@@ -1,1 +1,68 @@
-{"PresentParticiple":"cruzando&translation=crossing","PastParticiple":"cruzado&translation=crossed","Indicative":{"PresentTense":{"Yo":"cruzo","Tu":"cruzas","ElEllaUsted":"cruza","Nosotros":"cruzamos","Vosotros":"cruzáis","EllosEllasUstedes":"cruzan"},"Pretérito":{"Yo":"crucé","Tu":"cruzaste","ElEllaUsted":"cruzó","Nosotros":"cruzamos","Vosotros":"cruzasteis","EllosEllasUstedes":"cruzaron"},"Imperfect":{"Yo":"cruzaba","Tu":"cruzabas","ElEllaUsted":"cruzaba","Nosotros":"cruzábamos","Vosotros":"cruzabais","EllosEllasUstedes":"cruzaban"},"Conditional":{"Yo":"cruzaría","Tu":"cruzarías","ElEllaUsted":"cruzaría","Nosotros":"cruzaríamos","Vosotros":"cruzaríais","EllosEllasUstedes":"cruzarían"},"Future":{"Yo":"cruzaré","Tu":"cruzarás","ElEllaUsted":"cruzará","Nosotros":"cruzaremos","Vosotros":"cruzaréis","EllosEllasUstedes":"cruzarán"}},"Subjunctive":null,"Name":"cruzar","EnglishMeaning":"to cross"}
+{
+  "PresentParticiple": "cruzando",
+  "PastParticiple": "cruzado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cruzo",
+      "Tu": "cruzas",
+      "ElEllaUsted": "cruza",
+      "Nosotros": "cruzamos",
+      "Vosotros": "cruzáis",
+      "EllosEllasUstedes": "cruzan"
+    },
+    "Pretérito": {
+      "Yo": "crucé",
+      "Tu": "cruzaste",
+      "ElEllaUsted": "cruzó",
+      "Nosotros": "cruzamos",
+      "Vosotros": "cruzasteis",
+      "EllosEllasUstedes": "cruzaron"
+    },
+    "Imperfect": {
+      "Yo": "cruzaba",
+      "Tu": "cruzabas",
+      "ElEllaUsted": "cruzaba",
+      "Nosotros": "cruzábamos",
+      "Vosotros": "cruzabais",
+      "EllosEllasUstedes": "cruzaban"
+    },
+    "Conditional": {
+      "Yo": "cruzaría",
+      "Tu": "cruzarías",
+      "ElEllaUsted": "cruzaría",
+      "Nosotros": "cruzaríamos",
+      "Vosotros": "cruzaríais",
+      "EllosEllasUstedes": "cruzarían"
+    },
+    "Future": {
+      "Yo": "cruzaré",
+      "Tu": "cruzarás",
+      "ElEllaUsted": "cruzará",
+      "Nosotros": "cruzaremos",
+      "Vosotros": "cruzaréis",
+      "EllosEllasUstedes": "cruzarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cruze",
+      "Tu": "cruzes",
+      "ElEllaUsted": "cruze",
+      "Nosotros": "cruzemos",
+      "Vosotros": "cruzéis",
+      "EllosEllasUstedes": "cruzen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cruzara",
+      "Tu": "cruzaras",
+      "ElEllaUsted": "cruzara",
+      "Nosotros": "cruzaramos",
+      "Vosotros": "cruzarais",
+      "EllosEllasUstedes": "cruzaran"
+    }
+  },
+  "Name": "cruzar",
+  "EnglishMeaning": "to cross",
+  "PresentParticipleTranslation": "crossing",
+  "PastParticipleTranslation": "crossed"
+}

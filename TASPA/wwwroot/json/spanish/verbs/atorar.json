@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "atorando",
-    "PastParticiple": "atorado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "atoro",
-            "Tu": "atoras",
-            "ElEllaUsted": "atora",
-            "Nosotros": "atoramos",
-            "Vosotros": "atoráis",
-            "EllosEllasUstedes": "atoran"
-        },
-        "Pretérito": {
-            "Yo": "atoré",
-            "Tu": "atoraste",
-            "ElEllaUsted": "atoró",
-            "Nosotros": "atoramos",
-            "Vosotros": "atorasteis",
-            "EllosEllasUstedes": "atoraron"
-        },
-        "Imperfect": {
-            "Yo": "atoraba",
-            "Tu": "atorabas",
-            "ElEllaUsted": "atoraba",
-            "Nosotros": "atorábamos",
-            "Vosotros": "atorabais",
-            "EllosEllasUstedes": "atoraban"
-        },
-        "Conditional": {
-            "Yo": "atoraría",
-            "Tu": "atorarías",
-            "ElEllaUsted": "atoraría",
-            "Nosotros": "atoraríamos",
-            "Vosotros": "atoraríais",
-            "EllosEllasUstedes": "atorarían"
-        },
-        "Future": {
-            "Yo": "atoraré",
-            "Tu": "atorarás",
-            "ElEllaUsted": "atorará",
-            "Nosotros": "atoraremos",
-            "Vosotros": "atoraréis",
-            "EllosEllasUstedes": "atorarán"
-        }
+  "PresentParticiple": "atorando",
+  "PastParticiple": "atorado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "atoro",
+      "Tu": "atoras",
+      "ElEllaUsted": "atora",
+      "Nosotros": "atoramos",
+      "Vosotros": "atoráis",
+      "EllosEllasUstedes": "atoran"
     },
-    "Subjunctive": null,
-    "Name": "atorar",
-    "EnglishMeaning": "to block"
+    "Pretérito": {
+      "Yo": "atoré",
+      "Tu": "atoraste",
+      "ElEllaUsted": "atoró",
+      "Nosotros": "atoramos",
+      "Vosotros": "atorasteis",
+      "EllosEllasUstedes": "atoraron"
+    },
+    "Imperfect": {
+      "Yo": "atoraba",
+      "Tu": "atorabas",
+      "ElEllaUsted": "atoraba",
+      "Nosotros": "atorábamos",
+      "Vosotros": "atorabais",
+      "EllosEllasUstedes": "atoraban"
+    },
+    "Conditional": {
+      "Yo": "atoraría",
+      "Tu": "atorarías",
+      "ElEllaUsted": "atoraría",
+      "Nosotros": "atoraríamos",
+      "Vosotros": "atoraríais",
+      "EllosEllasUstedes": "atorarían"
+    },
+    "Future": {
+      "Yo": "atoraré",
+      "Tu": "atorarás",
+      "ElEllaUsted": "atorará",
+      "Nosotros": "atoraremos",
+      "Vosotros": "atoraréis",
+      "EllosEllasUstedes": "atorarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "atore",
+      "Tu": "atores",
+      "ElEllaUsted": "atore",
+      "Nosotros": "atoremos",
+      "Vosotros": "atoréis",
+      "EllosEllasUstedes": "atoren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "atorara",
+      "Tu": "atoraras",
+      "ElEllaUsted": "atorara",
+      "Nosotros": "atoraramos",
+      "Vosotros": "atorarais",
+      "EllosEllasUstedes": "atoraran"
+    }
+  },
+  "Name": "atorar",
+  "EnglishMeaning": "to block"
 }

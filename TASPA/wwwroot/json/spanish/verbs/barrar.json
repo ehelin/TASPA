@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "barrando",
-    "PastParticiple": "barrido",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "barro",
-            "Tu": "barras",
-            "ElEllaUsted": "barra",
-            "Nosotros": "barramos",
-            "Vosotros": "barráis",
-            "EllosEllasUstedes": "barran"
-        },
-        "Pretérito": {
-            "Yo": "barré",
-            "Tu": "barraste",
-            "ElEllaUsted": "barró",
-            "Nosotros": "barramos",
-            "Vosotros": "barrasteis",
-            "EllosEllasUstedes": "barraron"
-        },
-        "Imperfect": {
-            "Yo": "barraba",
-            "Tu": "barrabas",
-            "ElEllaUsted": "barraba",
-            "Nosotros": "barrábamos",
-            "Vosotros": "barrabais",
-            "EllosEllasUstedes": "barraban"
-        },
-        "Conditional": {
-            "Yo": "barraría",
-            "Tu": "barrarías",
-            "ElEllaUsted": "barraría",
-            "Nosotros": "barraríamos",
-            "Vosotros": "barraríais",
-            "EllosEllasUstedes": "barrarían"
-        },
-        "Future": {
-            "Yo": "barraré",
-            "Tu": "barrarás",
-            "ElEllaUsted": "barrará",
-            "Nosotros": "barraremos",
-            "Vosotros": "barraréis",
-            "EllosEllasUstedes": "barrarán"
-        }
+  "PresentParticiple": "barrando",
+  "PastParticiple": "barrido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "barro",
+      "Tu": "barras",
+      "ElEllaUsted": "barra",
+      "Nosotros": "barramos",
+      "Vosotros": "barráis",
+      "EllosEllasUstedes": "barran"
     },
-    "Subjunctive": null,
-    "Name": "barrar",
-    "EnglishMeaning": "to sweep"
+    "Pretérito": {
+      "Yo": "barré",
+      "Tu": "barraste",
+      "ElEllaUsted": "barró",
+      "Nosotros": "barramos",
+      "Vosotros": "barrasteis",
+      "EllosEllasUstedes": "barraron"
+    },
+    "Imperfect": {
+      "Yo": "barraba",
+      "Tu": "barrabas",
+      "ElEllaUsted": "barraba",
+      "Nosotros": "barrábamos",
+      "Vosotros": "barrabais",
+      "EllosEllasUstedes": "barraban"
+    },
+    "Conditional": {
+      "Yo": "barraría",
+      "Tu": "barrarías",
+      "ElEllaUsted": "barraría",
+      "Nosotros": "barraríamos",
+      "Vosotros": "barraríais",
+      "EllosEllasUstedes": "barrarían"
+    },
+    "Future": {
+      "Yo": "barraré",
+      "Tu": "barrarás",
+      "ElEllaUsted": "barrará",
+      "Nosotros": "barraremos",
+      "Vosotros": "barraréis",
+      "EllosEllasUstedes": "barrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "barre",
+      "Tu": "barres",
+      "ElEllaUsted": "barre",
+      "Nosotros": "barremos",
+      "Vosotros": "barréis",
+      "EllosEllasUstedes": "barren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "barrara",
+      "Tu": "barraras",
+      "ElEllaUsted": "barrara",
+      "Nosotros": "barraramos",
+      "Vosotros": "barrarais",
+      "EllosEllasUstedes": "barraran"
+    }
+  },
+  "Name": "barrar",
+  "EnglishMeaning": "to sweep"
 }

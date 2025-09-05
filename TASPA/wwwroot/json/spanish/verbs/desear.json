@@ -1,1 +1,68 @@
-{"PresentParticiple":"deseando&translation=wanting","PastParticiple":"deseado&translation=wanted","Indicative":{"PresentTense":{"Yo":"deseo","Tu":"deseas","ElEllaUsted":"desea","Nosotros":"deseamos","Vosotros":"deseáis","EllosEllasUstedes":"desean"},"Pretérito":{"Yo":"deseé","Tu":"deseaste","ElEllaUsted":"deseó","Nosotros":"deseamos","Vosotros":"deseasteis","EllosEllasUstedes":"desearon"},"Imperfect":{"Yo":"deseaba","Tu":"deseabas","ElEllaUsted":"deseaba","Nosotros":"deseábamos","Vosotros":"deseabais","EllosEllasUstedes":"deseaban"},"Conditional":{"Yo":"desearía","Tu":"desearías","ElEllaUsted":"desearía","Nosotros":"desearíamos","Vosotros":"desearíais","EllosEllasUstedes":"desearían"},"Future":{"Yo":"desearé","Tu":"desearás","ElEllaUsted":"deseará","Nosotros":"desearemos","Vosotros":"desearéis","EllosEllasUstedes":"desearán"}},"Subjunctive":null,"Name":"desear","EnglishMeaning":"to want"}
+{
+  "PresentParticiple": "deseando",
+  "PastParticiple": "deseado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "deseo",
+      "Tu": "deseas",
+      "ElEllaUsted": "desea",
+      "Nosotros": "deseamos",
+      "Vosotros": "deseáis",
+      "EllosEllasUstedes": "desean"
+    },
+    "Pretérito": {
+      "Yo": "deseé",
+      "Tu": "deseaste",
+      "ElEllaUsted": "deseó",
+      "Nosotros": "deseamos",
+      "Vosotros": "deseasteis",
+      "EllosEllasUstedes": "desearon"
+    },
+    "Imperfect": {
+      "Yo": "deseaba",
+      "Tu": "deseabas",
+      "ElEllaUsted": "deseaba",
+      "Nosotros": "deseábamos",
+      "Vosotros": "deseabais",
+      "EllosEllasUstedes": "deseaban"
+    },
+    "Conditional": {
+      "Yo": "desearía",
+      "Tu": "desearías",
+      "ElEllaUsted": "desearía",
+      "Nosotros": "desearíamos",
+      "Vosotros": "desearíais",
+      "EllosEllasUstedes": "desearían"
+    },
+    "Future": {
+      "Yo": "desearé",
+      "Tu": "desearás",
+      "ElEllaUsted": "deseará",
+      "Nosotros": "desearemos",
+      "Vosotros": "desearéis",
+      "EllosEllasUstedes": "desearán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "desee",
+      "Tu": "desees",
+      "ElEllaUsted": "desee",
+      "Nosotros": "deseemos",
+      "Vosotros": "deseéis",
+      "EllosEllasUstedes": "deseen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "deseara",
+      "Tu": "desearas",
+      "ElEllaUsted": "deseara",
+      "Nosotros": "desearamos",
+      "Vosotros": "desearais",
+      "EllosEllasUstedes": "desearan"
+    }
+  },
+  "Name": "desear",
+  "EnglishMeaning": "to want",
+  "PresentParticipleTranslation": "wanting",
+  "PastParticipleTranslation": "wanted"
+}

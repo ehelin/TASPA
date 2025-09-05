@@ -1,1 +1,68 @@
-{"PresentParticiple":"leyendo&translation=reading","PastParticiple":"le%C3%ADdo&translation=read","Indicative":{"PresentTense":{"Yo":"leo","Tu":"lees","ElEllaUsted":"lee","Nosotros":"leemos","Vosotros":"leéis","EllosEllasUstedes":"leen"},"Pretérito":{"Yo":"leí","Tu":"leíste","ElEllaUsted":"leyó","Nosotros":"leímos","Vosotros":"leísteis","EllosEllasUstedes":"leyeron"},"Imperfect":{"Yo":"leía","Tu":"leías","ElEllaUsted":"leía","Nosotros":"leíamos","Vosotros":"leíais","EllosEllasUstedes":"leían"},"Conditional":{"Yo":"leería","Tu":"leerías","ElEllaUsted":"leería","Nosotros":"leeríamos","Vosotros":"leeríais","EllosEllasUstedes":"leerían"},"Future":{"Yo":"leeré","Tu":"leerás","ElEllaUsted":"leerá","Nosotros":"leeremos","Vosotros":"leeréis","EllosEllasUstedes":"leerán"}},"Subjunctive":null,"Name":"leer","EnglishMeaning":"English to Spanish"}
+{
+  "PresentParticiple": "leyendo",
+  "PastParticiple": "le%C3%ADdo",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "leo",
+      "Tu": "lees",
+      "ElEllaUsted": "lee",
+      "Nosotros": "leemos",
+      "Vosotros": "leéis",
+      "EllosEllasUstedes": "leen"
+    },
+    "Pretérito": {
+      "Yo": "leí",
+      "Tu": "leíste",
+      "ElEllaUsted": "leyó",
+      "Nosotros": "leímos",
+      "Vosotros": "leísteis",
+      "EllosEllasUstedes": "leyeron"
+    },
+    "Imperfect": {
+      "Yo": "leía",
+      "Tu": "leías",
+      "ElEllaUsted": "leía",
+      "Nosotros": "leíamos",
+      "Vosotros": "leíais",
+      "EllosEllasUstedes": "leían"
+    },
+    "Conditional": {
+      "Yo": "leería",
+      "Tu": "leerías",
+      "ElEllaUsted": "leería",
+      "Nosotros": "leeríamos",
+      "Vosotros": "leeríais",
+      "EllosEllasUstedes": "leerían"
+    },
+    "Future": {
+      "Yo": "leeré",
+      "Tu": "leerás",
+      "ElEllaUsted": "leerá",
+      "Nosotros": "leeremos",
+      "Vosotros": "leeréis",
+      "EllosEllasUstedes": "leerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "lea",
+      "Tu": "leas",
+      "ElEllaUsted": "lea",
+      "Nosotros": "leamos",
+      "Vosotros": "leáis",
+      "EllosEllasUstedes": "lean"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "leyea",
+      "Tu": "leyeas",
+      "ElEllaUsted": "leyea",
+      "Nosotros": "leyeamos",
+      "Vosotros": "leyeais",
+      "EllosEllasUstedes": "leyean"
+    }
+  },
+  "Name": "leer",
+  "EnglishMeaning": "English to Spanish",
+  "PresentParticipleTranslation": "reading",
+  "PastParticipleTranslation": "read"
+}

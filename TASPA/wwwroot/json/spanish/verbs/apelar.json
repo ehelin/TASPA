@@ -1,1 +1,68 @@
-{"PresentParticiple":"apelando&translation=appealing","PastParticiple":"apelado&translation=appealed","Indicative":{"PresentTense":{"Yo":"apelo","Tu":"apelas","ElEllaUsted":"apela","Nosotros":"apelamos","Vosotros":"apeláis","EllosEllasUstedes":"apelan"},"Pretérito":{"Yo":"apelé","Tu":"apelaste","ElEllaUsted":"apeló","Nosotros":"apelamos","Vosotros":"apelasteis","EllosEllasUstedes":"apelaron"},"Imperfect":{"Yo":"apelaba","Tu":"apelabas","ElEllaUsted":"apelaba","Nosotros":"apelábamos","Vosotros":"apelabais","EllosEllasUstedes":"apelaban"},"Conditional":{"Yo":"apelaría","Tu":"apelarías","ElEllaUsted":"apelaría","Nosotros":"apelaríamos","Vosotros":"apelaríais","EllosEllasUstedes":"apelarían"},"Future":{"Yo":"apelaré","Tu":"apelarás","ElEllaUsted":"apelará","Nosotros":"apelaremos","Vosotros":"apelaréis","EllosEllasUstedes":"apelarán"}},"Subjunctive":null,"Name":"apelar","EnglishMeaning":"to appeal"}
+{
+  "PresentParticiple": "apelando",
+  "PastParticiple": "apelado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "apelo",
+      "Tu": "apelas",
+      "ElEllaUsted": "apela",
+      "Nosotros": "apelamos",
+      "Vosotros": "apeláis",
+      "EllosEllasUstedes": "apelan"
+    },
+    "Pretérito": {
+      "Yo": "apelé",
+      "Tu": "apelaste",
+      "ElEllaUsted": "apeló",
+      "Nosotros": "apelamos",
+      "Vosotros": "apelasteis",
+      "EllosEllasUstedes": "apelaron"
+    },
+    "Imperfect": {
+      "Yo": "apelaba",
+      "Tu": "apelabas",
+      "ElEllaUsted": "apelaba",
+      "Nosotros": "apelábamos",
+      "Vosotros": "apelabais",
+      "EllosEllasUstedes": "apelaban"
+    },
+    "Conditional": {
+      "Yo": "apelaría",
+      "Tu": "apelarías",
+      "ElEllaUsted": "apelaría",
+      "Nosotros": "apelaríamos",
+      "Vosotros": "apelaríais",
+      "EllosEllasUstedes": "apelarían"
+    },
+    "Future": {
+      "Yo": "apelaré",
+      "Tu": "apelarás",
+      "ElEllaUsted": "apelará",
+      "Nosotros": "apelaremos",
+      "Vosotros": "apelaréis",
+      "EllosEllasUstedes": "apelarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "apele",
+      "Tu": "apeles",
+      "ElEllaUsted": "apele",
+      "Nosotros": "apelemos",
+      "Vosotros": "apeléis",
+      "EllosEllasUstedes": "apelen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "apelara",
+      "Tu": "apelaras",
+      "ElEllaUsted": "apelara",
+      "Nosotros": "apelaramos",
+      "Vosotros": "apelarais",
+      "EllosEllasUstedes": "apelaran"
+    }
+  },
+  "Name": "apelar",
+  "EnglishMeaning": "to appeal",
+  "PresentParticipleTranslation": "appealing",
+  "PastParticipleTranslation": "appealed"
+}

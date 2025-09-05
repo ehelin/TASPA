@@ -1,1 +1,68 @@
-{"PresentParticiple":"respondiendo&translation=answering","PastParticiple":"respondido&translation=answered","Indicative":{"PresentTense":{"Yo":"respondo","Tu":"respondes","ElEllaUsted":"responde","Nosotros":"respondemos","Vosotros":"respondéis","EllosEllasUstedes":"responden"},"Pretérito":{"Yo":"respondí","Tu":"respondiste","ElEllaUsted":"respondió","Nosotros":"respondimos","Vosotros":"respondisteis","EllosEllasUstedes":"respondieron"},"Imperfect":{"Yo":"respondía","Tu":"respondías","ElEllaUsted":"respondía","Nosotros":"respondíamos","Vosotros":"respondíais","EllosEllasUstedes":"respondían"},"Conditional":{"Yo":"respondería","Tu":"responderías","ElEllaUsted":"respondería","Nosotros":"responderíamos","Vosotros":"responderíais","EllosEllasUstedes":"responderían"},"Future":{"Yo":"responderé","Tu":"responderás","ElEllaUsted":"responderá","Nosotros":"responderemos","Vosotros":"responderéis","EllosEllasUstedes":"responderán"}},"Subjunctive":null,"Name":"responder","EnglishMeaning":"to answer"}
+{
+  "PresentParticiple": "respondiendo",
+  "PastParticiple": "respondido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "respondo",
+      "Tu": "respondes",
+      "ElEllaUsted": "responde",
+      "Nosotros": "respondemos",
+      "Vosotros": "respondéis",
+      "EllosEllasUstedes": "responden"
+    },
+    "Pretérito": {
+      "Yo": "respondí",
+      "Tu": "respondiste",
+      "ElEllaUsted": "respondió",
+      "Nosotros": "respondimos",
+      "Vosotros": "respondisteis",
+      "EllosEllasUstedes": "respondieron"
+    },
+    "Imperfect": {
+      "Yo": "respondía",
+      "Tu": "respondías",
+      "ElEllaUsted": "respondía",
+      "Nosotros": "respondíamos",
+      "Vosotros": "respondíais",
+      "EllosEllasUstedes": "respondían"
+    },
+    "Conditional": {
+      "Yo": "respondería",
+      "Tu": "responderías",
+      "ElEllaUsted": "respondería",
+      "Nosotros": "responderíamos",
+      "Vosotros": "responderíais",
+      "EllosEllasUstedes": "responderían"
+    },
+    "Future": {
+      "Yo": "responderé",
+      "Tu": "responderás",
+      "ElEllaUsted": "responderá",
+      "Nosotros": "responderemos",
+      "Vosotros": "responderéis",
+      "EllosEllasUstedes": "responderán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "responda",
+      "Tu": "respondas",
+      "ElEllaUsted": "responda",
+      "Nosotros": "respondamos",
+      "Vosotros": "respondáis",
+      "EllosEllasUstedes": "respondan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "respondiea",
+      "Tu": "respondieas",
+      "ElEllaUsted": "respondiea",
+      "Nosotros": "respondieamos",
+      "Vosotros": "respondieais",
+      "EllosEllasUstedes": "respondiean"
+    }
+  },
+  "Name": "responder",
+  "EnglishMeaning": "to answer",
+  "PresentParticipleTranslation": "answering",
+  "PastParticipleTranslation": "answered"
+}

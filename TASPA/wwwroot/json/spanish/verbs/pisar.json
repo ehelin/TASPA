@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "pisando",
-    "PastParticiple": "pisado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "piso",
-            "Tu": "pisas",
-            "ElEllaUsted": "pisa",
-            "Nosotros": "pisamos",
-            "Vosotros": "pisáis",
-            "EllosEllasUstedes": "pisan"
-        },
-        "Pretérito": {
-            "Yo": "pisé",
-            "Tu": "pisaste",
-            "ElEllaUsted": "pisó",
-            "Nosotros": "pisamos",
-            "Vosotros": "pisasteis",
-            "EllosEllasUstedes": "pisaron"
-        },
-        "Imperfect": {
-            "Yo": "pisaba",
-            "Tu": "pisabas",
-            "ElEllaUsted": "pisaba",
-            "Nosotros": "pisábamos",
-            "Vosotros": "pisabais",
-            "EllosEllasUstedes": "pisaban"
-        },
-        "Conditional": {
-            "Yo": "pisaría",
-            "Tu": "pisarías",
-            "ElEllaUsted": "pisaría",
-            "Nosotros": "pisaríamos",
-            "Vosotros": "pisaríais",
-            "EllosEllasUstedes": "pisarían"
-        },
-        "Future": {
-            "Yo": "pisaré",
-            "Tu": "pisarás",
-            "ElEllaUsted": "pisará",
-            "Nosotros": "pisaremos",
-            "Vosotros": "pisaréis",
-            "EllosEllasUstedes": "pisarán"
-        }
+  "PresentParticiple": "pisando",
+  "PastParticiple": "pisado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "piso",
+      "Tu": "pisas",
+      "ElEllaUsted": "pisa",
+      "Nosotros": "pisamos",
+      "Vosotros": "pisáis",
+      "EllosEllasUstedes": "pisan"
     },
-    "Subjunctive": null,
-    "Name": "pisar",
-    "EnglishMeaning": "to step"
+    "Pretérito": {
+      "Yo": "pisé",
+      "Tu": "pisaste",
+      "ElEllaUsted": "pisó",
+      "Nosotros": "pisamos",
+      "Vosotros": "pisasteis",
+      "EllosEllasUstedes": "pisaron"
+    },
+    "Imperfect": {
+      "Yo": "pisaba",
+      "Tu": "pisabas",
+      "ElEllaUsted": "pisaba",
+      "Nosotros": "pisábamos",
+      "Vosotros": "pisabais",
+      "EllosEllasUstedes": "pisaban"
+    },
+    "Conditional": {
+      "Yo": "pisaría",
+      "Tu": "pisarías",
+      "ElEllaUsted": "pisaría",
+      "Nosotros": "pisaríamos",
+      "Vosotros": "pisaríais",
+      "EllosEllasUstedes": "pisarían"
+    },
+    "Future": {
+      "Yo": "pisaré",
+      "Tu": "pisarás",
+      "ElEllaUsted": "pisará",
+      "Nosotros": "pisaremos",
+      "Vosotros": "pisaréis",
+      "EllosEllasUstedes": "pisarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pise",
+      "Tu": "pises",
+      "ElEllaUsted": "pise",
+      "Nosotros": "pisemos",
+      "Vosotros": "piséis",
+      "EllosEllasUstedes": "pisen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pisara",
+      "Tu": "pisaras",
+      "ElEllaUsted": "pisara",
+      "Nosotros": "pisaramos",
+      "Vosotros": "pisarais",
+      "EllosEllasUstedes": "pisaran"
+    }
+  },
+  "Name": "pisar",
+  "EnglishMeaning": "to step"
 }

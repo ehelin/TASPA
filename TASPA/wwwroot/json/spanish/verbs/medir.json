@@ -1,1 +1,68 @@
-{"PresentParticiple":"midiendo&translation=measuring","PastParticiple":"medido&translation=measured","Indicative":{"PresentTense":{"Yo":"mido","Tu":"mides","ElEllaUsted":"mide","Nosotros":"medimos","Vosotros":"medís","EllosEllasUstedes":"miden"},"Pretérito":{"Yo":"medí","Tu":"mediste","ElEllaUsted":"midió","Nosotros":"medimos","Vosotros":"medisteis","EllosEllasUstedes":"midieron"},"Imperfect":{"Yo":"medía","Tu":"medías","ElEllaUsted":"medía","Nosotros":"medíamos","Vosotros":"medíais","EllosEllasUstedes":"medían"},"Conditional":{"Yo":"mediría","Tu":"medirías","ElEllaUsted":"mediría","Nosotros":"mediríamos","Vosotros":"mediríais","EllosEllasUstedes":"medirían"},"Future":{"Yo":"mediré","Tu":"medirás","ElEllaUsted":"medirá","Nosotros":"mediremos","Vosotros":"mediréis","EllosEllasUstedes":"medirán"}},"Subjunctive":null,"Name":"medir","EnglishMeaning":"to measure"}
+{
+  "PresentParticiple": "midiendo",
+  "PastParticiple": "medido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "mido",
+      "Tu": "mides",
+      "ElEllaUsted": "mide",
+      "Nosotros": "medimos",
+      "Vosotros": "medís",
+      "EllosEllasUstedes": "miden"
+    },
+    "Pretérito": {
+      "Yo": "medí",
+      "Tu": "mediste",
+      "ElEllaUsted": "midió",
+      "Nosotros": "medimos",
+      "Vosotros": "medisteis",
+      "EllosEllasUstedes": "midieron"
+    },
+    "Imperfect": {
+      "Yo": "medía",
+      "Tu": "medías",
+      "ElEllaUsted": "medía",
+      "Nosotros": "medíamos",
+      "Vosotros": "medíais",
+      "EllosEllasUstedes": "medían"
+    },
+    "Conditional": {
+      "Yo": "mediría",
+      "Tu": "medirías",
+      "ElEllaUsted": "mediría",
+      "Nosotros": "mediríamos",
+      "Vosotros": "mediríais",
+      "EllosEllasUstedes": "medirían"
+    },
+    "Future": {
+      "Yo": "mediré",
+      "Tu": "medirás",
+      "ElEllaUsted": "medirá",
+      "Nosotros": "mediremos",
+      "Vosotros": "mediréis",
+      "EllosEllasUstedes": "medirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "mida",
+      "Tu": "midas",
+      "ElEllaUsted": "mida",
+      "Nosotros": "midamos",
+      "Vosotros": "midáis",
+      "EllosEllasUstedes": "midan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "midiea",
+      "Tu": "midieas",
+      "ElEllaUsted": "midiea",
+      "Nosotros": "midieamos",
+      "Vosotros": "midieais",
+      "EllosEllasUstedes": "midiean"
+    }
+  },
+  "Name": "medir",
+  "EnglishMeaning": "to measure",
+  "PresentParticipleTranslation": "measuring",
+  "PastParticipleTranslation": "measured"
+}

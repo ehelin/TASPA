@@ -1,1 +1,68 @@
-{"PresentParticiple":"colocando&translation=placing","PastParticiple":"colocado&translation=placed","Indicative":{"PresentTense":{"Yo":"coloco","Tu":"colocas","ElEllaUsted":"coloca","Nosotros":"colocamos","Vosotros":"colocáis","EllosEllasUstedes":"colocan"},"Pretérito":{"Yo":"coloqué","Tu":"colocaste","ElEllaUsted":"colocó","Nosotros":"colocamos","Vosotros":"colocasteis","EllosEllasUstedes":"colocaron"},"Imperfect":{"Yo":"colocaba","Tu":"colocabas","ElEllaUsted":"colocaba","Nosotros":"colocábamos","Vosotros":"colocabais","EllosEllasUstedes":"colocaban"},"Conditional":{"Yo":"colocaría","Tu":"colocarías","ElEllaUsted":"colocaría","Nosotros":"colocaríamos","Vosotros":"colocaríais","EllosEllasUstedes":"colocarían"},"Future":{"Yo":"colocaré","Tu":"colocarás","ElEllaUsted":"colocará","Nosotros":"colocaremos","Vosotros":"colocaréis","EllosEllasUstedes":"colocarán"}},"Subjunctive":null,"Name":"colocar","EnglishMeaning":"to place"}
+{
+  "PresentParticiple": "colocando",
+  "PastParticiple": "colocado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "coloco",
+      "Tu": "colocas",
+      "ElEllaUsted": "coloca",
+      "Nosotros": "colocamos",
+      "Vosotros": "colocáis",
+      "EllosEllasUstedes": "colocan"
+    },
+    "Pretérito": {
+      "Yo": "coloqué",
+      "Tu": "colocaste",
+      "ElEllaUsted": "colocó",
+      "Nosotros": "colocamos",
+      "Vosotros": "colocasteis",
+      "EllosEllasUstedes": "colocaron"
+    },
+    "Imperfect": {
+      "Yo": "colocaba",
+      "Tu": "colocabas",
+      "ElEllaUsted": "colocaba",
+      "Nosotros": "colocábamos",
+      "Vosotros": "colocabais",
+      "EllosEllasUstedes": "colocaban"
+    },
+    "Conditional": {
+      "Yo": "colocaría",
+      "Tu": "colocarías",
+      "ElEllaUsted": "colocaría",
+      "Nosotros": "colocaríamos",
+      "Vosotros": "colocaríais",
+      "EllosEllasUstedes": "colocarían"
+    },
+    "Future": {
+      "Yo": "colocaré",
+      "Tu": "colocarás",
+      "ElEllaUsted": "colocará",
+      "Nosotros": "colocaremos",
+      "Vosotros": "colocaréis",
+      "EllosEllasUstedes": "colocarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "coloce",
+      "Tu": "coloces",
+      "ElEllaUsted": "coloce",
+      "Nosotros": "colocemos",
+      "Vosotros": "colocéis",
+      "EllosEllasUstedes": "colocen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "colocara",
+      "Tu": "colocaras",
+      "ElEllaUsted": "colocara",
+      "Nosotros": "colocaramos",
+      "Vosotros": "colocarais",
+      "EllosEllasUstedes": "colocaran"
+    }
+  },
+  "Name": "colocar",
+  "EnglishMeaning": "to place",
+  "PresentParticipleTranslation": "placing",
+  "PastParticipleTranslation": "placed"
+}

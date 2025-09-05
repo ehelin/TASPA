@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "optando",
-    "PastParticiple": "optado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "opto",
-            "Tu": "optas",
-            "ElEllaUsted": "opta",
-            "Nosotros": "optamos",
-            "Vosotros": "optáis",
-            "EllosEllasUstedes": "optan"
-        },
-        "Pretérito": {
-            "Yo": "opté",
-            "Tu": "optaste",
-            "ElEllaUsted": "optó",
-            "Nosotros": "optamos",
-            "Vosotros": "optasteis",
-            "EllosEllasUstedes": "optaron"
-        },
-        "Imperfect": {
-            "Yo": "optaba",
-            "Tu": "optabas",
-            "ElEllaUsted": "optaba",
-            "Nosotros": "optábamos",
-            "Vosotros": "optabais",
-            "EllosEllasUstedes": "optaban"
-        },
-        "Conditional": {
-            "Yo": "optaría",
-            "Tu": "optarías",
-            "ElEllaUsted": "optaría",
-            "Nosotros": "optaríamos",
-            "Vosotros": "optaríais",
-            "EllosEllasUstedes": "optarían"
-        },
-        "Future": {
-            "Yo": "optaré",
-            "Tu": "optarás",
-            "ElEllaUsted": "optará",
-            "Nosotros": "optaremos",
-            "Vosotros": "optaréis",
-            "EllosEllasUstedes": "optarán"
-        }
+  "PresentParticiple": "optando",
+  "PastParticiple": "optado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "opto",
+      "Tu": "optas",
+      "ElEllaUsted": "opta",
+      "Nosotros": "optamos",
+      "Vosotros": "optáis",
+      "EllosEllasUstedes": "optan"
     },
-    "Subjunctive": null,
-    "Name": "optar",
-    "EnglishMeaning": "to opt"
+    "Pretérito": {
+      "Yo": "opté",
+      "Tu": "optaste",
+      "ElEllaUsted": "optó",
+      "Nosotros": "optamos",
+      "Vosotros": "optasteis",
+      "EllosEllasUstedes": "optaron"
+    },
+    "Imperfect": {
+      "Yo": "optaba",
+      "Tu": "optabas",
+      "ElEllaUsted": "optaba",
+      "Nosotros": "optábamos",
+      "Vosotros": "optabais",
+      "EllosEllasUstedes": "optaban"
+    },
+    "Conditional": {
+      "Yo": "optaría",
+      "Tu": "optarías",
+      "ElEllaUsted": "optaría",
+      "Nosotros": "optaríamos",
+      "Vosotros": "optaríais",
+      "EllosEllasUstedes": "optarían"
+    },
+    "Future": {
+      "Yo": "optaré",
+      "Tu": "optarás",
+      "ElEllaUsted": "optará",
+      "Nosotros": "optaremos",
+      "Vosotros": "optaréis",
+      "EllosEllasUstedes": "optarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "opte",
+      "Tu": "optes",
+      "ElEllaUsted": "opte",
+      "Nosotros": "optemos",
+      "Vosotros": "optéis",
+      "EllosEllasUstedes": "opten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "optara",
+      "Tu": "optaras",
+      "ElEllaUsted": "optara",
+      "Nosotros": "optaramos",
+      "Vosotros": "optarais",
+      "EllosEllasUstedes": "optaran"
+    }
+  },
+  "Name": "optar",
+  "EnglishMeaning": "to opt"
 }

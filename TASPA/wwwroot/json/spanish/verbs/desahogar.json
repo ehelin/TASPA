@@ -1,1 +1,68 @@
-{"PresentParticiple":"desahogando&translation=venting","PastParticiple":"desahogado&translation=vented","Indicative":{"PresentTense":{"Yo":"desahogo","Tu":"desahogas","ElEllaUsted":"desahoga","Nosotros":"desahogamos","Vosotros":"desahogáis","EllosEllasUstedes":"desahogan"},"Pretérito":{"Yo":"desahogué","Tu":"desahogaste","ElEllaUsted":"desahogó","Nosotros":"desahogamos","Vosotros":"desahogasteis","EllosEllasUstedes":"desahogaron"},"Imperfect":{"Yo":"desahogaba","Tu":"desahogabas","ElEllaUsted":"desahogaba","Nosotros":"desahogábamos","Vosotros":"desahogabais","EllosEllasUstedes":"desahogaban"},"Conditional":{"Yo":"desahogaría","Tu":"desahogarías","ElEllaUsted":"desahogaría","Nosotros":"desahogaríamos","Vosotros":"desahogaríais","EllosEllasUstedes":"desahogarían"},"Future":{"Yo":"desahogaré","Tu":"desahogarás","ElEllaUsted":"desahogará","Nosotros":"desahogaremos","Vosotros":"desahogaréis","EllosEllasUstedes":"desahogarán"}},"Subjunctive":null,"Name":"desahogar","EnglishMeaning":"to vent"}
+{
+  "PresentParticiple": "desahogando",
+  "PastParticiple": "desahogado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "desahogo",
+      "Tu": "desahogas",
+      "ElEllaUsted": "desahoga",
+      "Nosotros": "desahogamos",
+      "Vosotros": "desahogáis",
+      "EllosEllasUstedes": "desahogan"
+    },
+    "Pretérito": {
+      "Yo": "desahogué",
+      "Tu": "desahogaste",
+      "ElEllaUsted": "desahogó",
+      "Nosotros": "desahogamos",
+      "Vosotros": "desahogasteis",
+      "EllosEllasUstedes": "desahogaron"
+    },
+    "Imperfect": {
+      "Yo": "desahogaba",
+      "Tu": "desahogabas",
+      "ElEllaUsted": "desahogaba",
+      "Nosotros": "desahogábamos",
+      "Vosotros": "desahogabais",
+      "EllosEllasUstedes": "desahogaban"
+    },
+    "Conditional": {
+      "Yo": "desahogaría",
+      "Tu": "desahogarías",
+      "ElEllaUsted": "desahogaría",
+      "Nosotros": "desahogaríamos",
+      "Vosotros": "desahogaríais",
+      "EllosEllasUstedes": "desahogarían"
+    },
+    "Future": {
+      "Yo": "desahogaré",
+      "Tu": "desahogarás",
+      "ElEllaUsted": "desahogará",
+      "Nosotros": "desahogaremos",
+      "Vosotros": "desahogaréis",
+      "EllosEllasUstedes": "desahogarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "desahoge",
+      "Tu": "desahoges",
+      "ElEllaUsted": "desahoge",
+      "Nosotros": "desahogemos",
+      "Vosotros": "desahogéis",
+      "EllosEllasUstedes": "desahogen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "desahogara",
+      "Tu": "desahogaras",
+      "ElEllaUsted": "desahogara",
+      "Nosotros": "desahogaramos",
+      "Vosotros": "desahogarais",
+      "EllosEllasUstedes": "desahogaran"
+    }
+  },
+  "Name": "desahogar",
+  "EnglishMeaning": "to vent",
+  "PresentParticipleTranslation": "venting",
+  "PastParticipleTranslation": "vented"
+}

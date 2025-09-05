@@ -1,1 +1,68 @@
-{"PresentParticiple":"secando&translation=drying","PastParticiple":"secado&translation=dried","Indicative":{"PresentTense":{"Yo":"seco","Tu":"secas","ElEllaUsted":"seca","Nosotros":"secamos","Vosotros":"secáis","EllosEllasUstedes":"secan"},"Pretérito":{"Yo":"sequé","Tu":"secaste","ElEllaUsted":"secó","Nosotros":"secamos","Vosotros":"secasteis","EllosEllasUstedes":"secaron"},"Imperfect":{"Yo":"secaba","Tu":"secabas","ElEllaUsted":"secaba","Nosotros":"secábamos","Vosotros":"secabais","EllosEllasUstedes":"secaban"},"Conditional":{"Yo":"secaría","Tu":"secarías","ElEllaUsted":"secaría","Nosotros":"secaríamos","Vosotros":"secaríais","EllosEllasUstedes":"secarían"},"Future":{"Yo":"secaré","Tu":"secarás","ElEllaUsted":"secará","Nosotros":"secaremos","Vosotros":"secaréis","EllosEllasUstedes":"secarán"}},"Subjunctive":null,"Name":"secar","EnglishMeaning":"to dry"}
+{
+  "PresentParticiple": "secando",
+  "PastParticiple": "secado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "seco",
+      "Tu": "secas",
+      "ElEllaUsted": "seca",
+      "Nosotros": "secamos",
+      "Vosotros": "secáis",
+      "EllosEllasUstedes": "secan"
+    },
+    "Pretérito": {
+      "Yo": "sequé",
+      "Tu": "secaste",
+      "ElEllaUsted": "secó",
+      "Nosotros": "secamos",
+      "Vosotros": "secasteis",
+      "EllosEllasUstedes": "secaron"
+    },
+    "Imperfect": {
+      "Yo": "secaba",
+      "Tu": "secabas",
+      "ElEllaUsted": "secaba",
+      "Nosotros": "secábamos",
+      "Vosotros": "secabais",
+      "EllosEllasUstedes": "secaban"
+    },
+    "Conditional": {
+      "Yo": "secaría",
+      "Tu": "secarías",
+      "ElEllaUsted": "secaría",
+      "Nosotros": "secaríamos",
+      "Vosotros": "secaríais",
+      "EllosEllasUstedes": "secarían"
+    },
+    "Future": {
+      "Yo": "secaré",
+      "Tu": "secarás",
+      "ElEllaUsted": "secará",
+      "Nosotros": "secaremos",
+      "Vosotros": "secaréis",
+      "EllosEllasUstedes": "secarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sece",
+      "Tu": "seces",
+      "ElEllaUsted": "sece",
+      "Nosotros": "secemos",
+      "Vosotros": "secéis",
+      "EllosEllasUstedes": "secen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "secara",
+      "Tu": "secaras",
+      "ElEllaUsted": "secara",
+      "Nosotros": "secaramos",
+      "Vosotros": "secarais",
+      "EllosEllasUstedes": "secaran"
+    }
+  },
+  "Name": "secar",
+  "EnglishMeaning": "to dry",
+  "PresentParticipleTranslation": "drying",
+  "PastParticipleTranslation": "dried"
+}

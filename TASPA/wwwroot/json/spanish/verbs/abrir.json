@@ -1,1 +1,68 @@
-{"PresentParticiple":"abriendo&translation=opening","PastParticiple":"abierto&translation=opened","Indicative":{"PresentTense":{"Yo":"abro","Tu":"abres","ElEllaUsted":"abre","Nosotros":"abrimos","Vosotros":"abrís","EllosEllasUstedes":"abren"},"Pretérito":{"Yo":"abrí","Tu":"abriste","ElEllaUsted":"abrió","Nosotros":"abrimos","Vosotros":"abristeis","EllosEllasUstedes":"abrieron"},"Imperfect":{"Yo":"abría","Tu":"abrías","ElEllaUsted":"abría","Nosotros":"abríamos","Vosotros":"abríais","EllosEllasUstedes":"abrían"},"Conditional":{"Yo":"abriría","Tu":"abrirías","ElEllaUsted":"abriría","Nosotros":"abriríamos","Vosotros":"abriríais","EllosEllasUstedes":"abrirían"},"Future":{"Yo":"abriré","Tu":"abrirás","ElEllaUsted":"abrirá","Nosotros":"abriremos","Vosotros":"abriréis","EllosEllasUstedes":"abrirán"}},"Subjunctive":null,"Name":"abrir","EnglishMeaning":"to open"}
+{
+  "PresentParticiple": "abriendo",
+  "PastParticiple": "abierto",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "abro",
+      "Tu": "abres",
+      "ElEllaUsted": "abre",
+      "Nosotros": "abrimos",
+      "Vosotros": "abrís",
+      "EllosEllasUstedes": "abren"
+    },
+    "Pretérito": {
+      "Yo": "abrí",
+      "Tu": "abriste",
+      "ElEllaUsted": "abrió",
+      "Nosotros": "abrimos",
+      "Vosotros": "abristeis",
+      "EllosEllasUstedes": "abrieron"
+    },
+    "Imperfect": {
+      "Yo": "abría",
+      "Tu": "abrías",
+      "ElEllaUsted": "abría",
+      "Nosotros": "abríamos",
+      "Vosotros": "abríais",
+      "EllosEllasUstedes": "abrían"
+    },
+    "Conditional": {
+      "Yo": "abriría",
+      "Tu": "abrirías",
+      "ElEllaUsted": "abriría",
+      "Nosotros": "abriríamos",
+      "Vosotros": "abriríais",
+      "EllosEllasUstedes": "abrirían"
+    },
+    "Future": {
+      "Yo": "abriré",
+      "Tu": "abrirás",
+      "ElEllaUsted": "abrirá",
+      "Nosotros": "abriremos",
+      "Vosotros": "abriréis",
+      "EllosEllasUstedes": "abrirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "abra",
+      "Tu": "abras",
+      "ElEllaUsted": "abra",
+      "Nosotros": "abramos",
+      "Vosotros": "abráis",
+      "EllosEllasUstedes": "abran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "abriea",
+      "Tu": "abrieas",
+      "ElEllaUsted": "abriea",
+      "Nosotros": "abrieamos",
+      "Vosotros": "abrieais",
+      "EllosEllasUstedes": "abriean"
+    }
+  },
+  "Name": "abrir",
+  "EnglishMeaning": "to open",
+  "PresentParticipleTranslation": "opening",
+  "PastParticipleTranslation": "opened"
+}

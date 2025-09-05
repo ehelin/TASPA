@@ -1,1 +1,68 @@
-{"PresentParticiple":"volando&translation=flying","PastParticiple":"volado&translation=flown","Indicative":{"PresentTense":{"Yo":"vuelo","Tu":"vuelas","ElEllaUsted":"vuela","Nosotros":"volamos","Vosotros":"voláis","EllosEllasUstedes":"vuelan"},"Pretérito":{"Yo":"volé","Tu":"volaste","ElEllaUsted":"voló","Nosotros":"volamos","Vosotros":"volasteis","EllosEllasUstedes":"volaron"},"Imperfect":{"Yo":"volaba","Tu":"volabas","ElEllaUsted":"volaba","Nosotros":"volábamos","Vosotros":"volabais","EllosEllasUstedes":"volaban"},"Conditional":{"Yo":"volaría","Tu":"volarías","ElEllaUsted":"volaría","Nosotros":"volaríamos","Vosotros":"volaríais","EllosEllasUstedes":"volarían"},"Future":{"Yo":"volaré","Tu":"volarás","ElEllaUsted":"volará","Nosotros":"volaremos","Vosotros":"volaréis","EllosEllasUstedes":"volarán"}},"Subjunctive":null,"Name":"volar","EnglishMeaning":"to fly"}
+{
+  "PresentParticiple": "volando",
+  "PastParticiple": "volado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "vuelo",
+      "Tu": "vuelas",
+      "ElEllaUsted": "vuela",
+      "Nosotros": "volamos",
+      "Vosotros": "voláis",
+      "EllosEllasUstedes": "vuelan"
+    },
+    "Pretérito": {
+      "Yo": "volé",
+      "Tu": "volaste",
+      "ElEllaUsted": "voló",
+      "Nosotros": "volamos",
+      "Vosotros": "volasteis",
+      "EllosEllasUstedes": "volaron"
+    },
+    "Imperfect": {
+      "Yo": "volaba",
+      "Tu": "volabas",
+      "ElEllaUsted": "volaba",
+      "Nosotros": "volábamos",
+      "Vosotros": "volabais",
+      "EllosEllasUstedes": "volaban"
+    },
+    "Conditional": {
+      "Yo": "volaría",
+      "Tu": "volarías",
+      "ElEllaUsted": "volaría",
+      "Nosotros": "volaríamos",
+      "Vosotros": "volaríais",
+      "EllosEllasUstedes": "volarían"
+    },
+    "Future": {
+      "Yo": "volaré",
+      "Tu": "volarás",
+      "ElEllaUsted": "volará",
+      "Nosotros": "volaremos",
+      "Vosotros": "volaréis",
+      "EllosEllasUstedes": "volarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "vuele",
+      "Tu": "vueles",
+      "ElEllaUsted": "vuele",
+      "Nosotros": "vuelemos",
+      "Vosotros": "vueléis",
+      "EllosEllasUstedes": "vuelen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "volara",
+      "Tu": "volaras",
+      "ElEllaUsted": "volara",
+      "Nosotros": "volaramos",
+      "Vosotros": "volarais",
+      "EllosEllasUstedes": "volaran"
+    }
+  },
+  "Name": "volar",
+  "EnglishMeaning": "to fly",
+  "PresentParticipleTranslation": "flying",
+  "PastParticipleTranslation": "flown"
+}

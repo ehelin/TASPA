@@ -1,1 +1,68 @@
-{"PresentParticiple":"asistiendo&translation=attending","PastParticiple":"asistido&translation=attended","Indicative":{"PresentTense":{"Yo":"asisto","Tu":"asistes","ElEllaUsted":"asiste","Nosotros":"asistimos","Vosotros":"asistís","EllosEllasUstedes":"asisten"},"Pretérito":{"Yo":"asistí","Tu":"asististe","ElEllaUsted":"asistió","Nosotros":"asistimos","Vosotros":"asististeis","EllosEllasUstedes":"asistieron"},"Imperfect":{"Yo":"asistía","Tu":"asistías","ElEllaUsted":"asistía","Nosotros":"asistíamos","Vosotros":"asistíais","EllosEllasUstedes":"asistían"},"Conditional":{"Yo":"asistiría","Tu":"asistirías","ElEllaUsted":"asistiría","Nosotros":"asistiríamos","Vosotros":"asistiríais","EllosEllasUstedes":"asistirían"},"Future":{"Yo":"asistiré","Tu":"asistirás","ElEllaUsted":"asistirá","Nosotros":"asistiremos","Vosotros":"asistiréis","EllosEllasUstedes":"asistirán"}},"Subjunctive":null,"Name":"asistir","EnglishMeaning":"to attend"}
+{
+  "PresentParticiple": "asistiendo",
+  "PastParticiple": "asistido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "asisto",
+      "Tu": "asistes",
+      "ElEllaUsted": "asiste",
+      "Nosotros": "asistimos",
+      "Vosotros": "asistís",
+      "EllosEllasUstedes": "asisten"
+    },
+    "Pretérito": {
+      "Yo": "asistí",
+      "Tu": "asististe",
+      "ElEllaUsted": "asistió",
+      "Nosotros": "asistimos",
+      "Vosotros": "asististeis",
+      "EllosEllasUstedes": "asistieron"
+    },
+    "Imperfect": {
+      "Yo": "asistía",
+      "Tu": "asistías",
+      "ElEllaUsted": "asistía",
+      "Nosotros": "asistíamos",
+      "Vosotros": "asistíais",
+      "EllosEllasUstedes": "asistían"
+    },
+    "Conditional": {
+      "Yo": "asistiría",
+      "Tu": "asistirías",
+      "ElEllaUsted": "asistiría",
+      "Nosotros": "asistiríamos",
+      "Vosotros": "asistiríais",
+      "EllosEllasUstedes": "asistirían"
+    },
+    "Future": {
+      "Yo": "asistiré",
+      "Tu": "asistirás",
+      "ElEllaUsted": "asistirá",
+      "Nosotros": "asistiremos",
+      "Vosotros": "asistiréis",
+      "EllosEllasUstedes": "asistirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "asista",
+      "Tu": "asistas",
+      "ElEllaUsted": "asista",
+      "Nosotros": "asistamos",
+      "Vosotros": "asistáis",
+      "EllosEllasUstedes": "asistan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "asistiea",
+      "Tu": "asistieas",
+      "ElEllaUsted": "asistiea",
+      "Nosotros": "asistieamos",
+      "Vosotros": "asistieais",
+      "EllosEllasUstedes": "asistiean"
+    }
+  },
+  "Name": "asistir",
+  "EnglishMeaning": "to attend",
+  "PresentParticipleTranslation": "attending",
+  "PastParticipleTranslation": "attended"
+}

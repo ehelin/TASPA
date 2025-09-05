@@ -1,1 +1,68 @@
-{"PresentParticiple":"diciendo&translation=saying","PastParticiple":"dicho&translation=said","Indicative":{"PresentTense":{"Yo":"digo","Tu":"dices","ElEllaUsted":"dice","Nosotros":"decimos","Vosotros":"decís","EllosEllasUstedes":"dicen"},"Pretérito":{"Yo":"dije","Tu":"dijiste","ElEllaUsted":"dijo","Nosotros":"dijimos","Vosotros":"dijisteis","EllosEllasUstedes":"dijeron"},"Imperfect":{"Yo":"decía","Tu":"decías","ElEllaUsted":"decía","Nosotros":"decíamos","Vosotros":"decíais","EllosEllasUstedes":"decían"},"Conditional":{"Yo":"diría","Tu":"dirías","ElEllaUsted":"diría","Nosotros":"diríamos","Vosotros":"diríais","EllosEllasUstedes":"dirían"},"Future":{"Yo":"diré","Tu":"dirás","ElEllaUsted":"dirá","Nosotros":"diremos","Vosotros":"diréis","EllosEllasUstedes":"dirán"}},"Subjunctive":null,"Name":"decir","EnglishMeaning":"to say"}
+{
+  "PresentParticiple": "diciendo",
+  "PastParticiple": "dicho",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "digo",
+      "Tu": "dices",
+      "ElEllaUsted": "dice",
+      "Nosotros": "decimos",
+      "Vosotros": "decís",
+      "EllosEllasUstedes": "dicen"
+    },
+    "Pretérito": {
+      "Yo": "dije",
+      "Tu": "dijiste",
+      "ElEllaUsted": "dijo",
+      "Nosotros": "dijimos",
+      "Vosotros": "dijisteis",
+      "EllosEllasUstedes": "dijeron"
+    },
+    "Imperfect": {
+      "Yo": "decía",
+      "Tu": "decías",
+      "ElEllaUsted": "decía",
+      "Nosotros": "decíamos",
+      "Vosotros": "decíais",
+      "EllosEllasUstedes": "decían"
+    },
+    "Conditional": {
+      "Yo": "diría",
+      "Tu": "dirías",
+      "ElEllaUsted": "diría",
+      "Nosotros": "diríamos",
+      "Vosotros": "diríais",
+      "EllosEllasUstedes": "dirían"
+    },
+    "Future": {
+      "Yo": "diré",
+      "Tu": "dirás",
+      "ElEllaUsted": "dirá",
+      "Nosotros": "diremos",
+      "Vosotros": "diréis",
+      "EllosEllasUstedes": "dirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "diga",
+      "Tu": "digas",
+      "ElEllaUsted": "diga",
+      "Nosotros": "digamos",
+      "Vosotros": "digáis",
+      "EllosEllasUstedes": "digan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dijera",
+      "Tu": "dijeras",
+      "ElEllaUsted": "dijera",
+      "Nosotros": "dijéramos",
+      "Vosotros": "dijerais",
+      "EllosEllasUstedes": "dijeran"
+    }
+  },
+  "Name": "decir",
+  "EnglishMeaning": "to say",
+  "PresentParticipleTranslation": "saying",
+  "PastParticipleTranslation": "said"
+}

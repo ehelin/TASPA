@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "concordando",
-    "PastParticiple": "concordado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "concordo",
-            "Tu": "concordas",
-            "ElEllaUsted": "concorda",
-            "Nosotros": "concordamos",
-            "Vosotros": "concordáis",
-            "EllosEllasUstedes": "concordan"
-        },
-        "Pretérito": {
-            "Yo": "concordé",
-            "Tu": "concordaste",
-            "ElEllaUsted": "concordó",
-            "Nosotros": "concordamos",
-            "Vosotros": "concordasteis",
-            "EllosEllasUstedes": "concordaron"
-        },
-        "Imperfect": {
-            "Yo": "concordaba",
-            "Tu": "concordabas",
-            "ElEllaUsted": "concordaba",
-            "Nosotros": "concordábamos",
-            "Vosotros": "concordabais",
-            "EllosEllasUstedes": "concordaban"
-        },
-        "Conditional": {
-            "Yo": "concordaría",
-            "Tu": "concordarías",
-            "ElEllaUsted": "concordaría",
-            "Nosotros": "concordaríamos",
-            "Vosotros": "concordaríais",
-            "EllosEllasUstedes": "concordarían"
-        },
-        "Future": {
-            "Yo": "concordaré",
-            "Tu": "concordarás",
-            "ElEllaUsted": "concordará",
-            "Nosotros": "concordaremos",
-            "Vosotros": "concordaréis",
-            "EllosEllasUstedes": "concordarán"
-        }
+  "PresentParticiple": "concordando",
+  "PastParticiple": "concordado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "concordo",
+      "Tu": "concordas",
+      "ElEllaUsted": "concorda",
+      "Nosotros": "concordamos",
+      "Vosotros": "concordáis",
+      "EllosEllasUstedes": "concordan"
     },
-    "Subjunctive": null,
-    "Name": "concordar",
-    "EnglishMeaning": "to agree"
+    "Pretérito": {
+      "Yo": "concordé",
+      "Tu": "concordaste",
+      "ElEllaUsted": "concordó",
+      "Nosotros": "concordamos",
+      "Vosotros": "concordasteis",
+      "EllosEllasUstedes": "concordaron"
+    },
+    "Imperfect": {
+      "Yo": "concordaba",
+      "Tu": "concordabas",
+      "ElEllaUsted": "concordaba",
+      "Nosotros": "concordábamos",
+      "Vosotros": "concordabais",
+      "EllosEllasUstedes": "concordaban"
+    },
+    "Conditional": {
+      "Yo": "concordaría",
+      "Tu": "concordarías",
+      "ElEllaUsted": "concordaría",
+      "Nosotros": "concordaríamos",
+      "Vosotros": "concordaríais",
+      "EllosEllasUstedes": "concordarían"
+    },
+    "Future": {
+      "Yo": "concordaré",
+      "Tu": "concordarás",
+      "ElEllaUsted": "concordará",
+      "Nosotros": "concordaremos",
+      "Vosotros": "concordaréis",
+      "EllosEllasUstedes": "concordarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "concorde",
+      "Tu": "concordes",
+      "ElEllaUsted": "concorde",
+      "Nosotros": "concordemos",
+      "Vosotros": "concordéis",
+      "EllosEllasUstedes": "concorden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "concordara",
+      "Tu": "concordaras",
+      "ElEllaUsted": "concordara",
+      "Nosotros": "concordaramos",
+      "Vosotros": "concordarais",
+      "EllosEllasUstedes": "concordaran"
+    }
+  },
+  "Name": "concordar",
+  "EnglishMeaning": "to agree"
 }

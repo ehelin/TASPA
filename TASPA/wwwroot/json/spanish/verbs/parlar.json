@@ -1,1 +1,68 @@
-{"PresentParticiple":"parlando&translation=chattering","PastParticiple":"parlado&translation=chattered","Indicative":{"PresentTense":{"Yo":"parlo","Tu":"parlas","ElEllaUsted":"parla","Nosotros":"parlamos","Vosotros":"parláis","EllosEllasUstedes":"parlan"},"Pretérito":{"Yo":"parlé","Tu":"parlaste","ElEllaUsted":"parló","Nosotros":"parlamos","Vosotros":"parlasteis","EllosEllasUstedes":"parlaron"},"Imperfect":{"Yo":"parlaba","Tu":"parlabas","ElEllaUsted":"parlaba","Nosotros":"parlábamos","Vosotros":"parlabais","EllosEllasUstedes":"parlaban"},"Conditional":{"Yo":"parlaría","Tu":"parlarías","ElEllaUsted":"parlaría","Nosotros":"parlaríamos","Vosotros":"parlaríais","EllosEllasUstedes":"parlarían"},"Future":{"Yo":"parlaré","Tu":"parlarás","ElEllaUsted":"parlará","Nosotros":"parlaremos","Vosotros":"parlaréis","EllosEllasUstedes":"parlarán"}},"Subjunctive":null,"Name":"parlar","EnglishMeaning":"to chatter"}
+{
+  "PresentParticiple": "parlando",
+  "PastParticiple": "parlado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "parlo",
+      "Tu": "parlas",
+      "ElEllaUsted": "parla",
+      "Nosotros": "parlamos",
+      "Vosotros": "parláis",
+      "EllosEllasUstedes": "parlan"
+    },
+    "Pretérito": {
+      "Yo": "parlé",
+      "Tu": "parlaste",
+      "ElEllaUsted": "parló",
+      "Nosotros": "parlamos",
+      "Vosotros": "parlasteis",
+      "EllosEllasUstedes": "parlaron"
+    },
+    "Imperfect": {
+      "Yo": "parlaba",
+      "Tu": "parlabas",
+      "ElEllaUsted": "parlaba",
+      "Nosotros": "parlábamos",
+      "Vosotros": "parlabais",
+      "EllosEllasUstedes": "parlaban"
+    },
+    "Conditional": {
+      "Yo": "parlaría",
+      "Tu": "parlarías",
+      "ElEllaUsted": "parlaría",
+      "Nosotros": "parlaríamos",
+      "Vosotros": "parlaríais",
+      "EllosEllasUstedes": "parlarían"
+    },
+    "Future": {
+      "Yo": "parlaré",
+      "Tu": "parlarás",
+      "ElEllaUsted": "parlará",
+      "Nosotros": "parlaremos",
+      "Vosotros": "parlaréis",
+      "EllosEllasUstedes": "parlarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "parle",
+      "Tu": "parles",
+      "ElEllaUsted": "parle",
+      "Nosotros": "parlemos",
+      "Vosotros": "parléis",
+      "EllosEllasUstedes": "parlen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "parlara",
+      "Tu": "parlaras",
+      "ElEllaUsted": "parlara",
+      "Nosotros": "parlaramos",
+      "Vosotros": "parlarais",
+      "EllosEllasUstedes": "parlaran"
+    }
+  },
+  "Name": "parlar",
+  "EnglishMeaning": "to chatter",
+  "PresentParticipleTranslation": "chattering",
+  "PastParticipleTranslation": "chattered"
+}

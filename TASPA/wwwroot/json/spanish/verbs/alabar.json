@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "alabando",
-    "PastParticiple": "alabado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "alabo",
-            "Tu": "alabas",
-            "ElEllaUsted": "alaba",
-            "Nosotros": "alabamos",
-            "Vosotros": "alabáis",
-            "EllosEllasUstedes": "alaban"
-        },
-        "Pretérito": {
-            "Yo": "alabé",
-            "Tu": "alabaste",
-            "ElEllaUsted": "alabó",
-            "Nosotros": "alabamos",
-            "Vosotros": "alabasteis",
-            "EllosEllasUstedes": "alabaron"
-        },
-        "Imperfect": {
-            "Yo": "alababa",
-            "Tu": "alababas",
-            "ElEllaUsted": "alababa",
-            "Nosotros": "alabábamos",
-            "Vosotros": "alababais",
-            "EllosEllasUstedes": "alababan"
-        },
-        "Conditional": {
-            "Yo": "alabaría",
-            "Tu": "alabarías",
-            "ElEllaUsted": "alabaría",
-            "Nosotros": "alabaríamos",
-            "Vosotros": "alabaríais",
-            "EllosEllasUstedes": "alabarían"
-        },
-        "Future": {
-            "Yo": "alabaré",
-            "Tu": "alabarás",
-            "ElEllaUsted": "alabará",
-            "Nosotros": "alabaremos",
-            "Vosotros": "alabaréis",
-            "EllosEllasUstedes": "alabarán"
-        }
+  "PresentParticiple": "alabando",
+  "PastParticiple": "alabado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "alabo",
+      "Tu": "alabas",
+      "ElEllaUsted": "alaba",
+      "Nosotros": "alabamos",
+      "Vosotros": "alabáis",
+      "EllosEllasUstedes": "alaban"
     },
-    "Subjunctive": null,
-    "Name": "alabar",
-    "EnglishMeaning": "to praise"
+    "Pretérito": {
+      "Yo": "alabé",
+      "Tu": "alabaste",
+      "ElEllaUsted": "alabó",
+      "Nosotros": "alabamos",
+      "Vosotros": "alabasteis",
+      "EllosEllasUstedes": "alabaron"
+    },
+    "Imperfect": {
+      "Yo": "alababa",
+      "Tu": "alababas",
+      "ElEllaUsted": "alababa",
+      "Nosotros": "alabábamos",
+      "Vosotros": "alababais",
+      "EllosEllasUstedes": "alababan"
+    },
+    "Conditional": {
+      "Yo": "alabaría",
+      "Tu": "alabarías",
+      "ElEllaUsted": "alabaría",
+      "Nosotros": "alabaríamos",
+      "Vosotros": "alabaríais",
+      "EllosEllasUstedes": "alabarían"
+    },
+    "Future": {
+      "Yo": "alabaré",
+      "Tu": "alabarás",
+      "ElEllaUsted": "alabará",
+      "Nosotros": "alabaremos",
+      "Vosotros": "alabaréis",
+      "EllosEllasUstedes": "alabarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "alabe",
+      "Tu": "alabes",
+      "ElEllaUsted": "alabe",
+      "Nosotros": "alabemos",
+      "Vosotros": "alabéis",
+      "EllosEllasUstedes": "alaben"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "alabara",
+      "Tu": "alabaras",
+      "ElEllaUsted": "alabara",
+      "Nosotros": "alabaramos",
+      "Vosotros": "alabarais",
+      "EllosEllasUstedes": "alabaran"
+    }
+  },
+  "Name": "alabar",
+  "EnglishMeaning": "to praise"
 }

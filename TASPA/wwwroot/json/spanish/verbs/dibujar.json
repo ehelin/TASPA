@@ -1,1 +1,68 @@
-{"PresentParticiple":"dibujando&translation=drawing","PastParticiple":"dibujado&translation=drawn","Indicative":{"PresentTense":{"Yo":"dibujo","Tu":"dibujas","ElEllaUsted":"dibuja","Nosotros":"dibujamos","Vosotros":"dibujáis","EllosEllasUstedes":"dibujan"},"Pretérito":{"Yo":"dibujé","Tu":"dibujaste","ElEllaUsted":"dibujó","Nosotros":"dibujamos","Vosotros":"dibujasteis","EllosEllasUstedes":"dibujaron"},"Imperfect":{"Yo":"dibujaba","Tu":"dibujabas","ElEllaUsted":"dibujaba","Nosotros":"dibujábamos","Vosotros":"dibujabais","EllosEllasUstedes":"dibujaban"},"Conditional":{"Yo":"dibujaría","Tu":"dibujarías","ElEllaUsted":"dibujaría","Nosotros":"dibujaríamos","Vosotros":"dibujaríais","EllosEllasUstedes":"dibujarían"},"Future":{"Yo":"dibujaré","Tu":"dibujarás","ElEllaUsted":"dibujará","Nosotros":"dibujaremos","Vosotros":"dibujaréis","EllosEllasUstedes":"dibujarán"}},"Subjunctive":null,"Name":"dibujar","EnglishMeaning":"to draw"}
+{
+  "PresentParticiple": "dibujando",
+  "PastParticiple": "dibujado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "dibujo",
+      "Tu": "dibujas",
+      "ElEllaUsted": "dibuja",
+      "Nosotros": "dibujamos",
+      "Vosotros": "dibujáis",
+      "EllosEllasUstedes": "dibujan"
+    },
+    "Pretérito": {
+      "Yo": "dibujé",
+      "Tu": "dibujaste",
+      "ElEllaUsted": "dibujó",
+      "Nosotros": "dibujamos",
+      "Vosotros": "dibujasteis",
+      "EllosEllasUstedes": "dibujaron"
+    },
+    "Imperfect": {
+      "Yo": "dibujaba",
+      "Tu": "dibujabas",
+      "ElEllaUsted": "dibujaba",
+      "Nosotros": "dibujábamos",
+      "Vosotros": "dibujabais",
+      "EllosEllasUstedes": "dibujaban"
+    },
+    "Conditional": {
+      "Yo": "dibujaría",
+      "Tu": "dibujarías",
+      "ElEllaUsted": "dibujaría",
+      "Nosotros": "dibujaríamos",
+      "Vosotros": "dibujaríais",
+      "EllosEllasUstedes": "dibujarían"
+    },
+    "Future": {
+      "Yo": "dibujaré",
+      "Tu": "dibujarás",
+      "ElEllaUsted": "dibujará",
+      "Nosotros": "dibujaremos",
+      "Vosotros": "dibujaréis",
+      "EllosEllasUstedes": "dibujarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "dibuje",
+      "Tu": "dibujes",
+      "ElEllaUsted": "dibuje",
+      "Nosotros": "dibujemos",
+      "Vosotros": "dibujéis",
+      "EllosEllasUstedes": "dibujen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dibujara",
+      "Tu": "dibujaras",
+      "ElEllaUsted": "dibujara",
+      "Nosotros": "dibujaramos",
+      "Vosotros": "dibujarais",
+      "EllosEllasUstedes": "dibujaran"
+    }
+  },
+  "Name": "dibujar",
+  "EnglishMeaning": "to draw",
+  "PresentParticipleTranslation": "drawing",
+  "PastParticipleTranslation": "drawn"
+}

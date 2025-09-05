@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "apostando",
-    "PastParticiple": "apostado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "aposto",
-            "Tu": "apostas",
-            "ElEllaUsted": "aposta",
-            "Nosotros": "apostamos",
-            "Vosotros": "apostáis",
-            "EllosEllasUstedes": "apostan"
-        },
-        "Pretérito": {
-            "Yo": "aposté",
-            "Tu": "apostaste",
-            "ElEllaUsted": "apostó",
-            "Nosotros": "apostamos",
-            "Vosotros": "apostasteis",
-            "EllosEllasUstedes": "apostaron"
-        },
-        "Imperfect": {
-            "Yo": "apostaba",
-            "Tu": "apostabas",
-            "ElEllaUsted": "apostaba",
-            "Nosotros": "apostábamos",
-            "Vosotros": "apostabais",
-            "EllosEllasUstedes": "apostaban"
-        },
-        "Conditional": {
-            "Yo": "apostaría",
-            "Tu": "apostarías",
-            "ElEllaUsted": "apostaría",
-            "Nosotros": "apostaríamos",
-            "Vosotros": "apostaríais",
-            "EllosEllasUstedes": "apostarían"
-        },
-        "Future": {
-            "Yo": "apostaré",
-            "Tu": "apostarás",
-            "ElEllaUsted": "apostará",
-            "Nosotros": "apostaremos",
-            "Vosotros": "apostaréis",
-            "EllosEllasUstedes": "apostarán"
-        }
+  "PresentParticiple": "apostando",
+  "PastParticiple": "apostado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aposto",
+      "Tu": "apostas",
+      "ElEllaUsted": "aposta",
+      "Nosotros": "apostamos",
+      "Vosotros": "apostáis",
+      "EllosEllasUstedes": "apostan"
     },
-    "Subjunctive": null,
-    "Name": "apostar",
-    "EnglishMeaning": "to bet"
+    "Pretérito": {
+      "Yo": "aposté",
+      "Tu": "apostaste",
+      "ElEllaUsted": "apostó",
+      "Nosotros": "apostamos",
+      "Vosotros": "apostasteis",
+      "EllosEllasUstedes": "apostaron"
+    },
+    "Imperfect": {
+      "Yo": "apostaba",
+      "Tu": "apostabas",
+      "ElEllaUsted": "apostaba",
+      "Nosotros": "apostábamos",
+      "Vosotros": "apostabais",
+      "EllosEllasUstedes": "apostaban"
+    },
+    "Conditional": {
+      "Yo": "apostaría",
+      "Tu": "apostarías",
+      "ElEllaUsted": "apostaría",
+      "Nosotros": "apostaríamos",
+      "Vosotros": "apostaríais",
+      "EllosEllasUstedes": "apostarían"
+    },
+    "Future": {
+      "Yo": "apostaré",
+      "Tu": "apostarás",
+      "ElEllaUsted": "apostará",
+      "Nosotros": "apostaremos",
+      "Vosotros": "apostaréis",
+      "EllosEllasUstedes": "apostarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aposte",
+      "Tu": "apostes",
+      "ElEllaUsted": "aposte",
+      "Nosotros": "apostemos",
+      "Vosotros": "apostéis",
+      "EllosEllasUstedes": "aposten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "apostara",
+      "Tu": "apostaras",
+      "ElEllaUsted": "apostara",
+      "Nosotros": "apostaramos",
+      "Vosotros": "apostarais",
+      "EllosEllasUstedes": "apostaran"
+    }
+  },
+  "Name": "apostar",
+  "EnglishMeaning": "to bet"
 }

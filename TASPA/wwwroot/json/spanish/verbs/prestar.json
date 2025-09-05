@@ -1,1 +1,68 @@
-{"PresentParticiple":"prestando&translation=lending","PastParticiple":"prestado&translation=lent","Indicative":{"PresentTense":{"Yo":"presto","Tu":"prestas","ElEllaUsted":"presta","Nosotros":"prestamos","Vosotros":"prestáis","EllosEllasUstedes":"prestan"},"Pretérito":{"Yo":"presté","Tu":"prestaste","ElEllaUsted":"prestó","Nosotros":"prestamos","Vosotros":"prestasteis","EllosEllasUstedes":"prestaron"},"Imperfect":{"Yo":"prestaba","Tu":"prestabas","ElEllaUsted":"prestaba","Nosotros":"prestábamos","Vosotros":"prestabais","EllosEllasUstedes":"prestaban"},"Conditional":{"Yo":"prestaría","Tu":"prestarías","ElEllaUsted":"prestaría","Nosotros":"prestaríamos","Vosotros":"prestaríais","EllosEllasUstedes":"prestarían"},"Future":{"Yo":"prestaré","Tu":"prestarás","ElEllaUsted":"prestará","Nosotros":"prestaremos","Vosotros":"prestaréis","EllosEllasUstedes":"prestarán"}},"Subjunctive":null,"Name":"prestar","EnglishMeaning":"to lend"}
+{
+  "PresentParticiple": "prestando",
+  "PastParticiple": "prestado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "presto",
+      "Tu": "prestas",
+      "ElEllaUsted": "presta",
+      "Nosotros": "prestamos",
+      "Vosotros": "prestáis",
+      "EllosEllasUstedes": "prestan"
+    },
+    "Pretérito": {
+      "Yo": "presté",
+      "Tu": "prestaste",
+      "ElEllaUsted": "prestó",
+      "Nosotros": "prestamos",
+      "Vosotros": "prestasteis",
+      "EllosEllasUstedes": "prestaron"
+    },
+    "Imperfect": {
+      "Yo": "prestaba",
+      "Tu": "prestabas",
+      "ElEllaUsted": "prestaba",
+      "Nosotros": "prestábamos",
+      "Vosotros": "prestabais",
+      "EllosEllasUstedes": "prestaban"
+    },
+    "Conditional": {
+      "Yo": "prestaría",
+      "Tu": "prestarías",
+      "ElEllaUsted": "prestaría",
+      "Nosotros": "prestaríamos",
+      "Vosotros": "prestaríais",
+      "EllosEllasUstedes": "prestarían"
+    },
+    "Future": {
+      "Yo": "prestaré",
+      "Tu": "prestarás",
+      "ElEllaUsted": "prestará",
+      "Nosotros": "prestaremos",
+      "Vosotros": "prestaréis",
+      "EllosEllasUstedes": "prestarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "preste",
+      "Tu": "prestes",
+      "ElEllaUsted": "preste",
+      "Nosotros": "prestemos",
+      "Vosotros": "prestéis",
+      "EllosEllasUstedes": "presten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "prestara",
+      "Tu": "prestaras",
+      "ElEllaUsted": "prestara",
+      "Nosotros": "prestaramos",
+      "Vosotros": "prestarais",
+      "EllosEllasUstedes": "prestaran"
+    }
+  },
+  "Name": "prestar",
+  "EnglishMeaning": "to lend",
+  "PresentParticipleTranslation": "lending",
+  "PastParticipleTranslation": "lent"
+}

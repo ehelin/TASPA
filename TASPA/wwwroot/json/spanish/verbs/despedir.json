@@ -1,1 +1,66 @@
-{"PresentParticiple":"despidiendo","PastParticiple":"despedido","Indicative":{"PresentTense":{"Yo":"despido","Tu":"despides","ElEllaUsted":"despide","Nosotros":"despedimos","Vosotros":"despedís","EllosEllasUstedes":"despiden"},"Pretérito":{"Yo":"despedí","Tu":"despediste","ElEllaUsted":"despidió","Nosotros":"despedimos","Vosotros":"despedisteis","EllosEllasUstedes":"despidieron"},"Imperfect":{"Yo":"despedía","Tu":"despedías","ElEllaUsted":"despedía","Nosotros":"despedíamos","Vosotros":"despedíais","EllosEllasUstedes":"despedían"},"Conditional":{"Yo":"despediría","Tu":"despedirías","ElEllaUsted":"despediría","Nosotros":"despediríamos","Vosotros":"despediríais","EllosEllasUstedes":"despedirían"},"Future":{"Yo":"despediré","Tu":"despedirás","ElEllaUsted":"despedirá","Nosotros":"despediremos","Vosotros":"despediréis","EllosEllasUstedes":"despedirán"}},"Subjunctive":null,"Name":"despedir","EnglishMeaning":"to say goodbye to"}
+{
+  "PresentParticiple": "despidiendo",
+  "PastParticiple": "despedido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "despido",
+      "Tu": "despides",
+      "ElEllaUsted": "despide",
+      "Nosotros": "despedimos",
+      "Vosotros": "despedís",
+      "EllosEllasUstedes": "despiden"
+    },
+    "Pretérito": {
+      "Yo": "despedí",
+      "Tu": "despediste",
+      "ElEllaUsted": "despidió",
+      "Nosotros": "despedimos",
+      "Vosotros": "despedisteis",
+      "EllosEllasUstedes": "despidieron"
+    },
+    "Imperfect": {
+      "Yo": "despedía",
+      "Tu": "despedías",
+      "ElEllaUsted": "despedía",
+      "Nosotros": "despedíamos",
+      "Vosotros": "despedíais",
+      "EllosEllasUstedes": "despedían"
+    },
+    "Conditional": {
+      "Yo": "despediría",
+      "Tu": "despedirías",
+      "ElEllaUsted": "despediría",
+      "Nosotros": "despediríamos",
+      "Vosotros": "despediríais",
+      "EllosEllasUstedes": "despedirían"
+    },
+    "Future": {
+      "Yo": "despediré",
+      "Tu": "despedirás",
+      "ElEllaUsted": "despedirá",
+      "Nosotros": "despediremos",
+      "Vosotros": "despediréis",
+      "EllosEllasUstedes": "despedirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "despida",
+      "Tu": "despidas",
+      "ElEllaUsted": "despida",
+      "Nosotros": "despidamos",
+      "Vosotros": "despidáis",
+      "EllosEllasUstedes": "despidan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "despidiea",
+      "Tu": "despidieas",
+      "ElEllaUsted": "despidiea",
+      "Nosotros": "despidieamos",
+      "Vosotros": "despidieais",
+      "EllosEllasUstedes": "despidiean"
+    }
+  },
+  "Name": "despedir",
+  "EnglishMeaning": "to say goodbye to"
+}

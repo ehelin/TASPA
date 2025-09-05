@@ -1,1 +1,68 @@
-{"PresentParticiple":"caminando&translation=walking","PastParticiple":"caminado&translation=walked","Indicative":{"PresentTense":{"Yo":"camino","Tu":"caminas","ElEllaUsted":"camina","Nosotros":"caminamos","Vosotros":"camináis","EllosEllasUstedes":"caminan"},"Pretérito":{"Yo":"caminé","Tu":"caminaste","ElEllaUsted":"caminó","Nosotros":"caminamos","Vosotros":"caminasteis","EllosEllasUstedes":"caminaron"},"Imperfect":{"Yo":"caminaba","Tu":"caminabas","ElEllaUsted":"caminaba","Nosotros":"caminábamos","Vosotros":"caminabais","EllosEllasUstedes":"caminaban"},"Conditional":{"Yo":"caminaría","Tu":"caminarías","ElEllaUsted":"caminaría","Nosotros":"caminaríamos","Vosotros":"caminaríais","EllosEllasUstedes":"caminarían"},"Future":{"Yo":"caminaré","Tu":"caminarás","ElEllaUsted":"caminará","Nosotros":"caminaremos","Vosotros":"caminaréis","EllosEllasUstedes":"caminarán"}},"Subjunctive":null,"Name":"caminar","EnglishMeaning":"to walk"}
+{
+  "PresentParticiple": "caminando",
+  "PastParticiple": "caminado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "camino",
+      "Tu": "caminas",
+      "ElEllaUsted": "camina",
+      "Nosotros": "caminamos",
+      "Vosotros": "camináis",
+      "EllosEllasUstedes": "caminan"
+    },
+    "Pretérito": {
+      "Yo": "caminé",
+      "Tu": "caminaste",
+      "ElEllaUsted": "caminó",
+      "Nosotros": "caminamos",
+      "Vosotros": "caminasteis",
+      "EllosEllasUstedes": "caminaron"
+    },
+    "Imperfect": {
+      "Yo": "caminaba",
+      "Tu": "caminabas",
+      "ElEllaUsted": "caminaba",
+      "Nosotros": "caminábamos",
+      "Vosotros": "caminabais",
+      "EllosEllasUstedes": "caminaban"
+    },
+    "Conditional": {
+      "Yo": "caminaría",
+      "Tu": "caminarías",
+      "ElEllaUsted": "caminaría",
+      "Nosotros": "caminaríamos",
+      "Vosotros": "caminaríais",
+      "EllosEllasUstedes": "caminarían"
+    },
+    "Future": {
+      "Yo": "caminaré",
+      "Tu": "caminarás",
+      "ElEllaUsted": "caminará",
+      "Nosotros": "caminaremos",
+      "Vosotros": "caminaréis",
+      "EllosEllasUstedes": "caminarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "camine",
+      "Tu": "camines",
+      "ElEllaUsted": "camine",
+      "Nosotros": "caminemos",
+      "Vosotros": "caminéis",
+      "EllosEllasUstedes": "caminen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "caminara",
+      "Tu": "caminaras",
+      "ElEllaUsted": "caminara",
+      "Nosotros": "caminaramos",
+      "Vosotros": "caminarais",
+      "EllosEllasUstedes": "caminaran"
+    }
+  },
+  "Name": "caminar",
+  "EnglishMeaning": "to walk",
+  "PresentParticipleTranslation": "walking",
+  "PastParticipleTranslation": "walked"
+}

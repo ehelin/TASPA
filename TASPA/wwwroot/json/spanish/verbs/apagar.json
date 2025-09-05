@@ -1,1 +1,66 @@
-{"PresentParticiple":"apagando","PastParticiple":"apagado","Indicative":{"PresentTense":{"Yo":"apago","Tu":"apagas","ElEllaUsted":"apaga","Nosotros":"apagamos","Vosotros":"apagáis","EllosEllasUstedes":"apagan"},"Pretérito":{"Yo":"apagué","Tu":"apagaste","ElEllaUsted":"apagó","Nosotros":"apagamos","Vosotros":"apagasteis","EllosEllasUstedes":"apagaron"},"Imperfect":{"Yo":"apagaba","Tu":"apagabas","ElEllaUsted":"apagaba","Nosotros":"apagábamos","Vosotros":"apagabais","EllosEllasUstedes":"apagaban"},"Conditional":{"Yo":"apagaría","Tu":"apagarías","ElEllaUsted":"apagaría","Nosotros":"apagaríamos","Vosotros":"apagaríais","EllosEllasUstedes":"apagarían"},"Future":{"Yo":"apagaré","Tu":"apagarás","ElEllaUsted":"apagará","Nosotros":"apagaremos","Vosotros":"apagaréis","EllosEllasUstedes":"apagarán"}},"Subjunctive":null,"Name":"apagar","EnglishMeaning":"to turn off"}
+{
+  "PresentParticiple": "apagando",
+  "PastParticiple": "apagado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "apago",
+      "Tu": "apagas",
+      "ElEllaUsted": "apaga",
+      "Nosotros": "apagamos",
+      "Vosotros": "apagáis",
+      "EllosEllasUstedes": "apagan"
+    },
+    "Pretérito": {
+      "Yo": "apagué",
+      "Tu": "apagaste",
+      "ElEllaUsted": "apagó",
+      "Nosotros": "apagamos",
+      "Vosotros": "apagasteis",
+      "EllosEllasUstedes": "apagaron"
+    },
+    "Imperfect": {
+      "Yo": "apagaba",
+      "Tu": "apagabas",
+      "ElEllaUsted": "apagaba",
+      "Nosotros": "apagábamos",
+      "Vosotros": "apagabais",
+      "EllosEllasUstedes": "apagaban"
+    },
+    "Conditional": {
+      "Yo": "apagaría",
+      "Tu": "apagarías",
+      "ElEllaUsted": "apagaría",
+      "Nosotros": "apagaríamos",
+      "Vosotros": "apagaríais",
+      "EllosEllasUstedes": "apagarían"
+    },
+    "Future": {
+      "Yo": "apagaré",
+      "Tu": "apagarás",
+      "ElEllaUsted": "apagará",
+      "Nosotros": "apagaremos",
+      "Vosotros": "apagaréis",
+      "EllosEllasUstedes": "apagarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "apage",
+      "Tu": "apages",
+      "ElEllaUsted": "apage",
+      "Nosotros": "apagemos",
+      "Vosotros": "apagéis",
+      "EllosEllasUstedes": "apagen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "apagara",
+      "Tu": "apagaras",
+      "ElEllaUsted": "apagara",
+      "Nosotros": "apagaramos",
+      "Vosotros": "apagarais",
+      "EllosEllasUstedes": "apagaran"
+    }
+  },
+  "Name": "apagar",
+  "EnglishMeaning": "to turn off"
+}

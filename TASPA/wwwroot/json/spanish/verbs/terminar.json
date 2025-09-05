@@ -1,1 +1,68 @@
-{"PresentParticiple":"terminando&translation=ending","PastParticiple":"terminado&translation=ended","Indicative":{"PresentTense":{"Yo":"termino","Tu":"terminas","ElEllaUsted":"termina","Nosotros":"terminamos","Vosotros":"termináis","EllosEllasUstedes":"terminan"},"Pretérito":{"Yo":"terminé","Tu":"terminaste","ElEllaUsted":"terminó","Nosotros":"terminamos","Vosotros":"terminasteis","EllosEllasUstedes":"terminaron"},"Imperfect":{"Yo":"terminaba","Tu":"terminabas","ElEllaUsted":"terminaba","Nosotros":"terminábamos","Vosotros":"terminabais","EllosEllasUstedes":"terminaban"},"Conditional":{"Yo":"terminaría","Tu":"terminarías","ElEllaUsted":"terminaría","Nosotros":"terminaríamos","Vosotros":"terminaríais","EllosEllasUstedes":"terminarían"},"Future":{"Yo":"terminaré","Tu":"terminarás","ElEllaUsted":"terminará","Nosotros":"terminaremos","Vosotros":"terminaréis","EllosEllasUstedes":"terminarán"}},"Subjunctive":null,"Name":"terminar","EnglishMeaning":"to end"}
+{
+  "PresentParticiple": "terminando",
+  "PastParticiple": "terminado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "termino",
+      "Tu": "terminas",
+      "ElEllaUsted": "termina",
+      "Nosotros": "terminamos",
+      "Vosotros": "termináis",
+      "EllosEllasUstedes": "terminan"
+    },
+    "Pretérito": {
+      "Yo": "terminé",
+      "Tu": "terminaste",
+      "ElEllaUsted": "terminó",
+      "Nosotros": "terminamos",
+      "Vosotros": "terminasteis",
+      "EllosEllasUstedes": "terminaron"
+    },
+    "Imperfect": {
+      "Yo": "terminaba",
+      "Tu": "terminabas",
+      "ElEllaUsted": "terminaba",
+      "Nosotros": "terminábamos",
+      "Vosotros": "terminabais",
+      "EllosEllasUstedes": "terminaban"
+    },
+    "Conditional": {
+      "Yo": "terminaría",
+      "Tu": "terminarías",
+      "ElEllaUsted": "terminaría",
+      "Nosotros": "terminaríamos",
+      "Vosotros": "terminaríais",
+      "EllosEllasUstedes": "terminarían"
+    },
+    "Future": {
+      "Yo": "terminaré",
+      "Tu": "terminarás",
+      "ElEllaUsted": "terminará",
+      "Nosotros": "terminaremos",
+      "Vosotros": "terminaréis",
+      "EllosEllasUstedes": "terminarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "termine",
+      "Tu": "termines",
+      "ElEllaUsted": "termine",
+      "Nosotros": "terminemos",
+      "Vosotros": "terminéis",
+      "EllosEllasUstedes": "terminen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "terminara",
+      "Tu": "terminaras",
+      "ElEllaUsted": "terminara",
+      "Nosotros": "terminaramos",
+      "Vosotros": "terminarais",
+      "EllosEllasUstedes": "terminaran"
+    }
+  },
+  "Name": "terminar",
+  "EnglishMeaning": "to end",
+  "PresentParticipleTranslation": "ending",
+  "PastParticipleTranslation": "ended"
+}

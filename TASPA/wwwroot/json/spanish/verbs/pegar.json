@@ -1,1 +1,68 @@
-{"PresentParticiple":"pegando&translation=hitting","PastParticiple":"pegado&translation=hit","Indicative":{"PresentTense":{"Yo":"pego","Tu":"pegas","ElEllaUsted":"pega","Nosotros":"pegamos","Vosotros":"pegáis","EllosEllasUstedes":"pegan"},"Pretérito":{"Yo":"pegué","Tu":"pegaste","ElEllaUsted":"pegó","Nosotros":"pegamos","Vosotros":"pegasteis","EllosEllasUstedes":"pegaron"},"Imperfect":{"Yo":"pegaba","Tu":"pegabas","ElEllaUsted":"pegaba","Nosotros":"pegábamos","Vosotros":"pegabais","EllosEllasUstedes":"pegaban"},"Conditional":{"Yo":"pegaría","Tu":"pegarías","ElEllaUsted":"pegaría","Nosotros":"pegaríamos","Vosotros":"pegaríais","EllosEllasUstedes":"pegarían"},"Future":{"Yo":"pegaré","Tu":"pegarás","ElEllaUsted":"pegará","Nosotros":"pegaremos","Vosotros":"pegaréis","EllosEllasUstedes":"pegarán"}},"Subjunctive":null,"Name":"pegar","EnglishMeaning":"to hit"}
+{
+  "PresentParticiple": "pegando",
+  "PastParticiple": "pegado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pego",
+      "Tu": "pegas",
+      "ElEllaUsted": "pega",
+      "Nosotros": "pegamos",
+      "Vosotros": "pegáis",
+      "EllosEllasUstedes": "pegan"
+    },
+    "Pretérito": {
+      "Yo": "pegué",
+      "Tu": "pegaste",
+      "ElEllaUsted": "pegó",
+      "Nosotros": "pegamos",
+      "Vosotros": "pegasteis",
+      "EllosEllasUstedes": "pegaron"
+    },
+    "Imperfect": {
+      "Yo": "pegaba",
+      "Tu": "pegabas",
+      "ElEllaUsted": "pegaba",
+      "Nosotros": "pegábamos",
+      "Vosotros": "pegabais",
+      "EllosEllasUstedes": "pegaban"
+    },
+    "Conditional": {
+      "Yo": "pegaría",
+      "Tu": "pegarías",
+      "ElEllaUsted": "pegaría",
+      "Nosotros": "pegaríamos",
+      "Vosotros": "pegaríais",
+      "EllosEllasUstedes": "pegarían"
+    },
+    "Future": {
+      "Yo": "pegaré",
+      "Tu": "pegarás",
+      "ElEllaUsted": "pegará",
+      "Nosotros": "pegaremos",
+      "Vosotros": "pegaréis",
+      "EllosEllasUstedes": "pegarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pege",
+      "Tu": "peges",
+      "ElEllaUsted": "pege",
+      "Nosotros": "pegemos",
+      "Vosotros": "pegéis",
+      "EllosEllasUstedes": "pegen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pegara",
+      "Tu": "pegaras",
+      "ElEllaUsted": "pegara",
+      "Nosotros": "pegaramos",
+      "Vosotros": "pegarais",
+      "EllosEllasUstedes": "pegaran"
+    }
+  },
+  "Name": "pegar",
+  "EnglishMeaning": "to hit",
+  "PresentParticipleTranslation": "hitting",
+  "PastParticipleTranslation": "hit"
+}

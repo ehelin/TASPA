@@ -1,1 +1,68 @@
-{"PresentParticiple":"fracasando&translation=failing","PastParticiple":"fracasado&translation=failed","Indicative":{"PresentTense":{"Yo":"fracaso","Tu":"fracasas","ElEllaUsted":"fracasa","Nosotros":"fracasamos","Vosotros":"fracasáis","EllosEllasUstedes":"fracasan"},"Pretérito":{"Yo":"fracasé","Tu":"fracasaste","ElEllaUsted":"fracasó","Nosotros":"fracasamos","Vosotros":"fracasasteis","EllosEllasUstedes":"fracasaron"},"Imperfect":{"Yo":"fracasaba","Tu":"fracasabas","ElEllaUsted":"fracasaba","Nosotros":"fracasábamos","Vosotros":"fracasabais","EllosEllasUstedes":"fracasaban"},"Conditional":{"Yo":"fracasaría","Tu":"fracasarías","ElEllaUsted":"fracasaría","Nosotros":"fracasaríamos","Vosotros":"fracasaríais","EllosEllasUstedes":"fracasarían"},"Future":{"Yo":"fracasaré","Tu":"fracasarás","ElEllaUsted":"fracasará","Nosotros":"fracasaremos","Vosotros":"fracasaréis","EllosEllasUstedes":"fracasarán"}},"Subjunctive":null,"Name":"fracasar","EnglishMeaning":"to fail"}
+{
+  "PresentParticiple": "fracasando",
+  "PastParticiple": "fracasado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "fracaso",
+      "Tu": "fracasas",
+      "ElEllaUsted": "fracasa",
+      "Nosotros": "fracasamos",
+      "Vosotros": "fracasáis",
+      "EllosEllasUstedes": "fracasan"
+    },
+    "Pretérito": {
+      "Yo": "fracasé",
+      "Tu": "fracasaste",
+      "ElEllaUsted": "fracasó",
+      "Nosotros": "fracasamos",
+      "Vosotros": "fracasasteis",
+      "EllosEllasUstedes": "fracasaron"
+    },
+    "Imperfect": {
+      "Yo": "fracasaba",
+      "Tu": "fracasabas",
+      "ElEllaUsted": "fracasaba",
+      "Nosotros": "fracasábamos",
+      "Vosotros": "fracasabais",
+      "EllosEllasUstedes": "fracasaban"
+    },
+    "Conditional": {
+      "Yo": "fracasaría",
+      "Tu": "fracasarías",
+      "ElEllaUsted": "fracasaría",
+      "Nosotros": "fracasaríamos",
+      "Vosotros": "fracasaríais",
+      "EllosEllasUstedes": "fracasarían"
+    },
+    "Future": {
+      "Yo": "fracasaré",
+      "Tu": "fracasarás",
+      "ElEllaUsted": "fracasará",
+      "Nosotros": "fracasaremos",
+      "Vosotros": "fracasaréis",
+      "EllosEllasUstedes": "fracasarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "fracase",
+      "Tu": "fracases",
+      "ElEllaUsted": "fracase",
+      "Nosotros": "fracasemos",
+      "Vosotros": "fracaséis",
+      "EllosEllasUstedes": "fracasen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "fracasara",
+      "Tu": "fracasaras",
+      "ElEllaUsted": "fracasara",
+      "Nosotros": "fracasaramos",
+      "Vosotros": "fracasarais",
+      "EllosEllasUstedes": "fracasaran"
+    }
+  },
+  "Name": "fracasar",
+  "EnglishMeaning": "to fail",
+  "PresentParticipleTranslation": "failing",
+  "PastParticipleTranslation": "failed"
+}

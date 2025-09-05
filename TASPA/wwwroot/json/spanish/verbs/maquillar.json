@@ -1,1 +1,66 @@
-{"PresentParticiple":"maquillando","PastParticiple":"maquillado","Indicative":{"PresentTense":{"Yo":"maquillo","Tu":"maquillas","ElEllaUsted":"maquilla","Nosotros":"maquillamos","Vosotros":"maquilláis","EllosEllasUstedes":"maquillan"},"Pretérito":{"Yo":"maquillé","Tu":"maquillaste","ElEllaUsted":"maquilló","Nosotros":"maquillamos","Vosotros":"maquillasteis","EllosEllasUstedes":"maquillaron"},"Imperfect":{"Yo":"maquillaba","Tu":"maquillabas","ElEllaUsted":"maquillaba","Nosotros":"maquillábamos","Vosotros":"maquillabais","EllosEllasUstedes":"maquillaban"},"Conditional":{"Yo":"maquillaría","Tu":"maquillarías","ElEllaUsted":"maquillaría","Nosotros":"maquillaríamos","Vosotros":"maquillaríais","EllosEllasUstedes":"maquillarían"},"Future":{"Yo":"maquillaré","Tu":"maquillarás","ElEllaUsted":"maquillará","Nosotros":"maquillaremos","Vosotros":"maquillaréis","EllosEllasUstedes":"maquillarán"}},"Subjunctive":null,"Name":"maquillar","EnglishMeaning":"to make up"}
+{
+  "PresentParticiple": "maquillando",
+  "PastParticiple": "maquillado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "maquillo",
+      "Tu": "maquillas",
+      "ElEllaUsted": "maquilla",
+      "Nosotros": "maquillamos",
+      "Vosotros": "maquilláis",
+      "EllosEllasUstedes": "maquillan"
+    },
+    "Pretérito": {
+      "Yo": "maquillé",
+      "Tu": "maquillaste",
+      "ElEllaUsted": "maquilló",
+      "Nosotros": "maquillamos",
+      "Vosotros": "maquillasteis",
+      "EllosEllasUstedes": "maquillaron"
+    },
+    "Imperfect": {
+      "Yo": "maquillaba",
+      "Tu": "maquillabas",
+      "ElEllaUsted": "maquillaba",
+      "Nosotros": "maquillábamos",
+      "Vosotros": "maquillabais",
+      "EllosEllasUstedes": "maquillaban"
+    },
+    "Conditional": {
+      "Yo": "maquillaría",
+      "Tu": "maquillarías",
+      "ElEllaUsted": "maquillaría",
+      "Nosotros": "maquillaríamos",
+      "Vosotros": "maquillaríais",
+      "EllosEllasUstedes": "maquillarían"
+    },
+    "Future": {
+      "Yo": "maquillaré",
+      "Tu": "maquillarás",
+      "ElEllaUsted": "maquillará",
+      "Nosotros": "maquillaremos",
+      "Vosotros": "maquillaréis",
+      "EllosEllasUstedes": "maquillarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "maquille",
+      "Tu": "maquilles",
+      "ElEllaUsted": "maquille",
+      "Nosotros": "maquillemos",
+      "Vosotros": "maquilléis",
+      "EllosEllasUstedes": "maquillen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "maquillara",
+      "Tu": "maquillaras",
+      "ElEllaUsted": "maquillara",
+      "Nosotros": "maquillaramos",
+      "Vosotros": "maquillarais",
+      "EllosEllasUstedes": "maquillaran"
+    }
+  },
+  "Name": "maquillar",
+  "EnglishMeaning": "to make up"
+}

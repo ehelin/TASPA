@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "rodando",
-    "PastParticiple": "rodado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "rodo",
-            "Tu": "rodas",
-            "ElEllaUsted": "roda",
-            "Nosotros": "rodamos",
-            "Vosotros": "rodáis",
-            "EllosEllasUstedes": "rodan"
-        },
-        "Pretérito": {
-            "Yo": "rodé",
-            "Tu": "rodaste",
-            "ElEllaUsted": "rodó",
-            "Nosotros": "rodamos",
-            "Vosotros": "rodasteis",
-            "EllosEllasUstedes": "rodaron"
-        },
-        "Imperfect": {
-            "Yo": "rodaba",
-            "Tu": "rodabas",
-            "ElEllaUsted": "rodaba",
-            "Nosotros": "rodábamos",
-            "Vosotros": "rodabais",
-            "EllosEllasUstedes": "rodaban"
-        },
-        "Conditional": {
-            "Yo": "rodaría",
-            "Tu": "rodarías",
-            "ElEllaUsted": "rodaría",
-            "Nosotros": "rodaríamos",
-            "Vosotros": "rodaríais",
-            "EllosEllasUstedes": "rodarían"
-        },
-        "Future": {
-            "Yo": "rodaré",
-            "Tu": "rodarás",
-            "ElEllaUsted": "rodará",
-            "Nosotros": "rodaremos",
-            "Vosotros": "rodaréis",
-            "EllosEllasUstedes": "rodarán"
-        }
+  "PresentParticiple": "rodando",
+  "PastParticiple": "rodado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "rodo",
+      "Tu": "rodas",
+      "ElEllaUsted": "roda",
+      "Nosotros": "rodamos",
+      "Vosotros": "rodáis",
+      "EllosEllasUstedes": "rodan"
     },
-    "Subjunctive": null,
-    "Name": "rodar",
-    "EnglishMeaning": "to roll"
+    "Pretérito": {
+      "Yo": "rodé",
+      "Tu": "rodaste",
+      "ElEllaUsted": "rodó",
+      "Nosotros": "rodamos",
+      "Vosotros": "rodasteis",
+      "EllosEllasUstedes": "rodaron"
+    },
+    "Imperfect": {
+      "Yo": "rodaba",
+      "Tu": "rodabas",
+      "ElEllaUsted": "rodaba",
+      "Nosotros": "rodábamos",
+      "Vosotros": "rodabais",
+      "EllosEllasUstedes": "rodaban"
+    },
+    "Conditional": {
+      "Yo": "rodaría",
+      "Tu": "rodarías",
+      "ElEllaUsted": "rodaría",
+      "Nosotros": "rodaríamos",
+      "Vosotros": "rodaríais",
+      "EllosEllasUstedes": "rodarían"
+    },
+    "Future": {
+      "Yo": "rodaré",
+      "Tu": "rodarás",
+      "ElEllaUsted": "rodará",
+      "Nosotros": "rodaremos",
+      "Vosotros": "rodaréis",
+      "EllosEllasUstedes": "rodarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "rode",
+      "Tu": "rodes",
+      "ElEllaUsted": "rode",
+      "Nosotros": "rodemos",
+      "Vosotros": "rodéis",
+      "EllosEllasUstedes": "roden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "rodara",
+      "Tu": "rodaras",
+      "ElEllaUsted": "rodara",
+      "Nosotros": "rodaramos",
+      "Vosotros": "rodarais",
+      "EllosEllasUstedes": "rodaran"
+    }
+  },
+  "Name": "rodar",
+  "EnglishMeaning": "to roll"
 }

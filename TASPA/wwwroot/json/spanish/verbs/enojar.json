@@ -1,1 +1,68 @@
-{"PresentParticiple":"enojando&translation=angering","PastParticiple":"enojado&translation=angered","Indicative":{"PresentTense":{"Yo":"enojo","Tu":"enojas","ElEllaUsted":"enoja","Nosotros":"enojamos","Vosotros":"enojáis","EllosEllasUstedes":"enojan"},"Pretérito":{"Yo":"enojé","Tu":"enojaste","ElEllaUsted":"enojó","Nosotros":"enojamos","Vosotros":"enojasteis","EllosEllasUstedes":"enojaron"},"Imperfect":{"Yo":"enojaba","Tu":"enojabas","ElEllaUsted":"enojaba","Nosotros":"enojábamos","Vosotros":"enojabais","EllosEllasUstedes":"enojaban"},"Conditional":{"Yo":"enojaría","Tu":"enojarías","ElEllaUsted":"enojaría","Nosotros":"enojaríamos","Vosotros":"enojaríais","EllosEllasUstedes":"enojarían"},"Future":{"Yo":"enojaré","Tu":"enojarás","ElEllaUsted":"enojará","Nosotros":"enojaremos","Vosotros":"enojaréis","EllosEllasUstedes":"enojarán"}},"Subjunctive":null,"Name":"enojar","EnglishMeaning":"to anger"}
+{
+  "PresentParticiple": "enojando",
+  "PastParticiple": "enojado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "enojo",
+      "Tu": "enojas",
+      "ElEllaUsted": "enoja",
+      "Nosotros": "enojamos",
+      "Vosotros": "enojáis",
+      "EllosEllasUstedes": "enojan"
+    },
+    "Pretérito": {
+      "Yo": "enojé",
+      "Tu": "enojaste",
+      "ElEllaUsted": "enojó",
+      "Nosotros": "enojamos",
+      "Vosotros": "enojasteis",
+      "EllosEllasUstedes": "enojaron"
+    },
+    "Imperfect": {
+      "Yo": "enojaba",
+      "Tu": "enojabas",
+      "ElEllaUsted": "enojaba",
+      "Nosotros": "enojábamos",
+      "Vosotros": "enojabais",
+      "EllosEllasUstedes": "enojaban"
+    },
+    "Conditional": {
+      "Yo": "enojaría",
+      "Tu": "enojarías",
+      "ElEllaUsted": "enojaría",
+      "Nosotros": "enojaríamos",
+      "Vosotros": "enojaríais",
+      "EllosEllasUstedes": "enojarían"
+    },
+    "Future": {
+      "Yo": "enojaré",
+      "Tu": "enojarás",
+      "ElEllaUsted": "enojará",
+      "Nosotros": "enojaremos",
+      "Vosotros": "enojaréis",
+      "EllosEllasUstedes": "enojarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "enoje",
+      "Tu": "enojes",
+      "ElEllaUsted": "enoje",
+      "Nosotros": "enojemos",
+      "Vosotros": "enojéis",
+      "EllosEllasUstedes": "enojen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "enojara",
+      "Tu": "enojaras",
+      "ElEllaUsted": "enojara",
+      "Nosotros": "enojaramos",
+      "Vosotros": "enojarais",
+      "EllosEllasUstedes": "enojaran"
+    }
+  },
+  "Name": "enojar",
+  "EnglishMeaning": "to anger",
+  "PresentParticipleTranslation": "angering",
+  "PastParticipleTranslation": "angered"
+}

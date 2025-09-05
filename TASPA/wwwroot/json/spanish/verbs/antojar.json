@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "antojando",
-    "PastParticiple": "antojado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "antojo",
-            "Tu": "antojas",
-            "ElEllaUsted": "antoja",
-            "Nosotros": "antojamos",
-            "Vosotros": "antojáis",
-            "EllosEllasUstedes": "antojan"
-        },
-        "Pretérito": {
-            "Yo": "antojé",
-            "Tu": "antojaste",
-            "ElEllaUsted": "antojó",
-            "Nosotros": "antojamos",
-            "Vosotros": "antojasteis",
-            "EllosEllasUstedes": "antojaron"
-        },
-        "Imperfect": {
-            "Yo": "antojaba",
-            "Tu": "antojabas",
-            "ElEllaUsted": "antojaba",
-            "Nosotros": "antojábamos",
-            "Vosotros": "antojabais",
-            "EllosEllasUstedes": "antojaban"
-        },
-        "Conditional": {
-            "Yo": "antojaría",
-            "Tu": "antojarías",
-            "ElEllaUsted": "antojaría",
-            "Nosotros": "antojaríamos",
-            "Vosotros": "antojaríais",
-            "EllosEllasUstedes": "antojarían"
-        },
-        "Future": {
-            "Yo": "antojaré",
-            "Tu": "antojarás",
-            "ElEllaUsted": "antojará",
-            "Nosotros": "antojaremos",
-            "Vosotros": "antojaréis",
-            "EllosEllasUstedes": "antojarán"
-        }
+  "PresentParticiple": "antojando",
+  "PastParticiple": "antojado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "antojo",
+      "Tu": "antojas",
+      "ElEllaUsted": "antoja",
+      "Nosotros": "antojamos",
+      "Vosotros": "antojáis",
+      "EllosEllasUstedes": "antojan"
     },
-    "Subjunctive": null,
-    "Name": "antojar",
-    "EnglishMeaning": "to crave"
+    "Pretérito": {
+      "Yo": "antojé",
+      "Tu": "antojaste",
+      "ElEllaUsted": "antojó",
+      "Nosotros": "antojamos",
+      "Vosotros": "antojasteis",
+      "EllosEllasUstedes": "antojaron"
+    },
+    "Imperfect": {
+      "Yo": "antojaba",
+      "Tu": "antojabas",
+      "ElEllaUsted": "antojaba",
+      "Nosotros": "antojábamos",
+      "Vosotros": "antojabais",
+      "EllosEllasUstedes": "antojaban"
+    },
+    "Conditional": {
+      "Yo": "antojaría",
+      "Tu": "antojarías",
+      "ElEllaUsted": "antojaría",
+      "Nosotros": "antojaríamos",
+      "Vosotros": "antojaríais",
+      "EllosEllasUstedes": "antojarían"
+    },
+    "Future": {
+      "Yo": "antojaré",
+      "Tu": "antojarás",
+      "ElEllaUsted": "antojará",
+      "Nosotros": "antojaremos",
+      "Vosotros": "antojaréis",
+      "EllosEllasUstedes": "antojarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "antoje",
+      "Tu": "antojes",
+      "ElEllaUsted": "antoje",
+      "Nosotros": "antojemos",
+      "Vosotros": "antojéis",
+      "EllosEllasUstedes": "antojen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "antojara",
+      "Tu": "antojaras",
+      "ElEllaUsted": "antojara",
+      "Nosotros": "antojaramos",
+      "Vosotros": "antojarais",
+      "EllosEllasUstedes": "antojaran"
+    }
+  },
+  "Name": "antojar",
+  "EnglishMeaning": "to crave"
 }

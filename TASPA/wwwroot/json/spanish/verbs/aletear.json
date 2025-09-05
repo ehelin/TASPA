@@ -1,1 +1,66 @@
-{"PresentParticiple":"aleteando","PastParticiple":"aleteado","Indicative":{"PresentTense":{"Yo":"aleteo","Tu":"aleteas","ElEllaUsted":"aletea","Nosotros":"aleteamos","Vosotros":"aleteáis","EllosEllasUstedes":"aletean"},"Pretérito":{"Yo":"aleteé","Tu":"aleteaste","ElEllaUsted":"aleteó","Nosotros":"aleteamos","Vosotros":"aleteasteis","EllosEllasUstedes":"aletearon"},"Imperfect":{"Yo":"aleteaba","Tu":"aleteabas","ElEllaUsted":"aleteaba","Nosotros":"aleteábamos","Vosotros":"aleteabais","EllosEllasUstedes":"aleteaban"},"Conditional":{"Yo":"aletearía","Tu":"aletearías","ElEllaUsted":"aletearía","Nosotros":"aletearíamos","Vosotros":"aletearíais","EllosEllasUstedes":"aletearían"},"Future":{"Yo":"aletearé","Tu":"aletearás","ElEllaUsted":"aleteará","Nosotros":"aletearemos","Vosotros":"aletearéis","EllosEllasUstedes":"aletearán"}},"Subjunctive":null,"Name":"aletear","EnglishMeaning":"to flap its wings"}
+{
+  "PresentParticiple": "aleteando",
+  "PastParticiple": "aleteado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aleteo",
+      "Tu": "aleteas",
+      "ElEllaUsted": "aletea",
+      "Nosotros": "aleteamos",
+      "Vosotros": "aleteáis",
+      "EllosEllasUstedes": "aletean"
+    },
+    "Pretérito": {
+      "Yo": "aleteé",
+      "Tu": "aleteaste",
+      "ElEllaUsted": "aleteó",
+      "Nosotros": "aleteamos",
+      "Vosotros": "aleteasteis",
+      "EllosEllasUstedes": "aletearon"
+    },
+    "Imperfect": {
+      "Yo": "aleteaba",
+      "Tu": "aleteabas",
+      "ElEllaUsted": "aleteaba",
+      "Nosotros": "aleteábamos",
+      "Vosotros": "aleteabais",
+      "EllosEllasUstedes": "aleteaban"
+    },
+    "Conditional": {
+      "Yo": "aletearía",
+      "Tu": "aletearías",
+      "ElEllaUsted": "aletearía",
+      "Nosotros": "aletearíamos",
+      "Vosotros": "aletearíais",
+      "EllosEllasUstedes": "aletearían"
+    },
+    "Future": {
+      "Yo": "aletearé",
+      "Tu": "aletearás",
+      "ElEllaUsted": "aleteará",
+      "Nosotros": "aletearemos",
+      "Vosotros": "aletearéis",
+      "EllosEllasUstedes": "aletearán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aletee",
+      "Tu": "aletees",
+      "ElEllaUsted": "aletee",
+      "Nosotros": "aleteemos",
+      "Vosotros": "aleteéis",
+      "EllosEllasUstedes": "aleteen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aleteara",
+      "Tu": "aletearas",
+      "ElEllaUsted": "aleteara",
+      "Nosotros": "aletearamos",
+      "Vosotros": "aletearais",
+      "EllosEllasUstedes": "aletearan"
+    }
+  },
+  "Name": "aletear",
+  "EnglishMeaning": "to flap its wings"
+}

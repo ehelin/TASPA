@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "solerán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "suela",
+      "Tu": "suelas",
+      "ElEllaUsted": "suela",
+      "Nosotros": "suelamos",
+      "Vosotros": "sueláis",
+      "EllosEllasUstedes": "suelan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "soliea",
+      "Tu": "solieas",
+      "ElEllaUsted": "soliea",
+      "Nosotros": "solieamos",
+      "Vosotros": "solieais",
+      "EllosEllasUstedes": "soliean"
+    }
+  },
   "Name": "soler",
   "EnglishMeaning": "to be used to"
 }

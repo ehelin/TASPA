@@ -1,1 +1,68 @@
-{"PresentParticiple":"tirando&translation=throwing","PastParticiple":"tirado&translation=thrown","Indicative":{"PresentTense":{"Yo":"tiro","Tu":"tiras","ElEllaUsted":"tira","Nosotros":"tiramos","Vosotros":"tiráis","EllosEllasUstedes":"tiran"},"Pretérito":{"Yo":"tiré","Tu":"tiraste","ElEllaUsted":"tiró","Nosotros":"tiramos","Vosotros":"tirasteis","EllosEllasUstedes":"tiraron"},"Imperfect":{"Yo":"tiraba","Tu":"tirabas","ElEllaUsted":"tiraba","Nosotros":"tirábamos","Vosotros":"tirabais","EllosEllasUstedes":"tiraban"},"Conditional":{"Yo":"tiraría","Tu":"tirarías","ElEllaUsted":"tiraría","Nosotros":"tiraríamos","Vosotros":"tiraríais","EllosEllasUstedes":"tirarían"},"Future":{"Yo":"tiraré","Tu":"tirarás","ElEllaUsted":"tirará","Nosotros":"tiraremos","Vosotros":"tiraréis","EllosEllasUstedes":"tirarán"}},"Subjunctive":null,"Name":"tirar","EnglishMeaning":"to throw"}
+{
+  "PresentParticiple": "tirando",
+  "PastParticiple": "tirado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "tiro",
+      "Tu": "tiras",
+      "ElEllaUsted": "tira",
+      "Nosotros": "tiramos",
+      "Vosotros": "tiráis",
+      "EllosEllasUstedes": "tiran"
+    },
+    "Pretérito": {
+      "Yo": "tiré",
+      "Tu": "tiraste",
+      "ElEllaUsted": "tiró",
+      "Nosotros": "tiramos",
+      "Vosotros": "tirasteis",
+      "EllosEllasUstedes": "tiraron"
+    },
+    "Imperfect": {
+      "Yo": "tiraba",
+      "Tu": "tirabas",
+      "ElEllaUsted": "tiraba",
+      "Nosotros": "tirábamos",
+      "Vosotros": "tirabais",
+      "EllosEllasUstedes": "tiraban"
+    },
+    "Conditional": {
+      "Yo": "tiraría",
+      "Tu": "tirarías",
+      "ElEllaUsted": "tiraría",
+      "Nosotros": "tiraríamos",
+      "Vosotros": "tiraríais",
+      "EllosEllasUstedes": "tirarían"
+    },
+    "Future": {
+      "Yo": "tiraré",
+      "Tu": "tirarás",
+      "ElEllaUsted": "tirará",
+      "Nosotros": "tiraremos",
+      "Vosotros": "tiraréis",
+      "EllosEllasUstedes": "tirarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "tire",
+      "Tu": "tires",
+      "ElEllaUsted": "tire",
+      "Nosotros": "tiremos",
+      "Vosotros": "tiréis",
+      "EllosEllasUstedes": "tiren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tirara",
+      "Tu": "tiraras",
+      "ElEllaUsted": "tirara",
+      "Nosotros": "tiraramos",
+      "Vosotros": "tirarais",
+      "EllosEllasUstedes": "tiraran"
+    }
+  },
+  "Name": "tirar",
+  "EnglishMeaning": "to throw",
+  "PresentParticipleTranslation": "throwing",
+  "PastParticipleTranslation": "thrown"
+}

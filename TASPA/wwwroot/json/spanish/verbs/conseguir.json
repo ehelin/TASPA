@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "consiguiendo",
-    "PastParticiple": "conseguido",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "conseguiro",
-            "Tu": "conseguiras",
-            "ElEllaUsted": "conseguira",
-            "Nosotros": "conseguiramos",
-            "Vosotros": "conseguiráis",
-            "EllosEllasUstedes": "conseguiran"
-        },
-        "Pretérito": {
-            "Yo": "conseguiré",
-            "Tu": "conseguiraste",
-            "ElEllaUsted": "conseguiró",
-            "Nosotros": "conseguiramos",
-            "Vosotros": "conseguirasteis",
-            "EllosEllasUstedes": "conseguiraron"
-        },
-        "Imperfect": {
-            "Yo": "conseguiraba",
-            "Tu": "conseguirabas",
-            "ElEllaUsted": "conseguiraba",
-            "Nosotros": "conseguirábamos",
-            "Vosotros": "conseguirabais",
-            "EllosEllasUstedes": "conseguiraban"
-        },
-        "Conditional": {
-            "Yo": "conseguiraría",
-            "Tu": "conseguirarías",
-            "ElEllaUsted": "conseguiraría",
-            "Nosotros": "conseguiraríamos",
-            "Vosotros": "conseguiraríais",
-            "EllosEllasUstedes": "conseguirarían"
-        },
-        "Future": {
-            "Yo": "conseguiraré",
-            "Tu": "conseguirarás",
-            "ElEllaUsted": "conseguirará",
-            "Nosotros": "conseguiraremos",
-            "Vosotros": "conseguiraréis",
-            "EllosEllasUstedes": "conseguirarán"
-        }
+  "PresentParticiple": "consiguiendo",
+  "PastParticiple": "conseguido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "conseguiro",
+      "Tu": "conseguiras",
+      "ElEllaUsted": "conseguira",
+      "Nosotros": "conseguiramos",
+      "Vosotros": "conseguiráis",
+      "EllosEllasUstedes": "conseguiran"
     },
-    "Subjunctive": null,
-    "Name": "conseguir",
-    "EnglishMeaning": "to get"
+    "Pretérito": {
+      "Yo": "conseguiré",
+      "Tu": "conseguiraste",
+      "ElEllaUsted": "conseguiró",
+      "Nosotros": "conseguiramos",
+      "Vosotros": "conseguirasteis",
+      "EllosEllasUstedes": "conseguiraron"
+    },
+    "Imperfect": {
+      "Yo": "conseguiraba",
+      "Tu": "conseguirabas",
+      "ElEllaUsted": "conseguiraba",
+      "Nosotros": "conseguirábamos",
+      "Vosotros": "conseguirabais",
+      "EllosEllasUstedes": "conseguiraban"
+    },
+    "Conditional": {
+      "Yo": "conseguiraría",
+      "Tu": "conseguirarías",
+      "ElEllaUsted": "conseguiraría",
+      "Nosotros": "conseguiraríamos",
+      "Vosotros": "conseguiraríais",
+      "EllosEllasUstedes": "conseguirarían"
+    },
+    "Future": {
+      "Yo": "conseguiraré",
+      "Tu": "conseguirarás",
+      "ElEllaUsted": "conseguirará",
+      "Nosotros": "conseguiraremos",
+      "Vosotros": "conseguiraréis",
+      "EllosEllasUstedes": "conseguirarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "conseguira",
+      "Tu": "conseguiras",
+      "ElEllaUsted": "conseguira",
+      "Nosotros": "conseguiramos",
+      "Vosotros": "conseguiráis",
+      "EllosEllasUstedes": "conseguiran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "conseguirara",
+      "Tu": "conseguiraras",
+      "ElEllaUsted": "conseguirara",
+      "Nosotros": "conseguiraramos",
+      "Vosotros": "conseguirarais",
+      "EllosEllasUstedes": "conseguiraran"
+    }
+  },
+  "Name": "conseguir",
+  "EnglishMeaning": "to get"
 }

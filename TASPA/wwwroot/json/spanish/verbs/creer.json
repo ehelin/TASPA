@@ -1,1 +1,68 @@
-{"PresentParticiple":"creyendo&translation=believing","PastParticiple":"cre%C3%ADdo&translation=believed","Indicative":{"PresentTense":{"Yo":"creo","Tu":"crees","ElEllaUsted":"cree","Nosotros":"creemos","Vosotros":"creéis","EllosEllasUstedes":"creen"},"Pretérito":{"Yo":"creí","Tu":"creíste","ElEllaUsted":"creyó","Nosotros":"creímos","Vosotros":"creísteis","EllosEllasUstedes":"creyeron"},"Imperfect":{"Yo":"creía","Tu":"creías","ElEllaUsted":"creía","Nosotros":"creíamos","Vosotros":"creíais","EllosEllasUstedes":"creían"},"Conditional":{"Yo":"creería","Tu":"creerías","ElEllaUsted":"creería","Nosotros":"creeríamos","Vosotros":"creeríais","EllosEllasUstedes":"creerían"},"Future":{"Yo":"creeré","Tu":"creerás","ElEllaUsted":"creerá","Nosotros":"creeremos","Vosotros":"creeréis","EllosEllasUstedes":"creerán"}},"Subjunctive":null,"Name":"creer","EnglishMeaning":"to believe"}
+{
+  "PresentParticiple": "creyendo",
+  "PastParticiple": "cre%C3%ADdo",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "creo",
+      "Tu": "crees",
+      "ElEllaUsted": "cree",
+      "Nosotros": "creemos",
+      "Vosotros": "creéis",
+      "EllosEllasUstedes": "creen"
+    },
+    "Pretérito": {
+      "Yo": "creí",
+      "Tu": "creíste",
+      "ElEllaUsted": "creyó",
+      "Nosotros": "creímos",
+      "Vosotros": "creísteis",
+      "EllosEllasUstedes": "creyeron"
+    },
+    "Imperfect": {
+      "Yo": "creía",
+      "Tu": "creías",
+      "ElEllaUsted": "creía",
+      "Nosotros": "creíamos",
+      "Vosotros": "creíais",
+      "EllosEllasUstedes": "creían"
+    },
+    "Conditional": {
+      "Yo": "creería",
+      "Tu": "creerías",
+      "ElEllaUsted": "creería",
+      "Nosotros": "creeríamos",
+      "Vosotros": "creeríais",
+      "EllosEllasUstedes": "creerían"
+    },
+    "Future": {
+      "Yo": "creeré",
+      "Tu": "creerás",
+      "ElEllaUsted": "creerá",
+      "Nosotros": "creeremos",
+      "Vosotros": "creeréis",
+      "EllosEllasUstedes": "creerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "crea",
+      "Tu": "creas",
+      "ElEllaUsted": "crea",
+      "Nosotros": "creamos",
+      "Vosotros": "creáis",
+      "EllosEllasUstedes": "crean"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "creyea",
+      "Tu": "creyeas",
+      "ElEllaUsted": "creyea",
+      "Nosotros": "creyeamos",
+      "Vosotros": "creyeais",
+      "EllosEllasUstedes": "creyean"
+    }
+  },
+  "Name": "creer",
+  "EnglishMeaning": "to believe",
+  "PresentParticipleTranslation": "believing",
+  "PastParticipleTranslation": "believed"
+}

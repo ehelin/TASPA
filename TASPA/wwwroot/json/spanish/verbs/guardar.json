@@ -1,1 +1,66 @@
-{"PresentParticiple":"guardando","PastParticiple":"guardado","Indicative":{"PresentTense":{"Yo":"guardo","Tu":"guardas","ElEllaUsted":"guarda","Nosotros":"guardamos","Vosotros":"guardáis","EllosEllasUstedes":"guardan"},"Pretérito":{"Yo":"guardé","Tu":"guardaste","ElEllaUsted":"guardó","Nosotros":"guardamos","Vosotros":"guardasteis","EllosEllasUstedes":"guardaron"},"Imperfect":{"Yo":"guardaba","Tu":"guardabas","ElEllaUsted":"guardaba","Nosotros":"guardábamos","Vosotros":"guardabais","EllosEllasUstedes":"guardaban"},"Conditional":{"Yo":"guardaría","Tu":"guardarías","ElEllaUsted":"guardaría","Nosotros":"guardaríamos","Vosotros":"guardaríais","EllosEllasUstedes":"guardarían"},"Future":{"Yo":"guardaré","Tu":"guardarás","ElEllaUsted":"guardará","Nosotros":"guardaremos","Vosotros":"guardaréis","EllosEllasUstedes":"guardarán"}},"Subjunctive":null,"Name":"guardar","EnglishMeaning":"to put away"}
+{
+  "PresentParticiple": "guardando",
+  "PastParticiple": "guardado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "guardo",
+      "Tu": "guardas",
+      "ElEllaUsted": "guarda",
+      "Nosotros": "guardamos",
+      "Vosotros": "guardáis",
+      "EllosEllasUstedes": "guardan"
+    },
+    "Pretérito": {
+      "Yo": "guardé",
+      "Tu": "guardaste",
+      "ElEllaUsted": "guardó",
+      "Nosotros": "guardamos",
+      "Vosotros": "guardasteis",
+      "EllosEllasUstedes": "guardaron"
+    },
+    "Imperfect": {
+      "Yo": "guardaba",
+      "Tu": "guardabas",
+      "ElEllaUsted": "guardaba",
+      "Nosotros": "guardábamos",
+      "Vosotros": "guardabais",
+      "EllosEllasUstedes": "guardaban"
+    },
+    "Conditional": {
+      "Yo": "guardaría",
+      "Tu": "guardarías",
+      "ElEllaUsted": "guardaría",
+      "Nosotros": "guardaríamos",
+      "Vosotros": "guardaríais",
+      "EllosEllasUstedes": "guardarían"
+    },
+    "Future": {
+      "Yo": "guardaré",
+      "Tu": "guardarás",
+      "ElEllaUsted": "guardará",
+      "Nosotros": "guardaremos",
+      "Vosotros": "guardaréis",
+      "EllosEllasUstedes": "guardarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "guarde",
+      "Tu": "guardes",
+      "ElEllaUsted": "guarde",
+      "Nosotros": "guardemos",
+      "Vosotros": "guardéis",
+      "EllosEllasUstedes": "guarden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "guardara",
+      "Tu": "guardaras",
+      "ElEllaUsted": "guardara",
+      "Nosotros": "guardaramos",
+      "Vosotros": "guardarais",
+      "EllosEllasUstedes": "guardaran"
+    }
+  },
+  "Name": "guardar",
+  "EnglishMeaning": "to put away"
+}

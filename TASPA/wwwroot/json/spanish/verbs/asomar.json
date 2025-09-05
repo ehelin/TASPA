@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "asomando",
-    "PastParticiple": "asomado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "asomo",
-            "Tu": "asomas",
-            "ElEllaUsted": "asoma",
-            "Nosotros": "asomamos",
-            "Vosotros": "asomáis",
-            "EllosEllasUstedes": "asoman"
-        },
-        "Pretérito": {
-            "Yo": "asomé",
-            "Tu": "asomaste",
-            "ElEllaUsted": "asomó",
-            "Nosotros": "asomamos",
-            "Vosotros": "asomasteis",
-            "EllosEllasUstedes": "asomaron"
-        },
-        "Imperfect": {
-            "Yo": "asomaba",
-            "Tu": "asomabas",
-            "ElEllaUsted": "asomaba",
-            "Nosotros": "asomábamos",
-            "Vosotros": "asomabais",
-            "EllosEllasUstedes": "asomaban"
-        },
-        "Conditional": {
-            "Yo": "asomaría",
-            "Tu": "asomarías",
-            "ElEllaUsted": "asomaría",
-            "Nosotros": "asomaríamos",
-            "Vosotros": "asomaríais",
-            "EllosEllasUstedes": "asomarían"
-        },
-        "Future": {
-            "Yo": "asomaré",
-            "Tu": "asomarás",
-            "ElEllaUsted": "asomará",
-            "Nosotros": "asomaremos",
-            "Vosotros": "asomaréis",
-            "EllosEllasUstedes": "asomarán"
-        }
+  "PresentParticiple": "asomando",
+  "PastParticiple": "asomado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "asomo",
+      "Tu": "asomas",
+      "ElEllaUsted": "asoma",
+      "Nosotros": "asomamos",
+      "Vosotros": "asomáis",
+      "EllosEllasUstedes": "asoman"
     },
-    "Subjunctive": null,
-    "Name": "asomar",
-    "EnglishMeaning": "to peek"
+    "Pretérito": {
+      "Yo": "asomé",
+      "Tu": "asomaste",
+      "ElEllaUsted": "asomó",
+      "Nosotros": "asomamos",
+      "Vosotros": "asomasteis",
+      "EllosEllasUstedes": "asomaron"
+    },
+    "Imperfect": {
+      "Yo": "asomaba",
+      "Tu": "asomabas",
+      "ElEllaUsted": "asomaba",
+      "Nosotros": "asomábamos",
+      "Vosotros": "asomabais",
+      "EllosEllasUstedes": "asomaban"
+    },
+    "Conditional": {
+      "Yo": "asomaría",
+      "Tu": "asomarías",
+      "ElEllaUsted": "asomaría",
+      "Nosotros": "asomaríamos",
+      "Vosotros": "asomaríais",
+      "EllosEllasUstedes": "asomarían"
+    },
+    "Future": {
+      "Yo": "asomaré",
+      "Tu": "asomarás",
+      "ElEllaUsted": "asomará",
+      "Nosotros": "asomaremos",
+      "Vosotros": "asomaréis",
+      "EllosEllasUstedes": "asomarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "asome",
+      "Tu": "asomes",
+      "ElEllaUsted": "asome",
+      "Nosotros": "asomemos",
+      "Vosotros": "asoméis",
+      "EllosEllasUstedes": "asomen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "asomara",
+      "Tu": "asomaras",
+      "ElEllaUsted": "asomara",
+      "Nosotros": "asomaramos",
+      "Vosotros": "asomarais",
+      "EllosEllasUstedes": "asomaran"
+    }
+  },
+  "Name": "asomar",
+  "EnglishMeaning": "to peek"
 }

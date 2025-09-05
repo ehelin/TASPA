@@ -1,1 +1,66 @@
-{"PresentParticiple":"alejando","PastParticiple":"alejado","Indicative":{"PresentTense":{"Yo":"alejo","Tu":"alejas","ElEllaUsted":"aleja","Nosotros":"alejamos","Vosotros":"alejáis","EllosEllasUstedes":"alejan"},"Pretérito":{"Yo":"alejé","Tu":"alejaste","ElEllaUsted":"alejó","Nosotros":"alejamos","Vosotros":"alejasteis","EllosEllasUstedes":"alejaron"},"Imperfect":{"Yo":"alejaba","Tu":"alejabas","ElEllaUsted":"alejaba","Nosotros":"alejábamos","Vosotros":"alejabais","EllosEllasUstedes":"alejaban"},"Conditional":{"Yo":"alejaría","Tu":"alejarías","ElEllaUsted":"alejaría","Nosotros":"alejaríamos","Vosotros":"alejaríais","EllosEllasUstedes":"alejarían"},"Future":{"Yo":"alejaré","Tu":"alejarás","ElEllaUsted":"alejará","Nosotros":"alejaremos","Vosotros":"alejaréis","EllosEllasUstedes":"alejarán"}},"Subjunctive":null,"Name":"alejar","EnglishMeaning":"to move away from"}
+{
+  "PresentParticiple": "alejando",
+  "PastParticiple": "alejado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "alejo",
+      "Tu": "alejas",
+      "ElEllaUsted": "aleja",
+      "Nosotros": "alejamos",
+      "Vosotros": "alejáis",
+      "EllosEllasUstedes": "alejan"
+    },
+    "Pretérito": {
+      "Yo": "alejé",
+      "Tu": "alejaste",
+      "ElEllaUsted": "alejó",
+      "Nosotros": "alejamos",
+      "Vosotros": "alejasteis",
+      "EllosEllasUstedes": "alejaron"
+    },
+    "Imperfect": {
+      "Yo": "alejaba",
+      "Tu": "alejabas",
+      "ElEllaUsted": "alejaba",
+      "Nosotros": "alejábamos",
+      "Vosotros": "alejabais",
+      "EllosEllasUstedes": "alejaban"
+    },
+    "Conditional": {
+      "Yo": "alejaría",
+      "Tu": "alejarías",
+      "ElEllaUsted": "alejaría",
+      "Nosotros": "alejaríamos",
+      "Vosotros": "alejaríais",
+      "EllosEllasUstedes": "alejarían"
+    },
+    "Future": {
+      "Yo": "alejaré",
+      "Tu": "alejarás",
+      "ElEllaUsted": "alejará",
+      "Nosotros": "alejaremos",
+      "Vosotros": "alejaréis",
+      "EllosEllasUstedes": "alejarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aleje",
+      "Tu": "alejes",
+      "ElEllaUsted": "aleje",
+      "Nosotros": "alejemos",
+      "Vosotros": "alejéis",
+      "EllosEllasUstedes": "alejen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "alejara",
+      "Tu": "alejaras",
+      "ElEllaUsted": "alejara",
+      "Nosotros": "alejaramos",
+      "Vosotros": "alejarais",
+      "EllosEllasUstedes": "alejaran"
+    }
+  },
+  "Name": "alejar",
+  "EnglishMeaning": "to move away from"
+}

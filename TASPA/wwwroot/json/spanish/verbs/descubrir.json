@@ -1,1 +1,68 @@
-{"PresentParticiple":"descubriendo&translation=discovering","PastParticiple":"descubierto&translation=discovered","Indicative":{"PresentTense":{"Yo":"descubro","Tu":"descubres","ElEllaUsted":"descubre","Nosotros":"descubrimos","Vosotros":"descubrís","EllosEllasUstedes":"descubren"},"Pretérito":{"Yo":"descubrí","Tu":"descubriste","ElEllaUsted":"descubrió","Nosotros":"descubrimos","Vosotros":"descubristeis","EllosEllasUstedes":"descubrieron"},"Imperfect":{"Yo":"descubría","Tu":"descubrías","ElEllaUsted":"descubría","Nosotros":"descubríamos","Vosotros":"descubríais","EllosEllasUstedes":"descubrían"},"Conditional":{"Yo":"descubriría","Tu":"descubrirías","ElEllaUsted":"descubriría","Nosotros":"descubriríamos","Vosotros":"descubriríais","EllosEllasUstedes":"descubrirían"},"Future":{"Yo":"descubriré","Tu":"descubrirás","ElEllaUsted":"descubrirá","Nosotros":"descubriremos","Vosotros":"descubriréis","EllosEllasUstedes":"descubrirán"}},"Subjunctive":null,"Name":"descubrir","EnglishMeaning":"to discover"}
+{
+  "PresentParticiple": "descubriendo",
+  "PastParticiple": "descubierto",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "descubro",
+      "Tu": "descubres",
+      "ElEllaUsted": "descubre",
+      "Nosotros": "descubrimos",
+      "Vosotros": "descubrís",
+      "EllosEllasUstedes": "descubren"
+    },
+    "Pretérito": {
+      "Yo": "descubrí",
+      "Tu": "descubriste",
+      "ElEllaUsted": "descubrió",
+      "Nosotros": "descubrimos",
+      "Vosotros": "descubristeis",
+      "EllosEllasUstedes": "descubrieron"
+    },
+    "Imperfect": {
+      "Yo": "descubría",
+      "Tu": "descubrías",
+      "ElEllaUsted": "descubría",
+      "Nosotros": "descubríamos",
+      "Vosotros": "descubríais",
+      "EllosEllasUstedes": "descubrían"
+    },
+    "Conditional": {
+      "Yo": "descubriría",
+      "Tu": "descubrirías",
+      "ElEllaUsted": "descubriría",
+      "Nosotros": "descubriríamos",
+      "Vosotros": "descubriríais",
+      "EllosEllasUstedes": "descubrirían"
+    },
+    "Future": {
+      "Yo": "descubriré",
+      "Tu": "descubrirás",
+      "ElEllaUsted": "descubrirá",
+      "Nosotros": "descubriremos",
+      "Vosotros": "descubriréis",
+      "EllosEllasUstedes": "descubrirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "descubra",
+      "Tu": "descubras",
+      "ElEllaUsted": "descubra",
+      "Nosotros": "descubramos",
+      "Vosotros": "descubráis",
+      "EllosEllasUstedes": "descubran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "descubriea",
+      "Tu": "descubrieas",
+      "ElEllaUsted": "descubriea",
+      "Nosotros": "descubrieamos",
+      "Vosotros": "descubrieais",
+      "EllosEllasUstedes": "descubriean"
+    }
+  },
+  "Name": "descubrir",
+  "EnglishMeaning": "to discover",
+  "PresentParticipleTranslation": "discovering",
+  "PastParticipleTranslation": "discovered"
+}

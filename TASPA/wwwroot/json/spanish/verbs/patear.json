@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "pateando",
-    "PastParticiple": "pateado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "pateo",
-            "Tu": "pateas",
-            "ElEllaUsted": "patea",
-            "Nosotros": "pateamos",
-            "Vosotros": "pateáis",
-            "EllosEllasUstedes": "patean"
-        },
-        "Pretérito": {
-            "Yo": "pateé",
-            "Tu": "pateaste",
-            "ElEllaUsted": "pateó",
-            "Nosotros": "pateamos",
-            "Vosotros": "pateasteis",
-            "EllosEllasUstedes": "patearon"
-        },
-        "Imperfect": {
-            "Yo": "pateaba",
-            "Tu": "pateabas",
-            "ElEllaUsted": "pateaba",
-            "Nosotros": "pateábamos",
-            "Vosotros": "pateabais",
-            "EllosEllasUstedes": "pateaban"
-        },
-        "Conditional": {
-            "Yo": "patearía",
-            "Tu": "patearías",
-            "ElEllaUsted": "patearía",
-            "Nosotros": "patearíamos",
-            "Vosotros": "patearíais",
-            "EllosEllasUstedes": "patearían"
-        },
-        "Future": {
-            "Yo": "patearé",
-            "Tu": "patearás",
-            "ElEllaUsted": "pateará",
-            "Nosotros": "patearemos",
-            "Vosotros": "patearéis",
-            "EllosEllasUstedes": "patearán"
-        }
+  "PresentParticiple": "pateando",
+  "PastParticiple": "pateado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pateo",
+      "Tu": "pateas",
+      "ElEllaUsted": "patea",
+      "Nosotros": "pateamos",
+      "Vosotros": "pateáis",
+      "EllosEllasUstedes": "patean"
     },
-    "Subjunctive": null,
-    "Name": "patear",
-    "EnglishMeaning": "to kick"
+    "Pretérito": {
+      "Yo": "pateé",
+      "Tu": "pateaste",
+      "ElEllaUsted": "pateó",
+      "Nosotros": "pateamos",
+      "Vosotros": "pateasteis",
+      "EllosEllasUstedes": "patearon"
+    },
+    "Imperfect": {
+      "Yo": "pateaba",
+      "Tu": "pateabas",
+      "ElEllaUsted": "pateaba",
+      "Nosotros": "pateábamos",
+      "Vosotros": "pateabais",
+      "EllosEllasUstedes": "pateaban"
+    },
+    "Conditional": {
+      "Yo": "patearía",
+      "Tu": "patearías",
+      "ElEllaUsted": "patearía",
+      "Nosotros": "patearíamos",
+      "Vosotros": "patearíais",
+      "EllosEllasUstedes": "patearían"
+    },
+    "Future": {
+      "Yo": "patearé",
+      "Tu": "patearás",
+      "ElEllaUsted": "pateará",
+      "Nosotros": "patearemos",
+      "Vosotros": "patearéis",
+      "EllosEllasUstedes": "patearán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "patee",
+      "Tu": "patees",
+      "ElEllaUsted": "patee",
+      "Nosotros": "pateemos",
+      "Vosotros": "pateéis",
+      "EllosEllasUstedes": "pateen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pateara",
+      "Tu": "patearas",
+      "ElEllaUsted": "pateara",
+      "Nosotros": "patearamos",
+      "Vosotros": "patearais",
+      "EllosEllasUstedes": "patearan"
+    }
+  },
+  "Name": "patear",
+  "EnglishMeaning": "to kick"
 }

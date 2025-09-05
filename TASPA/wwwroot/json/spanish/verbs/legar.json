@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "legando",
-    "PastParticiple": "legado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "lego",
-            "Tu": "legas",
-            "ElEllaUsted": "lega",
-            "Nosotros": "legamos",
-            "Vosotros": "legáis",
-            "EllosEllasUstedes": "legan"
-        },
-        "Pretérito": {
-            "Yo": "legé",
-            "Tu": "legaste",
-            "ElEllaUsted": "legó",
-            "Nosotros": "legamos",
-            "Vosotros": "legasteis",
-            "EllosEllasUstedes": "legaron"
-        },
-        "Imperfect": {
-            "Yo": "legaba",
-            "Tu": "legabas",
-            "ElEllaUsted": "legaba",
-            "Nosotros": "legábamos",
-            "Vosotros": "legabais",
-            "EllosEllasUstedes": "legaban"
-        },
-        "Conditional": {
-            "Yo": "legaría",
-            "Tu": "legarías",
-            "ElEllaUsted": "legaría",
-            "Nosotros": "legaríamos",
-            "Vosotros": "legaríais",
-            "EllosEllasUstedes": "legarían"
-        },
-        "Future": {
-            "Yo": "legaré",
-            "Tu": "legarás",
-            "ElEllaUsted": "legará",
-            "Nosotros": "legaremos",
-            "Vosotros": "legaréis",
-            "EllosEllasUstedes": "legarán"
-        }
+  "PresentParticiple": "legando",
+  "PastParticiple": "legado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "lego",
+      "Tu": "legas",
+      "ElEllaUsted": "lega",
+      "Nosotros": "legamos",
+      "Vosotros": "legáis",
+      "EllosEllasUstedes": "legan"
     },
-    "Subjunctive": null,
-    "Name": "legar",
-    "EnglishMeaning": "to bequeath"
+    "Pretérito": {
+      "Yo": "legé",
+      "Tu": "legaste",
+      "ElEllaUsted": "legó",
+      "Nosotros": "legamos",
+      "Vosotros": "legasteis",
+      "EllosEllasUstedes": "legaron"
+    },
+    "Imperfect": {
+      "Yo": "legaba",
+      "Tu": "legabas",
+      "ElEllaUsted": "legaba",
+      "Nosotros": "legábamos",
+      "Vosotros": "legabais",
+      "EllosEllasUstedes": "legaban"
+    },
+    "Conditional": {
+      "Yo": "legaría",
+      "Tu": "legarías",
+      "ElEllaUsted": "legaría",
+      "Nosotros": "legaríamos",
+      "Vosotros": "legaríais",
+      "EllosEllasUstedes": "legarían"
+    },
+    "Future": {
+      "Yo": "legaré",
+      "Tu": "legarás",
+      "ElEllaUsted": "legará",
+      "Nosotros": "legaremos",
+      "Vosotros": "legaréis",
+      "EllosEllasUstedes": "legarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "lege",
+      "Tu": "leges",
+      "ElEllaUsted": "lege",
+      "Nosotros": "legemos",
+      "Vosotros": "legéis",
+      "EllosEllasUstedes": "legen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "legara",
+      "Tu": "legaras",
+      "ElEllaUsted": "legara",
+      "Nosotros": "legaramos",
+      "Vosotros": "legarais",
+      "EllosEllasUstedes": "legaran"
+    }
+  },
+  "Name": "legar",
+  "EnglishMeaning": "to bequeath"
 }

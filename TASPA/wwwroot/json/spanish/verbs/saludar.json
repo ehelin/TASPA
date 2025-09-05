@@ -1,1 +1,66 @@
-{"PresentParticiple":"saludando","PastParticiple":"saludado","Indicative":{"PresentTense":{"Yo":"saludo","Tu":"saludas","ElEllaUsted":"saluda","Nosotros":"saludamos","Vosotros":"saludáis","EllosEllasUstedes":"saludan"},"Pretérito":{"Yo":"saludé","Tu":"saludaste","ElEllaUsted":"saludó","Nosotros":"saludamos","Vosotros":"saludasteis","EllosEllasUstedes":"saludaron"},"Imperfect":{"Yo":"saludaba","Tu":"saludabas","ElEllaUsted":"saludaba","Nosotros":"saludábamos","Vosotros":"saludabais","EllosEllasUstedes":"saludaban"},"Conditional":{"Yo":"saludaría","Tu":"saludarías","ElEllaUsted":"saludaría","Nosotros":"saludaríamos","Vosotros":"saludaríais","EllosEllasUstedes":"saludarían"},"Future":{"Yo":"saludaré","Tu":"saludarás","ElEllaUsted":"saludará","Nosotros":"saludaremos","Vosotros":"saludaréis","EllosEllasUstedes":"saludarán"}},"Subjunctive":null,"Name":"saludar","EnglishMeaning":"to say hello to"}
+{
+  "PresentParticiple": "saludando",
+  "PastParticiple": "saludado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "saludo",
+      "Tu": "saludas",
+      "ElEllaUsted": "saluda",
+      "Nosotros": "saludamos",
+      "Vosotros": "saludáis",
+      "EllosEllasUstedes": "saludan"
+    },
+    "Pretérito": {
+      "Yo": "saludé",
+      "Tu": "saludaste",
+      "ElEllaUsted": "saludó",
+      "Nosotros": "saludamos",
+      "Vosotros": "saludasteis",
+      "EllosEllasUstedes": "saludaron"
+    },
+    "Imperfect": {
+      "Yo": "saludaba",
+      "Tu": "saludabas",
+      "ElEllaUsted": "saludaba",
+      "Nosotros": "saludábamos",
+      "Vosotros": "saludabais",
+      "EllosEllasUstedes": "saludaban"
+    },
+    "Conditional": {
+      "Yo": "saludaría",
+      "Tu": "saludarías",
+      "ElEllaUsted": "saludaría",
+      "Nosotros": "saludaríamos",
+      "Vosotros": "saludaríais",
+      "EllosEllasUstedes": "saludarían"
+    },
+    "Future": {
+      "Yo": "saludaré",
+      "Tu": "saludarás",
+      "ElEllaUsted": "saludará",
+      "Nosotros": "saludaremos",
+      "Vosotros": "saludaréis",
+      "EllosEllasUstedes": "saludarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "salude",
+      "Tu": "saludes",
+      "ElEllaUsted": "salude",
+      "Nosotros": "saludemos",
+      "Vosotros": "saludéis",
+      "EllosEllasUstedes": "saluden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "saludara",
+      "Tu": "saludaras",
+      "ElEllaUsted": "saludara",
+      "Nosotros": "saludaramos",
+      "Vosotros": "saludarais",
+      "EllosEllasUstedes": "saludaran"
+    }
+  },
+  "Name": "saludar",
+  "EnglishMeaning": "to say hello to"
+}

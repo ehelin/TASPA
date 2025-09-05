@@ -1,1 +1,68 @@
-{"PresentParticiple":"pensando&translation=thinking","PastParticiple":"pensado&translation=thought","Indicative":{"PresentTense":{"Yo":"pienso","Tu":"piensas","ElEllaUsted":"piensa","Nosotros":"pensamos","Vosotros":"pensáis","EllosEllasUstedes":"piensan"},"Pretérito":{"Yo":"pensé","Tu":"pensaste","ElEllaUsted":"pensó","Nosotros":"pensamos","Vosotros":"pensasteis","EllosEllasUstedes":"pensaron"},"Imperfect":{"Yo":"pensaba","Tu":"pensabas","ElEllaUsted":"pensaba","Nosotros":"pensábamos","Vosotros":"pensabais","EllosEllasUstedes":"pensaban"},"Conditional":{"Yo":"pensaría","Tu":"pensarías","ElEllaUsted":"pensaría","Nosotros":"pensaríamos","Vosotros":"pensaríais","EllosEllasUstedes":"pensarían"},"Future":{"Yo":"pensaré","Tu":"pensarás","ElEllaUsted":"pensará","Nosotros":"pensaremos","Vosotros":"pensaréis","EllosEllasUstedes":"pensarán"}},"Subjunctive":null,"Name":"pensar","EnglishMeaning":"to think"}
+{
+  "PresentParticiple": "pensando",
+  "PastParticiple": "pensado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pienso",
+      "Tu": "piensas",
+      "ElEllaUsted": "piensa",
+      "Nosotros": "pensamos",
+      "Vosotros": "pensáis",
+      "EllosEllasUstedes": "piensan"
+    },
+    "Pretérito": {
+      "Yo": "pensé",
+      "Tu": "pensaste",
+      "ElEllaUsted": "pensó",
+      "Nosotros": "pensamos",
+      "Vosotros": "pensasteis",
+      "EllosEllasUstedes": "pensaron"
+    },
+    "Imperfect": {
+      "Yo": "pensaba",
+      "Tu": "pensabas",
+      "ElEllaUsted": "pensaba",
+      "Nosotros": "pensábamos",
+      "Vosotros": "pensabais",
+      "EllosEllasUstedes": "pensaban"
+    },
+    "Conditional": {
+      "Yo": "pensaría",
+      "Tu": "pensarías",
+      "ElEllaUsted": "pensaría",
+      "Nosotros": "pensaríamos",
+      "Vosotros": "pensaríais",
+      "EllosEllasUstedes": "pensarían"
+    },
+    "Future": {
+      "Yo": "pensaré",
+      "Tu": "pensarás",
+      "ElEllaUsted": "pensará",
+      "Nosotros": "pensaremos",
+      "Vosotros": "pensaréis",
+      "EllosEllasUstedes": "pensarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "piense",
+      "Tu": "pienses",
+      "ElEllaUsted": "piense",
+      "Nosotros": "piensemos",
+      "Vosotros": "pienséis",
+      "EllosEllasUstedes": "piensen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pensara",
+      "Tu": "pensaras",
+      "ElEllaUsted": "pensara",
+      "Nosotros": "pensaramos",
+      "Vosotros": "pensarais",
+      "EllosEllasUstedes": "pensaran"
+    }
+  },
+  "Name": "pensar",
+  "EnglishMeaning": "to think",
+  "PresentParticipleTranslation": "thinking",
+  "PastParticipleTranslation": "thought"
+}

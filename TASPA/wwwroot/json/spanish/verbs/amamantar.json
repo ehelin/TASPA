@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "amamantando",
-    "PastParticiple": "amamantado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "amamanto",
-            "Tu": "amamantas",
-            "ElEllaUsted": "amamanta",
-            "Nosotros": "amamantamos",
-            "Vosotros": "amamantáis",
-            "EllosEllasUstedes": "amamantan"
-        },
-        "Pretérito": {
-            "Yo": "amamanté",
-            "Tu": "amamantaste",
-            "ElEllaUsted": "amamantó",
-            "Nosotros": "amamantamos",
-            "Vosotros": "amamantasteis",
-            "EllosEllasUstedes": "amamantaron"
-        },
-        "Imperfect": {
-            "Yo": "amamantaba",
-            "Tu": "amamantabas",
-            "ElEllaUsted": "amamantaba",
-            "Nosotros": "amamantábamos",
-            "Vosotros": "amamantabais",
-            "EllosEllasUstedes": "amamantaban"
-        },
-        "Conditional": {
-            "Yo": "amamantaría",
-            "Tu": "amamantarías",
-            "ElEllaUsted": "amamantaría",
-            "Nosotros": "amamantaríamos",
-            "Vosotros": "amamantaríais",
-            "EllosEllasUstedes": "amamantarían"
-        },
-        "Future": {
-            "Yo": "amamantaré",
-            "Tu": "amamantarás",
-            "ElEllaUsted": "amamantará",
-            "Nosotros": "amamantaremos",
-            "Vosotros": "amamantaréis",
-            "EllosEllasUstedes": "amamantarán"
-        }
+  "PresentParticiple": "amamantando",
+  "PastParticiple": "amamantado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "amamanto",
+      "Tu": "amamantas",
+      "ElEllaUsted": "amamanta",
+      "Nosotros": "amamantamos",
+      "Vosotros": "amamantáis",
+      "EllosEllasUstedes": "amamantan"
     },
-    "Subjunctive": null,
-    "Name": "amamantar",
-    "EnglishMeaning": "to breastfeed"
+    "Pretérito": {
+      "Yo": "amamanté",
+      "Tu": "amamantaste",
+      "ElEllaUsted": "amamantó",
+      "Nosotros": "amamantamos",
+      "Vosotros": "amamantasteis",
+      "EllosEllasUstedes": "amamantaron"
+    },
+    "Imperfect": {
+      "Yo": "amamantaba",
+      "Tu": "amamantabas",
+      "ElEllaUsted": "amamantaba",
+      "Nosotros": "amamantábamos",
+      "Vosotros": "amamantabais",
+      "EllosEllasUstedes": "amamantaban"
+    },
+    "Conditional": {
+      "Yo": "amamantaría",
+      "Tu": "amamantarías",
+      "ElEllaUsted": "amamantaría",
+      "Nosotros": "amamantaríamos",
+      "Vosotros": "amamantaríais",
+      "EllosEllasUstedes": "amamantarían"
+    },
+    "Future": {
+      "Yo": "amamantaré",
+      "Tu": "amamantarás",
+      "ElEllaUsted": "amamantará",
+      "Nosotros": "amamantaremos",
+      "Vosotros": "amamantaréis",
+      "EllosEllasUstedes": "amamantarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "amamante",
+      "Tu": "amamantes",
+      "ElEllaUsted": "amamante",
+      "Nosotros": "amamantemos",
+      "Vosotros": "amamantéis",
+      "EllosEllasUstedes": "amamanten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "amamantara",
+      "Tu": "amamantaras",
+      "ElEllaUsted": "amamantara",
+      "Nosotros": "amamantaramos",
+      "Vosotros": "amamantarais",
+      "EllosEllasUstedes": "amamantaran"
+    }
+  },
+  "Name": "amamantar",
+  "EnglishMeaning": "to breastfeed"
 }

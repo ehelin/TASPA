@@ -1,1 +1,66 @@
-{"PresentParticiple":"tumbando","PastParticiple":"tumbado","Indicative":{"PresentTense":{"Yo":"tumbo","Tu":"tumbas","ElEllaUsted":"tumba","Nosotros":"tumbamos","Vosotros":"tumbáis","EllosEllasUstedes":"tumban"},"Pretérito":{"Yo":"tumbé","Tu":"tumbaste","ElEllaUsted":"tumbó","Nosotros":"tumbamos","Vosotros":"tumbasteis","EllosEllasUstedes":"tumbaron"},"Imperfect":{"Yo":"tumbaba","Tu":"tumbabas","ElEllaUsted":"tumbaba","Nosotros":"tumbábamos","Vosotros":"tumbabais","EllosEllasUstedes":"tumbaban"},"Conditional":{"Yo":"tumbaría","Tu":"tumbarías","ElEllaUsted":"tumbaría","Nosotros":"tumbaríamos","Vosotros":"tumbaríais","EllosEllasUstedes":"tumbarían"},"Future":{"Yo":"tumbaré","Tu":"tumbarás","ElEllaUsted":"tumbará","Nosotros":"tumbaremos","Vosotros":"tumbaréis","EllosEllasUstedes":"tumbarán"}},"Subjunctive":null,"Name":"tumbar","EnglishMeaning":"to knock down"}
+{
+  "PresentParticiple": "tumbando",
+  "PastParticiple": "tumbado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "tumbo",
+      "Tu": "tumbas",
+      "ElEllaUsted": "tumba",
+      "Nosotros": "tumbamos",
+      "Vosotros": "tumbáis",
+      "EllosEllasUstedes": "tumban"
+    },
+    "Pretérito": {
+      "Yo": "tumbé",
+      "Tu": "tumbaste",
+      "ElEllaUsted": "tumbó",
+      "Nosotros": "tumbamos",
+      "Vosotros": "tumbasteis",
+      "EllosEllasUstedes": "tumbaron"
+    },
+    "Imperfect": {
+      "Yo": "tumbaba",
+      "Tu": "tumbabas",
+      "ElEllaUsted": "tumbaba",
+      "Nosotros": "tumbábamos",
+      "Vosotros": "tumbabais",
+      "EllosEllasUstedes": "tumbaban"
+    },
+    "Conditional": {
+      "Yo": "tumbaría",
+      "Tu": "tumbarías",
+      "ElEllaUsted": "tumbaría",
+      "Nosotros": "tumbaríamos",
+      "Vosotros": "tumbaríais",
+      "EllosEllasUstedes": "tumbarían"
+    },
+    "Future": {
+      "Yo": "tumbaré",
+      "Tu": "tumbarás",
+      "ElEllaUsted": "tumbará",
+      "Nosotros": "tumbaremos",
+      "Vosotros": "tumbaréis",
+      "EllosEllasUstedes": "tumbarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "tumbe",
+      "Tu": "tumbes",
+      "ElEllaUsted": "tumbe",
+      "Nosotros": "tumbemos",
+      "Vosotros": "tumbéis",
+      "EllosEllasUstedes": "tumben"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tumbara",
+      "Tu": "tumbaras",
+      "ElEllaUsted": "tumbara",
+      "Nosotros": "tumbaramos",
+      "Vosotros": "tumbarais",
+      "EllosEllasUstedes": "tumbaran"
+    }
+  },
+  "Name": "tumbar",
+  "EnglishMeaning": "to knock down"
+}

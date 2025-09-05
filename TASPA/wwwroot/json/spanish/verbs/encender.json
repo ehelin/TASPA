@@ -1,1 +1,66 @@
-{"PresentParticiple":"encendiendo","PastParticiple":"encendido","Indicative":{"PresentTense":{"Yo":"enciendo","Tu":"enciendes","ElEllaUsted":"enciende","Nosotros":"encendemos","Vosotros":"encendéis","EllosEllasUstedes":"encienden"},"Pretérito":{"Yo":"encendí","Tu":"encendiste","ElEllaUsted":"encendió","Nosotros":"encendimos","Vosotros":"encendisteis","EllosEllasUstedes":"encendieron"},"Imperfect":{"Yo":"encendía","Tu":"encendías","ElEllaUsted":"encendía","Nosotros":"encendíamos","Vosotros":"encendíais","EllosEllasUstedes":"encendían"},"Conditional":{"Yo":"encendería","Tu":"encenderías","ElEllaUsted":"encendería","Nosotros":"encenderíamos","Vosotros":"encenderíais","EllosEllasUstedes":"encenderían"},"Future":{"Yo":"encenderé","Tu":"encenderás","ElEllaUsted":"encenderá","Nosotros":"encenderemos","Vosotros":"encenderéis","EllosEllasUstedes":"encenderán"}},"Subjunctive":null,"Name":"encender","EnglishMeaning":"to turn on"}
+{
+  "PresentParticiple": "encendiendo",
+  "PastParticiple": "encendido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "enciendo",
+      "Tu": "enciendes",
+      "ElEllaUsted": "enciende",
+      "Nosotros": "encendemos",
+      "Vosotros": "encendéis",
+      "EllosEllasUstedes": "encienden"
+    },
+    "Pretérito": {
+      "Yo": "encendí",
+      "Tu": "encendiste",
+      "ElEllaUsted": "encendió",
+      "Nosotros": "encendimos",
+      "Vosotros": "encendisteis",
+      "EllosEllasUstedes": "encendieron"
+    },
+    "Imperfect": {
+      "Yo": "encendía",
+      "Tu": "encendías",
+      "ElEllaUsted": "encendía",
+      "Nosotros": "encendíamos",
+      "Vosotros": "encendíais",
+      "EllosEllasUstedes": "encendían"
+    },
+    "Conditional": {
+      "Yo": "encendería",
+      "Tu": "encenderías",
+      "ElEllaUsted": "encendería",
+      "Nosotros": "encenderíamos",
+      "Vosotros": "encenderíais",
+      "EllosEllasUstedes": "encenderían"
+    },
+    "Future": {
+      "Yo": "encenderé",
+      "Tu": "encenderás",
+      "ElEllaUsted": "encenderá",
+      "Nosotros": "encenderemos",
+      "Vosotros": "encenderéis",
+      "EllosEllasUstedes": "encenderán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "encienda",
+      "Tu": "enciendas",
+      "ElEllaUsted": "encienda",
+      "Nosotros": "enciendamos",
+      "Vosotros": "enciendáis",
+      "EllosEllasUstedes": "enciendan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "encendiea",
+      "Tu": "encendieas",
+      "ElEllaUsted": "encendiea",
+      "Nosotros": "encendieamos",
+      "Vosotros": "encendieais",
+      "EllosEllasUstedes": "encendiean"
+    }
+  },
+  "Name": "encender",
+  "EnglishMeaning": "to turn on"
+}

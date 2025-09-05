@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "sanando",
-    "PastParticiple": "sanado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "sano",
-            "Tu": "sanas",
-            "ElEllaUsted": "sana",
-            "Nosotros": "sanamos",
-            "Vosotros": "sanáis",
-            "EllosEllasUstedes": "sanan"
-        },
-        "Pretérito": {
-            "Yo": "sané",
-            "Tu": "sanaste",
-            "ElEllaUsted": "sanó",
-            "Nosotros": "sanamos",
-            "Vosotros": "sanasteis",
-            "EllosEllasUstedes": "sanaron"
-        },
-        "Imperfect": {
-            "Yo": "sanaba",
-            "Tu": "sanabas",
-            "ElEllaUsted": "sanaba",
-            "Nosotros": "sanábamos",
-            "Vosotros": "sanabais",
-            "EllosEllasUstedes": "sanaban"
-        },
-        "Conditional": {
-            "Yo": "sanaría",
-            "Tu": "sanarías",
-            "ElEllaUsted": "sanaría",
-            "Nosotros": "sanaríamos",
-            "Vosotros": "sanaríais",
-            "EllosEllasUstedes": "sanarían"
-        },
-        "Future": {
-            "Yo": "sanaré",
-            "Tu": "sanarás",
-            "ElEllaUsted": "sanará",
-            "Nosotros": "sanaremos",
-            "Vosotros": "sanaréis",
-            "EllosEllasUstedes": "sanarán"
-        }
+  "PresentParticiple": "sanando",
+  "PastParticiple": "sanado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "sano",
+      "Tu": "sanas",
+      "ElEllaUsted": "sana",
+      "Nosotros": "sanamos",
+      "Vosotros": "sanáis",
+      "EllosEllasUstedes": "sanan"
     },
-    "Subjunctive": null,
-    "Name": "sanar",
-    "EnglishMeaning": "to heal"
+    "Pretérito": {
+      "Yo": "sané",
+      "Tu": "sanaste",
+      "ElEllaUsted": "sanó",
+      "Nosotros": "sanamos",
+      "Vosotros": "sanasteis",
+      "EllosEllasUstedes": "sanaron"
+    },
+    "Imperfect": {
+      "Yo": "sanaba",
+      "Tu": "sanabas",
+      "ElEllaUsted": "sanaba",
+      "Nosotros": "sanábamos",
+      "Vosotros": "sanabais",
+      "EllosEllasUstedes": "sanaban"
+    },
+    "Conditional": {
+      "Yo": "sanaría",
+      "Tu": "sanarías",
+      "ElEllaUsted": "sanaría",
+      "Nosotros": "sanaríamos",
+      "Vosotros": "sanaríais",
+      "EllosEllasUstedes": "sanarían"
+    },
+    "Future": {
+      "Yo": "sanaré",
+      "Tu": "sanarás",
+      "ElEllaUsted": "sanará",
+      "Nosotros": "sanaremos",
+      "Vosotros": "sanaréis",
+      "EllosEllasUstedes": "sanarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sane",
+      "Tu": "sanes",
+      "ElEllaUsted": "sane",
+      "Nosotros": "sanemos",
+      "Vosotros": "sanéis",
+      "EllosEllasUstedes": "sanen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "sanara",
+      "Tu": "sanaras",
+      "ElEllaUsted": "sanara",
+      "Nosotros": "sanaramos",
+      "Vosotros": "sanarais",
+      "EllosEllasUstedes": "sanaran"
+    }
+  },
+  "Name": "sanar",
+  "EnglishMeaning": "to heal"
 }

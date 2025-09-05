@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "vetando",
-    "PastParticiple": "vetado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "veto",
-            "Tu": "vetas",
-            "ElEllaUsted": "veta",
-            "Nosotros": "vetamos",
-            "Vosotros": "vetáis",
-            "EllosEllasUstedes": "vetan"
-        },
-        "Pretérito": {
-            "Yo": "veté",
-            "Tu": "vetaste",
-            "ElEllaUsted": "vetó",
-            "Nosotros": "vetamos",
-            "Vosotros": "vetasteis",
-            "EllosEllasUstedes": "vetaron"
-        },
-        "Imperfect": {
-            "Yo": "vetaba",
-            "Tu": "vetabas",
-            "ElEllaUsted": "vetaba",
-            "Nosotros": "vetábamos",
-            "Vosotros": "vetabais",
-            "EllosEllasUstedes": "vetaban"
-        },
-        "Conditional": {
-            "Yo": "vetaría",
-            "Tu": "vetarías",
-            "ElEllaUsted": "vetaría",
-            "Nosotros": "vetaríamos",
-            "Vosotros": "vetaríais",
-            "EllosEllasUstedes": "vetarían"
-        },
-        "Future": {
-            "Yo": "vetaré",
-            "Tu": "vetarás",
-            "ElEllaUsted": "vetará",
-            "Nosotros": "vetaremos",
-            "Vosotros": "vetaréis",
-            "EllosEllasUstedes": "vetarán"
-        }
+  "PresentParticiple": "vetando",
+  "PastParticiple": "vetado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "veto",
+      "Tu": "vetas",
+      "ElEllaUsted": "veta",
+      "Nosotros": "vetamos",
+      "Vosotros": "vetáis",
+      "EllosEllasUstedes": "vetan"
     },
-    "Subjunctive": null,
-    "Name": "vetar",
-    "EnglishMeaning": "to veto"
+    "Pretérito": {
+      "Yo": "veté",
+      "Tu": "vetaste",
+      "ElEllaUsted": "vetó",
+      "Nosotros": "vetamos",
+      "Vosotros": "vetasteis",
+      "EllosEllasUstedes": "vetaron"
+    },
+    "Imperfect": {
+      "Yo": "vetaba",
+      "Tu": "vetabas",
+      "ElEllaUsted": "vetaba",
+      "Nosotros": "vetábamos",
+      "Vosotros": "vetabais",
+      "EllosEllasUstedes": "vetaban"
+    },
+    "Conditional": {
+      "Yo": "vetaría",
+      "Tu": "vetarías",
+      "ElEllaUsted": "vetaría",
+      "Nosotros": "vetaríamos",
+      "Vosotros": "vetaríais",
+      "EllosEllasUstedes": "vetarían"
+    },
+    "Future": {
+      "Yo": "vetaré",
+      "Tu": "vetarás",
+      "ElEllaUsted": "vetará",
+      "Nosotros": "vetaremos",
+      "Vosotros": "vetaréis",
+      "EllosEllasUstedes": "vetarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "vete",
+      "Tu": "vetes",
+      "ElEllaUsted": "vete",
+      "Nosotros": "vetemos",
+      "Vosotros": "vetéis",
+      "EllosEllasUstedes": "veten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "vetara",
+      "Tu": "vetaras",
+      "ElEllaUsted": "vetara",
+      "Nosotros": "vetaramos",
+      "Vosotros": "vetarais",
+      "EllosEllasUstedes": "vetaran"
+    }
+  },
+  "Name": "vetar",
+  "EnglishMeaning": "to veto"
 }

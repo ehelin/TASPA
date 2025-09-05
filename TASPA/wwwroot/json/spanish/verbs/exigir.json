@@ -1,1 +1,68 @@
-{"PresentParticiple":"exigiendo&translation=demanding","PastParticiple":"exigido&translation=demanded","Indicative":{"PresentTense":{"Yo":"exijo","Tu":"exiges","ElEllaUsted":"exige","Nosotros":"exigimos","Vosotros":"exigís","EllosEllasUstedes":"exigen"},"Pretérito":{"Yo":"exigí","Tu":"exigiste","ElEllaUsted":"exigió","Nosotros":"exigimos","Vosotros":"exigisteis","EllosEllasUstedes":"exigieron"},"Imperfect":{"Yo":"exigía","Tu":"exigías","ElEllaUsted":"exigía","Nosotros":"exigíamos","Vosotros":"exigíais","EllosEllasUstedes":"exigían"},"Conditional":{"Yo":"exigiría","Tu":"exigirías","ElEllaUsted":"exigiría","Nosotros":"exigiríamos","Vosotros":"exigiríais","EllosEllasUstedes":"exigirían"},"Future":{"Yo":"exigiré","Tu":"exigirás","ElEllaUsted":"exigirá","Nosotros":"exigiremos","Vosotros":"exigiréis","EllosEllasUstedes":"exigirán"}},"Subjunctive":null,"Name":"exigir","EnglishMeaning":"to demand"}
+{
+  "PresentParticiple": "exigiendo",
+  "PastParticiple": "exigido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "exijo",
+      "Tu": "exiges",
+      "ElEllaUsted": "exige",
+      "Nosotros": "exigimos",
+      "Vosotros": "exigís",
+      "EllosEllasUstedes": "exigen"
+    },
+    "Pretérito": {
+      "Yo": "exigí",
+      "Tu": "exigiste",
+      "ElEllaUsted": "exigió",
+      "Nosotros": "exigimos",
+      "Vosotros": "exigisteis",
+      "EllosEllasUstedes": "exigieron"
+    },
+    "Imperfect": {
+      "Yo": "exigía",
+      "Tu": "exigías",
+      "ElEllaUsted": "exigía",
+      "Nosotros": "exigíamos",
+      "Vosotros": "exigíais",
+      "EllosEllasUstedes": "exigían"
+    },
+    "Conditional": {
+      "Yo": "exigiría",
+      "Tu": "exigirías",
+      "ElEllaUsted": "exigiría",
+      "Nosotros": "exigiríamos",
+      "Vosotros": "exigiríais",
+      "EllosEllasUstedes": "exigirían"
+    },
+    "Future": {
+      "Yo": "exigiré",
+      "Tu": "exigirás",
+      "ElEllaUsted": "exigirá",
+      "Nosotros": "exigiremos",
+      "Vosotros": "exigiréis",
+      "EllosEllasUstedes": "exigirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "exija",
+      "Tu": "exijas",
+      "ElEllaUsted": "exija",
+      "Nosotros": "exijamos",
+      "Vosotros": "exijáis",
+      "EllosEllasUstedes": "exijan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "exigiea",
+      "Tu": "exigieas",
+      "ElEllaUsted": "exigiea",
+      "Nosotros": "exigieamos",
+      "Vosotros": "exigieais",
+      "EllosEllasUstedes": "exigiean"
+    }
+  },
+  "Name": "exigir",
+  "EnglishMeaning": "to demand",
+  "PresentParticipleTranslation": "demanding",
+  "PastParticipleTranslation": "demanded"
+}

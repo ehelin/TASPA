@@ -1,1 +1,68 @@
-{"PresentParticiple":"cerrando&translation=closing","PastParticiple":"cerrado&translation=closed","Indicative":{"PresentTense":{"Yo":"cierro","Tu":"cierras","ElEllaUsted":"cierra","Nosotros":"cerramos","Vosotros":"cerráis","EllosEllasUstedes":"cierran"},"Pretérito":{"Yo":"cerré","Tu":"cerraste","ElEllaUsted":"cerró","Nosotros":"cerramos","Vosotros":"cerrasteis","EllosEllasUstedes":"cerraron"},"Imperfect":{"Yo":"cerraba","Tu":"cerrabas","ElEllaUsted":"cerraba","Nosotros":"cerrábamos","Vosotros":"cerrabais","EllosEllasUstedes":"cerraban"},"Conditional":{"Yo":"cerraría","Tu":"cerrarías","ElEllaUsted":"cerraría","Nosotros":"cerraríamos","Vosotros":"cerraríais","EllosEllasUstedes":"cerrarían"},"Future":{"Yo":"cerraré","Tu":"cerrarás","ElEllaUsted":"cerrará","Nosotros":"cerraremos","Vosotros":"cerraréis","EllosEllasUstedes":"cerrarán"}},"Subjunctive":null,"Name":"cerrar","EnglishMeaning":"to close"}
+{
+  "PresentParticiple": "cerrando",
+  "PastParticiple": "cerrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cierro",
+      "Tu": "cierras",
+      "ElEllaUsted": "cierra",
+      "Nosotros": "cerramos",
+      "Vosotros": "cerráis",
+      "EllosEllasUstedes": "cierran"
+    },
+    "Pretérito": {
+      "Yo": "cerré",
+      "Tu": "cerraste",
+      "ElEllaUsted": "cerró",
+      "Nosotros": "cerramos",
+      "Vosotros": "cerrasteis",
+      "EllosEllasUstedes": "cerraron"
+    },
+    "Imperfect": {
+      "Yo": "cerraba",
+      "Tu": "cerrabas",
+      "ElEllaUsted": "cerraba",
+      "Nosotros": "cerrábamos",
+      "Vosotros": "cerrabais",
+      "EllosEllasUstedes": "cerraban"
+    },
+    "Conditional": {
+      "Yo": "cerraría",
+      "Tu": "cerrarías",
+      "ElEllaUsted": "cerraría",
+      "Nosotros": "cerraríamos",
+      "Vosotros": "cerraríais",
+      "EllosEllasUstedes": "cerrarían"
+    },
+    "Future": {
+      "Yo": "cerraré",
+      "Tu": "cerrarás",
+      "ElEllaUsted": "cerrará",
+      "Nosotros": "cerraremos",
+      "Vosotros": "cerraréis",
+      "EllosEllasUstedes": "cerrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cierre",
+      "Tu": "cierres",
+      "ElEllaUsted": "cierre",
+      "Nosotros": "cierremos",
+      "Vosotros": "cierréis",
+      "EllosEllasUstedes": "cierren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cerrara",
+      "Tu": "cerraras",
+      "ElEllaUsted": "cerrara",
+      "Nosotros": "cerraramos",
+      "Vosotros": "cerrarais",
+      "EllosEllasUstedes": "cerraran"
+    }
+  },
+  "Name": "cerrar",
+  "EnglishMeaning": "to close",
+  "PresentParticipleTranslation": "closing",
+  "PastParticipleTranslation": "closed"
+}

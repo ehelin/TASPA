@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "apoderando",
-    "PastParticiple": "apoderado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "apodero",
-            "Tu": "apoderas",
-            "ElEllaUsted": "apodera",
-            "Nosotros": "apoderamos",
-            "Vosotros": "apoderáis",
-            "EllosEllasUstedes": "apoderan"
-        },
-        "Pretérito": {
-            "Yo": "apoderé",
-            "Tu": "apoderaste",
-            "ElEllaUsted": "apoderó",
-            "Nosotros": "apoderamos",
-            "Vosotros": "apoderasteis",
-            "EllosEllasUstedes": "apoderaron"
-        },
-        "Imperfect": {
-            "Yo": "apoderaba",
-            "Tu": "apoderabas",
-            "ElEllaUsted": "apoderaba",
-            "Nosotros": "apoderábamos",
-            "Vosotros": "apoderabais",
-            "EllosEllasUstedes": "apoderaban"
-        },
-        "Conditional": {
-            "Yo": "apoderaría",
-            "Tu": "apoderarías",
-            "ElEllaUsted": "apoderaría",
-            "Nosotros": "apoderaríamos",
-            "Vosotros": "apoderaríais",
-            "EllosEllasUstedes": "apoderarían"
-        },
-        "Future": {
-            "Yo": "apoderaré",
-            "Tu": "apoderarás",
-            "ElEllaUsted": "apoderará",
-            "Nosotros": "apoderaremos",
-            "Vosotros": "apoderaréis",
-            "EllosEllasUstedes": "apoderarán"
-        }
+  "PresentParticiple": "apoderando",
+  "PastParticiple": "apoderado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "apodero",
+      "Tu": "apoderas",
+      "ElEllaUsted": "apodera",
+      "Nosotros": "apoderamos",
+      "Vosotros": "apoderáis",
+      "EllosEllasUstedes": "apoderan"
     },
-    "Subjunctive": null,
-    "Name": "apoderar",
-    "EnglishMeaning": "to empower"
+    "Pretérito": {
+      "Yo": "apoderé",
+      "Tu": "apoderaste",
+      "ElEllaUsted": "apoderó",
+      "Nosotros": "apoderamos",
+      "Vosotros": "apoderasteis",
+      "EllosEllasUstedes": "apoderaron"
+    },
+    "Imperfect": {
+      "Yo": "apoderaba",
+      "Tu": "apoderabas",
+      "ElEllaUsted": "apoderaba",
+      "Nosotros": "apoderábamos",
+      "Vosotros": "apoderabais",
+      "EllosEllasUstedes": "apoderaban"
+    },
+    "Conditional": {
+      "Yo": "apoderaría",
+      "Tu": "apoderarías",
+      "ElEllaUsted": "apoderaría",
+      "Nosotros": "apoderaríamos",
+      "Vosotros": "apoderaríais",
+      "EllosEllasUstedes": "apoderarían"
+    },
+    "Future": {
+      "Yo": "apoderaré",
+      "Tu": "apoderarás",
+      "ElEllaUsted": "apoderará",
+      "Nosotros": "apoderaremos",
+      "Vosotros": "apoderaréis",
+      "EllosEllasUstedes": "apoderarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "apodere",
+      "Tu": "apoderes",
+      "ElEllaUsted": "apodere",
+      "Nosotros": "apoderemos",
+      "Vosotros": "apoderéis",
+      "EllosEllasUstedes": "apoderen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "apoderara",
+      "Tu": "apoderaras",
+      "ElEllaUsted": "apoderara",
+      "Nosotros": "apoderaramos",
+      "Vosotros": "apoderarais",
+      "EllosEllasUstedes": "apoderaran"
+    }
+  },
+  "Name": "apoderar",
+  "EnglishMeaning": "to empower"
 }

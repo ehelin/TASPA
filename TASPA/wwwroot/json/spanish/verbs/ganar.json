@@ -1,1 +1,68 @@
-{"PresentParticiple":"ganando&translation=winning","PastParticiple":"ganado&translation=won","Indicative":{"PresentTense":{"Yo":"gano","Tu":"ganas","ElEllaUsted":"gana","Nosotros":"ganamos","Vosotros":"ganáis","EllosEllasUstedes":"ganan"},"Pretérito":{"Yo":"gané","Tu":"ganaste","ElEllaUsted":"ganó","Nosotros":"ganamos","Vosotros":"ganasteis","EllosEllasUstedes":"ganaron"},"Imperfect":{"Yo":"ganaba","Tu":"ganabas","ElEllaUsted":"ganaba","Nosotros":"ganábamos","Vosotros":"ganabais","EllosEllasUstedes":"ganaban"},"Conditional":{"Yo":"ganaría","Tu":"ganarías","ElEllaUsted":"ganaría","Nosotros":"ganaríamos","Vosotros":"ganaríais","EllosEllasUstedes":"ganarían"},"Future":{"Yo":"ganaré","Tu":"ganarás","ElEllaUsted":"ganará","Nosotros":"ganaremos","Vosotros":"ganaréis","EllosEllasUstedes":"ganarán"}},"Subjunctive":null,"Name":"ganar","EnglishMeaning":"to win"}
+{
+  "PresentParticiple": "ganando",
+  "PastParticiple": "ganado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "gano",
+      "Tu": "ganas",
+      "ElEllaUsted": "gana",
+      "Nosotros": "ganamos",
+      "Vosotros": "ganáis",
+      "EllosEllasUstedes": "ganan"
+    },
+    "Pretérito": {
+      "Yo": "gané",
+      "Tu": "ganaste",
+      "ElEllaUsted": "ganó",
+      "Nosotros": "ganamos",
+      "Vosotros": "ganasteis",
+      "EllosEllasUstedes": "ganaron"
+    },
+    "Imperfect": {
+      "Yo": "ganaba",
+      "Tu": "ganabas",
+      "ElEllaUsted": "ganaba",
+      "Nosotros": "ganábamos",
+      "Vosotros": "ganabais",
+      "EllosEllasUstedes": "ganaban"
+    },
+    "Conditional": {
+      "Yo": "ganaría",
+      "Tu": "ganarías",
+      "ElEllaUsted": "ganaría",
+      "Nosotros": "ganaríamos",
+      "Vosotros": "ganaríais",
+      "EllosEllasUstedes": "ganarían"
+    },
+    "Future": {
+      "Yo": "ganaré",
+      "Tu": "ganarás",
+      "ElEllaUsted": "ganará",
+      "Nosotros": "ganaremos",
+      "Vosotros": "ganaréis",
+      "EllosEllasUstedes": "ganarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "gane",
+      "Tu": "ganes",
+      "ElEllaUsted": "gane",
+      "Nosotros": "ganemos",
+      "Vosotros": "ganéis",
+      "EllosEllasUstedes": "ganen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "ganara",
+      "Tu": "ganaras",
+      "ElEllaUsted": "ganara",
+      "Nosotros": "ganaramos",
+      "Vosotros": "ganarais",
+      "EllosEllasUstedes": "ganaran"
+    }
+  },
+  "Name": "ganar",
+  "EnglishMeaning": "to win",
+  "PresentParticipleTranslation": "winning",
+  "PastParticipleTranslation": "won"
+}

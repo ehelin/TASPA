@@ -1,1 +1,68 @@
-{"PresentParticiple":"andando&translation=walking","PastParticiple":"andado&translation=walked","Indicative":{"PresentTense":{"Yo":"ando","Tu":"andas","ElEllaUsted":"anda","Nosotros":"andamos","Vosotros":"andáis","EllosEllasUstedes":"andan"},"Pretérito":{"Yo":"anduve","Tu":"anduviste","ElEllaUsted":"anduvo","Nosotros":"anduvimos","Vosotros":"anduvisteis","EllosEllasUstedes":"anduvieron"},"Imperfect":{"Yo":"andaba","Tu":"andabas","ElEllaUsted":"andaba","Nosotros":"andábamos","Vosotros":"andabais","EllosEllasUstedes":"andaban"},"Conditional":{"Yo":"andaría","Tu":"andarías","ElEllaUsted":"andaría","Nosotros":"andaríamos","Vosotros":"andaríais","EllosEllasUstedes":"andarían"},"Future":{"Yo":"andaré","Tu":"andarás","ElEllaUsted":"andará","Nosotros":"andaremos","Vosotros":"andaréis","EllosEllasUstedes":"andarán"}},"Subjunctive":null,"Name":"andar","EnglishMeaning":"to walk"}
+{
+  "PresentParticiple": "andando",
+  "PastParticiple": "andado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "ando",
+      "Tu": "andas",
+      "ElEllaUsted": "anda",
+      "Nosotros": "andamos",
+      "Vosotros": "andáis",
+      "EllosEllasUstedes": "andan"
+    },
+    "Pretérito": {
+      "Yo": "anduve",
+      "Tu": "anduviste",
+      "ElEllaUsted": "anduvo",
+      "Nosotros": "anduvimos",
+      "Vosotros": "anduvisteis",
+      "EllosEllasUstedes": "anduvieron"
+    },
+    "Imperfect": {
+      "Yo": "andaba",
+      "Tu": "andabas",
+      "ElEllaUsted": "andaba",
+      "Nosotros": "andábamos",
+      "Vosotros": "andabais",
+      "EllosEllasUstedes": "andaban"
+    },
+    "Conditional": {
+      "Yo": "andaría",
+      "Tu": "andarías",
+      "ElEllaUsted": "andaría",
+      "Nosotros": "andaríamos",
+      "Vosotros": "andaríais",
+      "EllosEllasUstedes": "andarían"
+    },
+    "Future": {
+      "Yo": "andaré",
+      "Tu": "andarás",
+      "ElEllaUsted": "andará",
+      "Nosotros": "andaremos",
+      "Vosotros": "andaréis",
+      "EllosEllasUstedes": "andarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "ande",
+      "Tu": "andes",
+      "ElEllaUsted": "ande",
+      "Nosotros": "andemos",
+      "Vosotros": "andéis",
+      "EllosEllasUstedes": "anden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "anduviea",
+      "Tu": "anduvieas",
+      "ElEllaUsted": "anduviea",
+      "Nosotros": "anduvieamos",
+      "Vosotros": "anduvieais",
+      "EllosEllasUstedes": "anduviean"
+    }
+  },
+  "Name": "andar",
+  "EnglishMeaning": "to walk",
+  "PresentParticipleTranslation": "walking",
+  "PastParticipleTranslation": "walked"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"arreglando&translation=fixing","PastParticiple":"arreglado&translation=fixed","Indicative":{"PresentTense":{"Yo":"arreglo","Tu":"arreglas","ElEllaUsted":"arregla","Nosotros":"arreglamos","Vosotros":"arregláis","EllosEllasUstedes":"arreglan"},"Pretérito":{"Yo":"arreglé","Tu":"arreglaste","ElEllaUsted":"arregló","Nosotros":"arreglamos","Vosotros":"arreglasteis","EllosEllasUstedes":"arreglaron"},"Imperfect":{"Yo":"arreglaba","Tu":"arreglabas","ElEllaUsted":"arreglaba","Nosotros":"arreglábamos","Vosotros":"arreglabais","EllosEllasUstedes":"arreglaban"},"Conditional":{"Yo":"arreglaría","Tu":"arreglarías","ElEllaUsted":"arreglaría","Nosotros":"arreglaríamos","Vosotros":"arreglaríais","EllosEllasUstedes":"arreglarían"},"Future":{"Yo":"arreglaré","Tu":"arreglarás","ElEllaUsted":"arreglará","Nosotros":"arreglaremos","Vosotros":"arreglaréis","EllosEllasUstedes":"arreglarán"}},"Subjunctive":null,"Name":"arreglar","EnglishMeaning":"to fix"}
+{
+  "PresentParticiple": "arreglando",
+  "PastParticiple": "arreglado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "arreglo",
+      "Tu": "arreglas",
+      "ElEllaUsted": "arregla",
+      "Nosotros": "arreglamos",
+      "Vosotros": "arregláis",
+      "EllosEllasUstedes": "arreglan"
+    },
+    "Pretérito": {
+      "Yo": "arreglé",
+      "Tu": "arreglaste",
+      "ElEllaUsted": "arregló",
+      "Nosotros": "arreglamos",
+      "Vosotros": "arreglasteis",
+      "EllosEllasUstedes": "arreglaron"
+    },
+    "Imperfect": {
+      "Yo": "arreglaba",
+      "Tu": "arreglabas",
+      "ElEllaUsted": "arreglaba",
+      "Nosotros": "arreglábamos",
+      "Vosotros": "arreglabais",
+      "EllosEllasUstedes": "arreglaban"
+    },
+    "Conditional": {
+      "Yo": "arreglaría",
+      "Tu": "arreglarías",
+      "ElEllaUsted": "arreglaría",
+      "Nosotros": "arreglaríamos",
+      "Vosotros": "arreglaríais",
+      "EllosEllasUstedes": "arreglarían"
+    },
+    "Future": {
+      "Yo": "arreglaré",
+      "Tu": "arreglarás",
+      "ElEllaUsted": "arreglará",
+      "Nosotros": "arreglaremos",
+      "Vosotros": "arreglaréis",
+      "EllosEllasUstedes": "arreglarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "arregle",
+      "Tu": "arregles",
+      "ElEllaUsted": "arregle",
+      "Nosotros": "arreglemos",
+      "Vosotros": "arregléis",
+      "EllosEllasUstedes": "arreglen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "arreglara",
+      "Tu": "arreglaras",
+      "ElEllaUsted": "arreglara",
+      "Nosotros": "arreglaramos",
+      "Vosotros": "arreglarais",
+      "EllosEllasUstedes": "arreglaran"
+    }
+  },
+  "Name": "arreglar",
+  "EnglishMeaning": "to fix",
+  "PresentParticipleTranslation": "fixing",
+  "PastParticipleTranslation": "fixed"
+}

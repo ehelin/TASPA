@@ -1,1 +1,68 @@
-{"PresentParticiple":"deteniendo&translation=stopping","PastParticiple":"detenido&translation=stopped","Indicative":{"PresentTense":{"Yo":"detengo","Tu":"detienes","ElEllaUsted":"detiene","Nosotros":"detenemos","Vosotros":"detenéis","EllosEllasUstedes":"detienen"},"Pretérito":{"Yo":"detuve","Tu":"detuviste","ElEllaUsted":"detuvo","Nosotros":"detuvimos","Vosotros":"detuvisteis","EllosEllasUstedes":"detuvieron"},"Imperfect":{"Yo":"detenía","Tu":"detenías","ElEllaUsted":"detenía","Nosotros":"deteníamos","Vosotros":"deteníais","EllosEllasUstedes":"detenían"},"Conditional":{"Yo":"detendría","Tu":"detendrías","ElEllaUsted":"detendría","Nosotros":"detendríamos","Vosotros":"detendríais","EllosEllasUstedes":"detendrían"},"Future":{"Yo":"detendré","Tu":"detendrás","ElEllaUsted":"detendrá","Nosotros":"detendremos","Vosotros":"detendréis","EllosEllasUstedes":"detendrán"}},"Subjunctive":null,"Name":"detener","EnglishMeaning":"to stop"}
+{
+  "PresentParticiple": "deteniendo",
+  "PastParticiple": "detenido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "detengo",
+      "Tu": "detienes",
+      "ElEllaUsted": "detiene",
+      "Nosotros": "detenemos",
+      "Vosotros": "detenéis",
+      "EllosEllasUstedes": "detienen"
+    },
+    "Pretérito": {
+      "Yo": "detuve",
+      "Tu": "detuviste",
+      "ElEllaUsted": "detuvo",
+      "Nosotros": "detuvimos",
+      "Vosotros": "detuvisteis",
+      "EllosEllasUstedes": "detuvieron"
+    },
+    "Imperfect": {
+      "Yo": "detenía",
+      "Tu": "detenías",
+      "ElEllaUsted": "detenía",
+      "Nosotros": "deteníamos",
+      "Vosotros": "deteníais",
+      "EllosEllasUstedes": "detenían"
+    },
+    "Conditional": {
+      "Yo": "detendría",
+      "Tu": "detendrías",
+      "ElEllaUsted": "detendría",
+      "Nosotros": "detendríamos",
+      "Vosotros": "detendríais",
+      "EllosEllasUstedes": "detendrían"
+    },
+    "Future": {
+      "Yo": "detendré",
+      "Tu": "detendrás",
+      "ElEllaUsted": "detendrá",
+      "Nosotros": "detendremos",
+      "Vosotros": "detendréis",
+      "EllosEllasUstedes": "detendrán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "detenga",
+      "Tu": "detengas",
+      "ElEllaUsted": "detenga",
+      "Nosotros": "detengamos",
+      "Vosotros": "detengáis",
+      "EllosEllasUstedes": "detengan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "detuviea",
+      "Tu": "detuvieas",
+      "ElEllaUsted": "detuviea",
+      "Nosotros": "detuvieamos",
+      "Vosotros": "detuvieais",
+      "EllosEllasUstedes": "detuviean"
+    }
+  },
+  "Name": "detener",
+  "EnglishMeaning": "to stop",
+  "PresentParticipleTranslation": "stopping",
+  "PastParticipleTranslation": "stopped"
+}

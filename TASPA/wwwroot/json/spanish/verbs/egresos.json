@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "egresando",
-    "PastParticiple": "egresado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "egresoso",
-            "Tu": "egresosas",
-            "ElEllaUsted": "egresosa",
-            "Nosotros": "egresosamos",
-            "Vosotros": "egresosáis",
-            "EllosEllasUstedes": "egresosan"
-        },
-        "Pretérito": {
-            "Yo": "egresosé",
-            "Tu": "egresosaste",
-            "ElEllaUsted": "egresosó",
-            "Nosotros": "egresosamos",
-            "Vosotros": "egresosasteis",
-            "EllosEllasUstedes": "egresosaron"
-        },
-        "Imperfect": {
-            "Yo": "egresosaba",
-            "Tu": "egresosabas",
-            "ElEllaUsted": "egresosaba",
-            "Nosotros": "egresosábamos",
-            "Vosotros": "egresosabais",
-            "EllosEllasUstedes": "egresosaban"
-        },
-        "Conditional": {
-            "Yo": "egresosaría",
-            "Tu": "egresosarías",
-            "ElEllaUsted": "egresosaría",
-            "Nosotros": "egresosaríamos",
-            "Vosotros": "egresosaríais",
-            "EllosEllasUstedes": "egresosarían"
-        },
-        "Future": {
-            "Yo": "egresosaré",
-            "Tu": "egresosarás",
-            "ElEllaUsted": "egresosará",
-            "Nosotros": "egresosaremos",
-            "Vosotros": "egresosaréis",
-            "EllosEllasUstedes": "egresosarán"
-        }
+  "PresentParticiple": "egresando",
+  "PastParticiple": "egresado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "egresoso",
+      "Tu": "egresosas",
+      "ElEllaUsted": "egresosa",
+      "Nosotros": "egresosamos",
+      "Vosotros": "egresosáis",
+      "EllosEllasUstedes": "egresosan"
     },
-    "Subjunctive": null,
-    "Name": "egresos",
-    "EnglishMeaning": "to exit"
+    "Pretérito": {
+      "Yo": "egresosé",
+      "Tu": "egresosaste",
+      "ElEllaUsted": "egresosó",
+      "Nosotros": "egresosamos",
+      "Vosotros": "egresosasteis",
+      "EllosEllasUstedes": "egresosaron"
+    },
+    "Imperfect": {
+      "Yo": "egresosaba",
+      "Tu": "egresosabas",
+      "ElEllaUsted": "egresosaba",
+      "Nosotros": "egresosábamos",
+      "Vosotros": "egresosabais",
+      "EllosEllasUstedes": "egresosaban"
+    },
+    "Conditional": {
+      "Yo": "egresosaría",
+      "Tu": "egresosarías",
+      "ElEllaUsted": "egresosaría",
+      "Nosotros": "egresosaríamos",
+      "Vosotros": "egresosaríais",
+      "EllosEllasUstedes": "egresosarían"
+    },
+    "Future": {
+      "Yo": "egresosaré",
+      "Tu": "egresosarás",
+      "ElEllaUsted": "egresosará",
+      "Nosotros": "egresosaremos",
+      "Vosotros": "egresosaréis",
+      "EllosEllasUstedes": "egresosarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "egresosa",
+      "Tu": "egresosas",
+      "ElEllaUsted": "egresosa",
+      "Nosotros": "egresosamos",
+      "Vosotros": "egresosáis",
+      "EllosEllasUstedes": "egresosan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "egresosara",
+      "Tu": "egresosaras",
+      "ElEllaUsted": "egresosara",
+      "Nosotros": "egresosaramos",
+      "Vosotros": "egresosarais",
+      "EllosEllasUstedes": "egresosaran"
+    }
+  },
+  "Name": "egresos",
+  "EnglishMeaning": "to exit"
 }

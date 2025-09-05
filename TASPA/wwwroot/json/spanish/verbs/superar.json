@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "superando",
-    "PastParticiple": "superado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "supero",
-            "Tu": "superas",
-            "ElEllaUsted": "supera",
-            "Nosotros": "superamos",
-            "Vosotros": "superáis",
-            "EllosEllasUstedes": "superan"
-        },
-        "Pretérito": {
-            "Yo": "superé",
-            "Tu": "superaste",
-            "ElEllaUsted": "superó",
-            "Nosotros": "superamos",
-            "Vosotros": "superasteis",
-            "EllosEllasUstedes": "superaron"
-        },
-        "Imperfect": {
-            "Yo": "superaba",
-            "Tu": "superabas",
-            "ElEllaUsted": "superaba",
-            "Nosotros": "superábamos",
-            "Vosotros": "superabais",
-            "EllosEllasUstedes": "superaban"
-        },
-        "Conditional": {
-            "Yo": "superaría",
-            "Tu": "superarías",
-            "ElEllaUsted": "superaría",
-            "Nosotros": "superaríamos",
-            "Vosotros": "superaríais",
-            "EllosEllasUstedes": "superarían"
-        },
-        "Future": {
-            "Yo": "superaré",
-            "Tu": "superarás",
-            "ElEllaUsted": "superará",
-            "Nosotros": "superaremos",
-            "Vosotros": "superaréis",
-            "EllosEllasUstedes": "superarán"
-        }
+  "PresentParticiple": "superando",
+  "PastParticiple": "superado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "supero",
+      "Tu": "superas",
+      "ElEllaUsted": "supera",
+      "Nosotros": "superamos",
+      "Vosotros": "superáis",
+      "EllosEllasUstedes": "superan"
     },
-    "Subjunctive": null,
-    "Name": "superar",
-    "EnglishMeaning": "to overcome"
+    "Pretérito": {
+      "Yo": "superé",
+      "Tu": "superaste",
+      "ElEllaUsted": "superó",
+      "Nosotros": "superamos",
+      "Vosotros": "superasteis",
+      "EllosEllasUstedes": "superaron"
+    },
+    "Imperfect": {
+      "Yo": "superaba",
+      "Tu": "superabas",
+      "ElEllaUsted": "superaba",
+      "Nosotros": "superábamos",
+      "Vosotros": "superabais",
+      "EllosEllasUstedes": "superaban"
+    },
+    "Conditional": {
+      "Yo": "superaría",
+      "Tu": "superarías",
+      "ElEllaUsted": "superaría",
+      "Nosotros": "superaríamos",
+      "Vosotros": "superaríais",
+      "EllosEllasUstedes": "superarían"
+    },
+    "Future": {
+      "Yo": "superaré",
+      "Tu": "superarás",
+      "ElEllaUsted": "superará",
+      "Nosotros": "superaremos",
+      "Vosotros": "superaréis",
+      "EllosEllasUstedes": "superarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "supere",
+      "Tu": "superes",
+      "ElEllaUsted": "supere",
+      "Nosotros": "superemos",
+      "Vosotros": "superéis",
+      "EllosEllasUstedes": "superen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "superara",
+      "Tu": "superaras",
+      "ElEllaUsted": "superara",
+      "Nosotros": "superaramos",
+      "Vosotros": "superarais",
+      "EllosEllasUstedes": "superaran"
+    }
+  },
+  "Name": "superar",
+  "EnglishMeaning": "to overcome"
 }

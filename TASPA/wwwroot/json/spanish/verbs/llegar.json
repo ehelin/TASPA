@@ -1,1 +1,68 @@
-{"PresentParticiple":"llegando&translation=arriving","PastParticiple":"llegado&translation=arrived","Indicative":{"PresentTense":{"Yo":"llego","Tu":"llegas","ElEllaUsted":"llega","Nosotros":"llegamos","Vosotros":"llegáis","EllosEllasUstedes":"llegan"},"Pretérito":{"Yo":"llegué","Tu":"llegaste","ElEllaUsted":"llegó","Nosotros":"llegamos","Vosotros":"llegasteis","EllosEllasUstedes":"llegaron"},"Imperfect":{"Yo":"llegaba","Tu":"llegabas","ElEllaUsted":"llegaba","Nosotros":"llegábamos","Vosotros":"llegabais","EllosEllasUstedes":"llegaban"},"Conditional":{"Yo":"llegaría","Tu":"llegarías","ElEllaUsted":"llegaría","Nosotros":"llegaríamos","Vosotros":"llegaríais","EllosEllasUstedes":"llegarían"},"Future":{"Yo":"llegaré","Tu":"llegarás","ElEllaUsted":"llegará","Nosotros":"llegaremos","Vosotros":"llegaréis","EllosEllasUstedes":"llegarán"}},"Subjunctive":null,"Name":"llegar","EnglishMeaning":"to arrive"}
+{
+  "PresentParticiple": "llegando",
+  "PastParticiple": "llegado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "llego",
+      "Tu": "llegas",
+      "ElEllaUsted": "llega",
+      "Nosotros": "llegamos",
+      "Vosotros": "llegáis",
+      "EllosEllasUstedes": "llegan"
+    },
+    "Pretérito": {
+      "Yo": "llegué",
+      "Tu": "llegaste",
+      "ElEllaUsted": "llegó",
+      "Nosotros": "llegamos",
+      "Vosotros": "llegasteis",
+      "EllosEllasUstedes": "llegaron"
+    },
+    "Imperfect": {
+      "Yo": "llegaba",
+      "Tu": "llegabas",
+      "ElEllaUsted": "llegaba",
+      "Nosotros": "llegábamos",
+      "Vosotros": "llegabais",
+      "EllosEllasUstedes": "llegaban"
+    },
+    "Conditional": {
+      "Yo": "llegaría",
+      "Tu": "llegarías",
+      "ElEllaUsted": "llegaría",
+      "Nosotros": "llegaríamos",
+      "Vosotros": "llegaríais",
+      "EllosEllasUstedes": "llegarían"
+    },
+    "Future": {
+      "Yo": "llegaré",
+      "Tu": "llegarás",
+      "ElEllaUsted": "llegará",
+      "Nosotros": "llegaremos",
+      "Vosotros": "llegaréis",
+      "EllosEllasUstedes": "llegarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "llege",
+      "Tu": "lleges",
+      "ElEllaUsted": "llege",
+      "Nosotros": "llegemos",
+      "Vosotros": "llegéis",
+      "EllosEllasUstedes": "llegen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "llegara",
+      "Tu": "llegaras",
+      "ElEllaUsted": "llegara",
+      "Nosotros": "llegaramos",
+      "Vosotros": "llegarais",
+      "EllosEllasUstedes": "llegaran"
+    }
+  },
+  "Name": "llegar",
+  "EnglishMeaning": "to arrive",
+  "PresentParticipleTranslation": "arriving",
+  "PastParticipleTranslation": "arrived"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"negando&translation=denying","PastParticiple":"negado&translation=denied","Indicative":{"PresentTense":{"Yo":"niego","Tu":"niegas","ElEllaUsted":"niega","Nosotros":"negamos","Vosotros":"negáis","EllosEllasUstedes":"niegan"},"Pretérito":{"Yo":"negué","Tu":"negaste","ElEllaUsted":"negó","Nosotros":"negamos","Vosotros":"negasteis","EllosEllasUstedes":"negaron"},"Imperfect":{"Yo":"negaba","Tu":"negabas","ElEllaUsted":"negaba","Nosotros":"negábamos","Vosotros":"negabais","EllosEllasUstedes":"negaban"},"Conditional":{"Yo":"negaría","Tu":"negarías","ElEllaUsted":"negaría","Nosotros":"negaríamos","Vosotros":"negaríais","EllosEllasUstedes":"negarían"},"Future":{"Yo":"negaré","Tu":"negarás","ElEllaUsted":"negará","Nosotros":"negaremos","Vosotros":"negaréis","EllosEllasUstedes":"negarán"}},"Subjunctive":null,"Name":"negar","EnglishMeaning":"to deny"}
+{
+  "PresentParticiple": "negando",
+  "PastParticiple": "negado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "niego",
+      "Tu": "niegas",
+      "ElEllaUsted": "niega",
+      "Nosotros": "negamos",
+      "Vosotros": "negáis",
+      "EllosEllasUstedes": "niegan"
+    },
+    "Pretérito": {
+      "Yo": "negué",
+      "Tu": "negaste",
+      "ElEllaUsted": "negó",
+      "Nosotros": "negamos",
+      "Vosotros": "negasteis",
+      "EllosEllasUstedes": "negaron"
+    },
+    "Imperfect": {
+      "Yo": "negaba",
+      "Tu": "negabas",
+      "ElEllaUsted": "negaba",
+      "Nosotros": "negábamos",
+      "Vosotros": "negabais",
+      "EllosEllasUstedes": "negaban"
+    },
+    "Conditional": {
+      "Yo": "negaría",
+      "Tu": "negarías",
+      "ElEllaUsted": "negaría",
+      "Nosotros": "negaríamos",
+      "Vosotros": "negaríais",
+      "EllosEllasUstedes": "negarían"
+    },
+    "Future": {
+      "Yo": "negaré",
+      "Tu": "negarás",
+      "ElEllaUsted": "negará",
+      "Nosotros": "negaremos",
+      "Vosotros": "negaréis",
+      "EllosEllasUstedes": "negarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "niege",
+      "Tu": "nieges",
+      "ElEllaUsted": "niege",
+      "Nosotros": "niegemos",
+      "Vosotros": "niegéis",
+      "EllosEllasUstedes": "niegen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "negara",
+      "Tu": "negaras",
+      "ElEllaUsted": "negara",
+      "Nosotros": "negaramos",
+      "Vosotros": "negarais",
+      "EllosEllasUstedes": "negaran"
+    }
+  },
+  "Name": "negar",
+  "EnglishMeaning": "to deny",
+  "PresentParticipleTranslation": "denying",
+  "PastParticipleTranslation": "denied"
+}

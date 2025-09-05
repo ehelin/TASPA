@@ -1,1 +1,68 @@
-{"PresentParticiple":"cazando&translation=hunting","PastParticiple":"cazado&translation=hunted","Indicative":{"PresentTense":{"Yo":"cazo","Tu":"cazas","ElEllaUsted":"caza","Nosotros":"cazamos","Vosotros":"cazáis","EllosEllasUstedes":"cazan"},"Pretérito":{"Yo":"cacé","Tu":"cazaste","ElEllaUsted":"cazó","Nosotros":"cazamos","Vosotros":"cazasteis","EllosEllasUstedes":"cazaron"},"Imperfect":{"Yo":"cazaba","Tu":"cazabas","ElEllaUsted":"cazaba","Nosotros":"cazábamos","Vosotros":"cazabais","EllosEllasUstedes":"cazaban"},"Conditional":{"Yo":"cazaría","Tu":"cazarías","ElEllaUsted":"cazaría","Nosotros":"cazaríamos","Vosotros":"cazaríais","EllosEllasUstedes":"cazarían"},"Future":{"Yo":"cazaré","Tu":"cazarás","ElEllaUsted":"cazará","Nosotros":"cazaremos","Vosotros":"cazaréis","EllosEllasUstedes":"cazarán"}},"Subjunctive":null,"Name":"cazar","EnglishMeaning":"to hunt"}
+{
+  "PresentParticiple": "cazando",
+  "PastParticiple": "cazado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cazo",
+      "Tu": "cazas",
+      "ElEllaUsted": "caza",
+      "Nosotros": "cazamos",
+      "Vosotros": "cazáis",
+      "EllosEllasUstedes": "cazan"
+    },
+    "Pretérito": {
+      "Yo": "cacé",
+      "Tu": "cazaste",
+      "ElEllaUsted": "cazó",
+      "Nosotros": "cazamos",
+      "Vosotros": "cazasteis",
+      "EllosEllasUstedes": "cazaron"
+    },
+    "Imperfect": {
+      "Yo": "cazaba",
+      "Tu": "cazabas",
+      "ElEllaUsted": "cazaba",
+      "Nosotros": "cazábamos",
+      "Vosotros": "cazabais",
+      "EllosEllasUstedes": "cazaban"
+    },
+    "Conditional": {
+      "Yo": "cazaría",
+      "Tu": "cazarías",
+      "ElEllaUsted": "cazaría",
+      "Nosotros": "cazaríamos",
+      "Vosotros": "cazaríais",
+      "EllosEllasUstedes": "cazarían"
+    },
+    "Future": {
+      "Yo": "cazaré",
+      "Tu": "cazarás",
+      "ElEllaUsted": "cazará",
+      "Nosotros": "cazaremos",
+      "Vosotros": "cazaréis",
+      "EllosEllasUstedes": "cazarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "caze",
+      "Tu": "cazes",
+      "ElEllaUsted": "caze",
+      "Nosotros": "cazemos",
+      "Vosotros": "cazéis",
+      "EllosEllasUstedes": "cazen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cazara",
+      "Tu": "cazaras",
+      "ElEllaUsted": "cazara",
+      "Nosotros": "cazaramos",
+      "Vosotros": "cazarais",
+      "EllosEllasUstedes": "cazaran"
+    }
+  },
+  "Name": "cazar",
+  "EnglishMeaning": "to hunt",
+  "PresentParticipleTranslation": "hunting",
+  "PastParticipleTranslation": "hunted"
+}

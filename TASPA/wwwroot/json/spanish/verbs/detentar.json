@@ -1,1 +1,66 @@
-{"PresentParticiple":"detentando","PastParticiple":"detentado","Indicative":{"PresentTense":{"Yo":"detento","Tu":"detentas","ElEllaUsted":"detenta","Nosotros":"detentamos","Vosotros":"detentáis","EllosEllasUstedes":"detentan"},"Pretérito":{"Yo":"detenté","Tu":"detentaste","ElEllaUsted":"detentó","Nosotros":"detentamos","Vosotros":"detentasteis","EllosEllasUstedes":"detentaron"},"Imperfect":{"Yo":"detentaba","Tu":"detentabas","ElEllaUsted":"detentaba","Nosotros":"detentábamos","Vosotros":"detentabais","EllosEllasUstedes":"detentaban"},"Conditional":{"Yo":"detentaría","Tu":"detentarías","ElEllaUsted":"detentaría","Nosotros":"detentaríamos","Vosotros":"detentaríais","EllosEllasUstedes":"detentarían"},"Future":{"Yo":"detentaré","Tu":"detentarás","ElEllaUsted":"detentará","Nosotros":"detentaremos","Vosotros":"detentaréis","EllosEllasUstedes":"detentarán"}},"Subjunctive":null,"Name":"detentar","EnglishMeaning":"to hold unlawfully"}
+{
+  "PresentParticiple": "detentando",
+  "PastParticiple": "detentado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "detento",
+      "Tu": "detentas",
+      "ElEllaUsted": "detenta",
+      "Nosotros": "detentamos",
+      "Vosotros": "detentáis",
+      "EllosEllasUstedes": "detentan"
+    },
+    "Pretérito": {
+      "Yo": "detenté",
+      "Tu": "detentaste",
+      "ElEllaUsted": "detentó",
+      "Nosotros": "detentamos",
+      "Vosotros": "detentasteis",
+      "EllosEllasUstedes": "detentaron"
+    },
+    "Imperfect": {
+      "Yo": "detentaba",
+      "Tu": "detentabas",
+      "ElEllaUsted": "detentaba",
+      "Nosotros": "detentábamos",
+      "Vosotros": "detentabais",
+      "EllosEllasUstedes": "detentaban"
+    },
+    "Conditional": {
+      "Yo": "detentaría",
+      "Tu": "detentarías",
+      "ElEllaUsted": "detentaría",
+      "Nosotros": "detentaríamos",
+      "Vosotros": "detentaríais",
+      "EllosEllasUstedes": "detentarían"
+    },
+    "Future": {
+      "Yo": "detentaré",
+      "Tu": "detentarás",
+      "ElEllaUsted": "detentará",
+      "Nosotros": "detentaremos",
+      "Vosotros": "detentaréis",
+      "EllosEllasUstedes": "detentarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "detente",
+      "Tu": "detentes",
+      "ElEllaUsted": "detente",
+      "Nosotros": "detentemos",
+      "Vosotros": "detentéis",
+      "EllosEllasUstedes": "detenten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "detentara",
+      "Tu": "detentaras",
+      "ElEllaUsted": "detentara",
+      "Nosotros": "detentaramos",
+      "Vosotros": "detentarais",
+      "EllosEllasUstedes": "detentaran"
+    }
+  },
+  "Name": "detentar",
+  "EnglishMeaning": "to hold unlawfully"
+}

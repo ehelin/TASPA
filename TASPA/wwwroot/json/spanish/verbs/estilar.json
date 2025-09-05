@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "estilarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "estile",
+      "Tu": "estiles",
+      "ElEllaUsted": "estile",
+      "Nosotros": "estilemos",
+      "Vosotros": "estiléis",
+      "EllosEllasUstedes": "estilen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "estilara",
+      "Tu": "estilaras",
+      "ElEllaUsted": "estilara",
+      "Nosotros": "estilaramos",
+      "Vosotros": "estilarais",
+      "EllosEllasUstedes": "estilaran"
+    }
+  },
   "Name": "estilar",
   "EnglishMeaning": "to style"
 }

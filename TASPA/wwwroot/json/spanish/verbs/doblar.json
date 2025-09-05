@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "doblando",
-    "PastParticiple": "doblado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "doblo",
-            "Tu": "doblas",
-            "ElEllaUsted": "dobla",
-            "Nosotros": "doblamos",
-            "Vosotros": "dobláis",
-            "EllosEllasUstedes": "doblan"
-        },
-        "Pretérito": {
-            "Yo": "doblé",
-            "Tu": "doblaste",
-            "ElEllaUsted": "dobló",
-            "Nosotros": "doblamos",
-            "Vosotros": "doblasteis",
-            "EllosEllasUstedes": "doblaron"
-        },
-        "Imperfect": {
-            "Yo": "doblaba",
-            "Tu": "doblabas",
-            "ElEllaUsted": "doblaba",
-            "Nosotros": "doblábamos",
-            "Vosotros": "doblabais",
-            "EllosEllasUstedes": "doblaban"
-        },
-        "Conditional": {
-            "Yo": "doblaría",
-            "Tu": "doblarías",
-            "ElEllaUsted": "doblaría",
-            "Nosotros": "doblaríamos",
-            "Vosotros": "doblaríais",
-            "EllosEllasUstedes": "doblarían"
-        },
-        "Future": {
-            "Yo": "doblaré",
-            "Tu": "doblarás",
-            "ElEllaUsted": "doblará",
-            "Nosotros": "doblaremos",
-            "Vosotros": "doblaréis",
-            "EllosEllasUstedes": "doblarán"
-        }
+  "PresentParticiple": "doblando",
+  "PastParticiple": "doblado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "doblo",
+      "Tu": "doblas",
+      "ElEllaUsted": "dobla",
+      "Nosotros": "doblamos",
+      "Vosotros": "dobláis",
+      "EllosEllasUstedes": "doblan"
     },
-    "Subjunctive": null,
-    "Name": "doblar",
-    "EnglishMeaning": "to bend"
+    "Pretérito": {
+      "Yo": "doblé",
+      "Tu": "doblaste",
+      "ElEllaUsted": "dobló",
+      "Nosotros": "doblamos",
+      "Vosotros": "doblasteis",
+      "EllosEllasUstedes": "doblaron"
+    },
+    "Imperfect": {
+      "Yo": "doblaba",
+      "Tu": "doblabas",
+      "ElEllaUsted": "doblaba",
+      "Nosotros": "doblábamos",
+      "Vosotros": "doblabais",
+      "EllosEllasUstedes": "doblaban"
+    },
+    "Conditional": {
+      "Yo": "doblaría",
+      "Tu": "doblarías",
+      "ElEllaUsted": "doblaría",
+      "Nosotros": "doblaríamos",
+      "Vosotros": "doblaríais",
+      "EllosEllasUstedes": "doblarían"
+    },
+    "Future": {
+      "Yo": "doblaré",
+      "Tu": "doblarás",
+      "ElEllaUsted": "doblará",
+      "Nosotros": "doblaremos",
+      "Vosotros": "doblaréis",
+      "EllosEllasUstedes": "doblarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "doble",
+      "Tu": "dobles",
+      "ElEllaUsted": "doble",
+      "Nosotros": "doblemos",
+      "Vosotros": "dobléis",
+      "EllosEllasUstedes": "doblen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "doblara",
+      "Tu": "doblaras",
+      "ElEllaUsted": "doblara",
+      "Nosotros": "doblaramos",
+      "Vosotros": "doblarais",
+      "EllosEllasUstedes": "doblaran"
+    }
+  },
+  "Name": "doblar",
+  "EnglishMeaning": "to bend"
 }

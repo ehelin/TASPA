@@ -1,1 +1,66 @@
-{"PresentParticiple":"resaltando","PastParticiple":"resaltado","Indicative":{"PresentTense":{"Yo":"resalto","Tu":"resaltas","ElEllaUsted":"resalta","Nosotros":"resaltamos","Vosotros":"resaltáis","EllosEllasUstedes":"resaltan"},"Pretérito":{"Yo":"resalté","Tu":"resaltaste","ElEllaUsted":"resaltó","Nosotros":"resaltamos","Vosotros":"resaltasteis","EllosEllasUstedes":"resaltaron"},"Imperfect":{"Yo":"resaltaba","Tu":"resaltabas","ElEllaUsted":"resaltaba","Nosotros":"resaltábamos","Vosotros":"resaltabais","EllosEllasUstedes":"resaltaban"},"Conditional":{"Yo":"resaltaría","Tu":"resaltarías","ElEllaUsted":"resaltaría","Nosotros":"resaltaríamos","Vosotros":"resaltaríais","EllosEllasUstedes":"resaltarían"},"Future":{"Yo":"resaltaré","Tu":"resaltarás","ElEllaUsted":"resaltará","Nosotros":"resaltaremos","Vosotros":"resaltaréis","EllosEllasUstedes":"resaltarán"}},"Subjunctive":null,"Name":"resaltar","EnglishMeaning":"to stand out"}
+{
+  "PresentParticiple": "resaltando",
+  "PastParticiple": "resaltado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "resalto",
+      "Tu": "resaltas",
+      "ElEllaUsted": "resalta",
+      "Nosotros": "resaltamos",
+      "Vosotros": "resaltáis",
+      "EllosEllasUstedes": "resaltan"
+    },
+    "Pretérito": {
+      "Yo": "resalté",
+      "Tu": "resaltaste",
+      "ElEllaUsted": "resaltó",
+      "Nosotros": "resaltamos",
+      "Vosotros": "resaltasteis",
+      "EllosEllasUstedes": "resaltaron"
+    },
+    "Imperfect": {
+      "Yo": "resaltaba",
+      "Tu": "resaltabas",
+      "ElEllaUsted": "resaltaba",
+      "Nosotros": "resaltábamos",
+      "Vosotros": "resaltabais",
+      "EllosEllasUstedes": "resaltaban"
+    },
+    "Conditional": {
+      "Yo": "resaltaría",
+      "Tu": "resaltarías",
+      "ElEllaUsted": "resaltaría",
+      "Nosotros": "resaltaríamos",
+      "Vosotros": "resaltaríais",
+      "EllosEllasUstedes": "resaltarían"
+    },
+    "Future": {
+      "Yo": "resaltaré",
+      "Tu": "resaltarás",
+      "ElEllaUsted": "resaltará",
+      "Nosotros": "resaltaremos",
+      "Vosotros": "resaltaréis",
+      "EllosEllasUstedes": "resaltarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "resalte",
+      "Tu": "resaltes",
+      "ElEllaUsted": "resalte",
+      "Nosotros": "resaltemos",
+      "Vosotros": "resaltéis",
+      "EllosEllasUstedes": "resalten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "resaltara",
+      "Tu": "resaltaras",
+      "ElEllaUsted": "resaltara",
+      "Nosotros": "resaltaramos",
+      "Vosotros": "resaltarais",
+      "EllosEllasUstedes": "resaltaran"
+    }
+  },
+  "Name": "resaltar",
+  "EnglishMeaning": "to stand out"
+}

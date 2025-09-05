@@ -1,1 +1,68 @@
-{"PresentParticiple":"donando&translation=donating","PastParticiple":"donado&translation=donated","Indicative":{"PresentTense":{"Yo":"dono","Tu":"donas","ElEllaUsted":"dona","Nosotros":"donamos","Vosotros":"donáis","EllosEllasUstedes":"donan"},"Pretérito":{"Yo":"doné","Tu":"donaste","ElEllaUsted":"donó","Nosotros":"donamos","Vosotros":"donasteis","EllosEllasUstedes":"donaron"},"Imperfect":{"Yo":"donaba","Tu":"donabas","ElEllaUsted":"donaba","Nosotros":"donábamos","Vosotros":"donabais","EllosEllasUstedes":"donaban"},"Conditional":{"Yo":"donaría","Tu":"donarías","ElEllaUsted":"donaría","Nosotros":"donaríamos","Vosotros":"donaríais","EllosEllasUstedes":"donarían"},"Future":{"Yo":"donaré","Tu":"donarás","ElEllaUsted":"donará","Nosotros":"donaremos","Vosotros":"donaréis","EllosEllasUstedes":"donarán"}},"Subjunctive":null,"Name":"donar","EnglishMeaning":"to donate"}
+{
+  "PresentParticiple": "donando",
+  "PastParticiple": "donado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "dono",
+      "Tu": "donas",
+      "ElEllaUsted": "dona",
+      "Nosotros": "donamos",
+      "Vosotros": "donáis",
+      "EllosEllasUstedes": "donan"
+    },
+    "Pretérito": {
+      "Yo": "doné",
+      "Tu": "donaste",
+      "ElEllaUsted": "donó",
+      "Nosotros": "donamos",
+      "Vosotros": "donasteis",
+      "EllosEllasUstedes": "donaron"
+    },
+    "Imperfect": {
+      "Yo": "donaba",
+      "Tu": "donabas",
+      "ElEllaUsted": "donaba",
+      "Nosotros": "donábamos",
+      "Vosotros": "donabais",
+      "EllosEllasUstedes": "donaban"
+    },
+    "Conditional": {
+      "Yo": "donaría",
+      "Tu": "donarías",
+      "ElEllaUsted": "donaría",
+      "Nosotros": "donaríamos",
+      "Vosotros": "donaríais",
+      "EllosEllasUstedes": "donarían"
+    },
+    "Future": {
+      "Yo": "donaré",
+      "Tu": "donarás",
+      "ElEllaUsted": "donará",
+      "Nosotros": "donaremos",
+      "Vosotros": "donaréis",
+      "EllosEllasUstedes": "donarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "done",
+      "Tu": "dones",
+      "ElEllaUsted": "done",
+      "Nosotros": "donemos",
+      "Vosotros": "donéis",
+      "EllosEllasUstedes": "donen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "donara",
+      "Tu": "donaras",
+      "ElEllaUsted": "donara",
+      "Nosotros": "donaramos",
+      "Vosotros": "donarais",
+      "EllosEllasUstedes": "donaran"
+    }
+  },
+  "Name": "donar",
+  "EnglishMeaning": "to donate",
+  "PresentParticipleTranslation": "donating",
+  "PastParticipleTranslation": "donated"
+}

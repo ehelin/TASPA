@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "dimesionando",
-    "PastParticiple": "dimesionado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "dimesiono",
-            "Tu": "dimesionas",
-            "ElEllaUsted": "dimesiona",
-            "Nosotros": "dimesionamos",
-            "Vosotros": "dimesionáis",
-            "EllosEllasUstedes": "dimesionan"
-        },
-        "Pretérito": {
-            "Yo": "dimesioné",
-            "Tu": "dimesionaste",
-            "ElEllaUsted": "dimesionó",
-            "Nosotros": "dimesionamos",
-            "Vosotros": "dimesionasteis",
-            "EllosEllasUstedes": "dimesionaron"
-        },
-        "Imperfect": {
-            "Yo": "dimesionaba",
-            "Tu": "dimesionabas",
-            "ElEllaUsted": "dimesionaba",
-            "Nosotros": "dimesionábamos",
-            "Vosotros": "dimesionabais",
-            "EllosEllasUstedes": "dimesionaban"
-        },
-        "Conditional": {
-            "Yo": "dimesionaría",
-            "Tu": "dimesionarías",
-            "ElEllaUsted": "dimesionaría",
-            "Nosotros": "dimesionaríamos",
-            "Vosotros": "dimesionaríais",
-            "EllosEllasUstedes": "dimesionarían"
-        },
-        "Future": {
-            "Yo": "dimesionaré",
-            "Tu": "dimesionarás",
-            "ElEllaUsted": "dimesionará",
-            "Nosotros": "dimesionaremos",
-            "Vosotros": "dimesionaréis",
-            "EllosEllasUstedes": "dimesionarán"
-        }
+  "PresentParticiple": "dimesionando",
+  "PastParticiple": "dimesionado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "dimesiono",
+      "Tu": "dimesionas",
+      "ElEllaUsted": "dimesiona",
+      "Nosotros": "dimesionamos",
+      "Vosotros": "dimesionáis",
+      "EllosEllasUstedes": "dimesionan"
     },
-    "Subjunctive": null,
-    "Name": "dimesionar",
-    "EnglishMeaning": "to measure"
+    "Pretérito": {
+      "Yo": "dimesioné",
+      "Tu": "dimesionaste",
+      "ElEllaUsted": "dimesionó",
+      "Nosotros": "dimesionamos",
+      "Vosotros": "dimesionasteis",
+      "EllosEllasUstedes": "dimesionaron"
+    },
+    "Imperfect": {
+      "Yo": "dimesionaba",
+      "Tu": "dimesionabas",
+      "ElEllaUsted": "dimesionaba",
+      "Nosotros": "dimesionábamos",
+      "Vosotros": "dimesionabais",
+      "EllosEllasUstedes": "dimesionaban"
+    },
+    "Conditional": {
+      "Yo": "dimesionaría",
+      "Tu": "dimesionarías",
+      "ElEllaUsted": "dimesionaría",
+      "Nosotros": "dimesionaríamos",
+      "Vosotros": "dimesionaríais",
+      "EllosEllasUstedes": "dimesionarían"
+    },
+    "Future": {
+      "Yo": "dimesionaré",
+      "Tu": "dimesionarás",
+      "ElEllaUsted": "dimesionará",
+      "Nosotros": "dimesionaremos",
+      "Vosotros": "dimesionaréis",
+      "EllosEllasUstedes": "dimesionarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "dimesione",
+      "Tu": "dimesiones",
+      "ElEllaUsted": "dimesione",
+      "Nosotros": "dimesionemos",
+      "Vosotros": "dimesionéis",
+      "EllosEllasUstedes": "dimesionen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "dimesionara",
+      "Tu": "dimesionaras",
+      "ElEllaUsted": "dimesionara",
+      "Nosotros": "dimesionaramos",
+      "Vosotros": "dimesionarais",
+      "EllosEllasUstedes": "dimesionaran"
+    }
+  },
+  "Name": "dimesionar",
+  "EnglishMeaning": "to measure"
 }

@@ -1,1 +1,66 @@
-{"PresentParticiple":"buscando","PastParticiple":"buscado","Indicative":{"PresentTense":{"Yo":"busco","Tu":"buscas","ElEllaUsted":"busca","Nosotros":"buscamos","Vosotros":"buscáis","EllosEllasUstedes":"buscan"},"Pretérito":{"Yo":"busqué","Tu":"buscaste","ElEllaUsted":"buscó","Nosotros":"buscamos","Vosotros":"buscasteis","EllosEllasUstedes":"buscaron"},"Imperfect":{"Yo":"buscaba","Tu":"buscabas","ElEllaUsted":"buscaba","Nosotros":"buscábamos","Vosotros":"buscabais","EllosEllasUstedes":"buscaban"},"Conditional":{"Yo":"buscaría","Tu":"buscarías","ElEllaUsted":"buscaría","Nosotros":"buscaríamos","Vosotros":"buscaríais","EllosEllasUstedes":"buscarían"},"Future":{"Yo":"buscaré","Tu":"buscarás","ElEllaUsted":"buscará","Nosotros":"buscaremos","Vosotros":"buscaréis","EllosEllasUstedes":"buscarán"}},"Subjunctive":null,"Name":"buscar","EnglishMeaning":"to look for"}
+{
+  "PresentParticiple": "buscando",
+  "PastParticiple": "buscado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "busco",
+      "Tu": "buscas",
+      "ElEllaUsted": "busca",
+      "Nosotros": "buscamos",
+      "Vosotros": "buscáis",
+      "EllosEllasUstedes": "buscan"
+    },
+    "Pretérito": {
+      "Yo": "busqué",
+      "Tu": "buscaste",
+      "ElEllaUsted": "buscó",
+      "Nosotros": "buscamos",
+      "Vosotros": "buscasteis",
+      "EllosEllasUstedes": "buscaron"
+    },
+    "Imperfect": {
+      "Yo": "buscaba",
+      "Tu": "buscabas",
+      "ElEllaUsted": "buscaba",
+      "Nosotros": "buscábamos",
+      "Vosotros": "buscabais",
+      "EllosEllasUstedes": "buscaban"
+    },
+    "Conditional": {
+      "Yo": "buscaría",
+      "Tu": "buscarías",
+      "ElEllaUsted": "buscaría",
+      "Nosotros": "buscaríamos",
+      "Vosotros": "buscaríais",
+      "EllosEllasUstedes": "buscarían"
+    },
+    "Future": {
+      "Yo": "buscaré",
+      "Tu": "buscarás",
+      "ElEllaUsted": "buscará",
+      "Nosotros": "buscaremos",
+      "Vosotros": "buscaréis",
+      "EllosEllasUstedes": "buscarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "busce",
+      "Tu": "busces",
+      "ElEllaUsted": "busce",
+      "Nosotros": "buscemos",
+      "Vosotros": "buscéis",
+      "EllosEllasUstedes": "buscen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "buscara",
+      "Tu": "buscaras",
+      "ElEllaUsted": "buscara",
+      "Nosotros": "buscaramos",
+      "Vosotros": "buscarais",
+      "EllosEllasUstedes": "buscaran"
+    }
+  },
+  "Name": "buscar",
+  "EnglishMeaning": "to look for"
+}

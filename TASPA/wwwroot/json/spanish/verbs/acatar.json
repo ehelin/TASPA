@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "acatando",
-    "PastParticiple": "acatado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "acato",
-            "Tu": "acatas",
-            "ElEllaUsted": "acata",
-            "Nosotros": "acatamos",
-            "Vosotros": "acatáis",
-            "EllosEllasUstedes": "acatan"
-        },
-        "Pretérito": {
-            "Yo": "acaté",
-            "Tu": "acataste",
-            "ElEllaUsted": "acató",
-            "Nosotros": "acatamos",
-            "Vosotros": "acatasteis",
-            "EllosEllasUstedes": "acataron"
-        },
-        "Imperfect": {
-            "Yo": "acataba",
-            "Tu": "acatabas",
-            "ElEllaUsted": "acataba",
-            "Nosotros": "acatábamos",
-            "Vosotros": "acatabais",
-            "EllosEllasUstedes": "acataban"
-        },
-        "Conditional": {
-            "Yo": "acataría",
-            "Tu": "acatarías",
-            "ElEllaUsted": "acataría",
-            "Nosotros": "acataríamos",
-            "Vosotros": "acataríais",
-            "EllosEllasUstedes": "acatarían"
-        },
-        "Future": {
-            "Yo": "acataré",
-            "Tu": "acatarás",
-            "ElEllaUsted": "acatará",
-            "Nosotros": "acataremos",
-            "Vosotros": "acataréis",
-            "EllosEllasUstedes": "acatarán"
-        }
+  "PresentParticiple": "acatando",
+  "PastParticiple": "acatado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "acato",
+      "Tu": "acatas",
+      "ElEllaUsted": "acata",
+      "Nosotros": "acatamos",
+      "Vosotros": "acatáis",
+      "EllosEllasUstedes": "acatan"
     },
-    "Subjunctive": null,
-    "Name": "acatar",
-    "EnglishMeaning": "to comply"
+    "Pretérito": {
+      "Yo": "acaté",
+      "Tu": "acataste",
+      "ElEllaUsted": "acató",
+      "Nosotros": "acatamos",
+      "Vosotros": "acatasteis",
+      "EllosEllasUstedes": "acataron"
+    },
+    "Imperfect": {
+      "Yo": "acataba",
+      "Tu": "acatabas",
+      "ElEllaUsted": "acataba",
+      "Nosotros": "acatábamos",
+      "Vosotros": "acatabais",
+      "EllosEllasUstedes": "acataban"
+    },
+    "Conditional": {
+      "Yo": "acataría",
+      "Tu": "acatarías",
+      "ElEllaUsted": "acataría",
+      "Nosotros": "acataríamos",
+      "Vosotros": "acataríais",
+      "EllosEllasUstedes": "acatarían"
+    },
+    "Future": {
+      "Yo": "acataré",
+      "Tu": "acatarás",
+      "ElEllaUsted": "acatará",
+      "Nosotros": "acataremos",
+      "Vosotros": "acataréis",
+      "EllosEllasUstedes": "acatarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "acate",
+      "Tu": "acates",
+      "ElEllaUsted": "acate",
+      "Nosotros": "acatemos",
+      "Vosotros": "acatéis",
+      "EllosEllasUstedes": "acaten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "acatara",
+      "Tu": "acataras",
+      "ElEllaUsted": "acatara",
+      "Nosotros": "acataramos",
+      "Vosotros": "acatarais",
+      "EllosEllasUstedes": "acataran"
+    }
+  },
+  "Name": "acatar",
+  "EnglishMeaning": "to comply"
 }

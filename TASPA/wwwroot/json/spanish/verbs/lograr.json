@@ -1,1 +1,66 @@
-{"PresentParticiple":"logrando","PastParticiple":"logrado","Indicative":{"PresentTense":{"Yo":"logro","Tu":"logras","ElEllaUsted":"logra","Nosotros":"logramos","Vosotros":"lográis","EllosEllasUstedes":"logran"},"Pretérito":{"Yo":"logré","Tu":"lograste","ElEllaUsted":"logró","Nosotros":"logramos","Vosotros":"lograsteis","EllosEllasUstedes":"lograron"},"Imperfect":{"Yo":"lograba","Tu":"lograbas","ElEllaUsted":"lograba","Nosotros":"lográbamos","Vosotros":"lograbais","EllosEllasUstedes":"lograban"},"Conditional":{"Yo":"lograría","Tu":"lograrías","ElEllaUsted":"lograría","Nosotros":"lograríamos","Vosotros":"lograríais","EllosEllasUstedes":"lograrían"},"Future":{"Yo":"lograré","Tu":"lograrás","ElEllaUsted":"logrará","Nosotros":"lograremos","Vosotros":"lograréis","EllosEllasUstedes":"lograrán"}},"Subjunctive":null,"Name":"lograr","EnglishMeaning":"to be able to"}
+{
+  "PresentParticiple": "logrando",
+  "PastParticiple": "logrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "logro",
+      "Tu": "logras",
+      "ElEllaUsted": "logra",
+      "Nosotros": "logramos",
+      "Vosotros": "lográis",
+      "EllosEllasUstedes": "logran"
+    },
+    "Pretérito": {
+      "Yo": "logré",
+      "Tu": "lograste",
+      "ElEllaUsted": "logró",
+      "Nosotros": "logramos",
+      "Vosotros": "lograsteis",
+      "EllosEllasUstedes": "lograron"
+    },
+    "Imperfect": {
+      "Yo": "lograba",
+      "Tu": "lograbas",
+      "ElEllaUsted": "lograba",
+      "Nosotros": "lográbamos",
+      "Vosotros": "lograbais",
+      "EllosEllasUstedes": "lograban"
+    },
+    "Conditional": {
+      "Yo": "lograría",
+      "Tu": "lograrías",
+      "ElEllaUsted": "lograría",
+      "Nosotros": "lograríamos",
+      "Vosotros": "lograríais",
+      "EllosEllasUstedes": "lograrían"
+    },
+    "Future": {
+      "Yo": "lograré",
+      "Tu": "lograrás",
+      "ElEllaUsted": "logrará",
+      "Nosotros": "lograremos",
+      "Vosotros": "lograréis",
+      "EllosEllasUstedes": "lograrán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "logre",
+      "Tu": "logres",
+      "ElEllaUsted": "logre",
+      "Nosotros": "logremos",
+      "Vosotros": "logréis",
+      "EllosEllasUstedes": "logren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "lograra",
+      "Tu": "lograras",
+      "ElEllaUsted": "lograra",
+      "Nosotros": "lograramos",
+      "Vosotros": "lograrais",
+      "EllosEllasUstedes": "lograran"
+    }
+  },
+  "Name": "lograr",
+  "EnglishMeaning": "to be able to"
+}

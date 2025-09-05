@@ -1,1 +1,68 @@
-{"PresentParticiple":"marchando&translation=walking","PastParticiple":"marchado&translation=walked","Indicative":{"PresentTense":{"Yo":"marcho","Tu":"marchas","ElEllaUsted":"marcha","Nosotros":"marchamos","Vosotros":"marcháis","EllosEllasUstedes":"marchan"},"Pretérito":{"Yo":"marché","Tu":"marchaste","ElEllaUsted":"marchó","Nosotros":"marchamos","Vosotros":"marchasteis","EllosEllasUstedes":"marcharon"},"Imperfect":{"Yo":"marchaba","Tu":"marchabas","ElEllaUsted":"marchaba","Nosotros":"marchábamos","Vosotros":"marchabais","EllosEllasUstedes":"marchaban"},"Conditional":{"Yo":"marcharía","Tu":"marcharías","ElEllaUsted":"marcharía","Nosotros":"marcharíamos","Vosotros":"marcharíais","EllosEllasUstedes":"marcharían"},"Future":{"Yo":"marcharé","Tu":"marcharás","ElEllaUsted":"marchará","Nosotros":"marcharemos","Vosotros":"marcharéis","EllosEllasUstedes":"marcharán"}},"Subjunctive":null,"Name":"marchar","EnglishMeaning":"to walk"}
+{
+  "PresentParticiple": "marchando",
+  "PastParticiple": "marchado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "marcho",
+      "Tu": "marchas",
+      "ElEllaUsted": "marcha",
+      "Nosotros": "marchamos",
+      "Vosotros": "marcháis",
+      "EllosEllasUstedes": "marchan"
+    },
+    "Pretérito": {
+      "Yo": "marché",
+      "Tu": "marchaste",
+      "ElEllaUsted": "marchó",
+      "Nosotros": "marchamos",
+      "Vosotros": "marchasteis",
+      "EllosEllasUstedes": "marcharon"
+    },
+    "Imperfect": {
+      "Yo": "marchaba",
+      "Tu": "marchabas",
+      "ElEllaUsted": "marchaba",
+      "Nosotros": "marchábamos",
+      "Vosotros": "marchabais",
+      "EllosEllasUstedes": "marchaban"
+    },
+    "Conditional": {
+      "Yo": "marcharía",
+      "Tu": "marcharías",
+      "ElEllaUsted": "marcharía",
+      "Nosotros": "marcharíamos",
+      "Vosotros": "marcharíais",
+      "EllosEllasUstedes": "marcharían"
+    },
+    "Future": {
+      "Yo": "marcharé",
+      "Tu": "marcharás",
+      "ElEllaUsted": "marchará",
+      "Nosotros": "marcharemos",
+      "Vosotros": "marcharéis",
+      "EllosEllasUstedes": "marcharán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "marche",
+      "Tu": "marches",
+      "ElEllaUsted": "marche",
+      "Nosotros": "marchemos",
+      "Vosotros": "marchéis",
+      "EllosEllasUstedes": "marchen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "marchara",
+      "Tu": "marcharas",
+      "ElEllaUsted": "marchara",
+      "Nosotros": "marcharamos",
+      "Vosotros": "marcharais",
+      "EllosEllasUstedes": "marcharan"
+    }
+  },
+  "Name": "marchar",
+  "EnglishMeaning": "to walk",
+  "PresentParticipleTranslation": "walking",
+  "PastParticipleTranslation": "walked"
+}

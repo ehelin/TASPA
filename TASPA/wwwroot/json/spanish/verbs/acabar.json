@@ -1,1 +1,68 @@
-{"PresentParticiple":"acabando&translation=finishing","PastParticiple":"acabado&translation=finished","Indicative":{"PresentTense":{"Yo":"acabo","Tu":"acabas","ElEllaUsted":"acaba","Nosotros":"acabamos","Vosotros":"acabáis","EllosEllasUstedes":"acaban"},"Pretérito":{"Yo":"acabé","Tu":"acabaste","ElEllaUsted":"acabó","Nosotros":"acabamos","Vosotros":"acabasteis","EllosEllasUstedes":"acabaron"},"Imperfect":{"Yo":"acababa","Tu":"acababas","ElEllaUsted":"acababa","Nosotros":"acabábamos","Vosotros":"acababais","EllosEllasUstedes":"acababan"},"Conditional":{"Yo":"acabaría","Tu":"acabarías","ElEllaUsted":"acabaría","Nosotros":"acabaríamos","Vosotros":"acabaríais","EllosEllasUstedes":"acabarían"},"Future":{"Yo":"acabaré","Tu":"acabarás","ElEllaUsted":"acabará","Nosotros":"acabaremos","Vosotros":"acabaréis","EllosEllasUstedes":"acabarán"}},"Subjunctive":null,"Name":"acabar","EnglishMeaning":"to finish"}
+{
+  "PresentParticiple": "acabando",
+  "PastParticiple": "acabado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "acabo",
+      "Tu": "acabas",
+      "ElEllaUsted": "acaba",
+      "Nosotros": "acabamos",
+      "Vosotros": "acabáis",
+      "EllosEllasUstedes": "acaban"
+    },
+    "Pretérito": {
+      "Yo": "acabé",
+      "Tu": "acabaste",
+      "ElEllaUsted": "acabó",
+      "Nosotros": "acabamos",
+      "Vosotros": "acabasteis",
+      "EllosEllasUstedes": "acabaron"
+    },
+    "Imperfect": {
+      "Yo": "acababa",
+      "Tu": "acababas",
+      "ElEllaUsted": "acababa",
+      "Nosotros": "acabábamos",
+      "Vosotros": "acababais",
+      "EllosEllasUstedes": "acababan"
+    },
+    "Conditional": {
+      "Yo": "acabaría",
+      "Tu": "acabarías",
+      "ElEllaUsted": "acabaría",
+      "Nosotros": "acabaríamos",
+      "Vosotros": "acabaríais",
+      "EllosEllasUstedes": "acabarían"
+    },
+    "Future": {
+      "Yo": "acabaré",
+      "Tu": "acabarás",
+      "ElEllaUsted": "acabará",
+      "Nosotros": "acabaremos",
+      "Vosotros": "acabaréis",
+      "EllosEllasUstedes": "acabarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "acabe",
+      "Tu": "acabes",
+      "ElEllaUsted": "acabe",
+      "Nosotros": "acabemos",
+      "Vosotros": "acabéis",
+      "EllosEllasUstedes": "acaben"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "acabara",
+      "Tu": "acabaras",
+      "ElEllaUsted": "acabara",
+      "Nosotros": "acabaramos",
+      "Vosotros": "acabarais",
+      "EllosEllasUstedes": "acabaran"
+    }
+  },
+  "Name": "acabar",
+  "EnglishMeaning": "to finish",
+  "PresentParticipleTranslation": "finishing",
+  "PastParticipleTranslation": "finished"
+}

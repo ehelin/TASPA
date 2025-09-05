@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "sembrando",
-    "PastParticiple": "sembrado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "sembro",
-            "Tu": "sembras",
-            "ElEllaUsted": "sembra",
-            "Nosotros": "sembramos",
-            "Vosotros": "sembráis",
-            "EllosEllasUstedes": "sembran"
-        },
-        "Pretérito": {
-            "Yo": "sembré",
-            "Tu": "sembraste",
-            "ElEllaUsted": "sembró",
-            "Nosotros": "sembramos",
-            "Vosotros": "sembrasteis",
-            "EllosEllasUstedes": "sembraron"
-        },
-        "Imperfect": {
-            "Yo": "sembraba",
-            "Tu": "sembrabas",
-            "ElEllaUsted": "sembraba",
-            "Nosotros": "sembrábamos",
-            "Vosotros": "sembrabais",
-            "EllosEllasUstedes": "sembraban"
-        },
-        "Conditional": {
-            "Yo": "sembraría",
-            "Tu": "sembrarías",
-            "ElEllaUsted": "sembraría",
-            "Nosotros": "sembraríamos",
-            "Vosotros": "sembraríais",
-            "EllosEllasUstedes": "sembrarían"
-        },
-        "Future": {
-            "Yo": "sembraré",
-            "Tu": "sembrarás",
-            "ElEllaUsted": "sembrará",
-            "Nosotros": "sembraremos",
-            "Vosotros": "sembraréis",
-            "EllosEllasUstedes": "sembrarán"
-        }
+  "PresentParticiple": "sembrando",
+  "PastParticiple": "sembrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "sembro",
+      "Tu": "sembras",
+      "ElEllaUsted": "sembra",
+      "Nosotros": "sembramos",
+      "Vosotros": "sembráis",
+      "EllosEllasUstedes": "sembran"
     },
-    "Subjunctive": null,
-    "Name": "sembrar",
-    "EnglishMeaning": "to plant"
+    "Pretérito": {
+      "Yo": "sembré",
+      "Tu": "sembraste",
+      "ElEllaUsted": "sembró",
+      "Nosotros": "sembramos",
+      "Vosotros": "sembrasteis",
+      "EllosEllasUstedes": "sembraron"
+    },
+    "Imperfect": {
+      "Yo": "sembraba",
+      "Tu": "sembrabas",
+      "ElEllaUsted": "sembraba",
+      "Nosotros": "sembrábamos",
+      "Vosotros": "sembrabais",
+      "EllosEllasUstedes": "sembraban"
+    },
+    "Conditional": {
+      "Yo": "sembraría",
+      "Tu": "sembrarías",
+      "ElEllaUsted": "sembraría",
+      "Nosotros": "sembraríamos",
+      "Vosotros": "sembraríais",
+      "EllosEllasUstedes": "sembrarían"
+    },
+    "Future": {
+      "Yo": "sembraré",
+      "Tu": "sembrarás",
+      "ElEllaUsted": "sembrará",
+      "Nosotros": "sembraremos",
+      "Vosotros": "sembraréis",
+      "EllosEllasUstedes": "sembrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sembre",
+      "Tu": "sembres",
+      "ElEllaUsted": "sembre",
+      "Nosotros": "sembremos",
+      "Vosotros": "sembréis",
+      "EllosEllasUstedes": "sembren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "sembrara",
+      "Tu": "sembraras",
+      "ElEllaUsted": "sembrara",
+      "Nosotros": "sembraramos",
+      "Vosotros": "sembrarais",
+      "EllosEllasUstedes": "sembraran"
+    }
+  },
+  "Name": "sembrar",
+  "EnglishMeaning": "to plant"
 }

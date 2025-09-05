@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "soplando",
-    "PastParticiple": "soplado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "soplo",
-            "Tu": "soplas",
-            "ElEllaUsted": "sopla",
-            "Nosotros": "soplamos",
-            "Vosotros": "sopláis",
-            "EllosEllasUstedes": "soplan"
-        },
-        "Pretérito": {
-            "Yo": "soplé",
-            "Tu": "soplaste",
-            "ElEllaUsted": "sopló",
-            "Nosotros": "soplamos",
-            "Vosotros": "soplasteis",
-            "EllosEllasUstedes": "soplaron"
-        },
-        "Imperfect": {
-            "Yo": "soplaba",
-            "Tu": "soplabas",
-            "ElEllaUsted": "soplaba",
-            "Nosotros": "soplábamos",
-            "Vosotros": "soplabais",
-            "EllosEllasUstedes": "soplaban"
-        },
-        "Conditional": {
-            "Yo": "soplaría",
-            "Tu": "soplarías",
-            "ElEllaUsted": "soplaría",
-            "Nosotros": "soplaríamos",
-            "Vosotros": "soplaríais",
-            "EllosEllasUstedes": "soplarían"
-        },
-        "Future": {
-            "Yo": "soplaré",
-            "Tu": "soplarás",
-            "ElEllaUsted": "soplará",
-            "Nosotros": "soplaremos",
-            "Vosotros": "soplaréis",
-            "EllosEllasUstedes": "soplarán"
-        }
+  "PresentParticiple": "soplando",
+  "PastParticiple": "soplado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "soplo",
+      "Tu": "soplas",
+      "ElEllaUsted": "sopla",
+      "Nosotros": "soplamos",
+      "Vosotros": "sopláis",
+      "EllosEllasUstedes": "soplan"
     },
-    "Subjunctive": null,
-    "Name": "soplar",
-    "EnglishMeaning": "to blow"
+    "Pretérito": {
+      "Yo": "soplé",
+      "Tu": "soplaste",
+      "ElEllaUsted": "sopló",
+      "Nosotros": "soplamos",
+      "Vosotros": "soplasteis",
+      "EllosEllasUstedes": "soplaron"
+    },
+    "Imperfect": {
+      "Yo": "soplaba",
+      "Tu": "soplabas",
+      "ElEllaUsted": "soplaba",
+      "Nosotros": "soplábamos",
+      "Vosotros": "soplabais",
+      "EllosEllasUstedes": "soplaban"
+    },
+    "Conditional": {
+      "Yo": "soplaría",
+      "Tu": "soplarías",
+      "ElEllaUsted": "soplaría",
+      "Nosotros": "soplaríamos",
+      "Vosotros": "soplaríais",
+      "EllosEllasUstedes": "soplarían"
+    },
+    "Future": {
+      "Yo": "soplaré",
+      "Tu": "soplarás",
+      "ElEllaUsted": "soplará",
+      "Nosotros": "soplaremos",
+      "Vosotros": "soplaréis",
+      "EllosEllasUstedes": "soplarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sople",
+      "Tu": "soples",
+      "ElEllaUsted": "sople",
+      "Nosotros": "soplemos",
+      "Vosotros": "sopléis",
+      "EllosEllasUstedes": "soplen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "soplara",
+      "Tu": "soplaras",
+      "ElEllaUsted": "soplara",
+      "Nosotros": "soplaramos",
+      "Vosotros": "soplarais",
+      "EllosEllasUstedes": "soplaran"
+    }
+  },
+  "Name": "soplar",
+  "EnglishMeaning": "to blow"
 }

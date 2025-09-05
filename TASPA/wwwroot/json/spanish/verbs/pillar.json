@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "pillando",
-    "PastParticiple": "pillado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "pillo",
-            "Tu": "pillas",
-            "ElEllaUsted": "pilla",
-            "Nosotros": "pillamos",
-            "Vosotros": "pilláis",
-            "EllosEllasUstedes": "pillan"
-        },
-        "Pretérito": {
-            "Yo": "pillé",
-            "Tu": "pillaste",
-            "ElEllaUsted": "pilló",
-            "Nosotros": "pillamos",
-            "Vosotros": "pillasteis",
-            "EllosEllasUstedes": "pillaron"
-        },
-        "Imperfect": {
-            "Yo": "pillaba",
-            "Tu": "pillabas",
-            "ElEllaUsted": "pillaba",
-            "Nosotros": "pillábamos",
-            "Vosotros": "pillabais",
-            "EllosEllasUstedes": "pillaban"
-        },
-        "Conditional": {
-            "Yo": "pillaría",
-            "Tu": "pillarías",
-            "ElEllaUsted": "pillaría",
-            "Nosotros": "pillaríamos",
-            "Vosotros": "pillaríais",
-            "EllosEllasUstedes": "pillarían"
-        },
-        "Future": {
-            "Yo": "pillaré",
-            "Tu": "pillarás",
-            "ElEllaUsted": "pillará",
-            "Nosotros": "pillaremos",
-            "Vosotros": "pillaréis",
-            "EllosEllasUstedes": "pillarán"
-        }
+  "PresentParticiple": "pillando",
+  "PastParticiple": "pillado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pillo",
+      "Tu": "pillas",
+      "ElEllaUsted": "pilla",
+      "Nosotros": "pillamos",
+      "Vosotros": "pilláis",
+      "EllosEllasUstedes": "pillan"
     },
-    "Subjunctive": null,
-    "Name": "pillar",
-    "EnglishMeaning": "to catch"
+    "Pretérito": {
+      "Yo": "pillé",
+      "Tu": "pillaste",
+      "ElEllaUsted": "pilló",
+      "Nosotros": "pillamos",
+      "Vosotros": "pillasteis",
+      "EllosEllasUstedes": "pillaron"
+    },
+    "Imperfect": {
+      "Yo": "pillaba",
+      "Tu": "pillabas",
+      "ElEllaUsted": "pillaba",
+      "Nosotros": "pillábamos",
+      "Vosotros": "pillabais",
+      "EllosEllasUstedes": "pillaban"
+    },
+    "Conditional": {
+      "Yo": "pillaría",
+      "Tu": "pillarías",
+      "ElEllaUsted": "pillaría",
+      "Nosotros": "pillaríamos",
+      "Vosotros": "pillaríais",
+      "EllosEllasUstedes": "pillarían"
+    },
+    "Future": {
+      "Yo": "pillaré",
+      "Tu": "pillarás",
+      "ElEllaUsted": "pillará",
+      "Nosotros": "pillaremos",
+      "Vosotros": "pillaréis",
+      "EllosEllasUstedes": "pillarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pille",
+      "Tu": "pilles",
+      "ElEllaUsted": "pille",
+      "Nosotros": "pillemos",
+      "Vosotros": "pilléis",
+      "EllosEllasUstedes": "pillen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pillara",
+      "Tu": "pillaras",
+      "ElEllaUsted": "pillara",
+      "Nosotros": "pillaramos",
+      "Vosotros": "pillarais",
+      "EllosEllasUstedes": "pillaran"
+    }
+  },
+  "Name": "pillar",
+  "EnglishMeaning": "to catch"
 }

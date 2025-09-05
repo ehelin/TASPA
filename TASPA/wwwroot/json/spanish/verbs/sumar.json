@@ -1,1 +1,68 @@
-{"PresentParticiple":"sumando&translation=adding","PastParticiple":"sumado&translation=added","Indicative":{"PresentTense":{"Yo":"sumo","Tu":"sumas","ElEllaUsted":"suma","Nosotros":"sumamos","Vosotros":"sumáis","EllosEllasUstedes":"suman"},"Pretérito":{"Yo":"sumé","Tu":"sumaste","ElEllaUsted":"sumó","Nosotros":"sumamos","Vosotros":"sumasteis","EllosEllasUstedes":"sumaron"},"Imperfect":{"Yo":"sumaba","Tu":"sumabas","ElEllaUsted":"sumaba","Nosotros":"sumábamos","Vosotros":"sumabais","EllosEllasUstedes":"sumaban"},"Conditional":{"Yo":"sumaría","Tu":"sumarías","ElEllaUsted":"sumaría","Nosotros":"sumaríamos","Vosotros":"sumaríais","EllosEllasUstedes":"sumarían"},"Future":{"Yo":"sumaré","Tu":"sumarás","ElEllaUsted":"sumará","Nosotros":"sumaremos","Vosotros":"sumaréis","EllosEllasUstedes":"sumarán"}},"Subjunctive":null,"Name":"sumar","EnglishMeaning":"to add"}
+{
+  "PresentParticiple": "sumando",
+  "PastParticiple": "sumado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "sumo",
+      "Tu": "sumas",
+      "ElEllaUsted": "suma",
+      "Nosotros": "sumamos",
+      "Vosotros": "sumáis",
+      "EllosEllasUstedes": "suman"
+    },
+    "Pretérito": {
+      "Yo": "sumé",
+      "Tu": "sumaste",
+      "ElEllaUsted": "sumó",
+      "Nosotros": "sumamos",
+      "Vosotros": "sumasteis",
+      "EllosEllasUstedes": "sumaron"
+    },
+    "Imperfect": {
+      "Yo": "sumaba",
+      "Tu": "sumabas",
+      "ElEllaUsted": "sumaba",
+      "Nosotros": "sumábamos",
+      "Vosotros": "sumabais",
+      "EllosEllasUstedes": "sumaban"
+    },
+    "Conditional": {
+      "Yo": "sumaría",
+      "Tu": "sumarías",
+      "ElEllaUsted": "sumaría",
+      "Nosotros": "sumaríamos",
+      "Vosotros": "sumaríais",
+      "EllosEllasUstedes": "sumarían"
+    },
+    "Future": {
+      "Yo": "sumaré",
+      "Tu": "sumarás",
+      "ElEllaUsted": "sumará",
+      "Nosotros": "sumaremos",
+      "Vosotros": "sumaréis",
+      "EllosEllasUstedes": "sumarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sume",
+      "Tu": "sumes",
+      "ElEllaUsted": "sume",
+      "Nosotros": "sumemos",
+      "Vosotros": "suméis",
+      "EllosEllasUstedes": "sumen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "sumara",
+      "Tu": "sumaras",
+      "ElEllaUsted": "sumara",
+      "Nosotros": "sumaramos",
+      "Vosotros": "sumarais",
+      "EllosEllasUstedes": "sumaran"
+    }
+  },
+  "Name": "sumar",
+  "EnglishMeaning": "to add",
+  "PresentParticipleTranslation": "adding",
+  "PastParticipleTranslation": "added"
+}

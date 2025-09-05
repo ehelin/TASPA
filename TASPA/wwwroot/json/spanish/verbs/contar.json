@@ -1,1 +1,68 @@
-{"PresentParticiple":"contando&translation=counting","PastParticiple":"contado&translation=counted","Indicative":{"PresentTense":{"Yo":"cuento","Tu":"cuentas","ElEllaUsted":"cuenta","Nosotros":"contamos","Vosotros":"contáis","EllosEllasUstedes":"cuentan"},"Pretérito":{"Yo":"conté","Tu":"contaste","ElEllaUsted":"contó","Nosotros":"contamos","Vosotros":"contasteis","EllosEllasUstedes":"contaron"},"Imperfect":{"Yo":"contaba","Tu":"contabas","ElEllaUsted":"contaba","Nosotros":"contábamos","Vosotros":"contabais","EllosEllasUstedes":"contaban"},"Conditional":{"Yo":"contaría","Tu":"contarías","ElEllaUsted":"contaría","Nosotros":"contaríamos","Vosotros":"contaríais","EllosEllasUstedes":"contarían"},"Future":{"Yo":"contaré","Tu":"contarás","ElEllaUsted":"contará","Nosotros":"contaremos","Vosotros":"contaréis","EllosEllasUstedes":"contarán"}},"Subjunctive":null,"Name":"contar","EnglishMeaning":"to count"}
+{
+  "PresentParticiple": "contando",
+  "PastParticiple": "contado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cuento",
+      "Tu": "cuentas",
+      "ElEllaUsted": "cuenta",
+      "Nosotros": "contamos",
+      "Vosotros": "contáis",
+      "EllosEllasUstedes": "cuentan"
+    },
+    "Pretérito": {
+      "Yo": "conté",
+      "Tu": "contaste",
+      "ElEllaUsted": "contó",
+      "Nosotros": "contamos",
+      "Vosotros": "contasteis",
+      "EllosEllasUstedes": "contaron"
+    },
+    "Imperfect": {
+      "Yo": "contaba",
+      "Tu": "contabas",
+      "ElEllaUsted": "contaba",
+      "Nosotros": "contábamos",
+      "Vosotros": "contabais",
+      "EllosEllasUstedes": "contaban"
+    },
+    "Conditional": {
+      "Yo": "contaría",
+      "Tu": "contarías",
+      "ElEllaUsted": "contaría",
+      "Nosotros": "contaríamos",
+      "Vosotros": "contaríais",
+      "EllosEllasUstedes": "contarían"
+    },
+    "Future": {
+      "Yo": "contaré",
+      "Tu": "contarás",
+      "ElEllaUsted": "contará",
+      "Nosotros": "contaremos",
+      "Vosotros": "contaréis",
+      "EllosEllasUstedes": "contarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cuente",
+      "Tu": "cuentes",
+      "ElEllaUsted": "cuente",
+      "Nosotros": "cuentemos",
+      "Vosotros": "cuentéis",
+      "EllosEllasUstedes": "cuenten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "contara",
+      "Tu": "contaras",
+      "ElEllaUsted": "contara",
+      "Nosotros": "contaramos",
+      "Vosotros": "contarais",
+      "EllosEllasUstedes": "contaran"
+    }
+  },
+  "Name": "contar",
+  "EnglishMeaning": "to count",
+  "PresentParticipleTranslation": "counting",
+  "PastParticipleTranslation": "counted"
+}

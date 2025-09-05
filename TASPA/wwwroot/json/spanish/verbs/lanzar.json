@@ -1,1 +1,68 @@
-{"PresentParticiple":"lanzando&translation=throwing","PastParticiple":"lanzado&translation=thrown","Indicative":{"PresentTense":{"Yo":"lanzo","Tu":"lanzas","ElEllaUsted":"lanza","Nosotros":"lanzamos","Vosotros":"lanzáis","EllosEllasUstedes":"lanzan"},"Pretérito":{"Yo":"lancé","Tu":"lanzaste","ElEllaUsted":"lanzó","Nosotros":"lanzamos","Vosotros":"lanzasteis","EllosEllasUstedes":"lanzaron"},"Imperfect":{"Yo":"lanzaba","Tu":"lanzabas","ElEllaUsted":"lanzaba","Nosotros":"lanzábamos","Vosotros":"lanzabais","EllosEllasUstedes":"lanzaban"},"Conditional":{"Yo":"lanzaría","Tu":"lanzarías","ElEllaUsted":"lanzaría","Nosotros":"lanzaríamos","Vosotros":"lanzaríais","EllosEllasUstedes":"lanzarían"},"Future":{"Yo":"lanzaré","Tu":"lanzarás","ElEllaUsted":"lanzará","Nosotros":"lanzaremos","Vosotros":"lanzaréis","EllosEllasUstedes":"lanzarán"}},"Subjunctive":null,"Name":"lanzar","EnglishMeaning":"to throw"}
+{
+  "PresentParticiple": "lanzando",
+  "PastParticiple": "lanzado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "lanzo",
+      "Tu": "lanzas",
+      "ElEllaUsted": "lanza",
+      "Nosotros": "lanzamos",
+      "Vosotros": "lanzáis",
+      "EllosEllasUstedes": "lanzan"
+    },
+    "Pretérito": {
+      "Yo": "lancé",
+      "Tu": "lanzaste",
+      "ElEllaUsted": "lanzó",
+      "Nosotros": "lanzamos",
+      "Vosotros": "lanzasteis",
+      "EllosEllasUstedes": "lanzaron"
+    },
+    "Imperfect": {
+      "Yo": "lanzaba",
+      "Tu": "lanzabas",
+      "ElEllaUsted": "lanzaba",
+      "Nosotros": "lanzábamos",
+      "Vosotros": "lanzabais",
+      "EllosEllasUstedes": "lanzaban"
+    },
+    "Conditional": {
+      "Yo": "lanzaría",
+      "Tu": "lanzarías",
+      "ElEllaUsted": "lanzaría",
+      "Nosotros": "lanzaríamos",
+      "Vosotros": "lanzaríais",
+      "EllosEllasUstedes": "lanzarían"
+    },
+    "Future": {
+      "Yo": "lanzaré",
+      "Tu": "lanzarás",
+      "ElEllaUsted": "lanzará",
+      "Nosotros": "lanzaremos",
+      "Vosotros": "lanzaréis",
+      "EllosEllasUstedes": "lanzarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "lanze",
+      "Tu": "lanzes",
+      "ElEllaUsted": "lanze",
+      "Nosotros": "lanzemos",
+      "Vosotros": "lanzéis",
+      "EllosEllasUstedes": "lanzen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "lanzara",
+      "Tu": "lanzaras",
+      "ElEllaUsted": "lanzara",
+      "Nosotros": "lanzaramos",
+      "Vosotros": "lanzarais",
+      "EllosEllasUstedes": "lanzaran"
+    }
+  },
+  "Name": "lanzar",
+  "EnglishMeaning": "to throw",
+  "PresentParticipleTranslation": "throwing",
+  "PastParticipleTranslation": "thrown"
+}

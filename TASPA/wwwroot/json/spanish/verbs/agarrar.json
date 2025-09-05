@@ -1,1 +1,68 @@
-{"PresentParticiple":"agarrando&translation=grabbing","PastParticiple":"agarrado&translation=grabbed","Indicative":{"PresentTense":{"Yo":"agarro","Tu":"agarras","ElEllaUsted":"agarra","Nosotros":"agarramos","Vosotros":"agarráis","EllosEllasUstedes":"agarran"},"Pretérito":{"Yo":"agarré","Tu":"agarraste","ElEllaUsted":"agarró","Nosotros":"agarramos","Vosotros":"agarrasteis","EllosEllasUstedes":"agarraron"},"Imperfect":{"Yo":"agarraba","Tu":"agarrabas","ElEllaUsted":"agarraba","Nosotros":"agarrábamos","Vosotros":"agarrabais","EllosEllasUstedes":"agarraban"},"Conditional":{"Yo":"agarraría","Tu":"agarrarías","ElEllaUsted":"agarraría","Nosotros":"agarraríamos","Vosotros":"agarraríais","EllosEllasUstedes":"agarrarían"},"Future":{"Yo":"agarraré","Tu":"agarrarás","ElEllaUsted":"agarrará","Nosotros":"agarraremos","Vosotros":"agarraréis","EllosEllasUstedes":"agarrarán"}},"Subjunctive":null,"Name":"agarrar","EnglishMeaning":"to grab"}
+{
+  "PresentParticiple": "agarrando",
+  "PastParticiple": "agarrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "agarro",
+      "Tu": "agarras",
+      "ElEllaUsted": "agarra",
+      "Nosotros": "agarramos",
+      "Vosotros": "agarráis",
+      "EllosEllasUstedes": "agarran"
+    },
+    "Pretérito": {
+      "Yo": "agarré",
+      "Tu": "agarraste",
+      "ElEllaUsted": "agarró",
+      "Nosotros": "agarramos",
+      "Vosotros": "agarrasteis",
+      "EllosEllasUstedes": "agarraron"
+    },
+    "Imperfect": {
+      "Yo": "agarraba",
+      "Tu": "agarrabas",
+      "ElEllaUsted": "agarraba",
+      "Nosotros": "agarrábamos",
+      "Vosotros": "agarrabais",
+      "EllosEllasUstedes": "agarraban"
+    },
+    "Conditional": {
+      "Yo": "agarraría",
+      "Tu": "agarrarías",
+      "ElEllaUsted": "agarraría",
+      "Nosotros": "agarraríamos",
+      "Vosotros": "agarraríais",
+      "EllosEllasUstedes": "agarrarían"
+    },
+    "Future": {
+      "Yo": "agarraré",
+      "Tu": "agarrarás",
+      "ElEllaUsted": "agarrará",
+      "Nosotros": "agarraremos",
+      "Vosotros": "agarraréis",
+      "EllosEllasUstedes": "agarrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "agarre",
+      "Tu": "agarres",
+      "ElEllaUsted": "agarre",
+      "Nosotros": "agarremos",
+      "Vosotros": "agarréis",
+      "EllosEllasUstedes": "agarren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "agarrara",
+      "Tu": "agarraras",
+      "ElEllaUsted": "agarrara",
+      "Nosotros": "agarraramos",
+      "Vosotros": "agarrarais",
+      "EllosEllasUstedes": "agarraran"
+    }
+  },
+  "Name": "agarrar",
+  "EnglishMeaning": "to grab",
+  "PresentParticipleTranslation": "grabbing",
+  "PastParticipleTranslation": "grabbed"
+}

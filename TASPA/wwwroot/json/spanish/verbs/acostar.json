@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "acostarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "acueste",
+      "Tu": "acuestes",
+      "ElEllaUsted": "acueste",
+      "Nosotros": "acuestemos",
+      "Vosotros": "acuestéis",
+      "EllosEllasUstedes": "acuesten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "acostara",
+      "Tu": "acostaras",
+      "ElEllaUsted": "acostara",
+      "Nosotros": "acostaramos",
+      "Vosotros": "acostarais",
+      "EllosEllasUstedes": "acostaran"
+    }
+  },
   "Name": "acostar",
   "EnglishMeaning": "to lay down"
 }

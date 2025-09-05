@@ -1,1 +1,68 @@
-{"PresentParticiple":"cogiendo&translation=taking","PastParticiple":"cogido&translation=taken","Indicative":{"PresentTense":{"Yo":"cojo","Tu":"coges","ElEllaUsted":"coge","Nosotros":"cogemos","Vosotros":"cogéis","EllosEllasUstedes":"cogen"},"Pretérito":{"Yo":"cogí","Tu":"cogiste","ElEllaUsted":"cogió","Nosotros":"cogimos","Vosotros":"cogisteis","EllosEllasUstedes":"cogieron"},"Imperfect":{"Yo":"cogía","Tu":"cogías","ElEllaUsted":"cogía","Nosotros":"cogíamos","Vosotros":"cogíais","EllosEllasUstedes":"cogían"},"Conditional":{"Yo":"cogería","Tu":"cogerías","ElEllaUsted":"cogería","Nosotros":"cogeríamos","Vosotros":"cogeríais","EllosEllasUstedes":"cogerían"},"Future":{"Yo":"cogeré","Tu":"cogerás","ElEllaUsted":"cogerá","Nosotros":"cogeremos","Vosotros":"cogeréis","EllosEllasUstedes":"cogerán"}},"Subjunctive":null,"Name":"coger","EnglishMeaning":"to take"}
+{
+  "PresentParticiple": "cogiendo",
+  "PastParticiple": "cogido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cojo",
+      "Tu": "coges",
+      "ElEllaUsted": "coge",
+      "Nosotros": "cogemos",
+      "Vosotros": "cogéis",
+      "EllosEllasUstedes": "cogen"
+    },
+    "Pretérito": {
+      "Yo": "cogí",
+      "Tu": "cogiste",
+      "ElEllaUsted": "cogió",
+      "Nosotros": "cogimos",
+      "Vosotros": "cogisteis",
+      "EllosEllasUstedes": "cogieron"
+    },
+    "Imperfect": {
+      "Yo": "cogía",
+      "Tu": "cogías",
+      "ElEllaUsted": "cogía",
+      "Nosotros": "cogíamos",
+      "Vosotros": "cogíais",
+      "EllosEllasUstedes": "cogían"
+    },
+    "Conditional": {
+      "Yo": "cogería",
+      "Tu": "cogerías",
+      "ElEllaUsted": "cogería",
+      "Nosotros": "cogeríamos",
+      "Vosotros": "cogeríais",
+      "EllosEllasUstedes": "cogerían"
+    },
+    "Future": {
+      "Yo": "cogeré",
+      "Tu": "cogerás",
+      "ElEllaUsted": "cogerá",
+      "Nosotros": "cogeremos",
+      "Vosotros": "cogeréis",
+      "EllosEllasUstedes": "cogerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "coja",
+      "Tu": "cojas",
+      "ElEllaUsted": "coja",
+      "Nosotros": "cojamos",
+      "Vosotros": "cojáis",
+      "EllosEllasUstedes": "cojan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cogiea",
+      "Tu": "cogieas",
+      "ElEllaUsted": "cogiea",
+      "Nosotros": "cogieamos",
+      "Vosotros": "cogieais",
+      "EllosEllasUstedes": "cogiean"
+    }
+  },
+  "Name": "coger",
+  "EnglishMeaning": "to take",
+  "PresentParticipleTranslation": "taking",
+  "PastParticipleTranslation": "taken"
+}

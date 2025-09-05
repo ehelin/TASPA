@@ -1,1 +1,66 @@
-{"PresentParticiple":"realizando","PastParticiple":"realizado","Indicative":{"PresentTense":{"Yo":"realizo","Tu":"realizas","ElEllaUsted":"realiza","Nosotros":"realizamos","Vosotros":"realizáis","EllosEllasUstedes":"realizan"},"Pretérito":{"Yo":"realicé","Tu":"realizaste","ElEllaUsted":"realizó","Nosotros":"realizamos","Vosotros":"realizasteis","EllosEllasUstedes":"realizaron"},"Imperfect":{"Yo":"realizaba","Tu":"realizabas","ElEllaUsted":"realizaba","Nosotros":"realizábamos","Vosotros":"realizabais","EllosEllasUstedes":"realizaban"},"Conditional":{"Yo":"realizaría","Tu":"realizarías","ElEllaUsted":"realizaría","Nosotros":"realizaríamos","Vosotros":"realizaríais","EllosEllasUstedes":"realizarían"},"Future":{"Yo":"realizaré","Tu":"realizarás","ElEllaUsted":"realizará","Nosotros":"realizaremos","Vosotros":"realizaréis","EllosEllasUstedes":"realizarán"}},"Subjunctive":null,"Name":"realizar","EnglishMeaning":"to carry out"}
+{
+  "PresentParticiple": "realizando",
+  "PastParticiple": "realizado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "realizo",
+      "Tu": "realizas",
+      "ElEllaUsted": "realiza",
+      "Nosotros": "realizamos",
+      "Vosotros": "realizáis",
+      "EllosEllasUstedes": "realizan"
+    },
+    "Pretérito": {
+      "Yo": "realicé",
+      "Tu": "realizaste",
+      "ElEllaUsted": "realizó",
+      "Nosotros": "realizamos",
+      "Vosotros": "realizasteis",
+      "EllosEllasUstedes": "realizaron"
+    },
+    "Imperfect": {
+      "Yo": "realizaba",
+      "Tu": "realizabas",
+      "ElEllaUsted": "realizaba",
+      "Nosotros": "realizábamos",
+      "Vosotros": "realizabais",
+      "EllosEllasUstedes": "realizaban"
+    },
+    "Conditional": {
+      "Yo": "realizaría",
+      "Tu": "realizarías",
+      "ElEllaUsted": "realizaría",
+      "Nosotros": "realizaríamos",
+      "Vosotros": "realizaríais",
+      "EllosEllasUstedes": "realizarían"
+    },
+    "Future": {
+      "Yo": "realizaré",
+      "Tu": "realizarás",
+      "ElEllaUsted": "realizará",
+      "Nosotros": "realizaremos",
+      "Vosotros": "realizaréis",
+      "EllosEllasUstedes": "realizarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "realize",
+      "Tu": "realizes",
+      "ElEllaUsted": "realize",
+      "Nosotros": "realizemos",
+      "Vosotros": "realizéis",
+      "EllosEllasUstedes": "realizen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "realizara",
+      "Tu": "realizaras",
+      "ElEllaUsted": "realizara",
+      "Nosotros": "realizaramos",
+      "Vosotros": "realizarais",
+      "EllosEllasUstedes": "realizaran"
+    }
+  },
+  "Name": "realizar",
+  "EnglishMeaning": "to carry out"
+}

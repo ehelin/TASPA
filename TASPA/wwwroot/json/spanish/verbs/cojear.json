@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "cojeando",
-    "PastParticiple": "cojeado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "cojeo",
-            "Tu": "cojeas",
-            "ElEllaUsted": "cojea",
-            "Nosotros": "cojeamos",
-            "Vosotros": "cojeáis",
-            "EllosEllasUstedes": "cojean"
-        },
-        "Pretérito": {
-            "Yo": "cojeé",
-            "Tu": "cojeaste",
-            "ElEllaUsted": "cojeó",
-            "Nosotros": "cojeamos",
-            "Vosotros": "cojeasteis",
-            "EllosEllasUstedes": "cojearon"
-        },
-        "Imperfect": {
-            "Yo": "cojeaba",
-            "Tu": "cojeabas",
-            "ElEllaUsted": "cojeaba",
-            "Nosotros": "cojeábamos",
-            "Vosotros": "cojeabais",
-            "EllosEllasUstedes": "cojeaban"
-        },
-        "Conditional": {
-            "Yo": "cojearía",
-            "Tu": "cojearías",
-            "ElEllaUsted": "cojearía",
-            "Nosotros": "cojearíamos",
-            "Vosotros": "cojearíais",
-            "EllosEllasUstedes": "cojearían"
-        },
-        "Future": {
-            "Yo": "cojearé",
-            "Tu": "cojearás",
-            "ElEllaUsted": "cojeará",
-            "Nosotros": "cojearemos",
-            "Vosotros": "cojearéis",
-            "EllosEllasUstedes": "cojearán"
-        }
+  "PresentParticiple": "cojeando",
+  "PastParticiple": "cojeado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cojeo",
+      "Tu": "cojeas",
+      "ElEllaUsted": "cojea",
+      "Nosotros": "cojeamos",
+      "Vosotros": "cojeáis",
+      "EllosEllasUstedes": "cojean"
     },
-    "Subjunctive": null,
-    "Name": "cojear",
-    "EnglishMeaning": "to limp"
+    "Pretérito": {
+      "Yo": "cojeé",
+      "Tu": "cojeaste",
+      "ElEllaUsted": "cojeó",
+      "Nosotros": "cojeamos",
+      "Vosotros": "cojeasteis",
+      "EllosEllasUstedes": "cojearon"
+    },
+    "Imperfect": {
+      "Yo": "cojeaba",
+      "Tu": "cojeabas",
+      "ElEllaUsted": "cojeaba",
+      "Nosotros": "cojeábamos",
+      "Vosotros": "cojeabais",
+      "EllosEllasUstedes": "cojeaban"
+    },
+    "Conditional": {
+      "Yo": "cojearía",
+      "Tu": "cojearías",
+      "ElEllaUsted": "cojearía",
+      "Nosotros": "cojearíamos",
+      "Vosotros": "cojearíais",
+      "EllosEllasUstedes": "cojearían"
+    },
+    "Future": {
+      "Yo": "cojearé",
+      "Tu": "cojearás",
+      "ElEllaUsted": "cojeará",
+      "Nosotros": "cojearemos",
+      "Vosotros": "cojearéis",
+      "EllosEllasUstedes": "cojearán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cojee",
+      "Tu": "cojees",
+      "ElEllaUsted": "cojee",
+      "Nosotros": "cojeemos",
+      "Vosotros": "cojeéis",
+      "EllosEllasUstedes": "cojeen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cojeara",
+      "Tu": "cojearas",
+      "ElEllaUsted": "cojeara",
+      "Nosotros": "cojearamos",
+      "Vosotros": "cojearais",
+      "EllosEllasUstedes": "cojearan"
+    }
+  },
+  "Name": "cojear",
+  "EnglishMeaning": "to limp"
 }

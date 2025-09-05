@@ -1,1 +1,68 @@
-{"PresentParticiple":"retrasando&translation=postponing","PastParticiple":"retrasado&translation=postponed","Indicative":{"PresentTense":{"Yo":"retraso","Tu":"retrasas","ElEllaUsted":"retrasa","Nosotros":"retrasamos","Vosotros":"retrasáis","EllosEllasUstedes":"retrasan"},"Pretérito":{"Yo":"retrasé","Tu":"retrasaste","ElEllaUsted":"retrasó","Nosotros":"retrasamos","Vosotros":"retrasasteis","EllosEllasUstedes":"retrasaron"},"Imperfect":{"Yo":"retrasaba","Tu":"retrasabas","ElEllaUsted":"retrasaba","Nosotros":"retrasábamos","Vosotros":"retrasabais","EllosEllasUstedes":"retrasaban"},"Conditional":{"Yo":"retrasaría","Tu":"retrasarías","ElEllaUsted":"retrasaría","Nosotros":"retrasaríamos","Vosotros":"retrasaríais","EllosEllasUstedes":"retrasarían"},"Future":{"Yo":"retrasaré","Tu":"retrasarás","ElEllaUsted":"retrasará","Nosotros":"retrasaremos","Vosotros":"retrasaréis","EllosEllasUstedes":"retrasarán"}},"Subjunctive":null,"Name":"retrasar","EnglishMeaning":"to postpone"}
+{
+  "PresentParticiple": "retrasando",
+  "PastParticiple": "retrasado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "retraso",
+      "Tu": "retrasas",
+      "ElEllaUsted": "retrasa",
+      "Nosotros": "retrasamos",
+      "Vosotros": "retrasáis",
+      "EllosEllasUstedes": "retrasan"
+    },
+    "Pretérito": {
+      "Yo": "retrasé",
+      "Tu": "retrasaste",
+      "ElEllaUsted": "retrasó",
+      "Nosotros": "retrasamos",
+      "Vosotros": "retrasasteis",
+      "EllosEllasUstedes": "retrasaron"
+    },
+    "Imperfect": {
+      "Yo": "retrasaba",
+      "Tu": "retrasabas",
+      "ElEllaUsted": "retrasaba",
+      "Nosotros": "retrasábamos",
+      "Vosotros": "retrasabais",
+      "EllosEllasUstedes": "retrasaban"
+    },
+    "Conditional": {
+      "Yo": "retrasaría",
+      "Tu": "retrasarías",
+      "ElEllaUsted": "retrasaría",
+      "Nosotros": "retrasaríamos",
+      "Vosotros": "retrasaríais",
+      "EllosEllasUstedes": "retrasarían"
+    },
+    "Future": {
+      "Yo": "retrasaré",
+      "Tu": "retrasarás",
+      "ElEllaUsted": "retrasará",
+      "Nosotros": "retrasaremos",
+      "Vosotros": "retrasaréis",
+      "EllosEllasUstedes": "retrasarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "retrase",
+      "Tu": "retrases",
+      "ElEllaUsted": "retrase",
+      "Nosotros": "retrasemos",
+      "Vosotros": "retraséis",
+      "EllosEllasUstedes": "retrasen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "retrasara",
+      "Tu": "retrasaras",
+      "ElEllaUsted": "retrasara",
+      "Nosotros": "retrasaramos",
+      "Vosotros": "retrasarais",
+      "EllosEllasUstedes": "retrasaran"
+    }
+  },
+  "Name": "retrasar",
+  "EnglishMeaning": "to postpone",
+  "PresentParticipleTranslation": "postponing",
+  "PastParticipleTranslation": "postponed"
+}

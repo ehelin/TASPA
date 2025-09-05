@@ -1,1 +1,68 @@
-{"PresentParticiple":"temblando&translation=shaking","PastParticiple":"temblado&translation=shaken","Indicative":{"PresentTense":{"Yo":"tiemblo","Tu":"tiemblas","ElEllaUsted":"tiembla","Nosotros":"temblamos","Vosotros":"tembláis","EllosEllasUstedes":"tiemblan"},"Pretérito":{"Yo":"temblé","Tu":"temblaste","ElEllaUsted":"tembló","Nosotros":"temblamos","Vosotros":"temblasteis","EllosEllasUstedes":"temblaron"},"Imperfect":{"Yo":"temblaba","Tu":"temblabas","ElEllaUsted":"temblaba","Nosotros":"temblábamos","Vosotros":"temblabais","EllosEllasUstedes":"temblaban"},"Conditional":{"Yo":"temblaría","Tu":"temblarías","ElEllaUsted":"temblaría","Nosotros":"temblaríamos","Vosotros":"temblaríais","EllosEllasUstedes":"temblarían"},"Future":{"Yo":"temblaré","Tu":"temblarás","ElEllaUsted":"temblará","Nosotros":"temblaremos","Vosotros":"temblaréis","EllosEllasUstedes":"temblarán"}},"Subjunctive":null,"Name":"temblar","EnglishMeaning":"to shake"}
+{
+  "PresentParticiple": "temblando",
+  "PastParticiple": "temblado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "tiemblo",
+      "Tu": "tiemblas",
+      "ElEllaUsted": "tiembla",
+      "Nosotros": "temblamos",
+      "Vosotros": "tembláis",
+      "EllosEllasUstedes": "tiemblan"
+    },
+    "Pretérito": {
+      "Yo": "temblé",
+      "Tu": "temblaste",
+      "ElEllaUsted": "tembló",
+      "Nosotros": "temblamos",
+      "Vosotros": "temblasteis",
+      "EllosEllasUstedes": "temblaron"
+    },
+    "Imperfect": {
+      "Yo": "temblaba",
+      "Tu": "temblabas",
+      "ElEllaUsted": "temblaba",
+      "Nosotros": "temblábamos",
+      "Vosotros": "temblabais",
+      "EllosEllasUstedes": "temblaban"
+    },
+    "Conditional": {
+      "Yo": "temblaría",
+      "Tu": "temblarías",
+      "ElEllaUsted": "temblaría",
+      "Nosotros": "temblaríamos",
+      "Vosotros": "temblaríais",
+      "EllosEllasUstedes": "temblarían"
+    },
+    "Future": {
+      "Yo": "temblaré",
+      "Tu": "temblarás",
+      "ElEllaUsted": "temblará",
+      "Nosotros": "temblaremos",
+      "Vosotros": "temblaréis",
+      "EllosEllasUstedes": "temblarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "tiemble",
+      "Tu": "tiembles",
+      "ElEllaUsted": "tiemble",
+      "Nosotros": "tiemblemos",
+      "Vosotros": "tiembléis",
+      "EllosEllasUstedes": "tiemblen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "temblara",
+      "Tu": "temblaras",
+      "ElEllaUsted": "temblara",
+      "Nosotros": "temblaramos",
+      "Vosotros": "temblarais",
+      "EllosEllasUstedes": "temblaran"
+    }
+  },
+  "Name": "temblar",
+  "EnglishMeaning": "to shake",
+  "PresentParticipleTranslation": "shaking",
+  "PastParticipleTranslation": "shaken"
+}

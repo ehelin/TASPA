@@ -1,1 +1,68 @@
-{"PresentParticiple":"aterrizando&translation=landing","PastParticiple":"aterrizado&translation=landed","Indicative":{"PresentTense":{"Yo":"aterrizo","Tu":"aterrizas","ElEllaUsted":"aterriza","Nosotros":"aterrizamos","Vosotros":"aterrizáis","EllosEllasUstedes":"aterrizan"},"Pretérito":{"Yo":"aterricé","Tu":"aterrizaste","ElEllaUsted":"aterrizó","Nosotros":"aterrizamos","Vosotros":"aterrizasteis","EllosEllasUstedes":"aterrizaron"},"Imperfect":{"Yo":"aterrizaba","Tu":"aterrizabas","ElEllaUsted":"aterrizaba","Nosotros":"aterrizábamos","Vosotros":"aterrizabais","EllosEllasUstedes":"aterrizaban"},"Conditional":{"Yo":"aterrizaría","Tu":"aterrizarías","ElEllaUsted":"aterrizaría","Nosotros":"aterrizaríamos","Vosotros":"aterrizaríais","EllosEllasUstedes":"aterrizarían"},"Future":{"Yo":"aterrizaré","Tu":"aterrizarás","ElEllaUsted":"aterrizará","Nosotros":"aterrizaremos","Vosotros":"aterrizaréis","EllosEllasUstedes":"aterrizarán"}},"Subjunctive":null,"Name":"aterrizar","EnglishMeaning":"to land"}
+{
+  "PresentParticiple": "aterrizando",
+  "PastParticiple": "aterrizado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aterrizo",
+      "Tu": "aterrizas",
+      "ElEllaUsted": "aterriza",
+      "Nosotros": "aterrizamos",
+      "Vosotros": "aterrizáis",
+      "EllosEllasUstedes": "aterrizan"
+    },
+    "Pretérito": {
+      "Yo": "aterricé",
+      "Tu": "aterrizaste",
+      "ElEllaUsted": "aterrizó",
+      "Nosotros": "aterrizamos",
+      "Vosotros": "aterrizasteis",
+      "EllosEllasUstedes": "aterrizaron"
+    },
+    "Imperfect": {
+      "Yo": "aterrizaba",
+      "Tu": "aterrizabas",
+      "ElEllaUsted": "aterrizaba",
+      "Nosotros": "aterrizábamos",
+      "Vosotros": "aterrizabais",
+      "EllosEllasUstedes": "aterrizaban"
+    },
+    "Conditional": {
+      "Yo": "aterrizaría",
+      "Tu": "aterrizarías",
+      "ElEllaUsted": "aterrizaría",
+      "Nosotros": "aterrizaríamos",
+      "Vosotros": "aterrizaríais",
+      "EllosEllasUstedes": "aterrizarían"
+    },
+    "Future": {
+      "Yo": "aterrizaré",
+      "Tu": "aterrizarás",
+      "ElEllaUsted": "aterrizará",
+      "Nosotros": "aterrizaremos",
+      "Vosotros": "aterrizaréis",
+      "EllosEllasUstedes": "aterrizarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aterrize",
+      "Tu": "aterrizes",
+      "ElEllaUsted": "aterrize",
+      "Nosotros": "aterrizemos",
+      "Vosotros": "aterrizéis",
+      "EllosEllasUstedes": "aterrizen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aterrizara",
+      "Tu": "aterrizaras",
+      "ElEllaUsted": "aterrizara",
+      "Nosotros": "aterrizaramos",
+      "Vosotros": "aterrizarais",
+      "EllosEllasUstedes": "aterrizaran"
+    }
+  },
+  "Name": "aterrizar",
+  "EnglishMeaning": "to land",
+  "PresentParticipleTranslation": "landing",
+  "PastParticipleTranslation": "landed"
+}

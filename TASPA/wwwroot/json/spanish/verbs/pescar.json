@@ -1,1 +1,68 @@
-{"PresentParticiple":"pescando&translation=fishing","PastParticiple":"pescado&translation=fished","Indicative":{"PresentTense":{"Yo":"pesco","Tu":"pescas","ElEllaUsted":"pesca","Nosotros":"pescamos","Vosotros":"pescáis","EllosEllasUstedes":"pescan"},"Pretérito":{"Yo":"pesqué","Tu":"pescaste","ElEllaUsted":"pescó","Nosotros":"pescamos","Vosotros":"pescasteis","EllosEllasUstedes":"pescaron"},"Imperfect":{"Yo":"pescaba","Tu":"pescabas","ElEllaUsted":"pescaba","Nosotros":"pescábamos","Vosotros":"pescabais","EllosEllasUstedes":"pescaban"},"Conditional":{"Yo":"pescaría","Tu":"pescarías","ElEllaUsted":"pescaría","Nosotros":"pescaríamos","Vosotros":"pescaríais","EllosEllasUstedes":"pescarían"},"Future":{"Yo":"pescaré","Tu":"pescarás","ElEllaUsted":"pescará","Nosotros":"pescaremos","Vosotros":"pescaréis","EllosEllasUstedes":"pescarán"}},"Subjunctive":null,"Name":"pescar","EnglishMeaning":"to fish"}
+{
+  "PresentParticiple": "pescando",
+  "PastParticiple": "pescado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "pesco",
+      "Tu": "pescas",
+      "ElEllaUsted": "pesca",
+      "Nosotros": "pescamos",
+      "Vosotros": "pescáis",
+      "EllosEllasUstedes": "pescan"
+    },
+    "Pretérito": {
+      "Yo": "pesqué",
+      "Tu": "pescaste",
+      "ElEllaUsted": "pescó",
+      "Nosotros": "pescamos",
+      "Vosotros": "pescasteis",
+      "EllosEllasUstedes": "pescaron"
+    },
+    "Imperfect": {
+      "Yo": "pescaba",
+      "Tu": "pescabas",
+      "ElEllaUsted": "pescaba",
+      "Nosotros": "pescábamos",
+      "Vosotros": "pescabais",
+      "EllosEllasUstedes": "pescaban"
+    },
+    "Conditional": {
+      "Yo": "pescaría",
+      "Tu": "pescarías",
+      "ElEllaUsted": "pescaría",
+      "Nosotros": "pescaríamos",
+      "Vosotros": "pescaríais",
+      "EllosEllasUstedes": "pescarían"
+    },
+    "Future": {
+      "Yo": "pescaré",
+      "Tu": "pescarás",
+      "ElEllaUsted": "pescará",
+      "Nosotros": "pescaremos",
+      "Vosotros": "pescaréis",
+      "EllosEllasUstedes": "pescarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pesce",
+      "Tu": "pesces",
+      "ElEllaUsted": "pesce",
+      "Nosotros": "pescemos",
+      "Vosotros": "pescéis",
+      "EllosEllasUstedes": "pescen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pescara",
+      "Tu": "pescaras",
+      "ElEllaUsted": "pescara",
+      "Nosotros": "pescaramos",
+      "Vosotros": "pescarais",
+      "EllosEllasUstedes": "pescaran"
+    }
+  },
+  "Name": "pescar",
+  "EnglishMeaning": "to fish",
+  "PresentParticipleTranslation": "fishing",
+  "PastParticipleTranslation": "fished"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"tratando&translation=treating","PastParticiple":"tratado&translation=treated","Indicative":{"PresentTense":{"Yo":"trato","Tu":"tratas","ElEllaUsted":"trata","Nosotros":"tratamos","Vosotros":"tratáis","EllosEllasUstedes":"tratan"},"Pretérito":{"Yo":"traté","Tu":"trataste","ElEllaUsted":"trató","Nosotros":"tratamos","Vosotros":"tratasteis","EllosEllasUstedes":"trataron"},"Imperfect":{"Yo":"trataba","Tu":"tratabas","ElEllaUsted":"trataba","Nosotros":"tratábamos","Vosotros":"tratabais","EllosEllasUstedes":"trataban"},"Conditional":{"Yo":"trataría","Tu":"tratarías","ElEllaUsted":"trataría","Nosotros":"trataríamos","Vosotros":"trataríais","EllosEllasUstedes":"tratarían"},"Future":{"Yo":"trataré","Tu":"tratarás","ElEllaUsted":"tratará","Nosotros":"trataremos","Vosotros":"trataréis","EllosEllasUstedes":"tratarán"}},"Subjunctive":null,"Name":"tratar","EnglishMeaning":"to treat"}
+{
+  "PresentParticiple": "tratando",
+  "PastParticiple": "tratado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "trato",
+      "Tu": "tratas",
+      "ElEllaUsted": "trata",
+      "Nosotros": "tratamos",
+      "Vosotros": "tratáis",
+      "EllosEllasUstedes": "tratan"
+    },
+    "Pretérito": {
+      "Yo": "traté",
+      "Tu": "trataste",
+      "ElEllaUsted": "trató",
+      "Nosotros": "tratamos",
+      "Vosotros": "tratasteis",
+      "EllosEllasUstedes": "trataron"
+    },
+    "Imperfect": {
+      "Yo": "trataba",
+      "Tu": "tratabas",
+      "ElEllaUsted": "trataba",
+      "Nosotros": "tratábamos",
+      "Vosotros": "tratabais",
+      "EllosEllasUstedes": "trataban"
+    },
+    "Conditional": {
+      "Yo": "trataría",
+      "Tu": "tratarías",
+      "ElEllaUsted": "trataría",
+      "Nosotros": "trataríamos",
+      "Vosotros": "trataríais",
+      "EllosEllasUstedes": "tratarían"
+    },
+    "Future": {
+      "Yo": "trataré",
+      "Tu": "tratarás",
+      "ElEllaUsted": "tratará",
+      "Nosotros": "trataremos",
+      "Vosotros": "trataréis",
+      "EllosEllasUstedes": "tratarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "trate",
+      "Tu": "trates",
+      "ElEllaUsted": "trate",
+      "Nosotros": "tratemos",
+      "Vosotros": "tratéis",
+      "EllosEllasUstedes": "traten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tratara",
+      "Tu": "trataras",
+      "ElEllaUsted": "tratara",
+      "Nosotros": "trataramos",
+      "Vosotros": "tratarais",
+      "EllosEllasUstedes": "trataran"
+    }
+  },
+  "Name": "tratar",
+  "EnglishMeaning": "to treat",
+  "PresentParticipleTranslation": "treating",
+  "PastParticipleTranslation": "treated"
+}

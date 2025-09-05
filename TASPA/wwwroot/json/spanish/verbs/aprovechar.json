@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "aprovechando",
-    "PastParticiple": "aprovechado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "aprovecho",
-            "Tu": "aprovechas",
-            "ElEllaUsted": "aprovecha",
-            "Nosotros": "aprovechamos",
-            "Vosotros": "aprovecháis",
-            "EllosEllasUstedes": "aprovechan"
-        },
-        "Pretérito": {
-            "Yo": "aproveché",
-            "Tu": "aprovechaste",
-            "ElEllaUsted": "aprovechó",
-            "Nosotros": "aprovechamos",
-            "Vosotros": "aprovechasteis",
-            "EllosEllasUstedes": "aprovecharon"
-        },
-        "Imperfect": {
-            "Yo": "aprovechaba",
-            "Tu": "aprovechabas",
-            "ElEllaUsted": "aprovechaba",
-            "Nosotros": "aprovechábamos",
-            "Vosotros": "aprovechabais",
-            "EllosEllasUstedes": "aprovechaban"
-        },
-        "Conditional": {
-            "Yo": "aprovecharía",
-            "Tu": "aprovecharías",
-            "ElEllaUsted": "aprovecharía",
-            "Nosotros": "aprovecharíamos",
-            "Vosotros": "aprovecharíais",
-            "EllosEllasUstedes": "aprovecharían"
-        },
-        "Future": {
-            "Yo": "aprovecharé",
-            "Tu": "aprovecharás",
-            "ElEllaUsted": "aprovechará",
-            "Nosotros": "aprovecharemos",
-            "Vosotros": "aprovecharéis",
-            "EllosEllasUstedes": "aprovecharán"
-        }
+  "PresentParticiple": "aprovechando",
+  "PastParticiple": "aprovechado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aprovecho",
+      "Tu": "aprovechas",
+      "ElEllaUsted": "aprovecha",
+      "Nosotros": "aprovechamos",
+      "Vosotros": "aprovecháis",
+      "EllosEllasUstedes": "aprovechan"
     },
-    "Subjunctive": null,
-    "Name": "aprovechar",
-    "EnglishMeaning": "to take advantage"
+    "Pretérito": {
+      "Yo": "aproveché",
+      "Tu": "aprovechaste",
+      "ElEllaUsted": "aprovechó",
+      "Nosotros": "aprovechamos",
+      "Vosotros": "aprovechasteis",
+      "EllosEllasUstedes": "aprovecharon"
+    },
+    "Imperfect": {
+      "Yo": "aprovechaba",
+      "Tu": "aprovechabas",
+      "ElEllaUsted": "aprovechaba",
+      "Nosotros": "aprovechábamos",
+      "Vosotros": "aprovechabais",
+      "EllosEllasUstedes": "aprovechaban"
+    },
+    "Conditional": {
+      "Yo": "aprovecharía",
+      "Tu": "aprovecharías",
+      "ElEllaUsted": "aprovecharía",
+      "Nosotros": "aprovecharíamos",
+      "Vosotros": "aprovecharíais",
+      "EllosEllasUstedes": "aprovecharían"
+    },
+    "Future": {
+      "Yo": "aprovecharé",
+      "Tu": "aprovecharás",
+      "ElEllaUsted": "aprovechará",
+      "Nosotros": "aprovecharemos",
+      "Vosotros": "aprovecharéis",
+      "EllosEllasUstedes": "aprovecharán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aproveche",
+      "Tu": "aproveches",
+      "ElEllaUsted": "aproveche",
+      "Nosotros": "aprovechemos",
+      "Vosotros": "aprovechéis",
+      "EllosEllasUstedes": "aprovechen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aprovechara",
+      "Tu": "aprovecharas",
+      "ElEllaUsted": "aprovechara",
+      "Nosotros": "aprovecharamos",
+      "Vosotros": "aprovecharais",
+      "EllosEllasUstedes": "aprovecharan"
+    }
+  },
+  "Name": "aprovechar",
+  "EnglishMeaning": "to take advantage"
 }

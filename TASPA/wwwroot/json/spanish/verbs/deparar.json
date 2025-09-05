@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "deparando",
-    "PastParticiple": "deparado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "deparo",
-            "Tu": "deparas",
-            "ElEllaUsted": "depara",
-            "Nosotros": "deparamos",
-            "Vosotros": "deparáis",
-            "EllosEllasUstedes": "deparan"
-        },
-        "Pretérito": {
-            "Yo": "deparé",
-            "Tu": "deparaste",
-            "ElEllaUsted": "deparó",
-            "Nosotros": "deparamos",
-            "Vosotros": "deparasteis",
-            "EllosEllasUstedes": "depararon"
-        },
-        "Imperfect": {
-            "Yo": "deparaba",
-            "Tu": "deparabas",
-            "ElEllaUsted": "deparaba",
-            "Nosotros": "deparábamos",
-            "Vosotros": "deparabais",
-            "EllosEllasUstedes": "deparaban"
-        },
-        "Conditional": {
-            "Yo": "depararía",
-            "Tu": "depararías",
-            "ElEllaUsted": "depararía",
-            "Nosotros": "depararíamos",
-            "Vosotros": "depararíais",
-            "EllosEllasUstedes": "depararían"
-        },
-        "Future": {
-            "Yo": "depararé",
-            "Tu": "depararás",
-            "ElEllaUsted": "deparará",
-            "Nosotros": "depararemos",
-            "Vosotros": "depararéis",
-            "EllosEllasUstedes": "depararán"
-        }
+  "PresentParticiple": "deparando",
+  "PastParticiple": "deparado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "deparo",
+      "Tu": "deparas",
+      "ElEllaUsted": "depara",
+      "Nosotros": "deparamos",
+      "Vosotros": "deparáis",
+      "EllosEllasUstedes": "deparan"
     },
-    "Subjunctive": null,
-    "Name": "deparar",
-    "EnglishMeaning": "to stop"
+    "Pretérito": {
+      "Yo": "deparé",
+      "Tu": "deparaste",
+      "ElEllaUsted": "deparó",
+      "Nosotros": "deparamos",
+      "Vosotros": "deparasteis",
+      "EllosEllasUstedes": "depararon"
+    },
+    "Imperfect": {
+      "Yo": "deparaba",
+      "Tu": "deparabas",
+      "ElEllaUsted": "deparaba",
+      "Nosotros": "deparábamos",
+      "Vosotros": "deparabais",
+      "EllosEllasUstedes": "deparaban"
+    },
+    "Conditional": {
+      "Yo": "depararía",
+      "Tu": "depararías",
+      "ElEllaUsted": "depararía",
+      "Nosotros": "depararíamos",
+      "Vosotros": "depararíais",
+      "EllosEllasUstedes": "depararían"
+    },
+    "Future": {
+      "Yo": "depararé",
+      "Tu": "depararás",
+      "ElEllaUsted": "deparará",
+      "Nosotros": "depararemos",
+      "Vosotros": "depararéis",
+      "EllosEllasUstedes": "depararán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "depare",
+      "Tu": "depares",
+      "ElEllaUsted": "depare",
+      "Nosotros": "deparemos",
+      "Vosotros": "deparéis",
+      "EllosEllasUstedes": "deparen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "deparara",
+      "Tu": "depararas",
+      "ElEllaUsted": "deparara",
+      "Nosotros": "depararamos",
+      "Vosotros": "depararais",
+      "EllosEllasUstedes": "depararan"
+    }
+  },
+  "Name": "deparar",
+  "EnglishMeaning": "to stop"
 }

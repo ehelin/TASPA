@@ -1,1 +1,66 @@
-{"PresentParticiple":"esperando","PastParticiple":"esperado","Indicative":{"PresentTense":{"Yo":"espero","Tu":"esperas","ElEllaUsted":"espera","Nosotros":"esperamos","Vosotros":"esperáis","EllosEllasUstedes":"esperan"},"Pretérito":{"Yo":"esperé","Tu":"esperaste","ElEllaUsted":"esperó","Nosotros":"esperamos","Vosotros":"esperasteis","EllosEllasUstedes":"esperaron"},"Imperfect":{"Yo":"esperaba","Tu":"esperabas","ElEllaUsted":"esperaba","Nosotros":"esperábamos","Vosotros":"esperabais","EllosEllasUstedes":"esperaban"},"Conditional":{"Yo":"esperaría","Tu":"esperarías","ElEllaUsted":"esperaría","Nosotros":"esperaríamos","Vosotros":"esperaríais","EllosEllasUstedes":"esperarían"},"Future":{"Yo":"esperaré","Tu":"esperarás","ElEllaUsted":"esperará","Nosotros":"esperaremos","Vosotros":"esperaréis","EllosEllasUstedes":"esperarán"}},"Subjunctive":null,"Name":"esperar","EnglishMeaning":"to wait for"}
+{
+  "PresentParticiple": "esperando",
+  "PastParticiple": "esperado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "espero",
+      "Tu": "esperas",
+      "ElEllaUsted": "espera",
+      "Nosotros": "esperamos",
+      "Vosotros": "esperáis",
+      "EllosEllasUstedes": "esperan"
+    },
+    "Pretérito": {
+      "Yo": "esperé",
+      "Tu": "esperaste",
+      "ElEllaUsted": "esperó",
+      "Nosotros": "esperamos",
+      "Vosotros": "esperasteis",
+      "EllosEllasUstedes": "esperaron"
+    },
+    "Imperfect": {
+      "Yo": "esperaba",
+      "Tu": "esperabas",
+      "ElEllaUsted": "esperaba",
+      "Nosotros": "esperábamos",
+      "Vosotros": "esperabais",
+      "EllosEllasUstedes": "esperaban"
+    },
+    "Conditional": {
+      "Yo": "esperaría",
+      "Tu": "esperarías",
+      "ElEllaUsted": "esperaría",
+      "Nosotros": "esperaríamos",
+      "Vosotros": "esperaríais",
+      "EllosEllasUstedes": "esperarían"
+    },
+    "Future": {
+      "Yo": "esperaré",
+      "Tu": "esperarás",
+      "ElEllaUsted": "esperará",
+      "Nosotros": "esperaremos",
+      "Vosotros": "esperaréis",
+      "EllosEllasUstedes": "esperarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "espere",
+      "Tu": "esperes",
+      "ElEllaUsted": "espere",
+      "Nosotros": "esperemos",
+      "Vosotros": "esperéis",
+      "EllosEllasUstedes": "esperen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "esperara",
+      "Tu": "esperaras",
+      "ElEllaUsted": "esperara",
+      "Nosotros": "esperaramos",
+      "Vosotros": "esperarais",
+      "EllosEllasUstedes": "esperaran"
+    }
+  },
+  "Name": "esperar",
+  "EnglishMeaning": "to wait for"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"aprobando&translation=passing","PastParticiple":"aprobado&translation=passed","Indicative":{"PresentTense":{"Yo":"apruebo","Tu":"apruebas","ElEllaUsted":"aprueba","Nosotros":"aprobamos","Vosotros":"aprobáis","EllosEllasUstedes":"aprueban"},"Pretérito":{"Yo":"aprobé","Tu":"aprobaste","ElEllaUsted":"aprobó","Nosotros":"aprobamos","Vosotros":"aprobasteis","EllosEllasUstedes":"aprobaron"},"Imperfect":{"Yo":"aprobaba","Tu":"aprobabas","ElEllaUsted":"aprobaba","Nosotros":"aprobábamos","Vosotros":"aprobabais","EllosEllasUstedes":"aprobaban"},"Conditional":{"Yo":"aprobaría","Tu":"aprobarías","ElEllaUsted":"aprobaría","Nosotros":"aprobaríamos","Vosotros":"aprobaríais","EllosEllasUstedes":"aprobarían"},"Future":{"Yo":"aprobaré","Tu":"aprobarás","ElEllaUsted":"aprobará","Nosotros":"aprobaremos","Vosotros":"aprobaréis","EllosEllasUstedes":"aprobarán"}},"Subjunctive":null,"Name":"aprobar","EnglishMeaning":"to approve"}
+{
+  "PresentParticiple": "aprobando",
+  "PastParticiple": "aprobado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "apruebo",
+      "Tu": "apruebas",
+      "ElEllaUsted": "aprueba",
+      "Nosotros": "aprobamos",
+      "Vosotros": "aprobáis",
+      "EllosEllasUstedes": "aprueban"
+    },
+    "Pretérito": {
+      "Yo": "aprobé",
+      "Tu": "aprobaste",
+      "ElEllaUsted": "aprobó",
+      "Nosotros": "aprobamos",
+      "Vosotros": "aprobasteis",
+      "EllosEllasUstedes": "aprobaron"
+    },
+    "Imperfect": {
+      "Yo": "aprobaba",
+      "Tu": "aprobabas",
+      "ElEllaUsted": "aprobaba",
+      "Nosotros": "aprobábamos",
+      "Vosotros": "aprobabais",
+      "EllosEllasUstedes": "aprobaban"
+    },
+    "Conditional": {
+      "Yo": "aprobaría",
+      "Tu": "aprobarías",
+      "ElEllaUsted": "aprobaría",
+      "Nosotros": "aprobaríamos",
+      "Vosotros": "aprobaríais",
+      "EllosEllasUstedes": "aprobarían"
+    },
+    "Future": {
+      "Yo": "aprobaré",
+      "Tu": "aprobarás",
+      "ElEllaUsted": "aprobará",
+      "Nosotros": "aprobaremos",
+      "Vosotros": "aprobaréis",
+      "EllosEllasUstedes": "aprobarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "apruebe",
+      "Tu": "apruebes",
+      "ElEllaUsted": "apruebe",
+      "Nosotros": "apruebemos",
+      "Vosotros": "apruebéis",
+      "EllosEllasUstedes": "aprueben"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aprobara",
+      "Tu": "aprobaras",
+      "ElEllaUsted": "aprobara",
+      "Nosotros": "aprobaramos",
+      "Vosotros": "aprobarais",
+      "EllosEllasUstedes": "aprobaran"
+    }
+  },
+  "Name": "aprobar",
+  "EnglishMeaning": "to approve",
+  "PresentParticipleTranslation": "passing",
+  "PastParticipleTranslation": "passed"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"derribando&translation=demolishing","PastParticiple":"derribado&translation=demolished","Indicative":{"PresentTense":{"Yo":"derribo","Tu":"derribas","ElEllaUsted":"derriba","Nosotros":"derribamos","Vosotros":"derribáis","EllosEllasUstedes":"derriban"},"Pretérito":{"Yo":"derribé","Tu":"derribaste","ElEllaUsted":"derribó","Nosotros":"derribamos","Vosotros":"derribasteis","EllosEllasUstedes":"derribaron"},"Imperfect":{"Yo":"derribaba","Tu":"derribabas","ElEllaUsted":"derribaba","Nosotros":"derribábamos","Vosotros":"derribabais","EllosEllasUstedes":"derribaban"},"Conditional":{"Yo":"derribaría","Tu":"derribarías","ElEllaUsted":"derribaría","Nosotros":"derribaríamos","Vosotros":"derribaríais","EllosEllasUstedes":"derribarían"},"Future":{"Yo":"derribaré","Tu":"derribarás","ElEllaUsted":"derribará","Nosotros":"derribaremos","Vosotros":"derribaréis","EllosEllasUstedes":"derribarán"}},"Subjunctive":null,"Name":"derribar","EnglishMeaning":"to demolish"}
+{
+  "PresentParticiple": "derribando",
+  "PastParticiple": "derribado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "derribo",
+      "Tu": "derribas",
+      "ElEllaUsted": "derriba",
+      "Nosotros": "derribamos",
+      "Vosotros": "derribáis",
+      "EllosEllasUstedes": "derriban"
+    },
+    "Pretérito": {
+      "Yo": "derribé",
+      "Tu": "derribaste",
+      "ElEllaUsted": "derribó",
+      "Nosotros": "derribamos",
+      "Vosotros": "derribasteis",
+      "EllosEllasUstedes": "derribaron"
+    },
+    "Imperfect": {
+      "Yo": "derribaba",
+      "Tu": "derribabas",
+      "ElEllaUsted": "derribaba",
+      "Nosotros": "derribábamos",
+      "Vosotros": "derribabais",
+      "EllosEllasUstedes": "derribaban"
+    },
+    "Conditional": {
+      "Yo": "derribaría",
+      "Tu": "derribarías",
+      "ElEllaUsted": "derribaría",
+      "Nosotros": "derribaríamos",
+      "Vosotros": "derribaríais",
+      "EllosEllasUstedes": "derribarían"
+    },
+    "Future": {
+      "Yo": "derribaré",
+      "Tu": "derribarás",
+      "ElEllaUsted": "derribará",
+      "Nosotros": "derribaremos",
+      "Vosotros": "derribaréis",
+      "EllosEllasUstedes": "derribarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "derribe",
+      "Tu": "derribes",
+      "ElEllaUsted": "derribe",
+      "Nosotros": "derribemos",
+      "Vosotros": "derribéis",
+      "EllosEllasUstedes": "derriben"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "derribara",
+      "Tu": "derribaras",
+      "ElEllaUsted": "derribara",
+      "Nosotros": "derribaramos",
+      "Vosotros": "derribarais",
+      "EllosEllasUstedes": "derribaran"
+    }
+  },
+  "Name": "derribar",
+  "EnglishMeaning": "to demolish",
+  "PresentParticipleTranslation": "demolishing",
+  "PastParticipleTranslation": "demolished"
+}

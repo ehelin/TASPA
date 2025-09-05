@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "servirán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sirva",
+      "Tu": "sirvas",
+      "ElEllaUsted": "sirva",
+      "Nosotros": "sirvamos",
+      "Vosotros": "sirváis",
+      "EllosEllasUstedes": "sirvan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "sirviea",
+      "Tu": "sirvieas",
+      "ElEllaUsted": "sirviea",
+      "Nosotros": "sirvieamos",
+      "Vosotros": "sirvieais",
+      "EllosEllasUstedes": "sirviean"
+    }
+  },
   "Name": "servir",
   "EnglishMeaning": "to serve"
 }

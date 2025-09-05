@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "estallando",
-    "PastParticiple": "estallado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "estallo",
-            "Tu": "estallas",
-            "ElEllaUsted": "estalla",
-            "Nosotros": "estallamos",
-            "Vosotros": "estalláis",
-            "EllosEllasUstedes": "estallan"
-        },
-        "Pretérito": {
-            "Yo": "estallé",
-            "Tu": "estallaste",
-            "ElEllaUsted": "estalló",
-            "Nosotros": "estallamos",
-            "Vosotros": "estallasteis",
-            "EllosEllasUstedes": "estallaron"
-        },
-        "Imperfect": {
-            "Yo": "estallaba",
-            "Tu": "estallabas",
-            "ElEllaUsted": "estallaba",
-            "Nosotros": "estallábamos",
-            "Vosotros": "estallabais",
-            "EllosEllasUstedes": "estallaban"
-        },
-        "Conditional": {
-            "Yo": "estallaría",
-            "Tu": "estallarías",
-            "ElEllaUsted": "estallaría",
-            "Nosotros": "estallaríamos",
-            "Vosotros": "estallaríais",
-            "EllosEllasUstedes": "estallarían"
-        },
-        "Future": {
-            "Yo": "estallaré",
-            "Tu": "estallarás",
-            "ElEllaUsted": "estallará",
-            "Nosotros": "estallaremos",
-            "Vosotros": "estallaréis",
-            "EllosEllasUstedes": "estallarán"
-        }
+  "PresentParticiple": "estallando",
+  "PastParticiple": "estallado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "estallo",
+      "Tu": "estallas",
+      "ElEllaUsted": "estalla",
+      "Nosotros": "estallamos",
+      "Vosotros": "estalláis",
+      "EllosEllasUstedes": "estallan"
     },
-    "Subjunctive": null,
-    "Name": "estallar",
-    "EnglishMeaning": "to explode"
+    "Pretérito": {
+      "Yo": "estallé",
+      "Tu": "estallaste",
+      "ElEllaUsted": "estalló",
+      "Nosotros": "estallamos",
+      "Vosotros": "estallasteis",
+      "EllosEllasUstedes": "estallaron"
+    },
+    "Imperfect": {
+      "Yo": "estallaba",
+      "Tu": "estallabas",
+      "ElEllaUsted": "estallaba",
+      "Nosotros": "estallábamos",
+      "Vosotros": "estallabais",
+      "EllosEllasUstedes": "estallaban"
+    },
+    "Conditional": {
+      "Yo": "estallaría",
+      "Tu": "estallarías",
+      "ElEllaUsted": "estallaría",
+      "Nosotros": "estallaríamos",
+      "Vosotros": "estallaríais",
+      "EllosEllasUstedes": "estallarían"
+    },
+    "Future": {
+      "Yo": "estallaré",
+      "Tu": "estallarás",
+      "ElEllaUsted": "estallará",
+      "Nosotros": "estallaremos",
+      "Vosotros": "estallaréis",
+      "EllosEllasUstedes": "estallarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "estalle",
+      "Tu": "estalles",
+      "ElEllaUsted": "estalle",
+      "Nosotros": "estallemos",
+      "Vosotros": "estalléis",
+      "EllosEllasUstedes": "estallen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "estallara",
+      "Tu": "estallaras",
+      "ElEllaUsted": "estallara",
+      "Nosotros": "estallaramos",
+      "Vosotros": "estallarais",
+      "EllosEllasUstedes": "estallaran"
+    }
+  },
+  "Name": "estallar",
+  "EnglishMeaning": "to explode"
 }

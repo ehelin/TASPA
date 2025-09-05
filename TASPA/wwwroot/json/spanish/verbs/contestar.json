@@ -1,1 +1,68 @@
-{"PresentParticiple":"contestando&translation=answering","PastParticiple":"contestado&translation=answered","Indicative":{"PresentTense":{"Yo":"contesto","Tu":"contestas","ElEllaUsted":"contesta","Nosotros":"contestamos","Vosotros":"contestáis","EllosEllasUstedes":"contestan"},"Pretérito":{"Yo":"contesté","Tu":"contestaste","ElEllaUsted":"contestó","Nosotros":"contestamos","Vosotros":"contestasteis","EllosEllasUstedes":"contestaron"},"Imperfect":{"Yo":"contestaba","Tu":"contestabas","ElEllaUsted":"contestaba","Nosotros":"contestábamos","Vosotros":"contestabais","EllosEllasUstedes":"contestaban"},"Conditional":{"Yo":"contestaría","Tu":"contestarías","ElEllaUsted":"contestaría","Nosotros":"contestaríamos","Vosotros":"contestaríais","EllosEllasUstedes":"contestarían"},"Future":{"Yo":"contestaré","Tu":"contestarás","ElEllaUsted":"contestará","Nosotros":"contestaremos","Vosotros":"contestaréis","EllosEllasUstedes":"contestarán"}},"Subjunctive":null,"Name":"contestar","EnglishMeaning":"to answer"}
+{
+  "PresentParticiple": "contestando",
+  "PastParticiple": "contestado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "contesto",
+      "Tu": "contestas",
+      "ElEllaUsted": "contesta",
+      "Nosotros": "contestamos",
+      "Vosotros": "contestáis",
+      "EllosEllasUstedes": "contestan"
+    },
+    "Pretérito": {
+      "Yo": "contesté",
+      "Tu": "contestaste",
+      "ElEllaUsted": "contestó",
+      "Nosotros": "contestamos",
+      "Vosotros": "contestasteis",
+      "EllosEllasUstedes": "contestaron"
+    },
+    "Imperfect": {
+      "Yo": "contestaba",
+      "Tu": "contestabas",
+      "ElEllaUsted": "contestaba",
+      "Nosotros": "contestábamos",
+      "Vosotros": "contestabais",
+      "EllosEllasUstedes": "contestaban"
+    },
+    "Conditional": {
+      "Yo": "contestaría",
+      "Tu": "contestarías",
+      "ElEllaUsted": "contestaría",
+      "Nosotros": "contestaríamos",
+      "Vosotros": "contestaríais",
+      "EllosEllasUstedes": "contestarían"
+    },
+    "Future": {
+      "Yo": "contestaré",
+      "Tu": "contestarás",
+      "ElEllaUsted": "contestará",
+      "Nosotros": "contestaremos",
+      "Vosotros": "contestaréis",
+      "EllosEllasUstedes": "contestarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "conteste",
+      "Tu": "contestes",
+      "ElEllaUsted": "conteste",
+      "Nosotros": "contestemos",
+      "Vosotros": "contestéis",
+      "EllosEllasUstedes": "contesten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "contestara",
+      "Tu": "contestaras",
+      "ElEllaUsted": "contestara",
+      "Nosotros": "contestaramos",
+      "Vosotros": "contestarais",
+      "EllosEllasUstedes": "contestaran"
+    }
+  },
+  "Name": "contestar",
+  "EnglishMeaning": "to answer",
+  "PresentParticipleTranslation": "answering",
+  "PastParticipleTranslation": "answered"
+}

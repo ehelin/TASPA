@@ -1,6 +1,6 @@
 {
-  "PresentParticiple": "cortando&translation=cutting",
-  "PastParticiple": "cortado&translation=cut",
+  "PresentParticiple": "cortando",
+  "PastParticiple": "cortado",
   "Indicative": {
     "PresentTense": {
       "Yo": "corto",
@@ -43,7 +43,26 @@
       "EllosEllasUstedes": "cortarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "corte",
+      "Tu": "cortes",
+      "ElEllaUsted": "corte",
+      "Nosotros": "cortemos",
+      "Vosotros": "cortéis",
+      "EllosEllasUstedes": "corten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cortara",
+      "Tu": "cortaras",
+      "ElEllaUsted": "cortara",
+      "Nosotros": "cortaramos",
+      "Vosotros": "cortarais",
+      "EllosEllasUstedes": "cortaran"
+    }
+  },
   "Name": "cortar",
-  "EnglishMeaning": "to cut"
+  "EnglishMeaning": "to cut",
+  "PresentParticipleTranslation": "cutting",
+  "PastParticipleTranslation": "cut"
 }

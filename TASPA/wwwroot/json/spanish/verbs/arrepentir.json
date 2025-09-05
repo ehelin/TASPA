@@ -1,49 +1,66 @@
 {
-	"PresentParticiple": "arrepintiendo",
-	"PastParticiple": "arrepentido",
-	"Indicative": {
-		"PresentTense": {
-			"Yo": "arrepiento",
-			"Tu": "arrepientes",
-			"ElEllaUsted": "arrepiente",
-			"Nosotros": "arrepentimos",
-			"Vosotros": "arrepentís",
-			"EllosEllasUstedes": "arrepienten"
-		},
-		"Pretérito": {
-			"Yo": "arrepentí",
-			"Tu": "arrepentiste",
-			"ElEllaUsted": "arrepintió",
-			"Nosotros": "arrepentimos",
-			"Vosotros": "arrepentisteis",
-			"EllosEllasUstedes": "arrepintieron"
-		},
-		"Imperfect": {
-			"Yo": "arrepentía",
-			"Tu": "arrepentías",
-			"ElEllaUsted": "arrepentía",
-			"Nosotros": "arrepentíamos",
-			"Vosotros": "arrepentíais",
-			"EllosEllasUstedes": "arrepentían"
-		},
-		"Conditional": {
-			"Yo": "arrepentiría",
-			"Tu": "arrepentirías",
-			"ElEllaUsted": "arrepiente",
-			"Nosotros": "arrepentiríamos",
-			"Vosotros": "arrepentiríais",
-			"EllosEllasUstedes": "arrepentirían"
-		},
-		"Future": {
-			"Yo": "arrepentiré",
-			"Tu": "arrepentirás",
-			"ElEllaUsted": "arrepentirá",
-			"Nosotros": "arrepentiremos",
-			"Vosotros": "arrepentiréis",
-			"EllosEllasUstedes": "arrepentirán"
-		}
-	},
-	"Subjunctive": null,
-	"Name": "arrepentir",
-	"EnglishMeaning": "to regret"
+  "PresentParticiple": "arrepintiendo",
+  "PastParticiple": "arrepentido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "arrepiento",
+      "Tu": "arrepientes",
+      "ElEllaUsted": "arrepiente",
+      "Nosotros": "arrepentimos",
+      "Vosotros": "arrepentís",
+      "EllosEllasUstedes": "arrepienten"
+    },
+    "Pretérito": {
+      "Yo": "arrepentí",
+      "Tu": "arrepentiste",
+      "ElEllaUsted": "arrepintió",
+      "Nosotros": "arrepentimos",
+      "Vosotros": "arrepentisteis",
+      "EllosEllasUstedes": "arrepintieron"
+    },
+    "Imperfect": {
+      "Yo": "arrepentía",
+      "Tu": "arrepentías",
+      "ElEllaUsted": "arrepentía",
+      "Nosotros": "arrepentíamos",
+      "Vosotros": "arrepentíais",
+      "EllosEllasUstedes": "arrepentían"
+    },
+    "Conditional": {
+      "Yo": "arrepentiría",
+      "Tu": "arrepentirías",
+      "ElEllaUsted": "arrepiente",
+      "Nosotros": "arrepentiríamos",
+      "Vosotros": "arrepentiríais",
+      "EllosEllasUstedes": "arrepentirían"
+    },
+    "Future": {
+      "Yo": "arrepentiré",
+      "Tu": "arrepentirás",
+      "ElEllaUsted": "arrepentirá",
+      "Nosotros": "arrepentiremos",
+      "Vosotros": "arrepentiréis",
+      "EllosEllasUstedes": "arrepentirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "arrepienta",
+      "Tu": "arrepientas",
+      "ElEllaUsted": "arrepienta",
+      "Nosotros": "arrepientamos",
+      "Vosotros": "arrepientáis",
+      "EllosEllasUstedes": "arrepientan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "arrepintiea",
+      "Tu": "arrepintieas",
+      "ElEllaUsted": "arrepintiea",
+      "Nosotros": "arrepintieamos",
+      "Vosotros": "arrepintieais",
+      "EllosEllasUstedes": "arrepintiean"
+    }
+  },
+  "Name": "arrepentir",
+  "EnglishMeaning": "to regret"
 }

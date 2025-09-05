@@ -1,1 +1,66 @@
-{"PresentParticiple":"doliendo","PastParticiple":"dolido","Indicative":{"PresentTense":{"Yo":"duelo","Tu":"dueles","ElEllaUsted":"duele","Nosotros":"dolemos","Vosotros":"doléis","EllosEllasUstedes":"duelen"},"Pretérito":{"Yo":"dolí","Tu":"doliste","ElEllaUsted":"dolió","Nosotros":"dolimos","Vosotros":"dolisteis","EllosEllasUstedes":"dolieron"},"Imperfect":{"Yo":"dolía","Tu":"dolías","ElEllaUsted":"dolía","Nosotros":"dolíamos","Vosotros":"dolíais","EllosEllasUstedes":"dolían"},"Conditional":{"Yo":"dolería","Tu":"dolerías","ElEllaUsted":"dolería","Nosotros":"doleríamos","Vosotros":"doleríais","EllosEllasUstedes":"dolerían"},"Future":{"Yo":"doleré","Tu":"dolerás","ElEllaUsted":"dolerá","Nosotros":"doleremos","Vosotros":"doleréis","EllosEllasUstedes":"dolerán"}},"Subjunctive":null,"Name":"doler","EnglishMeaning":"to hurt"}
+{
+  "PresentParticiple": "doliendo",
+  "PastParticiple": "dolido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "duelo",
+      "Tu": "dueles",
+      "ElEllaUsted": "duele",
+      "Nosotros": "dolemos",
+      "Vosotros": "doléis",
+      "EllosEllasUstedes": "duelen"
+    },
+    "Pretérito": {
+      "Yo": "dolí",
+      "Tu": "doliste",
+      "ElEllaUsted": "dolió",
+      "Nosotros": "dolimos",
+      "Vosotros": "dolisteis",
+      "EllosEllasUstedes": "dolieron"
+    },
+    "Imperfect": {
+      "Yo": "dolía",
+      "Tu": "dolías",
+      "ElEllaUsted": "dolía",
+      "Nosotros": "dolíamos",
+      "Vosotros": "dolíais",
+      "EllosEllasUstedes": "dolían"
+    },
+    "Conditional": {
+      "Yo": "dolería",
+      "Tu": "dolerías",
+      "ElEllaUsted": "dolería",
+      "Nosotros": "doleríamos",
+      "Vosotros": "doleríais",
+      "EllosEllasUstedes": "dolerían"
+    },
+    "Future": {
+      "Yo": "doleré",
+      "Tu": "dolerás",
+      "ElEllaUsted": "dolerá",
+      "Nosotros": "doleremos",
+      "Vosotros": "doleréis",
+      "EllosEllasUstedes": "dolerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "duela",
+      "Tu": "duelas",
+      "ElEllaUsted": "duela",
+      "Nosotros": "duelamos",
+      "Vosotros": "dueláis",
+      "EllosEllasUstedes": "duelan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "doliea",
+      "Tu": "dolieas",
+      "ElEllaUsted": "doliea",
+      "Nosotros": "dolieamos",
+      "Vosotros": "dolieais",
+      "EllosEllasUstedes": "doliean"
+    }
+  },
+  "Name": "doler",
+  "EnglishMeaning": "to hurt"
+}

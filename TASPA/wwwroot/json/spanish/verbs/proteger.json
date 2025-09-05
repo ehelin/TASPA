@@ -1,1 +1,68 @@
-{"PresentParticiple":"protegiendo&translation=protecting","PastParticiple":"protegido&translation=protected","Indicative":{"PresentTense":{"Yo":"protejo","Tu":"proteges","ElEllaUsted":"protege","Nosotros":"protegemos","Vosotros":"protegéis","EllosEllasUstedes":"protegen"},"Pretérito":{"Yo":"protegí","Tu":"protegiste","ElEllaUsted":"protegió","Nosotros":"protegimos","Vosotros":"protegisteis","EllosEllasUstedes":"protegieron"},"Imperfect":{"Yo":"protegía","Tu":"protegías","ElEllaUsted":"protegía","Nosotros":"protegíamos","Vosotros":"protegíais","EllosEllasUstedes":"protegían"},"Conditional":{"Yo":"protegería","Tu":"protegerías","ElEllaUsted":"protegería","Nosotros":"protegeríamos","Vosotros":"protegeríais","EllosEllasUstedes":"protegerían"},"Future":{"Yo":"protegeré","Tu":"protegerás","ElEllaUsted":"protegerá","Nosotros":"protegeremos","Vosotros":"protegeréis","EllosEllasUstedes":"protegerán"}},"Subjunctive":null,"Name":"proteger","EnglishMeaning":"to protect"}
+{
+  "PresentParticiple": "protegiendo",
+  "PastParticiple": "protegido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "protejo",
+      "Tu": "proteges",
+      "ElEllaUsted": "protege",
+      "Nosotros": "protegemos",
+      "Vosotros": "protegéis",
+      "EllosEllasUstedes": "protegen"
+    },
+    "Pretérito": {
+      "Yo": "protegí",
+      "Tu": "protegiste",
+      "ElEllaUsted": "protegió",
+      "Nosotros": "protegimos",
+      "Vosotros": "protegisteis",
+      "EllosEllasUstedes": "protegieron"
+    },
+    "Imperfect": {
+      "Yo": "protegía",
+      "Tu": "protegías",
+      "ElEllaUsted": "protegía",
+      "Nosotros": "protegíamos",
+      "Vosotros": "protegíais",
+      "EllosEllasUstedes": "protegían"
+    },
+    "Conditional": {
+      "Yo": "protegería",
+      "Tu": "protegerías",
+      "ElEllaUsted": "protegería",
+      "Nosotros": "protegeríamos",
+      "Vosotros": "protegeríais",
+      "EllosEllasUstedes": "protegerían"
+    },
+    "Future": {
+      "Yo": "protegeré",
+      "Tu": "protegerás",
+      "ElEllaUsted": "protegerá",
+      "Nosotros": "protegeremos",
+      "Vosotros": "protegeréis",
+      "EllosEllasUstedes": "protegerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "proteja",
+      "Tu": "protejas",
+      "ElEllaUsted": "proteja",
+      "Nosotros": "protejamos",
+      "Vosotros": "protejáis",
+      "EllosEllasUstedes": "protejan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "protegiea",
+      "Tu": "protegieas",
+      "ElEllaUsted": "protegiea",
+      "Nosotros": "protegieamos",
+      "Vosotros": "protegieais",
+      "EllosEllasUstedes": "protegiean"
+    }
+  },
+  "Name": "proteger",
+  "EnglishMeaning": "to protect",
+  "PresentParticipleTranslation": "protecting",
+  "PastParticipleTranslation": "protected"
+}

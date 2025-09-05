@@ -1,1 +1,68 @@
-{"PresentParticiple":"durmiendo&translation=sleeping","PastParticiple":"dormido&translation=slept","Indicative":{"PresentTense":{"Yo":"duermo","Tu":"duermes","ElEllaUsted":"duerme","Nosotros":"dormimos","Vosotros":"dormís","EllosEllasUstedes":"duermen"},"Pretérito":{"Yo":"dormí","Tu":"dormiste","ElEllaUsted":"durmió","Nosotros":"dormimos","Vosotros":"dormisteis","EllosEllasUstedes":"durmieron"},"Imperfect":{"Yo":"dormía","Tu":"dormías","ElEllaUsted":"dormía","Nosotros":"dormíamos","Vosotros":"dormíais","EllosEllasUstedes":"dormían"},"Conditional":{"Yo":"dormiría","Tu":"dormirías","ElEllaUsted":"dormiría","Nosotros":"dormiríamos","Vosotros":"dormiríais","EllosEllasUstedes":"dormirían"},"Future":{"Yo":"dormiré","Tu":"dormirás","ElEllaUsted":"dormirá","Nosotros":"dormiremos","Vosotros":"dormiréis","EllosEllasUstedes":"dormirán"}},"Subjunctive":null,"Name":"dormir","EnglishMeaning":"to sleep"}
+{
+  "PresentParticiple": "durmiendo",
+  "PastParticiple": "dormido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "duermo",
+      "Tu": "duermes",
+      "ElEllaUsted": "duerme",
+      "Nosotros": "dormimos",
+      "Vosotros": "dormís",
+      "EllosEllasUstedes": "duermen"
+    },
+    "Pretérito": {
+      "Yo": "dormí",
+      "Tu": "dormiste",
+      "ElEllaUsted": "durmió",
+      "Nosotros": "dormimos",
+      "Vosotros": "dormisteis",
+      "EllosEllasUstedes": "durmieron"
+    },
+    "Imperfect": {
+      "Yo": "dormía",
+      "Tu": "dormías",
+      "ElEllaUsted": "dormía",
+      "Nosotros": "dormíamos",
+      "Vosotros": "dormíais",
+      "EllosEllasUstedes": "dormían"
+    },
+    "Conditional": {
+      "Yo": "dormiría",
+      "Tu": "dormirías",
+      "ElEllaUsted": "dormiría",
+      "Nosotros": "dormiríamos",
+      "Vosotros": "dormiríais",
+      "EllosEllasUstedes": "dormirían"
+    },
+    "Future": {
+      "Yo": "dormiré",
+      "Tu": "dormirás",
+      "ElEllaUsted": "dormirá",
+      "Nosotros": "dormiremos",
+      "Vosotros": "dormiréis",
+      "EllosEllasUstedes": "dormirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "duerma",
+      "Tu": "duermas",
+      "ElEllaUsted": "duerma",
+      "Nosotros": "duermamos",
+      "Vosotros": "duermáis",
+      "EllosEllasUstedes": "duerman"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "durmiea",
+      "Tu": "durmieas",
+      "ElEllaUsted": "durmiea",
+      "Nosotros": "durmieamos",
+      "Vosotros": "durmieais",
+      "EllosEllasUstedes": "durmiean"
+    }
+  },
+  "Name": "dormir",
+  "EnglishMeaning": "to sleep",
+  "PresentParticipleTranslation": "sleeping",
+  "PastParticipleTranslation": "slept"
+}

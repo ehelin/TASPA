@@ -1,1 +1,68 @@
-{"PresentParticiple":"temiendo&translation=fearing","PastParticiple":"temido&translation=feared","Indicative":{"PresentTense":{"Yo":"temo","Tu":"temes","ElEllaUsted":"teme","Nosotros":"tememos","Vosotros":"teméis","EllosEllasUstedes":"temen"},"Pretérito":{"Yo":"temí","Tu":"temiste","ElEllaUsted":"temió","Nosotros":"temimos","Vosotros":"temisteis","EllosEllasUstedes":"temieron"},"Imperfect":{"Yo":"temía","Tu":"temías","ElEllaUsted":"temía","Nosotros":"temíamos","Vosotros":"temíais","EllosEllasUstedes":"temían"},"Conditional":{"Yo":"temería","Tu":"temerías","ElEllaUsted":"temería","Nosotros":"temeríamos","Vosotros":"temeríais","EllosEllasUstedes":"temerían"},"Future":{"Yo":"temeré","Tu":"temerás","ElEllaUsted":"temerá","Nosotros":"temeremos","Vosotros":"temeréis","EllosEllasUstedes":"temerán"}},"Subjunctive":null,"Name":"temer","EnglishMeaning":"to fear"}
+{
+  "PresentParticiple": "temiendo",
+  "PastParticiple": "temido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "temo",
+      "Tu": "temes",
+      "ElEllaUsted": "teme",
+      "Nosotros": "tememos",
+      "Vosotros": "teméis",
+      "EllosEllasUstedes": "temen"
+    },
+    "Pretérito": {
+      "Yo": "temí",
+      "Tu": "temiste",
+      "ElEllaUsted": "temió",
+      "Nosotros": "temimos",
+      "Vosotros": "temisteis",
+      "EllosEllasUstedes": "temieron"
+    },
+    "Imperfect": {
+      "Yo": "temía",
+      "Tu": "temías",
+      "ElEllaUsted": "temía",
+      "Nosotros": "temíamos",
+      "Vosotros": "temíais",
+      "EllosEllasUstedes": "temían"
+    },
+    "Conditional": {
+      "Yo": "temería",
+      "Tu": "temerías",
+      "ElEllaUsted": "temería",
+      "Nosotros": "temeríamos",
+      "Vosotros": "temeríais",
+      "EllosEllasUstedes": "temerían"
+    },
+    "Future": {
+      "Yo": "temeré",
+      "Tu": "temerás",
+      "ElEllaUsted": "temerá",
+      "Nosotros": "temeremos",
+      "Vosotros": "temeréis",
+      "EllosEllasUstedes": "temerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "tema",
+      "Tu": "temas",
+      "ElEllaUsted": "tema",
+      "Nosotros": "temamos",
+      "Vosotros": "temáis",
+      "EllosEllasUstedes": "teman"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "temiea",
+      "Tu": "temieas",
+      "ElEllaUsted": "temiea",
+      "Nosotros": "temieamos",
+      "Vosotros": "temieais",
+      "EllosEllasUstedes": "temiean"
+    }
+  },
+  "Name": "temer",
+  "EnglishMeaning": "to fear",
+  "PresentParticipleTranslation": "fearing",
+  "PastParticipleTranslation": "feared"
+}

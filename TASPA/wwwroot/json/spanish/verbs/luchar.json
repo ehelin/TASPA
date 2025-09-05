@@ -1,1 +1,68 @@
-{"PresentParticiple":"luchando&translation=fighting","PastParticiple":"luchado&translation=fought","Indicative":{"PresentTense":{"Yo":"lucho","Tu":"luchas","ElEllaUsted":"lucha","Nosotros":"luchamos","Vosotros":"lucháis","EllosEllasUstedes":"luchan"},"Pretérito":{"Yo":"luché","Tu":"luchaste","ElEllaUsted":"luchó","Nosotros":"luchamos","Vosotros":"luchasteis","EllosEllasUstedes":"lucharon"},"Imperfect":{"Yo":"luchaba","Tu":"luchabas","ElEllaUsted":"luchaba","Nosotros":"luchábamos","Vosotros":"luchabais","EllosEllasUstedes":"luchaban"},"Conditional":{"Yo":"lucharía","Tu":"lucharías","ElEllaUsted":"lucharía","Nosotros":"lucharíamos","Vosotros":"lucharíais","EllosEllasUstedes":"lucharían"},"Future":{"Yo":"lucharé","Tu":"lucharás","ElEllaUsted":"luchará","Nosotros":"lucharemos","Vosotros":"lucharéis","EllosEllasUstedes":"lucharán"}},"Subjunctive":null,"Name":"luchar","EnglishMeaning":"to fight"}
+{
+  "PresentParticiple": "luchando",
+  "PastParticiple": "luchado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "lucho",
+      "Tu": "luchas",
+      "ElEllaUsted": "lucha",
+      "Nosotros": "luchamos",
+      "Vosotros": "lucháis",
+      "EllosEllasUstedes": "luchan"
+    },
+    "Pretérito": {
+      "Yo": "luché",
+      "Tu": "luchaste",
+      "ElEllaUsted": "luchó",
+      "Nosotros": "luchamos",
+      "Vosotros": "luchasteis",
+      "EllosEllasUstedes": "lucharon"
+    },
+    "Imperfect": {
+      "Yo": "luchaba",
+      "Tu": "luchabas",
+      "ElEllaUsted": "luchaba",
+      "Nosotros": "luchábamos",
+      "Vosotros": "luchabais",
+      "EllosEllasUstedes": "luchaban"
+    },
+    "Conditional": {
+      "Yo": "lucharía",
+      "Tu": "lucharías",
+      "ElEllaUsted": "lucharía",
+      "Nosotros": "lucharíamos",
+      "Vosotros": "lucharíais",
+      "EllosEllasUstedes": "lucharían"
+    },
+    "Future": {
+      "Yo": "lucharé",
+      "Tu": "lucharás",
+      "ElEllaUsted": "luchará",
+      "Nosotros": "lucharemos",
+      "Vosotros": "lucharéis",
+      "EllosEllasUstedes": "lucharán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "luche",
+      "Tu": "luches",
+      "ElEllaUsted": "luche",
+      "Nosotros": "luchemos",
+      "Vosotros": "luchéis",
+      "EllosEllasUstedes": "luchen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "luchara",
+      "Tu": "lucharas",
+      "ElEllaUsted": "luchara",
+      "Nosotros": "lucharamos",
+      "Vosotros": "lucharais",
+      "EllosEllasUstedes": "lucharan"
+    }
+  },
+  "Name": "luchar",
+  "EnglishMeaning": "to fight",
+  "PresentParticipleTranslation": "fighting",
+  "PastParticipleTranslation": "fought"
+}

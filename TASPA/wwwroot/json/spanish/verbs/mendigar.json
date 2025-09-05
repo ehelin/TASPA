@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "mendigando",
-    "PastParticiple": "mendigado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "mendigo",
-            "Tu": "mendigas",
-            "ElEllaUsted": "mendiga",
-            "Nosotros": "mendigamos",
-            "Vosotros": "mendigáis",
-            "EllosEllasUstedes": "mendigan"
-        },
-        "Pretérito": {
-            "Yo": "mendigé",
-            "Tu": "mendigaste",
-            "ElEllaUsted": "mendigó",
-            "Nosotros": "mendigamos",
-            "Vosotros": "mendigasteis",
-            "EllosEllasUstedes": "mendigaron"
-        },
-        "Imperfect": {
-            "Yo": "mendigaba",
-            "Tu": "mendigabas",
-            "ElEllaUsted": "mendigaba",
-            "Nosotros": "mendigábamos",
-            "Vosotros": "mendigabais",
-            "EllosEllasUstedes": "mendigaban"
-        },
-        "Conditional": {
-            "Yo": "mendigaría",
-            "Tu": "mendigarías",
-            "ElEllaUsted": "mendigaría",
-            "Nosotros": "mendigaríamos",
-            "Vosotros": "mendigaríais",
-            "EllosEllasUstedes": "mendigarían"
-        },
-        "Future": {
-            "Yo": "mendigaré",
-            "Tu": "mendigarás",
-            "ElEllaUsted": "mendigará",
-            "Nosotros": "mendigaremos",
-            "Vosotros": "mendigaréis",
-            "EllosEllasUstedes": "mendigarán"
-        }
+  "PresentParticiple": "mendigando",
+  "PastParticiple": "mendigado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "mendigo",
+      "Tu": "mendigas",
+      "ElEllaUsted": "mendiga",
+      "Nosotros": "mendigamos",
+      "Vosotros": "mendigáis",
+      "EllosEllasUstedes": "mendigan"
     },
-    "Subjunctive": null,
-    "Name": "mendigar",
-    "EnglishMeaning": "to beg"
+    "Pretérito": {
+      "Yo": "mendigé",
+      "Tu": "mendigaste",
+      "ElEllaUsted": "mendigó",
+      "Nosotros": "mendigamos",
+      "Vosotros": "mendigasteis",
+      "EllosEllasUstedes": "mendigaron"
+    },
+    "Imperfect": {
+      "Yo": "mendigaba",
+      "Tu": "mendigabas",
+      "ElEllaUsted": "mendigaba",
+      "Nosotros": "mendigábamos",
+      "Vosotros": "mendigabais",
+      "EllosEllasUstedes": "mendigaban"
+    },
+    "Conditional": {
+      "Yo": "mendigaría",
+      "Tu": "mendigarías",
+      "ElEllaUsted": "mendigaría",
+      "Nosotros": "mendigaríamos",
+      "Vosotros": "mendigaríais",
+      "EllosEllasUstedes": "mendigarían"
+    },
+    "Future": {
+      "Yo": "mendigaré",
+      "Tu": "mendigarás",
+      "ElEllaUsted": "mendigará",
+      "Nosotros": "mendigaremos",
+      "Vosotros": "mendigaréis",
+      "EllosEllasUstedes": "mendigarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "mendige",
+      "Tu": "mendiges",
+      "ElEllaUsted": "mendige",
+      "Nosotros": "mendigemos",
+      "Vosotros": "mendigéis",
+      "EllosEllasUstedes": "mendigen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "mendigara",
+      "Tu": "mendigaras",
+      "ElEllaUsted": "mendigara",
+      "Nosotros": "mendigaramos",
+      "Vosotros": "mendigarais",
+      "EllosEllasUstedes": "mendigaran"
+    }
+  },
+  "Name": "mendigar",
+  "EnglishMeaning": "to beg"
 }

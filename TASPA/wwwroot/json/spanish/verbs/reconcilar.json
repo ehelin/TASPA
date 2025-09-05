@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "reconciliarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "reconcilie",
+      "Tu": "reconcilies",
+      "ElEllaUsted": "reconcilie",
+      "Nosotros": "reconciliemos",
+      "Vosotros": "reconciliéis",
+      "EllosEllasUstedes": "reconcilien"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "reconciliara",
+      "Tu": "reconciliaras",
+      "ElEllaUsted": "reconciliara",
+      "Nosotros": "reconciliaramos",
+      "Vosotros": "reconciliarais",
+      "EllosEllasUstedes": "reconciliaran"
+    }
+  },
   "Name": "reconcilar",
   "EnglishMeaning": "to reconcile"
 }

@@ -1,1 +1,68 @@
-{"PresentParticiple":"invirtiendo&translation=investing","PastParticiple":"invertido&translation=invested","Indicative":{"PresentTense":{"Yo":"invierto","Tu":"inviertes","ElEllaUsted":"invierte","Nosotros":"invertimos","Vosotros":"invertís","EllosEllasUstedes":"invierten"},"Pretérito":{"Yo":"invertí","Tu":"invertiste","ElEllaUsted":"invirtió","Nosotros":"invertimos","Vosotros":"invertisteis","EllosEllasUstedes":"invirtieron"},"Imperfect":{"Yo":"invertía","Tu":"invertías","ElEllaUsted":"invertía","Nosotros":"invertíamos","Vosotros":"invertíais","EllosEllasUstedes":"invertían"},"Conditional":{"Yo":"invertiría","Tu":"invertirías","ElEllaUsted":"invertiría","Nosotros":"invertiríamos","Vosotros":"invertiríais","EllosEllasUstedes":"invertirían"},"Future":{"Yo":"invertiré","Tu":"invertirás","ElEllaUsted":"invertirá","Nosotros":"invertiremos","Vosotros":"invertiréis","EllosEllasUstedes":"invertirán"}},"Subjunctive":null,"Name":"invertir","EnglishMeaning":"to invest"}
+{
+  "PresentParticiple": "invirtiendo",
+  "PastParticiple": "invertido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "invierto",
+      "Tu": "inviertes",
+      "ElEllaUsted": "invierte",
+      "Nosotros": "invertimos",
+      "Vosotros": "invertís",
+      "EllosEllasUstedes": "invierten"
+    },
+    "Pretérito": {
+      "Yo": "invertí",
+      "Tu": "invertiste",
+      "ElEllaUsted": "invirtió",
+      "Nosotros": "invertimos",
+      "Vosotros": "invertisteis",
+      "EllosEllasUstedes": "invirtieron"
+    },
+    "Imperfect": {
+      "Yo": "invertía",
+      "Tu": "invertías",
+      "ElEllaUsted": "invertía",
+      "Nosotros": "invertíamos",
+      "Vosotros": "invertíais",
+      "EllosEllasUstedes": "invertían"
+    },
+    "Conditional": {
+      "Yo": "invertiría",
+      "Tu": "invertirías",
+      "ElEllaUsted": "invertiría",
+      "Nosotros": "invertiríamos",
+      "Vosotros": "invertiríais",
+      "EllosEllasUstedes": "invertirían"
+    },
+    "Future": {
+      "Yo": "invertiré",
+      "Tu": "invertirás",
+      "ElEllaUsted": "invertirá",
+      "Nosotros": "invertiremos",
+      "Vosotros": "invertiréis",
+      "EllosEllasUstedes": "invertirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "invierta",
+      "Tu": "inviertas",
+      "ElEllaUsted": "invierta",
+      "Nosotros": "inviertamos",
+      "Vosotros": "inviertáis",
+      "EllosEllasUstedes": "inviertan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "invirtiea",
+      "Tu": "invirtieas",
+      "ElEllaUsted": "invirtiea",
+      "Nosotros": "invirtieamos",
+      "Vosotros": "invirtieais",
+      "EllosEllasUstedes": "invirtiean"
+    }
+  },
+  "Name": "invertir",
+  "EnglishMeaning": "to invest",
+  "PresentParticipleTranslation": "investing",
+  "PastParticipleTranslation": "invested"
+}

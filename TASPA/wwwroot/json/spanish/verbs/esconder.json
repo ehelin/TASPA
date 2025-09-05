@@ -1,1 +1,66 @@
-{"PresentParticiple":"escondiendo","PastParticiple":"escondido","Indicative":{"PresentTense":{"Yo":"escondo","Tu":"escondes","ElEllaUsted":"esconde","Nosotros":"escondemos","Vosotros":"escondéis","EllosEllasUstedes":"esconden"},"Pretérito":{"Yo":"escondí","Tu":"escondiste","ElEllaUsted":"escondió","Nosotros":"escondimos","Vosotros":"escondisteis","EllosEllasUstedes":"escondieron"},"Imperfect":{"Yo":"escondía","Tu":"escondías","ElEllaUsted":"escondía","Nosotros":"escondíamos","Vosotros":"escondíais","EllosEllasUstedes":"escondían"},"Conditional":{"Yo":"escondería","Tu":"esconderías","ElEllaUsted":"escondería","Nosotros":"esconderíamos","Vosotros":"esconderíais","EllosEllasUstedes":"esconderían"},"Future":{"Yo":"esconderé","Tu":"esconderás","ElEllaUsted":"esconderá","Nosotros":"esconderemos","Vosotros":"esconderéis","EllosEllasUstedes":"esconderán"}},"Subjunctive":null,"Name":"esconder","EnglishMeaning":"to hide"}
+{
+  "PresentParticiple": "escondiendo",
+  "PastParticiple": "escondido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "escondo",
+      "Tu": "escondes",
+      "ElEllaUsted": "esconde",
+      "Nosotros": "escondemos",
+      "Vosotros": "escondéis",
+      "EllosEllasUstedes": "esconden"
+    },
+    "Pretérito": {
+      "Yo": "escondí",
+      "Tu": "escondiste",
+      "ElEllaUsted": "escondió",
+      "Nosotros": "escondimos",
+      "Vosotros": "escondisteis",
+      "EllosEllasUstedes": "escondieron"
+    },
+    "Imperfect": {
+      "Yo": "escondía",
+      "Tu": "escondías",
+      "ElEllaUsted": "escondía",
+      "Nosotros": "escondíamos",
+      "Vosotros": "escondíais",
+      "EllosEllasUstedes": "escondían"
+    },
+    "Conditional": {
+      "Yo": "escondería",
+      "Tu": "esconderías",
+      "ElEllaUsted": "escondería",
+      "Nosotros": "esconderíamos",
+      "Vosotros": "esconderíais",
+      "EllosEllasUstedes": "esconderían"
+    },
+    "Future": {
+      "Yo": "esconderé",
+      "Tu": "esconderás",
+      "ElEllaUsted": "esconderá",
+      "Nosotros": "esconderemos",
+      "Vosotros": "esconderéis",
+      "EllosEllasUstedes": "esconderán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "esconda",
+      "Tu": "escondas",
+      "ElEllaUsted": "esconda",
+      "Nosotros": "escondamos",
+      "Vosotros": "escondáis",
+      "EllosEllasUstedes": "escondan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "escondiea",
+      "Tu": "escondieas",
+      "ElEllaUsted": "escondiea",
+      "Nosotros": "escondieamos",
+      "Vosotros": "escondieais",
+      "EllosEllasUstedes": "escondiean"
+    }
+  },
+  "Name": "esconder",
+  "EnglishMeaning": "to hide"
+}

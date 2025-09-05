@@ -1,1 +1,68 @@
-{"PresentParticiple":"siguiendo&translation=following","PastParticiple":"seguido&translation=followed","Indicative":{"PresentTense":{"Yo":"sigo","Tu":"sigues","ElEllaUsted":"sigue","Nosotros":"seguimos","Vosotros":"seguís","EllosEllasUstedes":"siguen"},"Pretérito":{"Yo":"seguí","Tu":"seguiste","ElEllaUsted":"siguió","Nosotros":"seguimos","Vosotros":"seguisteis","EllosEllasUstedes":"siguieron"},"Imperfect":{"Yo":"seguía","Tu":"seguías","ElEllaUsted":"seguía","Nosotros":"seguíamos","Vosotros":"seguíais","EllosEllasUstedes":"seguían"},"Conditional":{"Yo":"seguiría","Tu":"seguirías","ElEllaUsted":"seguiría","Nosotros":"seguiríamos","Vosotros":"seguiríais","EllosEllasUstedes":"seguirían"},"Future":{"Yo":"seguiré","Tu":"seguirás","ElEllaUsted":"seguirá","Nosotros":"seguiremos","Vosotros":"seguiréis","EllosEllasUstedes":"seguirán"}},"Subjunctive":null,"Name":"seguir","EnglishMeaning":"to follow"}
+{
+  "PresentParticiple": "siguiendo",
+  "PastParticiple": "seguido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "sigo",
+      "Tu": "sigues",
+      "ElEllaUsted": "sigue",
+      "Nosotros": "seguimos",
+      "Vosotros": "seguís",
+      "EllosEllasUstedes": "siguen"
+    },
+    "Pretérito": {
+      "Yo": "seguí",
+      "Tu": "seguiste",
+      "ElEllaUsted": "siguió",
+      "Nosotros": "seguimos",
+      "Vosotros": "seguisteis",
+      "EllosEllasUstedes": "siguieron"
+    },
+    "Imperfect": {
+      "Yo": "seguía",
+      "Tu": "seguías",
+      "ElEllaUsted": "seguía",
+      "Nosotros": "seguíamos",
+      "Vosotros": "seguíais",
+      "EllosEllasUstedes": "seguían"
+    },
+    "Conditional": {
+      "Yo": "seguiría",
+      "Tu": "seguirías",
+      "ElEllaUsted": "seguiría",
+      "Nosotros": "seguiríamos",
+      "Vosotros": "seguiríais",
+      "EllosEllasUstedes": "seguirían"
+    },
+    "Future": {
+      "Yo": "seguiré",
+      "Tu": "seguirás",
+      "ElEllaUsted": "seguirá",
+      "Nosotros": "seguiremos",
+      "Vosotros": "seguiréis",
+      "EllosEllasUstedes": "seguirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "siga",
+      "Tu": "sigas",
+      "ElEllaUsted": "siga",
+      "Nosotros": "sigamos",
+      "Vosotros": "sigáis",
+      "EllosEllasUstedes": "sigan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "siguiea",
+      "Tu": "siguieas",
+      "ElEllaUsted": "siguiea",
+      "Nosotros": "siguieamos",
+      "Vosotros": "siguieais",
+      "EllosEllasUstedes": "siguiean"
+    }
+  },
+  "Name": "seguir",
+  "EnglishMeaning": "to follow",
+  "PresentParticipleTranslation": "following",
+  "PastParticipleTranslation": "followed"
+}

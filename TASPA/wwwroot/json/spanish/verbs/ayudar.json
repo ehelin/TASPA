@@ -1,1 +1,68 @@
-{"PresentParticiple":"ayudando&translation=helping","PastParticiple":"ayudado&translation=helped","Indicative":{"PresentTense":{"Yo":"ayudo","Tu":"ayudas","ElEllaUsted":"ayuda","Nosotros":"ayudamos","Vosotros":"ayudáis","EllosEllasUstedes":"ayudan"},"Pretérito":{"Yo":"ayudé","Tu":"ayudaste","ElEllaUsted":"ayudó","Nosotros":"ayudamos","Vosotros":"ayudasteis","EllosEllasUstedes":"ayudaron"},"Imperfect":{"Yo":"ayudaba","Tu":"ayudabas","ElEllaUsted":"ayudaba","Nosotros":"ayudábamos","Vosotros":"ayudabais","EllosEllasUstedes":"ayudaban"},"Conditional":{"Yo":"ayudaría","Tu":"ayudarías","ElEllaUsted":"ayudaría","Nosotros":"ayudaríamos","Vosotros":"ayudaríais","EllosEllasUstedes":"ayudarían"},"Future":{"Yo":"ayudaré","Tu":"ayudarás","ElEllaUsted":"ayudará","Nosotros":"ayudaremos","Vosotros":"ayudaréis","EllosEllasUstedes":"ayudarán"}},"Subjunctive":null,"Name":"ayudar","EnglishMeaning":"to help"}
+{
+  "PresentParticiple": "ayudando",
+  "PastParticiple": "ayudado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "ayudo",
+      "Tu": "ayudas",
+      "ElEllaUsted": "ayuda",
+      "Nosotros": "ayudamos",
+      "Vosotros": "ayudáis",
+      "EllosEllasUstedes": "ayudan"
+    },
+    "Pretérito": {
+      "Yo": "ayudé",
+      "Tu": "ayudaste",
+      "ElEllaUsted": "ayudó",
+      "Nosotros": "ayudamos",
+      "Vosotros": "ayudasteis",
+      "EllosEllasUstedes": "ayudaron"
+    },
+    "Imperfect": {
+      "Yo": "ayudaba",
+      "Tu": "ayudabas",
+      "ElEllaUsted": "ayudaba",
+      "Nosotros": "ayudábamos",
+      "Vosotros": "ayudabais",
+      "EllosEllasUstedes": "ayudaban"
+    },
+    "Conditional": {
+      "Yo": "ayudaría",
+      "Tu": "ayudarías",
+      "ElEllaUsted": "ayudaría",
+      "Nosotros": "ayudaríamos",
+      "Vosotros": "ayudaríais",
+      "EllosEllasUstedes": "ayudarían"
+    },
+    "Future": {
+      "Yo": "ayudaré",
+      "Tu": "ayudarás",
+      "ElEllaUsted": "ayudará",
+      "Nosotros": "ayudaremos",
+      "Vosotros": "ayudaréis",
+      "EllosEllasUstedes": "ayudarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "ayude",
+      "Tu": "ayudes",
+      "ElEllaUsted": "ayude",
+      "Nosotros": "ayudemos",
+      "Vosotros": "ayudéis",
+      "EllosEllasUstedes": "ayuden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "ayudara",
+      "Tu": "ayudaras",
+      "ElEllaUsted": "ayudara",
+      "Nosotros": "ayudaramos",
+      "Vosotros": "ayudarais",
+      "EllosEllasUstedes": "ayudaran"
+    }
+  },
+  "Name": "ayudar",
+  "EnglishMeaning": "to help",
+  "PresentParticipleTranslation": "helping",
+  "PastParticipleTranslation": "helped"
+}

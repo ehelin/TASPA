@@ -1,1 +1,68 @@
-{"PresentParticiple":"aconsejando&translation=advising","PastParticiple":"aconsejado&translation=advised","Indicative":{"PresentTense":{"Yo":"aconsejo","Tu":"aconsejas","ElEllaUsted":"aconseja","Nosotros":"aconsejamos","Vosotros":"aconsejáis","EllosEllasUstedes":"aconsejan"},"Pretérito":{"Yo":"aconsejé","Tu":"aconsejaste","ElEllaUsted":"aconsejó","Nosotros":"aconsejamos","Vosotros":"aconsejasteis","EllosEllasUstedes":"aconsejaron"},"Imperfect":{"Yo":"aconsejaba","Tu":"aconsejabas","ElEllaUsted":"aconsejaba","Nosotros":"aconsejábamos","Vosotros":"aconsejabais","EllosEllasUstedes":"aconsejaban"},"Conditional":{"Yo":"aconsejaría","Tu":"aconsejarías","ElEllaUsted":"aconsejaría","Nosotros":"aconsejaríamos","Vosotros":"aconsejaríais","EllosEllasUstedes":"aconsejarían"},"Future":{"Yo":"aconsejaré","Tu":"aconsejarás","ElEllaUsted":"aconsejará","Nosotros":"aconsejaremos","Vosotros":"aconsejaréis","EllosEllasUstedes":"aconsejarán"}},"Subjunctive":null,"Name":"aconsejar","EnglishMeaning":"to advise"}
+{
+  "PresentParticiple": "aconsejando",
+  "PastParticiple": "aconsejado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aconsejo",
+      "Tu": "aconsejas",
+      "ElEllaUsted": "aconseja",
+      "Nosotros": "aconsejamos",
+      "Vosotros": "aconsejáis",
+      "EllosEllasUstedes": "aconsejan"
+    },
+    "Pretérito": {
+      "Yo": "aconsejé",
+      "Tu": "aconsejaste",
+      "ElEllaUsted": "aconsejó",
+      "Nosotros": "aconsejamos",
+      "Vosotros": "aconsejasteis",
+      "EllosEllasUstedes": "aconsejaron"
+    },
+    "Imperfect": {
+      "Yo": "aconsejaba",
+      "Tu": "aconsejabas",
+      "ElEllaUsted": "aconsejaba",
+      "Nosotros": "aconsejábamos",
+      "Vosotros": "aconsejabais",
+      "EllosEllasUstedes": "aconsejaban"
+    },
+    "Conditional": {
+      "Yo": "aconsejaría",
+      "Tu": "aconsejarías",
+      "ElEllaUsted": "aconsejaría",
+      "Nosotros": "aconsejaríamos",
+      "Vosotros": "aconsejaríais",
+      "EllosEllasUstedes": "aconsejarían"
+    },
+    "Future": {
+      "Yo": "aconsejaré",
+      "Tu": "aconsejarás",
+      "ElEllaUsted": "aconsejará",
+      "Nosotros": "aconsejaremos",
+      "Vosotros": "aconsejaréis",
+      "EllosEllasUstedes": "aconsejarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aconseje",
+      "Tu": "aconsejes",
+      "ElEllaUsted": "aconseje",
+      "Nosotros": "aconsejemos",
+      "Vosotros": "aconsejéis",
+      "EllosEllasUstedes": "aconsejen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aconsejara",
+      "Tu": "aconsejaras",
+      "ElEllaUsted": "aconsejara",
+      "Nosotros": "aconsejaramos",
+      "Vosotros": "aconsejarais",
+      "EllosEllasUstedes": "aconsejaran"
+    }
+  },
+  "Name": "aconsejar",
+  "EnglishMeaning": "to advise",
+  "PresentParticipleTranslation": "advising",
+  "PastParticipleTranslation": "advised"
+}

@@ -1,1 +1,68 @@
-{"PresentParticiple":"brillando&translation=shining","PastParticiple":"brillado&translation=shone","Indicative":{"PresentTense":{"Yo":"brillo","Tu":"brillas","ElEllaUsted":"brilla","Nosotros":"brillamos","Vosotros":"brilláis","EllosEllasUstedes":"brillan"},"Pretérito":{"Yo":"brillé","Tu":"brillaste","ElEllaUsted":"brilló","Nosotros":"brillamos","Vosotros":"brillasteis","EllosEllasUstedes":"brillaron"},"Imperfect":{"Yo":"brillaba","Tu":"brillabas","ElEllaUsted":"brillaba","Nosotros":"brillábamos","Vosotros":"brillabais","EllosEllasUstedes":"brillaban"},"Conditional":{"Yo":"brillaría","Tu":"brillarías","ElEllaUsted":"brillaría","Nosotros":"brillaríamos","Vosotros":"brillaríais","EllosEllasUstedes":"brillarían"},"Future":{"Yo":"brillaré","Tu":"brillarás","ElEllaUsted":"brillará","Nosotros":"brillaremos","Vosotros":"brillaréis","EllosEllasUstedes":"brillarán"}},"Subjunctive":null,"Name":"brillar","EnglishMeaning":"to shine"}
+{
+  "PresentParticiple": "brillando",
+  "PastParticiple": "brillado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "brillo",
+      "Tu": "brillas",
+      "ElEllaUsted": "brilla",
+      "Nosotros": "brillamos",
+      "Vosotros": "brilláis",
+      "EllosEllasUstedes": "brillan"
+    },
+    "Pretérito": {
+      "Yo": "brillé",
+      "Tu": "brillaste",
+      "ElEllaUsted": "brilló",
+      "Nosotros": "brillamos",
+      "Vosotros": "brillasteis",
+      "EllosEllasUstedes": "brillaron"
+    },
+    "Imperfect": {
+      "Yo": "brillaba",
+      "Tu": "brillabas",
+      "ElEllaUsted": "brillaba",
+      "Nosotros": "brillábamos",
+      "Vosotros": "brillabais",
+      "EllosEllasUstedes": "brillaban"
+    },
+    "Conditional": {
+      "Yo": "brillaría",
+      "Tu": "brillarías",
+      "ElEllaUsted": "brillaría",
+      "Nosotros": "brillaríamos",
+      "Vosotros": "brillaríais",
+      "EllosEllasUstedes": "brillarían"
+    },
+    "Future": {
+      "Yo": "brillaré",
+      "Tu": "brillarás",
+      "ElEllaUsted": "brillará",
+      "Nosotros": "brillaremos",
+      "Vosotros": "brillaréis",
+      "EllosEllasUstedes": "brillarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "brille",
+      "Tu": "brilles",
+      "ElEllaUsted": "brille",
+      "Nosotros": "brillemos",
+      "Vosotros": "brilléis",
+      "EllosEllasUstedes": "brillen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "brillara",
+      "Tu": "brillaras",
+      "ElEllaUsted": "brillara",
+      "Nosotros": "brillaramos",
+      "Vosotros": "brillarais",
+      "EllosEllasUstedes": "brillaran"
+    }
+  },
+  "Name": "brillar",
+  "EnglishMeaning": "to shine",
+  "PresentParticipleTranslation": "shining",
+  "PastParticipleTranslation": "shone"
+}

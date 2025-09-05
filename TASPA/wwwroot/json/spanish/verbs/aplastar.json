@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "aplastando",
-    "PastParticiple": "aplastado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "aplasto",
-            "Tu": "aplastas",
-            "ElEllaUsted": "aplasta",
-            "Nosotros": "aplastamos",
-            "Vosotros": "aplastáis",
-            "EllosEllasUstedes": "aplastan"
-        },
-        "Pretérito": {
-            "Yo": "aplasté",
-            "Tu": "aplastaste",
-            "ElEllaUsted": "aplastó",
-            "Nosotros": "aplastamos",
-            "Vosotros": "aplastasteis",
-            "EllosEllasUstedes": "aplastaron"
-        },
-        "Imperfect": {
-            "Yo": "aplastaba",
-            "Tu": "aplastabas",
-            "ElEllaUsted": "aplastaba",
-            "Nosotros": "aplastábamos",
-            "Vosotros": "aplastabais",
-            "EllosEllasUstedes": "aplastaban"
-        },
-        "Conditional": {
-            "Yo": "aplastaría",
-            "Tu": "aplastarías",
-            "ElEllaUsted": "aplastaría",
-            "Nosotros": "aplastaríamos",
-            "Vosotros": "aplastaríais",
-            "EllosEllasUstedes": "aplastarían"
-        },
-        "Future": {
-            "Yo": "aplastaré",
-            "Tu": "aplastarás",
-            "ElEllaUsted": "aplastará",
-            "Nosotros": "aplastaremos",
-            "Vosotros": "aplastaréis",
-            "EllosEllasUstedes": "aplastarán"
-        }
+  "PresentParticiple": "aplastando",
+  "PastParticiple": "aplastado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aplasto",
+      "Tu": "aplastas",
+      "ElEllaUsted": "aplasta",
+      "Nosotros": "aplastamos",
+      "Vosotros": "aplastáis",
+      "EllosEllasUstedes": "aplastan"
     },
-    "Subjunctive": null,
-    "Name": "aplastar",
-    "EnglishMeaning": "to crush"
+    "Pretérito": {
+      "Yo": "aplasté",
+      "Tu": "aplastaste",
+      "ElEllaUsted": "aplastó",
+      "Nosotros": "aplastamos",
+      "Vosotros": "aplastasteis",
+      "EllosEllasUstedes": "aplastaron"
+    },
+    "Imperfect": {
+      "Yo": "aplastaba",
+      "Tu": "aplastabas",
+      "ElEllaUsted": "aplastaba",
+      "Nosotros": "aplastábamos",
+      "Vosotros": "aplastabais",
+      "EllosEllasUstedes": "aplastaban"
+    },
+    "Conditional": {
+      "Yo": "aplastaría",
+      "Tu": "aplastarías",
+      "ElEllaUsted": "aplastaría",
+      "Nosotros": "aplastaríamos",
+      "Vosotros": "aplastaríais",
+      "EllosEllasUstedes": "aplastarían"
+    },
+    "Future": {
+      "Yo": "aplastaré",
+      "Tu": "aplastarás",
+      "ElEllaUsted": "aplastará",
+      "Nosotros": "aplastaremos",
+      "Vosotros": "aplastaréis",
+      "EllosEllasUstedes": "aplastarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aplaste",
+      "Tu": "aplastes",
+      "ElEllaUsted": "aplaste",
+      "Nosotros": "aplastemos",
+      "Vosotros": "aplastéis",
+      "EllosEllasUstedes": "aplasten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "aplastara",
+      "Tu": "aplastaras",
+      "ElEllaUsted": "aplastara",
+      "Nosotros": "aplastaramos",
+      "Vosotros": "aplastarais",
+      "EllosEllasUstedes": "aplastaran"
+    }
+  },
+  "Name": "aplastar",
+  "EnglishMeaning": "to crush"
 }

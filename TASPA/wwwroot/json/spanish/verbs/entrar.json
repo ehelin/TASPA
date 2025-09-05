@@ -1,1 +1,68 @@
-{"PresentParticiple":"entrando&translation=entering","PastParticiple":"entrado&translation=entered","Indicative":{"PresentTense":{"Yo":"entro","Tu":"entras","ElEllaUsted":"entra","Nosotros":"entramos","Vosotros":"entráis","EllosEllasUstedes":"entran"},"Pretérito":{"Yo":"entré","Tu":"entraste","ElEllaUsted":"entró","Nosotros":"entramos","Vosotros":"entrasteis","EllosEllasUstedes":"entraron"},"Imperfect":{"Yo":"entraba","Tu":"entrabas","ElEllaUsted":"entraba","Nosotros":"entrábamos","Vosotros":"entrabais","EllosEllasUstedes":"entraban"},"Conditional":{"Yo":"entraría","Tu":"entrarías","ElEllaUsted":"entraría","Nosotros":"entraríamos","Vosotros":"entraríais","EllosEllasUstedes":"entrarían"},"Future":{"Yo":"entraré","Tu":"entrarás","ElEllaUsted":"entrará","Nosotros":"entraremos","Vosotros":"entraréis","EllosEllasUstedes":"entrarán"}},"Subjunctive":null,"Name":"entrar","EnglishMeaning":"to enter"}
+{
+  "PresentParticiple": "entrando",
+  "PastParticiple": "entrado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "entro",
+      "Tu": "entras",
+      "ElEllaUsted": "entra",
+      "Nosotros": "entramos",
+      "Vosotros": "entráis",
+      "EllosEllasUstedes": "entran"
+    },
+    "Pretérito": {
+      "Yo": "entré",
+      "Tu": "entraste",
+      "ElEllaUsted": "entró",
+      "Nosotros": "entramos",
+      "Vosotros": "entrasteis",
+      "EllosEllasUstedes": "entraron"
+    },
+    "Imperfect": {
+      "Yo": "entraba",
+      "Tu": "entrabas",
+      "ElEllaUsted": "entraba",
+      "Nosotros": "entrábamos",
+      "Vosotros": "entrabais",
+      "EllosEllasUstedes": "entraban"
+    },
+    "Conditional": {
+      "Yo": "entraría",
+      "Tu": "entrarías",
+      "ElEllaUsted": "entraría",
+      "Nosotros": "entraríamos",
+      "Vosotros": "entraríais",
+      "EllosEllasUstedes": "entrarían"
+    },
+    "Future": {
+      "Yo": "entraré",
+      "Tu": "entrarás",
+      "ElEllaUsted": "entrará",
+      "Nosotros": "entraremos",
+      "Vosotros": "entraréis",
+      "EllosEllasUstedes": "entrarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "entre",
+      "Tu": "entres",
+      "ElEllaUsted": "entre",
+      "Nosotros": "entremos",
+      "Vosotros": "entréis",
+      "EllosEllasUstedes": "entren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "entrara",
+      "Tu": "entraras",
+      "ElEllaUsted": "entrara",
+      "Nosotros": "entraramos",
+      "Vosotros": "entrarais",
+      "EllosEllasUstedes": "entraran"
+    }
+  },
+  "Name": "entrar",
+  "EnglishMeaning": "to enter",
+  "PresentParticipleTranslation": "entering",
+  "PastParticipleTranslation": "entered"
+}

@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "durando",
-    "PastParticiple": "durado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "duro",
-            "Tu": "duras",
-            "ElEllaUsted": "dura",
-            "Nosotros": "duramos",
-            "Vosotros": "duráis",
-            "EllosEllasUstedes": "duran"
-        },
-        "Pretérito": {
-            "Yo": "duré",
-            "Tu": "duraste",
-            "ElEllaUsted": "duró",
-            "Nosotros": "duramos",
-            "Vosotros": "durasteis",
-            "EllosEllasUstedes": "duraron"
-        },
-        "Imperfect": {
-            "Yo": "duraba",
-            "Tu": "durabas",
-            "ElEllaUsted": "duraba",
-            "Nosotros": "durábamos",
-            "Vosotros": "durabais",
-            "EllosEllasUstedes": "duraban"
-        },
-        "Conditional": {
-            "Yo": "duraría",
-            "Tu": "durarías",
-            "ElEllaUsted": "duraría",
-            "Nosotros": "duraríamos",
-            "Vosotros": "duraríais",
-            "EllosEllasUstedes": "durarían"
-        },
-        "Future": {
-            "Yo": "duraré",
-            "Tu": "durarás",
-            "ElEllaUsted": "durará",
-            "Nosotros": "duraremos",
-            "Vosotros": "duraréis",
-            "EllosEllasUstedes": "durarán"
-        }
+  "PresentParticiple": "durando",
+  "PastParticiple": "durado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "duro",
+      "Tu": "duras",
+      "ElEllaUsted": "dura",
+      "Nosotros": "duramos",
+      "Vosotros": "duráis",
+      "EllosEllasUstedes": "duran"
     },
-    "Subjunctive": null,
-    "Name": "durar",
-    "EnglishMeaning": "to last"
+    "Pretérito": {
+      "Yo": "duré",
+      "Tu": "duraste",
+      "ElEllaUsted": "duró",
+      "Nosotros": "duramos",
+      "Vosotros": "durasteis",
+      "EllosEllasUstedes": "duraron"
+    },
+    "Imperfect": {
+      "Yo": "duraba",
+      "Tu": "durabas",
+      "ElEllaUsted": "duraba",
+      "Nosotros": "durábamos",
+      "Vosotros": "durabais",
+      "EllosEllasUstedes": "duraban"
+    },
+    "Conditional": {
+      "Yo": "duraría",
+      "Tu": "durarías",
+      "ElEllaUsted": "duraría",
+      "Nosotros": "duraríamos",
+      "Vosotros": "duraríais",
+      "EllosEllasUstedes": "durarían"
+    },
+    "Future": {
+      "Yo": "duraré",
+      "Tu": "durarás",
+      "ElEllaUsted": "durará",
+      "Nosotros": "duraremos",
+      "Vosotros": "duraréis",
+      "EllosEllasUstedes": "durarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "dure",
+      "Tu": "dures",
+      "ElEllaUsted": "dure",
+      "Nosotros": "duremos",
+      "Vosotros": "duréis",
+      "EllosEllasUstedes": "duren"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "durara",
+      "Tu": "duraras",
+      "ElEllaUsted": "durara",
+      "Nosotros": "duraramos",
+      "Vosotros": "durarais",
+      "EllosEllasUstedes": "duraran"
+    }
+  },
+  "Name": "durar",
+  "EnglishMeaning": "to last"
 }

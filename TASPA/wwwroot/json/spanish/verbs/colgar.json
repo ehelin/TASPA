@@ -1,1 +1,68 @@
-{"PresentParticiple":"colgando&translation=hanging","PastParticiple":"colgado&translation=hangedexecuted","Indicative":{"PresentTense":{"Yo":"cuelgo","Tu":"cuelgas","ElEllaUsted":"cuelga","Nosotros":"colgamos","Vosotros":"colgáis","EllosEllasUstedes":"cuelgan"},"Pretérito":{"Yo":"colgué","Tu":"colgaste","ElEllaUsted":"colgó","Nosotros":"colgamos","Vosotros":"colgasteis","EllosEllasUstedes":"colgaron"},"Imperfect":{"Yo":"colgaba","Tu":"colgabas","ElEllaUsted":"colgaba","Nosotros":"colgábamos","Vosotros":"colgabais","EllosEllasUstedes":"colgaban"},"Conditional":{"Yo":"colgaría","Tu":"colgarías","ElEllaUsted":"colgaría","Nosotros":"colgaríamos","Vosotros":"colgaríais","EllosEllasUstedes":"colgarían"},"Future":{"Yo":"colgaré","Tu":"colgarás","ElEllaUsted":"colgará","Nosotros":"colgaremos","Vosotros":"colgaréis","EllosEllasUstedes":"colgarán"}},"Subjunctive":null,"Name":"colgar","EnglishMeaning":"to hang"}
+{
+  "PresentParticiple": "colgando",
+  "PastParticiple": "colgado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "cuelgo",
+      "Tu": "cuelgas",
+      "ElEllaUsted": "cuelga",
+      "Nosotros": "colgamos",
+      "Vosotros": "colgáis",
+      "EllosEllasUstedes": "cuelgan"
+    },
+    "Pretérito": {
+      "Yo": "colgué",
+      "Tu": "colgaste",
+      "ElEllaUsted": "colgó",
+      "Nosotros": "colgamos",
+      "Vosotros": "colgasteis",
+      "EllosEllasUstedes": "colgaron"
+    },
+    "Imperfect": {
+      "Yo": "colgaba",
+      "Tu": "colgabas",
+      "ElEllaUsted": "colgaba",
+      "Nosotros": "colgábamos",
+      "Vosotros": "colgabais",
+      "EllosEllasUstedes": "colgaban"
+    },
+    "Conditional": {
+      "Yo": "colgaría",
+      "Tu": "colgarías",
+      "ElEllaUsted": "colgaría",
+      "Nosotros": "colgaríamos",
+      "Vosotros": "colgaríais",
+      "EllosEllasUstedes": "colgarían"
+    },
+    "Future": {
+      "Yo": "colgaré",
+      "Tu": "colgarás",
+      "ElEllaUsted": "colgará",
+      "Nosotros": "colgaremos",
+      "Vosotros": "colgaréis",
+      "EllosEllasUstedes": "colgarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "cuelge",
+      "Tu": "cuelges",
+      "ElEllaUsted": "cuelge",
+      "Nosotros": "cuelgemos",
+      "Vosotros": "cuelgéis",
+      "EllosEllasUstedes": "cuelgen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "colgara",
+      "Tu": "colgaras",
+      "ElEllaUsted": "colgara",
+      "Nosotros": "colgaramos",
+      "Vosotros": "colgarais",
+      "EllosEllasUstedes": "colgaran"
+    }
+  },
+  "Name": "colgar",
+  "EnglishMeaning": "to hang",
+  "PresentParticipleTranslation": "hanging",
+  "PastParticipleTranslation": "hangedexecuted"
+}

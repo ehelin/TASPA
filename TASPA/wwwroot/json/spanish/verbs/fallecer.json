@@ -1,1 +1,66 @@
-{"PresentParticiple":"falleciendo","PastParticiple":"fallecido","Indicative":{"PresentTense":{"Yo":"fallezco","Tu":"falleces","ElEllaUsted":"fallece","Nosotros":"fallecemos","Vosotros":"fallecéis","EllosEllasUstedes":"fallecen"},"Pretérito":{"Yo":"fallecí","Tu":"falleciste","ElEllaUsted":"falleció","Nosotros":"fallecimos","Vosotros":"fallecisteis","EllosEllasUstedes":"fallecieron"},"Imperfect":{"Yo":"fallecía","Tu":"fallecías","ElEllaUsted":"fallecía","Nosotros":"fallecíamos","Vosotros":"fallecíais","EllosEllasUstedes":"fallecían"},"Conditional":{"Yo":"fallecería","Tu":"fallecerías","ElEllaUsted":"fallecería","Nosotros":"falleceríamos","Vosotros":"falleceríais","EllosEllasUstedes":"fallecerían"},"Future":{"Yo":"falleceré","Tu":"fallecerás","ElEllaUsted":"fallecerá","Nosotros":"falleceremos","Vosotros":"falleceréis","EllosEllasUstedes":"fallecerán"}},"Subjunctive":null,"Name":"fallecer","EnglishMeaning":"to pass away"}
+{
+  "PresentParticiple": "falleciendo",
+  "PastParticiple": "fallecido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "fallezco",
+      "Tu": "falleces",
+      "ElEllaUsted": "fallece",
+      "Nosotros": "fallecemos",
+      "Vosotros": "fallecéis",
+      "EllosEllasUstedes": "fallecen"
+    },
+    "Pretérito": {
+      "Yo": "fallecí",
+      "Tu": "falleciste",
+      "ElEllaUsted": "falleció",
+      "Nosotros": "fallecimos",
+      "Vosotros": "fallecisteis",
+      "EllosEllasUstedes": "fallecieron"
+    },
+    "Imperfect": {
+      "Yo": "fallecía",
+      "Tu": "fallecías",
+      "ElEllaUsted": "fallecía",
+      "Nosotros": "fallecíamos",
+      "Vosotros": "fallecíais",
+      "EllosEllasUstedes": "fallecían"
+    },
+    "Conditional": {
+      "Yo": "fallecería",
+      "Tu": "fallecerías",
+      "ElEllaUsted": "fallecería",
+      "Nosotros": "falleceríamos",
+      "Vosotros": "falleceríais",
+      "EllosEllasUstedes": "fallecerían"
+    },
+    "Future": {
+      "Yo": "falleceré",
+      "Tu": "fallecerás",
+      "ElEllaUsted": "fallecerá",
+      "Nosotros": "falleceremos",
+      "Vosotros": "falleceréis",
+      "EllosEllasUstedes": "fallecerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "fallezca",
+      "Tu": "fallezcas",
+      "ElEllaUsted": "fallezca",
+      "Nosotros": "fallezcamos",
+      "Vosotros": "fallezcáis",
+      "EllosEllasUstedes": "fallezcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "falleciea",
+      "Tu": "fallecieas",
+      "ElEllaUsted": "falleciea",
+      "Nosotros": "fallecieamos",
+      "Vosotros": "fallecieais",
+      "EllosEllasUstedes": "falleciean"
+    }
+  },
+  "Name": "fallecer",
+  "EnglishMeaning": "to pass away"
+}

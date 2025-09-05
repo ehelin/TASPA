@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "acercarán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "acerce",
+      "Tu": "acerces",
+      "ElEllaUsted": "acerce",
+      "Nosotros": "acercemos",
+      "Vosotros": "acercéis",
+      "EllosEllasUstedes": "acercen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "acercara",
+      "Tu": "acercaras",
+      "ElEllaUsted": "acercara",
+      "Nosotros": "acercaramos",
+      "Vosotros": "acercarais",
+      "EllosEllasUstedes": "acercaran"
+    }
+  },
   "Name": "acercar",
   "EnglishMeaning": "to bring closer"
 }

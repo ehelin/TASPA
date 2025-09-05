@@ -1,1 +1,68 @@
-{"PresentParticiple":"decidiendo&translation=deciding","PastParticiple":"decidido&translation=decided","Indicative":{"PresentTense":{"Yo":"decido","Tu":"decides","ElEllaUsted":"decide","Nosotros":"decidimos","Vosotros":"decidís","EllosEllasUstedes":"deciden"},"Pretérito":{"Yo":"decidí","Tu":"decidiste","ElEllaUsted":"decidió","Nosotros":"decidimos","Vosotros":"decidisteis","EllosEllasUstedes":"decidieron"},"Imperfect":{"Yo":"decidía","Tu":"decidías","ElEllaUsted":"decidía","Nosotros":"decidíamos","Vosotros":"decidíais","EllosEllasUstedes":"decidían"},"Conditional":{"Yo":"decidiría","Tu":"decidirías","ElEllaUsted":"decidiría","Nosotros":"decidiríamos","Vosotros":"decidiríais","EllosEllasUstedes":"decidirían"},"Future":{"Yo":"decidiré","Tu":"decidirás","ElEllaUsted":"decidirá","Nosotros":"decidiremos","Vosotros":"decidiréis","EllosEllasUstedes":"decidirán"}},"Subjunctive":null,"Name":"decidir","EnglishMeaning":"to decide"}
+{
+  "PresentParticiple": "decidiendo",
+  "PastParticiple": "decidido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "decido",
+      "Tu": "decides",
+      "ElEllaUsted": "decide",
+      "Nosotros": "decidimos",
+      "Vosotros": "decidís",
+      "EllosEllasUstedes": "deciden"
+    },
+    "Pretérito": {
+      "Yo": "decidí",
+      "Tu": "decidiste",
+      "ElEllaUsted": "decidió",
+      "Nosotros": "decidimos",
+      "Vosotros": "decidisteis",
+      "EllosEllasUstedes": "decidieron"
+    },
+    "Imperfect": {
+      "Yo": "decidía",
+      "Tu": "decidías",
+      "ElEllaUsted": "decidía",
+      "Nosotros": "decidíamos",
+      "Vosotros": "decidíais",
+      "EllosEllasUstedes": "decidían"
+    },
+    "Conditional": {
+      "Yo": "decidiría",
+      "Tu": "decidirías",
+      "ElEllaUsted": "decidiría",
+      "Nosotros": "decidiríamos",
+      "Vosotros": "decidiríais",
+      "EllosEllasUstedes": "decidirían"
+    },
+    "Future": {
+      "Yo": "decidiré",
+      "Tu": "decidirás",
+      "ElEllaUsted": "decidirá",
+      "Nosotros": "decidiremos",
+      "Vosotros": "decidiréis",
+      "EllosEllasUstedes": "decidirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "decida",
+      "Tu": "decidas",
+      "ElEllaUsted": "decida",
+      "Nosotros": "decidamos",
+      "Vosotros": "decidáis",
+      "EllosEllasUstedes": "decidan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "decidiea",
+      "Tu": "decidieas",
+      "ElEllaUsted": "decidiea",
+      "Nosotros": "decidieamos",
+      "Vosotros": "decidieais",
+      "EllosEllasUstedes": "decidiean"
+    }
+  },
+  "Name": "decidir",
+  "EnglishMeaning": "to decide",
+  "PresentParticipleTranslation": "deciding",
+  "PastParticipleTranslation": "decided"
+}

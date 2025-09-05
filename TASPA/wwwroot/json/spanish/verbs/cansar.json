@@ -1,1 +1,68 @@
-{"PresentParticiple":"cansando&translation=tiring","PastParticiple":"cansado&translation=tired","Indicative":{"PresentTense":{"Yo":"canso","Tu":"cansas","ElEllaUsted":"cansa","Nosotros":"cansamos","Vosotros":"cansáis","EllosEllasUstedes":"cansan"},"Pretérito":{"Yo":"cansé","Tu":"cansaste","ElEllaUsted":"cansó","Nosotros":"cansamos","Vosotros":"cansasteis","EllosEllasUstedes":"cansaron"},"Imperfect":{"Yo":"cansaba","Tu":"cansabas","ElEllaUsted":"cansaba","Nosotros":"cansábamos","Vosotros":"cansabais","EllosEllasUstedes":"cansaban"},"Conditional":{"Yo":"cansaría","Tu":"cansarías","ElEllaUsted":"cansaría","Nosotros":"cansaríamos","Vosotros":"cansaríais","EllosEllasUstedes":"cansarían"},"Future":{"Yo":"cansaré","Tu":"cansarás","ElEllaUsted":"cansará","Nosotros":"cansaremos","Vosotros":"cansaréis","EllosEllasUstedes":"cansarán"}},"Subjunctive":null,"Name":"cansar","EnglishMeaning":"to tire"}
+{
+  "PresentParticiple": "cansando",
+  "PastParticiple": "cansado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "canso",
+      "Tu": "cansas",
+      "ElEllaUsted": "cansa",
+      "Nosotros": "cansamos",
+      "Vosotros": "cansáis",
+      "EllosEllasUstedes": "cansan"
+    },
+    "Pretérito": {
+      "Yo": "cansé",
+      "Tu": "cansaste",
+      "ElEllaUsted": "cansó",
+      "Nosotros": "cansamos",
+      "Vosotros": "cansasteis",
+      "EllosEllasUstedes": "cansaron"
+    },
+    "Imperfect": {
+      "Yo": "cansaba",
+      "Tu": "cansabas",
+      "ElEllaUsted": "cansaba",
+      "Nosotros": "cansábamos",
+      "Vosotros": "cansabais",
+      "EllosEllasUstedes": "cansaban"
+    },
+    "Conditional": {
+      "Yo": "cansaría",
+      "Tu": "cansarías",
+      "ElEllaUsted": "cansaría",
+      "Nosotros": "cansaríamos",
+      "Vosotros": "cansaríais",
+      "EllosEllasUstedes": "cansarían"
+    },
+    "Future": {
+      "Yo": "cansaré",
+      "Tu": "cansarás",
+      "ElEllaUsted": "cansará",
+      "Nosotros": "cansaremos",
+      "Vosotros": "cansaréis",
+      "EllosEllasUstedes": "cansarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "canse",
+      "Tu": "canses",
+      "ElEllaUsted": "canse",
+      "Nosotros": "cansemos",
+      "Vosotros": "canséis",
+      "EllosEllasUstedes": "cansen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "cansara",
+      "Tu": "cansaras",
+      "ElEllaUsted": "cansara",
+      "Nosotros": "cansaramos",
+      "Vosotros": "cansarais",
+      "EllosEllasUstedes": "cansaran"
+    }
+  },
+  "Name": "cansar",
+  "EnglishMeaning": "to tire",
+  "PresentParticipleTranslation": "tiring",
+  "PastParticipleTranslation": "tired"
+}

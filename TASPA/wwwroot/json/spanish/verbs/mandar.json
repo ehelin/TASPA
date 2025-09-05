@@ -1,1 +1,68 @@
-{"PresentParticiple":"mandando&translation=ordering","PastParticiple":"mandado&translation=ordered","Indicative":{"PresentTense":{"Yo":"mando","Tu":"mandas","ElEllaUsted":"manda","Nosotros":"mandamos","Vosotros":"mandáis","EllosEllasUstedes":"mandan"},"Pretérito":{"Yo":"mandé","Tu":"mandaste","ElEllaUsted":"mandó","Nosotros":"mandamos","Vosotros":"mandasteis","EllosEllasUstedes":"mandaron"},"Imperfect":{"Yo":"mandaba","Tu":"mandabas","ElEllaUsted":"mandaba","Nosotros":"mandábamos","Vosotros":"mandabais","EllosEllasUstedes":"mandaban"},"Conditional":{"Yo":"mandaría","Tu":"mandarías","ElEllaUsted":"mandaría","Nosotros":"mandaríamos","Vosotros":"mandaríais","EllosEllasUstedes":"mandarían"},"Future":{"Yo":"mandaré","Tu":"mandarás","ElEllaUsted":"mandará","Nosotros":"mandaremos","Vosotros":"mandaréis","EllosEllasUstedes":"mandarán"}},"Subjunctive":null,"Name":"mandar","EnglishMeaning":"to order"}
+{
+  "PresentParticiple": "mandando",
+  "PastParticiple": "mandado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "mando",
+      "Tu": "mandas",
+      "ElEllaUsted": "manda",
+      "Nosotros": "mandamos",
+      "Vosotros": "mandáis",
+      "EllosEllasUstedes": "mandan"
+    },
+    "Pretérito": {
+      "Yo": "mandé",
+      "Tu": "mandaste",
+      "ElEllaUsted": "mandó",
+      "Nosotros": "mandamos",
+      "Vosotros": "mandasteis",
+      "EllosEllasUstedes": "mandaron"
+    },
+    "Imperfect": {
+      "Yo": "mandaba",
+      "Tu": "mandabas",
+      "ElEllaUsted": "mandaba",
+      "Nosotros": "mandábamos",
+      "Vosotros": "mandabais",
+      "EllosEllasUstedes": "mandaban"
+    },
+    "Conditional": {
+      "Yo": "mandaría",
+      "Tu": "mandarías",
+      "ElEllaUsted": "mandaría",
+      "Nosotros": "mandaríamos",
+      "Vosotros": "mandaríais",
+      "EllosEllasUstedes": "mandarían"
+    },
+    "Future": {
+      "Yo": "mandaré",
+      "Tu": "mandarás",
+      "ElEllaUsted": "mandará",
+      "Nosotros": "mandaremos",
+      "Vosotros": "mandaréis",
+      "EllosEllasUstedes": "mandarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "mande",
+      "Tu": "mandes",
+      "ElEllaUsted": "mande",
+      "Nosotros": "mandemos",
+      "Vosotros": "mandéis",
+      "EllosEllasUstedes": "manden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "mandara",
+      "Tu": "mandaras",
+      "ElEllaUsted": "mandara",
+      "Nosotros": "mandaramos",
+      "Vosotros": "mandarais",
+      "EllosEllasUstedes": "mandaran"
+    }
+  },
+  "Name": "mandar",
+  "EnglishMeaning": "to order",
+  "PresentParticipleTranslation": "ordering",
+  "PastParticipleTranslation": "ordered"
+}

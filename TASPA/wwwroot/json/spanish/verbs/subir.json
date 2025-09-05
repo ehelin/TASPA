@@ -1,1 +1,66 @@
-{"PresentParticiple":"subiendo","PastParticiple":"subido","Indicative":{"PresentTense":{"Yo":"subo","Tu":"subes","ElEllaUsted":"sube","Nosotros":"subimos","Vosotros":"subís","EllosEllasUstedes":"suben"},"Pretérito":{"Yo":"subí","Tu":"subiste","ElEllaUsted":"subió","Nosotros":"subimos","Vosotros":"subisteis","EllosEllasUstedes":"subieron"},"Imperfect":{"Yo":"subía","Tu":"subías","ElEllaUsted":"subía","Nosotros":"subíamos","Vosotros":"subíais","EllosEllasUstedes":"subían"},"Conditional":{"Yo":"subiría","Tu":"subirías","ElEllaUsted":"subiría","Nosotros":"subiríamos","Vosotros":"subiríais","EllosEllasUstedes":"subirían"},"Future":{"Yo":"subiré","Tu":"subirás","ElEllaUsted":"subirá","Nosotros":"subiremos","Vosotros":"subiréis","EllosEllasUstedes":"subirán"}},"Subjunctive":null,"Name":"subir","EnglishMeaning":"to go up"}
+{
+  "PresentParticiple": "subiendo",
+  "PastParticiple": "subido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "subo",
+      "Tu": "subes",
+      "ElEllaUsted": "sube",
+      "Nosotros": "subimos",
+      "Vosotros": "subís",
+      "EllosEllasUstedes": "suben"
+    },
+    "Pretérito": {
+      "Yo": "subí",
+      "Tu": "subiste",
+      "ElEllaUsted": "subió",
+      "Nosotros": "subimos",
+      "Vosotros": "subisteis",
+      "EllosEllasUstedes": "subieron"
+    },
+    "Imperfect": {
+      "Yo": "subía",
+      "Tu": "subías",
+      "ElEllaUsted": "subía",
+      "Nosotros": "subíamos",
+      "Vosotros": "subíais",
+      "EllosEllasUstedes": "subían"
+    },
+    "Conditional": {
+      "Yo": "subiría",
+      "Tu": "subirías",
+      "ElEllaUsted": "subiría",
+      "Nosotros": "subiríamos",
+      "Vosotros": "subiríais",
+      "EllosEllasUstedes": "subirían"
+    },
+    "Future": {
+      "Yo": "subiré",
+      "Tu": "subirás",
+      "ElEllaUsted": "subirá",
+      "Nosotros": "subiremos",
+      "Vosotros": "subiréis",
+      "EllosEllasUstedes": "subirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "suba",
+      "Tu": "subas",
+      "ElEllaUsted": "suba",
+      "Nosotros": "subamos",
+      "Vosotros": "subáis",
+      "EllosEllasUstedes": "suban"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "subiea",
+      "Tu": "subieas",
+      "ElEllaUsted": "subiea",
+      "Nosotros": "subieamos",
+      "Vosotros": "subieais",
+      "EllosEllasUstedes": "subiean"
+    }
+  },
+  "Name": "subir",
+  "EnglishMeaning": "to go up"
+}

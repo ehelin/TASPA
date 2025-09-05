@@ -1,1 +1,68 @@
-{"PresentParticiple":"sufriendo&translation=suffering","PastParticiple":"sufrido&translation=suffered","Indicative":{"PresentTense":{"Yo":"sufro","Tu":"sufres","ElEllaUsted":"sufre","Nosotros":"sufrimos","Vosotros":"sufrís","EllosEllasUstedes":"sufren"},"Pretérito":{"Yo":"sufrí","Tu":"sufriste","ElEllaUsted":"sufrió","Nosotros":"sufrimos","Vosotros":"sufristeis","EllosEllasUstedes":"sufrieron"},"Imperfect":{"Yo":"sufría","Tu":"sufrías","ElEllaUsted":"sufría","Nosotros":"sufríamos","Vosotros":"sufríais","EllosEllasUstedes":"sufrían"},"Conditional":{"Yo":"sufriría","Tu":"sufrirías","ElEllaUsted":"sufriría","Nosotros":"sufriríamos","Vosotros":"sufriríais","EllosEllasUstedes":"sufrirían"},"Future":{"Yo":"sufriré","Tu":"sufrirás","ElEllaUsted":"sufrirá","Nosotros":"sufriremos","Vosotros":"sufriréis","EllosEllasUstedes":"sufrirán"}},"Subjunctive":null,"Name":"sufrir","EnglishMeaning":"to suffer"}
+{
+  "PresentParticiple": "sufriendo",
+  "PastParticiple": "sufrido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "sufro",
+      "Tu": "sufres",
+      "ElEllaUsted": "sufre",
+      "Nosotros": "sufrimos",
+      "Vosotros": "sufrís",
+      "EllosEllasUstedes": "sufren"
+    },
+    "Pretérito": {
+      "Yo": "sufrí",
+      "Tu": "sufriste",
+      "ElEllaUsted": "sufrió",
+      "Nosotros": "sufrimos",
+      "Vosotros": "sufristeis",
+      "EllosEllasUstedes": "sufrieron"
+    },
+    "Imperfect": {
+      "Yo": "sufría",
+      "Tu": "sufrías",
+      "ElEllaUsted": "sufría",
+      "Nosotros": "sufríamos",
+      "Vosotros": "sufríais",
+      "EllosEllasUstedes": "sufrían"
+    },
+    "Conditional": {
+      "Yo": "sufriría",
+      "Tu": "sufrirías",
+      "ElEllaUsted": "sufriría",
+      "Nosotros": "sufriríamos",
+      "Vosotros": "sufriríais",
+      "EllosEllasUstedes": "sufrirían"
+    },
+    "Future": {
+      "Yo": "sufriré",
+      "Tu": "sufrirás",
+      "ElEllaUsted": "sufrirá",
+      "Nosotros": "sufriremos",
+      "Vosotros": "sufriréis",
+      "EllosEllasUstedes": "sufrirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "sufra",
+      "Tu": "sufras",
+      "ElEllaUsted": "sufra",
+      "Nosotros": "suframos",
+      "Vosotros": "sufráis",
+      "EllosEllasUstedes": "sufran"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "sufriea",
+      "Tu": "sufrieas",
+      "ElEllaUsted": "sufriea",
+      "Nosotros": "sufrieamos",
+      "Vosotros": "sufrieais",
+      "EllosEllasUstedes": "sufriean"
+    }
+  },
+  "Name": "sufrir",
+  "EnglishMeaning": "to suffer",
+  "PresentParticipleTranslation": "suffering",
+  "PastParticipleTranslation": "suffered"
+}

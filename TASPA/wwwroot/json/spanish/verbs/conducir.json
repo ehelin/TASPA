@@ -1,1 +1,68 @@
-{"PresentParticiple":"conduciendo&translation=leading","PastParticiple":"conducido&translation=led","Indicative":{"PresentTense":{"Yo":"conduzco","Tu":"conduces","ElEllaUsted":"conduce","Nosotros":"conducimos","Vosotros":"conducís","EllosEllasUstedes":"conducen"},"Pretérito":{"Yo":"conduje","Tu":"condujiste","ElEllaUsted":"condujo","Nosotros":"condujimos","Vosotros":"condujisteis","EllosEllasUstedes":"condujeron"},"Imperfect":{"Yo":"conducía","Tu":"conducías","ElEllaUsted":"conducía","Nosotros":"conducíamos","Vosotros":"conducíais","EllosEllasUstedes":"conducían"},"Conditional":{"Yo":"conduciría","Tu":"conducirías","ElEllaUsted":"conduciría","Nosotros":"conduciríamos","Vosotros":"conduciríais","EllosEllasUstedes":"conducirían"},"Future":{"Yo":"conduciré","Tu":"conducirás","ElEllaUsted":"conducirá","Nosotros":"conduciremos","Vosotros":"conduciréis","EllosEllasUstedes":"conducirán"}},"Subjunctive":null,"Name":"conducir","EnglishMeaning":"to lead"}
+{
+  "PresentParticiple": "conduciendo",
+  "PastParticiple": "conducido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "conduzco",
+      "Tu": "conduces",
+      "ElEllaUsted": "conduce",
+      "Nosotros": "conducimos",
+      "Vosotros": "conducís",
+      "EllosEllasUstedes": "conducen"
+    },
+    "Pretérito": {
+      "Yo": "conduje",
+      "Tu": "condujiste",
+      "ElEllaUsted": "condujo",
+      "Nosotros": "condujimos",
+      "Vosotros": "condujisteis",
+      "EllosEllasUstedes": "condujeron"
+    },
+    "Imperfect": {
+      "Yo": "conducía",
+      "Tu": "conducías",
+      "ElEllaUsted": "conducía",
+      "Nosotros": "conducíamos",
+      "Vosotros": "conducíais",
+      "EllosEllasUstedes": "conducían"
+    },
+    "Conditional": {
+      "Yo": "conduciría",
+      "Tu": "conducirías",
+      "ElEllaUsted": "conduciría",
+      "Nosotros": "conduciríamos",
+      "Vosotros": "conduciríais",
+      "EllosEllasUstedes": "conducirían"
+    },
+    "Future": {
+      "Yo": "conduciré",
+      "Tu": "conducirás",
+      "ElEllaUsted": "conducirá",
+      "Nosotros": "conduciremos",
+      "Vosotros": "conduciréis",
+      "EllosEllasUstedes": "conducirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "conduzca",
+      "Tu": "conduzcas",
+      "ElEllaUsted": "conduzca",
+      "Nosotros": "conduzcamos",
+      "Vosotros": "conduzcáis",
+      "EllosEllasUstedes": "conduzcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "condujea",
+      "Tu": "condujeas",
+      "ElEllaUsted": "condujea",
+      "Nosotros": "condujeamos",
+      "Vosotros": "condujeais",
+      "EllosEllasUstedes": "condujean"
+    }
+  },
+  "Name": "conducir",
+  "EnglishMeaning": "to lead",
+  "PresentParticipleTranslation": "leading",
+  "PastParticipleTranslation": "led"
+}

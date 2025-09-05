@@ -1,1 +1,68 @@
-{"PresentParticiple":"apareciendo&translation=appearing","PastParticiple":"aparecido&translation=appeared","Indicative":{"PresentTense":{"Yo":"aparezco","Tu":"apareces","ElEllaUsted":"aparece","Nosotros":"aparecemos","Vosotros":"aparecéis","EllosEllasUstedes":"aparecen"},"Pretérito":{"Yo":"aparecí","Tu":"apareciste","ElEllaUsted":"apareció","Nosotros":"aparecimos","Vosotros":"aparecisteis","EllosEllasUstedes":"aparecieron"},"Imperfect":{"Yo":"aparecía","Tu":"aparecías","ElEllaUsted":"aparecía","Nosotros":"aparecíamos","Vosotros":"aparecíais","EllosEllasUstedes":"aparecían"},"Conditional":{"Yo":"aparecería","Tu":"aparecerías","ElEllaUsted":"aparecería","Nosotros":"apareceríamos","Vosotros":"apareceríais","EllosEllasUstedes":"aparecerían"},"Future":{"Yo":"apareceré","Tu":"aparecerás","ElEllaUsted":"aparecerá","Nosotros":"apareceremos","Vosotros":"apareceréis","EllosEllasUstedes":"aparecerán"}},"Subjunctive":null,"Name":"aparecer","EnglishMeaning":"to appear"}
+{
+  "PresentParticiple": "apareciendo",
+  "PastParticiple": "aparecido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "aparezco",
+      "Tu": "apareces",
+      "ElEllaUsted": "aparece",
+      "Nosotros": "aparecemos",
+      "Vosotros": "aparecéis",
+      "EllosEllasUstedes": "aparecen"
+    },
+    "Pretérito": {
+      "Yo": "aparecí",
+      "Tu": "apareciste",
+      "ElEllaUsted": "apareció",
+      "Nosotros": "aparecimos",
+      "Vosotros": "aparecisteis",
+      "EllosEllasUstedes": "aparecieron"
+    },
+    "Imperfect": {
+      "Yo": "aparecía",
+      "Tu": "aparecías",
+      "ElEllaUsted": "aparecía",
+      "Nosotros": "aparecíamos",
+      "Vosotros": "aparecíais",
+      "EllosEllasUstedes": "aparecían"
+    },
+    "Conditional": {
+      "Yo": "aparecería",
+      "Tu": "aparecerías",
+      "ElEllaUsted": "aparecería",
+      "Nosotros": "apareceríamos",
+      "Vosotros": "apareceríais",
+      "EllosEllasUstedes": "aparecerían"
+    },
+    "Future": {
+      "Yo": "apareceré",
+      "Tu": "aparecerás",
+      "ElEllaUsted": "aparecerá",
+      "Nosotros": "apareceremos",
+      "Vosotros": "apareceréis",
+      "EllosEllasUstedes": "aparecerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "aparezca",
+      "Tu": "aparezcas",
+      "ElEllaUsted": "aparezca",
+      "Nosotros": "aparezcamos",
+      "Vosotros": "aparezcáis",
+      "EllosEllasUstedes": "aparezcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "apareciea",
+      "Tu": "aparecieas",
+      "ElEllaUsted": "apareciea",
+      "Nosotros": "aparecieamos",
+      "Vosotros": "aparecieais",
+      "EllosEllasUstedes": "apareciean"
+    }
+  },
+  "Name": "aparecer",
+  "EnglishMeaning": "to appear",
+  "PresentParticipleTranslation": "appearing",
+  "PastParticipleTranslation": "appeared"
+}

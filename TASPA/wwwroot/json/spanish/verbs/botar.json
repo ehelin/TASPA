@@ -1,1 +1,66 @@
-{"PresentParticiple":"botando","PastParticiple":"botado","Indicative":{"PresentTense":{"Yo":"boto","Tu":"botas","ElEllaUsted":"bota","Nosotros":"botamos","Vosotros":"botáis","EllosEllasUstedes":"botan"},"Pretérito":{"Yo":"boté","Tu":"botaste","ElEllaUsted":"botó","Nosotros":"botamos","Vosotros":"botasteis","EllosEllasUstedes":"botaron"},"Imperfect":{"Yo":"botaba","Tu":"botabas","ElEllaUsted":"botaba","Nosotros":"botábamos","Vosotros":"botabais","EllosEllasUstedes":"botaban"},"Conditional":{"Yo":"botaría","Tu":"botarías","ElEllaUsted":"botaría","Nosotros":"botaríamos","Vosotros":"botaríais","EllosEllasUstedes":"botarían"},"Future":{"Yo":"botaré","Tu":"botarás","ElEllaUsted":"botará","Nosotros":"botaremos","Vosotros":"botaréis","EllosEllasUstedes":"botarán"}},"Subjunctive":null,"Name":"botar","EnglishMeaning":"to throw away"}
+{
+  "PresentParticiple": "botando",
+  "PastParticiple": "botado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "boto",
+      "Tu": "botas",
+      "ElEllaUsted": "bota",
+      "Nosotros": "botamos",
+      "Vosotros": "botáis",
+      "EllosEllasUstedes": "botan"
+    },
+    "Pretérito": {
+      "Yo": "boté",
+      "Tu": "botaste",
+      "ElEllaUsted": "botó",
+      "Nosotros": "botamos",
+      "Vosotros": "botasteis",
+      "EllosEllasUstedes": "botaron"
+    },
+    "Imperfect": {
+      "Yo": "botaba",
+      "Tu": "botabas",
+      "ElEllaUsted": "botaba",
+      "Nosotros": "botábamos",
+      "Vosotros": "botabais",
+      "EllosEllasUstedes": "botaban"
+    },
+    "Conditional": {
+      "Yo": "botaría",
+      "Tu": "botarías",
+      "ElEllaUsted": "botaría",
+      "Nosotros": "botaríamos",
+      "Vosotros": "botaríais",
+      "EllosEllasUstedes": "botarían"
+    },
+    "Future": {
+      "Yo": "botaré",
+      "Tu": "botarás",
+      "ElEllaUsted": "botará",
+      "Nosotros": "botaremos",
+      "Vosotros": "botaréis",
+      "EllosEllasUstedes": "botarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "bote",
+      "Tu": "botes",
+      "ElEllaUsted": "bote",
+      "Nosotros": "botemos",
+      "Vosotros": "botéis",
+      "EllosEllasUstedes": "boten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "botara",
+      "Tu": "botaras",
+      "ElEllaUsted": "botara",
+      "Nosotros": "botaramos",
+      "Vosotros": "botarais",
+      "EllosEllasUstedes": "botaran"
+    }
+  },
+  "Name": "botar",
+  "EnglishMeaning": "to throw away"
+}

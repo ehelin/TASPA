@@ -1,1 +1,66 @@
-{"PresentParticiple":"recogiendo","PastParticiple":"recogido","Indicative":{"PresentTense":{"Yo":"recojo","Tu":"recoges","ElEllaUsted":"recoge","Nosotros":"recogemos","Vosotros":"recogéis","EllosEllasUstedes":"recogen"},"Pretérito":{"Yo":"recogí","Tu":"recogiste","ElEllaUsted":"recogió","Nosotros":"recogimos","Vosotros":"recogisteis","EllosEllasUstedes":"recogieron"},"Imperfect":{"Yo":"recogía","Tu":"recogías","ElEllaUsted":"recogía","Nosotros":"recogíamos","Vosotros":"recogíais","EllosEllasUstedes":"recogían"},"Conditional":{"Yo":"recogería","Tu":"recogerías","ElEllaUsted":"recogería","Nosotros":"recogeríamos","Vosotros":"recogeríais","EllosEllasUstedes":"recogerían"},"Future":{"Yo":"recogeré","Tu":"recogerás","ElEllaUsted":"recogerá","Nosotros":"recogeremos","Vosotros":"recogeréis","EllosEllasUstedes":"recogerán"}},"Subjunctive":null,"Name":"recoger","EnglishMeaning":"to pick up"}
+{
+  "PresentParticiple": "recogiendo",
+  "PastParticiple": "recogido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "recojo",
+      "Tu": "recoges",
+      "ElEllaUsted": "recoge",
+      "Nosotros": "recogemos",
+      "Vosotros": "recogéis",
+      "EllosEllasUstedes": "recogen"
+    },
+    "Pretérito": {
+      "Yo": "recogí",
+      "Tu": "recogiste",
+      "ElEllaUsted": "recogió",
+      "Nosotros": "recogimos",
+      "Vosotros": "recogisteis",
+      "EllosEllasUstedes": "recogieron"
+    },
+    "Imperfect": {
+      "Yo": "recogía",
+      "Tu": "recogías",
+      "ElEllaUsted": "recogía",
+      "Nosotros": "recogíamos",
+      "Vosotros": "recogíais",
+      "EllosEllasUstedes": "recogían"
+    },
+    "Conditional": {
+      "Yo": "recogería",
+      "Tu": "recogerías",
+      "ElEllaUsted": "recogería",
+      "Nosotros": "recogeríamos",
+      "Vosotros": "recogeríais",
+      "EllosEllasUstedes": "recogerían"
+    },
+    "Future": {
+      "Yo": "recogeré",
+      "Tu": "recogerás",
+      "ElEllaUsted": "recogerá",
+      "Nosotros": "recogeremos",
+      "Vosotros": "recogeréis",
+      "EllosEllasUstedes": "recogerán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "recoja",
+      "Tu": "recojas",
+      "ElEllaUsted": "recoja",
+      "Nosotros": "recojamos",
+      "Vosotros": "recojáis",
+      "EllosEllasUstedes": "recojan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "recogiea",
+      "Tu": "recogieas",
+      "ElEllaUsted": "recogiea",
+      "Nosotros": "recogieamos",
+      "Vosotros": "recogieais",
+      "EllosEllasUstedes": "recogiean"
+    }
+  },
+  "Name": "recoger",
+  "EnglishMeaning": "to pick up"
+}

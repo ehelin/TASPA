@@ -1,1 +1,68 @@
-{"PresentParticiple":"traduciendo&translation=translating","PastParticiple":"traducido&translation=translated","Indicative":{"PresentTense":{"Yo":"traduzco","Tu":"traduces","ElEllaUsted":"traduce","Nosotros":"traducimos","Vosotros":"traducís","EllosEllasUstedes":"traducen"},"Pretérito":{"Yo":"traduje","Tu":"tradujiste","ElEllaUsted":"tradujo","Nosotros":"tradujimos","Vosotros":"tradujisteis","EllosEllasUstedes":"tradujeron"},"Imperfect":{"Yo":"traducía","Tu":"traducías","ElEllaUsted":"traducía","Nosotros":"traducíamos","Vosotros":"traducíais","EllosEllasUstedes":"traducían"},"Conditional":{"Yo":"traduciría","Tu":"traducirías","ElEllaUsted":"traduciría","Nosotros":"traduciríamos","Vosotros":"traduciríais","EllosEllasUstedes":"traducirían"},"Future":{"Yo":"traduciré","Tu":"traducirás","ElEllaUsted":"traducirá","Nosotros":"traduciremos","Vosotros":"traduciréis","EllosEllasUstedes":"traducirán"}},"Subjunctive":null,"Name":"traducir","EnglishMeaning":"to translate"}
+{
+  "PresentParticiple": "traduciendo",
+  "PastParticiple": "traducido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "traduzco",
+      "Tu": "traduces",
+      "ElEllaUsted": "traduce",
+      "Nosotros": "traducimos",
+      "Vosotros": "traducís",
+      "EllosEllasUstedes": "traducen"
+    },
+    "Pretérito": {
+      "Yo": "traduje",
+      "Tu": "tradujiste",
+      "ElEllaUsted": "tradujo",
+      "Nosotros": "tradujimos",
+      "Vosotros": "tradujisteis",
+      "EllosEllasUstedes": "tradujeron"
+    },
+    "Imperfect": {
+      "Yo": "traducía",
+      "Tu": "traducías",
+      "ElEllaUsted": "traducía",
+      "Nosotros": "traducíamos",
+      "Vosotros": "traducíais",
+      "EllosEllasUstedes": "traducían"
+    },
+    "Conditional": {
+      "Yo": "traduciría",
+      "Tu": "traducirías",
+      "ElEllaUsted": "traduciría",
+      "Nosotros": "traduciríamos",
+      "Vosotros": "traduciríais",
+      "EllosEllasUstedes": "traducirían"
+    },
+    "Future": {
+      "Yo": "traduciré",
+      "Tu": "traducirás",
+      "ElEllaUsted": "traducirá",
+      "Nosotros": "traduciremos",
+      "Vosotros": "traduciréis",
+      "EllosEllasUstedes": "traducirán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "traduzca",
+      "Tu": "traduzcas",
+      "ElEllaUsted": "traduzca",
+      "Nosotros": "traduzcamos",
+      "Vosotros": "traduzcáis",
+      "EllosEllasUstedes": "traduzcan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "tradujea",
+      "Tu": "tradujeas",
+      "ElEllaUsted": "tradujea",
+      "Nosotros": "tradujeamos",
+      "Vosotros": "tradujeais",
+      "EllosEllasUstedes": "tradujean"
+    }
+  },
+  "Name": "traducir",
+  "EnglishMeaning": "to translate",
+  "PresentParticipleTranslation": "translating",
+  "PastParticipleTranslation": "translated"
+}

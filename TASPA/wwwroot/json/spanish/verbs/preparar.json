@@ -1,1 +1,68 @@
-{"PresentParticiple":"preparando&translation=preparing","PastParticiple":"preparado&translation=prepared","Indicative":{"PresentTense":{"Yo":"preparo","Tu":"preparas","ElEllaUsted":"prepara","Nosotros":"preparamos","Vosotros":"preparáis","EllosEllasUstedes":"preparan"},"Pretérito":{"Yo":"preparé","Tu":"preparaste","ElEllaUsted":"preparó","Nosotros":"preparamos","Vosotros":"preparasteis","EllosEllasUstedes":"prepararon"},"Imperfect":{"Yo":"preparaba","Tu":"preparabas","ElEllaUsted":"preparaba","Nosotros":"preparábamos","Vosotros":"preparabais","EllosEllasUstedes":"preparaban"},"Conditional":{"Yo":"prepararía","Tu":"prepararías","ElEllaUsted":"prepararía","Nosotros":"prepararíamos","Vosotros":"prepararíais","EllosEllasUstedes":"prepararían"},"Future":{"Yo":"prepararé","Tu":"prepararás","ElEllaUsted":"preparará","Nosotros":"prepararemos","Vosotros":"prepararéis","EllosEllasUstedes":"prepararán"}},"Subjunctive":null,"Name":"preparar","EnglishMeaning":"to prepare"}
+{
+  "PresentParticiple": "preparando",
+  "PastParticiple": "preparado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "preparo",
+      "Tu": "preparas",
+      "ElEllaUsted": "prepara",
+      "Nosotros": "preparamos",
+      "Vosotros": "preparáis",
+      "EllosEllasUstedes": "preparan"
+    },
+    "Pretérito": {
+      "Yo": "preparé",
+      "Tu": "preparaste",
+      "ElEllaUsted": "preparó",
+      "Nosotros": "preparamos",
+      "Vosotros": "preparasteis",
+      "EllosEllasUstedes": "prepararon"
+    },
+    "Imperfect": {
+      "Yo": "preparaba",
+      "Tu": "preparabas",
+      "ElEllaUsted": "preparaba",
+      "Nosotros": "preparábamos",
+      "Vosotros": "preparabais",
+      "EllosEllasUstedes": "preparaban"
+    },
+    "Conditional": {
+      "Yo": "prepararía",
+      "Tu": "prepararías",
+      "ElEllaUsted": "prepararía",
+      "Nosotros": "prepararíamos",
+      "Vosotros": "prepararíais",
+      "EllosEllasUstedes": "prepararían"
+    },
+    "Future": {
+      "Yo": "prepararé",
+      "Tu": "prepararás",
+      "ElEllaUsted": "preparará",
+      "Nosotros": "prepararemos",
+      "Vosotros": "prepararéis",
+      "EllosEllasUstedes": "prepararán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "prepare",
+      "Tu": "prepares",
+      "ElEllaUsted": "prepare",
+      "Nosotros": "preparemos",
+      "Vosotros": "preparéis",
+      "EllosEllasUstedes": "preparen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "preparara",
+      "Tu": "prepararas",
+      "ElEllaUsted": "preparara",
+      "Nosotros": "prepararamos",
+      "Vosotros": "prepararais",
+      "EllosEllasUstedes": "prepararan"
+    }
+  },
+  "Name": "preparar",
+  "EnglishMeaning": "to prepare",
+  "PresentParticipleTranslation": "preparing",
+  "PastParticipleTranslation": "prepared"
+}

@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "emboscando",
-    "PastParticiple": "emboscado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "embosco",
-            "Tu": "emboscas",
-            "ElEllaUsted": "embosca",
-            "Nosotros": "emboscamos",
-            "Vosotros": "emboscáis",
-            "EllosEllasUstedes": "emboscan"
-        },
-        "Pretérito": {
-            "Yo": "emboscé",
-            "Tu": "emboscaste",
-            "ElEllaUsted": "emboscó",
-            "Nosotros": "emboscamos",
-            "Vosotros": "emboscasteis",
-            "EllosEllasUstedes": "emboscaron"
-        },
-        "Imperfect": {
-            "Yo": "emboscaba",
-            "Tu": "emboscabas",
-            "ElEllaUsted": "emboscaba",
-            "Nosotros": "emboscábamos",
-            "Vosotros": "emboscabais",
-            "EllosEllasUstedes": "emboscaban"
-        },
-        "Conditional": {
-            "Yo": "emboscaría",
-            "Tu": "emboscarías",
-            "ElEllaUsted": "emboscaría",
-            "Nosotros": "emboscaríamos",
-            "Vosotros": "emboscaríais",
-            "EllosEllasUstedes": "emboscarían"
-        },
-        "Future": {
-            "Yo": "emboscaré",
-            "Tu": "emboscarás",
-            "ElEllaUsted": "emboscará",
-            "Nosotros": "emboscaremos",
-            "Vosotros": "emboscaréis",
-            "EllosEllasUstedes": "emboscarán"
-        }
+  "PresentParticiple": "emboscando",
+  "PastParticiple": "emboscado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "embosco",
+      "Tu": "emboscas",
+      "ElEllaUsted": "embosca",
+      "Nosotros": "emboscamos",
+      "Vosotros": "emboscáis",
+      "EllosEllasUstedes": "emboscan"
     },
-    "Subjunctive": null,
-    "Name": "emboscar",
-    "EnglishMeaning": "to ambush"
+    "Pretérito": {
+      "Yo": "emboscé",
+      "Tu": "emboscaste",
+      "ElEllaUsted": "emboscó",
+      "Nosotros": "emboscamos",
+      "Vosotros": "emboscasteis",
+      "EllosEllasUstedes": "emboscaron"
+    },
+    "Imperfect": {
+      "Yo": "emboscaba",
+      "Tu": "emboscabas",
+      "ElEllaUsted": "emboscaba",
+      "Nosotros": "emboscábamos",
+      "Vosotros": "emboscabais",
+      "EllosEllasUstedes": "emboscaban"
+    },
+    "Conditional": {
+      "Yo": "emboscaría",
+      "Tu": "emboscarías",
+      "ElEllaUsted": "emboscaría",
+      "Nosotros": "emboscaríamos",
+      "Vosotros": "emboscaríais",
+      "EllosEllasUstedes": "emboscarían"
+    },
+    "Future": {
+      "Yo": "emboscaré",
+      "Tu": "emboscarás",
+      "ElEllaUsted": "emboscará",
+      "Nosotros": "emboscaremos",
+      "Vosotros": "emboscaréis",
+      "EllosEllasUstedes": "emboscarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "embosce",
+      "Tu": "embosces",
+      "ElEllaUsted": "embosce",
+      "Nosotros": "emboscemos",
+      "Vosotros": "emboscéis",
+      "EllosEllasUstedes": "emboscen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "emboscara",
+      "Tu": "emboscaras",
+      "ElEllaUsted": "emboscara",
+      "Nosotros": "emboscaramos",
+      "Vosotros": "emboscarais",
+      "EllosEllasUstedes": "emboscaran"
+    }
+  },
+  "Name": "emboscar",
+  "EnglishMeaning": "to ambush"
 }

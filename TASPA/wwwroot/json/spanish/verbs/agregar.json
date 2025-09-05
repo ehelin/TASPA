@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "agregando",
-    "PastParticiple": "agregado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "agrego",
-            "Tu": "agregas",
-            "ElEllaUsted": "agrega",
-            "Nosotros": "agregamos",
-            "Vosotros": "agregáis",
-            "EllosEllasUstedes": "agregan"
-        },
-        "Pretérito": {
-            "Yo": "agregé",
-            "Tu": "agregaste",
-            "ElEllaUsted": "agregó",
-            "Nosotros": "agregamos",
-            "Vosotros": "agregasteis",
-            "EllosEllasUstedes": "agregaron"
-        },
-        "Imperfect": {
-            "Yo": "agregaba",
-            "Tu": "agregabas",
-            "ElEllaUsted": "agregaba",
-            "Nosotros": "agregábamos",
-            "Vosotros": "agregabais",
-            "EllosEllasUstedes": "agregaban"
-        },
-        "Conditional": {
-            "Yo": "agregaría",
-            "Tu": "agregarías",
-            "ElEllaUsted": "agregaría",
-            "Nosotros": "agregaríamos",
-            "Vosotros": "agregaríais",
-            "EllosEllasUstedes": "agregarían"
-        },
-        "Future": {
-            "Yo": "agregaré",
-            "Tu": "agregarás",
-            "ElEllaUsted": "agregará",
-            "Nosotros": "agregaremos",
-            "Vosotros": "agregaréis",
-            "EllosEllasUstedes": "agregarán"
-        }
+  "PresentParticiple": "agregando",
+  "PastParticiple": "agregado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "agrego",
+      "Tu": "agregas",
+      "ElEllaUsted": "agrega",
+      "Nosotros": "agregamos",
+      "Vosotros": "agregáis",
+      "EllosEllasUstedes": "agregan"
     },
-    "Subjunctive": null,
-    "Name": "agregar",
-    "EnglishMeaning": "to add"
+    "Pretérito": {
+      "Yo": "agregé",
+      "Tu": "agregaste",
+      "ElEllaUsted": "agregó",
+      "Nosotros": "agregamos",
+      "Vosotros": "agregasteis",
+      "EllosEllasUstedes": "agregaron"
+    },
+    "Imperfect": {
+      "Yo": "agregaba",
+      "Tu": "agregabas",
+      "ElEllaUsted": "agregaba",
+      "Nosotros": "agregábamos",
+      "Vosotros": "agregabais",
+      "EllosEllasUstedes": "agregaban"
+    },
+    "Conditional": {
+      "Yo": "agregaría",
+      "Tu": "agregarías",
+      "ElEllaUsted": "agregaría",
+      "Nosotros": "agregaríamos",
+      "Vosotros": "agregaríais",
+      "EllosEllasUstedes": "agregarían"
+    },
+    "Future": {
+      "Yo": "agregaré",
+      "Tu": "agregarás",
+      "ElEllaUsted": "agregará",
+      "Nosotros": "agregaremos",
+      "Vosotros": "agregaréis",
+      "EllosEllasUstedes": "agregarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "agrege",
+      "Tu": "agreges",
+      "ElEllaUsted": "agrege",
+      "Nosotros": "agregemos",
+      "Vosotros": "agregéis",
+      "EllosEllasUstedes": "agregen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "agregara",
+      "Tu": "agregaras",
+      "ElEllaUsted": "agregara",
+      "Nosotros": "agregaramos",
+      "Vosotros": "agregarais",
+      "EllosEllasUstedes": "agregaran"
+    }
+  },
+  "Name": "agregar",
+  "EnglishMeaning": "to add"
 }

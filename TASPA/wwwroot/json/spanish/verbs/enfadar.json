@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "enfandando",
-    "PastParticiple": "enfadado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "enfado",
-            "Tu": "enfadas",
-            "ElEllaUsted": "enfada",
-            "Nosotros": "enfadamos",
-            "Vosotros": "enfadáis",
-            "EllosEllasUstedes": "enfadan"
-        },
-        "Pretérito": {
-            "Yo": "enfadé",
-            "Tu": "enfadaste",
-            "ElEllaUsted": "enfadó",
-            "Nosotros": "enfadamos",
-            "Vosotros": "enfadasteis",
-            "EllosEllasUstedes": "enfadaron"
-        },
-        "Imperfect": {
-            "Yo": "enfadaba",
-            "Tu": "enfadabas",
-            "ElEllaUsted": "enfadaba",
-            "Nosotros": "enfadábamos",
-            "Vosotros": "enfadabais",
-            "EllosEllasUstedes": "enfadaban"
-        },
-        "Conditional": {
-            "Yo": "enfadaría",
-            "Tu": "enfadarías",
-            "ElEllaUsted": "enfadaría",
-            "Nosotros": "enfadaríamos",
-            "Vosotros": "enfadaríais",
-            "EllosEllasUstedes": "enfadarían"
-        },
-        "Future": {
-            "Yo": "enfadaré",
-            "Tu": "enfadarás",
-            "ElEllaUsted": "enfadará",
-            "Nosotros": "enfadaremos",
-            "Vosotros": "enfadaréis",
-            "EllosEllasUstedes": "enfadarán"
-        }
+  "PresentParticiple": "enfandando",
+  "PastParticiple": "enfadado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "enfado",
+      "Tu": "enfadas",
+      "ElEllaUsted": "enfada",
+      "Nosotros": "enfadamos",
+      "Vosotros": "enfadáis",
+      "EllosEllasUstedes": "enfadan"
     },
-    "Subjunctive": null,
-    "Name": "enfadar",
-    "EnglishMeaning": "to anger"
+    "Pretérito": {
+      "Yo": "enfadé",
+      "Tu": "enfadaste",
+      "ElEllaUsted": "enfadó",
+      "Nosotros": "enfadamos",
+      "Vosotros": "enfadasteis",
+      "EllosEllasUstedes": "enfadaron"
+    },
+    "Imperfect": {
+      "Yo": "enfadaba",
+      "Tu": "enfadabas",
+      "ElEllaUsted": "enfadaba",
+      "Nosotros": "enfadábamos",
+      "Vosotros": "enfadabais",
+      "EllosEllasUstedes": "enfadaban"
+    },
+    "Conditional": {
+      "Yo": "enfadaría",
+      "Tu": "enfadarías",
+      "ElEllaUsted": "enfadaría",
+      "Nosotros": "enfadaríamos",
+      "Vosotros": "enfadaríais",
+      "EllosEllasUstedes": "enfadarían"
+    },
+    "Future": {
+      "Yo": "enfadaré",
+      "Tu": "enfadarás",
+      "ElEllaUsted": "enfadará",
+      "Nosotros": "enfadaremos",
+      "Vosotros": "enfadaréis",
+      "EllosEllasUstedes": "enfadarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "enfade",
+      "Tu": "enfades",
+      "ElEllaUsted": "enfade",
+      "Nosotros": "enfademos",
+      "Vosotros": "enfadéis",
+      "EllosEllasUstedes": "enfaden"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "enfadara",
+      "Tu": "enfadaras",
+      "ElEllaUsted": "enfadara",
+      "Nosotros": "enfadaramos",
+      "Vosotros": "enfadarais",
+      "EllosEllasUstedes": "enfadaran"
+    }
+  },
+  "Name": "enfadar",
+  "EnglishMeaning": "to anger"
 }

@@ -1,1 +1,66 @@
-{"PresentParticiple":"saliendo","PastParticiple":"salido","Indicative":{"PresentTense":{"Yo":"salgo","Tu":"sales","ElEllaUsted":"sale","Nosotros":"salimos","Vosotros":"salís","EllosEllasUstedes":"salen"},"Pretérito":{"Yo":"salí","Tu":"saliste","ElEllaUsted":"salió","Nosotros":"salimos","Vosotros":"salisteis","EllosEllasUstedes":"salieron"},"Imperfect":{"Yo":"salía","Tu":"salías","ElEllaUsted":"salía","Nosotros":"salíamos","Vosotros":"salíais","EllosEllasUstedes":"salían"},"Conditional":{"Yo":"saldría","Tu":"saldrías","ElEllaUsted":"saldría","Nosotros":"saldríamos","Vosotros":"saldríais","EllosEllasUstedes":"saldrían"},"Future":{"Yo":"saldré","Tu":"saldrás","ElEllaUsted":"saldrá","Nosotros":"saldremos","Vosotros":"saldréis","EllosEllasUstedes":"saldrán"}},"Subjunctive":null,"Name":"salir","EnglishMeaning":"to go out"}
+{
+  "PresentParticiple": "saliendo",
+  "PastParticiple": "salido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "salgo",
+      "Tu": "sales",
+      "ElEllaUsted": "sale",
+      "Nosotros": "salimos",
+      "Vosotros": "salís",
+      "EllosEllasUstedes": "salen"
+    },
+    "Pretérito": {
+      "Yo": "salí",
+      "Tu": "saliste",
+      "ElEllaUsted": "salió",
+      "Nosotros": "salimos",
+      "Vosotros": "salisteis",
+      "EllosEllasUstedes": "salieron"
+    },
+    "Imperfect": {
+      "Yo": "salía",
+      "Tu": "salías",
+      "ElEllaUsted": "salía",
+      "Nosotros": "salíamos",
+      "Vosotros": "salíais",
+      "EllosEllasUstedes": "salían"
+    },
+    "Conditional": {
+      "Yo": "saldría",
+      "Tu": "saldrías",
+      "ElEllaUsted": "saldría",
+      "Nosotros": "saldríamos",
+      "Vosotros": "saldríais",
+      "EllosEllasUstedes": "saldrían"
+    },
+    "Future": {
+      "Yo": "saldré",
+      "Tu": "saldrás",
+      "ElEllaUsted": "saldrá",
+      "Nosotros": "saldremos",
+      "Vosotros": "saldréis",
+      "EllosEllasUstedes": "saldrán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "salga",
+      "Tu": "salgas",
+      "ElEllaUsted": "salga",
+      "Nosotros": "salgamos",
+      "Vosotros": "salgáis",
+      "EllosEllasUstedes": "salgan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "saliera",
+      "Tu": "salieras",
+      "ElEllaUsted": "saliera",
+      "Nosotros": "saliéramos",
+      "Vosotros": "salierais",
+      "EllosEllasUstedes": "salieran"
+    }
+  },
+  "Name": "salir",
+  "EnglishMeaning": "to go out"
+}

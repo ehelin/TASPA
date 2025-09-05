@@ -1,1 +1,68 @@
-{"PresentParticiple":"alcanzando&translation=reaching","PastParticiple":"alcanzado&translation=reached","Indicative":{"PresentTense":{"Yo":"alcanzo","Tu":"alcanzas","ElEllaUsted":"alcanza","Nosotros":"alcanzamos","Vosotros":"alcanzáis","EllosEllasUstedes":"alcanzan"},"Pretérito":{"Yo":"alcancé","Tu":"alcanzaste","ElEllaUsted":"alcanzó","Nosotros":"alcanzamos","Vosotros":"alcanzasteis","EllosEllasUstedes":"alcanzaron"},"Imperfect":{"Yo":"alcanzaba","Tu":"alcanzabas","ElEllaUsted":"alcanzaba","Nosotros":"alcanzábamos","Vosotros":"alcanzabais","EllosEllasUstedes":"alcanzaban"},"Conditional":{"Yo":"alcanzaría","Tu":"alcanzarías","ElEllaUsted":"alcanzaría","Nosotros":"alcanzaríamos","Vosotros":"alcanzaríais","EllosEllasUstedes":"alcanzarían"},"Future":{"Yo":"alcanzaré","Tu":"alcanzarás","ElEllaUsted":"alcanzará","Nosotros":"alcanzaremos","Vosotros":"alcanzaréis","EllosEllasUstedes":"alcanzarán"}},"Subjunctive":null,"Name":"alcanzar","EnglishMeaning":"to reach"}
+{
+  "PresentParticiple": "alcanzando",
+  "PastParticiple": "alcanzado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "alcanzo",
+      "Tu": "alcanzas",
+      "ElEllaUsted": "alcanza",
+      "Nosotros": "alcanzamos",
+      "Vosotros": "alcanzáis",
+      "EllosEllasUstedes": "alcanzan"
+    },
+    "Pretérito": {
+      "Yo": "alcancé",
+      "Tu": "alcanzaste",
+      "ElEllaUsted": "alcanzó",
+      "Nosotros": "alcanzamos",
+      "Vosotros": "alcanzasteis",
+      "EllosEllasUstedes": "alcanzaron"
+    },
+    "Imperfect": {
+      "Yo": "alcanzaba",
+      "Tu": "alcanzabas",
+      "ElEllaUsted": "alcanzaba",
+      "Nosotros": "alcanzábamos",
+      "Vosotros": "alcanzabais",
+      "EllosEllasUstedes": "alcanzaban"
+    },
+    "Conditional": {
+      "Yo": "alcanzaría",
+      "Tu": "alcanzarías",
+      "ElEllaUsted": "alcanzaría",
+      "Nosotros": "alcanzaríamos",
+      "Vosotros": "alcanzaríais",
+      "EllosEllasUstedes": "alcanzarían"
+    },
+    "Future": {
+      "Yo": "alcanzaré",
+      "Tu": "alcanzarás",
+      "ElEllaUsted": "alcanzará",
+      "Nosotros": "alcanzaremos",
+      "Vosotros": "alcanzaréis",
+      "EllosEllasUstedes": "alcanzarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "alcanze",
+      "Tu": "alcanzes",
+      "ElEllaUsted": "alcanze",
+      "Nosotros": "alcanzemos",
+      "Vosotros": "alcanzéis",
+      "EllosEllasUstedes": "alcanzen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "alcanzara",
+      "Tu": "alcanzaras",
+      "ElEllaUsted": "alcanzara",
+      "Nosotros": "alcanzaramos",
+      "Vosotros": "alcanzarais",
+      "EllosEllasUstedes": "alcanzaran"
+    }
+  },
+  "Name": "alcanzar",
+  "EnglishMeaning": "to reach",
+  "PresentParticipleTranslation": "reaching",
+  "PastParticipleTranslation": "reached"
+}

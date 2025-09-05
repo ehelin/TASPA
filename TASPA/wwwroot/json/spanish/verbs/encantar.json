@@ -1,1 +1,66 @@
-{"PresentParticiple":"encantando","PastParticiple":"encantado","Indicative":{"PresentTense":{"Yo":"encanto","Tu":"encantas","ElEllaUsted":"encanta","Nosotros":"encantamos","Vosotros":"encantáis","EllosEllasUstedes":"encantan"},"Pretérito":{"Yo":"encanté","Tu":"encantaste","ElEllaUsted":"encantó","Nosotros":"encantamos","Vosotros":"encantasteis","EllosEllasUstedes":"encantaron"},"Imperfect":{"Yo":"encantaba","Tu":"encantabas","ElEllaUsted":"encantaba","Nosotros":"encantábamos","Vosotros":"encantabais","EllosEllasUstedes":"encantaban"},"Conditional":{"Yo":"encantaría","Tu":"encantarías","ElEllaUsted":"encantaría","Nosotros":"encantaríamos","Vosotros":"encantaríais","EllosEllasUstedes":"encantarían"},"Future":{"Yo":"encantaré","Tu":"encantarás","ElEllaUsted":"encantará","Nosotros":"encantaremos","Vosotros":"encantaréis","EllosEllasUstedes":"encantarán"}},"Subjunctive":null,"Name":"encantar","EnglishMeaning":"to love"}
+{
+  "PresentParticiple": "encantando",
+  "PastParticiple": "encantado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "encanto",
+      "Tu": "encantas",
+      "ElEllaUsted": "encanta",
+      "Nosotros": "encantamos",
+      "Vosotros": "encantáis",
+      "EllosEllasUstedes": "encantan"
+    },
+    "Pretérito": {
+      "Yo": "encanté",
+      "Tu": "encantaste",
+      "ElEllaUsted": "encantó",
+      "Nosotros": "encantamos",
+      "Vosotros": "encantasteis",
+      "EllosEllasUstedes": "encantaron"
+    },
+    "Imperfect": {
+      "Yo": "encantaba",
+      "Tu": "encantabas",
+      "ElEllaUsted": "encantaba",
+      "Nosotros": "encantábamos",
+      "Vosotros": "encantabais",
+      "EllosEllasUstedes": "encantaban"
+    },
+    "Conditional": {
+      "Yo": "encantaría",
+      "Tu": "encantarías",
+      "ElEllaUsted": "encantaría",
+      "Nosotros": "encantaríamos",
+      "Vosotros": "encantaríais",
+      "EllosEllasUstedes": "encantarían"
+    },
+    "Future": {
+      "Yo": "encantaré",
+      "Tu": "encantarás",
+      "ElEllaUsted": "encantará",
+      "Nosotros": "encantaremos",
+      "Vosotros": "encantaréis",
+      "EllosEllasUstedes": "encantarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "encante",
+      "Tu": "encantes",
+      "ElEllaUsted": "encante",
+      "Nosotros": "encantemos",
+      "Vosotros": "encantéis",
+      "EllosEllasUstedes": "encanten"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "encantara",
+      "Tu": "encantaras",
+      "ElEllaUsted": "encantara",
+      "Nosotros": "encantaramos",
+      "Vosotros": "encantarais",
+      "EllosEllasUstedes": "encantaran"
+    }
+  },
+  "Name": "encantar",
+  "EnglishMeaning": "to love"
+}

@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "trepando",
-    "PastParticiple": "trepado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "trepo",
-            "Tu": "trepas",
-            "ElEllaUsted": "trepa",
-            "Nosotros": "trepamos",
-            "Vosotros": "trepáis",
-            "EllosEllasUstedes": "trepan"
-        },
-        "Pretérito": {
-            "Yo": "trepé",
-            "Tu": "trepaste",
-            "ElEllaUsted": "trepó",
-            "Nosotros": "trepamos",
-            "Vosotros": "trepasteis",
-            "EllosEllasUstedes": "treparon"
-        },
-        "Imperfect": {
-            "Yo": "trepaba",
-            "Tu": "trepabas",
-            "ElEllaUsted": "trepaba",
-            "Nosotros": "trepábamos",
-            "Vosotros": "trepabais",
-            "EllosEllasUstedes": "trepaban"
-        },
-        "Conditional": {
-            "Yo": "treparía",
-            "Tu": "treparías",
-            "ElEllaUsted": "treparía",
-            "Nosotros": "treparíamos",
-            "Vosotros": "treparíais",
-            "EllosEllasUstedes": "treparían"
-        },
-        "Future": {
-            "Yo": "treparé",
-            "Tu": "treparás",
-            "ElEllaUsted": "trepará",
-            "Nosotros": "treparemos",
-            "Vosotros": "treparéis",
-            "EllosEllasUstedes": "treparán"
-        }
+  "PresentParticiple": "trepando",
+  "PastParticiple": "trepado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "trepo",
+      "Tu": "trepas",
+      "ElEllaUsted": "trepa",
+      "Nosotros": "trepamos",
+      "Vosotros": "trepáis",
+      "EllosEllasUstedes": "trepan"
     },
-    "Subjunctive": null,
-    "Name": "trepar",
-    "EnglishMeaning": "to climb"
+    "Pretérito": {
+      "Yo": "trepé",
+      "Tu": "trepaste",
+      "ElEllaUsted": "trepó",
+      "Nosotros": "trepamos",
+      "Vosotros": "trepasteis",
+      "EllosEllasUstedes": "treparon"
+    },
+    "Imperfect": {
+      "Yo": "trepaba",
+      "Tu": "trepabas",
+      "ElEllaUsted": "trepaba",
+      "Nosotros": "trepábamos",
+      "Vosotros": "trepabais",
+      "EllosEllasUstedes": "trepaban"
+    },
+    "Conditional": {
+      "Yo": "treparía",
+      "Tu": "treparías",
+      "ElEllaUsted": "treparía",
+      "Nosotros": "treparíamos",
+      "Vosotros": "treparíais",
+      "EllosEllasUstedes": "treparían"
+    },
+    "Future": {
+      "Yo": "treparé",
+      "Tu": "treparás",
+      "ElEllaUsted": "trepará",
+      "Nosotros": "treparemos",
+      "Vosotros": "treparéis",
+      "EllosEllasUstedes": "treparán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "trepe",
+      "Tu": "trepes",
+      "ElEllaUsted": "trepe",
+      "Nosotros": "trepemos",
+      "Vosotros": "trepéis",
+      "EllosEllasUstedes": "trepen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "trepara",
+      "Tu": "treparas",
+      "ElEllaUsted": "trepara",
+      "Nosotros": "treparamos",
+      "Vosotros": "treparais",
+      "EllosEllasUstedes": "treparan"
+    }
+  },
+  "Name": "trepar",
+  "EnglishMeaning": "to climb"
 }

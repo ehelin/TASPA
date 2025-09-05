@@ -43,7 +43,24 @@
       "EllosEllasUstedes": "pretenderán"
     }
   },
-  "Subjunctive": null,
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "pretenda",
+      "Tu": "pretendas",
+      "ElEllaUsted": "pretenda",
+      "Nosotros": "pretendamos",
+      "Vosotros": "pretendáis",
+      "EllosEllasUstedes": "pretendan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "pretendiea",
+      "Tu": "pretendieas",
+      "ElEllaUsted": "pretendiea",
+      "Nosotros": "pretendieamos",
+      "Vosotros": "pretendieais",
+      "EllosEllasUstedes": "pretendiean"
+    }
+  },
   "Name": "pretender",
   "EnglishMeaning": "to pretend"
 }

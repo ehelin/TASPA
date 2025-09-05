@@ -1,1 +1,68 @@
-{"PresentParticiple":"mordiendo&translation=biting","PastParticiple":"mordido&translation=bitten","Indicative":{"PresentTense":{"Yo":"muerdo","Tu":"muerdes","ElEllaUsted":"muerde","Nosotros":"mordemos","Vosotros":"mordéis","EllosEllasUstedes":"muerden"},"Pretérito":{"Yo":"mordí","Tu":"mordiste","ElEllaUsted":"mordió","Nosotros":"mordimos","Vosotros":"mordisteis","EllosEllasUstedes":"mordieron"},"Imperfect":{"Yo":"mordía","Tu":"mordías","ElEllaUsted":"mordía","Nosotros":"mordíamos","Vosotros":"mordíais","EllosEllasUstedes":"mordían"},"Conditional":{"Yo":"mordería","Tu":"morderías","ElEllaUsted":"mordería","Nosotros":"morderíamos","Vosotros":"morderíais","EllosEllasUstedes":"morderían"},"Future":{"Yo":"morderé","Tu":"morderás","ElEllaUsted":"morderá","Nosotros":"morderemos","Vosotros":"morderéis","EllosEllasUstedes":"morderán"}},"Subjunctive":null,"Name":"morder","EnglishMeaning":"to bite"}
+{
+  "PresentParticiple": "mordiendo",
+  "PastParticiple": "mordido",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "muerdo",
+      "Tu": "muerdes",
+      "ElEllaUsted": "muerde",
+      "Nosotros": "mordemos",
+      "Vosotros": "mordéis",
+      "EllosEllasUstedes": "muerden"
+    },
+    "Pretérito": {
+      "Yo": "mordí",
+      "Tu": "mordiste",
+      "ElEllaUsted": "mordió",
+      "Nosotros": "mordimos",
+      "Vosotros": "mordisteis",
+      "EllosEllasUstedes": "mordieron"
+    },
+    "Imperfect": {
+      "Yo": "mordía",
+      "Tu": "mordías",
+      "ElEllaUsted": "mordía",
+      "Nosotros": "mordíamos",
+      "Vosotros": "mordíais",
+      "EllosEllasUstedes": "mordían"
+    },
+    "Conditional": {
+      "Yo": "mordería",
+      "Tu": "morderías",
+      "ElEllaUsted": "mordería",
+      "Nosotros": "morderíamos",
+      "Vosotros": "morderíais",
+      "EllosEllasUstedes": "morderían"
+    },
+    "Future": {
+      "Yo": "morderé",
+      "Tu": "morderás",
+      "ElEllaUsted": "morderá",
+      "Nosotros": "morderemos",
+      "Vosotros": "morderéis",
+      "EllosEllasUstedes": "morderán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "muerda",
+      "Tu": "muerdas",
+      "ElEllaUsted": "muerda",
+      "Nosotros": "muerdamos",
+      "Vosotros": "muerdáis",
+      "EllosEllasUstedes": "muerdan"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "mordiea",
+      "Tu": "mordieas",
+      "ElEllaUsted": "mordiea",
+      "Nosotros": "mordieamos",
+      "Vosotros": "mordieais",
+      "EllosEllasUstedes": "mordiean"
+    }
+  },
+  "Name": "morder",
+  "EnglishMeaning": "to bite",
+  "PresentParticipleTranslation": "biting",
+  "PastParticipleTranslation": "bitten"
+}

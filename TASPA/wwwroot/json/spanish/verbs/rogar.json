@@ -1,49 +1,66 @@
 {
-    "PresentParticiple": "rogando",
-    "PastParticiple": "rogado",
-    "Indicative": {
-        "PresentTense": {
-            "Yo": "rogo",
-            "Tu": "rogas",
-            "ElEllaUsted": "roga",
-            "Nosotros": "rogamos",
-            "Vosotros": "rogáis",
-            "EllosEllasUstedes": "rogan"
-        },
-        "Pretérito": {
-            "Yo": "rogé",
-            "Tu": "rogaste",
-            "ElEllaUsted": "rogó",
-            "Nosotros": "rogamos",
-            "Vosotros": "rogasteis",
-            "EllosEllasUstedes": "rogaron"
-        },
-        "Imperfect": {
-            "Yo": "rogaba",
-            "Tu": "rogabas",
-            "ElEllaUsted": "rogaba",
-            "Nosotros": "rogábamos",
-            "Vosotros": "rogabais",
-            "EllosEllasUstedes": "rogaban"
-        },
-        "Conditional": {
-            "Yo": "rogaría",
-            "Tu": "rogarías",
-            "ElEllaUsted": "rogaría",
-            "Nosotros": "rogaríamos",
-            "Vosotros": "rogaríais",
-            "EllosEllasUstedes": "rogarían"
-        },
-        "Future": {
-            "Yo": "rogaré",
-            "Tu": "rogarás",
-            "ElEllaUsted": "rogará",
-            "Nosotros": "rogaremos",
-            "Vosotros": "rogaréis",
-            "EllosEllasUstedes": "rogarán"
-        }
+  "PresentParticiple": "rogando",
+  "PastParticiple": "rogado",
+  "Indicative": {
+    "PresentTense": {
+      "Yo": "rogo",
+      "Tu": "rogas",
+      "ElEllaUsted": "roga",
+      "Nosotros": "rogamos",
+      "Vosotros": "rogáis",
+      "EllosEllasUstedes": "rogan"
     },
-    "Subjunctive": null,
-    "Name": "rogar",
-    "EnglishMeaning": "to beg"
+    "Pretérito": {
+      "Yo": "rogé",
+      "Tu": "rogaste",
+      "ElEllaUsted": "rogó",
+      "Nosotros": "rogamos",
+      "Vosotros": "rogasteis",
+      "EllosEllasUstedes": "rogaron"
+    },
+    "Imperfect": {
+      "Yo": "rogaba",
+      "Tu": "rogabas",
+      "ElEllaUsted": "rogaba",
+      "Nosotros": "rogábamos",
+      "Vosotros": "rogabais",
+      "EllosEllasUstedes": "rogaban"
+    },
+    "Conditional": {
+      "Yo": "rogaría",
+      "Tu": "rogarías",
+      "ElEllaUsted": "rogaría",
+      "Nosotros": "rogaríamos",
+      "Vosotros": "rogaríais",
+      "EllosEllasUstedes": "rogarían"
+    },
+    "Future": {
+      "Yo": "rogaré",
+      "Tu": "rogarás",
+      "ElEllaUsted": "rogará",
+      "Nosotros": "rogaremos",
+      "Vosotros": "rogaréis",
+      "EllosEllasUstedes": "rogarán"
+    }
+  },
+  "Subjunctive": {
+    "PresentSubjunctive": {
+      "Yo": "roge",
+      "Tu": "roges",
+      "ElEllaUsted": "roge",
+      "Nosotros": "rogemos",
+      "Vosotros": "rogéis",
+      "EllosEllasUstedes": "rogen"
+    },
+    "ImperfectSubjunctive": {
+      "Yo": "rogara",
+      "Tu": "rogaras",
+      "ElEllaUsted": "rogara",
+      "Nosotros": "rogaramos",
+      "Vosotros": "rogarais",
+      "EllosEllasUstedes": "rogaran"
+    }
+  },
+  "Name": "rogar",
+  "EnglishMeaning": "to beg"
 }
